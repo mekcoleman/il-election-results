@@ -1,8 +1,9 @@
 {
   "aggregated_at": "2026-02-26T20:13:48.414698",
-  "num_counties": 1,
+  "num_counties": 2,
   "counties_included": [
-    "DuPage"
+    "DuPage",
+    "Kane"
   ],
   "statewide_races": {},
   "multi_county_races": {
@@ -49,6 +50,44 @@
               "DuPage",
               "Cook",
               "Will"
+            ]
+          }
+        }
+      },
+      "kcc_kane": {
+        "race_id": "kcc_kane",
+        "market": "KCC",
+        "label": "Regional Superintendent of Schools",
+        "counties_needed": [
+          "Kane",
+          "McHenry",
+          "DeKalb",
+          "Cook",
+          "DuPage"
+        ],
+        "counties_found": [
+          "Kane",
+          "McHenry",
+          "DeKalb",
+          "Cook",
+          "DuPage"
+        ],
+        "counties_missing": [],
+        "complete": true,
+        "precincts_reporting": 891,
+        "total_precincts": 891,
+        "candidates": {
+          "John K. Jonak": {
+            "name": "John K. Jonak",
+            "votes": 52341,
+            "percentage": 100.0,
+            "party": "Republican",
+            "counties": [
+              "Kane",
+              "McHenry",
+              "DeKalb",
+              "Cook",
+              "DuPage"
             ]
           }
         }
@@ -502,6 +541,220 @@
               "name": "No",
               "votes": 3512,
               "percentage": 55.3
+            }
+          ]
+        }
+      ]
+    },
+    "Kane": {
+      "county": "Kane",
+      "election_date": "2026-03-17",
+      "scraped_at": "2026-02-26T23:07:10.213072",
+      "source": "Kane County Election Commission",
+      "contests": [
+        {
+          "contest_name": "Kane County Clerk \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 287,
+          "total_precincts": 287,
+          "candidates": [
+            {
+              "name": "Brian Pollock",
+              "votes": 8432,
+              "percentage": 54.1
+            },
+            {
+              "name": "Brenda Rodgers",
+              "votes": 7154,
+              "percentage": 45.9
+            }
+          ]
+        },
+        {
+          "contest_name": "Kane County Clerk \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 287,
+          "total_precincts": 287,
+          "candidates": [
+            {
+              "name": "John A. Cunningham",
+              "votes": 19823,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Kane County Sheriff \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 287,
+          "total_precincts": 287,
+          "candidates": [
+            {
+              "name": "Salvador Rodriguez",
+              "votes": 9103,
+              "percentage": 58.3
+            },
+            {
+              "name": "Amy Johnson",
+              "votes": 6512,
+              "percentage": 41.7
+            }
+          ]
+        },
+        {
+          "contest_name": "Kane County Sheriff \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 287,
+          "total_precincts": 287,
+          "candidates": [
+            {
+              "name": "Rob Russell",
+              "votes": 11204,
+              "percentage": 56.8
+            },
+            {
+              "name": "Luis Lou Santoyo",
+              "votes": 8521,
+              "percentage": 43.2
+            }
+          ]
+        },
+        {
+          "contest_name": "Kane County Treasurer \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 287,
+          "total_precincts": 287,
+          "candidates": [
+            {
+              "name": "Penny Wegman",
+              "votes": 5832,
+              "percentage": 37.4
+            },
+            {
+              "name": "Connie Cain",
+              "votes": 5241,
+              "percentage": 33.6
+            },
+            {
+              "name": "Scott Johansen",
+              "votes": 4523,
+              "percentage": 29.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Kane County Treasurer \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 287,
+          "total_precincts": 287,
+          "candidates": [
+            {
+              "name": "Chris Lauzen",
+              "votes": 21045,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Kane County Board District 9 \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 18,
+          "total_precincts": 18,
+          "candidates": [
+            {
+              "name": "Jeffrey R. Magnussen",
+              "votes": 1832,
+              "percentage": 54.3
+            },
+            {
+              "name": "Jennifer Abbatacola",
+              "votes": 1541,
+              "percentage": 45.7
+            }
+          ]
+        },
+        {
+          "contest_name": "Kane County Board District 9 \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 18,
+          "total_precincts": 18,
+          "candidates": [
+            {
+              "name": "Marc A. Guttke",
+              "votes": 1203,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Kane County Board District 13 \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 21,
+          "total_precincts": 21,
+          "candidates": [
+            {
+              "name": "Nicolas G. Nico Jimenez",
+              "votes": 1421,
+              "percentage": 52.8
+            },
+            {
+              "name": "Michael Linder",
+              "votes": 1271,
+              "percentage": 47.2
+            }
+          ]
+        },
+        {
+          "contest_name": "Kane County Board District 13 \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 21,
+          "total_precincts": 21,
+          "candidates": [
+            {
+              "name": "Ryan Deniz",
+              "votes": 1893,
+              "percentage": 57.1
+            },
+            {
+              "name": "Anthony Louis Catella",
+              "votes": 1423,
+              "percentage": 42.9
+            }
+          ]
+        },
+        {
+          "contest_name": "City of Geneva Police Station Bond Issue",
+          "party": "Non-Partisan",
+          "precincts_reporting": 12,
+          "total_precincts": 12,
+          "candidates": [
+            {
+              "name": "Yes",
+              "votes": 3842,
+              "percentage": 64.7
+            },
+            {
+              "name": "No",
+              "votes": 2103,
+              "percentage": 35.3
+            }
+          ]
+        },
+        {
+          "contest_name": "City of Elgin Advisory College Park Walking Paths",
+          "party": "Non-Partisan",
+          "precincts_reporting": 8,
+          "total_precincts": 8,
+          "candidates": [
+            {
+              "name": "Yes",
+              "votes": 2341,
+              "percentage": 71.2
+            },
+            {
+              "name": "No",
+              "votes": 947,
+              "percentage": 28.8
             }
           ]
         }
