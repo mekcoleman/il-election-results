@@ -53,6 +53,128 @@
           }
         }
       }
+    },
+    "cross_county_referendums": {
+      "hinckley_fire": {
+        "ref_id": "hinckley_fire",
+        "label": "Hinckley Fire Protection District \u2013 Tax Rate Increase",
+        "markets": [
+          "DDC",
+          "KCC"
+        ],
+        "counties_needed": [
+          "DeKalb",
+          "Kane"
+        ],
+        "counties_found": [
+          "DeKalb",
+          "Kane"
+        ],
+        "counties_missing": [],
+        "complete": true,
+        "precincts_reporting": 12,
+        "total_precincts": 12,
+        "candidates": {
+          "Yes": {
+            "name": "Yes",
+            "votes": 1843,
+            "percentage": 58.3,
+            "counties": [
+              "DeKalb",
+              "Kane"
+            ]
+          },
+          "No": {
+            "name": "No",
+            "votes": 1318,
+            "percentage": 41.7,
+            "counties": [
+              "DeKalb",
+              "Kane"
+            ]
+          }
+        }
+      },
+      "yorkville_school": {
+        "ref_id": "yorkville_school",
+        "label": "Yorkville School District 115 \u2013 $275.1M Bond Issue",
+        "markets": [
+          "KCC",
+          "KCN"
+        ],
+        "counties_needed": [
+          "Kane",
+          "Kendall"
+        ],
+        "counties_found": [
+          "Kane",
+          "Kendall"
+        ],
+        "counties_missing": [],
+        "complete": true,
+        "precincts_reporting": 28,
+        "total_precincts": 28,
+        "candidates": {
+          "Yes": {
+            "name": "Yes",
+            "votes": 5621,
+            "percentage": 52.1,
+            "counties": [
+              "Kane",
+              "Kendall"
+            ]
+          },
+          "No": {
+            "name": "No",
+            "votes": 5172,
+            "percentage": 47.9,
+            "counties": [
+              "Kane",
+              "Kendall"
+            ]
+          }
+        }
+      },
+      "naperville_park_bonds": {
+        "ref_id": "naperville_park_bonds",
+        "label": "Naperville Park District \u2013 $120M Park Bonds",
+        "markets": [
+          "SLM",
+          "JHN"
+        ],
+        "counties_needed": [
+          "DuPage",
+          "Will"
+        ],
+        "counties_found": [
+          "DuPage",
+          "Will"
+        ],
+        "counties_missing": [],
+        "complete": true,
+        "precincts_reporting": 67,
+        "total_precincts": 67,
+        "candidates": {
+          "Yes": {
+            "name": "Yes",
+            "votes": 8934,
+            "percentage": 54.1,
+            "counties": [
+              "DuPage",
+              "Will"
+            ]
+          },
+          "No": {
+            "name": "No",
+            "votes": 7581,
+            "percentage": 45.9,
+            "counties": [
+              "DuPage",
+              "Will"
+            ]
+          }
+        }
+      }
     }
   },
   "county_results": {

@@ -164,7 +164,7 @@
     "Ogle": {
       "platform": "pollresults",
       "base_url": "https://il-ogle.pollresults.net",
-      "status": "needs_custom_scraper",
+      "status": "ready_with_pollresults_scraper",
       "notes": "Uses pollresults.net (Liberty Systems/CSE Software). Also has Integra console: ogle.il.electionconsole.com"
     },
     "Peoria": {
@@ -194,19 +194,13 @@
     "Winnebago": {
       "platform": "dual_authority_both_clarity",
       "county_clerk_url": "https://results.enr.clarityelections.com/WRC/Winnebago",
-      "county_clerk_platform": "clarity",
       "rockford_url": "https://results.enr.clarityelections.com/WRC/Rockford",
-      "rockford_platform": "clarity",
-      "election_id": "UPDATE_ON_ELECTION_DAY",
-      "web_id": "UPDATE_ON_ELECTION_DAY",
-      "status": "configured_dual_clarity",
-      "notes": "TWO separate election authorities, BOTH use Clarity Elections. County Clerk handles county except Rockford. Rockford Board of Elections handles city only. Both use WRC path. Will need to scrape both URLs for complete county results."
-    },
-    "Woodford": {
-      "platform": "custom_web",
-      "base_url": "https://woodfordcountyelections.com",
-      "status": "needs_custom_scraper",
-      "notes": "Custom web-based election results system."
+      "county_clerk_election_id": "UPDATE_ON_ELECTION_DAY",
+      "county_clerk_web_id": "UPDATE_ON_ELECTION_DAY",
+      "rockford_election_id": "UPDATE_ON_ELECTION_DAY",
+      "rockford_web_id": "UPDATE_ON_ELECTION_DAY",
+      "status": "needs_election_day_ids",
+      "notes": "TWO separate authorities both on Clarity. County Clerk handles all except City of Rockford. Rockford Board of Elections handles city only. Update all four IDs on election day."
     },
     "Carroll": {
       "platform": "pollresults",
@@ -258,6 +252,17 @@
       "base_url": "https://il-whiteside.pollresults.net",
       "status": "needs_custom_scraper",
       "notes": "Uses pollresults.net (Liberty Systems/CSE Software). Shared with Lee, Ogle, and Carroll counties."
+    },
+    "Marshall": {
+      "platform": "unknown_needs_verification",
+      "county_website": "https://www.marshallcountyil.gov",
+      "status": "needs_election_day_url",
+      "notes": "Platform unconfirmed. Visit marshallcountyil.gov on election day, find results link, pass to marshall_county_scraper.py --url"
+    },
+    "Woodford": {
+      "platform": "excluded",
+      "status": "not_applicable",
+      "notes": "Woodford County ballot does not include any Shaw Local market races. Confirmed by county clerk. Excluded from all scraping and aggregation."
     }
   },
   "scraping": {

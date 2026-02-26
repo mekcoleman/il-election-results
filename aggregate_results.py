@@ -168,6 +168,7 @@ class MultiCountyAggregator:
                 "state_senate": self._aggregate_state_senate(county_results),
                 "state_house": self._aggregate_state_house(county_results),
                 "regional_superintendents": self._aggregate_superintendents(county_results),
+                "cross_county_referendums": self._aggregate_cross_county_referendums(county_results),
             },
             "county_results": county_results
         }
@@ -543,6 +544,117 @@ class MultiCountyAggregator:
             results[race_id] = merged
             status = "✅ Complete" if merged["complete"] else f"⚠️  Partial ({len(counties_found)}/{len(race_counties)} counties)"
             print(f"  Regional Superintendent [{market}]: {status}")
+
+        return results
+
+    def _aggregate_cross_county_referendums(self, county_results: Dict) -> Dict:
+        """
+        Aggregate Yes/No referendums that pull votes from multiple counties.
+        Each referendum is defined by a canonical name and the list of counties
+        that vote on it. Results are summed across all available counties.
+        """
+        CROSS_COUNTY_REFS = {
+            "naperville_park_bonds": {
+                "label": "Naperville Park District \u2013 $120M Park Bonds",
+                "markets": ["SLM", "JHN"],
+                "counties": ["DuPage", "Will"],
+                "match": re.compile(r"naperville park.*bond|naperville.*120", re.I),
+            },
+            "school_district_45": {
+                "label": "School District 45 \u2013 Proposition to Increase Limiting Rate",
+                "markets": ["SLM"],
+                "counties": ["DuPage", "Cook"],
+                "match": re.compile(r"school district 45|district 45.*limiting", re.I),
+            },
+            "hinckley_fire": {
+                "label": "Hinckley Fire Protection District \u2013 Tax Rate Increase",
+                "markets": ["DDC", "KCC"],
+                "counties": ["DeKalb", "Kane"],
+                "match": re.compile(r"hinckley fire", re.I),
+            },
+            "lamoille_school": {
+                "label": "LaMoille School District 303 \u2013 Non-Binding Question to Deactivate High School",
+                "markets": ["SVM", "ILV"],
+                "counties": ["Lee", "Bureau"],
+                "match": re.compile(r"lamoille|la moille", re.I),
+            },
+            "pearl_city_school": {
+                "label": "Pearl City School District No. 200 \u2013 Proposition to Increase Limiting Rate",
+                "markets": ["SVM"],
+                "counties": ["Carroll", "Jo Daviess", "Stephenson"],
+                "match": re.compile(r"pearl city", re.I),
+            },
+            "tiskilwa_fire": {
+                "label": "Tiskilwa Rural Fire Protection District \u2013 Special Tax Levy",
+                "markets": ["ILV"],
+                "counties": ["Bureau", "Putnam"],
+                "match": re.compile(r"tiskilwa", re.I),
+            },
+            "yorkville_school": {
+                "label": "Yorkville School District 115 \u2013 $275.1M Bond Issue",
+                "markets": ["KCC", "KCN"],
+                "counties": ["Kane", "Kendall"],
+                "match": re.compile(r"yorkville.*school|yorkville.*bond|yorkville.*275", re.I),
+            },
+            "fox_lake_fire": {
+                "label": "Fox Lake Fire Protection District \u2013 Pension Fund Tax Rate",
+                "markets": ["NWH"],
+                "counties": ["McHenry", "Lake"],
+                "match": re.compile(r"fox lake fire", re.I),
+            },
+        }
+
+        results = {}
+
+        for ref_id, ref_def in CROSS_COUNTY_REFS.items():
+            ref_counties     = ref_def["counties"]
+            label            = ref_def["label"]
+            match_pattern    = ref_def["match"]
+
+            appearances      = []
+            counties_found   = []
+            counties_missing = []
+
+            for county in ref_counties:
+                if county not in county_results:
+                    counties_missing.append(county)
+                    continue
+
+                all_contests = self._flatten_contests(county_results[county])
+                for contest in all_contests:
+                    cname = contest.get("contest_name") or contest.get("name") or ""
+                    if match_pattern.search(cname):
+                        appearances.append({"county": county, "contest": contest})
+                        counties_found.append(county)
+                        break
+
+            if not appearances:
+                results[ref_id] = {
+                    "ref_id": ref_id,
+                    "label": label,
+                    "markets": ref_def["markets"],
+                    "counties_needed": ref_counties,
+                    "counties_found": [],
+                    "counties_missing": ref_counties,
+                    "complete": False,
+                    "candidates": {},
+                    "precincts_reporting": 0,
+                    "total_precincts": 0,
+                }
+                continue
+
+            merged = self._merge_contests(appearances)
+            merged["ref_id"]           = ref_id
+            merged["label"]            = label
+            merged["markets"]          = ref_def["markets"]
+            merged["counties_needed"]  = ref_counties
+            merged["counties_found"]   = counties_found
+            merged["counties_missing"] = counties_missing
+            merged["complete"]         = (len(counties_missing) == 0)
+
+            results[ref_id] = merged
+            status = "✅ Complete" if merged["complete"] else f"⚠️  Partial ({len(counties_found)}/{len(ref_counties)} counties)"
+            print(f"  Cross-county referendum [{', '.join(ref_def['markets'])}] {label[:40]}...: {status}")
 
         return results
 
