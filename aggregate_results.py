@@ -166,7 +166,8 @@ class MultiCountyAggregator:
             "multi_county_races": {
                 "congress": self._aggregate_congress(county_results),
                 "state_senate": self._aggregate_state_senate(county_results),
-                "state_house": self._aggregate_state_house(county_results)
+                "state_house": self._aggregate_state_house(county_results),
+                "regional_superintendents": self._aggregate_superintendents(county_results),
             },
             "county_results": county_results
         }
@@ -398,6 +399,167 @@ class MultiCountyAggregator:
         name = ' '.join(name.upper().split())
         
         return name
+
+    def _aggregate_superintendents(self, county_results: Dict) -> Dict:
+        """
+        Aggregate Regional Superintendent of Schools races across all relevant counties.
+
+        Each superintendent race covers a specific set of counties. We search all
+        available county result files for contests matching 'regional superintendent'
+        and group them by the canonical race name, summing votes across counties.
+
+        Returns a dict keyed by race_id with aggregated results and coverage metadata.
+        """
+        # Define each superintendent race: race_id → {counties, match_pattern, market}
+        SUPT_RACES = {
+            "ddc_dekalb": {
+                "market": "DDC",
+                "label": "Regional Superintendent of Schools",
+                "counties": ["DeKalb", "Boone", "Winnebago", "Ogle", "Kendall",
+                             "La Salle", "Lee", "Kane"],
+                "match": re.compile(r"regional superintendent", re.I),
+            },
+            "slm_dupage": {
+                "market": "SLM",
+                "label": "Regional Superintendent of Schools",
+                "counties": ["DuPage", "Cook", "Will"],
+                "match": re.compile(r"regional superintendent", re.I),
+            },
+            "kdj_kankakee": {
+                "market": "KDJ",
+                "label": "Regional Superintendent of Schools — Iroquois & Kankakee",
+                "counties": ["Iroquois", "Kankakee", "Will", "Grundy", "Ford", "Livingston"],
+                "match": re.compile(r"regional superintendent", re.I),
+            },
+            "svm_lee_ogle_whiteside": {
+                "market": "SVM",
+                "label": "Regional Superintendent of Schools — Lee, Ogle & Whiteside",
+                "counties": ["Lee", "Ogle", "Whiteside", "Winnebago", "Stephenson",
+                             "DeKalb", "Rock Island", "Henry", "Bureau"],
+                "match": re.compile(r"regional superintendent", re.I),
+            },
+            "svm_carroll_jodaviess_stephenson": {
+                "market": "SVM",
+                "label": "Regional Superintendent of Schools — Carroll, Jo Daviess & Stephenson",
+                "counties": ["Carroll", "Jo Daviess", "Stephenson", "Ogle", "Whiteside"],
+                "match": re.compile(r"regional superintendent", re.I),
+            },
+            "mhn_grundy_kendall": {
+                "market": "MHN/KCN",
+                "label": "Regional Superintendent of Schools — Grundy & Kendall",
+                "counties": ["Grundy", "Kendall", "Will", "Kane"],
+                "match": re.compile(r"regional superintendent.*grundy|grundy.*superintendent", re.I),
+            },
+            "kcc_kane": {
+                "market": "KCC",
+                "label": "Regional Superintendent of Schools",
+                "counties": ["Kane", "McHenry", "DeKalb", "Cook", "DuPage"],
+                "match": re.compile(r"regional superintendent", re.I),
+            },
+            "nwh_mchenry": {
+                "market": "NWH",
+                "label": "Regional Superintendent of Schools",
+                "counties": ["McHenry", "Boone", "Kane"],
+                "match": re.compile(r"regional superintendent", re.I),
+            },
+            "jhn_will": {
+                "market": "JHN",
+                "label": "Regional Superintendent of Schools",
+                "counties": ["Will", "Kendall", "Kankakee"],
+                "match": re.compile(r"regional superintendent", re.I),
+            },
+            "ilv_lasalle_marshall_putnam": {
+                "market": "ILV",
+                "label": "Regional Superintendent of Schools — La Salle, Marshall & Putnam",
+                "counties": ["La Salle", "Marshall", "Putnam", "DeKalb", "Lee", "Bureau"],
+                "match": re.compile(r"regional superintendent.*la.?salle|la.?salle.*superintendent|regional superintendent.*putnam|putnam.*superintendent", re.I),
+            },
+            "ilv_bureau_henry_stark": {
+                "market": "ILV",
+                "label": "Regional Superintendent of Schools — Bureau, Henry & Stark",
+                "counties": ["Bureau", "Henry", "Stark", "Lee", "Whiteside",
+                             "Rock Island", "Marshall"],
+                "match": re.compile(r"regional superintendent.*bureau|bureau.*superintendent|regional superintendent.*henry|henry.*superintendent", re.I),
+            },
+        }
+
+        results = {}
+
+        for race_id, race_def in SUPT_RACES.items():
+            race_counties = race_def["counties"]
+            market        = race_def["market"]
+            label         = race_def["label"]
+            match_pattern = race_def["match"]
+
+            # Collect all matching contests from relevant counties
+            appearances = []
+            counties_found    = []
+            counties_missing  = []
+
+            for county in race_counties:
+                if county not in county_results:
+                    counties_missing.append(county)
+                    continue
+
+                # Search this county's contests for a superintendent match
+                county_data = county_results[county]
+                all_contests = self._flatten_contests(county_data)
+
+                for contest in all_contests:
+                    cname = contest.get("contest_name") or contest.get("name") or ""
+                    if match_pattern.search(cname):
+                        appearances.append({
+                            "county": county,
+                            "contest": contest,
+                        })
+                        counties_found.append(county)
+                        break  # Only take first match per county
+
+            if not appearances:
+                results[race_id] = {
+                    "race_id":         race_id,
+                    "market":          market,
+                    "label":           label,
+                    "counties_needed": race_counties,
+                    "counties_found":  [],
+                    "counties_missing": race_counties,
+                    "complete":        False,
+                    "candidates":      {},
+                    "precincts_reporting": 0,
+                    "total_precincts":     0,
+                }
+                continue
+
+            # Merge votes across counties
+            merged = self._merge_contests(appearances)
+            merged["race_id"]          = race_id
+            merged["market"]           = market
+            merged["label"]            = label
+            merged["counties_needed"]  = race_counties
+            merged["counties_found"]   = counties_found
+            merged["counties_missing"] = counties_missing
+            merged["complete"]         = (len(counties_missing) == 0)
+
+            results[race_id] = merged
+            status = "✅ Complete" if merged["complete"] else f"⚠️  Partial ({len(counties_found)}/{len(race_counties)} counties)"
+            print(f"  Regional Superintendent [{market}]: {status}")
+
+        return results
+
+    def _flatten_contests(self, county_data: Dict) -> List[Dict]:
+        """Extract all contests from any county data shape."""
+        # Shape 1: by_party
+        if "by_party" in county_data:
+            return [c for bucket in county_data["by_party"].values()
+                    for c in bucket.get("contests", [])]
+        # Shape 2: contests_by_party
+        if "contests_by_party" in county_data:
+            return [c for bucket in county_data["contests_by_party"].values()
+                    for c in bucket.get("contests", [])]
+        # Shape 3: flat contests list
+        if "contests" in county_data:
+            return county_data["contests"]
+        return []
 
 
 def git_push(output_file: str, results_dir: str, repo_dir: str = None) -> bool:

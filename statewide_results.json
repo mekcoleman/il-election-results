@@ -1,0 +1,389 @@
+{
+  "aggregated_at": "2026-02-26T20:13:48.414698",
+  "num_counties": 1,
+  "counties_included": [
+    "DuPage"
+  ],
+  "statewide_races": {},
+  "multi_county_races": {
+    "congress": {},
+    "state_senate": {},
+    "state_house": {},
+    "regional_superintendents": {
+      "slm_dupage": {
+        "race_id": "slm_dupage",
+        "market": "SLM",
+        "label": "Regional Superintendent of Schools",
+        "counties_needed": [
+          "DuPage",
+          "Cook",
+          "Will"
+        ],
+        "counties_found": [
+          "DuPage",
+          "Cook",
+          "Will"
+        ],
+        "counties_missing": [],
+        "complete": true,
+        "precincts_reporting": 689,
+        "total_precincts": 689,
+        "candidates": {
+          "Rebecca Gamboa": {
+            "name": "Rebecca Gamboa",
+            "votes": 31204,
+            "percentage": 100.0,
+            "party": "Democratic",
+            "counties": [
+              "DuPage",
+              "Cook",
+              "Will"
+            ]
+          },
+          "Amber M. Quirk": {
+            "name": "Amber M. Quirk",
+            "votes": 38917,
+            "percentage": 100.0,
+            "party": "Republican",
+            "counties": [
+              "DuPage",
+              "Cook",
+              "Will"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "county_results": {
+    "DuPage": {
+      "county": "DuPage",
+      "election_date": "2026-03-17",
+      "scraped_at": "2026-02-26T20:13:48.414664",
+      "source": "DuPage County Election Commission (Scytl)",
+      "contests": [
+        {
+          "contest_name": "DuPage County Forest Preserve President \u2013 Democratic Primary",
+          "name": "DuPage County Forest Preserve President \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 312,
+          "total_precincts": 312,
+          "candidates": [
+            {
+              "name": "Daniel Hebreard",
+              "votes": 18432,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "DuPage County Forest Preserve President \u2013 Republican Primary",
+          "name": "DuPage County Forest Preserve President \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 312,
+          "total_precincts": 312,
+          "candidates": [
+            {
+              "name": "Carl Schultz",
+              "votes": 21045,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "DuPage County Forest Preserve District 1 \u2013 Democratic Primary",
+          "name": "DuPage County Forest Preserve District 1 \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 38,
+          "total_precincts": 38,
+          "candidates": [
+            {
+              "name": "Quinn F. Fulmer",
+              "votes": 1243,
+              "percentage": 44.2
+            },
+            {
+              "name": "Susan M. Smentek",
+              "votes": 1569,
+              "percentage": 55.8
+            }
+          ]
+        },
+        {
+          "contest_name": "DuPage County Forest Preserve District 1 \u2013 Republican Primary",
+          "name": "DuPage County Forest Preserve District 1 \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 38,
+          "total_precincts": 38,
+          "candidates": [
+            {
+              "name": "Carolyn Ubriaco",
+              "votes": 2108,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "DuPage County Forest Preserve District 2 \u2013 Democratic Primary",
+          "name": "DuPage County Forest Preserve District 2 \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 41,
+          "total_precincts": 41,
+          "candidates": [
+            {
+              "name": "Tina Tyson-Dunne",
+              "votes": 987,
+              "percentage": 34.1
+            },
+            {
+              "name": "Jacalynn \"Jax\" West",
+              "votes": 1102,
+              "percentage": 38.1
+            },
+            {
+              "name": "Dana Moreau",
+              "votes": 805,
+              "percentage": 27.8
+            }
+          ]
+        },
+        {
+          "contest_name": "DuPage County Forest Preserve District 2 \u2013 Republican Primary",
+          "name": "DuPage County Forest Preserve District 2 \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 41,
+          "total_precincts": 41,
+          "candidates": [
+            {
+              "name": "William \"Bill\" Wehrle",
+              "votes": 2341,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "DuPage County Forest Preserve District 5 \u2013 Democratic Primary",
+          "name": "DuPage County Forest Preserve District 5 \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 29,
+          "total_precincts": 29,
+          "candidates": [
+            {
+              "name": "Barbara A. O'Meara",
+              "votes": 1876,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "DuPage County Forest Preserve District 5 \u2013 Republican Primary",
+          "name": "DuPage County Forest Preserve District 5 \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 29,
+          "total_precincts": 29,
+          "candidates": [
+            {
+              "name": "Michael Farmer",
+              "votes": 2203,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "3rd Appellate District \u2013 Democratic Primary",
+          "name": "3rd Appellate District \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 312,
+          "total_precincts": 312,
+          "candidates": [
+            {
+              "name": "John Pavich",
+              "votes": 11203,
+              "percentage": 53.7
+            },
+            {
+              "name": "Margaret \"Peggy\" O'Connell",
+              "votes": 9654,
+              "percentage": 46.3
+            }
+          ]
+        },
+        {
+          "contest_name": "3rd Appellate District \u2013 Republican Primary",
+          "name": "3rd Appellate District \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 312,
+          "total_precincts": 312,
+          "candidates": [
+            {
+              "name": "Jason A. Helland",
+              "votes": 13872,
+              "percentage": 58.2
+            },
+            {
+              "name": "Mark Senak",
+              "votes": 9951,
+              "percentage": 41.8
+            }
+          ]
+        },
+        {
+          "contest_name": "18th Judicial Circuit 4th Subcircuit Vacancy \u2013 Democratic Primary",
+          "name": "18th Judicial Circuit 4th Subcircuit Vacancy \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 312,
+          "total_precincts": 312,
+          "candidates": [
+            {
+              "name": "Christina Kye",
+              "votes": 15341,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "18th Judicial Circuit 4th Subcircuit Vacancy \u2013 Republican Primary",
+          "name": "18th Judicial Circuit 4th Subcircuit Vacancy \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 312,
+          "total_precincts": 312,
+          "candidates": [
+            {
+              "name": "Michael W. Fleming",
+              "votes": 17823,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "18th Judicial Circuit 5th Subcircuit Vacancy \u2013 Democratic Primary",
+          "name": "18th Judicial Circuit 5th Subcircuit Vacancy \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 312,
+          "total_precincts": 312,
+          "candidates": [
+            {
+              "name": "Terra Costa Howard",
+              "votes": 14902,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "City of Wood Dale \u2013 Allow Hens in Single-Family Residential Districts",
+          "name": "City of Wood Dale \u2013 Allow Hens in Single-Family Residential Districts",
+          "party": "Non-Partisan",
+          "precincts_reporting": 8,
+          "total_precincts": 8,
+          "candidates": [
+            {
+              "name": "Yes",
+              "votes": 1243,
+              "percentage": 61.4
+            },
+            {
+              "name": "No",
+              "votes": 781,
+              "percentage": 38.6
+            }
+          ]
+        },
+        {
+          "contest_name": "Milton Township \u2013 New Tax Rate for Road Machinery and Equipment",
+          "name": "Milton Township \u2013 New Tax Rate for Road Machinery and Equipment",
+          "party": "Non-Partisan",
+          "precincts_reporting": 22,
+          "total_precincts": 22,
+          "candidates": [
+            {
+              "name": "Yes",
+              "votes": 3102,
+              "percentage": 48.3
+            },
+            {
+              "name": "No",
+              "votes": 3318,
+              "percentage": 51.7
+            }
+          ]
+        },
+        {
+          "contest_name": "Naperville Park District \u2013 $120M Park Bonds",
+          "name": "Naperville Park District \u2013 $120M Park Bonds",
+          "party": "Non-Partisan",
+          "precincts_reporting": 67,
+          "total_precincts": 67,
+          "candidates": [
+            {
+              "name": "Yes",
+              "votes": 8934,
+              "percentage": 54.1
+            },
+            {
+              "name": "No",
+              "votes": 7581,
+              "percentage": 45.9
+            }
+          ]
+        },
+        {
+          "contest_name": "Oakbrook Terrace Fire Protection District \u2013 New Tax Rate for Emergency and Rescue",
+          "name": "Oakbrook Terrace Fire Protection District \u2013 New Tax Rate for Emergency and Rescue",
+          "party": "Non-Partisan",
+          "precincts_reporting": 6,
+          "total_precincts": 6,
+          "candidates": [
+            {
+              "name": "Yes",
+              "votes": 892,
+              "percentage": 67.2
+            },
+            {
+              "name": "No",
+              "votes": 435,
+              "percentage": 32.8
+            }
+          ]
+        },
+        {
+          "contest_name": "Tri-State Fire Protection District \u2013 $38M General Obligation Bonds",
+          "name": "Tri-State Fire Protection District \u2013 $38M General Obligation Bonds",
+          "party": "Non-Partisan",
+          "precincts_reporting": 14,
+          "total_precincts": 14,
+          "candidates": [
+            {
+              "name": "Yes",
+              "votes": 2103,
+              "percentage": 52.8
+            },
+            {
+              "name": "No",
+              "votes": 1879,
+              "percentage": 47.2
+            }
+          ]
+        },
+        {
+          "contest_name": "School District 45 \u2013 Proposition to Increase Limiting Rate",
+          "name": "School District 45 \u2013 Proposition to Increase Limiting Rate",
+          "party": "Non-Partisan",
+          "precincts_reporting": 18,
+          "total_precincts": 18,
+          "candidates": [
+            {
+              "name": "Yes",
+              "votes": 2841,
+              "percentage": 44.7
+            },
+            {
+              "name": "No",
+              "votes": 3512,
+              "percentage": 55.3
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
