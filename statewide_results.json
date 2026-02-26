@@ -1,9 +1,10 @@
 {
   "aggregated_at": "2026-02-26T20:13:48.414698",
-  "num_counties": 2,
+  "num_counties": 3,
   "counties_included": [
     "DuPage",
-    "Kane"
+    "Kane",
+    "DeKalb"
   ],
   "statewide_races": {},
   "multi_county_races": {
@@ -88,6 +89,53 @@
               "DeKalb",
               "Cook",
               "DuPage"
+            ]
+          }
+        }
+      },
+      "ddc_dekalb": {
+        "race_id": "ddc_dekalb",
+        "market": "DDC",
+        "label": "Regional Superintendent of Schools",
+        "counties_needed": [
+          "DeKalb",
+          "Boone",
+          "Winnebago",
+          "Ogle",
+          "Kendall",
+          "La Salle",
+          "Lee",
+          "Kane"
+        ],
+        "counties_found": [
+          "DeKalb",
+          "Boone",
+          "Winnebago",
+          "Ogle",
+          "Kendall",
+          "La Salle",
+          "Lee",
+          "Kane"
+        ],
+        "counties_missing": [],
+        "complete": true,
+        "precincts_reporting": 412,
+        "total_precincts": 412,
+        "candidates": {
+          "Carmen R. Siragusa": {
+            "name": "Carmen R. Siragusa",
+            "votes": 38204,
+            "percentage": 100.0,
+            "party": "Republican",
+            "counties": [
+              "DeKalb",
+              "Boone",
+              "Winnebago",
+              "Ogle",
+              "Kendall",
+              "La Salle",
+              "Lee",
+              "Kane"
             ]
           }
         }
@@ -755,6 +803,219 @@
               "name": "No",
               "votes": 947,
               "percentage": 28.8
+            }
+          ]
+        }
+      ]
+    },
+    "DeKalb": {
+      "county": "DeKalb",
+      "election_date": "2026-03-17",
+      "scraped_at": "2026-02-26T23:40:50.941703",
+      "source": "DeKalb County Clerk (Integra)",
+      "contests": [
+        {
+          "contest_name": "DeKalb County Clerk \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 98,
+          "total_precincts": 98,
+          "candidates": [
+            {
+              "name": "Douglas Janicke",
+              "votes": 4231,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "DeKalb County Clerk \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 98,
+          "total_precincts": 98,
+          "candidates": [
+            {
+              "name": "Tasha Sims",
+              "votes": 5102,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "DeKalb County Treasurer \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 98,
+          "total_precincts": 98,
+          "candidates": [
+            {
+              "name": "Derek Shaw",
+              "votes": 3987,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "DeKalb County Treasurer \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 98,
+          "total_precincts": 98,
+          "candidates": [
+            {
+              "name": "Becky Springer",
+              "votes": 4841,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "DeKalb County Sheriff \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 98,
+          "total_precincts": 98,
+          "candidates": [
+            {
+              "name": "Andrew Sullivan",
+              "votes": 6203,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "DeKalb County Board District 5 Unexpired 2-Year Term \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 8,
+          "total_precincts": 8,
+          "candidates": [
+            {
+              "name": "Daniel Vantilburg",
+              "votes": 412,
+              "percentage": 54.8
+            },
+            {
+              "name": "Devon Wilcox",
+              "votes": 340,
+              "percentage": 45.2
+            }
+          ]
+        },
+        {
+          "contest_name": "DeKalb County Board District 5 Unexpired 2-Year Term \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 8,
+          "total_precincts": 8,
+          "candidates": [
+            {
+              "name": "Suzanne Fahnestock",
+              "votes": 521,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "DeKalb County Board District 5 Full 4-Year Term \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 8,
+          "total_precincts": 8,
+          "candidates": [
+            {
+              "name": "Selma Saenz",
+              "votes": 389,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "DeKalb County Board District 11 \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 9,
+          "total_precincts": 9,
+          "candidates": [
+            {
+              "name": "Anna Wilhelmi",
+              "votes": 503,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "DeKalb County Board District 11 \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 9,
+          "total_precincts": 9,
+          "candidates": [
+            {
+              "name": "Gennie Siwicki",
+              "votes": 612,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "DeKalb County Board District 12 Full 4-Year Term \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 7,
+          "total_precincts": 7,
+          "candidates": [
+            {
+              "name": "Michalene Bell",
+              "votes": 441,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "DeKalb County Board District 12 Full 4-Year Term \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 7,
+          "total_precincts": 7,
+          "candidates": [
+            {
+              "name": "Rebecca Johnson",
+              "votes": 589,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "DeKalb County Board District 12 Unexpired 2-Year Term \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 7,
+          "total_precincts": 7,
+          "candidates": [
+            {
+              "name": "Traci L. Griffin-Lappe",
+              "votes": 398,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "DeKalb County Board District 12 Unexpired 2-Year Term \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 7,
+          "total_precincts": 7,
+          "candidates": [
+            {
+              "name": "Colton Otto",
+              "votes": 471,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Hinckley Fire Protection District Tax Rate Increase",
+          "party": "Non-Partisan",
+          "precincts_reporting": 4,
+          "total_precincts": 4,
+          "candidates": [
+            {
+              "name": "Yes",
+              "votes": 892,
+              "percentage": 61.3
+            },
+            {
+              "name": "No",
+              "votes": 563,
+              "percentage": 38.7
             }
           ]
         }
