@@ -1,0 +1,209 @@
+{
+  "county": "Will",
+  "scraped_at": "2026-03-17T20:15:30.123456",
+  "total_contests": 47,
+  "by_party": {
+    "Democratic": {
+      "count": 15,
+      "contests": [
+        {
+          "contest_id": "1001",
+          "contest_name": "US Senator - Democratic Primary",
+          "contest_category": "Federal",
+          "party_type": "Democratic",
+          "county": "Will",
+          "candidates": [
+            {
+              "name": "John Smith",
+              "party": "DEM",
+              "votes": 15234,
+              "percentage": 52.3
+            },
+            {
+              "name": "Jane Doe",
+              "party": "DEM",
+              "votes": 13891,
+              "percentage": 47.7
+            }
+          ],
+          "precincts_reporting": 142,
+          "total_precincts": 142,
+          "reporting_percentage": 100.0,
+          "last_updated": "2026-03-17T20:15:30.123456"
+        },
+        {
+          "contest_id": "1002",
+          "contest_name": "US Representative District 14 (Democratic)",
+          "contest_category": "Federal",
+          "party_type": "Democratic",
+          "county": "Will",
+          "candidates": [
+            {
+              "name": "Alice Johnson",
+              "party": "DEM",
+              "votes": 18456,
+              "percentage": 65.2
+            },
+            {
+              "name": "Bob Wilson",
+              "party": "DEM",
+              "votes": 9844,
+              "percentage": 34.8
+            }
+          ],
+          "precincts_reporting": 142,
+          "total_precincts": 142,
+          "reporting_percentage": 100.0,
+          "last_updated": "2026-03-17T20:15:30.123456"
+        }
+      ]
+    },
+    "Republican": {
+      "count": 18,
+      "contests": [
+        {
+          "contest_id": "2001",
+          "contest_name": "US Senator - Republican Primary",
+          "contest_category": "Federal",
+          "party_type": "Republican",
+          "county": "Will",
+          "candidates": [
+            {
+              "name": "Robert Brown",
+              "party": "REP",
+              "votes": 22341,
+              "percentage": 48.9
+            },
+            {
+              "name": "Mary Garcia",
+              "party": "REP",
+              "votes": 18765,
+              "percentage": 41.1
+            },
+            {
+              "name": "Tom Anderson",
+              "party": "REP",
+              "votes": 4567,
+              "percentage": 10.0
+            }
+          ],
+          "precincts_reporting": 142,
+          "total_precincts": 142,
+          "reporting_percentage": 100.0,
+          "last_updated": "2026-03-17T20:15:30.123456"
+        },
+        {
+          "contest_id": "2002",
+          "contest_name": "Governor (Republican)",
+          "contest_category": "State",
+          "party_type": "Republican",
+          "county": "Will",
+          "candidates": [
+            {
+              "name": "Sarah Miller",
+              "party": "REP",
+              "votes": 31234,
+              "percentage": 68.4
+            },
+            {
+              "name": "David Lee",
+              "party": "REP",
+              "votes": 14432,
+              "percentage": 31.6
+            }
+          ],
+          "precincts_reporting": 142,
+          "total_precincts": 142,
+          "reporting_percentage": 100.0,
+          "last_updated": "2026-03-17T20:15:30.123456"
+        }
+      ]
+    },
+    "Non-Partisan": {
+      "count": 14,
+      "contests": [
+        {
+          "contest_id": "3001",
+          "contest_name": "Referendum Question - School Funding",
+          "contest_category": "Referendum",
+          "party_type": "Non-Partisan",
+          "county": "Will",
+          "candidates": [
+            {
+              "name": "YES",
+              "party": "",
+              "votes": 34567,
+              "percentage": 62.1
+            },
+            {
+              "name": "NO",
+              "party": "",
+              "votes": 21098,
+              "percentage": 37.9
+            }
+          ],
+          "precincts_reporting": 142,
+          "total_precincts": 142,
+          "reporting_percentage": 100.0,
+          "last_updated": "2026-03-17T20:15:30.123456"
+        },
+        {
+          "contest_id": "3002",
+          "contest_name": "Circuit Court Judge - Retention",
+          "contest_category": "Judicial",
+          "party_type": "Non-Partisan",
+          "county": "Will",
+          "candidates": [
+            {
+              "name": "Hon. Patricia Martinez",
+              "party": "",
+              "votes": 41234,
+              "percentage": 71.8
+            },
+            {
+              "name": "No Retention",
+              "party": "",
+              "votes": 16189,
+              "percentage": 28.2
+            }
+          ],
+          "precincts_reporting": 142,
+          "total_precincts": 142,
+          "reporting_percentage": 100.0,
+          "last_updated": "2026-03-17T20:15:30.123456"
+        },
+        {
+          "contest_id": "3003",
+          "contest_name": "Joliet School Board Member",
+          "contest_category": "Municipal",
+          "party_type": "Non-Partisan",
+          "county": "Will",
+          "candidates": [
+            {
+              "name": "Jennifer Thompson",
+              "party": "",
+              "votes": 8901,
+              "percentage": 38.2
+            },
+            {
+              "name": "Michael Rodriguez",
+              "party": "",
+              "votes": 7654,
+              "percentage": 32.9
+            },
+            {
+              "name": "Lisa Chen",
+              "party": "",
+              "votes": 6734,
+              "percentage": 28.9
+            }
+          ],
+          "precincts_reporting": 45,
+          "total_precincts": 45,
+          "reporting_percentage": 100.0,
+          "last_updated": "2026-03-17T20:15:30.123456"
+        }
+      ]
+    }
+  }
+}

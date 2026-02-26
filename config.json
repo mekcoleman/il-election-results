@@ -1,0 +1,268 @@
+{
+  "election_info": {
+    "election_date": "2026-03-17",
+    "election_name": "Illinois Primary Election",
+    "election_type": "primary"
+  },
+  "counties": {
+    "Will": {
+      "platform": "clarity",
+      "base_url": "https://results.enr.clarityelections.com/IL/Will",
+      "election_id": "UPDATE_ON_ELECTION_DAY",
+      "web_id": "UPDATE_ON_ELECTION_DAY",
+      "status": "configured",
+      "notes": "Example from 2025 election: election_id=123535, web_id=357754"
+    },
+    "Cook": {
+      "platform": "dual_authority_both_custom",
+      "county_clerk_url": "https://www.cookcountyclerkil.gov/elections/results-and-election-data/election-results",
+      "county_clerk_platform": "custom_pdf",
+      "chicago_url": "https://chicagoelections.gov/",
+      "chicago_platform": "custom_pdf",
+      "status": "needs_custom_scraper",
+      "notes": "TWO separate election authorities, BOTH use custom PDF systems. Cook County Clerk handles county except Chicago. Chicago Board of Election Commissioners handles city only. Largest jurisdiction - critical for coverage."
+    },
+    "DuPage": {
+      "platform": "scytl",
+      "base_url": "https://www.dupageresults.gov/IL/DuPage",
+      "status": "needs_custom_scraper",
+      "notes": "Uses Scytl platform (www.dupageresults.gov), not Clarity Elections. Will require separate scraper."
+    },
+    "Kane": {
+      "platform": "custom",
+      "base_url": "https://electionresults.kanecountyil.gov",
+      "status": "needs_custom_scraper",
+      "notes": "Uses custom Kane County platform (electionresults.kanecountyil.gov). Will require separate scraper."
+    },
+    "Lake": {
+      "platform": "clarity",
+      "base_url": "https://results.enr.clarityelections.com/IL/Lake",
+      "election_id": "UPDATE_ON_ELECTION_DAY",
+      "web_id": "UPDATE_ON_ELECTION_DAY",
+      "status": "configured",
+      "notes": "Uses results.enr.clarityelections.com format. Example from 2024: election_id=122425, web_id=345435"
+    },
+    "McHenry": {
+      "platform": "clarity",
+      "base_url": "https://mchenry-il.connect4.clarityelections.com",
+      "election_id": "UPDATE_ON_ELECTION_DAY",
+      "web_id": "UPDATE_ON_ELECTION_DAY",
+      "status": "configured",
+      "notes": "Uses connect4.clarityelections.com subdomain format. URL pattern: base_url/election_id/web_id/json/en/"
+    },
+    "Kendall": {
+      "platform": "integra",
+      "base_url": "http://kendall.il.electionconsole.com",
+      "alternate_url": "https://results.co.kendall.il.us",
+      "status": "needs_custom_scraper",
+      "notes": "Uses Integra Election Reporting Console (same as DeKalb). Also has custom text results site. May appear on platinumelectionresults.com."
+    },
+    "Kankakee": {
+      "platform": "clarity",
+      "base_url": "https://results.enr.clarityelections.com/IL/Kankakee",
+      "election_id": "UPDATE_ON_ELECTION_DAY",
+      "web_id": "UPDATE_ON_ELECTION_DAY",
+      "status": "configured",
+      "notes": "Uses results.enr.clarityelections.com format. Example from 2024: election_id=122838"
+    },
+    "Champaign": {
+      "platform": "custom_web",
+      "base_url": "https://champaigncountyclerk.com/elections/i-want-run-office/historical-election-data",
+      "status": "needs_custom_scraper",
+      "notes": "County Clerk is sole election authority. Posts results on website, likely as PDFs/spreadsheets in document center. Custom system."
+    },
+    "Ford": {
+      "platform": "pollresults",
+      "base_url": "https://il-ford.pollresults.net",
+      "status": "ready_with_pollresults_scraper",
+      "notes": "Uses pollresults.net (Liberty Systems/CSE Software). Part of the 11-county pollresults cluster."
+    },
+    "Iroquois": {
+      "platform": "custom_web",
+      "base_url": "https://iroquoiscountyil.gov/elections",
+      "status": "needs_custom_scraper",
+      "notes": "Custom web-based election results system."
+    },
+    "Livingston": {
+      "platform": "pollresults",
+      "base_url": "https://il-livingston.pollresults.net",
+      "status": "ready_with_pollresults_scraper",
+      "notes": "Uses pollresults.net (Liberty Systems/CSE Software). Part of the 11-county pollresults cluster."
+    },
+    "Vermilion": {
+      "platform": "dual_authority_shared_pollresults",
+      "county_clerk_url": "https://il-vermilion.pollresults.net",
+      "county_clerk_platform": "pollresults",
+      "danville_url": "https://il-vermilion.pollresults.net",
+      "danville_platform": "pollresults",
+      "status": "ready_shared_platform",
+      "notes": "TWO separate election authorities (County Clerk for county except Danville, Danville Election Commission for city), but BOTH use the same pollresults.net URL. Shared platform simplifies scraping."
+    },
+    "Boone": {
+      "platform": "pollresults",
+      "base_url": "https://il-boone.pollresults.net",
+      "status": "ready_with_pollresults_scraper",
+      "notes": "Uses pollresults.net (Liberty Systems/CSE Software). Same platform as Whiteside, Lee, Ogle, Carroll, Putnam, Vermilion, Tazewell, Stephenson, Bureau."
+    },
+    "DeKalb": {
+      "platform": "integra",
+      "base_url": "http://dekalb.il.electionconsole.com",
+      "status": "needs_custom_scraper",
+      "notes": "Uses Integra Election Reporting Console. Also appears on Platinum Election Results (platinumelectionresults.com). Will require separate scraper."
+    },
+    "Bureau": {
+      "platform": "pollresults",
+      "base_url": "https://il-bureau.pollresults.net",
+      "status": "ready_with_pollresults_scraper",
+      "notes": "Uses pollresults.net (Liberty Systems/CSE Software). Same platform as Whiteside, Lee, Ogle, Carroll, Putnam, Vermilion, Tazewell, Stephenson, Boone."
+    },
+    "La Salle": {
+      "platform": "custom_pdf",
+      "base_url": "https://www.lasallecountyil.gov/251/Election-Results",
+      "status": "needs_custom_scraper",
+      "notes": "Custom PDF results system. Posts election results as PDF documents."
+    },
+    "Putnam": {
+      "platform": "pollresults",
+      "base_url": "https://il-putnam.pollresults.net",
+      "status": "needs_custom_scraper",
+      "notes": "Uses pollresults.net (Liberty Systems/CSE Software). Shared with Whiteside, Lee, Ogle, and Carroll."
+    },
+    "Grundy": {
+      "platform": "gbs_vote",
+      "base_url": "https://results.gbsvote.com",
+      "status": "needs_custom_scraper",
+      "notes": "Uses GBS Vote (Governmental Business Systems) platform. Will require custom scraper."
+    },
+    "Henry": {
+      "platform": "integra",
+      "base_url": "https://platinumelectionresults.com",
+      "status": "ready_with_integra_scraper",
+      "notes": "Uses Integra Election Reporting Console (platinumelectionresults.com). Same platform as DeKalb and Kendall."
+    },
+    "Jo Daviess": {
+      "platform": "custom_web",
+      "base_url": "https://jodaviesscountyil.gov/departments/elections/election_results.php",
+      "status": "needs_custom_scraper",
+      "notes": "Custom web-based results system."
+    },
+    "Lee": {
+      "platform": "pollresults",
+      "base_url": "https://il-lee.pollresults.net",
+      "status": "needs_custom_scraper",
+      "notes": "Uses pollresults.net (Liberty Systems/CSE Software). Shared with Whiteside, Ogle, and Carroll."
+    },
+    "McLean": {
+      "platform": "dual_authority",
+      "county_clerk_url": "https://www.mcleancountyil.gov/231/Past-McLean-County-Election-Results",
+      "county_clerk_platform": "custom_text_pdf",
+      "bloomington_url": "https://results.enr.clarityelections.com/IL/Bloomington/",
+      "bloomington_platform": "clarity",
+      "status": "complex_dual_authority",
+      "notes": "TWO separate election authorities. County Clerk (custom text/PDF) handles county except Bloomington. Bloomington Election Commission (Clarity) handles city only."
+    },
+    "Ogle": {
+      "platform": "pollresults",
+      "base_url": "https://il-ogle.pollresults.net",
+      "status": "needs_custom_scraper",
+      "notes": "Uses pollresults.net (Liberty Systems/CSE Software). Also has Integra console: ogle.il.electionconsole.com"
+    },
+    "Peoria": {
+      "platform": "custom_pdf_arcgis",
+      "base_url": "https://www.peoriaelections.gov/165/Election-Results",
+      "status": "needs_custom_scraper",
+      "notes": "Uses custom system with PDF results and ArcGIS dashboards. Has ElectionStats database. Not Clarity Elections."
+    },
+    "Stark": {
+      "platform": "custom_pdf",
+      "base_url": "https://www.starkco.illinois.gov/elections/election-results",
+      "status": "needs_custom_scraper",
+      "notes": "Custom system posting election results as PDFs."
+    },
+    "Stephenson": {
+      "platform": "pollresults",
+      "base_url": "https://il-stephenson.pollresults.net",
+      "status": "ready_with_pollresults_scraper",
+      "notes": "Uses pollresults.net (Liberty Systems/CSE Software). Same platform as Whiteside, Lee, Ogle, Carroll, Putnam, Vermilion, Tazewell, Boone, Bureau."
+    },
+    "Tazewell": {
+      "platform": "pollresults",
+      "base_url": "https://il-tazewell.pollresults.net",
+      "status": "ready_with_pollresults_scraper",
+      "notes": "Uses pollresults.net (Liberty Systems/CSE Software). Same platform as Whiteside, Lee, Ogle, Carroll, Putnam, Vermilion."
+    },
+    "Winnebago": {
+      "platform": "dual_authority_both_clarity",
+      "county_clerk_url": "https://results.enr.clarityelections.com/WRC/Winnebago",
+      "county_clerk_platform": "clarity",
+      "rockford_url": "https://results.enr.clarityelections.com/WRC/Rockford",
+      "rockford_platform": "clarity",
+      "election_id": "UPDATE_ON_ELECTION_DAY",
+      "web_id": "UPDATE_ON_ELECTION_DAY",
+      "status": "configured_dual_clarity",
+      "notes": "TWO separate election authorities, BOTH use Clarity Elections. County Clerk handles county except Rockford. Rockford Board of Elections handles city only. Both use WRC path. Will need to scrape both URLs for complete county results."
+    },
+    "Woodford": {
+      "platform": "custom_web",
+      "base_url": "https://woodfordcountyelections.com",
+      "status": "needs_custom_scraper",
+      "notes": "Custom web-based election results system."
+    },
+    "Carroll": {
+      "platform": "pollresults",
+      "base_url": "https://il-carroll.pollresults.net",
+      "status": "needs_custom_scraper",
+      "notes": "Uses pollresults.net (Liberty Systems/CSE Software). Shared with Whiteside, Lee, and Ogle."
+    },
+    "Fulton": {
+      "platform": "custom_pdf",
+      "base_url": "https://fultoncountyilelections.gov/election-results/",
+      "status": "needs_custom_scraper",
+      "notes": "Posts election results as PDF documents."
+    },
+    "Knox": {
+      "platform": "dual_authority_mixed",
+      "county_clerk_url": "https://results.gbsvote.com",
+      "county_clerk_platform": "gbs",
+      "galesburg_url": "https://www.ci.galesburg.il.us/government/elected_officials___election_offices/galesburg_elections_commission/elections_results___map.php",
+      "galesburg_platform": "custom_web",
+      "status": "needs_dual_custom_scrapers",
+      "notes": "TWO separate election authorities. Knox County Clerk uses GBS (Governmental Business Systems). Galesburg Board of Elections posts to city website document center."
+    },
+    "McDonough": {
+      "platform": "custom_web",
+      "base_url": "https://www.mcdonoughelections.com",
+      "status": "needs_custom_scraper",
+      "notes": "Custom web-based election results system (Logonix Corporation)."
+    },
+    "Mercer": {
+      "platform": "pollresults",
+      "base_url": "https://il-mercer.pollresults.net",
+      "status": "ready_with_pollresults_scraper",
+      "notes": "Uses pollresults.net (Liberty Systems/CSE Software). Part of the 12-county pollresults cluster."
+    },
+    "Rock Island": {
+      "platform": "custom_gems",
+      "base_url": "https://www.rockislandcountyil.gov/588/Current-Election-Results",
+      "status": "needs_custom_scraper",
+      "notes": "County Clerk uses GEMS (Global Election Management System). Posts results as PDFs and text files on county website."
+    },
+    "Warren": {
+      "platform": "gbs",
+      "base_url": "https://results.gbsvote.com",
+      "status": "ready_with_gbs_scraper",
+      "notes": "Uses GBS (Governmental Business Systems). Same platform as Knox County Clerk and Grundy County."
+    },
+    "Whiteside": {
+      "platform": "pollresults",
+      "base_url": "https://il-whiteside.pollresults.net",
+      "status": "needs_custom_scraper",
+      "notes": "Uses pollresults.net (Liberty Systems/CSE Software). Shared with Lee, Ogle, and Carroll counties."
+    }
+  },
+  "scraping": {
+    "interval_minutes": 15,
+    "timeout_seconds": 10,
+    "max_retries": 3
+  }
+}
