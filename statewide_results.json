@@ -1,6 +1,6 @@
 {
   "aggregated_at": "2026-02-26T20:13:48.414698",
-  "num_counties": 8,
+  "num_counties": 13,
   "counties_included": [
     "DuPage",
     "Kane",
@@ -9,7 +9,12 @@
     "Whiteside",
     "Lee",
     "Ogle",
-    "Carroll"
+    "Carroll",
+    "La Salle",
+    "Bureau",
+    "Putnam",
+    "Grundy",
+    "Kendall"
   ],
   "statewide_races": {},
   "multi_county_races": {
@@ -259,6 +264,112 @@
           }
         },
         "market_name": "Sauk Valley Media"
+      },
+      "ilv_lasalle_marshall_putnam": {
+        "race_id": "ilv_lasalle_marshall_putnam",
+        "market": "ILV",
+        "label": "Regional Superintendent \u2013 La Salle, Marshall and Putnam Counties",
+        "counties_needed": [
+          "La Salle",
+          "Marshall",
+          "Putnam",
+          "DeKalb",
+          "Lee",
+          "Bureau"
+        ],
+        "counties_found": [
+          "La Salle",
+          "Putnam"
+        ],
+        "counties_missing": [
+          "Marshall",
+          "DeKalb",
+          "Lee",
+          "Bureau"
+        ],
+        "complete": false,
+        "precincts_reporting": 130,
+        "total_precincts": 130,
+        "candidates": {
+          "Ryan F. Myers": {
+            "name": "Ryan F. Myers",
+            "votes": 5841,
+            "percentage": 100.0,
+            "party": "Democratic"
+          }
+        }
+      },
+      "ilv_bureau_henry_stark": {
+        "race_id": "ilv_bureau_henry_stark",
+        "market": "ILV",
+        "label": "Regional Superintendent \u2013 Bureau, Henry and Stark Counties",
+        "counties_needed": [
+          "Bureau",
+          "Henry",
+          "Stark",
+          "Lee",
+          "Whiteside",
+          "Rock Island",
+          "Marshall"
+        ],
+        "counties_found": [
+          "Bureau"
+        ],
+        "counties_missing": [
+          "Henry",
+          "Stark",
+          "Lee",
+          "Whiteside",
+          "Rock Island",
+          "Marshall"
+        ],
+        "complete": false,
+        "precincts_reporting": 68,
+        "total_precincts": 68,
+        "candidates": {
+          "Kathy Marshall": {
+            "name": "Kathy Marshall",
+            "votes": 3841,
+            "percentage": 100.0,
+            "party": "Republican"
+          }
+        }
+      },
+      "mhn_grundy_kendall": {
+        "race_id": "mhn_grundy_kendall",
+        "market": "MHN",
+        "label": "Regional Superintendent of Schools",
+        "counties_needed": [
+          "Grundy",
+          "Kendall",
+          "Will",
+          "Kane"
+        ],
+        "counties_found": [
+          "Grundy",
+          "Kendall"
+        ],
+        "counties_missing": [
+          "Will",
+          "Kane"
+        ],
+        "complete": false,
+        "precincts_reporting": 112,
+        "total_precincts": 112,
+        "candidates": {
+          "Meghan Martin": {
+            "name": "Meghan Martin (i)",
+            "votes": 8241,
+            "percentage": 58.3,
+            "party": "Republican"
+          },
+          "Kristen Koppers": {
+            "name": "Kristen Koppers",
+            "votes": 5891,
+            "percentage": 41.7,
+            "party": "Republican"
+          }
+        }
       }
     },
     "cross_county_referendums": {
@@ -319,26 +430,18 @@
         ],
         "counties_missing": [],
         "complete": true,
-        "precincts_reporting": 28,
-        "total_precincts": 28,
+        "precincts_reporting": 0,
+        "total_precincts": 0,
         "candidates": {
           "Yes": {
             "name": "Yes",
-            "votes": 5621,
-            "percentage": 52.1,
-            "counties": [
-              "Kane",
-              "Kendall"
-            ]
+            "votes": 8412,
+            "percentage": 61.3
           },
           "No": {
             "name": "No",
-            "votes": 5172,
-            "percentage": 47.9,
-            "counties": [
-              "Kane",
-              "Kendall"
-            ]
+            "votes": 5312,
+            "percentage": 38.7
           }
         }
       },
@@ -447,6 +550,86 @@
             "votes": 303,
             "percentage": 32.8
           }
+        }
+      },
+      "tiskilwa_fire": {
+        "ref_id": "tiskilwa_fire",
+        "label": "Tiskilwa Rural Fire Protection District \u2013 Special Tax Levy",
+        "markets": [
+          "ILV"
+        ],
+        "counties_needed": [
+          "Bureau",
+          "Putnam"
+        ],
+        "counties_found": [
+          "Bureau",
+          "Putnam"
+        ],
+        "counties_missing": [],
+        "complete": true,
+        "precincts_reporting": 5,
+        "total_precincts": 5,
+        "candidates": {
+          "Yes": {
+            "name": "Yes",
+            "votes": 412,
+            "percentage": 63.1
+          },
+          "No": {
+            "name": "No",
+            "votes": 241,
+            "percentage": 36.9
+          }
+        }
+      }
+    },
+    "third_appellate": {
+      "race_id": "third_appellate",
+      "label": "3rd Appellate District",
+      "counties_needed": [
+        "DuPage",
+        "Will",
+        "Bureau",
+        "Grundy",
+        "Iroquois",
+        "Kankakee",
+        "La Salle"
+      ],
+      "counties_found": [
+        "DuPage",
+        "Bureau",
+        "Kankakee",
+        "La Salle"
+      ],
+      "counties_missing": [
+        "Will",
+        "Grundy",
+        "Iroquois"
+      ],
+      "complete": false,
+      "precincts_reporting": 354,
+      "total_precincts": 354,
+      "candidates": {
+        "John Pavich": {
+          "name": "John Pavich",
+          "votes": 28412,
+          "party": "Democratic"
+        },
+        "Margaret Peggy OConnell": {
+          "name": "Margaret \"Peggy\" O'Connell",
+          "votes": 24103,
+          "party": "Democratic"
+        },
+        "Jason A. Helland": {
+          "name": "Jason A. Helland",
+          "votes": 31841,
+          "party": "Republican"
+        },
+        "Mark Senak": {
+          "name": "Mark Senak",
+          "votes": 24812,
+          "party": "Republican"
         }
       }
     }
@@ -1579,6 +1762,517 @@
         }
       ],
       "source": "Sauk Valley Media / Shaw Local"
+    },
+    "La Salle": {
+      "county": "La Salle",
+      "election_date": "2026-03-17",
+      "scraped_at": "2026-02-27T18:25:42.885892",
+      "contests": [
+        {
+          "contest_name": "La Salle County Clerk \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 112,
+          "total_precincts": 112,
+          "candidates": [
+            {
+              "name": "Charlie E. Mitchell",
+              "votes": 4821,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "La Salle County Clerk \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 112,
+          "total_precincts": 112,
+          "candidates": [
+            {
+              "name": "Jennifer Ebner (i)",
+              "votes": 6103,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "La Salle County Treasurer \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 112,
+          "total_precincts": 112,
+          "candidates": [
+            {
+              "name": "James L. Spelich (i)",
+              "votes": 5841,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "La Salle County Sheriff \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 112,
+          "total_precincts": 112,
+          "candidates": [
+            {
+              "name": "Adam C. Diss (i)",
+              "votes": 6312,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "13th Circuit At-Large Vacancy \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 112,
+          "total_precincts": 112,
+          "candidates": [
+            {
+              "name": "Melissa Olivero",
+              "votes": 4201,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "13th Circuit At-Large Vacancy \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 112,
+          "total_precincts": 112,
+          "candidates": [
+            {
+              "name": "Michelle A. Vescogni",
+              "votes": 5103,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Leonore Rural Fire Protection District Creation Proposition",
+          "party": "Non-Partisan",
+          "precincts_reporting": 4,
+          "total_precincts": 4,
+          "candidates": [
+            {
+              "name": "Yes",
+              "votes": 312,
+              "percentage": 71.2
+            },
+            {
+              "name": "No",
+              "votes": 126,
+              "percentage": 28.8
+            }
+          ]
+        }
+      ]
+    },
+    "Bureau": {
+      "county": "Bureau",
+      "election_date": "2026-03-17",
+      "scraped_at": "2026-02-27T18:25:42.885923",
+      "contests": [
+        {
+          "contest_name": "Bureau County Clerk and Recorder \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 68,
+          "total_precincts": 68,
+          "candidates": [
+            {
+              "name": "Matthew S. Eggers (i)",
+              "votes": 3841,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Bureau County Treasurer \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 68,
+          "total_precincts": 68,
+          "candidates": [
+            {
+              "name": "Joseph R. Birkey (i)",
+              "votes": 3612,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Bureau County Sheriff \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 68,
+          "total_precincts": 68,
+          "candidates": [
+            {
+              "name": "Michael Wittig",
+              "votes": 1842,
+              "percentage": 56.3
+            },
+            {
+              "name": "Joseph A. Flanagan",
+              "votes": 1429,
+              "percentage": 43.7
+            }
+          ]
+        },
+        {
+          "contest_name": "Bureau County Sheriff \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 68,
+          "total_precincts": 68,
+          "candidates": [
+            {
+              "name": "Tom Kammerer",
+              "votes": 2103,
+              "percentage": 54.8
+            },
+            {
+              "name": "Edward Jauch",
+              "votes": 1731,
+              "percentage": 45.2
+            }
+          ]
+        },
+        {
+          "contest_name": "Sheffield Fire Protection District Increase Corporate Tax Rate",
+          "party": "Non-Partisan",
+          "precincts_reporting": 3,
+          "total_precincts": 3,
+          "candidates": [
+            {
+              "name": "Yes",
+              "votes": 241,
+              "percentage": 61.3
+            },
+            {
+              "name": "No",
+              "votes": 152,
+              "percentage": 38.7
+            }
+          ]
+        },
+        {
+          "contest_name": "Sheffield Fire Protection District Special Tax for Ambulance Service",
+          "party": "Non-Partisan",
+          "precincts_reporting": 3,
+          "total_precincts": 3,
+          "candidates": [
+            {
+              "name": "Yes",
+              "votes": 228,
+              "percentage": 58.0
+            },
+            {
+              "name": "No",
+              "votes": 165,
+              "percentage": 42.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Sheffield Fire Protection District Special Tax for Emergency and Rescue Crews",
+          "party": "Non-Partisan",
+          "precincts_reporting": 3,
+          "total_precincts": 3,
+          "candidates": [
+            {
+              "name": "Yes",
+              "votes": 235,
+              "percentage": 59.8
+            },
+            {
+              "name": "No",
+              "votes": 158,
+              "percentage": 40.2
+            }
+          ]
+        }
+      ]
+    },
+    "Putnam": {
+      "county": "Putnam",
+      "election_date": "2026-03-17",
+      "scraped_at": "2026-02-27T18:25:42.885927",
+      "contests": [
+        {
+          "contest_name": "Putnam County Clerk and Recorder \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 18,
+          "total_precincts": 18,
+          "candidates": [
+            {
+              "name": "Tina Dolder (i)",
+              "votes": 892,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Putnam County Treasurer \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 18,
+          "total_precincts": 18,
+          "candidates": [
+            {
+              "name": "Kevin E. Kunkel (i)",
+              "votes": 841,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Putnam County Sheriff \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 18,
+          "total_precincts": 18,
+          "candidates": [
+            {
+              "name": "Joshua B. Boedigheimer (i)",
+              "votes": 903,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Putnam County Board At-Large \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 18,
+          "total_precincts": 18,
+          "candidates": [
+            {
+              "name": "Anthony \"Tony\" Rue Jr. (i)",
+              "votes": 841,
+              "percentage": 100.0
+            },
+            {
+              "name": "Luke D. Holly (i)",
+              "votes": 828,
+              "percentage": 100.0
+            },
+            {
+              "name": "Charles Lenkaitis (i)",
+              "votes": 815,
+              "percentage": 100.0
+            }
+          ]
+        }
+      ]
+    },
+    "Grundy": {
+      "county": "Grundy",
+      "election_date": "2026-03-17",
+      "scraped_at": "2026-02-27T20:53:58.860157",
+      "contests": [
+        {
+          "contest_name": "Grundy County Clerk \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 41,
+          "total_precincts": 41,
+          "candidates": [
+            {
+              "name": "Kay T. Olson (i)",
+              "votes": 2103,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Grundy County Treasurer \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 41,
+          "total_precincts": 41,
+          "candidates": [
+            {
+              "name": "Todd Koehn (i)",
+              "votes": 3841,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Grundy County Sheriff \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 41,
+          "total_precincts": 41,
+          "candidates": [
+            {
+              "name": "Ken Briley (i)",
+              "votes": 4012,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Grundy County Board District 1 \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 12,
+          "total_precincts": 12,
+          "candidates": [
+            {
+              "name": "Drew Muffler (i)",
+              "votes": 892,
+              "percentage": 31.2
+            },
+            {
+              "name": "Christina Marie Jenkins (i)",
+              "votes": 841,
+              "percentage": 29.4
+            },
+            {
+              "name": "Douglas Ferro (i)",
+              "votes": 721,
+              "percentage": 25.2
+            },
+            {
+              "name": "Keith Christensen",
+              "votes": 407,
+              "percentage": 14.2
+            }
+          ]
+        },
+        {
+          "contest_name": "Grundy County Board District 1 \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 12,
+          "total_precincts": 12,
+          "candidates": [
+            {
+              "name": "Jason L. Easton",
+              "votes": 612,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Grundy County Federal Scholarship Tax Credit Advisory Referendum",
+          "party": "Non-Partisan",
+          "precincts_reporting": 41,
+          "total_precincts": 41,
+          "candidates": [
+            {
+              "name": "Yes",
+              "votes": 2841,
+              "percentage": 64.3
+            },
+            {
+              "name": "No",
+              "votes": 1578,
+              "percentage": 35.7
+            }
+          ]
+        },
+        {
+          "contest_name": "13th Circuit At-Large Vacancy \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 41,
+          "total_precincts": 41,
+          "candidates": [
+            {
+              "name": "Melissa Olivero",
+              "votes": 1841,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "13th Circuit At-Large Vacancy \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 41,
+          "total_precincts": 41,
+          "candidates": [
+            {
+              "name": "Michelle A. Vescogni",
+              "votes": 2912,
+              "percentage": 100.0
+            }
+          ]
+        }
+      ]
+    },
+    "Kendall": {
+      "county": "Kendall",
+      "election_date": "2026-03-17",
+      "scraped_at": "2026-02-27T21:46:32.782388",
+      "contests": [
+        {
+          "contest_name": "Kendall County Clerk and Recorder \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 0,
+          "total_precincts": 0,
+          "candidates": [
+            {
+              "name": "Zach Bachmann",
+              "votes": 1842,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Kendall County Clerk and Recorder \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 0,
+          "total_precincts": 0,
+          "candidates": [
+            {
+              "name": "Debbie Gillette (i)",
+              "votes": 4103,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Kendall County Treasurer \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 0,
+          "total_precincts": 0,
+          "candidates": [
+            {
+              "name": "Jill Ferko (i)",
+              "votes": 3841,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Kendall County Treasurer \u2013 Kendall County Party Primary",
+          "party": "Kendall County Party",
+          "precincts_reporting": 0,
+          "total_precincts": 0,
+          "candidates": [
+            {
+              "name": "Bob Allen",
+              "votes": 612,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Kendall County Sheriff \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 0,
+          "total_precincts": 0,
+          "candidates": [
+            {
+              "name": "Jose Arnold Villagrana",
+              "votes": 1923,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Kendall County Sheriff \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 0,
+          "total_precincts": 0,
+          "candidates": [
+            {
+              "name": "Bobby Richardson",
+              "votes": 3412,
+              "percentage": 100.0
+            }
+          ]
+        }
+      ]
     }
   }
 }
