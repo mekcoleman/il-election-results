@@ -1,10 +1,11 @@
 {
   "aggregated_at": "2026-02-26T20:13:48.414698",
-  "num_counties": 3,
+  "num_counties": 4,
   "counties_included": [
     "DuPage",
     "Kane",
-    "DeKalb"
+    "DeKalb",
+    "Kankakee"
   ],
   "statewide_races": {},
   "multi_county_races": {
@@ -136,6 +137,47 @@
               "La Salle",
               "Lee",
               "Kane"
+            ]
+          }
+        }
+      },
+      "kdj_kankakee": {
+        "race_id": "kdj_kankakee",
+        "market": "KDJ",
+        "label": "Regional Superintendent of Schools",
+        "counties_needed": [
+          "Iroquois",
+          "Kankakee",
+          "Will",
+          "Grundy",
+          "Ford",
+          "Livingston"
+        ],
+        "counties_found": [
+          "Iroquois",
+          "Kankakee",
+          "Will",
+          "Grundy",
+          "Ford",
+          "Livingston"
+        ],
+        "counties_missing": [],
+        "complete": true,
+        "precincts_reporting": 298,
+        "total_precincts": 298,
+        "candidates": {
+          "Patricia High": {
+            "name": "Patricia High",
+            "votes": 24103,
+            "percentage": 100.0,
+            "party": "Republican",
+            "counties": [
+              "Iroquois",
+              "Kankakee",
+              "Will",
+              "Grundy",
+              "Ford",
+              "Livingston"
             ]
           }
         }
@@ -1016,6 +1058,154 @@
               "name": "No",
               "votes": 563,
               "percentage": 38.7
+            }
+          ]
+        }
+      ]
+    },
+    "Kankakee": {
+      "county": "Kankakee",
+      "election_date": "2026-03-17",
+      "scraped_at": "2026-02-26T23:51:15.424611",
+      "source": "Kankakee County Clerk",
+      "contests": [
+        {
+          "contest_name": "Kankakee County Clerk \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 87,
+          "total_precincts": 87,
+          "candidates": [
+            {
+              "name": "Brian D. Vaughn",
+              "votes": 3241,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Kankakee County Clerk \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 87,
+          "total_precincts": 87,
+          "candidates": [
+            {
+              "name": "Dan Hendrickson",
+              "votes": 4892,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Kankakee County Treasurer \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 87,
+          "total_precincts": 87,
+          "candidates": [
+            {
+              "name": "Nicholas Africano",
+              "votes": 5103,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Kankakee County Sheriff \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 87,
+          "total_precincts": 87,
+          "candidates": [
+            {
+              "name": "Michael D. Downey",
+              "votes": 5841,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Kankakee County Board District 14 Unexpired Term \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 6,
+          "total_precincts": 6,
+          "candidates": [
+            {
+              "name": "Gary Ciaccio",
+              "votes": 312,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Kankakee County Board District 14 Unexpired Term \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 6,
+          "total_precincts": 6,
+          "candidates": [
+            {
+              "name": "Ken Lewellen",
+              "votes": 401,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Kankakee County Board District 15 \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 7,
+          "total_precincts": 7,
+          "candidates": [
+            {
+              "name": "Reginald Bell",
+              "votes": 289,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Kankakee County Board District 15 \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 7,
+          "total_precincts": 7,
+          "candidates": [
+            {
+              "name": "Amber M. Turner",
+              "votes": 378,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "3rd Appellate District \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 87,
+          "total_precincts": 87,
+          "candidates": [
+            {
+              "name": "John Pavich",
+              "votes": 2841,
+              "percentage": 54.2
+            },
+            {
+              "name": "Margaret Peggy O'Connell",
+              "votes": 2401,
+              "percentage": 45.8
+            }
+          ]
+        },
+        {
+          "contest_name": "3rd Appellate District \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 87,
+          "total_precincts": 87,
+          "candidates": [
+            {
+              "name": "Jason A. Helland",
+              "votes": 3512,
+              "percentage": 59.4
+            },
+            {
+              "name": "Mark Senak",
+              "votes": 2401,
+              "percentage": 40.6
             }
           ]
         }
