@@ -1,11 +1,15 @@
 {
   "aggregated_at": "2026-02-26T20:13:48.414698",
-  "num_counties": 4,
+  "num_counties": 8,
   "counties_included": [
     "DuPage",
     "Kane",
     "DeKalb",
-    "Kankakee"
+    "Kankakee",
+    "Whiteside",
+    "Lee",
+    "Ogle",
+    "Carroll"
   ],
   "statewide_races": {},
   "multi_county_races": {
@@ -181,6 +185,80 @@
             ]
           }
         }
+      },
+      "svm_lee_ogle_whiteside": {
+        "race_id": "svm_lee_ogle_whiteside",
+        "market": "SVM",
+        "label": "Regional Superintendent of Schools \u2013 Lee, Ogle and Whiteside Counties",
+        "counties_needed": [
+          "Lee",
+          "Ogle",
+          "Whiteside",
+          "Winnebago",
+          "Stephenson",
+          "DeKalb",
+          "Rock Island",
+          "Henry",
+          "Bureau"
+        ],
+        "counties_found": [
+          "Lee",
+          "Ogle",
+          "Whiteside"
+        ],
+        "counties_missing": [
+          "Winnebago",
+          "Stephenson",
+          "DeKalb",
+          "Rock Island",
+          "Henry",
+          "Bureau"
+        ],
+        "complete": false,
+        "precincts_reporting": 159,
+        "total_precincts": 159,
+        "candidates": {
+          "Christopher J. Tennyson": {
+            "name": "Christopher J. Tennyson (i)",
+            "votes": 18204,
+            "percentage": 100.0,
+            "party": "Republican"
+          }
+        },
+        "market_name": "Sauk Valley Media"
+      },
+      "svm_carroll_jo_daviess_stephenson": {
+        "race_id": "svm_carroll_jo_daviess_stephenson",
+        "market": "SVM",
+        "label": "Regional Superintendent of Schools \u2013 Carroll, Jo Daviess and Stephenson Counties",
+        "counties_needed": [
+          "Carroll",
+          "Jo Daviess",
+          "Stephenson",
+          "Ogle",
+          "Whiteside"
+        ],
+        "counties_found": [
+          "Carroll"
+        ],
+        "counties_missing": [
+          "Jo Daviess",
+          "Stephenson",
+          "Ogle",
+          "Whiteside"
+        ],
+        "complete": false,
+        "precincts_reporting": 28,
+        "total_precincts": 28,
+        "candidates": {
+          "Christopher Shockey": {
+            "name": "Christopher Shockey",
+            "votes": 1842,
+            "percentage": 100.0,
+            "party": "Republican"
+          }
+        },
+        "market_name": "Sauk Valley Media"
       }
     },
     "cross_county_referendums": {
@@ -301,6 +379,73 @@
               "DuPage",
               "Will"
             ]
+          }
+        }
+      },
+      "lamoille_school": {
+        "ref_id": "lamoille_school",
+        "label": "LaMoille School District 303 \u2013 Non-Binding Question to Deactivate High School",
+        "markets": [
+          "SVM (Sauk Valley Media)",
+          "ILV"
+        ],
+        "counties_needed": [
+          "Lee",
+          "Bureau"
+        ],
+        "counties_found": [
+          "Lee"
+        ],
+        "counties_missing": [
+          "Bureau"
+        ],
+        "complete": false,
+        "precincts_reporting": 6,
+        "total_precincts": 6,
+        "candidates": {
+          "Yes": {
+            "name": "Yes",
+            "votes": 412,
+            "percentage": 54.1
+          },
+          "No": {
+            "name": "No",
+            "votes": 350,
+            "percentage": 45.9
+          }
+        }
+      },
+      "pearl_city_school": {
+        "ref_id": "pearl_city_school",
+        "label": "Pearl City School District No. 200 \u2013 Proposition to Increase Limiting Rate",
+        "markets": [
+          "SVM (Sauk Valley Media)"
+        ],
+        "counties_needed": [
+          "Carroll",
+          "Jo Daviess",
+          "Stephenson"
+        ],
+        "counties_found": [
+          "Carroll"
+        ],
+        "counties_missing": [
+          "Jo Daviess",
+          "Stephenson"
+        ],
+        "complete": false,
+        "precincts_reporting": 4,
+        "total_precincts": 4,
+        "candidates": {
+          "Yes": {
+            "name": "Yes",
+            "votes": 621,
+            "percentage": 67.2
+          },
+          "No": {
+            "name": "No",
+            "votes": 303,
+            "percentage": 32.8
           }
         }
       }
@@ -1210,6 +1355,230 @@
           ]
         }
       ]
+    },
+    "Whiteside": {
+      "county": "Whiteside",
+      "election_date": "2026-03-17",
+      "scraped_at": "2026-02-27T15:51:07.031326",
+      "contests": [
+        {
+          "contest_name": "Whiteside County Clerk \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 62,
+          "total_precincts": 62,
+          "candidates": [
+            {
+              "name": "Karen J. Stralow (i)",
+              "votes": 3841,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Whiteside County Treasurer \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 62,
+          "total_precincts": 62,
+          "candidates": [
+            {
+              "name": "Penny Van Kampen (i)",
+              "votes": 3512,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Whiteside County Sheriff \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 62,
+          "total_precincts": 62,
+          "candidates": [
+            {
+              "name": "John F. Booker (i)",
+              "votes": 2103,
+              "percentage": 100.0
+            }
+          ]
+        }
+      ],
+      "source": "Sauk Valley Media / Shaw Local"
+    },
+    "Lee": {
+      "county": "Lee",
+      "election_date": "2026-03-17",
+      "scraped_at": "2026-02-27T15:51:07.031350",
+      "contests": [
+        {
+          "contest_name": "Lee County Clerk and Recorder \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 44,
+          "total_precincts": 44,
+          "candidates": [
+            {
+              "name": "Nancy L. Peterson (i)",
+              "votes": 2841,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Lee County Treasurer \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 44,
+          "total_precincts": 44,
+          "candidates": [
+            {
+              "name": "Paul Rudolphi (i)",
+              "votes": 2712,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Lee County Sheriff \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 44,
+          "total_precincts": 44,
+          "candidates": [
+            {
+              "name": "Clayton T. Whelan (i)",
+              "votes": 3102,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Lee County Federal Scholarship Tax Credit Advisory Referendum",
+          "party": "Non-Partisan",
+          "precincts_reporting": 44,
+          "total_precincts": 44,
+          "candidates": [
+            {
+              "name": "Yes",
+              "votes": 1823,
+              "percentage": 62.1
+            },
+            {
+              "name": "No",
+              "votes": 1112,
+              "percentage": 37.9
+            }
+          ]
+        }
+      ],
+      "source": "Sauk Valley Media / Shaw Local"
+    },
+    "Ogle": {
+      "county": "Ogle",
+      "election_date": "2026-03-17",
+      "scraped_at": "2026-02-27T15:51:07.031353",
+      "contests": [
+        {
+          "contest_name": "Ogle County Clerk and Recorder \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 53,
+          "total_precincts": 53,
+          "candidates": [
+            {
+              "name": "Rebecca \"Becky\" Duke (i)",
+              "votes": 3241,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Ogle County Treasurer \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 53,
+          "total_precincts": 53,
+          "candidates": [
+            {
+              "name": "Tiffany O'Brien (i)",
+              "votes": 3012,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Ogle County Sheriff \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 53,
+          "total_precincts": 53,
+          "candidates": [
+            {
+              "name": "Brian VanVickle (i)",
+              "votes": 3481,
+              "percentage": 100.0
+            }
+          ]
+        }
+      ],
+      "source": "Sauk Valley Media / Shaw Local"
+    },
+    "Carroll": {
+      "county": "Carroll",
+      "election_date": "2026-03-17",
+      "scraped_at": "2026-02-27T15:51:07.031354",
+      "contests": [
+        {
+          "contest_name": "Carroll County Clerk and Recorder \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 28,
+          "total_precincts": 28,
+          "candidates": [
+            {
+              "name": "Amy R. Buss (i)",
+              "votes": 1842,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Carroll County Treasurer \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 28,
+          "total_precincts": 28,
+          "candidates": [
+            {
+              "name": "Lydia M. Hutchcraft (i)",
+              "votes": 1721,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Carroll County Sheriff \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 28,
+          "total_precincts": 28,
+          "candidates": [
+            {
+              "name": "Ryan Kloepping (i)",
+              "votes": 1993,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Carroll County Federal Scholarship Tax Credit Advisory Referendum",
+          "party": "Non-Partisan",
+          "precincts_reporting": 28,
+          "total_precincts": 28,
+          "candidates": [
+            {
+              "name": "Yes",
+              "votes": 891,
+              "percentage": 58.3
+            },
+            {
+              "name": "No",
+              "votes": 637,
+              "percentage": 41.7
+            }
+          ]
+        }
+      ],
+      "source": "Sauk Valley Media / Shaw Local"
     }
   }
 }
