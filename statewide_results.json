@@ -667,7 +667,7 @@
           "total_precincts": 287,
           "candidates": [
             {
-              "name": "John A. Cunningham",
+              "name": "John A. \"Jack\" Cunningham",
               "votes": 19823,
               "percentage": 100.0
             }
@@ -915,7 +915,7 @@
           "total_precincts": 98,
           "candidates": [
             {
-              "name": "Andrew Sullivan",
+              "name": "Andrew \"Andy\" Sullivan",
               "votes": 6203,
               "percentage": 100.0
             }
