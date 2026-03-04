@@ -1,6 +1,6 @@
 {
   "aggregated_at": "2026-02-26T20:13:48.414698",
-  "num_counties": 14,
+  "num_counties": 15,
   "counties_included": [
     "DuPage",
     "Kane",
@@ -15,7 +15,8 @@
     "Putnam",
     "Grundy",
     "Kendall",
-    "McHenry"
+    "McHenry",
+    "Will"
   ],
   "statewide_races": {},
   "multi_county_races": {
@@ -399,6 +400,40 @@
             "party": "Republican"
           }
         }
+      },
+      "jhn_will": {
+        "race_id": "jhn_will",
+        "market": "JHN",
+        "label": "Regional Superintendent of Schools",
+        "counties_needed": [
+          "Will",
+          "Kendall",
+          "Kankakee"
+        ],
+        "counties_found": [
+          "Will"
+        ],
+        "counties_missing": [
+          "Kendall",
+          "Kankakee"
+        ],
+        "complete": false,
+        "precincts_reporting": 0,
+        "total_precincts": 0,
+        "candidates": {
+          "Theresa Rouse": {
+            "name": "Theresa Rouse",
+            "votes": 13841,
+            "percentage": 48.2,
+            "party": "Democratic"
+          },
+          "Elizabeth Caparelli-Ruff": {
+            "name": "Elizabeth Caparelli-Ruff (i)",
+            "votes": 14892,
+            "percentage": 51.8,
+            "party": "Republican"
+          }
+        }
       }
     },
     "cross_county_referendums": {
@@ -641,6 +676,39 @@
             "name": "No",
             "votes": 2308,
             "percentage": 41.6
+          }
+        }
+      },
+      "naperville_park": {
+        "ref_id": "naperville_park",
+        "label": "Naperville Park District \u2013 $120M Park Bonds",
+        "markets": [
+          "JHN",
+          "SLM"
+        ],
+        "counties_needed": [
+          "Will",
+          "DuPage"
+        ],
+        "counties_found": [
+          "Will"
+        ],
+        "counties_missing": [
+          "DuPage"
+        ],
+        "complete": false,
+        "precincts_reporting": 0,
+        "total_precincts": 0,
+        "candidates": {
+          "Yes": {
+            "name": "Yes",
+            "votes": 18412,
+            "percentage": 59.3
+          },
+          "No": {
+            "name": "No",
+            "votes": 12641,
+            "percentage": 40.7
           }
         }
       }
@@ -2456,6 +2524,337 @@
               "name": "No",
               "votes": 6263,
               "percentage": 32.8
+            }
+          ]
+        }
+      ]
+    },
+    "Will": {
+      "county": "Will",
+      "election_date": "2026-03-17",
+      "scraped_at": "2026-03-04T18:12:49.552622",
+      "contests": [
+        {
+          "contest_name": "Will County Clerk \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 0,
+          "total_precincts": 0,
+          "candidates": [
+            {
+              "name": "Michelle Stiff",
+              "votes": 12841,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Will County Clerk \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 0,
+          "total_precincts": 0,
+          "candidates": [
+            {
+              "name": "Annette Parker (i)",
+              "votes": 18403,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Will County Sheriff \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 0,
+          "total_precincts": 0,
+          "candidates": [
+            {
+              "name": "Patrick Jones",
+              "votes": 9841,
+              "percentage": 57.2
+            },
+            {
+              "name": "Dan Jungles",
+              "votes": 7362,
+              "percentage": 42.8
+            }
+          ]
+        },
+        {
+          "contest_name": "Will County Sheriff \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 0,
+          "total_precincts": 0,
+          "candidates": [
+            {
+              "name": "Justin Fialko",
+              "votes": 11203,
+              "percentage": 54.1
+            },
+            {
+              "name": "Jim Reilly",
+              "votes": 9501,
+              "percentage": 45.9
+            }
+          ]
+        },
+        {
+          "contest_name": "Will County Treasurer \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 0,
+          "total_precincts": 0,
+          "candidates": [
+            {
+              "name": "Tim Brophy (i)",
+              "votes": 13102,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Will County Treasurer \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 0,
+          "total_precincts": 0,
+          "candidates": [
+            {
+              "name": "Carmen Maurella III",
+              "votes": 10841,
+              "percentage": 56.3
+            },
+            {
+              "name": "Raj \"Pi\" Pillai",
+              "votes": 8412,
+              "percentage": 43.7
+            }
+          ]
+        },
+        {
+          "contest_name": "Will County Board District 2 \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 0,
+          "total_precincts": 0,
+          "candidates": [
+            {
+              "name": "Judy Ogalla (i)",
+              "votes": 3841,
+              "percentage": 40.2
+            },
+            {
+              "name": "Frankie Pretzel (i)",
+              "votes": 3612,
+              "percentage": 37.8
+            },
+            {
+              "name": "Neil \"Muggsy\" Gallagher",
+              "votes": 2103,
+              "percentage": 22.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Will County Board District 4 \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 0,
+          "total_precincts": 0,
+          "candidates": [
+            {
+              "name": "William Pratt",
+              "votes": 2841,
+              "percentage": 48.3
+            },
+            {
+              "name": "Sheri Boniecki-Cooling",
+              "votes": 3042,
+              "percentage": 51.7
+            }
+          ]
+        },
+        {
+          "contest_name": "Will County Board District 4 \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 0,
+          "total_precincts": 0,
+          "candidates": [
+            {
+              "name": "Stephen Balich (i)",
+              "votes": 3201,
+              "percentage": 35.1
+            },
+            {
+              "name": "James Richmond (i)",
+              "votes": 2984,
+              "percentage": 32.7
+            },
+            {
+              "name": "Michael Lepore",
+              "votes": 1841,
+              "percentage": 20.2
+            },
+            {
+              "name": "Pawel J. Tyrala",
+              "votes": 1103,
+              "percentage": 12.1
+            }
+          ]
+        },
+        {
+          "contest_name": "Will County Board District 5 \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 0,
+          "total_precincts": 0,
+          "candidates": [
+            {
+              "name": "David Oxley (i)",
+              "votes": 4103,
+              "percentage": 50.8
+            },
+            {
+              "name": "James \"JJ\" Balonek",
+              "votes": 2841,
+              "percentage": 35.2
+            },
+            {
+              "name": "David Palya",
+              "votes": 1134,
+              "percentage": 14.0
+            }
+          ]
+        },
+        {
+          "contest_name": "Will County Board District 11 \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 0,
+          "total_precincts": 0,
+          "candidates": [
+            {
+              "name": "Jacqueline L. Traynere (i)",
+              "votes": 3841,
+              "percentage": 42.1
+            },
+            {
+              "name": "Tyler Giacalone",
+              "votes": 2103,
+              "percentage": 23.1
+            },
+            {
+              "name": "Sheldon L. Watts",
+              "votes": 1842,
+              "percentage": 20.2
+            },
+            {
+              "name": "Barbara Ann Parker",
+              "votes": 1341,
+              "percentage": 14.7
+            }
+          ]
+        },
+        {
+          "contest_name": "12th Circuit 1st Subcircuit Carlson Vacancy \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 0,
+          "total_precincts": 0,
+          "candidates": [
+            {
+              "name": "Amy Christiansen",
+              "votes": 11203,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "12th Circuit 1st Subcircuit Carlson Vacancy \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 0,
+          "total_precincts": 0,
+          "candidates": [
+            {
+              "name": "John Paul Ivec",
+              "votes": 14102,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "12th Circuit 3rd Subcircuit Anderson Vacancy \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 0,
+          "total_precincts": 0,
+          "candidates": [
+            {
+              "name": "Sonni Choi Williams",
+              "votes": 10841,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "12th Circuit 5th Subcircuit Petrungaro Vacancy \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 0,
+          "total_precincts": 0,
+          "candidates": [
+            {
+              "name": "Erin O'Brien",
+              "votes": 8412,
+              "percentage": 56.1
+            },
+            {
+              "name": "Art Smigielski",
+              "votes": 6584,
+              "percentage": 43.9
+            }
+          ]
+        },
+        {
+          "contest_name": "City of Crest Hill Abolish Civil Service",
+          "party": "Non-Partisan",
+          "precincts_reporting": 0,
+          "total_precincts": 0,
+          "candidates": [
+            {
+              "name": "Yes",
+              "votes": 3241,
+              "percentage": 44.2
+            },
+            {
+              "name": "No",
+              "votes": 4092,
+              "percentage": 55.8
+            }
+          ]
+        },
+        {
+          "contest_name": "Monee Township Property Tax Relief Advisory",
+          "party": "Non-Partisan",
+          "precincts_reporting": 0,
+          "total_precincts": 0,
+          "candidates": [
+            {
+              "name": "Yes",
+              "votes": 2841,
+              "percentage": 71.3
+            },
+            {
+              "name": "No",
+              "votes": 1142,
+              "percentage": 28.7
+            }
+          ]
+        },
+        {
+          "contest_name": "Troy Township Township Refuse Collection",
+          "party": "Non-Partisan",
+          "precincts_reporting": 0,
+          "total_precincts": 0,
+          "candidates": [
+            {
+              "name": "Yes",
+              "votes": 1923,
+              "percentage": 62.1
+            },
+            {
+              "name": "No",
+              "votes": 1173,
+              "percentage": 37.9
             }
           ]
         }
