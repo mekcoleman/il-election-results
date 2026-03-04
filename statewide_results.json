@@ -678,39 +678,6 @@
             "percentage": 41.6
           }
         }
-      },
-      "naperville_park": {
-        "ref_id": "naperville_park",
-        "label": "Naperville Park District \u2013 $120M Park Bonds",
-        "markets": [
-          "JHN",
-          "SLM"
-        ],
-        "counties_needed": [
-          "Will",
-          "DuPage"
-        ],
-        "counties_found": [
-          "Will"
-        ],
-        "counties_missing": [
-          "DuPage"
-        ],
-        "complete": false,
-        "precincts_reporting": 0,
-        "total_precincts": 0,
-        "candidates": {
-          "Yes": {
-            "name": "Yes",
-            "votes": 18412,
-            "percentage": 59.3
-          },
-          "No": {
-            "name": "No",
-            "votes": 12641,
-            "percentage": 40.7
-          }
-        }
       }
     },
     "third_appellate": {
