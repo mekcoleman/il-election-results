@@ -1,6 +1,6 @@
 {
   "aggregated_at": "2026-02-26T20:13:48.414698",
-  "num_counties": 13,
+  "num_counties": 14,
   "counties_included": [
     "DuPage",
     "Kane",
@@ -14,7 +14,8 @@
     "Bureau",
     "Putnam",
     "Grundy",
-    "Kendall"
+    "Kendall",
+    "McHenry"
   ],
   "statewide_races": {},
   "multi_county_races": {
@@ -370,6 +371,34 @@
             "party": "Republican"
           }
         }
+      },
+      "nwh_mchenry": {
+        "race_id": "nwh_mchenry",
+        "market": "NWH",
+        "label": "Regional Superintendent of Schools",
+        "counties_needed": [
+          "McHenry",
+          "Boone",
+          "Kane"
+        ],
+        "counties_found": [
+          "McHenry"
+        ],
+        "counties_missing": [
+          "Boone",
+          "Kane"
+        ],
+        "complete": false,
+        "precincts_reporting": 0,
+        "total_precincts": 0,
+        "candidates": {
+          "Diana Hartmann": {
+            "name": "Diana Hartmann (i)",
+            "votes": 9841,
+            "percentage": 100.0,
+            "party": "Republican"
+          }
+        }
       }
     },
     "cross_county_referendums": {
@@ -580,6 +609,38 @@
             "name": "No",
             "votes": 241,
             "percentage": 36.9
+          }
+        }
+      },
+      "fox_lake_fire": {
+        "ref_id": "fox_lake_fire",
+        "label": "Fox Lake Fire Protection District \u2013 Pension Fund Tax Rate",
+        "markets": [
+          "NWH"
+        ],
+        "counties_needed": [
+          "McHenry",
+          "Lake"
+        ],
+        "counties_found": [
+          "McHenry"
+        ],
+        "counties_missing": [
+          "Lake"
+        ],
+        "complete": false,
+        "precincts_reporting": 0,
+        "total_precincts": 0,
+        "candidates": {
+          "Yes": {
+            "name": "Yes",
+            "votes": 3241,
+            "percentage": 58.4
+          },
+          "No": {
+            "name": "No",
+            "votes": 2308,
+            "percentage": 41.6
           }
         }
       }
@@ -2269,6 +2330,132 @@
               "name": "Bobby Richardson",
               "votes": 3412,
               "percentage": 100.0
+            }
+          ]
+        }
+      ]
+    },
+    "McHenry": {
+      "county": "McHenry",
+      "election_date": "2026-03-17",
+      "scraped_at": "2026-03-04T16:59:51.785621",
+      "contests": [
+        {
+          "contest_name": "McHenry County Clerk \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 0,
+          "total_precincts": 0,
+          "candidates": [
+            {
+              "name": "Bill McNeese",
+              "votes": 3201,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "McHenry County Clerk \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 0,
+          "total_precincts": 0,
+          "candidates": [
+            {
+              "name": "Joe Tirio (i)",
+              "votes": 8412,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "McHenry County Treasurer \u2013 Democratic Primary",
+          "party": "Democratic",
+          "precincts_reporting": 0,
+          "total_precincts": 0,
+          "candidates": [
+            {
+              "name": "Amin Karim",
+              "votes": 2841,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "McHenry County Treasurer \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 0,
+          "total_precincts": 0,
+          "candidates": [
+            {
+              "name": "Donna M. Kurtz (i)",
+              "votes": 7903,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "McHenry County Sheriff \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 0,
+          "total_precincts": 0,
+          "candidates": [
+            {
+              "name": "Robb Tadelman (i)",
+              "votes": 9102,
+              "percentage": 100.0
+            }
+          ]
+        },
+        {
+          "contest_name": "McHenry County Board District 7 \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 0,
+          "total_precincts": 0,
+          "candidates": [
+            {
+              "name": "Brian Sager (i)",
+              "votes": 1842,
+              "percentage": 56.1
+            },
+            {
+              "name": "Jeff Schwartz",
+              "votes": 1441,
+              "percentage": 43.9
+            }
+          ]
+        },
+        {
+          "contest_name": "McHenry County Board District 8 \u2013 Republican Primary",
+          "party": "Republican",
+          "precincts_reporting": 0,
+          "total_precincts": 0,
+          "candidates": [
+            {
+              "name": "Larry W. Smith (i)",
+              "votes": 1703,
+              "percentage": 52.4
+            },
+            {
+              "name": "Martin J. Mohr",
+              "votes": 1546,
+              "percentage": 47.6
+            }
+          ]
+        },
+        {
+          "contest_name": "McHenry County Advisory Federal Scholarship Tax Credit",
+          "party": "Non-Partisan",
+          "precincts_reporting": 0,
+          "total_precincts": 0,
+          "candidates": [
+            {
+              "name": "Yes",
+              "votes": 12841,
+              "percentage": 67.2
+            },
+            {
+              "name": "No",
+              "votes": 6263,
+              "percentage": 32.8
             }
           ]
         }
