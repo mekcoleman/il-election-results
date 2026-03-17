@@ -201,10 +201,10 @@
       "rockford_url": "https://results.enr.clarityelections.com/WRC/Rockford",
       "county_clerk_election_id": "126062",
       "county_clerk_web_id": "368652",
-      "rockford_election_id": "UPDATE_ON_ELECTION_DAY",
-      "rockford_web_id": "UPDATE_ON_ELECTION_DAY",
-      "status": "partial_live",
-      "notes": "County Clerk confirmed live: WRC/Winnebago/126062/Web02.368652/. Rockford Board ID still needed — visit results.enr.clarityelections.com/WRC/Rockford. Note: web_id is 368652 (different from other counties' 345435)."
+      "rockford_election_id": "126061",
+      "rockford_web_id": "368652",
+      "status": "live",
+      "notes": "2026 Primary both authorities confirmed live. County Clerk: WRC/Winnebago/126062/Web02.368652/. Rockford Board: WRC/Rockford/126061/Web02.368652/. Both share web_id 368652."
     },
     "Carroll": {
       "platform": "pollresults",

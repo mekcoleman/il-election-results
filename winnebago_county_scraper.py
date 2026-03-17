@@ -66,17 +66,19 @@ class WinnebagoCountyScraper:
     def _fetch_clarity(self, base_url: str, election_id: str, web_id: str,
                        authority_label: str) -> List[Dict]:
         """Fetch and parse contests from one Clarity authority."""
-        summary_url = f"{base_url}/{election_id}/json/en/summary.json"
-        version_url = f"{base_url}/{election_id}/{web_id}/json/en/electionsettings.json"
+        # Winnebago/Rockford use Web02.XXXXXX path format
+        web_path = f"Web02.{web_id}"
+        summary_url = f"{base_url}/{election_id}/{web_path}/json/en/summary.json"
+
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'application/json, text/javascript, */*; q=0.01',
+            'Referer': base_url,
+        }
 
         print(f"  [{authority_label}] Fetching: {summary_url}")
         try:
-            # Some Clarity instances need the web_id in the path
-            resp = self.session.get(summary_url, timeout=20)
-            if resp.status_code == 404:
-                # Try alternate path with web_id
-                summary_url = f"{base_url}/{election_id}/{web_id}/json/en/summary.json"
-                resp = self.session.get(summary_url, timeout=20)
+            resp = self.session.get(summary_url, headers=headers, timeout=20)
             resp.raise_for_status()
             data = resp.json()
         except Exception as e:
