@@ -10,11 +10,12 @@ NOTE: City of Chicago has separate election authority (chicagoelections.gov)
 This scraper handles ONLY the Cook County Clerk portion (suburban Cook County).
 
 Cook County Clerk provides results in two main formats:
-1. Excel/ZIP downloads (most reliable for election night)
-2. Web interface (may have rate limiting/blocks)
+1. Live Excel download (election night 2026): results1124.cookcountyclerkil.gov/Home/SummaryExport
+2. ZIP/Excel archive downloads (precinct canvasses page)
 
-For March 17, 2026 Primary, results URL will be: resultsMMYY.cookcountyclerkil.gov
-(e.g., results0326.cookcountyclerkil.gov for March 2026)
+For March 17, 2026 Primary:
+  Live Excel: https://results1124.cookcountyclerkil.gov/Home/SummaryExport
+  Results site: https://results1124.cookcountyclerkil.gov/
 """
 
 import requests
@@ -28,34 +29,88 @@ from datetime import datetime
 from typing import Dict, List, Optional
 import openpyxl
 
+try:
+    import openpyxl
+    EXCEL_AVAILABLE = True
+except ImportError:
+    EXCEL_AVAILABLE = False
+    print("Warning: openpyxl not installed. Run: pip install openpyxl")
+
 class CookCountyClerkScraper:
     """Scraper for Cook County Clerk election results"""
+
+    # March 17, 2026 Primary — live Excel export (direct download, no ZIP needed)
+    LIVE_EXCEL_URL = 'https://results1124.cookcountyclerkil.gov/Home/SummaryExport'
+    LIVE_RESULTS_SITE = 'https://results1124.cookcountyclerkil.gov/'
     
     def __init__(self, election_code: Optional[str] = None):
         """Initialize scraper
         
         Args:
-            election_code: Election code (e.g., '0326' for March 2026)
-                          If None, must be provided later or use manual download
+            election_code: Legacy election code parameter (no longer used for 2026).
+                          2026 Primary uses LIVE_EXCEL_URL directly.
         """
         self.election_code = election_code or 'UPDATE_ON_ELECTION_DAY'
         self.authority_name = 'Cook County Clerk'
         self.coverage = 'Suburban Cook County (excluding Chicago)'
-        
-        if self.election_code != 'UPDATE_ON_ELECTION_DAY':
-            # Election-specific results site
-            self.results_url = f"https://results{self.election_code}.cookcountyclerkil.gov/"
-        else:
-            self.results_url = None
-            print("⚠️  Election code not set!")
-            print("   On election day, find the results URL at:")
-            print("   https://www.cookcountyclerkil.gov/elections/results-and-election-data/election-results")
-            print("   It will be: resultsMMYY.cookcountyclerkil.gov (e.g., results0326.cookcountyclerkil.gov)")
-            print()
+        self.results_url = self.LIVE_RESULTS_SITE
         
         # Base URLs
         self.base_url = 'https://www.cookcountyclerkil.gov'
         self.data_url = f'{self.base_url}/elections/results-and-election-data/election-data/precinct-canvasses'
+
+    def scrape_live_excel(self) -> Dict:
+        """Scrape results from the live Excel export endpoint.
+        
+        For March 17, 2026 Primary:
+          https://results1124.cookcountyclerkil.gov/Home/SummaryExport
+        
+        Returns:
+            Dictionary with parsed results
+        """
+        if not EXCEL_AVAILABLE:
+            return {
+                'error': 'openpyxl not installed. Run: pip install openpyxl',
+                'authority': self.authority_name,
+                'scraped_at': datetime.now().isoformat()
+            }
+
+        print(f"Scraping {self.authority_name} via live Excel export...")
+        print(f"URL: {self.LIVE_EXCEL_URL}")
+
+        try:
+            response = requests.get(
+                self.LIVE_EXCEL_URL,
+                timeout=60,
+                headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+            )
+            response.raise_for_status()
+
+            workbook = openpyxl.load_workbook(io.BytesIO(response.content), data_only=True)
+            contests = []
+            for sheet_name in workbook.sheetnames:
+                sheet = workbook[sheet_name]
+                contests.extend(self._parse_excel_sheet(sheet, sheet_name))
+
+            results = {
+                'authority': self.authority_name,
+                'coverage': self.coverage,
+                'source': f'Live Excel export — {self.LIVE_EXCEL_URL}',
+                'contests': contests,
+                'scraped_at': datetime.now().isoformat()
+            }
+
+            print(f"✓ Scraped {len(contests)} contests from live Excel")
+            return results
+
+        except requests.RequestException as e:
+            print(f"✗ Error fetching live Excel: {e}")
+            return {
+                'error': str(e),
+                'authority': self.authority_name,
+                'recommendation': 'Try manual download: python cook_county_scraper.py --zip FILE',
+                'scraped_at': datetime.now().isoformat()
+            }
     
     def detect_party(self, contest_name: str) -> str:
         """Detect party affiliation from contest name
@@ -324,21 +379,16 @@ def print_instructions():
     print("  - Suburban Cook County (ALL of Cook County EXCEPT Chicago)")
     print("  - City of Chicago has separate authority: chicagoelections.gov")
     print()
-    print("RECOMMENDED APPROACH: Excel/ZIP Download")
+    print("RECOMMENDED: Live Excel export (election night 2026)")
     print()
-    print("On election night:")
-    print("1. Visit: https://www.cookcountyclerkil.gov/elections/results-and-election-data/election-data/precinct-canvasses")
-    print("2. Download the ZIP file for March 17, 2026 Primary")
-    print("3. Run: python cook_county_scraper.py --zip /path/to/downloaded.zip")
+    print("  python cook_county_scraper.py --live")
     print()
-    print("ALTERNATIVE: Web Scraping")
+    print("  Hits: https://results1124.cookcountyclerkil.gov/Home/SummaryExport")
+    print("  Updates automatically as results come in — re-run every 15 min.")
     print()
-    print("If Excel not yet available, try web interface:")
-    print("1. Find results URL (will be resultsMMYY.cookcountyclerkil.gov)")
-    print("2. Run: python cook_county_scraper.py --code MMYY")
-    print("   Example: python cook_county_scraper.py --code 0326")
+    print("ALTERNATIVE: Manual ZIP download")
     print()
-    print("Note: Web scraping may be blocked. Excel download is most reliable.")
+    print("  python cook_county_scraper.py --zip /path/to/downloaded.zip")
     print()
 
 def main():
@@ -346,24 +396,26 @@ def main():
     import argparse
     
     parser = argparse.ArgumentParser(description='Cook County Clerk Election Results Scraper')
+    parser.add_argument('--live', action='store_true',
+                       help='Fetch live Excel export from results1124.cookcountyclerkil.gov (2026 Primary)')
     parser.add_argument('--zip', help='Path to downloaded ZIP file with Excel results')
-    parser.add_argument('--code', help='Election code (e.g., 0326 for March 2026)')
+    parser.add_argument('--code', help='Legacy: election code (e.g., 0326). Use --live instead for 2026.')
     parser.add_argument('--output', default='.', help='Output directory for JSON results')
     
     args = parser.parse_args()
     
-    if args.zip:
-        # Parse Excel from ZIP
-        scraper = CookCountyClerkScraper()
+    scraper = CookCountyClerkScraper()
+
+    if args.live:
+        results = scraper.scrape_live_excel()
+        scraper.save_results(results, args.output)
+    elif args.zip:
         results = scraper.parse_excel_from_zip(args.zip)
         scraper.save_results(results, args.output)
     elif args.code:
-        # Try web scraping
-        scraper = CookCountyClerkScraper(args.code)
-        results = scraper.scrape_web_results()
-        scraper.save_results(results, args.output)
+        print("⚠️  --code is no longer used for 2026. Use --live instead.")
+        print("   python cook_county_scraper.py --live")
     else:
-        # Show instructions
         print_instructions()
 
 if __name__ == '__main__':

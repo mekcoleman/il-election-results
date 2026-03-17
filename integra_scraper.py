@@ -23,19 +23,22 @@ from typing import Dict, List, Optional
 class IntegraElectionScraper:
     """Scraper for Integra Election Reporting Console platform"""
     
-    # County configurations
+    # County configurations — verified for March 17, 2026 Primary
     COUNTIES = {
         'DeKalb': {
-            'base_url': 'http://dekalb.il.electionconsole.com',
-            'name': 'DeKalb County'
+            'base_url': 'https://platinumelectionresults.com/turnouts/county/66',
+            'name': 'DeKalb County',
+            'format': 'platinum'   # NOT electiontext.php — needs platinum scraper
         },
         'Kendall': {
-            'base_url': 'http://kendall.il.electionconsole.com',
-            'name': 'Kendall County'
+            'base_url': 'https://results.co.kendall.il.us/',
+            'name': 'Kendall County',
+            'format': 'gems_text'  # GEMS dot-format, scrape root URL directly
         },
         'Henry': {
-            'base_url': 'http://henry.il.electionconsole.com',
-            'name': 'Henry County'
+            'base_url': 'https://platinumelectionresults.com/reports/summary/76',
+            'name': 'Henry County',
+            'format': 'platinum'   # On Platinum (county ID 76) per config
         }
     }
     
@@ -52,7 +55,18 @@ class IntegraElectionScraper:
         self.county_key = county_key
         self.county_name = config['name']
         self.base_url = config['base_url']
-        self.text_url = f"{self.base_url}/electiontext.php"
+        self.county_format = config.get('format', 'integra_text')
+
+        if self.county_format == 'platinum':
+            print(f"⚠️  {self.county_name} is on Platinum Election Results, not Integra text format.")
+            print(f"   URL: {self.base_url}")
+            print(f"   The text parser will not work. Use the Platinum/turnout URL directly.")
+            self.text_url = self.base_url
+        elif self.county_format == 'gems_text':
+            # Kendall: GEMS dot-format, root URL serves results directly
+            self.text_url = self.base_url
+        else:
+            self.text_url = f"{self.base_url}/electiontext.php"
         
     def detect_party(self, contest_name: str) -> str:
         """Detect party affiliation from contest name

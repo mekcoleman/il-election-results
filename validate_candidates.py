@@ -54,6 +54,21 @@ WIDGET_FILES = [
     'jhn_widget.html',
 ]
 
+# Each widget only needs to match names from its own county/counties + its supt race
+WIDGET_SCOPE = {
+    'slm_widget.html': {'counties': ['DuPage'],           'supt_id': 'slm_dupage'},
+    'ddc_widget.html': {'counties': ['DeKalb'],           'supt_id': 'ddc_dekalb'},
+    'kdj_widget.html': {'counties': ['Kankakee'],         'supt_id': 'kdj_kankakee'},
+    'svm_widget.html': {'counties': ['Whiteside', 'Carroll', 'Lee', 'Ogle'], 'supt_id': None},
+    'ocn_widget.html': {'counties': ['Ogle'],             'supt_id': None},
+    'ilv_widget.html': {'counties': ['La Salle', 'Bureau', 'Putnam'], 'supt_id': 'ilv_lasalle'},
+    'mhn_widget.html': {'counties': ['Grundy'],           'supt_id': 'mhn_grundy'},
+    'kcc_widget.html': {'counties': ['Kane'],             'supt_id': 'kcc_kane'},
+    'kcn_widget.html': {'counties': ['Kendall'],          'supt_id': 'kcn_kendall'},
+    'nwh_widget.html': {'counties': ['McHenry'],          'supt_id': 'nwh_mchenry'},
+    'jhn_widget.html': {'counties': ['Will'],             'supt_id': 'jhn_will'},
+}
+
 # ── Name normalization ─────────────────────────────────────────────────────────
 
 def normalize(name: str) -> str:
@@ -112,20 +127,23 @@ def parse_pending_candidates(html: str, widget_name: str) -> Dict[str, Set[str]]
 
     return name_map
 
-# ── Extract candidate names from statewide JSON ────────────────────────────────
+# ── Extract candidate names from statewide JSON (scoped to widget) ─────────────
 
-def extract_json_candidates(data: dict) -> List[Tuple[str, str, str, str]]:
+def extract_json_candidates(data: dict, counties: List[str], supt_id: Optional[str]) -> List[Tuple[str, str, str, str]]:
     """
-    Extract all candidate names from the statewide results JSON.
+    Extract candidate names from the statewide results JSON, scoped to only the
+    counties and superintendent race relevant to a specific widget.
     Returns list of (county, contest_name, party, candidate_name) tuples.
     """
     results = []
-
     county_results = data.get('county_results', {})
-    for county, county_data in county_results.items():
-        contests = []
 
-        # Handle all three data shapes
+    for county in counties:
+        county_data = county_results.get(county)
+        if not county_data:
+            continue
+
+        contests = []
         if 'by_party' in county_data:
             for party, bucket in county_data['by_party'].items():
                 for c in bucket.get('contests', []):
@@ -145,13 +163,15 @@ def extract_json_candidates(data: dict) -> List[Tuple[str, str, str, str]]:
                 if cand_name and cand_name.lower() not in ('yes', 'no'):
                     results.append((county, contest_name, party, cand_name))
 
-    # Also check aggregated superintendent races
-    supt_races = (data.get('multi_county_races') or {}).get('regional_superintendents', {})
-    for race_id, race in supt_races.items():
-        for cand in (race.get('candidates') or {}).values():
-            cand_name = cand.get('name', '').strip()
-            if cand_name and cand_name.lower() not in ('yes', 'no'):
-                results.append(('(aggregated)', race.get('label', race_id), race_id, cand_name))
+    # Only check the superintendent race for this specific market
+    if supt_id:
+        supt_races = (data.get('multi_county_races') or {}).get('regional_superintendents', {})
+        race = supt_races.get(supt_id)
+        if race:
+            for cand in (race.get('candidates') or {}).values():
+                cand_name = cand.get('name', '').strip()
+                if cand_name and cand_name.lower() not in ('yes', 'no'):
+                    results.append(('(aggregated)', race.get('label', supt_id), supt_id, cand_name))
 
     return results
 
@@ -179,16 +199,59 @@ def load_local_json(path: str) -> Optional[dict]:
 
 # ── Main validation ───────────────────────────────────────────────────────────
 
+def check_js_syntax(html: str, widget_name: str) -> List[str]:
+    """
+    Check PENDING_CANDIDATES block for common JS syntax errors that will
+    silently break the widget in the browser:
+      - Unescaped apostrophes inside single-quoted strings (e.g. O'Connell)
+      - Unescaped double quotes inside double-quoted strings
+    Returns a list of error descriptions, empty if clean.
+    """
+    errors = []
+
+    match = re.search(
+        r'const\s+PENDING_CANDIDATES\s*=\s*\{(.+?)\n\};',
+        html,
+        re.DOTALL
+    )
+    if not match:
+        return errors
+
+    block = match.group(1)
+    lines = block.split('\n')
+
+    for i, line in enumerate(lines, 1):
+        # Find single-quoted name values and check for unescaped apostrophes
+        # Pattern: name: 'some value' — check interior for unescaped '
+        for m in re.finditer(r"name:\s*'(.*?)'(?:\s*,|\s*})", line):
+            interior = m.group(1)
+            # Look for apostrophe not preceded by backslash
+            if re.search(r"(?<!\\)'", interior):
+                errors.append(
+                    f"  Line {i}: Unescaped apostrophe in single-quoted string: {line.strip()}\n"
+                    f"           Fix: escape as \\' e.g. O\\'Connell, O\\'Meara"
+                )
+
+        # Find double-quoted name values and check for unescaped double quotes
+        for m in re.finditer(r'name:\s*"(.*?)"(?:\s*,|\s*})', line):
+            interior = m.group(1)
+            if re.search(r'(?<!\\)"', interior):
+                errors.append(
+                    f"  Line {i}: Unescaped double quote in double-quoted string: {line.strip()}\n"
+                    f"           Fix: escape as \\\" or switch to single quotes"
+                )
+
+    return errors
+
+
 def validate(widgets_dir: str, json_data: dict) -> bool:
     """
-    Compare all widget PENDING_CANDIDATES against live JSON candidate names.
-    Returns True if all clear, False if any mismatches found.
+    Compare all widget PENDING_CANDIDATES against live JSON candidate names,
+    scoped to each widget's own counties and superintendent race.
+    Also checks for JS syntax errors that would break the widget.
+    Returns True if all clear, False if any mismatches or syntax errors found.
     """
     widgets_path = Path(widgets_dir)
-
-    # Extract all candidates from the JSON once
-    json_candidates = extract_json_candidates(json_data)
-    print(f"  Found {len(json_candidates)} candidate entries in JSON\n")
 
     all_clear = True
     any_widget_found = False
@@ -202,15 +265,29 @@ def validate(widgets_dir: str, json_data: dict) -> bool:
         print(f"── {widget_file} {'─' * max(0, 50 - len(widget_file))}")
 
         html = widget_path.read_text(encoding='utf-8')
+
+        # ── Step 1: JS syntax check ──────────────────────────────────────
+        syntax_errors = check_js_syntax(html, widget_file)
+        if syntax_errors:
+            all_clear = False
+            print(f"  ❌ {len(syntax_errors)} JS syntax error(s) — widget will break in browser:\n")
+            for err in syntax_errors:
+                print(err)
+
+        # ── Step 2: Name matching (scoped to this widget's counties) ─────
+        scope = WIDGET_SCOPE.get(widget_file, {'counties': [], 'supt_id': None})
+        json_candidates = extract_json_candidates(json_data, scope['counties'], scope['supt_id'])
+
         pending_map = parse_pending_candidates(html, widget_file)
 
         if not pending_map:
             print(f"  ⚠️  No PENDING_CANDIDATES found — skipping\n")
             continue
 
-        print(f"  Pending candidates loaded: {len(pending_map)}")
+        counties_str = ', '.join(scope['counties'])
+        print(f"  Scope: {counties_str}")
+        print(f"  Pending candidates: {len(pending_map)} | JSON candidates: {len(json_candidates)}")
 
-        # Find JSON candidates that don't match any pending entry
         mismatches = []
         for county, contest, party, cand_name in json_candidates:
             key = normalize(cand_name)
@@ -228,8 +305,10 @@ def validate(widgets_dir: str, json_data: dict) -> bool:
                 print(f"     County/Party : {county} / {party}")
                 print(f"     Fix          : Add to PENDING_CANDIDATES in {widget_file}")
                 print()
+        elif not syntax_errors:
+            print(f"  ✅ All {len(pending_map)} names matched, no syntax errors\n")
         else:
-            print(f"  ✅ All {len(pending_map)} names matched\n")
+            print(f"  ✅ All {len(pending_map)} names matched (fix syntax errors above)\n")
 
     if not any_widget_found:
         print(f"⚠️  No widget files found in {widgets_dir}")

@@ -33,7 +33,7 @@ class DuPageCountyScraper:
         self.county_code = 'DuPage'
         self.base_url = 'https://www.dupageresults.gov'
         
-        self.election_id = election_id or 'UPDATE_ON_ELECTION_DAY'
+        self.election_id = election_id or '125941'  # March 17, 2026 Primary
         
         if self.election_id == 'UPDATE_ON_ELECTION_DAY':
             print("⚠️  WARNING: Election ID not set!")

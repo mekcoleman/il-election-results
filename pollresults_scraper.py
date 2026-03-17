@@ -1,415 +1,300 @@
 """
 pollresults.net Multi-County Scraper
 Scrapes election results from pollresults.net (Liberty Systems/CSE Software) platform
-Supports 12 Illinois counties: Whiteside, Lee, Ogle, Carroll, Putnam, Vermilion, 
+Supports 13 Illinois counties: Whiteside, Lee, Ogle, Carroll, Putnam, Vermilion,
 Tazewell, Stephenson, Boone, Bureau, Livingston, Ford, Mercer
+
+NOTE: This platform serves plain HTML — no Selenium or JavaScript rendering needed.
+Simple requests + BeautifulSoup is sufficient and much faster.
 """
 
 import requests
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException, NoSuchElementException
+from bs4 import BeautifulSoup
 import json
+import re
 from datetime import datetime
 from typing import Dict, List, Optional
 import time
 import sys
 
 
+# County URL map — all static, no election IDs needed
+COUNTY_URLS = {
+    'Whiteside':  'https://il-whiteside.pollresults.net/',
+    'Lee':        'https://il-lee.pollresults.net/',
+    'Ogle':       'https://il-ogle.pollresults.net/',
+    'Carroll':    'https://il-carroll.pollresults.net/',
+    'Putnam':     'https://il-putnam.pollresults.net/',
+    'Vermilion':  'https://il-vermilion.pollresults.net/',
+    'Tazewell':   'https://il-tazewell.pollresults.net/',
+    'Stephenson': 'https://il-stephenson.pollresults.net/',
+    'Boone':      'https://il-boone.pollresults.net/',
+    'Bureau':     'https://il-bureau.pollresults.net/',
+    'Livingston': 'https://il-livingston.pollresults.net/',
+    'Ford':       'https://il-ford.pollresults.net/',
+    'Mercer':     'https://il-mercer.pollresults.net/',
+}
+
+
 class PollResultsScraper:
-    """Scraper for pollresults.net platform"""
-    
-    def __init__(self, county_name: str, base_url: str, use_selenium: bool = False):
-        """
-        Initialize the scraper
-        
-        Args:
-            county_name: Name of the county
-            base_url: Base URL (e.g., "https://il-whiteside.pollresults.net")
-            use_selenium: Whether to use Selenium for JavaScript-heavy sites
-        """
+    """Scraper for pollresults.net platform (Liberty Systems / CSE Software).
+
+    The platform serves fully-rendered HTML — no JavaScript execution needed.
+    Each contest block follows this pattern:
+
+        D CONTEST NAME
+        Number of Precincts  60
+        Precincts Reporting   0
+        Vote For              1
+        ...
+        CANDIDATE NAME (DEM)  123  45.6%
+        CANDIDATE NAME (DEM)  150  54.4%
+        Results updated at ...
+    """
+
+    HEADERS = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+    }
+
+    def __init__(self, county_name: str, base_url: str):
         self.county_name = county_name
         self.base_url = base_url.rstrip('/')
-        self.use_selenium = use_selenium
-        self.driver = None
-        
-    def init_selenium(self):
-        """Initialize Selenium WebDriver with headless Chrome"""
-        from selenium.webdriver.chrome.options import Options
-        
-        options = Options()
-        options.add_argument('--headless')
-        options.add_argument('--no-sandbox')
-        options.add_argument('--disable-dev-shm-usage')
-        options.add_argument('--disable-gpu')
-        
-        self.driver = webdriver.Chrome(options=options)
-        
-    def close_selenium(self):
-        """Close Selenium WebDriver"""
-        if self.driver:
-            self.driver.quit()
-            self.driver = None
-    
-    def try_json_api(self) -> Optional[Dict]:
-        """
-        Try to fetch results via JSON API endpoints
-        pollresults.net may expose JSON data at common paths
-        """
-        # Common JSON endpoint patterns to try
-        json_endpoints = [
-            '/api/results',
-            '/api/election',
-            '/data/results.json',
-            '/json/summary.json',
-            '/results.json'
-        ]
-        
-        for endpoint in json_endpoints:
-            url = f"{self.base_url}{endpoint}"
-            try:
-                response = requests.get(url, timeout=10)
-                if response.status_code == 200:
-                    data = response.json()
-                    print(f"✅ Found JSON API at {endpoint}")
-                    return data
-            except:
-                continue
-        
-        return None
-    
-    def scrape_with_selenium(self) -> List[Dict]:
-        """
-        Scrape results using Selenium for JavaScript-rendered content
-        
-        Returns:
-            List of contest dictionaries
-        """
-        if not self.driver:
-            self.init_selenium()
-        
-        print(f"Loading page: {self.base_url}")
-        self.driver.get(self.base_url)
-        
-        # Wait for the page to load
+
+    # ── Fetch ─────────────────────────────────────────────────────────────────
+
+    def fetch_page(self) -> Optional[str]:
+        """Fetch the results page HTML."""
         try:
-            WebDriverWait(self.driver, 20).until(
-                EC.presence_of_element_located((By.TAG_NAME, "body"))
-            )
-            
-            # Wait a bit more for Angular to render
-            time.sleep(3)
-            
-        except TimeoutException:
-            print(f"❌ Timeout waiting for page to load")
-            return []
-        
-        # Try to find contests - pollresults.net typically has a list structure
-        contests = []
-        
-        # Look for common element patterns
-        # These are guesses based on typical election result sites
-        contest_selectors = [
-            '.race',
-            '.contest',
-            '[ng-repeat*="race"]',
-            '[ng-repeat*="contest"]',
-            '.election-race',
-            'div[class*="race"]',
-            'div[class*="contest"]'
-        ]
-        
-        for selector in contest_selectors:
-            try:
-                elements = self.driver.find_elements(By.CSS_SELECTOR, selector)
-                if elements:
-                    print(f"Found {len(elements)} elements with selector: {selector}")
-                    contests = self._parse_contest_elements(elements)
-                    if contests:
-                        break
-            except:
-                continue
-        
-        if not contests:
-            # Fallback: parse the entire page HTML
-            print("⚠️  No structured contests found, attempting full page parse...")
-            page_source = self.driver.page_source
-            contests = self._parse_html_fallback(page_source)
-        
-        return contests
-    
-    def _parse_contest_elements(self, elements) -> List[Dict]:
-        """Parse contest elements from Selenium"""
-        contests = []
-        
-        for element in elements:
-            try:
-                contest_data = {
-                    'contest_name': '',
-                    'candidates': [],
-                    'precincts_reporting': 0,
-                    'total_precincts': 0
-                }
-                
-                # Try to extract contest name
-                try:
-                    name_elem = element.find_element(By.CSS_SELECTOR, '.race-name, .contest-name, h3, h4')
-                    contest_data['contest_name'] = name_elem.text.strip()
-                except:
-                    pass
-                
-                # Try to extract candidates
-                candidate_selectors = ['.candidate', '[class*="candidate"]', 'tr', 'li']
-                for selector in candidate_selectors:
-                    try:
-                        candidate_elems = element.find_elements(By.CSS_SELECTOR, selector)
-                        if candidate_elems:
-                            for cand in candidate_elems:
-                                text = cand.text.strip()
-                                if text and len(text) > 3:  # Avoid empty elements
-                                    # Try to parse candidate info
-                                    # Format is usually: "Name - Votes (Percentage)"
-                                    contest_data['candidates'].append({
-                                        'raw_text': text
-                                    })
-                            if contest_data['candidates']:
-                                break
-                    except:
-                        continue
-                
-                if contest_data['contest_name']:
-                    contests.append(contest_data)
-                    
-            except Exception as e:
-                continue
-        
-        return contests
-    
-    def _parse_html_fallback(self, html: str) -> List[Dict]:
-        """
-        Fallback HTML parsing when structured elements aren't found
-        This is a basic implementation - may need refinement based on actual HTML structure
-        """
-        from bs4 import BeautifulSoup
-        
+            resp = requests.get(self.base_url, headers=self.HEADERS, timeout=20)
+            resp.raise_for_status()
+            return resp.text
+        except requests.RequestException as e:
+            print(f"  ✗ [{self.county_name}] Fetch failed: {e}")
+            return None
+
+    # ── Parse ─────────────────────────────────────────────────────────────────
+
+    def parse(self, html: str) -> Dict:
+        """Parse the full page and return structured results."""
         soup = BeautifulSoup(html, 'html.parser')
-        
-        # Extract any text content that looks like election data
-        # This is a very basic fallback
-        text_content = soup.get_text()
-        
-        return [{
-            'note': 'Fallback parsing - manual review needed',
-            'raw_content': text_content[:1000]  # First 1000 chars
-        }]
-    
-    def detect_contest_party(self, contest_name: str) -> str:
-        """Detect party from contest name"""
-        name_upper = contest_name.upper()
-        
-        if 'DEMOCRATIC' in name_upper or 'DEM ' in name_upper:
-            return "Democratic"
-        elif 'REPUBLICAN' in name_upper or 'REP ' in name_upper:
-            return "Republican"
-        
-        return "Non-Partisan"
-    
-    def scrape_all_contests(self) -> List[Dict]:
-        """
-        Main scraping method - tries JSON API first, then falls back to Selenium
-        
-        Returns:
-            List of contest dictionaries
-        """
-        print(f"\n{'='*60}")
-        print(f"Scraping {self.county_name} County")
-        print(f"URL: {self.base_url}")
-        print(f"{'='*60}\n")
-        
-        # Try JSON API first (faster and cleaner)
-        print("Attempting JSON API access...")
-        json_data = self.try_json_api()
-        
-        if json_data:
-            print("✅ Successfully retrieved data via JSON API")
-            # Parse JSON data structure
-            # This will need to be implemented based on actual API structure
-            contests = self._parse_json_response(json_data)
-            return contests
-        
-        print("⚠️  No JSON API found, falling back to Selenium scraping...")
-        
-        # Fallback to Selenium
-        try:
-            contests = self.scrape_with_selenium()
-            return contests
-        finally:
-            self.close_selenium()
-    
-    def _parse_json_response(self, data: Dict) -> List[Dict]:
-        """
-        Parse JSON response from API
-        This will need to be implemented based on actual API structure
-        """
-        # Placeholder - needs actual API structure
+        text = soup.get_text(separator='\n')
+
+        summary = self._parse_summary(text)
+        contests = self._parse_contests(text)
+
+        return {
+            'county': self.county_name,
+            'election_date': '2026-03-17',
+            'scraped_at': datetime.now().isoformat(),
+            'source': f'pollresults.net — {self.base_url}',
+            'summary': summary,
+            'contests': contests,
+        }
+
+    def _parse_summary(self, text: str) -> Dict:
+        summary = {}
+        m = re.search(r'Total Voters:\s*([\d,]+)', text)
+        if m:
+            summary['registered_voters'] = int(m.group(1).replace(',', ''))
+        m = re.search(r'Ballots Cast:\s*([\d,]+)', text)
+        if m:
+            summary['ballots_cast'] = int(m.group(1).replace(',', ''))
+        m = re.search(r'Turnout:\s*([\d.]+)%', text)
+        if m:
+            summary['turnout_percent'] = float(m.group(1))
+        m = re.search(r'Precincts:\s*(\d+)', text)
+        if m:
+            summary['total_precincts'] = int(m.group(1))
+        m = re.search(r'Precincts Reporting:\s*(\d+)', text)
+        if m:
+            summary['precincts_reporting'] = int(m.group(1))
+        return summary
+
+    def _parse_contests(self, text: str) -> List[Dict]:
+        """Split text into contest blocks and parse each one."""
         contests = []
-        
-        # Common JSON structures to look for
-        if 'races' in data:
-            contests = data['races']
-        elif 'contests' in data:
-            contests = data['contests']
-        elif 'results' in data:
-            contests = data['results']
-        
+
+        # Each contest starts with a line like "D CONTEST NAME" or "R CONTEST NAME"
+        # Split on those boundaries
+        # Pattern: line starting with D or R followed by space and uppercase text
+        block_pattern = re.compile(
+            r'^([DR])\s+([A-Z][A-Z0-9\s\(\)\-/,.#]+?)$',
+            re.MULTILINE
+        )
+
+        lines = text.split('\n')
+        # Find all contest header positions
+        contest_starts = []
+        for i, line in enumerate(lines):
+            line = line.strip()
+            m = re.match(r'^([DR])\s+([A-Z][A-Z0-9\s\(\)\-/,.#\']+)$', line)
+            if m and len(line) > 4:
+                # Exclude lines that are clearly not contest names
+                if not any(skip in line for skip in [
+                    'PRECINCTS', 'BALLOTS', 'VOTERS', 'TURNOUT',
+                    'VOTE FOR', 'RESULTS UPDATED', 'UNOFFICIAL'
+                ]):
+                    contest_starts.append((i, m.group(1), m.group(2).strip()))
+
+        # Extract each contest block
+        for idx, (line_num, party_prefix, contest_name) in enumerate(contest_starts):
+            end_line = contest_starts[idx + 1][0] if idx + 1 < len(contest_starts) else len(lines)
+            block_lines = lines[line_num:end_line]
+            contest = self._parse_contest_block(
+                contest_name, party_prefix, block_lines
+            )
+            if contest:
+                contests.append(contest)
+
         return contests
-    
-    def save_to_json(self, contests: List[Dict], filename: str):
-        """Save contests to JSON file"""
-        # Organize by party
-        organized = {
-            "Democratic": [],
-            "Republican": [],
-            "Non-Partisan": []
+
+    def _parse_contest_block(self, name: str, party_prefix: str,
+                              block_lines: List[str]) -> Optional[Dict]:
+        """Parse one contest block into structured data."""
+        block = '\n'.join(block_lines)
+
+        # Determine party from prefix
+        if party_prefix == 'D':
+            party = 'Democratic'
+        elif party_prefix == 'R':
+            party = 'Republican'
+        else:
+            party = 'Non-Partisan'
+
+        # Also check contest name for overrides
+        name_upper = name.upper()
+        if 'NONPARTISAN' in name_upper or 'NON-PARTISAN' in name_upper:
+            party = 'Non-Partisan'
+
+        # Extract precinct info
+        precincts_reporting = 0
+        total_precincts = 0
+        m = re.search(r'Number of Precincts\s+(\d+)', block)
+        if m:
+            total_precincts = int(m.group(1))
+        m = re.search(r'Precincts Reporting\s+(\d+)', block)
+        if m:
+            precincts_reporting = int(m.group(1))
+
+        # Extract vote-for
+        vote_for = 1
+        m = re.search(r'Vote For\s+(\d+)', block)
+        if m:
+            vote_for = int(m.group(1))
+
+        # Parse candidates
+        # Format: CANDIDATE NAME (PARTY)  votes  percent%
+        # or:     NO CANDIDATE (PARTY)
+        candidates = []
+        cand_pattern = re.compile(
+            r'^(.+?)\s+\((DEM|REP|IND|NON|NP|OTH)\)\s+(\d+)\s+([\d.]+)\s*%',
+            re.MULTILINE
+        )
+        for m in cand_pattern.finditer(block):
+            cand_name = m.group(1).strip()
+            cand_party_abbr = m.group(2)
+            votes = int(m.group(3))
+            pct = float(m.group(4))
+
+            # Skip "NO CANDIDATE" entries
+            if cand_name.upper() == 'NO CANDIDATE':
+                continue
+
+            candidates.append({
+                'name': cand_name,
+                'party': cand_party_abbr,
+                'votes': votes,
+                'percent': pct,
+            })
+
+        # Only return contest if it has candidates or is a real race
+        # (skip empty NO CANDIDATE-only contests)
+        return {
+            'name': name,
+            'contest_name': name,
+            'party': party,
+            'party_type': party,
+            'vote_for': vote_for,
+            'precincts_reporting': precincts_reporting,
+            'total_precincts': total_precincts,
+            'candidates': candidates,
         }
-        
-        for contest in contests:
-            party = self.detect_contest_party(contest.get('contest_name', ''))
-            contest['party'] = party
-            organized[party].append(contest)
-        
-        output = {
-            "county": self.county_name,
-            "scrape_time": datetime.now().isoformat(),
-            "election_type": "Primary",
-            "total_contests": len(contests),
-            "contests_by_party": organized,
-            "summary": {
-                "democratic_contests": len(organized["Democratic"]),
-                "republican_contests": len(organized["Republican"]),
-                "non_partisan_contests": len(organized["Non-Partisan"])
+
+    # ── Main entry ────────────────────────────────────────────────────────────
+
+    def scrape(self) -> Dict:
+        """Fetch and parse results. Returns structured dict."""
+        print(f"  Scraping {self.county_name}... ", end='', flush=True)
+        html = self.fetch_page()
+        if not html:
+            return {
+                'county': self.county_name,
+                'error': 'Failed to fetch page',
+                'contests': [],
+                'scraped_at': datetime.now().isoformat(),
             }
-        }
-        
+        result = self.parse(html)
+        print(f"✓ {len(result['contests'])} contests")
+        return result
+
+    def save_results(self, results: Dict, output_dir: str = '.'):
+        filename = f"{output_dir}/{self.county_name.lower()}_results.json"
         with open(filename, 'w') as f:
-            json.dump(output, f, indent=2)
-        
-        print(f"\n✅ Results saved to {filename}")
-        print(f"   - Democratic: {output['summary']['democratic_contests']} contests")
-        print(f"   - Republican: {output['summary']['republican_contests']} contests")
-        print(f"   - Non-Partisan: {output['summary']['non_partisan_contests']} contests")
+            json.dump(results, f, indent=2)
+        print(f"  ✓ Saved to {filename}")
 
 
-def scrape_pollresults_county(county_name: str, config_path: str = 'config.json'):
-    """
-    Scrape election results for a specific pollresults.net county
-    
-    Args:
-        county_name: Name of the county to scrape
-        config_path: Path to configuration file
-        
-    Returns:
-        List of contest results
-    """
-    # Load configuration
-    with open(config_path, 'r') as f:
-        config = json.load(f)
-    
-    county_config = config['counties'].get(county_name)
-    
-    if not county_config:
-        print(f"❌ County '{county_name}' not found in configuration")
+# ── Multi-county helpers ───────────────────────────────────────────────────────
+
+def scrape_pollresults_county(county_name: str, output_dir: str = '.') -> Optional[Dict]:
+    """Scrape a single pollresults.net county by name."""
+    url = COUNTY_URLS.get(county_name)
+    if not url:
+        print(f"✗ Unknown county: {county_name}. Valid: {', '.join(COUNTY_URLS)}")
         return None
-    
-    if county_config.get('platform') != 'pollresults':
-        print(f"❌ County '{county_name}' does not use pollresults.net platform")
-        return None
-    
-    # Initialize scraper
-    scraper = PollResultsScraper(
-        county_name=county_name,
-        base_url=county_config['base_url']
-    )
-    
-    # Scrape contests
-    contests = scraper.scrape_all_contests()
-    
-    # Save to JSON
-    if contests:
-        filename = f"{county_name.lower()}_results.json"
-        scraper.save_to_json(contests, filename)
-    
-    return contests
+    scraper = PollResultsScraper(county_name, url)
+    results = scraper.scrape()
+    scraper.save_results(results, output_dir)
+    return results
 
 
-def scrape_all_pollresults_counties(config_path: str = 'config.json'):
-    """
-    Scrape all counties that use pollresults.net platform
-    
-    Args:
-        config_path: Path to configuration file
-        
-    Returns:
-        Dictionary mapping county names to their results
-    """
-    # Load configuration
-    with open(config_path, 'r') as f:
-        config = json.load(f)
-    
-    # Find all pollresults counties
-    pollresults_counties = []
-    for county_name, county_config in config['counties'].items():
-        if county_config.get('platform') == 'pollresults':
-            pollresults_counties.append(county_name)
-    
+def scrape_all_pollresults_counties(output_dir: str = '.') -> Dict:
+    """Scrape all 13 pollresults.net counties."""
     print(f"\n{'='*60}")
-    print(f"Found {len(pollresults_counties)} counties using pollresults.net:")
-    print(f"{'='*60}")
-    for county in sorted(pollresults_counties):
-        print(f"  - {county}")
-    print()
-    
-    # Scrape each county
+    print(f"pollresults.net Scraper — {len(COUNTY_URLS)} counties")
+    print(f"{'='*60}\n")
+
     all_results = {}
-    for county_name in sorted(pollresults_counties):
-        try:
-            results = scrape_pollresults_county(county_name, config_path)
-            if results:
-                all_results[county_name] = results
-            print()  # Blank line between counties
-        except Exception as e:
-            print(f"❌ Error scraping {county_name}: {e}\n")
-            continue
-    
-    # Print summary
+    failed = []
+
+    for county_name, url in COUNTY_URLS.items():
+        scraper = PollResultsScraper(county_name, url)
+        results = scraper.scrape()
+        if 'error' in results:
+            failed.append(county_name)
+        else:
+            scraper.save_results(results, output_dir)
+            all_results[county_name] = results
+        time.sleep(0.5)  # polite pause between requests
+
     print(f"\n{'='*60}")
-    print(f"Scraping Complete")
-    print(f"{'='*60}")
-    print(f"Successfully scraped {len(all_results)} of {len(pollresults_counties)} counties")
-    for county, results in sorted(all_results.items()):
-        print(f"  ✅ {county}: {len(results)} contests")
-    
+    print(f"Done: {len(all_results)} succeeded, {len(failed)} failed")
+    if failed:
+        print(f"Failed: {', '.join(failed)}")
+    print(f"{'='*60}\n")
+
     return all_results
 
 
-if __name__ == "__main__":
-    print("""
-╔════════════════════════════════════════════════════════════╗
-║     pollresults.net Scraper for Illinois Elections        ║
-║                                                            ║
-║  Covers 12 counties: Whiteside, Lee, Ogle, Carroll,       ║
-║  Putnam, Vermilion, Tazewell, Stephenson, Boone,          ║
-║  Bureau, Livingston, Ford, Mercer                          ║
-╚════════════════════════════════════════════════════════════╝
-    """)
-    
-    # Check for command line arguments
+if __name__ == '__main__':
     if len(sys.argv) > 1:
-        # Scrape specific county
         county_name = sys.argv[1]
-        scrape_pollresults_county(county_name)
+        # Handle case-insensitive input
+        match = {k.lower(): k for k in COUNTY_URLS}.get(county_name.lower())
+        if not match:
+            print(f"Unknown county: {county_name}")
+            print(f"Valid options: {', '.join(COUNTY_URLS)}")
+            sys.exit(1)
+        scrape_pollresults_county(match)
     else:
-        # Scrape all pollresults counties
         scrape_all_pollresults_counties()
