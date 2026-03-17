@@ -43,11 +43,10 @@ class DuPageCountyScraper:
             print("   Extract and use that ELECTION_ID")
             print()
         
-        # Construct API endpoints
         if self.election_id != 'UPDATE_ON_ELECTION_DAY':
-            self.summary_url = f"{self.base_url}/{self.state_code}/{self.county_code}/{self.election_id}/json/en/summary.json"
-            self.electionsettings_url = f"{self.base_url}/{self.state_code}/{self.county_code}/{self.election_id}/json/en/electionsettings.json"
-            self.results_base = f"{self.base_url}/{self.state_code}/{self.county_code}/{self.election_id}/json/en"
+            self.summary_url = f"{self.base_url}/{self.state_code}/{self.county_code}/{self.election_id}/web.345435/json/en/summary.json"
+            self.electionsettings_url = f"{self.base_url}/{self.state_code}/{self.county_code}/{self.election_id}/web.345435/json/en/electionsettings.json"
+            self.results_base = f"{self.base_url}/{self.state_code}/{self.county_code}/{self.election_id}/web.345435/json/en"
     
     def detect_party(self, contest_name: str) -> str:
         """Detect party affiliation from contest name
@@ -126,7 +125,12 @@ class DuPageCountyScraper:
         
         try:
             # Fetch summary results
-            response = requests.get(self.summary_url, timeout=30)
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                'Accept': 'application/json, text/javascript, */*; q=0.01',
+                'Referer': self.base_url,
+            }
+            response = requests.get(self.summary_url, headers=headers, timeout=30)
             response.raise_for_status()
             
             data = response.json()

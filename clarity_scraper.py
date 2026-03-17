@@ -29,13 +29,18 @@ class ClarityElectionsScraper:
         self.election_id = election_id
         self.web_id = web_id
         self.county_name = county_name
-        self.json_base = f"{base_url}/{election_id}/{web_id}/json/en"
+        self.json_base = f"{base_url}/{election_id}/web.{web_id}/json/en"
         
     def fetch_json(self, endpoint: str) -> Optional[Dict]:
         """Fetch JSON data from an endpoint"""
         url = f"{self.json_base}/{endpoint}"
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'application/json, text/javascript, */*; q=0.01',
+            'Referer': self.base_url,
+        }
         try:
-            response = requests.get(url, timeout=10)
+            response = requests.get(url, headers=headers, timeout=10)
             response.raise_for_status()
             return response.json()
         except requests.exceptions.RequestException as e:

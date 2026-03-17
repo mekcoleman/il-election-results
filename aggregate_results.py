@@ -42,7 +42,7 @@ class MultiCountyAggregator:
             races_file: Path to Excel file with multi-county race mappings
         """
         self.results_dir = Path(results_dir)
-        self.races_file = races_file or "/mnt/project/2026_races.xlsx"
+        self.races_file = races_file or os.path.join(os.path.dirname(os.path.abspath(__file__)), "2026_races.xlsx")
         
         # Load multi-county race mappings
         self.race_mappings = self._load_race_mappings()

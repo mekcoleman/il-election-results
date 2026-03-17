@@ -113,36 +113,31 @@ class PollResultsScraper:
     def _parse_contests(self, text: str) -> List[Dict]:
         """Split text into contest blocks and parse each one."""
         contests = []
+        lines = [l.strip() for l in text.split('\n')]
 
-        # Each contest starts with a line like "D CONTEST NAME" or "R CONTEST NAME"
-        # Split on those boundaries
-        # Pattern: line starting with D or R followed by space and uppercase text
-        block_pattern = re.compile(
-            r'^([DR])\s+([A-Z][A-Z0-9\s\(\)\-/,.#]+?)$',
-            re.MULTILINE
-        )
-
-        lines = text.split('\n')
         # Find all contest header positions
+        # Headers look like: "D UNITED STATES SENATOR" or "R COUNTY CLERK"
         contest_starts = []
         for i, line in enumerate(lines):
-            line = line.strip()
-            m = re.match(r'^([DR])\s+([A-Z][A-Z0-9\s\(\)\-/,.#\']+)$', line)
-            if m and len(line) > 4:
-                # Exclude lines that are clearly not contest names
-                if not any(skip in line for skip in [
+            m = re.match(r'^([DR])\s+([A-Z][A-Z0-9\s\(\)\-/,\.#\'&]+)$', line)
+            if m:
+                name = m.group(2).strip()
+                # Skip obvious non-contest lines
+                if any(skip in name for skip in [
                     'PRECINCTS', 'BALLOTS', 'VOTERS', 'TURNOUT',
-                    'VOTE FOR', 'RESULTS UPDATED', 'UNOFFICIAL'
+                    'VOTE FOR', 'RESULTS UPDATED', 'UNOFFICIAL',
+                    'POLLING', 'EARLY', 'PROVISIONAL'
                 ]):
-                    contest_starts.append((i, m.group(1), m.group(2).strip()))
+                    continue
+                if len(name) < 4:
+                    continue
+                contest_starts.append((i, m.group(1), name))
 
         # Extract each contest block
         for idx, (line_num, party_prefix, contest_name) in enumerate(contest_starts):
             end_line = contest_starts[idx + 1][0] if idx + 1 < len(contest_starts) else len(lines)
             block_lines = lines[line_num:end_line]
-            contest = self._parse_contest_block(
-                contest_name, party_prefix, block_lines
-            )
+            contest = self._parse_contest_block(contest_name, party_prefix, block_lines)
             if contest:
                 contests.append(contest)
 
@@ -153,7 +148,7 @@ class PollResultsScraper:
         """Parse one contest block into structured data."""
         block = '\n'.join(block_lines)
 
-        # Determine party from prefix
+        # Determine party
         if party_prefix == 'D':
             party = 'Democratic'
         elif party_prefix == 'R':
@@ -161,54 +156,84 @@ class PollResultsScraper:
         else:
             party = 'Non-Partisan'
 
-        # Also check contest name for overrides
         name_upper = name.upper()
         if 'NONPARTISAN' in name_upper or 'NON-PARTISAN' in name_upper:
             party = 'Non-Partisan'
 
         # Extract precinct info
-        precincts_reporting = 0
         total_precincts = 0
+        precincts_reporting = 0
+        vote_for = 1
+
+        # "Number of Precincts\n60" or "Number of Precincts  60"
         m = re.search(r'Number of Precincts\s+(\d+)', block)
         if m:
             total_precincts = int(m.group(1))
         m = re.search(r'Precincts Reporting\s+(\d+)', block)
         if m:
             precincts_reporting = int(m.group(1))
-
-        # Extract vote-for
-        vote_for = 1
         m = re.search(r'Vote For\s+(\d+)', block)
         if m:
             vote_for = int(m.group(1))
 
         # Parse candidates
-        # Format: CANDIDATE NAME (PARTY)  votes  percent%
-        # or:     NO CANDIDATE (PARTY)
+        # The actual format from the page is:
+        # "CANDIDATE NAME (DEM)\n123\n45.6 %"   (split across lines)
+        # or "CANDIDATE NAME (DEM)123 45.6%"    (on one line)
         candidates = []
-        cand_pattern = re.compile(
-            r'^(.+?)\s+\((DEM|REP|IND|NON|NP|OTH)\)\s+(\d+)\s+([\d.]+)\s*%',
+
+        # Try single-line format first: NAME (PARTY)  votes  pct%
+        single_line = re.compile(
+            r'^(.+?)\s+\((DEM|REP|IND|NON|NP)\)\s+(\d+)\s+([\d.]+)\s*%',
             re.MULTILINE
         )
-        for m in cand_pattern.finditer(block):
+        for m in single_line.finditer(block):
             cand_name = m.group(1).strip()
-            cand_party_abbr = m.group(2)
-            votes = int(m.group(3))
-            pct = float(m.group(4))
-
-            # Skip "NO CANDIDATE" entries
             if cand_name.upper() == 'NO CANDIDATE':
                 continue
-
             candidates.append({
                 'name': cand_name,
-                'party': cand_party_abbr,
-                'votes': votes,
-                'percent': pct,
+                'party': m.group(2),
+                'votes': int(m.group(3)),
+                'percent': float(m.group(4)),
             })
 
-        # Only return contest if it has candidates or is a real race
-        # (skip empty NO CANDIDATE-only contests)
+        # If no single-line matches, try multi-line format
+        # NAME (PARTY)\nvotes\npct %
+        if not candidates:
+            multi_line = re.compile(
+                r'^(.+?)\s+\((DEM|REP|IND|NON|NP)\)\s*\n(\d+)\s*\n([\d.]+)\s*%',
+                re.MULTILINE
+            )
+            for m in multi_line.finditer(block):
+                cand_name = m.group(1).strip()
+                if cand_name.upper() == 'NO CANDIDATE':
+                    continue
+                candidates.append({
+                    'name': cand_name,
+                    'party': m.group(2),
+                    'votes': int(m.group(3)),
+                    'percent': float(m.group(4)),
+                })
+
+        # Also try the compact format seen in Whiteside:
+        # "KEVIN RYAN (DEM)\n\n0\n\n0%"
+        if not candidates:
+            compact = re.compile(
+                r'([A-Z][A-Z\s\.\,\-\/\']+?)\s+\((DEM|REP|IND|NON|NP)\)\s*[\n\s]+(\d+)\s*[\n\s]+([\d.]+)\s*%',
+                re.MULTILINE
+            )
+            for m in compact.finditer(block):
+                cand_name = m.group(1).strip()
+                if cand_name.upper() == 'NO CANDIDATE':
+                    continue
+                candidates.append({
+                    'name': cand_name,
+                    'party': m.group(2),
+                    'votes': int(m.group(3)),
+                    'percent': float(m.group(4)),
+                })
+
         return {
             'name': name,
             'contest_name': name,
