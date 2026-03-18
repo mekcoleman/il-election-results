@@ -75,12 +75,93 @@ class PollResultsScraper:
     # ── Parse ─────────────────────────────────────────────────────────────────
 
     def parse(self, html: str) -> Dict:
-        """Parse the full page and return structured results."""
+        """Parse the full page — extracts JSON from embedded var electionData = {...}"""
+        # The page embeds all data as a JS variable in a <script> tag
+        # var electionData = {"Races":[...], "Election":{...}};
+        m = re.search(r'var electionData\s*=\s*(\{.*?\});\s*\n', html, re.DOTALL)
+        if m:
+            try:
+                data = json.loads(m.group(1))
+                return self._parse_json_data(data)
+            except json.JSONDecodeError:
+                pass
+
+        # Fallback: try text parsing
         soup = BeautifulSoup(html, 'html.parser')
         text = soup.get_text(separator='\n')
-
         summary = self._parse_summary(text)
         contests = self._parse_contests(text)
+        return {
+            'county': self.county_name,
+            'election_date': '2026-03-17',
+            'scraped_at': datetime.now().isoformat(),
+            'source': f'pollresults.net — {self.base_url}',
+            'summary': summary,
+            'contests': contests,
+        }
+
+    def _parse_json_data(self, data: Dict) -> Dict:
+        """Parse the structured JSON embedded in the page."""
+        election = data.get('Election', {})
+        races = data.get('Races', [])
+
+        # Summary stats
+        stats = election.get('ElectionStats', [{}])
+        overall = stats[0] if stats else {}
+        summary = {
+            'registered_voters': overall.get('TotalVoters', 0),
+            'ballots_cast': overall.get('TotalBallotsCast', 0),
+            'turnout_percent': overall.get('TotalTurnoutPercent', 0),
+            'total_precincts': overall.get('TotalPrecincts', 0),
+            'precincts_reporting': election.get('PrecinctsCounted', 0),
+        }
+
+        contests = []
+        for race in races:
+            race_name = race.get('RaceName', '')
+            if not race_name:
+                continue
+
+            # Determine party from race name prefix (D/R) or NP
+            party = 'Non-Partisan'
+            if race_name.startswith('D '):
+                party = 'Democratic'
+                contest_name = race_name[2:].strip()
+            elif race_name.startswith('R '):
+                party = 'Republican'
+                contest_name = race_name[2:].strip()
+            else:
+                contest_name = race_name.strip()
+
+            race_stats = race.get('Stats', {})
+            candidates_raw = race.get('Candidates', [])
+
+            candidates = []
+            for c in candidates_raw:
+                cname = c.get('CandidateName', '')
+                if not cname or cname.upper() == 'NO CANDIDATE':
+                    continue
+                votes = c.get('TotalVotesForCandidate')
+                pct = c.get('PercentVotesForCandidate')
+                if votes is None:
+                    continue
+                candidates.append({
+                    'name': cname,
+                    'party': party,
+                    'votes': int(votes),
+                    'percent': float(pct) if pct is not None else 0.0,
+                })
+
+            contests.append({
+                'name': contest_name,
+                'party': party,
+                'vote_for': race_stats.get('VoteFor', 1),
+                'precincts_reporting': race_stats.get('PrecinctsReportingCount', 0),
+                'total_precincts': race_stats.get('PrecinctsTotalCount', 0),
+                'ballots_cast': race_stats.get('BallotsCount', 0),
+                'registered_voters': race_stats.get('PrecinctsRegisteredVoterCount', 0),
+                'candidates': candidates,
+            })
 
         return {
             'county': self.county_name,

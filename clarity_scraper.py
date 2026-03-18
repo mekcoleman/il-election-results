@@ -66,7 +66,7 @@ class ClarityElectionsScraper:
             "Democratic", "Republican", or "Non-Partisan"
         """
         contest_name = contest.get('C', '').upper()
-        contest_type = contest.get('T', '').upper()
+        contest_type = str(contest.get('T', '')).upper()
         
         # Check for party indicators in contest name
         if 'DEMOCRATIC' in contest_name or 'DEM ' in contest_name:
