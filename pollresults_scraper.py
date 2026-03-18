@@ -117,12 +117,13 @@ class PollResultsScraper:
 
         # Find all contest header positions
         # Headers look like: "D UNITED STATES SENATOR" or "R COUNTY CLERK"
+        # or referendum: "LEE COUNTY FEDERAL SCHOLARSHIP TAX CREDIT ADVISORY REFERENDUM"
         contest_starts = []
         for i, line in enumerate(lines):
+            # D/R party contests
             m = re.match(r'^([DR])\s+([A-Z][A-Z0-9\s\(\)\-/,\.#\'&]+)$', line)
             if m:
                 name = m.group(2).strip()
-                # Skip obvious non-contest lines
                 if any(skip in name for skip in [
                     'PRECINCTS', 'BALLOTS', 'VOTERS', 'TURNOUT',
                     'VOTE FOR', 'RESULTS UPDATED', 'UNOFFICIAL',
@@ -132,6 +133,20 @@ class PollResultsScraper:
                 if len(name) < 4:
                     continue
                 contest_starts.append((i, m.group(1), name))
+                continue
+
+            # Referendum contests (no D/R prefix, all caps, long name)
+            if (re.match(r'^[A-Z][A-Z0-9\s\(\)\-/,\.#\'&]+$', line)
+                    and len(line) > 15
+                    and not any(skip in line for skip in [
+                        'PRECINCTS', 'BALLOTS', 'VOTERS', 'TURNOUT',
+                        'VOTE FOR', 'RESULTS UPDATED', 'UNOFFICIAL',
+                        'POLLING', 'EARLY', 'PROVISIONAL', 'STATISTICS',
+                        'GENERAL PRIMARY', 'SELECTED', 'PRECINCTS REPORTING',
+                        'NUMBER OF', 'REGISTERED', 'TOTAL VOTES', 'TOTAL VOTERS'
+                    ])
+                    and not re.match(r'^[DR]\s+', line)):
+                contest_starts.append((i, 'NP', line.strip()))
 
         # Extract each contest block
         for idx, (line_num, party_prefix, contest_name) in enumerate(contest_starts):
@@ -177,60 +192,57 @@ class PollResultsScraper:
             vote_for = int(m.group(1))
 
         # Parse candidates
-        # The actual format from the page is:
-        # "CANDIDATE NAME (DEM)\n123\n45.6 %"   (split across lines)
-        # or "CANDIDATE NAME (DEM)123 45.6%"    (on one line)
+        # Live format (no spaces): "KEVIN RYAN (DEM)667.17 %"
+        # or: "RAJA KRISHNAMOORTHI (DEM)39042.39 %"
+        # or: "YES128962.63 %"  (referenda)
+        # or: "NO CANDIDATE (DEM)" (no votes)
         candidates = []
 
-        # Try single-line format first: NAME (PARTY)  votes  pct%
-        single_line = re.compile(
-            r'^(.+?)\s+\((DEM|REP|IND|NON|NP)\)\s+(\d+)\s+([\d.]+)\s*%',
+        # Primary pattern: NAME (PARTY)votes pct %
+        # Works when votes and pct are jammed right after the closing paren
+        cand_nospace = re.compile(
+            r'^(.+?)\s+\((DEM|REP|IND|NON|NP|LIB|GRN)\)(\d[\d,]*)([\d.]+)\s*%',
             re.MULTILINE
         )
-        for m in single_line.finditer(block):
+        for m in cand_nospace.finditer(block):
             cand_name = m.group(1).strip()
             if cand_name.upper() == 'NO CANDIDATE':
                 continue
             candidates.append({
                 'name': cand_name,
                 'party': m.group(2),
-                'votes': int(m.group(3)),
+                'votes': int(m.group(3).replace(',', '')),
                 'percent': float(m.group(4)),
             })
 
-        # If no single-line matches, try multi-line format
-        # NAME (PARTY)\nvotes\npct %
+        # Referendum pattern: "YES128962.63 %" or "NO76937.37 %"
         if not candidates:
-            multi_line = re.compile(
-                r'^(.+?)\s+\((DEM|REP|IND|NON|NP)\)\s*\n(\d+)\s*\n([\d.]+)\s*%',
+            ref_pattern = re.compile(
+                r'^(YES|NO)(\d[\d,]*)([\d.]+)\s*%',
                 re.MULTILINE
             )
-            for m in multi_line.finditer(block):
-                cand_name = m.group(1).strip()
-                if cand_name.upper() == 'NO CANDIDATE':
-                    continue
+            for m in ref_pattern.finditer(block):
                 candidates.append({
-                    'name': cand_name,
-                    'party': m.group(2),
-                    'votes': int(m.group(3)),
-                    'percent': float(m.group(4)),
+                    'name': m.group(1),
+                    'party': '',
+                    'votes': int(m.group(2).replace(',', '')),
+                    'percent': float(m.group(3)),
                 })
 
-        # Also try the compact format seen in Whiteside:
-        # "KEVIN RYAN (DEM)\n\n0\n\n0%"
+        # Fallback: spaced format "NAME (PARTY)  votes  pct%"
         if not candidates:
-            compact = re.compile(
-                r'([A-Z][A-Z\s\.\,\-\/\']+?)\s+\((DEM|REP|IND|NON|NP)\)\s*[\n\s]+(\d+)\s*[\n\s]+([\d.]+)\s*%',
+            spaced = re.compile(
+                r'^(.+?)\s+\((DEM|REP|IND|NON|NP|LIB|GRN)\)\s+(\d[\d,]*)\s+([\d.]+)\s*%',
                 re.MULTILINE
             )
-            for m in compact.finditer(block):
+            for m in spaced.finditer(block):
                 cand_name = m.group(1).strip()
                 if cand_name.upper() == 'NO CANDIDATE':
                     continue
                 candidates.append({
                     'name': cand_name,
                     'party': m.group(2),
-                    'votes': int(m.group(3)),
+                    'votes': int(m.group(3).replace(',', '')),
                     'percent': float(m.group(4)),
                 })
 

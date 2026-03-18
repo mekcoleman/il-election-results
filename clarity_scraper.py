@@ -29,7 +29,7 @@ class ClarityElectionsScraper:
         self.election_id = election_id
         self.web_id = web_id
         self.county_name = county_name
-        self.json_base = f"{base_url}/{election_id}/web.{web_id}/json/en"
+        self.json_base = f"{base_url}/{election_id}/{web_id}/json/en"
         
     def fetch_json(self, endpoint: str) -> Optional[Dict]:
         """Fetch JSON data from an endpoint"""

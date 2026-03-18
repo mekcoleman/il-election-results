@@ -44,9 +44,9 @@ class DuPageCountyScraper:
             print()
         
         if self.election_id != 'UPDATE_ON_ELECTION_DAY':
-            self.summary_url = f"{self.base_url}/{self.state_code}/{self.county_code}/{self.election_id}/en/summary.json"
-            self.electionsettings_url = f"{self.base_url}/{self.state_code}/{self.county_code}/{self.election_id}/en/electionsettings.json"
-            self.results_base = f"{self.base_url}/{self.state_code}/{self.county_code}/{self.election_id}/en"
+            self.summary_url = f"{self.base_url}/{self.state_code}/{self.county_code}/{self.election_id}/368878/json/en/summary.json"
+            self.electionsettings_url = f"{self.base_url}/{self.state_code}/{self.county_code}/{self.election_id}/368878/json/en/electionsettings.json"
+            self.results_base = f"{self.base_url}/{self.state_code}/{self.county_code}/{self.election_id}/368878/json/en"
     
     def detect_party(self, contest_name: str) -> str:
         """Detect party affiliation from contest name

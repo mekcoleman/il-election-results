@@ -1,0 +1,1147 @@
+{
+  "county": "Iroquois",
+  "election_date": "2026-03-17",
+  "source": "Iroquois County Elections PDF",
+  "pdf_url": "https://irocounty.webfoot-designs.com/wp-content/uploads/2026/03/CUMULATIVE-RESULTS-CONDENSED-3-17-2026-05-03-19-PM.pdf",
+  "scraped_at": "2026-03-17T19:19:40.163209",
+  "metadata": {
+    "precincts_reporting": 0,
+    "total_precincts": 37
+  },
+  "contests": [
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 37,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "ADAM DELGADO (W) 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 37,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "(CHRISTIAN MITCHELL",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 37,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "KWAME RAOUL 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 37,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "ALEXI GIANNOULIAS 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 37,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "MARGARET CROKE 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 37,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "MICHAEL W. FRERICHS 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 37,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "ADAL REGIS 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 37,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "ROBIN KELLY 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 37,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "MARGARET \"PEGGY\" O'CONNELL 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 37,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "JEANNIE EVANS 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 37,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "(CHRISTINA NEITZKE-TROIKE",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 37,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "ANDY WILLIAMS JR (W) 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 37,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "DIANE M. HARRIS 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 37,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "BRYAN DREW 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 37,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "MAX SOLOMON (W) 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 37,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "MICHAEL SCOTT NOACK 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 37,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CHRIS BALKEMA 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 37,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "JASON R. BUNTING 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 37,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "BREEIN B. SUVER 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 37,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "KURT ALBERS 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 37,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CLINTON J. PERZEE 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 5,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "JON KELLY 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 4,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "MOLLY ALLEN 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 37,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "PATRICIA HIGH 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 4,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "AARON HIRD 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 9,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "NANCY OWENS 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 9,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CHRIS PHEIFER 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 11,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "BRENT SINN 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 8,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "KEVIN W BOHLMANN 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 37,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "MARK SENAK 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 1,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "LYLE BEHRENDS 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 1,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "JEFFREY P SENFFNER 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 1,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "RANDALL BERNS 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 1,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "JODY L. MUNSTERMAN 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 1,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "RAYMOND JOSEPH WILLIAMS 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 1,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "CHRISTOPHER BROWN 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 1,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "MITCHELL BENCE 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 1,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "JOSEPH C MONACK 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 1,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "DANIEL HUSE 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 1,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "KATHLEEN J PERKINSON 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 1,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "NO 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Counted Total Percent Ballots Registered Percent",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "0",
+          "votes": 8,
+          "percent": 0.0
+        }
+      ]
+    },
+    {
+      "name": "NO 0 0.00% 0 0.00% 0 0.00% 0 0.00%",
+      "party": "Non-Partisan",
+      "candidates": [
+        {
+          "name": "Undervotes:",
+          "votes": 0,
+          "percent": 0.0
+        },
+        {
+          "name": "Overvotes:",
+          "votes": 0,
+          "percent": 0.0
+        }
+      ]
+    }
+  ]
+}
