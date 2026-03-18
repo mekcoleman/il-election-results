@@ -18,10 +18,10 @@
       "county_clerk_url": "https://results1124.cookcountyclerkil.gov/",
       "county_clerk_excel_export": "https://results1124.cookcountyclerkil.gov/Home/SummaryExport",
       "county_clerk_platform": "custom_excel_live",
-      "chicago_url": "https://chicagoelections.gov/",
-      "chicago_platform": "custom_pdf",
+      "chicago_url": "https://results.chicagoelections.gov/results/ElectionSummary.html",
+      "chicago_platform": "custom_html",
       "status": "configured",
-      "notes": "2026 Primary: Cook Clerk live Excel at results1124.cookcountyclerkil.gov/Home/SummaryExport. Run: python cook_county_scraper.py --live. Chicago Board separate — needs PDF URL from chicagoelections.gov."
+      "notes": "2026 Primary: Cook Clerk live Excel at results1124.cookcountyclerkil.gov/Home/SummaryExport. Run: python3 cook_county_scraper.py --live. Chicago Board HTML (NOT PDF this cycle) at results.chicagoelections.gov/results/ElectionSummary.html. Run: python3 chicago_board_scraper.py"
     },
     "DuPage": {
       "platform": "scytl",
@@ -82,9 +82,9 @@
     "Iroquois": {
       "platform": "custom_pdf",
       "base_url": "https://irocounty.webfoot-designs.com",
-      "pdf_url": "https://irocounty.webfoot-designs.com/wp-content/uploads/2026/03/Cumulative-Results-3-17-2026-05-27-27-AM.pdf",
+      "pdf_url": "https://irocounty.webfoot-designs.com/wp-content/uploads/2026/03/CUMULATIVE-RESULTS-CONDENSED-3-17-2026-05-03-19-PM.pdf",
       "status": "live",
-      "notes": "2026 Primary PDF live (Cumulative Results format, similar to Fulton). Run: python iroquois_county_scraper.py --url https://irocounty.webfoot-designs.com/wp-content/uploads/2026/03/Cumulative-Results-3-17-2026-05-27-27-AM.pdf. Note: PDF filename includes timestamp — may update with new file as results come in."
+      "notes": "2026 Primary PDF live. ⚠️ Each update is a NEW file with timestamp in name — check wp-content/uploads/2026/03/ for newer files. Run: python3 iroquois_county_scraper.py --url [LATEST_URL]"
     },
     "Livingston": {
       "platform": "pollresults",
