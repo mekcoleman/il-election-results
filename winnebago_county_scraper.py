@@ -66,8 +66,8 @@ class WinnebagoCountyScraper:
     def _fetch_clarity(self, base_url: str, election_id: str, web_id: str,
                        authority_label: str) -> List[Dict]:
         """Fetch and parse contests from one Clarity authority."""
-        # Standard Clarity JSON path: election_id/web_id/json/en/
-        web_path = web_id
+        # WRC (Winnebago/Rockford) uses Web02.XXXXX path format
+        web_path = f"Web02.{web_id}"
         summary_url = f"{base_url}/{election_id}/{web_path}/json/en/summary.json"
 
         headers = {

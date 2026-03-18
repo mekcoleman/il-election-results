@@ -185,7 +185,11 @@ class DuPageCountyScraper:
         
         # Extract contests
         # Scytl can have contests at various levels in the JSON
-        contests_data = data.get('Contests') or data.get('contests') or []
+        # summary.json may be a list directly or a dict with Contests key
+        if isinstance(data, list):
+            contests_data = data
+        else:
+            contests_data = data.get('Contests') or data.get('contests') or []
         
         for contest in contests_data:
             parsed_contest = self._parse_scytl_contest(contest)

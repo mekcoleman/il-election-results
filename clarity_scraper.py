@@ -131,7 +131,7 @@ class ClarityElectionsScraper:
             return []
         
         contests = []
-        all_contests = summary.get('Contests', [])
+        all_contests = summary if isinstance(summary, list) else summary.get('Contests', [])
         
         print(f"Found {len(all_contests)} contests")
         
