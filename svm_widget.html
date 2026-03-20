@@ -1,0 +1,1179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sauk Valley Primary Results – March 17, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  /* ── Reset & base ─────────────────────────────────────────── */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --cyan:       #17a2b8;
+    --cyan-dark:  #0f7a8a;
+    --cyan-light: #e8f7fa;
+    --ink:        #1a1a2e;
+    --ink-mid:    #444;
+    --ink-light:  #777;
+    --rule:       #e0e0e0;
+    --bg:         #f9f9f9;
+    --white:      #ffffff;
+    --dem:        #17a2b8;
+    --rep:        #c0392b;
+    --np:         #6c757d;
+    --win-glow:   rgba(23,162,184,0.13);
+    --font:       'Nunito Sans', sans-serif;
+    --radius:     6px;
+  }
+
+  body {
+    font-family: var(--font);
+    background: var(--bg);
+    color: var(--ink);
+    font-size: 15px;
+    line-height: 1.4;
+  }
+
+  /* ── Widget shell ─────────────────────────────────────────── */
+  .widget {
+    max-width: 780px;
+    margin: 0 auto;
+    background: var(--white);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+
+  /* ── Header ───────────────────────────────────────────────── */
+  .widget-header {
+    background: var(--ink);
+    color: var(--white);
+    padding: 18px 24px 14px;
+  }
+  .widget-header h1 {
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: -0.3px;
+    line-height: 1.2;
+  }
+  .widget-meta {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 6px;
+    font-size: 12px;
+    color: rgba(255,255,255,0.65);
+    flex-wrap: wrap;
+  }
+  .widget-meta .badge {
+    background: var(--cyan);
+    color: var(--white);
+    padding: 2px 8px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .widget-meta .badge.live { background: #e74c3c; animation: pulse 2s infinite; }
+  @keyframes pulse {
+    0%,100% { opacity: 1; }
+    50%      { opacity: 0.6; }
+  }
+  #last-updated { font-style: italic; }
+
+  /* ── Precinct banner ──────────────────────────────────────── */
+  .precinct-bar {
+    background: var(--cyan-light);
+    border-bottom: 1px solid #c2e8ef;
+    padding: 8px 24px;
+    font-size: 12px;
+    color: var(--cyan-dark);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .precinct-bar .pct-track {
+    flex: 1;
+    height: 5px;
+    background: #c2e8ef;
+    border-radius: 3px;
+    overflow: hidden;
+    max-width: 200px;
+  }
+  .precinct-bar .pct-fill {
+    height: 100%;
+    background: var(--cyan);
+    border-radius: 3px;
+    transition: width 0.6s ease;
+  }
+
+  /* ── Sections ─────────────────────────────────────────────── */
+  .section { border-top: 3px solid var(--ink); }
+  .section + .section { border-top: 1px solid var(--rule); }
+  .section-title {
+    background: var(--ink);
+    color: var(--white);
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    padding: 6px 24px;
+  }
+
+  /* ── Party block ──────────────────────────────────────────── */
+  .party-block { padding: 0; }
+  .party-label {
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    padding: 8px 24px 4px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .party-label::before {
+    content: '';
+    display: inline-block;
+    width: 8px; height: 8px;
+    border-radius: 50%;
+  }
+  .party-label.dem { color: var(--dem); }
+  .party-label.dem::before { background: var(--dem); }
+  .party-label.rep { color: var(--rep); }
+  .party-label.rep::before { background: var(--rep); }
+  .party-label.np  { color: var(--np); }
+  .party-label.np::before  { background: var(--np); }
+
+  /* ── Race ─────────────────────────────────────────────────── */
+  .race {
+    padding: 12px 24px 14px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .race:last-child { border-bottom: none; }
+  .race-name {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--ink-mid);
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+  }
+  .race-seats {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--ink-light);
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    margin-bottom: 8px;
+  }
+  .race-note {
+    font-size: 11px;
+    color: var(--ink-light);
+    font-style: italic;
+    margin-bottom: 8px;
+  }
+
+  /* ── Candidate row ────────────────────────────────────────── */
+  .candidate {
+    display: grid;
+    grid-template-columns: minmax(0, 210px) 1fr 70px;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6px;
+  }
+  .candidate:last-child { margin-bottom: 0; }
+
+  .cand-name {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--ink);
+    line-height: 1.3;
+    align-self: center;
+  }
+  .cand-name.winner { font-weight: 800; }
+
+  .bar-wrap {
+    position: relative;
+    height: 24px;
+    background: #f0f0f0;
+    border-radius: 3px;
+    overflow: visible;
+  }
+  .bar-fill {
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    border-radius: 3px;
+    transition: width 0.8s cubic-bezier(.4,0,.2,1);
+    min-width: 2px;
+    overflow: visible;
+  }
+  .bar-fill.dem { background: var(--dem); }
+  .bar-fill.rep { background: var(--rep); }
+  .bar-fill.np  { background: var(--np); }
+  .bar-fill.winner-bar { filter: brightness(1.1); }
+
+  .bar-votes {
+    position: absolute;
+    right: 7px; top: 50%;
+    transform: translateY(-50%);
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--white);
+    white-space: nowrap;
+    z-index: 2;
+  }
+
+  .cand-pct {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--ink-mid);
+    text-align: right;
+  }
+  .cand-pct.winner-pct { color: var(--ink); }
+
+  /* ── Uncontested ──────────────────────────────────────────── */
+  .uncontested {
+    font-size: 12px;
+    font-style: italic;
+    color: var(--ink-light);
+    padding: 4px 0 2px;
+  }
+
+  /* ── Referendum ───────────────────────────────────────────── */
+  .ref-question {
+    font-size: 12px;
+    color: var(--ink-mid);
+    margin-bottom: 8px;
+    font-style: italic;
+    line-height: 1.5;
+  }
+  .bar-fill.yes { background: #27ae60; }
+  .bar-fill.no  { background: #e74c3c; }
+
+  /* ── Loading / error states ───────────────────────────────── */
+  .state-msg {
+    padding: 40px 24px;
+    text-align: center;
+    color: var(--ink-light);
+    font-size: 14px;
+  }
+  .state-msg .spinner {
+    width: 28px; height: 28px;
+    border: 3px solid var(--rule);
+    border-top-color: var(--cyan);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+    margin: 0 auto 12px;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* ── Footer ───────────────────────────────────────────────── */
+  .widget-footer {
+    padding: 10px 24px;
+    font-size: 11px;
+    color: var(--ink-light);
+    border-top: 1px solid var(--rule);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .widget-footer a { color: var(--cyan); text-decoration: none; }
+
+  /* ── Export bar ───────────────────────────────────────────── */
+  .export-bar {
+    padding: 8px 24px 10px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+  }
+  .export-btn {
+    background: none;
+    color: var(--ink-light);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    padding: 3px 9px;
+    font-family: var(--font);
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .export-btn:hover { color: var(--cyan); border-color: var(--cyan); }
+
+  /* ── Responsive ───────────────────────────────────────────── */
+  @media (max-width: 520px) {
+    .candidate { grid-template-columns: minmax(0, 150px) 1fr 52px; gap: 6px; }
+    .cand-name  { font-size: 12px; }
+    .widget-header { padding: 14px 16px; }
+    .race, .party-label { padding-left: 16px; padding-right: 16px; }
+    .section-title { padding-left: 16px; }
+    .precinct-bar { padding: 7px 16px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="widget" id="widget">
+  <div class="widget-header">
+    <h1>Sauk Valley Primary Election Results</h1>
+    <div class="widget-meta">
+      <span class="badge" id="status-badge">Loading…</span>
+      <span>March 17, 2026</span>
+      <span>Unofficial Results</span>
+      <span id="last-updated"></span>
+    </div>
+  </div>
+
+  <div class="precinct-bar" id="precinct-bar" style="display:none">
+    <span id="precinct-text"></span>
+    <div class="pct-track"><div class="pct-fill" id="precinct-fill"></div></div>
+  </div>
+
+  <div id="results-root">
+    <div class="state-msg">
+      <div class="spinner"></div>
+      Loading results…
+    </div>
+  </div>
+
+  <div class="widget-footer">
+    <span>Source: County clerk's offices · (i) indicates incumbent</span>
+    <span>Refreshes every 60 seconds · <a href="#" target="_blank">Official results</a></span>
+  </div>
+
+  <div class="export-bar">
+    <button class="export-btn" onclick="exportResults('txt')">⬇ Export as .txt</button>
+    <button class="export-btn" onclick="exportResults('html')">⬇ Export as .html</button>
+  </div>
+</div>
+
+<script>
+// ── Configuration ──────────────────────────────────────────────────────────
+const DATA_URL     = 'https://mekcoleman.github.io/il-election-results/statewide_results.json';
+const REFRESH_MS   = 60_000;
+const MARKET       = 'SVM';
+const COUNTIES     = ['Whiteside', 'Lee', 'Ogle', 'Carroll'];
+
+// Two superintendent races for this market
+const SUPT_RACE_IDS = ['svm_lee_ogle_whiteside', 'svm_carroll_jo_daviess_stephenson'];
+
+// ── Race definitions from Google Doc ──────────────────────────────────────
+// Tells the widget exactly which contests to show and how to label them.
+// `match` is a regex tested against contest_name (case-insensitive).
+// Contests not matched here are ignored (filters out statewide/federal).
+const RACE_DEFINITIONS = [
+  // ── Whiteside County ────────────────────────────────────────────────────
+  {
+    section: 'WHITESIDE COUNTY',
+    county: 'Whiteside',
+    races: [
+      { label: 'Whiteside County Clerk',
+        match: /county clerk/i, party: 'both' },
+      { label: 'Whiteside County Treasurer',
+        match: /county treasurer|treasurer/i, party: 'both' },
+      { label: 'Whiteside County Sheriff',
+        match: /county sheriff|sheriff/i, party: 'both' },
+      { label: 'Whiteside County Board District 1',
+        seats: 5,
+        match: /county board.*district\s*1\b|board.*district\s*1\b/i, party: 'both' },
+      { label: 'Whiteside County Board District 2',
+        seats: 5,
+        match: /county board.*district\s*2\b|board.*district\s*2\b/i, party: 'both' },
+      { label: 'Whiteside County Board District 3',
+        seats: 4,
+        match: /county board.*district\s*3\b|board.*district\s*3\b/i, party: 'both' },
+    ]
+  },
+
+  // ── Lee County ──────────────────────────────────────────────────────────
+  {
+    section: 'LEE COUNTY',
+    county: 'Lee',
+    races: [
+      { label: 'Lee County Clerk and Recorder',
+        match: /county clerk|clerk.*recorder|recorder/i, party: 'both' },
+      { label: 'Lee County Treasurer',
+        match: /county treasurer|treasurer/i, party: 'both' },
+      { label: 'Lee County Sheriff',
+        match: /county sheriff|sheriff/i, party: 'both' },
+      { label: 'Lee County Board District 1',
+        seats: 3,
+        match: /county board.*district\s*1\b|board.*district\s*1\b/i, party: 'both' },
+      { label: 'Lee County Board District 2 – Full 4-Year Term',
+        seats: 2,
+        match: /county board.*district\s*2\b.*4.year|board.*district\s*2\b.*full/i, party: 'both' },
+      { label: 'Lee County Board District 2 – Unexpired 2-Year Term',
+        seats: 1,
+        match: /county board.*district\s*2\b.*2.year|board.*district\s*2\b.*unexpired/i, party: 'both' },
+      { label: 'Lee County Board District 3',
+        seats: 2,
+        match: /county board.*district\s*3\b|board.*district\s*3\b/i, party: 'both' },
+      { label: 'Lee County Board District 4',
+        seats: 2,
+        match: /county board.*district\s*4\b|board.*district\s*4\b/i, party: 'both' },
+    ]
+  },
+
+  // ── Ogle County ─────────────────────────────────────────────────────────
+  {
+    section: 'OGLE COUNTY',
+    county: 'Ogle',
+    races: [
+      { label: 'Ogle County Clerk and Recorder',
+        match: /county clerk|clerk.*recorder|recorder/i, party: 'both' },
+      { label: 'Ogle County Treasurer',
+        match: /county treasurer|treasurer/i, party: 'both' },
+      { label: 'Ogle County Sheriff',
+        match: /county sheriff|sheriff/i, party: 'both' },
+      { label: 'Ogle County Board District 1 – Full 4-Year Term',
+        match: /county board.*district\s*1\b.*4.year|board.*district\s*1\b.*full/i, party: 'both' },
+      { label: 'Ogle County Board District 1 – Unexpired 2-Year Term',
+        match: /county board.*district\s*1\b.*2.year|board.*district\s*1\b.*unexpired/i, party: 'both' },
+      { label: 'Ogle County Board District 2 – Full 4-Year Term',
+        match: /county board.*district\s*2\b.*4.year|board.*district\s*2\b.*full/i, party: 'both' },
+      { label: 'Ogle County Board District 2 – Unexpired 2-Year Term',
+        match: /county board.*district\s*2\b.*2.year|board.*district\s*2\b.*unexpired/i, party: 'both' },
+      { label: 'Ogle County Board District 3 – Full 4-Year Term',
+        match: /county board.*district\s*3\b.*4.year|board.*district\s*3\b.*full/i, party: 'both' },
+      { label: 'Ogle County Board District 3 – Unexpired 2-Year Term',
+        match: /county board.*district\s*3\b.*2.year|board.*district\s*3\b.*unexpired/i, party: 'both' },
+      { label: 'Ogle County Board District 4 – Full 4-Year Term',
+        match: /county board.*district\s*4\b.*4.year|board.*district\s*4\b.*full/i, party: 'both' },
+      { label: 'Ogle County Board District 4 – Unexpired 2-Year Term',
+        match: /county board.*district\s*4\b.*2.year|board.*district\s*4\b.*unexpired/i, party: 'both' },
+      { label: 'Ogle County Board District 5 – Full 4-Year Term',
+        match: /county board.*district\s*5\b.*4.year|board.*district\s*5\b.*full/i, party: 'both' },
+      { label: 'Ogle County Board District 5 – Unexpired 2-Year Term',
+        match: /county board.*district\s*5\b.*2.year|board.*district\s*5\b.*unexpired/i, party: 'both' },
+      { label: 'Ogle County Board District 6 – Full 4-Year Term',
+        match: /county board.*district\s*6\b.*4.year|board.*district\s*6\b.*full/i, party: 'both' },
+      { label: 'Ogle County Board District 6 – Unexpired 2-Year Term',
+        match: /county board.*district\s*6\b.*2.year|board.*district\s*6\b.*unexpired/i, party: 'both' },
+      { label: 'Ogle County Board District 8 – Full 4-Year Term',
+        match: /county board.*district\s*8\b.*4.year|board.*district\s*8\b.*full/i, party: 'both' },
+      { label: 'Ogle County Board District 8 – Unexpired 2-Year Term',
+        match: /county board.*district\s*8\b.*2.year|board.*district\s*8\b.*unexpired/i, party: 'both' },
+    ]
+  },
+
+  // ── Carroll County ──────────────────────────────────────────────────────
+  {
+    section: 'CARROLL COUNTY',
+    county: 'Carroll',
+    races: [
+      { label: 'Carroll County Clerk and Recorder',
+        match: /county clerk|clerk.*recorder|recorder/i, party: 'both' },
+      { label: 'Carroll County Treasurer',
+        match: /county treasurer|treasurer/i, party: 'both' },
+      { label: 'Carroll County Sheriff',
+        match: /county sheriff|sheriff/i, party: 'both' },
+      { label: 'Carroll County Board District 1',
+        seats: 1,
+        match: /county board.*district\s*1\b|board.*district\s*1\b/i, party: 'both' },
+      { label: 'Carroll County Board District 2',
+        seats: 1,
+        match: /county board.*district\s*2\b|board.*district\s*2\b/i, party: 'both' },
+      { label: 'Carroll County Board District 3',
+        seats: 2,
+        match: /county board.*district\s*3\b|board.*district\s*3\b/i, party: 'both' },
+    ]
+  },
+
+  // ── Multi-County ─────────────────────────────────────────────────────────
+  {
+    section: 'MULTI-COUNTY OFFICES',
+    county: null,
+    races: [
+      { label: 'Lee, Ogle and Whiteside Counties',
+        match: /regional superintendent.*lee|lee.*ogle.*whiteside|svm_lee/i, party: 'both',
+        note: 'Pulls votes from Lee, Ogle, Whiteside, Winnebago, Stephenson, DeKalb, Rock Island, Henry and Bureau counties' },
+      { label: 'Carroll, Jo Daviess and Stephenson Counties',
+        match: /regional superintendent.*carroll|carroll.*jo daviess|svm_carroll/i, party: 'both',
+        note: 'Pulls votes from Carroll, Jo Daviess, Stephenson, Ogle and Whiteside counties' },
+    ]
+  },
+
+  // ── Referendums ──────────────────────────────────────────────────────────
+  {
+    section: 'REFERENDUMS',
+    county: null,
+    races: [
+      { label: 'Lee County Federal Scholarship Tax Credit Advisory Referendum',
+        match: /lee.*scholarship|federal scholarship.*lee/i, party: 'np' },
+      { label: 'Ogle County Federal Scholarship Tax Credit Advisory Referendum',
+        match: /ogle.*scholarship|federal scholarship.*ogle/i, party: 'np' },
+      { label: 'Dixon Park District – Proposition to Sell Park District Property',
+        match: /dixon park/i, party: 'np' },
+      { label: 'LaMoille School District 303 – Non-Binding Question to Deactivate High School',
+        match: /lamoille|la moille/i, party: 'np',
+        note: 'Pulls votes from Lee and Bureau counties' },
+      { label: 'Sublette Fire Protection District – Proposition to Increase Limiting Rate',
+        match: /sublette fire/i, party: 'np' },
+      { label: 'Carroll County Federal Scholarship Tax Credit Advisory Referendum',
+        match: /carroll.*scholarship|federal scholarship.*carroll/i, party: 'np' },
+      { label: 'Pearl City School District No. 200 – Proposition to Increase Limiting Rate',
+        match: /pearl city/i, party: 'np',
+        note: 'Pulls votes from Carroll, Jo Daviess and Stephenson counties' },
+    ]
+  },
+];
+
+// ── Data normalizer ────────────────────────────────────────────────────────
+// Handles all three scraper output shapes:
+//   1. { by_party: { Democratic: { contests: [] } } }        (Will scraper)
+//   2. { contests_by_party: { Democratic: { contests: [] } } } (Clarity/pollresults)
+//   3. { contests: [ {name, party, candidates} ] }            (DuPage/Kane/Integra)
+function normalizeContests(data) {
+  const out = { Democratic: [], Republican: [], 'Non-Partisan': [] };
+
+  // Shape 1: by_party
+  if (data.by_party) {
+    for (const [party, bucket] of Object.entries(data.by_party)) {
+      const key = normalizePartyKey(party);
+      if (out[key]) out[key].push(...(bucket.contests || []));
+    }
+    return out;
+  }
+
+  // Shape 2: contests_by_party
+  if (data.contests_by_party) {
+    for (const [party, bucket] of Object.entries(data.contests_by_party)) {
+      const key = normalizePartyKey(party);
+      if (out[key]) out[key].push(...(bucket.contests || []));
+    }
+    return out;
+  }
+
+  // Shape 3: flat contests array
+  if (Array.isArray(data.contests)) {
+    for (const c of data.contests) {
+      const party = c.party || c.party_type || 'Non-Partisan';
+      const key = normalizePartyKey(party);
+      if (out[key]) out[key].push(c);
+      else out['Non-Partisan'].push(c);
+    }
+    return out;
+  }
+
+  return out;
+}
+
+function normalizePartyKey(p) {
+  const u = (p || '').toUpperCase();
+  if (u.includes('DEM')) return 'Democratic';
+  if (u.includes('REP')) return 'Republican';
+  return 'Non-Partisan';
+}
+
+// Get contest name regardless of field used by scraper
+function contestName(c) {
+  return (c.contest_name || c.name || '').trim();
+}
+
+// Build a normalized name → formatted name lookup from PENDING_CANDIDATES
+// e.g. "DANIEL HEBREARD" → "Daniel Hebreard (i)"
+// Built once after PENDING_CANDIDATES is defined
+function buildPendingNameMap() {
+  const map = {};
+  const normalize = s => s.replace(/\s*\(i\)\s*/gi, '').replace(/[“”‘’"'`]/g, '').replace(/\s+/g, ' ').trim().toUpperCase();
+  for (const race of Object.values(PENDING_CANDIDATES)) {
+    for (const bucket of [race.dem, race.rep, race.np]) {
+      if (!bucket) continue;
+      for (const cand of bucket) {
+        const key = normalize(cand.name);
+        if (key) map[key] = cand.name;
+      }
+    }
+  }
+  return map;
+}
+
+
+// Get candidates array, substituting formatted names from PENDING_CANDIDATES where available
+function getCandidates(c) {
+  const raw = c.candidates || [];
+  if (!PENDING_NAME_MAP || raw.length === 0) return raw;
+  const normalize = s => s.replace(/\s*\(i\)\s*/gi, '').replace(/[“”‘’"'`]/g, '').replace(/\s+/g, ' ').trim().toUpperCase();
+  return raw.map(cand => {
+    const key = normalize(cand.name || '');
+    const formatted = PENDING_NAME_MAP[key];
+    return formatted ? { ...cand, name: formatted } : cand;
+  });
+}
+
+
+// ── Match contests to race definitions ────────────────────────────────────
+function buildSections(byParty) {
+  // Flatten all contests into one searchable list with party tag
+  const allContests = [];
+  for (const [party, list] of Object.entries(byParty)) {
+    for (const c of list) {
+      allContests.push({ ...c, _partyBucket: party });
+    }
+  }
+
+  const sections = [];
+
+  for (const sectionDef of RACE_DEFINITIONS) {
+    const renderedRaces = [];
+
+    for (const raceDef of sectionDef.races) {
+      // Find all contests matching this race definition
+      const matched = allContests.filter(c => raceDef.match.test(contestName(c)));
+
+      if (matched.length === 0) {
+        // No results yet – show placeholder with candidate names from Google Doc
+        renderedRaces.push({ ...raceDef, contests: [], pending: true });
+      } else {
+        // Group by party for "both" races
+        renderedRaces.push({ ...raceDef, contests: matched, pending: false });
+      }
+    }
+
+    if (renderedRaces.length > 0) {
+      sections.push({ title: sectionDef.section, races: renderedRaces });
+    }
+  }
+
+  return sections;
+}
+
+// ── Pre-election candidate lists (shown when results = 0) ─────────────────
+// From the Google Doc — displayed as empty bars before results arrive
+const PENDING_CANDIDATES = {
+  // ── Whiteside County ──────────────────────────────────────────────────
+  'Whiteside County Clerk': {
+    rep: [{ name: 'Karen J. Stralow (i)', votes: 0 }],
+  },
+  'Whiteside County Treasurer': {
+    rep: [{ name: 'Penny Van Kampen (i)', votes: 0 }],
+  },
+  'Whiteside County Sheriff': {
+    dem: [{ name: 'John F. Booker (i)', votes: 0 }],
+  },
+  'Whiteside County Board District 1': {
+    dem: [{ name: 'Vincent Joseph Vaughn', votes: 0 }, { name: 'Fidencio Hooper-Campos', votes: 0 }, { name: 'James C. Duffy (i)', votes: 0 }, { name: 'Ernie Smith (i)', votes: 0 }, { name: 'Alex Regalado (i)', votes: 0 }],
+    rep: [{ name: 'Kurt Glazier (i)', votes: 0 }, { name: 'Thomas P. Witmer (i)', votes: 0 }],
+  },
+  'Whiteside County Board District 2': {
+    dem: [{ name: 'Shawn Dowd (i)', votes: 0 }, { name: 'Glenn C. Truesdell (i)', votes: 0 }, { name: 'Amie Topp', votes: 0 }, { name: 'Paul J. Cunniff (i)', votes: 0 }],
+    rep: [{ name: 'Douglas Wetzell (i)', votes: 0 }, { name: 'Linda Pennell', votes: 0 }],
+  },
+  'Whiteside County Board District 3': {
+    dem: [{ name: 'Mark S. Woods', votes: 0 }, { name: 'Jan Pels', votes: 0 }, { name: 'Paula M. Schares', votes: 0 }],
+    rep: [{ name: 'Edward Weeks Jr. (i)', votes: 0 }, { name: 'Marci Bohnert', votes: 0 }],
+  },
+
+  // ── Lee County ────────────────────────────────────────────────────────
+  'Lee County Clerk and Recorder': {
+    rep: [{ name: 'Nancy L. Peterson (i)', votes: 0 }],
+  },
+  'Lee County Treasurer': {
+    rep: [{ name: 'Paul Rudolphi (i)', votes: 0 }],
+  },
+  'Lee County Sheriff': {
+    rep: [{ name: 'Clayton T. Whelan (i)', votes: 0 }],
+  },
+  'Lee County Board District 1': {
+    rep: [{ name: 'Chris Robertson', votes: 0 }, { name: 'Derek J. Humphrey', votes: 0 }, { name: 'Robert J. Olson (i)', votes: 0 }],
+  },
+  'Lee County Board District 2 – Full 4-Year Term': {
+    rep: [{ name: 'Dennis S. "Denny" Kosroi', votes: 0 }, { name: 'Al Huss (i)', votes: 0 }],
+  },
+  'Lee County Board District 2 – Unexpired 2-Year Term': {
+    rep: [{ name: 'Ryan Rod (i)', votes: 0 }],
+  },
+  'Lee County Board District 3': {
+    dem: [{ name: 'Chance Munroe', votes: 0 }, { name: 'David J. Bally', votes: 0 }],
+    rep: [{ name: 'Tom Wilson', votes: 0 }, { name: 'Jason Todd Anderson (i)', votes: 0 }],
+  },
+  'Lee County Board District 4': {
+    rep: [{ name: 'Kevin E. Lalley (i)', votes: 0 }, { name: 'Michael Book (i)', votes: 0 }],
+  },
+
+  // ── Ogle County ───────────────────────────────────────────────────────
+  'Ogle County Clerk and Recorder': {
+    rep: [{ name: 'Rebecca "Becky" Duke (i)', votes: 0 }],
+  },
+  'Ogle County Treasurer': {
+    rep: [{ name: 'Tiffany O\'Brien (i)', votes: 0 }],
+  },
+  'Ogle County Sheriff': {
+    rep: [{ name: 'Brian VanVickle (i)', votes: 0 }],
+  },
+  'Ogle County Board District 1 – Full 4-Year Term': {
+    rep: [{ name: 'Rick Fritz (i)', votes: 0 }],
+  },
+  'Ogle County Board District 1 – Unexpired 2-Year Term': {
+    rep: [{ name: 'Zachary S. Oltmanns (i)', votes: 0 }],
+  },
+  'Ogle County Board District 2 – Full 4-Year Term': {
+    rep: [{ name: 'Wayne Reising (i)', votes: 0 }],
+  },
+  'Ogle County Board District 2 – Unexpired 2-Year Term': {
+    rep: [{ name: 'Patricia Nordman (i)', votes: 0 }],
+  },
+  'Ogle County Board District 3 – Full 4-Year Term': {
+    rep: [{ name: 'Joseph C. Simms (i)', votes: 0 }],
+  },
+  'Ogle County Board District 3 – Unexpired 2-Year Term': {
+    rep: [{ name: 'Karl Hansen', votes: 0 }],
+  },
+  'Ogle County Board District 4 – Full 4-Year Term': {
+    rep: [{ name: 'David Williams (i)', votes: 0 }],
+  },
+  'Ogle County Board District 4 – Unexpired 2-Year Term': {
+    rep: [{ name: 'David W. Sawlsville', votes: 0 }],
+  },
+  'Ogle County Board District 5 – Full 4-Year Term': {
+    rep: [{ name: 'Bruce E. Larson (i)', votes: 0 }],
+  },
+  'Ogle County Board District 5 – Unexpired 2-Year Term': {
+    rep: [{ name: 'Donald Griffin (i)', votes: 0 }],
+  },
+  'Ogle County Board District 6 – Full 4-Year Term': {
+    rep: [{ name: 'Steven P. Huber (i)', votes: 0 }],
+  },
+  'Ogle County Board District 6 – Unexpired 2-Year Term': {
+    rep: [{ name: 'Jeffrey M. Billeter (i)', votes: 0 }],
+  },
+  'Ogle County Board District 8 – Full 4-Year Term': {
+    rep: [{ name: 'Marcia Heuer (i)', votes: 0 }],
+  },
+  'Ogle County Board District 8 – Unexpired 2-Year Term': {
+    rep: [{ name: 'Lyle Hopkins (i)', votes: 0 }],
+  },
+
+  // ── Carroll County ────────────────────────────────────────────────────
+  'Carroll County Clerk and Recorder': {
+    rep: [{ name: 'Amy R. Buss (i)', votes: 0 }],
+  },
+  'Carroll County Treasurer': {
+    rep: [{ name: 'Lydia M. Hutchcraft (i)', votes: 0 }],
+  },
+  'Carroll County Sheriff': {
+    rep: [{ name: 'Ryan Kloepping (i)', votes: 0 }],
+  },
+  'Carroll County Board District 1': {
+    rep: [{ name: 'Susan Jacobs (i)', votes: 0 }],
+  },
+  'Carroll County Board District 2': {
+    rep: [{ name: 'Nancy Bandemer', votes: 0 }],
+  },
+  'Carroll County Board District 3': {
+    rep: [{ name: 'Jason T. Beyers (i)', votes: 0 }, { name: 'William Iske (i)', votes: 0 }],
+  },
+
+  // ── Regional Superintendents ──────────────────────────────────────────
+  'Lee, Ogle and Whiteside Counties': {
+    rep: [{ name: 'Christopher J. Tennyson (i)', votes: 0 }],
+    note: 'Pulls votes from Lee, Ogle, Whiteside, Winnebago, Stephenson, DeKalb, Rock Island, Henry and Bureau counties',
+  },
+  'Carroll, Jo Daviess and Stephenson Counties': {
+    rep: [{ name: 'Christopher Shockey', votes: 0 }],
+    note: 'Pulls votes from Carroll, Jo Daviess, Stephenson, Ogle and Whiteside counties',
+  },
+
+  // ── Referendums ───────────────────────────────────────────────────────
+  'Lee County Federal Scholarship Tax Credit Advisory Referendum': {
+    np: [{ name: 'Yes', votes: 0 }, { name: 'No', votes: 0 }],
+  },
+  'Ogle County Federal Scholarship Tax Credit Advisory Referendum': {
+    np: [{ name: 'Yes', votes: 0 }, { name: 'No', votes: 0 }],
+  },
+  'Dixon Park District – Proposition to Sell Park District Property': {
+    np: [{ name: 'Yes', votes: 0 }, { name: 'No', votes: 0 }],
+  },
+  'LaMoille School District 303 – Non-Binding Question to Deactivate High School': {
+    np: [{ name: 'Yes', votes: 0 }, { name: 'No', votes: 0 }],
+  },
+  'Sublette Fire Protection District – Proposition to Increase Limiting Rate': {
+    np: [{ name: 'Yes', votes: 0 }, { name: 'No', votes: 0 }],
+  },
+  'Carroll County Federal Scholarship Tax Credit Advisory Referendum': {
+    np: [{ name: 'Yes', votes: 0 }, { name: 'No', votes: 0 }],
+  },
+  'Pearl City School District No. 200 – Proposition to Increase Limiting Rate': {
+    np: [{ name: 'Yes', votes: 0 }, { name: 'No', votes: 0 }],
+  },
+};
+const PENDING_NAME_MAP = buildPendingNameMap();
+
+// ── Rendering helpers ──────────────────────────────────────────────────────
+function fmt(n) {
+  return Number(n).toLocaleString('en-US');
+}
+
+function partyClass(party) {
+  const u = (party||'').toUpperCase();
+  if (u.includes('DEM')) return 'dem';
+  if (u.includes('REP')) return 'rep';
+  return 'np';
+}
+
+function partyLabel(party) {
+  const u = (party||'').toUpperCase();
+  if (u.includes('DEM')) return 'Democrats';
+  if (u.includes('REP')) return 'Republicans';
+  return 'Non-Partisan';
+}
+
+function renderCandidateRow(cand, maxVotes, pClass, hasResults, isContested) {
+  const votes  = cand.votes || 0;
+  const pct    = cand.percentage || cand.percent || 0;
+  // Only mark a winner if there are multiple candidates actually competing
+  const isWinner = hasResults && isContested && votes === maxVotes && maxVotes > 0;
+  const barPct = maxVotes > 0 ? (votes / maxVotes * 100) : 0;
+
+  // YES gets green, NO gets red for referendums
+  const nameUpper = (cand.name || '').toUpperCase().trim();
+  let barClass = pClass;
+  if (nameUpper === 'YES') barClass = 'yes';
+  if (nameUpper === 'NO')  barClass = 'no';
+
+  const voteLabel = hasResults ? fmt(votes) : '–';
+
+  return `
+    <div class="candidate">
+      <div class="cand-name${isWinner ? ' winner' : ''}">${escHtml(cand.name)}</div>
+      <div class="bar-wrap">
+        <div class="bar-fill ${barClass}${isWinner ? ' winner-bar' : ''}"
+             style="width:${barPct}%">
+          <span class="bar-votes">${voteLabel}</span>
+        </div>
+      </div>
+      <div class="cand-pct${isWinner ? ' winner-pct' : ''}">${hasResults ? pct.toFixed(1)+'%' : ''}</div>
+    </div>`;
+}
+
+function renderPartyBlock(label, pClass, candidates, hasResults) {
+  if (!candidates || candidates.length === 0) return '';
+  const maxVotes   = Math.max(...candidates.map(c => c.votes || 0));
+  const isContested = candidates.length > 1;
+  const rows = candidates.map(c => renderCandidateRow(c, maxVotes, pClass, hasResults, isContested)).join('');
+  return `
+    <div class="party-label ${pClass}">${label}</div>
+    <div class="party-block">${rows}</div>`;
+}
+
+function renderRace(race) {
+  const hasResults = !race.pending && race.contests.length > 0;
+  let html = `<div class="race">`;
+  html += `<div class="race-name">${escHtml(race.label)}</div>`;
+  if (race.seats) html += `<div class="race-seats">Vote for ${race.seats}</div>`;
+  if (race.note) html += `<div class="race-note">⚠ ${escHtml(race.note)}</div>`;
+
+  if (hasResults) {
+    // Group contests by party
+    const demContests = race.contests.filter(c => c._partyBucket === 'Democratic');
+    const repContests = race.contests.filter(c => c._partyBucket === 'Republican');
+    const npContests  = race.contests.filter(c => c._partyBucket === 'Non-Partisan');
+
+    // Render each party group — always show bars regardless of candidate count
+    for (const c of demContests) {
+      const cands = getCandidates(c);
+      if (cands.length) html += renderPartyBlock('Democrats', 'dem', cands, true);
+    }
+    for (const c of repContests) {
+      const cands = getCandidates(c);
+      if (cands.length) html += renderPartyBlock('Republicans', 'rep', cands, true);
+    }
+    for (const c of npContests) {
+      const cands = getCandidates(c);
+      if (!cands.length) return;
+      const pClass = partyClass(c._partyBucket);
+      html += renderPartyBlock(partyLabel(c._partyBucket), pClass, cands, true);
+    }
+
+  } else {
+    // Pre-results: show candidate names from Google Doc with empty bars
+    const pending = PENDING_CANDIDATES[race.label];
+    if (pending) {
+      if (pending.dem) html += renderPartyBlock('Democrats', 'dem', pending.dem, false);
+      if (pending.rep) html += renderPartyBlock('Republicans', 'rep', pending.rep, false);
+      if (pending.np)  html += renderPartyBlock('Non-Partisan', 'np',  pending.np,  false);
+    } else {
+      html += `<div class="uncontested">Results pending…</div>`;
+    }
+  }
+
+  html += `</div>`;
+  return html;
+}
+
+function renderSections(sections) {
+  return sections.map(sec => `
+    <div class="section">
+      <div class="section-title">${escHtml(sec.title)}</div>
+      ${sec.races.map(renderRace).join('')}
+    </div>`).join('');
+}
+
+function escHtml(str) {
+  return String(str)
+    .replace(/&/g,'&amp;')
+    .replace(/</g,'&lt;')
+    .replace(/>/g,'&gt;')
+    .replace(/"/g,'&quot;');
+}
+
+// ── Data fetching ──────────────────────────────────────────────────────────
+
+// Cross-county referendum IDs relevant to this market
+const CROSS_COUNTY_REF_IDS = ['lamoille_school', 'pearl_city_school'];
+
+async function fetchResults() {
+  try {
+    const resp = await fetch(DATA_URL + '?_=' + Date.now());
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    const statewide = await resp.json();
+
+    // Fetch all four county data objects
+    const countyData = {};
+    for (const county of COUNTIES) {
+      countyData[county] = (statewide.county_results || {})[county] || null;
+    }
+
+    // Fetch both superintendent races
+    const suptRaces = {};
+    const allSupt = (statewide.multi_county_races || {}).regional_superintendents || {};
+    for (const id of SUPT_RACE_IDS) {
+      if (allSupt[id]) suptRaces[id] = allSupt[id];
+    }
+
+    // Fetch cross-county referendums
+    const crossCountyRefs = {};
+    const allRefs = (statewide.multi_county_races || {}).cross_county_referendums || {};
+    for (const id of CROSS_COUNTY_REF_IDS) {
+      if (allRefs[id]) crossCountyRefs[id] = allRefs[id];
+    }
+
+    return { statewide, countyData, suptRaces, crossCountyRefs };
+  } catch (err) {
+    console.warn('Fetch error:', err);
+    return null;
+  }
+}
+
+// Build a synthetic contest entry for a superintendent race
+function makeSuptContest(race, label) {
+  const allCandidates = Object.values(race.candidates).map(c => ({
+    name: c.name, votes: c.votes || 0, percentage: c.percentage || 0,
+    party: c.party || 'Non-Partisan',
+  }));
+  const demCandidates = allCandidates.filter(c => /dem/i.test(c.party));
+  const repCandidates = allCandidates.filter(c => /rep/i.test(c.party));
+  const npCandidates  = allCandidates.filter(c => !/dem|rep/i.test(c.party));
+
+  const makeContest = (party, candidates) => ({
+    contest_name: label, name: label, party, candidates,
+    precincts_reporting: race.precincts_reporting || 0,
+    total_precincts:     race.total_precincts || 0,
+    _multi_county: true,
+    _counties_found:   race.counties_found || [],
+    _counties_missing: race.counties_missing || [],
+    _complete:         race.complete !== false,
+  });
+
+  return [
+    ...(demCandidates.length ? [makeContest('Democratic',   demCandidates)] : []),
+    ...(repCandidates.length ? [makeContest('Republican',   repCandidates)] : []),
+    ...(npCandidates.length  ? [makeContest('Non-Partisan', npCandidates)]  : []),
+  ];
+}
+
+// normalizeContests adapted for SVM — takes county-specific data
+function normalizeCountyContests(countyData) {
+  const out = { Democratic: [], Republican: [], 'Non-Partisan': [] };
+  if (!countyData) return out;
+
+  if (countyData.by_party) {
+    for (const [party, bucket] of Object.entries(countyData.by_party)) {
+      const key = normalizePartyKey(party);
+      if (out[key]) out[key].push(...(bucket.contests || []));
+    }
+  } else if (countyData.contests_by_party) {
+    for (const [party, bucket] of Object.entries(countyData.contests_by_party)) {
+      const key = normalizePartyKey(party);
+      if (out[key]) out[key].push(...(bucket.contests || []));
+    }
+  } else if (Array.isArray(countyData.contests)) {
+    for (const c of countyData.contests) {
+      const key = normalizePartyKey(c.party || '');
+      if (out[key]) out[key].push(c);
+    }
+  }
+  return out;
+}
+
+// Build sections for the multi-county SVM widget.
+// Each section definition has an optional `county` field that scopes
+// contest matching to that county's data only.
+function buildSvmSections(countyDataMap, suptRaces, crossCountyRefs) {
+  // Build a shared pool for county-null sections (supt + referendums)
+  // by merging all counties + injected races
+  const sharedContests = [];
+
+  // Inject superintendent races into shared pool
+  const suptLabels = {
+    'svm_lee_ogle_whiteside':           'Lee, Ogle and Whiteside Counties',
+    'svm_carroll_jo_daviess_stephenson': 'Carroll, Jo Daviess and Stephenson Counties',
+  };
+  for (const [id, race] of Object.entries(suptRaces)) {
+    const label = suptLabels[id] || race.label || id;
+    sharedContests.push(...makeSuptContest(race, label));
+  }
+
+  // Inject cross-county referendums into shared pool
+  for (const [id, ref] of Object.entries(crossCountyRefs)) {
+    if (!ref || !ref.candidates) continue;
+    const candidates = Object.values(ref.candidates).map(c => ({
+      name: c.name, votes: c.votes || 0, percentage: c.percentage || 0, party: 'Non-Partisan',
+    }));
+    sharedContests.push({
+      contest_name: ref.label, name: ref.label, party: 'Non-Partisan', candidates,
+      precincts_reporting: ref.precincts_reporting || 0,
+      total_precincts:     ref.total_precincts || 0,
+      _multi_county: true,
+      _counties_found:   ref.counties_found || [],
+      _counties_missing: ref.counties_missing || [],
+      _complete:         ref.complete !== false,
+    });
+  }
+
+  // Also add all county contests to shared pool for county-null sections
+  for (const [county, data] of Object.entries(countyDataMap)) {
+    if (!data) continue;
+    const normalized = normalizeCountyContests(data);
+    for (const list of Object.values(normalized)) {
+      sharedContests.push(...list);
+    }
+  }
+
+  const sections = [];
+
+  for (const sectionDef of RACE_DEFINITIONS) {
+    const renderedRaces = [];
+    const county = sectionDef.county;
+
+    // For county sections, scope to that county's contests only
+    // For null-county sections, use the shared pool
+    let pool;
+    if (county) {
+      const data = countyDataMap[county] || null;
+      const normalized = normalizeCountyContests(data);
+      pool = [];
+      for (const [party, list] of Object.entries(normalized)) {
+        pool.push(...list.map(c => ({ ...c, _partyBucket: party })));
+      }
+    } else {
+      pool = sharedContests.map(c => ({
+        ...c,
+        _partyBucket: normalizePartyKey(c.party || ''),
+      }));
+    }
+
+    for (const raceDef of sectionDef.races) {
+      const matched = pool.filter(c => raceDef.match.test(contestName(c)));
+      renderedRaces.push(matched.length === 0
+        ? { ...raceDef, contests: [], pending: true }
+        : { ...raceDef, contests: matched, pending: false }
+      );
+    }
+
+    if (renderedRaces.length > 0) {
+      sections.push({ title: sectionDef.section, races: renderedRaces });
+    }
+  }
+
+  return sections;
+}
+
+function updatePrecinctBar(countyDataMap) {
+  let reporting = 0, total = 0;
+  for (const data of Object.values(countyDataMap)) {
+    if (!data) continue;
+    const allContests = [
+      ...(data.by_party ? Object.values(data.by_party).flatMap(b => b.contests||[]) : []),
+      ...(data.contests_by_party ? Object.values(data.contests_by_party).flatMap(b => b.contests||[]) : []),
+      ...(Array.isArray(data.contests) ? data.contests : []),
+    ];
+    for (const c of allContests) {
+      if ((c.total_precincts||0) > total) {
+        total = c.total_precincts;
+        reporting = c.precincts_reporting;
+      }
+    }
+  }
+  const bar = document.getElementById('precinct-bar');
+  if (total > 0) {
+    const pct = Math.round(reporting / total * 100);
+    document.getElementById('precinct-text').textContent =
+      `${reporting.toLocaleString()} of ${total.toLocaleString()} precincts reporting (${pct}%)`;
+    document.getElementById('precinct-fill').style.width = pct + '%';
+    bar.style.display = 'flex';
+  }
+}
+
+async function refresh() {
+  const result = await fetchResults();
+  const badge  = document.getElementById('status-badge');
+  const root   = document.getElementById('results-root');
+  const upd    = document.getElementById('last-updated');
+
+  if (!result) {
+    badge.textContent = 'Results Pending';
+    badge.className   = 'badge';
+    return;
+  }
+
+  const { statewide, countyData, suptRaces, crossCountyRefs } = result;
+
+  // Timestamp from most recent county scrape
+  const scrapedAt = statewide.aggregated_at ? new Date(statewide.aggregated_at) : null;
+  if (scrapedAt) {
+    upd.textContent = 'Updated ' + scrapedAt.toLocaleTimeString('en-US', {hour:'numeric', minute:'2-digit'});
+  }
+
+  // Live status — any votes in any county
+  const hasVotes = Object.values(countyData).some(data => data && [
+    ...(data.by_party ? Object.values(data.by_party).flatMap(b => b.contests||[]) : []),
+    ...(data.contests_by_party ? Object.values(data.contests_by_party).flatMap(b => b.contests||[]) : []),
+    ...(Array.isArray(data.contests) ? data.contests : []),
+  ].some(c => (c.candidates||[]).some(x => (x.votes||0) > 0)));
+
+  badge.textContent = hasVotes ? 'Live Results' : 'Results Pending';
+  badge.className   = hasVotes ? 'badge live' : 'badge';
+
+  updatePrecinctBar(countyData);
+
+  const sections = buildSvmSections(countyData, suptRaces, crossCountyRefs);
+  root.innerHTML = renderSections(sections);
+}
+
+function renderPending() {
+  const badge = document.getElementById('status-badge');
+  const root  = document.getElementById('results-root');
+  badge.textContent = 'Results Pending';
+  badge.className   = 'badge';
+  const sections = buildSvmSections(
+    { Whiteside: null, Lee: null, Ogle: null, Carroll: null },
+    {}, {}
+  );
+  root.innerHTML = renderSections(sections);
+}
+
+renderPending();
+refresh();
+setInterval(refresh, REFRESH_MS);
+setInterval(refresh, REFRESH_MS);
+</script>
+</body>
+</html>
