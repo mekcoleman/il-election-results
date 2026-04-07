@@ -158,6 +158,12 @@ class MultiCountyAggregator:
         
         # Aggregate by race type
         print("Aggregating results...")
+        # Strip high-volume low-value contests from county results before saving
+        # to keep statewide_results.json under GitHub API limits (~1MB)
+        county_results_slim = {}
+        for county, data in county_results.items():
+            county_results_slim[county] = self._slim_county_data(data)
+
         aggregated = {
             "aggregated_at": datetime.now().isoformat(),
             "num_counties": len(county_results),
@@ -170,7 +176,7 @@ class MultiCountyAggregator:
                 "regional_superintendents": self._aggregate_superintendents(county_results),
                 "cross_county_referendums": self._aggregate_cross_county_referendums(county_results),
             },
-            "county_results": county_results
+            "county_results": county_results_slim
         }
         
         print("✓ Aggregation complete!")
@@ -190,6 +196,9 @@ class MultiCountyAggregator:
         print(f"Scanning: {self.results_dir}")
         
         for file_path in self.results_dir.glob("*.json"):
+            # Skip the aggregated output file itself and config
+            if file_path.stem in ('statewide_results', 'config'):
+                continue
             try:
                 with open(file_path, 'r') as f:
                     data = json.load(f)
@@ -203,7 +212,14 @@ class MultiCountyAggregator:
                     continue
                 
                 county_results[county_name] = data
-                print(f"  ✓ {county_name}: {len(data.get('contests', []))} contests")
+                _flat = (
+                    [c for b in data.get('by_party', {}).values()
+                       for c in (b if isinstance(b, list) else b.get('contests', []))]
+                    or [c for b in data.get('contests_by_party', {}).values()
+                          for c in (b if isinstance(b, list) else b.get('contests', []))]
+                    or data.get('contests', [])
+                )
+                print(f"  ✓ {county_name}: {len(_flat)} contests")
                 
             except Exception as e:
                 print(f"  ✗ Error loading {file_path.name}: {e}")
@@ -218,8 +234,9 @@ class MultiCountyAggregator:
         contest_appearances = defaultdict(list)
         
         for county_name, data in county_results.items():
-            for contest in data.get('contests', []):
-                contest_key = self._normalize_contest_name(contest['name'])
+            for contest in self._flatten_contests(data):
+                contest_key = self._normalize_contest_name(
+                    contest.get('contest_name') or contest.get('name', ''))
                 contest_appearances[contest_key].append({
                     'county': county_name,
                     'contest': contest
@@ -319,8 +336,8 @@ class MultiCountyAggregator:
             if county not in county_results:
                 continue
             
-            for contest in county_results[county].get('contests', []):
-                contest_name = contest['name'].upper()
+            for contest in self._flatten_contests(county_results[county]):
+                contest_name = (contest.get('contest_name') or contest.get('name', '')).upper()
                 
                 # Check if this contest matches any pattern
                 for pattern in race_patterns:
@@ -658,16 +675,96 @@ class MultiCountyAggregator:
 
         return results
 
+    # Patterns to exclude from county_results to keep file size manageable
+    EXCLUDE_PATTERNS = [
+        'committeeperson', 'precinct committeeperson',
+        'state central committeeperson',
+    ]
+
+    def _should_exclude(self, contest_name: str) -> bool:
+        """Return True if this contest should be stripped from slim output."""
+        name_lower = (contest_name or '').lower()
+        return any(p in name_lower for p in self.EXCLUDE_PATTERNS)
+
+    def _slim_county_data(self, data: Dict) -> Dict:
+        """
+        Return a copy of county data with bulk/low-value contests removed.
+        Keeps all county-level, judicial, legislative, and referendum contests.
+        Strips precinct committeeperson races which inflate file size.
+        """
+        import copy
+        slim = {k: v for k, v in data.items() if k not in ('contests_by_party', 'by_party', 'contests')}
+
+        # Shape 1: contests_by_party — value is either a list or a dict with 'contests' key
+        if 'contests_by_party' in data:
+            slim['contests_by_party'] = {}
+            for party, bucket in data['contests_by_party'].items():
+                if isinstance(bucket, list):
+                    # Clarity shape: direct list of contests
+                    slim['contests_by_party'][party] = [
+                        c for c in bucket
+                        if not self._should_exclude(c.get('contest_name', '') or c.get('name', ''))
+                    ]
+                elif isinstance(bucket, dict):
+                    # Other shape: dict with 'contests' key
+                    filtered = [
+                        c for c in bucket.get('contests', [])
+                        if not self._should_exclude(c.get('contest_name', '') or c.get('name', ''))
+                    ]
+                    slim['contests_by_party'][party] = {**bucket, 'contests': filtered}
+            return slim
+
+        # Shape 2: by_party
+        if 'by_party' in data:
+            slim['by_party'] = {}
+            for party, bucket in data['by_party'].items():
+                if isinstance(bucket, list):
+                    slim['by_party'][party] = [
+                        c for c in bucket
+                        if not self._should_exclude(c.get('contest_name', '') or c.get('name', ''))
+                    ]
+                elif isinstance(bucket, dict):
+                    filtered = [
+                        c for c in bucket.get('contests', [])
+                        if not self._should_exclude(c.get('contest_name', '') or c.get('name', ''))
+                    ]
+                    slim['by_party'][party] = {**bucket, 'contests': filtered}
+            return slim
+
+        # Shape 3: flat contests list
+        if 'contests' in data:
+            slim['contests'] = [
+                c for c in data['contests']
+                if not self._should_exclude(c.get('contest_name', '') or c.get('name', ''))
+            ]
+            return slim
+
+        return slim
+
     def _flatten_contests(self, county_data: Dict) -> List[Dict]:
-        """Extract all contests from any county data shape."""
+        """
+        Extract all contests from any county data shape.
+
+        Handles three bucket formats that appear across scrapers:
+          A. { count: N, contests: [...] }   — will/la_salle by_party
+          B. flat list [...]                 — clarity_scraper contests_by_party
+          C. top-level contests list         — most other scrapers
+        """
+        def _iter_bucket(bucket):
+            if isinstance(bucket, list):
+                return bucket                       # Format B
+            if isinstance(bucket, dict):
+                return bucket.get("contests", [])   # Format A
+            return []
+
         # Shape 1: by_party
         if "by_party" in county_data:
             return [c for bucket in county_data["by_party"].values()
-                    for c in bucket.get("contests", [])]
+                    for c in _iter_bucket(bucket)]
         # Shape 2: contests_by_party
         if "contests_by_party" in county_data:
             return [c for bucket in county_data["contests_by_party"].values()
-                    for c in bucket.get("contests", [])]
+                    for c in _iter_bucket(bucket)]
         # Shape 3: flat contests list
         if "contests" in county_data:
             return county_data["contests"]

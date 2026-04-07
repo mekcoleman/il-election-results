@@ -1,408 +1,290 @@
 #!/usr/bin/env python3
 """
-Illinois Primary Election 2026 - McLean County Scraper
-Handles McLean County dual-authority results
+McLean County Election Results Scraper
+Illinois Primary Election — March 17, 2026
 
-Platform: DUAL AUTHORITY SYSTEM
-- McLean County Clerk: Custom text/PDF files (county except Bloomington)
-- Bloomington Election Commission: Clarity Elections (City of Bloomington only)
+McLean County has TWO election authorities:
+  1. McLean County Clerk — county EXCEPT City of Bloomington (~65K voters)
+       Platform: text/PDF summary documents posted to county website
+       URL: https://www.mcleancountyil.gov/231/Past-McLean-County-Election-Results
+  2. Bloomington Election Commission — City of Bloomington only (~55K voters)
+       Platform: Clarity Elections
+       URL: https://results.enr.clarityelections.com/IL/Bloomington
 
-Coverage: McLean County (~120K voters total)
-- County Clerk jurisdiction: ~65K voters (Normal + unincorporated areas)
-- Bloomington jurisdiction: ~55K voters (City of Bloomington)
+This scraper handles Part 1 (County Clerk text docs).
+Part 2 is handled automatically by clarity_scraper.py when you add
+Bloomington to config.json as platform=clarity.
 
-NOTE: This scraper handles the County Clerk portion only.
-For Bloomington, use the existing clarity_scraper.py with Bloomington's election ID.
-To get complete McLean County results, you need BOTH scrapers.
+For complete McLean County results on election night, run BOTH and let
+aggregate_results.py combine them.
+
+Output: mclean_county_clerk_results.json  (contests_by_party shape)
+
+Election Day Setup:
+  PART 1 — County Clerk (this scraper):
+    1. Visit https://www.mcleancountyil.gov/231/Past-McLean-County-Election-Results
+    2. Find "2026 Primary summary results" — right-click → copy link address
+    3. Run: python mclean_county_scraper.py --url [URL] --output ./county_results
+
+  PART 2 — Bloomington (clarity_scraper.py):
+    1. Visit https://results.enr.clarityelections.com/IL/Bloomington
+    2. Find March 17 Primary — note election_id and web_id from the URL
+    3. Add to config.json:
+         "Bloomington": {
+           "platform":    "clarity",
+           "base_url":    "https://results.enr.clarityelections.com/IL/Bloomington",
+           "election_id": "XXXXX",
+           "web_id":      "XXXXX"
+         }
+    4. Run: python clarity_scraper.py Bloomington --output ./county_results
+
+Usage:
+    python mclean_county_scraper.py --url https://...summary.txt
+    python mclean_county_scraper.py --url https://...summary.txt --output ./county_results
 """
 
-import requests
-import json
 import re
+import sys
+import json
+import argparse
 from datetime import datetime
+from pathlib import Path
 from typing import Dict, List, Optional
+
+import requests
 from bs4 import BeautifulSoup
 
-class McLeanCountyScraper:
-    """Scraper for McLean County Clerk election results
-    
-    Handles McLean County EXCEPT City of Bloomington.
-    For complete county coverage, also run clarity_scraper.py for Bloomington.
+
+# ── Party detection ───────────────────────────────────────────────────────────
+
+def _detect_party(contest_name: str, section_name: str = "") -> str:
+    for s in (section_name, contest_name):
+        u = s.upper()
+        if "DEMOCRATIC" in u or "DEM " in u or "(DEM)" in u or " - DEM" in u:
+            return "Democratic"
+        if "REPUBLICAN" in u or "REP " in u or "(REP)" in u or " - REP" in u:
+            return "Republican"
+        if "RETENTION" in u or "REFERENDUM" in u or "NONPARTISAN" in u or "NON-PARTISAN" in u:
+            return "Non-Partisan"
+    return "Non-Partisan"
+
+
+# ── Document parsers ──────────────────────────────────────────────────────────
+
+def _parse_text(text: str) -> List[Dict]:
     """
-    
-    def __init__(self, election_date: str = '2026-03-17'):
-        """Initialize scraper
-        
-        Args:
-            election_date: Election date in YYYY-MM-DD format
-        """
-        self.county_name = 'McLean'
-        self.authority = 'McLean County Clerk'
-        self.jurisdiction = 'McLean County (except Bloomington)'
-        self.election_date = election_date
-        
-        # McLean County Clerk URLs
-        self.base_url = 'https://www.mcleancountyil.gov'
-        self.results_page = f'{self.base_url}/231/Past-McLean-County-Election-Results'
-        self.document_base = f'{self.base_url}/DocumentCenter/View'
-        
-        # Document name patterns for 2026 Primary
-        # Format: "2024 Primary summary results"
-        year = election_date[:4]
-        self.summary_patterns = [
-            f'{year} Primary summary results',
-            f'{year} Primary summary results with group details',
-            f'{year}_Primary_Summary_Results'
-        ]
-    
-    def detect_party(self, contest_name: str, section_name: str = '') -> str:
-        """Detect party from contest or section name
-        
-        Args:
-            contest_name: Name of the contest
-            section_name: Section/category name if available
-            
-        Returns:
-            Party string
-        """
-        # Check section name first (McLean often groups by party)
-        section_lower = section_lower.lower()
-        if 'democratic' in section_lower or 'dem ' in section_lower:
-            return 'Democratic'
-        elif 'republican' in section_lower or 'rep ' in section_lower:
-            return 'Republican'
-        
-        # Check contest name
-        contest_lower = contest_name.lower()
-        if 'democratic' in contest_lower or '(dem)' in contest_lower or ' - dem' in contest_lower:
-            return 'Democratic'
-        elif 'republican' in contest_lower or '(rep)' in contest_lower or ' - rep' in contest_lower:
-            return 'Republican'
-        elif 'nonpartisan' in contest_lower or 'non-partisan' in contest_lower:
-            return 'Non-Partisan'
-        
-        # Default
-        return 'Non-Partisan'
-    
-    def scrape_from_document_url(self, doc_url: str) -> Dict:
-        """Scrape results from McLean County document
-        
-        McLean posts text-formatted documents (TXT or HTML-rendered text).
-        
-        Args:
-            doc_url: Direct URL to summary results document
-            
-        Returns:
-            Dictionary with scraped results
-        """
-        print(f"Scraping {self.authority}...")
-        print(f"Document URL: {doc_url}")
-        print(f"⚠️  Note: This covers McLean County EXCEPT Bloomington")
-        print(f"    For complete county results, also scrape Bloomington (Clarity)")
-        
-        try:
-            response = requests.get(doc_url, timeout=60)
-            response.raise_for_status()
-            
-            # Parse the document (could be HTML or plain text)
-            if 'text/html' in response.headers.get('content-type', ''):
-                results = self._parse_html_document(response.text)
-            else:
-                results = self._parse_text_document(response.text)
-            
-            results['authority'] = self.authority
-            results['jurisdiction'] = self.jurisdiction
-            results['election_date'] = self.election_date
-            results['scraped_at'] = datetime.now().isoformat()
-            results['source'] = 'McLean County Clerk Document'
-            results['document_url'] = doc_url
-            results['note'] = 'This covers McLean County EXCEPT City of Bloomington. Bloomington has separate results via Clarity Elections.'
-            
-            print(f"✓ Successfully scraped {len(results.get('contests', []))} contests")
-            return results
-            
-        except requests.RequestException as e:
-            print(f"✗ Error fetching document: {e}")
-            return {
-                'error': str(e),
-                'authority': self.authority,
-                'scraped_at': datetime.now().isoformat()
-            }
-    
-    def scrape_election(self, summary_url: str = None) -> Dict:
-        """Scrape election results
-        
-        Args:
-            summary_url: Direct URL to summary results document
-                        If None, returns instructions
-            
-        Returns:
-            Dictionary with scraped results
-        """
-        if summary_url:
-            return self.scrape_from_document_url(summary_url)
-        
-        # No URL provided - return instructions
-        return {
-            'error': 'Summary results URL required',
-            'authority': self.authority,
-            'message': 'Visit https://www.mcleancountyil.gov/231/Past-McLean-County-Election-Results and find the summary results link for 2026 Primary',
-            'instructions': [
-                '1. Visit the Past McLean County Election Results page',
-                '2. Find "2026 Primary summary results" or similar',
-                '3. Right-click and copy link address',
-                '4. Run: python mclean_county_scraper.py --url [URL]',
-                '',
-                '⚠️  IMPORTANT: This scraper handles McLean County Clerk jurisdiction only!',
-                'For complete McLean County results, you also need Bloomington results:',
-                '5. Find Bloomington election ID at results.enr.clarityelections.com/IL/Bloomington/',
-                '6. Run: python clarity_scraper.py --county Bloomington --election-id [ID]'
-            ],
-            'scraped_at': datetime.now().isoformat()
-        }
-    
-    def _parse_html_document(self, html: str) -> Dict:
-        """Parse HTML-formatted document
-        
-        Args:
-            html: HTML content
-            
-        Returns:
-            Results dictionary
-        """
-        soup = BeautifulSoup(html, 'html.parser')
-        
-        # Extract text content
-        text = soup.get_text()
-        
-        # Parse as text document
-        return self._parse_text_document(text)
-    
-    def _parse_text_document(self, text: str) -> Dict:
-        """Parse text-formatted results document
-        
-        McLean's text format typically looks like:
-        
-        CONTEST NAME
-        Candidate Name ................ Votes Percent
-        Another Candidate .............. Votes Percent
-        
-        Args:
-            text: Plain text content
-            
-        Returns:
-            Results dictionary
-        """
-        results = {
-            'contests': [],
-            'summary': {}
-        }
-        
-        lines = text.split('\n')
+    Parse McLean County Clerk plain-text summary results.
+
+    Expected format (varies slightly year to year):
+
+      DEMOCRATIC PRIMARY
+      COUNTY CLERK
+      Jane Smith ........... 4,321  62.3%
+      John Doe ............. 2,614  37.7%
+
+      REPUBLICAN PRIMARY
+      COUNTY SHERIFF
+      ...
+    """
+    contests: List[Dict] = []
+    current_section = "Non-Partisan"
+    current_contest: Optional[Dict] = None
+
+    def _save_contest():
+        nonlocal current_contest
+        if current_contest and current_contest.get("candidates"):
+            # Recalculate percentages from actual votes
+            total = sum(c["votes"] for c in current_contest["candidates"])
+            if total > 0:
+                for cand in current_contest["candidates"]:
+                    cand["percentage"] = round(cand["votes"] / total * 100, 2)
+            contests.append(current_contest)
         current_contest = None
-        current_party = 'Unknown'
-        
-        for line in lines:
-            line = line.strip()
-            
-            if not line:
-                # Empty line might mark end of contest
-                if current_contest and current_contest.get('candidates'):
-                    results['contests'].append(current_contest)
-                    current_contest = None
-                continue
-            
-            # Check for party section headers
-            if 'DEMOCRATIC' in line.upper() or 'DEM PRIMARY' in line.upper():
-                current_party = 'Democratic'
-                continue
-            elif 'REPUBLICAN' in line.upper() or 'REP PRIMARY' in line.upper():
-                current_party = 'Republican'
-                continue
-            elif 'NONPARTISAN' in line.upper() or 'NON-PARTISAN' in line.upper():
-                current_party = 'Non-Partisan'
-                continue
-            
-            # Check if this is a contest header
-            # Contest headers are typically all caps or title case, no numbers
-            if line.isupper() and len(line) > 10 and not any(char.isdigit() for char in line[:20]):
-                # Save previous contest
-                if current_contest and current_contest.get('candidates'):
-                    results['contests'].append(current_contest)
-                
-                # Start new contest
+
+    for raw_line in text.split("\n"):
+        line = raw_line.strip()
+        if not line:
+            # Blank line can mark end of a contest block
+            continue
+
+        u = line.upper()
+
+        # Section headers
+        if re.search(r"\bDEMOCRATIC\b.*\bPRIMARY\b|\bDEM\b.*\bPRIMARY\b", u):
+            _save_contest()
+            current_section = "Democratic"
+            continue
+        if re.search(r"\bREPUBLICAN\b.*\bPRIMARY\b|\bREP\b.*\bPRIMARY\b", u):
+            _save_contest()
+            current_section = "Republican"
+            continue
+        if re.search(r"\bNONPARTISAN\b|\bNON-PARTISAN\b", u):
+            _save_contest()
+            current_section = "Non-Partisan"
+            continue
+
+        # Contest headers: all-caps, no leading digits, no vote-count pattern
+        # Heuristic: >= 5 chars, mostly uppercase, no "%" sign
+        if (u == line or line == line.upper()) and len(line) >= 5 and "%" not in line:
+            # Make sure it's not a candidate line disguised as a header
+            if not re.search(r"\d{1,3}(,\d{3})*\s+\d+\.\d", line):
+                _save_contest()
                 current_contest = {
-                    'name': line,
-                    'party': self.detect_party(line) or current_party,
-                    'candidates': []
+                    "contest_name": line.strip(),
+                    "party":        _detect_party(line, current_section),
+                    "county":       "McLean",
+                    "candidates":   [],
+                    "precincts_reporting": 0,
+                    "total_precincts":     0,
+                    "reporting_percentage": 0.0,
                 }
                 continue
-            
-            # Check if this is a candidate line
-            # Format: "Candidate Name .......... votes percent%"
-            # or: "Candidate Name    votes    percent%"
-            if current_contest:
-                # Try to extract candidate, votes, percent
-                # Split on multiple spaces or dots
-                parts = re.split(r'\.{2,}|\s{2,}', line)
-                parts = [p.strip() for p in parts if p.strip()]
-                
-                if len(parts) >= 2:
-                    candidate_name = parts[0]
-                    
-                    # Try to find votes and percent in remaining parts
-                    votes = None
-                    percent = None
-                    
-                    for part in parts[1:]:
-                        # Remove commas and try to parse as int (votes)
-                        if votes is None:
-                            try:
-                                votes = int(part.replace(',', '').replace('%', ''))
-                                continue
-                            except ValueError:
-                                pass
-                        
-                        # Try to parse as percent
-                        if percent is None and '%' in part:
-                            try:
-                                percent = float(part.replace('%', '').strip())
-                                continue
-                            except ValueError:
-                                pass
-                    
-                    if candidate_name and votes is not None:
-                        current_contest['candidates'].append({
-                            'name': candidate_name,
-                            'votes': votes,
-                            'percent': percent if percent is not None else 0
-                        })
-        
-        # Add last contest
-        if current_contest and current_contest.get('candidates'):
-            results['contests'].append(current_contest)
-        
-        # Calculate percentages if missing
-        for contest in results['contests']:
-            total_votes = sum(c['votes'] for c in contest['candidates'])
-            if total_votes > 0:
-                for candidate in contest['candidates']:
-                    if candidate['percent'] == 0:
-                        candidate['percent'] = round(candidate['votes'] / total_votes * 100, 2)
-        
-        return results
-    
-    def save_results(self, results: Dict, output_dir: str = '.'):
-        """Save results to JSON file
-        
-        Args:
-            results: Results dictionary
-            output_dir: Directory to save file
-        """
-        filename = f"{output_dir}/mclean_county_clerk_results.json"
-        
-        with open(filename, 'w') as f:
-            json.dump(results, f, indent=2)
-        
-        print(f"✓ Saved results to {filename}")
-        print()
-        print("⚠️  REMINDER: This is McLean County Clerk jurisdiction only!")
-        print("    For complete McLean County results, also scrape Bloomington:")
-        print("    python clarity_scraper.py --county Bloomington --election-id [ID]")
 
-def print_instructions():
-    """Print detailed usage instructions"""
-    print("=" * 70)
-    print("McLean County Scraper - DUAL AUTHORITY SYSTEM")
-    print("Illinois Primary Election - March 17, 2026")
-    print("=" * 70)
+        # Candidate line: split on runs of dots or multiple spaces
+        if current_contest:
+            parts = re.split(r"\.{2,}|\s{2,}", line)
+            parts = [p.strip() for p in parts if p.strip()]
+
+            if len(parts) >= 2:
+                name  = parts[0]
+                votes = None
+                pct   = None
+
+                for part in parts[1:]:
+                    clean = part.replace(",", "").replace("%", "").strip()
+                    if votes is None:
+                        try:
+                            votes = int(clean)
+                            continue
+                        except ValueError:
+                            pass
+                    if pct is None:
+                        try:
+                            pct = float(clean)
+                        except ValueError:
+                            pass
+
+                if name and votes is not None:
+                    current_contest["candidates"].append({
+                        "name":       name,
+                        "party":      "",
+                        "votes":      votes,
+                        "percentage": pct if pct is not None else 0.0,
+                    })
+
+    _save_contest()
+    return contests
+
+
+def _parse_html(html: str) -> List[Dict]:
+    """Extract text from HTML and pass to _parse_text."""
+    soup = BeautifulSoup(html, "html.parser")
+    return _parse_text(soup.get_text(separator="\n"))
+
+
+# ── Build standardized output ─────────────────────────────────────────────────
+
+def _build_output(contests: List[Dict], doc_url: str) -> Dict:
+    dem = [c for c in contests if c.get("party") == "Democratic"]
+    rep = [c for c in contests if c.get("party") == "Republican"]
+    np  = [c for c in contests if c.get("party") == "Non-Partisan"]
+
+    return {
+        "county":      "McLean",
+        "authority":   "McLean County Clerk",
+        "note":        "Covers McLean County EXCEPT City of Bloomington. "
+                       "For full county totals, combine with Bloomington "
+                       "(clarity_scraper.py).",
+        "source_url":  doc_url,
+        "scraped_at":  datetime.now().isoformat(),
+        "total_contests": len(contests),
+        "contests_by_party": {
+            "Democratic":   {"count": len(dem), "contests": dem},
+            "Republican":   {"count": len(rep), "contests": rep},
+            "Non-Partisan": {"count": len(np),  "contests": np},
+        },
+    }
+
+
+# ── Main scrape function ──────────────────────────────────────────────────────
+
+def scrape_mclean(doc_url: str, output_dir: str = ".") -> Optional[Dict]:
+    """
+    Fetch and parse a McLean County Clerk summary document.
+
+    Args:
+        doc_url:    Direct URL to the TXT or HTML summary results document.
+        output_dir: Directory to write mclean_county_clerk_results.json.
+
+    Returns:
+        Output dict, or None on fetch failure.
+    """
+    print(f"\n{'='*60}")
+    print("McLean County Clerk (text/PDF summary)")
+    print(f"{'='*60}")
+    print(f"  URL: {doc_url}")
+    print(f"  ⚠  Covers McLean County EXCEPT City of Bloomington")
+
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/120.0.0.0 Safari/537.36"
+        )
+    }
+
+    try:
+        resp = requests.get(doc_url, headers=headers, timeout=60)
+        resp.raise_for_status()
+    except requests.RequestException as exc:
+        print(f"  ✗ Fetch failed: {exc}")
+        return None
+
+    ct = resp.headers.get("content-type", "")
+    if "html" in ct:
+        contests = _parse_html(resp.text)
+    else:
+        contests = _parse_text(resp.text)
+
+    print(f"  ✅ {len(contests)} contests parsed")
+
+    output   = _build_output(contests, doc_url)
+    filepath = str(Path(output_dir) / "mclean_county_clerk_results.json")
+    Path(output_dir).mkdir(parents=True, exist_ok=True)
+    with open(filepath, "w") as f:
+        json.dump(output, f, indent=2)
+
+    cbp = output["contests_by_party"]
+    print(f"  ✅ Saved to {filepath}")
+    print(f"     Democratic:   {cbp['Democratic']['count']}")
+    print(f"     Republican:   {cbp['Republican']['count']}")
+    print(f"     Non-Partisan: {cbp['Non-Partisan']['count']}")
     print()
-    print("⚠️  CRITICAL: McLean County has TWO election authorities!")
-    print()
-    print("1. McLean County Clerk")
-    print("   - Jurisdiction: County EXCEPT City of Bloomington")
-    print("   - Voters: ~65,000")
-    print("   - Platform: Text/PDF documents")
-    print("   - This scraper handles this authority")
-    print()
-    print("2. Bloomington Election Commission")
-    print("   - Jurisdiction: City of Bloomington ONLY")
-    print("   - Voters: ~55,000")
-    print("   - Platform: Clarity Elections")
-    print("   - Use clarity_scraper.py for this authority")
-    print()
-    print("FOR COMPLETE MCLEAN COUNTY RESULTS, YOU NEED BOTH!")
-    print()
-    print("=" * 70)
-    print("PART 1: McLean County Clerk (this scraper)")
-    print("=" * 70)
-    print()
-    print("1. Visit: https://www.mcleancountyil.gov/231/Past-McLean-County-Election-Results")
-    print("2. Find '2026 Primary summary results'")
-    print("3. Right-click link → Copy link address")
-    print("4. Run:")
-    print("   python mclean_county_scraper.py --url [COPIED_URL]")
-    print()
-    print("=" * 70)
-    print("PART 2: Bloomington (use Clarity scraper)")
-    print("=" * 70)
-    print()
-    print("1. Visit: https://results.enr.clarityelections.com/IL/Bloomington/")
-    print("2. Find 2026 Primary election (note the election ID from URL)")
-    print("3. Run:")
-    print("   python clarity_scraper.py --county Bloomington --election-id [ID]")
-    print()
-    print("=" * 70)
-    print("COMBINING RESULTS")
-    print("=" * 70)
-    print()
-    print("To get complete McLean County totals:")
-    print("- Add vote totals from both scrapers")
-    print("- Note: Some races may only appear in one jurisdiction")
-    print("- Countywide races (President, U.S. Rep, etc.) need both combined")
-    print()
+    print("  ⚠  REMINDER: Also run clarity_scraper.py for Bloomington")
+    print("     to get complete McLean County totals.")
+    return output
+
 
 def main():
-    """Main entry point"""
-    import argparse
-    
-    parser = argparse.ArgumentParser(description='McLean County Clerk Election Results Scraper')
-    parser.add_argument('--url', '--summary-url', dest='summary_url',
-                       help='Direct URL to McLean County summary results document')
-    parser.add_argument('--date', default='2026-03-17',
-                       help='Election date in YYYY-MM-DD format')
-    parser.add_argument('--output', default='.',
-                       help='Output directory for JSON results')
-    
+    parser = argparse.ArgumentParser(
+        description="McLean County Clerk text/PDF results scraper",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Election Day:
+  1. Visit https://www.mcleancountyil.gov/231/Past-McLean-County-Election-Results
+  2. Find "2026 Primary summary results" — right-click → copy link address
+  3. python mclean_county_scraper.py --url [URL] --output ./county_results
+  4. Also run: python clarity_scraper.py Bloomington --output ./county_results
+        """,
+    )
+    parser.add_argument("--url", required=True,
+                        help="Direct URL to McLean County summary results document")
+    parser.add_argument("--output", default=".", help="Output directory")
     args = parser.parse_args()
-    
-    scraper = McLeanCountyScraper(args.date)
-    
-    if args.summary_url:
-        results = scraper.scrape_from_document_url(args.summary_url)
-    else:
-        print_instructions()
-        results = scraper.scrape_election()
-    
-    scraper.save_results(results, args.output)
-    
-    # Print summary
-    if 'error' not in results:
-        print()
-        print("Summary:")
-        print(f"  Authority: {results.get('authority')}")
-        print(f"  Jurisdiction: {results.get('jurisdiction')}")
-        print(f"  Election: {results.get('election_date')}")
-        print(f"  Contests: {len(results.get('contests', []))}")
-        print()
-        print(f"  ⚠️  {results.get('note', '')}")
-    else:
-        print()
-        print(f"Error: {results['error']}")
-        if 'instructions' in results:
-            print("\nInstructions:")
-            for instruction in results['instructions']:
-                print(f"  {instruction}")
 
-if __name__ == '__main__':
+    result = scrape_mclean(doc_url=args.url, output_dir=args.output)
+    sys.exit(0 if result else 1)
+
+
+if __name__ == "__main__":
     main()

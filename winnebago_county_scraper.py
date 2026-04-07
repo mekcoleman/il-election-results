@@ -3,278 +3,233 @@
 Winnebago County Election Results Scraper
 Illinois Primary Election — March 17, 2026
 
-Winnebago County has TWO election authorities, both using Clarity Elections:
-  1. Winnebago County Clerk — all of Winnebago County EXCEPT the City of Rockford
+Winnebago County has TWO Clarity election authorities:
+  1. Winnebago County Clerk — all of Winnebago County EXCEPT City of Rockford
+       https://results.enr.clarityelections.com/WRC/Winnebago
   2. Rockford Board of Elections — City of Rockford only
+       https://results.enr.clarityelections.com/WRC/Rockford
 
-Both use the WRC (Winnebago-Rockford-County?) path on Clarity:
-  https://results.enr.clarityelections.com/WRC/Winnebago/{id}/
-  https://results.enr.clarityelections.com/WRC/Rockford/{id}/
+Both use the WRC (Winnebago-Rockford County) Clarity subdomain.
+This scraper fetches both using details.json for correct vote totals,
+then merges overlapping contests by candidate name so county-wide races
+(e.g. Regional Superintendent) reflect the full county.
 
-This scraper fetches both, then merges their results by contest name so that
-vote totals for county-wide races (like Regional Superintendent) reflect the
-full county.
+Output file: winnebago_results.json  (contests_by_party shape)
 
-ELECTION DAY SETUP:
+Election Day Setup:
   1. Visit https://results.enr.clarityelections.com/WRC/Winnebago
-     → Find March 17 Primary → note the election_id in the URL
+     → Find March 17 Primary → note election_id and web_id from URL
   2. Visit https://results.enr.clarityelections.com/WRC/Rockford
-     → Find March 17 Primary → note the election_id (may differ from County Clerk)
-  3. Update config.json:
-       "Winnebago": {
-         "county_clerk_election_id": "XXXXX",
-         "county_clerk_web_id": "XXXXX",
-         "rockford_election_id": "XXXXX",
-         "rockford_web_id": "XXXXX"
-       }
+     → Do the same
+  3. Update config.json under "Winnebago":
+       "county_clerk_election_id": "XXXXX",
+       "county_clerk_web_id":      "XXXXX",
+       "rockford_election_id":     "XXXXX",
+       "rockford_web_id":          "XXXXX"
   4. Run: python winnebago_county_scraper.py --output ./county_results
 
 Usage:
+    python winnebago_county_scraper.py
     python winnebago_county_scraper.py --output ./county_results
-    python winnebago_county_scraper.py  # saves to current directory
+    python winnebago_county_scraper.py --config /path/to/config.json
 """
 
-import requests
 import json
 import re
 import sys
 import argparse
 from datetime import datetime
+from pathlib import Path
 from typing import Dict, List, Optional
 
+# Import canonical vote-fetching helpers from clarity_scraper
+from clarity_scraper import (
+    ClarityElectionsScraper,
+    _fetch,
+    _build_vote_lookup,
+    _parse_contest,
+    _detect_party,
+    HEADERS,
+)
 
-class WinnebagoCountyScraper:
-    """Scraper for Winnebago County dual-authority Clarity Elections results."""
 
-    COUNTY_CLERK_BASE = "https://results.enr.clarityelections.com/WRC/Winnebago"
-    ROCKFORD_BASE     = "https://results.enr.clarityelections.com/WRC/Rockford"
+# ── Fetch one Clarity authority ───────────────────────────────────────────────
 
-    def __init__(self, config_path: str = "config.json"):
-        self.config_path = config_path
-        self.county_name = "Winnebago"
-        self.session = requests.Session()
-        self.session.headers.update({
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-        })
+def _fetch_authority(base_url: str, election_id: str, web_id: str,
+                     label: str, county_name: str) -> List[Dict]:
+    """
+    Fetch and parse one Clarity authority using summary + details.json.
 
-        with open(config_path) as f:
-            cfg = json.load(f)
-        self.cfg = cfg["counties"].get("Winnebago", {})
+    Winnebago/Rockford use Web02.XXXXX path format instead of web.XXXXX.
+    """
+    web_path   = f"Web02.{web_id}"
+    json_base  = f"{base_url}/{election_id}/{web_path}/json/en"
+    detail_url = f"{base_url}/{election_id}/{web_path}/json/details.json"
 
-    # ── Clarity fetch helpers ─────────────────────────────────────────────────
+    print(f"  [{label}] Fetching summary...")
+    raw = _fetch(f"{json_base}/summary.json", base_url)
+    if not raw:
+        print(f"  [{label}] ✗ No summary data")
+        return []
 
-    def _fetch_clarity(self, base_url: str, election_id: str, web_id: str,
-                       authority_label: str) -> List[Dict]:
-        """Fetch and parse contests from one Clarity authority."""
-        # WRC (Winnebago/Rockford) uses Web02.XXXXX path format
-        web_path = f"Web02.{web_id}"
-        summary_url = f"{base_url}/{election_id}/{web_path}/json/en/summary.json"
+    summary = raw if isinstance(raw, list) else raw.get("Contests", [])
+    print(f"  [{label}] {len(summary)} contests found")
 
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-            'Accept': 'application/json, text/javascript, */*; q=0.01',
-            'Referer': base_url,
-        }
+    print(f"  [{label}] Fetching details.json for vote totals...")
+    details = _fetch(detail_url, base_url)
+    if details:
+        vote_lookup = _build_vote_lookup(details)
+        print(f"  [{label}] Vote data loaded for {len(vote_lookup)} contests")
+    else:
+        vote_lookup = {}
+        print(f"  [{label}] ⚠ No details.json — vote totals will be 0")
 
-        print(f"  [{authority_label}] Fetching: {summary_url}")
-        try:
-            resp = self.session.get(summary_url, headers=headers, timeout=20)
-            resp.raise_for_status()
-            data = resp.json()
-        except Exception as e:
-            print(f"  [{authority_label}] ❌ Fetch failed: {e}")
-            return []
+    contests = []
+    for raw_contest in summary:
+        parsed = _parse_contest(raw_contest, vote_lookup, county_name)
+        contests.append(parsed)
 
-        contests = []
-        for contest_data in (data.get("Contests") or data.get("contests") or []):
-            contest = self._parse_contest(contest_data, authority_label)
-            if contest:
-                contests.append(contest)
+    print(f"  [{label}] ✅ {len(contests)} contests parsed")
+    return contests
 
-        print(f"  [{authority_label}] ✓ {len(contests)} contests")
-        return contests
 
-    def _parse_contest(self, data: Dict, source: str) -> Optional[Dict]:
-        """Parse a single Clarity contest dict into normalized format."""
-        name = (data.get("C") or data.get("N") or data.get("contest_name") or "").strip()
-        if not name:
-            return None
+# ── Merge two authority contest lists ─────────────────────────────────────────
 
-        party = self._detect_party(name)
-        candidates = []
+def _norm(s: str) -> str:
+    return re.sub(r"\s+", " ", s.upper().strip())
 
-        for cand in (data.get("CH") or data.get("Candidates") or data.get("candidates") or []):
-            cand_name = (cand.get("N") or cand.get("C") or cand.get("name") or "").strip()
-            votes_raw = cand.get("V") or cand.get("votes") or 0
-            try:
-                votes = int(str(votes_raw).replace(",", ""))
-            except (ValueError, TypeError):
-                votes = 0
 
-            pct_raw = cand.get("P") or cand.get("percentage") or 0.0
-            try:
-                pct = float(pct_raw)
-            except (ValueError, TypeError):
-                pct = 0.0
+def _merge_authorities(clerk_contests: List[Dict],
+                       rockford_contests: List[Dict]) -> List[Dict]:
+    """
+    Merge County Clerk and Rockford Board contests.
 
-            if cand_name:
-                candidates.append({
-                    "name": cand_name,
-                    "votes": votes,
-                    "percentage": pct,
-                    "party": (cand.get("PT") or party),
-                })
+    County-wide races appear in both — sum vote totals by candidate name.
+    Rockford-only races are included as-is.
+    After merging, recalculate percentages from combined totals.
+    """
+    merged: Dict[str, Dict] = {}
 
-        if not candidates:
-            return None
+    for c in clerk_contests:
+        key = _norm(c["contest_name"])
+        merged[key] = c
 
-        precincts_reporting = data.get("PR") or data.get("precincts_reporting") or 0
-        total_precincts     = data.get("P")  or data.get("total_precincts") or 0
+    for rc in rockford_contests:
+        key = _norm(rc["contest_name"])
+        if key in merged:
+            existing = merged[key]
+            existing_cands = {_norm(c["name"]): c for c in existing["candidates"]}
 
-        return {
-            "contest_name": name,
-            "name": name,
-            "party": party,
-            "party_type": party,
-            "candidates": candidates,
-            "precincts_reporting": precincts_reporting,
-            "total_precincts": total_precincts,
-            "_source": source,
-        }
+            for rc_cand in rc["candidates"]:
+                norm = _norm(rc_cand["name"])
+                if norm in existing_cands:
+                    existing_cands[norm]["votes"] += rc_cand["votes"]
+                else:
+                    existing["candidates"].append(dict(rc_cand))
 
-    def _detect_party(self, name: str) -> str:
-        u = name.upper()
-        if "DEMOCRAT" in u or " - DEM" in u or "(DEM)" in u:
-            return "Democratic"
-        if "REPUBLICAN" in u or " - REP" in u or "(REP)" in u:
-            return "Republican"
-        return "Non-Partisan"
+            existing["precincts_reporting"] = (
+                (existing.get("precincts_reporting") or 0) +
+                (rc.get("precincts_reporting") or 0)
+            )
+            existing["total_precincts"] = (
+                (existing.get("total_precincts") or 0) +
+                (rc.get("total_precincts") or 0)
+            )
+        else:
+            merged[key] = rc
 
-    # ── Merge logic ───────────────────────────────────────────────────────────
+    # Recalculate percentages after merging vote totals
+    for contest in merged.values():
+        total = sum(c["votes"] for c in contest["candidates"])
+        if total > 0:
+            for cand in contest["candidates"]:
+                cand["percentage"] = round(cand["votes"] / total * 100, 2)
+        tp = contest.get("total_precincts") or 0
+        pr = contest.get("precincts_reporting") or 0
+        contest["reporting_percentage"] = round(pr / tp * 100, 2) if tp > 0 else 0.0
 
-    def _merge_contests(self, clerk_contests: List[Dict],
-                        rockford_contests: List[Dict]) -> List[Dict]:
-        """
-        Merge County Clerk and Rockford contests.
+    return list(merged.values())
 
-        For county-wide races (e.g. Regional Superintendent of Schools),
-        both authorities will report the same contest name but different
-        vote totals. We sum the candidates by name.
 
-        For Rockford-only races (City Council, etc.), we include them as-is.
-        """
-        # Index clerk contests by normalized name
-        merged: Dict[str, Dict] = {}
-        for c in clerk_contests:
-            key = self._normalize_contest_name(c["contest_name"])
-            merged[key] = c
+# ── Build standardized output ─────────────────────────────────────────────────
 
-        for rc in rockford_contests:
-            key = self._normalize_contest_name(rc["contest_name"])
-            if key in merged:
-                # Merge vote totals into existing contest
-                existing = merged[key]
-                existing_cands = {self._normalize_name(c["name"]): c
-                                  for c in existing["candidates"]}
-                for rc_cand in rc["candidates"]:
-                    norm = self._normalize_name(rc_cand["name"])
-                    if norm in existing_cands:
-                        existing_cands[norm]["votes"] += rc_cand["votes"]
-                    else:
-                        # Candidate exists only in Rockford (write-ins, etc.)
-                        existing["candidates"].append(rc_cand)
+def _build_output(contests: List[Dict]) -> Dict:
+    dem = [c for c in contests if c.get("party") == "Democratic"]
+    rep = [c for c in contests if c.get("party") == "Republican"]
+    np  = [c for c in contests if c.get("party") == "Non-Partisan"]
 
-                # Update precinct counts
-                existing["precincts_reporting"] = (
-                    (existing.get("precincts_reporting") or 0) +
-                    (rc.get("precincts_reporting") or 0)
-                )
-                existing["total_precincts"] = (
-                    (existing.get("total_precincts") or 0) +
-                    (rc.get("total_precincts") or 0)
-                )
-                existing["_source"] = "Winnebago County Clerk + Rockford Board"
-            else:
-                # Rockford-only race
-                merged[key] = rc
+    return {
+        "county":         "Winnebago",
+        "scraped_at":     datetime.now().isoformat(),
+        "total_contests": len(contests),
+        "contests_by_party": {
+            "Democratic":   {"count": len(dem), "contests": dem},
+            "Republican":   {"count": len(rep), "contests": rep},
+            "Non-Partisan": {"count": len(np),  "contests": np},
+        },
+    }
 
-        # Recalculate percentages after merge
-        for contest in merged.values():
-            total_votes = sum(c["votes"] for c in contest["candidates"])
-            if total_votes > 0:
-                for cand in contest["candidates"]:
-                    cand["percentage"] = round(cand["votes"] / total_votes * 100, 1)
 
-        return list(merged.values())
+# ── Main entry point ──────────────────────────────────────────────────────────
 
-    def _normalize_contest_name(self, name: str) -> str:
-        """Normalize contest name for matching across authorities."""
-        return re.sub(r"\s+", " ", name.upper().strip())
+def scrape_winnebago(config_path: str = "config.json",
+                     output_dir:  str = ".") -> Optional[Dict]:
+    """
+    Scrape both Winnebago Clarity authorities and merge results.
 
-    def _normalize_name(self, name: str) -> str:
-        return re.sub(r"\s+", " ", name.upper().strip())
+    Returns the output dict (also saves winnebago_results.json).
+    """
+    with open(config_path) as f:
+        config = json.load(f)
 
-    # ── Main scrape ───────────────────────────────────────────────────────────
+    cfg = config.get("counties", {}).get("Winnebago", {})
 
-    def scrape(self) -> Dict:
-        """Scrape both Clarity authorities and merge results."""
-        print(f"\n{'='*60}")
-        print(f"Winnebago County (Dual Authority)")
-        print(f"{'='*60}")
+    clerk_eid = cfg.get("county_clerk_election_id",
+                        cfg.get("election_id", "UPDATE_ON_ELECTION_DAY"))
+    clerk_wid = cfg.get("county_clerk_web_id",
+                        cfg.get("web_id", "UPDATE_ON_ELECTION_DAY"))
+    rock_eid  = cfg.get("rockford_election_id",
+                        cfg.get("election_id", "UPDATE_ON_ELECTION_DAY"))
+    rock_wid  = cfg.get("rockford_web_id",
+                        cfg.get("web_id", "UPDATE_ON_ELECTION_DAY"))
 
-        # Get election IDs from config
-        clerk_eid = self.cfg.get("county_clerk_election_id",
-                                 self.cfg.get("election_id", "UPDATE_ON_ELECTION_DAY"))
-        clerk_wid = self.cfg.get("county_clerk_web_id",
-                                 self.cfg.get("web_id", "UPDATE_ON_ELECTION_DAY"))
-        rock_eid  = self.cfg.get("rockford_election_id",
-                                 self.cfg.get("election_id", "UPDATE_ON_ELECTION_DAY"))
-        rock_wid  = self.cfg.get("rockford_web_id",
-                                 self.cfg.get("web_id", "UPDATE_ON_ELECTION_DAY"))
+    print(f"\n{'='*60}")
+    print("Winnebago County (Dual Authority — Clarity)")
+    print(f"{'='*60}")
 
-        if "UPDATE_ON_ELECTION_DAY" in str(clerk_eid):
-            print("⚠️  Winnebago election IDs not configured.")
-            print("   Update config.json with county_clerk_election_id and rockford_election_id")
-            return self._empty_output("Election IDs not configured")
+    if "UPDATE" in str(clerk_eid):
+        print("⚠ Winnebago election IDs not configured in config.json")
+        print("  Set county_clerk_election_id, county_clerk_web_id,")
+        print("      rockford_election_id, rockford_web_id")
+        return None
 
-        print(f"County Clerk election ID : {clerk_eid}")
-        print(f"Rockford election ID     : {rock_eid}")
-        print()
+    print(f"County Clerk : election_id={clerk_eid}  web_id={clerk_wid}")
+    print(f"Rockford     : election_id={rock_eid}  web_id={rock_wid}")
+    print()
 
-        # Fetch both
-        clerk_contests    = self._fetch_clarity(self.COUNTY_CLERK_BASE, clerk_eid, clerk_wid,
-                                                "County Clerk")
-        rockford_contests = self._fetch_clarity(self.ROCKFORD_BASE, rock_eid, rock_wid,
-                                                "Rockford Board")
+    CLERK_BASE   = "https://results.enr.clarityelections.com/WRC/Winnebago"
+    ROCKFORD_BASE = "https://results.enr.clarityelections.com/WRC/Rockford"
 
-        # Merge
-        all_contests = self._merge_contests(clerk_contests, rockford_contests)
-        print(f"\n  Merged: {len(all_contests)} total contests")
+    clerk_contests    = _fetch_authority(CLERK_BASE,    clerk_eid, clerk_wid,
+                                         "County Clerk",  "Winnebago")
+    rockford_contests = _fetch_authority(ROCKFORD_BASE, rock_eid,  rock_wid,
+                                         "Rockford Board", "Winnebago")
 
-        # Build output in standard format
-        output = {
-            "county": "Winnebago",
-            "election_date": "2026-03-17",
-            "scraped_at": datetime.now().isoformat(),
-            "source": "Winnebago County Clerk + Rockford Board of Elections (Clarity)",
-            "contests": all_contests,
-        }
-        return output
+    all_contests = _merge_authorities(clerk_contests, rockford_contests)
+    print(f"\n  Merged: {len(all_contests)} total contests")
 
-    def _empty_output(self, reason: str) -> Dict:
-        return {
-            "county": "Winnebago",
-            "election_date": "2026-03-17",
-            "scraped_at": datetime.now().isoformat(),
-            "error": reason,
-            "contests": [],
-        }
+    output = _build_output(all_contests)
+    filepath = str(Path(output_dir) / "winnebago_results.json")
+    Path(output_dir).mkdir(parents=True, exist_ok=True)
+    with open(filepath, "w") as f:
+        json.dump(output, f, indent=2)
 
-    def save_results(self, results: Dict, output_dir: str = "."):
-        filename = f"{output_dir}/winnebago_results.json"
-        with open(filename, "w") as f:
-            json.dump(results, f, indent=2)
-        print(f"✓ Saved to {filename}")
+    cbp = output["contests_by_party"]
+    print(f"  ✅ Saved to {filepath}")
+    print(f"     Democratic:   {cbp['Democratic']['count']}")
+    print(f"     Republican:   {cbp['Republican']['count']}")
+    print(f"     Non-Partisan: {cbp['Non-Partisan']['count']}")
+    return output
 
 
 def main():
@@ -282,29 +237,17 @@ def main():
         description="Winnebago County dual-authority Clarity scraper",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
-ELECTION DAY SETUP:
-  1. Visit https://results.enr.clarityelections.com/WRC/Winnebago
-     Find March 17 2026 Primary — note the election_id and web_id from the URL
-  2. Visit https://results.enr.clarityelections.com/WRC/Rockford
-     Do the same for Rockford
-  3. Add to config.json under "Winnebago":
-       "county_clerk_election_id": "XXXXX",
-       "county_clerk_web_id":      "XXXXX",
-       "rockford_election_id":     "XXXXX",
-       "rockford_web_id":          "XXXXX"
-  4. Run this script
-        """
+Election Day Setup:
+  1. Update config.json with both sets of election IDs
+  2. python winnebago_county_scraper.py --output ./county_results
+        """,
     )
     parser.add_argument("--output", default=".", help="Output directory")
-    parser.add_argument("--config", default="config.json", help="Config file path")
+    parser.add_argument("--config", default="config.json", help="Config file")
     args = parser.parse_args()
 
-    scraper = WinnebagoCountyScraper(config_path=args.config)
-    results = scraper.scrape()
-    scraper.save_results(results, args.output)
-
-    if results.get("error"):
-        sys.exit(1)
+    result = scrape_winnebago(config_path=args.config, output_dir=args.output)
+    sys.exit(0 if result else 1)
 
 
 if __name__ == "__main__":
