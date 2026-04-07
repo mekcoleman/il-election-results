@@ -48,7 +48,7 @@ GITHUB_PAGES   = "https://mekcoleman.github.io/il-election-results/"
 # Each entry: (display_name, scraper_module, invoke_method, extra_args)
 #
 # invoke_method options:
-#   "clarity"    → calls scrape_clarity_county(county, config_path, output_dir)
+#   "clarity"    → calls scrape_county(county, config_path, output_dir)
 #   "pollresults"→ calls scrape_pollresults_county(county, config_path, output_dir)
 #   "integra"    → calls scrape_all_integra_counties(output_dir) [scrapes DeKalb+Kendall]
 #   "subprocess" → runs the script as a subprocess with --output flag
@@ -77,15 +77,15 @@ SCRAPERS = [
     # ── Custom scrapers ───────────────────────────────────────────────────────
     {"name": "Kane",      "type": "subprocess",  "script": "kane_county_scraper.py",      "args": ["--output", RESULTS_DIR]},
     {"name": "DuPage",    "type": "subprocess",  "script": "dupage_county_scraper.py",    "args": ["--output", RESULTS_DIR]},
-    {"name": "Grundy",    "type": "subprocess",  "script": "gbs_scraper.py",              "args": ["--output", RESULTS_DIR]},
+    # Grundy County (GBS Vote platform) — scraper not yet built; skipped until November
     {"name": "La Salle",  "type": "lasalle",     "county_key": "La Salle"},
 
     # ── Superintendent-only counties (not in any single market) ───────────────
     {"name": "Winnebago", "type": "subprocess",  "script": "winnebago_county_scraper.py", "args": ["--output", RESULTS_DIR]},
-    {"name": "Jo Daviess","type": "subprocess",  "script": "jo_daviess_county_scraper.py","args": ["--output", RESULTS_DIR]},
+    {"name": "Jo Daviess","type": "subprocess",  "script": "jo_daviess_county_scraper.py","args": ["--output", RESULTS_DIR + "/jo_daviess_results.json"]},
     {"name": "Marshall",  "type": "subprocess",  "script": "marshall_county_scraper.py",  "args": ["--output", RESULTS_DIR]},
-    {"name": "Stark",     "type": "subprocess",  "script": "stark_county_scraper.py",     "args": ["--output", RESULTS_DIR]},
-    {"name": "Iroquois",  "type": "subprocess",  "script": "iroquois_county_scraper.py",  "args": ["--output", RESULTS_DIR]},
+    {"name": "Stark",     "type": "subprocess",  "script": "stark_county_scraper.py",     "args": ["--output", RESULTS_DIR + "/stark_results.json"]},
+    {"name": "Iroquois",  "type": "subprocess",  "script": "iroquois_county_scraper.py",  "args": ["--output", RESULTS_DIR + "/iroquois_results.json"]},
     {"name": "Cook",      "type": "subprocess",  "script": "cook_county_scraper.py",      "args": ["--output", RESULTS_DIR]},
     {"name": "Rock Island","type": "subprocess", "script": "rock_island_county_scraper.py","args": ["--output", RESULTS_DIR]},
 ]
@@ -226,10 +226,11 @@ def preflight_check(log: Logger) -> bool:
 def run_clarity(county_key: str, log: Logger) -> bool:
     """Run Clarity scraper for one county. Returns True on success."""
     try:
-        from clarity_scraper import scrape_clarity_county
-        result = scrape_clarity_county(county_key, CONFIG_FILE, RESULTS_DIR)
-        if result:
-            log.success(f"{county_key}: {len(result)} contests")
+        from clarity_scraper import scrape_county
+        result = scrape_county(county_key, config_path=CONFIG_FILE, output_dir=RESULTS_DIR)
+        if result and "error" not in result:
+            total = result.get("total_contests", 0)
+            log.success(f"{county_key}: {total} contests")
             return True
         else:
             log.warn(f"{county_key}: scraper returned no results (IDs may not be live yet)")
@@ -243,7 +244,7 @@ def run_pollresults(county_key: str, log: Logger) -> bool:
     """Run pollresults scraper for one county. Returns True on success."""
     try:
         from pollresults_scraper import scrape_pollresults_county
-        result = scrape_pollresults_county(county_key, CONFIG_FILE, RESULTS_DIR)
+        result = scrape_pollresults_county(county_key, RESULTS_DIR)
         if result:
             log.success(f"{county_key}: {len(result)} contests")
             return True

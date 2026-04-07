@@ -1,0 +1,252 @@
+
+======================================================================
+ELECTION NIGHT SESSION STARTED: 2026-04-07 10:45:56
+======================================================================
+
+
+──────────────────────────────────────────────────────────────────────
+  PRE-FLIGHT CHECKS
+──────────────────────────────────────────────────────────────────────
+[10:45:56] ✅ Results directory ready: ./county_results
+[10:45:56] Checking Clarity election IDs...
+[10:45:56] ✅ All Clarity election IDs configured
+[10:45:56] ⚠️  La Salle County PDF doc_id not set — La Salle will be SKIPPED
+[10:45:56] ⚠️    Update config.json: set 'doc_id' under 'La Salle'
+[10:45:56] ⚠️  Git remote not configured — results will NOT be pushed to GitHub
+[10:45:56] ⚠️    Run: git remote add origin https://github.com/mekcoleman/il-election-results.git
+[10:45:56] Checking scraper files...
+[10:45:56] ✅ All scraper files present
+[10:45:56] 
+Pre-flight complete. Starting scrape loop...
+[10:45:56] Starting cycle #1
+
+──────────────────────────────────────────────────────────────────────
+  SCRAPE CYCLE — 10:45 AM
+──────────────────────────────────────────────────────────────────────
+[10:45:56] Scraping Will...
+[10:45:57] ❌ Will: cannot import name 'scrape_clarity_county' from 'clarity_scraper' (/Users/sm_edit22058/Desktop/il_election_scraper/clarity_scraper.py)
+[10:45:57] Scraping McHenry...
+[10:45:57] ❌ McHenry: cannot import name 'scrape_clarity_county' from 'clarity_scraper' (/Users/sm_edit22058/Desktop/il_election_scraper/clarity_scraper.py)
+[10:45:57] Scraping Kankakee...
+[10:45:57] ❌ Kankakee: cannot import name 'scrape_clarity_county' from 'clarity_scraper' (/Users/sm_edit22058/Desktop/il_election_scraper/clarity_scraper.py)
+[10:45:57] Scraping Whiteside...
+[10:45:57] ❌ Whiteside: scrape_pollresults_county() takes from 1 to 2 positional arguments but 3 were given
+[10:45:57] Scraping Carroll...
+[10:45:57] ❌ Carroll: scrape_pollresults_county() takes from 1 to 2 positional arguments but 3 were given
+[10:45:57] Scraping Lee...
+[10:45:57] ❌ Lee: scrape_pollresults_county() takes from 1 to 2 positional arguments but 3 were given
+[10:45:57] Scraping Bureau...
+[10:45:57] ❌ Bureau: scrape_pollresults_county() takes from 1 to 2 positional arguments but 3 were given
+[10:45:57] Scraping Putnam...
+[10:45:57] ❌ Putnam: scrape_pollresults_county() takes from 1 to 2 positional arguments but 3 were given
+[10:45:57] Scraping Ogle...
+[10:45:57] ❌ Ogle: scrape_pollresults_county() takes from 1 to 2 positional arguments but 3 were given
+[10:45:57] Scraping Ford...
+[10:45:57] ❌ Ford: scrape_pollresults_county() takes from 1 to 2 positional arguments but 3 were given
+[10:45:57] Scraping Livingston...
+[10:45:57] ❌ Livingston: scrape_pollresults_county() takes from 1 to 2 positional arguments but 3 were given
+[10:45:57] Scraping Stephenson...
+[10:45:57] ❌ Stephenson: scrape_pollresults_county() takes from 1 to 2 positional arguments but 3 were given
+[10:45:57] Scraping DeKalb + Kendall + Henry...
+[10:45:58] ✅ DeKalb + Kendall: Integra scrape complete
+[10:45:58] Scraping Kane...
+[10:46:00] ✅ Kane: complete
+[10:46:00] Scraping DuPage...
+[10:46:00] ✅ DuPage: complete
+[10:46:00] Scraping Grundy...
+[10:46:00] ⚠️  Grundy: gbs_scraper.py not found — skipping
+[10:46:00] Scraping La Salle...
+[10:46:00] ⚠️  La Salle: doc_id not set in config.json — skipping
+[10:46:00] Scraping Winnebago...
+[10:46:01] ✅ Winnebago: complete
+[10:46:01] Scraping Jo Daviess...
+[10:46:01] ❌ Jo Daviess: exited with code 1
+[10:46:01] ❌       with open(output_file, 'w') as f:
+[10:46:01] ❌            ~~~~^^^^^^^^^^^^^^^^^^
+[10:46:01] ❌   IsADirectoryError: [Errno 21] Is a directory: './county_results'
+[10:46:01] Scraping Marshall...
+[10:46:01] ✅ Marshall: complete
+[10:46:01] Scraping Stark...
+[10:46:01] ❌ Stark: exited with code 1
+[10:46:01] ❌       with open(output_file, 'w') as f:
+[10:46:01] ❌            ~~~~^^^^^^^^^^^^^^^^^^
+[10:46:01] ❌   IsADirectoryError: [Errno 21] Is a directory: './county_results'
+[10:46:01] Scraping Iroquois...
+[10:46:01] ❌ Iroquois: exited with code 1
+[10:46:01] ❌       with open(output_file, 'w') as f:
+[10:46:01] ❌            ~~~~^^^^^^^^^^^^^^^^^^
+[10:46:01] ❌   IsADirectoryError: [Errno 21] Is a directory: './county_results'
+[10:46:01] Scraping Cook...
+[10:46:02] ✅ Cook: complete
+[10:46:02] Scraping Rock Island...
+[10:46:02] ✅ Rock Island: complete
+
+──────────────────────────────────────────────────────────────────────
+  AGGREGATING + PUSHING
+──────────────────────────────────────────────────────────────────────
+[10:46:02] Aggregating county results...
+[10:46:02] ✅ Aggregation complete: 24 counties → statewide_results.json
+[10:46:02] Pushing to GitHub...
+[10:46:02] ❌ Push failed — see errors above
+
+──────────────────────────────────────────────────────────────────────
+  CYCLE SUMMARY
+──────────────────────────────────────────────────────────────────────
+[10:46:02]   ❌ Will
+[10:46:02]   ❌ McHenry
+[10:46:02]   ❌ Kankakee
+[10:46:02]   ❌ Whiteside
+[10:46:02]   ❌ Carroll
+[10:46:02]   ❌ Lee
+[10:46:02]   ❌ Bureau
+[10:46:02]   ❌ Putnam
+[10:46:02]   ❌ Ogle
+[10:46:02]   ❌ Ford
+[10:46:02]   ❌ Livingston
+[10:46:02]   ❌ Stephenson
+[10:46:02]   ✅ DeKalb + Kendall + Henry
+[10:46:02]   ✅ Kane
+[10:46:02]   ✅ DuPage
+[10:46:02]   ❌ Grundy
+[10:46:02]   ❌ La Salle
+[10:46:02]   ✅ Winnebago
+[10:46:02]   ❌ Jo Daviess
+[10:46:02]   ✅ Marshall
+[10:46:02]   ❌ Stark
+[10:46:02]   ❌ Iroquois
+[10:46:02]   ✅ Cook
+[10:46:02]   ✅ Rock Island
+[10:46:02] 
+  7 succeeded · 18 failed
+[10:46:02] --once flag set, exiting after first cycle.
+
+======================================================================
+SESSION ENDED: 2026-04-07 10:46:02
+======================================================================
+
+
+======================================================================
+ELECTION NIGHT SESSION STARTED: 2026-04-07 10:48:31
+======================================================================
+
+
+──────────────────────────────────────────────────────────────────────
+  PRE-FLIGHT CHECKS
+──────────────────────────────────────────────────────────────────────
+[10:48:31] ✅ Results directory ready: ./county_results
+[10:48:31] Checking Clarity election IDs...
+[10:48:31] ✅ All Clarity election IDs configured
+[10:48:31] ⚠️  La Salle County PDF doc_id not set — La Salle will be SKIPPED
+[10:48:31] ⚠️    Update config.json: set 'doc_id' under 'La Salle'
+[10:48:31] ⚠️  Git remote not configured — results will NOT be pushed to GitHub
+[10:48:31] ⚠️    Run: git remote add origin https://github.com/mekcoleman/il-election-results.git
+[10:48:31] Checking scraper files...
+[10:48:31] ✅ All scraper files present
+[10:48:31] 
+Pre-flight complete. Starting scrape loop...
+[10:48:31] Starting cycle #1
+
+──────────────────────────────────────────────────────────────────────
+  SCRAPE CYCLE — 10:48 AM
+──────────────────────────────────────────────────────────────────────
+[10:48:31] Scraping Will...
+[10:48:31] ❌ Will: cannot import name 'scrape_clarity_county' from 'clarity_scraper' (/Users/sm_edit22058/Desktop/il_election_scraper/clarity_scraper.py)
+[10:48:31] Scraping McHenry...
+[10:48:31] ❌ McHenry: cannot import name 'scrape_clarity_county' from 'clarity_scraper' (/Users/sm_edit22058/Desktop/il_election_scraper/clarity_scraper.py)
+[10:48:31] Scraping Kankakee...
+[10:48:31] ❌ Kankakee: cannot import name 'scrape_clarity_county' from 'clarity_scraper' (/Users/sm_edit22058/Desktop/il_election_scraper/clarity_scraper.py)
+[10:48:31] Scraping Whiteside...
+[10:48:31] ❌ Whiteside: scrape_pollresults_county() takes from 1 to 2 positional arguments but 3 were given
+[10:48:31] Scraping Carroll...
+[10:48:31] ❌ Carroll: scrape_pollresults_county() takes from 1 to 2 positional arguments but 3 were given
+[10:48:31] Scraping Lee...
+[10:48:31] ❌ Lee: scrape_pollresults_county() takes from 1 to 2 positional arguments but 3 were given
+[10:48:31] Scraping Bureau...
+[10:48:31] ❌ Bureau: scrape_pollresults_county() takes from 1 to 2 positional arguments but 3 were given
+[10:48:31] Scraping Putnam...
+[10:48:31] ❌ Putnam: scrape_pollresults_county() takes from 1 to 2 positional arguments but 3 were given
+[10:48:31] Scraping Ogle...
+[10:48:31] ❌ Ogle: scrape_pollresults_county() takes from 1 to 2 positional arguments but 3 were given
+[10:48:31] Scraping Ford...
+[10:48:31] ❌ Ford: scrape_pollresults_county() takes from 1 to 2 positional arguments but 3 were given
+[10:48:31] Scraping Livingston...
+[10:48:31] ❌ Livingston: scrape_pollresults_county() takes from 1 to 2 positional arguments but 3 were given
+[10:48:31] Scraping Stephenson...
+[10:48:31] ❌ Stephenson: scrape_pollresults_county() takes from 1 to 2 positional arguments but 3 were given
+[10:48:31] Scraping DeKalb + Kendall + Henry...
+[10:48:33] ✅ DeKalb + Kendall: Integra scrape complete
+[10:48:33] Scraping Kane...
+[10:48:34] ✅ Kane: complete
+[10:48:34] Scraping DuPage...
+[10:48:34] ✅ DuPage: complete
+[10:48:34] Scraping Grundy...
+[10:48:34] ⚠️  Grundy: gbs_scraper.py not found — skipping
+[10:48:34] Scraping La Salle...
+[10:48:34] ⚠️  La Salle: doc_id not set in config.json — skipping
+[10:48:34] Scraping Winnebago...
+[10:48:35] ✅ Winnebago: complete
+[10:48:35] Scraping Jo Daviess...
+[10:48:35] ❌ Jo Daviess: exited with code 1
+[10:48:35] ❌       with open(output_file, 'w') as f:
+[10:48:35] ❌            ~~~~^^^^^^^^^^^^^^^^^^
+[10:48:35] ❌   IsADirectoryError: [Errno 21] Is a directory: './county_results'
+[10:48:35] Scraping Marshall...
+[10:48:35] ✅ Marshall: complete
+[10:48:35] Scraping Stark...
+[10:48:35] ❌ Stark: exited with code 1
+[10:48:35] ❌       with open(output_file, 'w') as f:
+[10:48:35] ❌            ~~~~^^^^^^^^^^^^^^^^^^
+[10:48:35] ❌   IsADirectoryError: [Errno 21] Is a directory: './county_results'
+[10:48:35] Scraping Iroquois...
+[10:48:35] ❌ Iroquois: exited with code 1
+[10:48:35] ❌       with open(output_file, 'w') as f:
+[10:48:35] ❌            ~~~~^^^^^^^^^^^^^^^^^^
+[10:48:35] ❌   IsADirectoryError: [Errno 21] Is a directory: './county_results'
+[10:48:35] Scraping Cook...
+[10:48:36] ✅ Cook: complete
+[10:48:36] Scraping Rock Island...
+[10:48:36] ✅ Rock Island: complete
+
+──────────────────────────────────────────────────────────────────────
+  AGGREGATING + PUSHING
+──────────────────────────────────────────────────────────────────────
+[10:48:36] Aggregating county results...
+[10:48:36] ✅ Aggregation complete: 24 counties → statewide_results.json
+[10:48:36] Pushing to GitHub...
+[10:48:36] ❌ Push failed — see errors above
+
+──────────────────────────────────────────────────────────────────────
+  CYCLE SUMMARY
+──────────────────────────────────────────────────────────────────────
+[10:48:36]   ❌ Will
+[10:48:36]   ❌ McHenry
+[10:48:36]   ❌ Kankakee
+[10:48:36]   ❌ Whiteside
+[10:48:36]   ❌ Carroll
+[10:48:36]   ❌ Lee
+[10:48:36]   ❌ Bureau
+[10:48:36]   ❌ Putnam
+[10:48:36]   ❌ Ogle
+[10:48:36]   ❌ Ford
+[10:48:36]   ❌ Livingston
+[10:48:36]   ❌ Stephenson
+[10:48:36]   ✅ DeKalb + Kendall + Henry
+[10:48:36]   ✅ Kane
+[10:48:36]   ✅ DuPage
+[10:48:36]   ❌ Grundy
+[10:48:36]   ❌ La Salle
+[10:48:36]   ✅ Winnebago
+[10:48:36]   ❌ Jo Daviess
+[10:48:36]   ✅ Marshall
+[10:48:36]   ❌ Stark
+[10:48:36]   ❌ Iroquois
+[10:48:36]   ✅ Cook
+[10:48:36]   ✅ Rock Island
+[10:48:36] 
+  7 succeeded · 18 failed
+[10:48:36] --once flag set, exiting after first cycle.
+
+======================================================================
+SESSION ENDED: 2026-04-07 10:48:36
+======================================================================
+
