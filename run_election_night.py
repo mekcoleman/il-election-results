@@ -245,8 +245,9 @@ def run_pollresults(county_key: str, log: Logger) -> bool:
     try:
         from pollresults_scraper import scrape_pollresults_county
         result = scrape_pollresults_county(county_key, RESULTS_DIR)
-        if result:
-            log.success(f"{county_key}: {len(result)} contests")
+        if result and "error" not in result:
+            total = len(result.get("contests", []))
+            log.success(f"{county_key}: {total} contests")
             return True
         else:
             log.warn(f"{county_key}: no results returned")
@@ -430,6 +431,10 @@ def run_one_cycle(push: bool, log: Logger) -> dict:
 # ── Entry point ───────────────────────────────────────────────────────────────
 
 def main():
+    # Suppress macOS xcode-select "No developer tools" noise when git isn't installed
+    # via Xcode. Git from Homebrew/standalone works fine without Xcode.
+    import os as _os
+    _os.environ.setdefault("DEVELOPER_DIR", "/usr/bin")
     parser = argparse.ArgumentParser(
         description="Election Night Conductor — Illinois Primary March 17, 2026",
         formatter_class=argparse.RawDescriptionHelpFormatter,

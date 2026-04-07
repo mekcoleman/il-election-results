@@ -210,8 +210,9 @@ class MultiCountyAggregator:
                 if 'error' in data:
                     print(f"  ⚠ Skipping {county_name}: {data['error']}")
                     continue
-                
+
                 county_results[county_name] = data
+                # Count contests across all output shapes
                 _flat = (
                     [c for b in data.get('by_party', {}).values()
                        for c in (b if isinstance(b, list) else b.get('contests', []))]
@@ -356,9 +357,12 @@ class MultiCountyAggregator:
     def _merge_contests(self, appearances: List[Dict]) -> Dict:
         """Merge multiple instances of the same contest."""
         # Use first appearance for base info
+        first_contest = appearances[0]['contest']
+        contest_label = (first_contest.get('contest_name')
+                         or first_contest.get('name', ''))
         merged = {
-            "name": appearances[0]['contest']['name'],
-            "party": appearances[0]['contest'].get('party', 'Non-Partisan'),
+            "name": contest_label,
+            "party": first_contest.get('party', 'Non-Partisan'),
             "counties": [a['county'] for a in appearances],
             "num_counties": len(appearances),
             "candidates": {}
@@ -745,16 +749,16 @@ class MultiCountyAggregator:
         """
         Extract all contests from any county data shape.
 
-        Handles three bucket formats that appear across scrapers:
-          A. { count: N, contests: [...] }   — will/la_salle by_party
-          B. flat list [...]                 — clarity_scraper contests_by_party
-          C. top-level contests list         — most other scrapers
+        Handles three bucket formats:
+          A. { count: N, contests: [...] }  — will/la_salle by_party
+          B. flat list [...]                — clarity_scraper contests_by_party
+          C. top-level contests list        — most other scrapers
         """
         def _iter_bucket(bucket):
             if isinstance(bucket, list):
-                return bucket                       # Format B
+                return bucket                      # Format B
             if isinstance(bucket, dict):
-                return bucket.get("contests", [])   # Format A
+                return bucket.get("contests", [])  # Format A
             return []
 
         # Shape 1: by_party
