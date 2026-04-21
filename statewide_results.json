@@ -1,5 +1,5 @@
 {
-  "aggregated_at": "2026-04-21T15:46:01.718710",
+  "aggregated_at": "2026-04-21T15:49:22.050081",
   "num_counties": 25,
   "counties_included": [
     "Cook",
@@ -11404,11 +11404,11 @@
     },
     "Kankakee": {
       "county": "Kankakee",
-      "scraped_at": "2026-04-14T10:38:15.845119",
+      "scraped_at": "2026-04-21T15:49:04.718288",
       "total_contests": 193,
       "contests_by_party": {
         "Democratic": {
-          "count": 95,
+          "count": 97,
           "contests": [
             {
               "contest_id": "110",
@@ -11757,6 +11757,23 @@
               "precincts_reporting": 17,
               "total_precincts": 17,
               "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "270",
+              "contest_name": "D STATE REPRESENTATIVE 79TH DISTRICT",
+              "party": "Democratic",
+              "county": "Kankakee",
+              "candidates": [
+                {
+                  "name": "WRITE-IN 270",
+                  "party": "",
+                  "votes": 62,
+                  "percentage": 100.0
+                }
+              ],
+              "precincts_reporting": 24,
+              "total_precincts": 40,
+              "reporting_percentage": 60.0
             },
             {
               "contest_id": "280",
@@ -12175,7 +12192,7 @@
           ]
         },
         "Republican": {
-          "count": 95,
+          "count": 96,
           "contests": [
             {
               "contest_id": "1110",
@@ -12321,6 +12338,23 @@
                   "name": "BRYAN DREW",
                   "party": "REP",
                   "votes": 4258,
+                  "percentage": 100.0
+                }
+              ],
+              "precincts_reporting": 59,
+              "total_precincts": 59,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "1160",
+              "contest_name": "R STATE TREASURER",
+              "party": "Republican",
+              "county": "Kankakee",
+              "candidates": [
+                {
+                  "name": "WRITE-IN 1160",
+                  "party": "",
+                  "votes": 669,
                   "percentage": 100.0
                 }
               ],
@@ -12870,43 +12904,8 @@
           ]
         },
         "Non-Partisan": {
-          "count": 3,
-          "contests": [
-            {
-              "contest_id": "1160",
-              "contest_name": "R STATE TREASURER",
-              "party": "Non-Partisan",
-              "county": "Kankakee",
-              "candidates": [
-                {
-                  "name": "WRITE-IN 1160",
-                  "party": "",
-                  "votes": 669,
-                  "percentage": 100.0
-                }
-              ],
-              "precincts_reporting": 59,
-              "total_precincts": 59,
-              "reporting_percentage": 100.0
-            },
-            {
-              "contest_id": "270",
-              "contest_name": "D STATE REPRESENTATIVE 79TH DISTRICT",
-              "party": "Non-Partisan",
-              "county": "Kankakee",
-              "candidates": [
-                {
-                  "name": "WRITE-IN 270",
-                  "party": "",
-                  "votes": 62,
-                  "percentage": 100.0
-                }
-              ],
-              "precincts_reporting": 24,
-              "total_precincts": 40,
-              "reporting_percentage": 60.0
-            }
-          ]
+          "count": 0,
+          "contests": []
         }
       }
     },
