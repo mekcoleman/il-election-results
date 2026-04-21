@@ -1,5 +1,5 @@
 {
-  "aggregated_at": "2026-04-15T10:49:01.886459",
+  "aggregated_at": "2026-04-21T12:31:38.330502",
   "num_counties": 25,
   "counties_included": [
     "cook_clerk_results",
@@ -2204,21 +2204,14 @@
           "percent": 30.58
         },
         {
-          "name": "JOSHUA T. ATKINSON (REP)",
-          "votes": 145,
+          "name": "JOSHUA ATKINSON (REP)",
+          "votes": 155,
           "counties": [
+            "Ogle",
             "Carroll",
             "Stephenson"
           ],
-          "percent": 1.1
-        },
-        {
-          "name": "JOSHUA ATKINSON (REP)",
-          "votes": 10,
-          "counties": [
-            "Ogle"
-          ],
-          "percent": 0.08
+          "percent": 1.18
         }
       ],
       "total_votes": 13181
@@ -3330,23 +3323,25 @@
         "num_counties": 4,
         "candidates": [
           {
-            "name": "DAVE SYVERSON (REP)",
-            "votes": 1411,
+            "name": "SARAH B. MERTENS (DEM)",
+            "votes": 6612,
             "counties": [
-              "Boone"
+              "Boone",
+              "Kane"
             ],
-            "percent": 57.64
+            "percent": 54.33
           },
           {
-            "name": "SARAH B. MERTENS (DEM)",
-            "votes": 1037,
+            "name": "DAVE SYVERSON (REP)",
+            "votes": 5558,
             "counties": [
-              "Boone"
+              "Boone",
+              "Kane"
             ],
-            "percent": 42.36
+            "percent": 45.67
           }
         ],
-        "total_votes": 2448
+        "total_votes": 12170
       },
       "District 45": {
         "name": "STATE SENATE 45TH DISTRICT",
@@ -3387,20 +3382,13 @@
           },
           {
             "name": "JOSHUA T. ATKINSON (REP)",
-            "votes": 145,
+            "votes": 155,
             "counties": [
               "Carroll",
+              "Ogle",
               "Stephenson"
             ],
-            "percent": 1.1
-          },
-          {
-            "name": "JOSHUA ATKINSON (REP)",
-            "votes": 10,
-            "counties": [
-              "Ogle"
-            ],
-            "percent": 0.08
+            "percent": 1.18
           }
         ],
         "total_votes": 13181
@@ -3496,8 +3484,25 @@
           "Kane"
         ],
         "num_counties": 2,
-        "candidates": [],
-        "total_votes": 0
+        "candidates": [
+          {
+            "name": "Nabeela Syed (DEM)",
+            "votes": 12,
+            "counties": [
+              "Kane"
+            ],
+            "percent": 66.67
+          },
+          {
+            "name": "Darby Hills (REP)",
+            "votes": 6,
+            "counties": [
+              "Kane"
+            ],
+            "percent": 33.33
+          }
+        ],
+        "total_votes": 18
       },
       "District 44": {
         "name": "STATE SENATE 44TH DISTRICT",
@@ -3530,8 +3535,33 @@
           "Kane"
         ],
         "num_counties": 2,
-        "candidates": [],
-        "total_votes": 0
+        "candidates": [
+          {
+            "name": "Michele Clark (DEM)",
+            "votes": 16164,
+            "counties": [
+              "Kane"
+            ],
+            "percent": 61.44
+          },
+          {
+            "name": "Danielle Penman (REP)",
+            "votes": 6007,
+            "counties": [
+              "Kane"
+            ],
+            "percent": 22.83
+          },
+          {
+            "name": "Jessica Breugelmans (REP)",
+            "votes": 4139,
+            "counties": [
+              "Kane"
+            ],
+            "percent": 15.73
+          }
+        ],
+        "total_votes": 26310
       },
       "District 42": {
         "name": "FOR STATE SENATOR 42ND LEGISLATIVE DISTRICT\r\n             - REP",
@@ -3541,8 +3571,25 @@
           "Kane"
         ],
         "num_counties": 2,
-        "candidates": [],
-        "total_votes": 0
+        "candidates": [
+          {
+            "name": "Linda Holmes (DEM)",
+            "votes": 9060,
+            "counties": [
+              "Kane"
+            ],
+            "percent": 73.38
+          },
+          {
+            "name": "Edgardo \"Eddie\" Perez (REP)",
+            "votes": 3286,
+            "counties": [
+              "Kane"
+            ],
+            "percent": 26.62
+          }
+        ],
+        "total_votes": 12346
       }
     },
     "state_house": {
@@ -3915,8 +3962,8 @@
     },
     "regional_superintendents": {
       "ddc_dekalb": {
-        "name": "FOR REGIONAL SUPERINTENDENT OF SCHOOLS",
-        "party": "Republican",
+        "name": "FOR REGIONAL SUPERINTENDENT OF SCHOOLS (LASALLE, MARSHALL AND PUTNAM COUNTIES)",
+        "party": "Democratic",
         "counties": [
           "DeKalb",
           "Kane"
@@ -3924,15 +3971,31 @@
         "num_counties": 2,
         "candidates": [
           {
-            "name": "CARMEN R. SIRAGUSA",
-            "votes": 4439,
+            "name": "Meghan Martin (REP)",
+            "votes": 25,
+            "counties": [
+              "Kane"
+            ],
+            "percent": 55.56
+          },
+          {
+            "name": "RYAN F. MYERS",
+            "votes": 10,
             "counties": [
               "DeKalb"
             ],
-            "percent": 100.0
+            "percent": 22.22
+          },
+          {
+            "name": "Kristen Koppers (REP)",
+            "votes": 10,
+            "counties": [
+              "Kane"
+            ],
+            "percent": 22.22
           }
         ],
-        "total_votes": 4439,
+        "total_votes": 45,
         "race_id": "ddc_dekalb",
         "market": "DDC",
         "label": "Regional Superintendent of Schools",
@@ -4061,8 +4124,8 @@
         "complete": false
       },
       "svm_lee_ogle_whiteside": {
-        "name": "FOR REGIONAL SUPERINTENDENT OF SCHOOLS",
-        "party": "Republican",
+        "name": "FOR REGIONAL SUPERINTENDENT OF SCHOOLS (LASALLE, MARSHALL AND PUTNAM COUNTIES)",
+        "party": "Democratic",
         "counties": [
           "DeKalb",
           "Henry"
@@ -4070,23 +4133,23 @@
         "num_counties": 2,
         "candidates": [
           {
-            "name": "CARMEN R. SIRAGUSA",
-            "votes": 4439,
-            "counties": [
-              "DeKalb"
-            ],
-            "percent": 62.57
-          },
-          {
             "name": "KATHY MARSHALL",
             "votes": 2656,
             "counties": [
               "Henry"
             ],
-            "percent": 37.43
+            "percent": 99.62
+          },
+          {
+            "name": "RYAN F. MYERS",
+            "votes": 10,
+            "counties": [
+              "DeKalb"
+            ],
+            "percent": 0.38
           }
         ],
-        "total_votes": 7095,
+        "total_votes": 2666,
         "race_id": "svm_lee_ogle_whiteside",
         "market": "SVM",
         "label": "Regional Superintendent of Schools \u2014 Lee, Ogle & Whiteside",
@@ -4150,26 +4213,28 @@
             "counties": [
               "Will"
             ],
-            "percent": 93.05
+            "percent": 92.98
           },
           {
             "name": "MEGHAN MARTIN",
-            "votes": 2281,
+            "votes": 2306,
             "counties": [
-              "Grundy"
+              "Grundy",
+              "Kane"
             ],
-            "percent": 5.01
+            "percent": 5.06
           },
           {
             "name": "KRISTEN KOPPERS",
-            "votes": 879,
+            "votes": 889,
             "counties": [
-              "Grundy"
+              "Grundy",
+              "Kane"
             ],
-            "percent": 1.93
+            "percent": 1.95
           }
         ],
-        "total_votes": 45496,
+        "total_votes": 45531,
         "race_id": "mhn_grundy_kendall",
         "market": "MHN/KCN",
         "label": "Regional Superintendent of Schools \u2014 Grundy & Kendall",
@@ -4188,7 +4253,7 @@
         "complete": true
       },
       "kcc_kane": {
-        "name": "GRUNDY & KENDALL COUNTIES FOR REGIONAL SUPERINTENDENT OF SCHOOLS\r\n             - REP",
+        "name": "KANE COUNTY FOR REGIONAL SUPERINTENDENT OF SCHOOLS\r\n             - REP",
         "party": "Republican",
         "counties": [
           "Kane",
@@ -4199,31 +4264,17 @@
         "num_counties": 4,
         "candidates": [
           {
-            "name": "CARMEN R. SIRAGUSA",
-            "votes": 4439,
+            "name": "John K Jonak (REP)",
+            "votes": 20371,
             "counties": [
+              "Kane",
+              "McHenry",
               "DeKalb"
             ],
-            "percent": 91.83
+            "percent": 100.0
           },
           {
-            "name": "Michael L. Karner",
-            "votes": 395,
-            "counties": [
-              "McHenry"
-            ],
-            "percent": 8.17
-          },
-          {
-            "name": "REBECCA GAMBOA",
-            "votes": 0,
-            "counties": [
-              "DuPage"
-            ],
-            "percent": 0.0
-          },
-          {
-            "name": "MISAEL NASCIMENTO",
+            "name": "NO CANDIDATE/CANDIDATO",
             "votes": 0,
             "counties": [
               "DuPage"
@@ -4231,7 +4282,7 @@
             "percent": 0.0
           }
         ],
-        "total_votes": 4834,
+        "total_votes": 20371,
         "race_id": "kcc_kane",
         "market": "KCC",
         "label": "Regional Superintendent of Schools",
@@ -4239,8 +4290,8 @@
           "Kane",
           "McHenry",
           "DeKalb",
-          "Cook",
-          "DuPage"
+          "DuPage",
+          "Cook"
         ],
         "counties_found": [
           "Kane",
@@ -4268,10 +4319,26 @@
             "counties": [
               "McHenry"
             ],
-            "percent": 100.0
+            "percent": 91.86
+          },
+          {
+            "name": "Meghan Martin (REP)",
+            "votes": 25,
+            "counties": [
+              "Kane"
+            ],
+            "percent": 5.81
+          },
+          {
+            "name": "Kristen Koppers (REP)",
+            "votes": 10,
+            "counties": [
+              "Kane"
+            ],
+            "percent": 2.33
           }
         ],
-        "total_votes": 395,
+        "total_votes": 430,
         "race_id": "nwh_mchenry",
         "market": "NWH",
         "label": "Regional Superintendent of Schools",
@@ -4320,6 +4387,23 @@
         "complete": true
       },
       "ilv_lasalle_marshall_putnam": {
+        "name": "FOR REGIONAL SUPERINTENDENT OF SCHOOLS (LASALLE, MARSHALL AND PUTNAM COUNTIES)",
+        "party": "Democratic",
+        "counties": [
+          "DeKalb"
+        ],
+        "num_counties": 1,
+        "candidates": [
+          {
+            "name": "RYAN F. MYERS",
+            "votes": 10,
+            "counties": [
+              "DeKalb"
+            ],
+            "percent": 100.0
+          }
+        ],
+        "total_votes": 10,
         "race_id": "ilv_lasalle_marshall_putnam",
         "market": "ILV",
         "label": "Regional Superintendent of Schools \u2014 La Salle, Marshall & Putnam",
@@ -4331,19 +4415,13 @@
           "Lee",
           "Bureau"
         ],
-        "counties_found": [],
-        "counties_missing": [
-          "La Salle",
-          "Marshall",
-          "Putnam",
-          "DeKalb",
-          "Lee",
-          "Bureau"
+        "counties_found": [
+          "DeKalb"
         ],
-        "complete": false,
-        "candidates": {},
-        "precincts_reporting": 0,
-        "total_precincts": 0
+        "counties_missing": [
+          "Marshall"
+        ],
+        "complete": false
       },
       "ilv_bureau_henry_stark": {
         "race_id": "ilv_bureau_henry_stark",
@@ -4463,8 +4541,25 @@
           "Kane"
         ],
         "num_counties": 1,
-        "candidates": [],
-        "total_votes": 0,
+        "candidates": [
+          {
+            "name": "Yes",
+            "votes": 6,
+            "counties": [
+              "Kane"
+            ],
+            "percent": 85.71
+          },
+          {
+            "name": "No",
+            "votes": 1,
+            "counties": [
+              "Kane"
+            ],
+            "percent": 14.29
+          }
+        ],
+        "total_votes": 7,
         "ref_id": "hinckley_fire",
         "label": "Hinckley Fire Protection District \u2013 Tax Rate Increase",
         "markets": [
@@ -4625,8 +4720,25 @@
           "Kane"
         ],
         "num_counties": 1,
-        "candidates": [],
-        "total_votes": 0,
+        "candidates": [
+          {
+            "name": "Yes",
+            "votes": 83,
+            "counties": [
+              "Kane"
+            ],
+            "percent": 51.23
+          },
+          {
+            "name": "No",
+            "votes": 79,
+            "counties": [
+              "Kane"
+            ],
+            "percent": 48.77
+          }
+        ],
+        "total_votes": 162,
         "ref_id": "yorkville_school",
         "label": "Yorkville School District 115 \u2013 $275.1M Bond Issue",
         "markets": [
@@ -11244,7 +11356,7 @@
     "DuPage": {
       "summary": {},
       "county": "DuPage County",
-      "scraped_at": "2026-03-18T09:34:00.135848",
+      "scraped_at": "2026-04-21T12:29:12.306269",
       "source": "Scytl summary JSON",
       "election_id": "125941",
       "contests": [
@@ -13148,458 +13260,1358 @@
       },
       "county": "Kane County",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-04-15T08:30:35.616854",
+      "scraped_at": "2026-04-20T11:44:54.889838",
       "source": "Kane County custom platform",
       "contests": [
         {
           "name": "FOR UNITED STATES SENATOR\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Casey Chlebek (REP)",
+              "votes": 2201,
+              "percent": 9.99
+            },
+            {
+              "name": "Don Tracy (REP)",
+              "votes": 7285,
+              "percent": 33.08
+            },
+            {
+              "name": "R. Cary Capparelli (REP)",
+              "votes": 2050,
+              "percent": 9.31
+            },
+            {
+              "name": "Pamela Denise Long (REP)",
+              "votes": 1971,
+              "percent": 8.95
+            },
+            {
+              "name": "Jimmy Lee Tillman, II (REP)",
+              "votes": 1233,
+              "percent": 5.6
+            },
+            {
+              "name": "Jeannie Evans (REP)",
+              "votes": 7284,
+              "percent": 33.07
+            }
+          ]
         },
         {
           "name": "FOR UNITED STATES SENATOR\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Kevin Ryan (DEM)",
+              "votes": 2109,
+              "percent": 4.62
+            },
+            {
+              "name": "Robin Kelly (DEM)",
+              "votes": 4671,
+              "percent": 10.24
+            },
+            {
+              "name": "Juliana Stratton (DEM)",
+              "votes": 17109,
+              "percent": 37.5
+            },
+            {
+              "name": "Raja Krishnamoorthi (DEM)",
+              "votes": 19834,
+              "percent": 43.47
+            },
+            {
+              "name": "Steve Botsford Jr. (DEM)",
+              "votes": 239,
+              "percent": 0.52
+            },
+            {
+              "name": "Bryan Maxwell (DEM)",
+              "votes": 479,
+              "percent": 1.05
+            },
+            {
+              "name": "Jonathan Dean (DEM)",
+              "votes": 445,
+              "percent": 0.98
+            },
+            {
+              "name": "Sean Brown (DEM)",
+              "votes": 190,
+              "percent": 0.42
+            },
+            {
+              "name": "Awisi A. Bustos (DEM)",
+              "votes": 263,
+              "percent": 0.58
+            },
+            {
+              "name": "Christopher Swann (DEM)",
+              "votes": 240,
+              "percent": 0.53
+            },
+            {
+              "name": "Adam Delgado",
+              "votes": 3,
+              "percent": 0.01
+            },
+            {
+              "name": "Rejected write-ins",
+              "votes": 45,
+              "percent": 0.1
+            },
+            {
+              "name": "Unassigned write-ins",
+              "votes": 0,
+              "percent": 0.0
+            }
+          ]
         },
         {
           "name": "FOR GOVERNOR & LIEUTENANT GOVERNOR\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Ted Dabrowski\r\nCarrie Mendoza (REP)",
+              "votes": 7731,
+              "percent": 34.54
+            },
+            {
+              "name": "James Mendrick\r\nRobert Renteria (REP)",
+              "votes": 2881,
+              "percent": 12.87
+            },
+            {
+              "name": "Darren Bailey\r\nAaron B. Del Mar (REP)",
+              "votes": 8228,
+              "percent": 36.76
+            },
+            {
+              "name": "Rick Heidner\r\nChristina Neitzke-Troike (REP)",
+              "votes": 3029,
+              "percent": 13.53
+            },
+            {
+              "name": "Joseph Severino\r\nRantch Isquith (REP)",
+              "votes": 480,
+              "percent": 2.14
+            },
+            {
+              "name": "Rejected write-ins",
+              "votes": 36,
+              "percent": 0.16
+            },
+            {
+              "name": "Unassigned write-ins",
+              "votes": 0,
+              "percent": 0.0
+            }
+          ]
         },
         {
           "name": "FOR GOVERNOR & LIEUTENANT GOVERNOR\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "JB Pritzker\r\nChristian Mitchell (DEM)",
+              "votes": 44365,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR ATTORNEY GENERAL\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Robert W. Fioretti (REP)",
+              "votes": 20598,
+              "percent": 99.18
+            },
+            {
+              "name": "Andy Williams Jr.",
+              "votes": 96,
+              "percent": 0.46
+            },
+            {
+              "name": "Rejected write-ins",
+              "votes": 74,
+              "percent": 0.36
+            },
+            {
+              "name": "Unassigned write-ins",
+              "votes": 0,
+              "percent": 0.0
+            }
+          ]
         },
         {
           "name": "FOR ATTORNEY GENERAL\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Kwame Raoul (DEM)",
+              "votes": 43706,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR SECRETARY OF STATE\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Walter Adamczyk (REP)",
+              "votes": 10836,
+              "percent": 50.83
+            },
+            {
+              "name": "Diane M. Harris (REP)",
+              "votes": 10483,
+              "percent": 49.17
+            }
+          ]
         },
         {
           "name": "FOR SECRETARY OF STATE\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Alexi Giannoulias (DEM)",
+              "votes": 44159,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR STATE COMPTROLLER\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Bryan Drew (REP)",
+              "votes": 20867,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR STATE COMPTROLLER\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Karina Villa (DEM)",
+              "votes": 18322,
+              "percent": 42.14
+            },
+            {
+              "name": "Stephanie A. Kifowit (DEM)",
+              "votes": 6525,
+              "percent": 15.01
+            },
+            {
+              "name": "Holly Kim (DEM)",
+              "votes": 8540,
+              "percent": 19.64
+            },
+            {
+              "name": "Margaret Croke (DEM)",
+              "votes": 10089,
+              "percent": 23.21
+            }
+          ]
         },
         {
           "name": "FOR STATE TREASURER\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "No Candidate (REP)",
+              "votes": 0,
+              "percent": 0.0
+            },
+            {
+              "name": "Max Solomon",
+              "votes": 1038,
+              "percent": 52.27
+            },
+            {
+              "name": "Rejected write-ins",
+              "votes": 948,
+              "percent": 47.73
+            },
+            {
+              "name": "Unassigned write-ins",
+              "votes": 0,
+              "percent": 0.0
+            }
+          ]
         },
         {
           "name": "FOR STATE TREASURER\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Michael W. Frerichs (DEM)",
+              "votes": 42825,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR THE 8TH CONGRESSIONAL DISTRICT REPRESENTATIVE IN CONGRESS\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Mark Rice (REP)",
+              "votes": 3031,
+              "percent": 32.31
+            },
+            {
+              "name": "Jennifer Davis (REP)",
+              "votes": 5568,
+              "percent": 59.35
+            },
+            {
+              "name": "Kevin Ake (REP)",
+              "votes": 391,
+              "percent": 4.17
+            },
+            {
+              "name": "Herbert Hebein (REP)",
+              "votes": 391,
+              "percent": 4.17
+            }
+          ]
         },
         {
           "name": "FOR THE 8TH CONGRESSIONAL DISTRICT REPRESENTATIVE IN CONGRESS\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Neil Khot (DEM)",
+              "votes": 954,
+              "percent": 4.88
+            },
+            {
+              "name": "Yasmeen Bankole (DEM)",
+              "votes": 2132,
+              "percent": 10.9
+            },
+            {
+              "name": "Kevin B. Morrison (DEM)",
+              "votes": 1251,
+              "percent": 6.4
+            },
+            {
+              "name": "Dan Tully (DEM)",
+              "votes": 3125,
+              "percent": 15.98
+            },
+            {
+              "name": "Ryan Vetticad (DEM)",
+              "votes": 207,
+              "percent": 1.06
+            },
+            {
+              "name": "Melissa L. Bean (DEM)",
+              "votes": 6340,
+              "percent": 32.42
+            },
+            {
+              "name": "Junaid Ahmed (DEM)",
+              "votes": 5129,
+              "percent": 26.22
+            },
+            {
+              "name": "Sanjyot Dunung (DEM)",
+              "votes": 420,
+              "percent": 2.15
+            }
+          ]
         },
         {
           "name": "FOR THE 11TH CONGRESSIONAL DISTRICT REPRESENTATIVE IN CONGRESS\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Jeff Walter (REP)",
+              "votes": 4920,
+              "percent": 47.17
+            },
+            {
+              "name": "Michael Pierce (REP)",
+              "votes": 3849,
+              "percent": 36.9
+            },
+            {
+              "name": "Tedora Brown (REP)",
+              "votes": 511,
+              "percent": 4.9
+            },
+            {
+              "name": "Charlie Kim (REP)",
+              "votes": 1127,
+              "percent": 10.8
+            },
+            {
+              "name": "Rejected write-ins",
+              "votes": 24,
+              "percent": 0.23
+            },
+            {
+              "name": "Unassigned write-ins",
+              "votes": 0,
+              "percent": 0.0
+            }
+          ]
         },
         {
           "name": "FOR THE 11TH CONGRESSIONAL DISTRICT REPRESENTATIVE IN CONGRESS\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Bill Foster (DEM)",
+              "votes": 20664,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR THE 14TH CONGRESSIONAL DISTRICT REPRESENTATIVE IN CONGRESS\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Gary Vician (REP)",
+              "votes": 414,
+              "percent": 22.76
+            },
+            {
+              "name": "James T. \"Jim\" Marter (REP)",
+              "votes": 1402,
+              "percent": 77.08
+            },
+            {
+              "name": "Krystal Dorey",
+              "votes": 1,
+              "percent": 0.05
+            },
+            {
+              "name": "Rejected write-ins",
+              "votes": 2,
+              "percent": 0.11
+            },
+            {
+              "name": "Unassigned write-ins",
+              "votes": 0,
+              "percent": 0.0
+            }
+          ]
         },
         {
           "name": "FOR THE 14TH CONGRESSIONAL DISTRICT REPRESENTATIVE IN CONGRESS\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Lauren Underwood (DEM)",
+              "votes": 4136,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR STATE SENATOR 26TH LEGISLATIVE DISTRICT\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Darby Hills (REP)",
+              "votes": 6,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR STATE SENATOR 26TH LEGISLATIVE DISTRICT\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Nabeela Syed (DEM)",
+              "votes": 12,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR STATE SENATOR 33RD LEGISLATIVE DISTRICT\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Danielle Penman (REP)",
+              "votes": 6007,
+              "percent": 59.21
+            },
+            {
+              "name": "Jessica Breugelmans (REP)",
+              "votes": 4139,
+              "percent": 40.79
+            }
+          ]
         },
         {
           "name": "FOR STATE SENATOR 33RD LEGISLATIVE DISTRICT\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Michele Clark (DEM)",
+              "votes": 16164,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR STATE SENATOR 35TH LEGISLATIVE DISTRICT\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Dave Syverson (REP)",
+              "votes": 4147,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR STATE SENATOR 35TH LEGISLATIVE DISTRICT\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Sarah B. Mertens (DEM)",
+              "votes": 5575,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR STATE SENATOR 42ND LEGISLATIVE DISTRICT\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Edgardo \"Eddie\" Perez (REP)",
+              "votes": 3286,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR STATE SENATOR 42ND LEGISLATIVE DISTRICT\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Linda Holmes (DEM)",
+              "votes": 9060,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR THE 43RD REPRESENTATIVE DISTRICT IN THE GENERAL ASSEMBLY\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "No Candidate (REP)",
+              "votes": 0,
+              "percent": 0.0
+            }
+          ]
         },
         {
           "name": "FOR THE 43RD REPRESENTATIVE DISTRICT IN THE GENERAL ASSEMBLY\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Anna Moeller (DEM)",
+              "votes": 4033,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR THE 49TH REPRESENTATIVE DISTRICT IN THE GENERAL ASSEMBLY\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "John Paul Augustynowicz (REP)",
+              "votes": 453,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR THE 49TH REPRESENTATIVE DISTRICT IN THE GENERAL ASSEMBLY\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Maura Hirschauer (DEM)",
+              "votes": 1256,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR THE 50TH REPRESENTATIVE DISTRICT IN THE GENERAL ASSEMBLY\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "No Candidate (REP)",
+              "votes": 0,
+              "percent": 0.0
+            }
+          ]
         },
         {
           "name": "FOR THE 50TH REPRESENTATIVE DISTRICT IN THE GENERAL ASSEMBLY\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Barbara Hernandez (DEM)",
+              "votes": 6591,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR THE 52ND REPRESENTATIVE DISTRICT IN THE GENERAL ASSEMBLY\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Martin McLaughlin (REP)",
+              "votes": 8,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR THE 52ND REPRESENTATIVE DISTRICT IN THE GENERAL ASSEMBLY\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Maria Peterson (DEM)",
+              "votes": 8,
+              "percent": 66.67
+            },
+            {
+              "name": "Erin Chan Ding (DEM)",
+              "votes": 4,
+              "percent": 33.33
+            }
+          ]
         },
         {
           "name": "FOR THE 65TH REPRESENTATIVE DISTRICT IN THE GENERAL ASSEMBLY\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Dan Ugaste (REP)",
+              "votes": 6973,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR THE 65TH REPRESENTATIVE DISTRICT IN THE GENERAL ASSEMBLY\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Ricky Rivard (DEM)",
+              "votes": 10102,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR THE 66TH REPRESENTATIVE DISTRICT IN THE GENERAL ASSEMBLY\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Laurie Parman (REP)",
+              "votes": 2954,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR THE 66TH REPRESENTATIVE DISTRICT IN THE GENERAL ASSEMBLY\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Suzanne Ness (DEM)",
+              "votes": 6136,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR THE 70TH REPRESENTATIVE DISTRICT IN THE GENERAL ASSEMBLY\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Jeff Keicher (REP)",
+              "votes": 4169,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR THE 70TH REPRESENTATIVE DISTRICT IN THE GENERAL ASSEMBLY\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Veronica Garcia-Martinez (DEM)",
+              "votes": 5564,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR THE 83RD REPRESENTATIVE DISTRICT IN THE GENERAL ASSEMBLY\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Jesse Rodriguez (REP)",
+              "votes": 3147,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR THE 83RD REPRESENTATIVE DISTRICT IN THE GENERAL ASSEMBLY\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Matt Hanson (DEM)",
+              "votes": 8187,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR THE 84TH REPRESENTATIVE DISTRICT IN THE GENERAL ASSEMBLY\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Brian Scopa (REP)",
+              "votes": 159,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR THE 84TH REPRESENTATIVE DISTRICT IN THE GENERAL ASSEMBLY\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Jared Ploger (DEM)",
+              "votes": 386,
+              "percent": 44.78
+            },
+            {
+              "name": "Saba Haider (DEM)",
+              "votes": 476,
+              "percent": 55.22
+            }
+          ]
         },
         {
           "name": "GRUNDY & KENDALL COUNTIES FOR REGIONAL SUPERINTENDENT OF SCHOOLS\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Meghan Martin (REP)",
+              "votes": 25,
+              "percent": 71.43
+            },
+            {
+              "name": "Kristen Koppers (REP)",
+              "votes": 10,
+              "percent": 28.57
+            }
+          ]
         },
         {
           "name": "GRUNDY & KENDALL COUNTIES FOR REGIONAL SUPERINTENDENT OF SCHOOLS\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "No Candidate (DEM)",
+              "votes": 0,
+              "percent": 0.0
+            }
+          ]
         },
         {
           "name": "FOR COUNTY CLERK\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "John A. \"Jack\" Cunningham (REP)",
+              "votes": 21132,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR COUNTY CLERK\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Brian Pollock (DEM)",
+              "votes": 19119,
+              "percent": 44.93
+            },
+            {
+              "name": "Brenda Rodgers (DEM)",
+              "votes": 23434,
+              "percent": 55.07
+            }
+          ]
         },
         {
           "name": "FOR COUNTY SHERIFF\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Luis \"Lou\" Santoyo (REP)",
+              "votes": 7193,
+              "percent": 32.99
+            },
+            {
+              "name": "Rob Russell (REP)",
+              "votes": 14611,
+              "percent": 67.01
+            }
+          ]
         },
         {
           "name": "FOR COUNTY SHERIFF\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Salvador Rodriguez (DEM)",
+              "votes": 19713,
+              "percent": 45.16
+            },
+            {
+              "name": "Amy Johnson (DEM)",
+              "votes": 23943,
+              "percent": 54.84
+            }
+          ]
         },
         {
           "name": "FOR COUNTY TREASURER\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Chris Lauzen (REP)",
+              "votes": 20937,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR COUNTY TREASURER\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Scott Johansen (DEM)",
+              "votes": 7437,
+              "percent": 17.55
+            },
+            {
+              "name": "Penny Wegman (DEM)",
+              "votes": 28101,
+              "percent": 66.3
+            },
+            {
+              "name": "Connie Cain (DEM)",
+              "votes": 6845,
+              "percent": 16.15
+            }
+          ]
         },
         {
           "name": "FOR MEMBER OF THE COUNTY BOARD DISTRICT 1\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "No Candidate (REP)",
+              "votes": 0,
+              "percent": 0.0
+            }
+          ]
         },
         {
           "name": "FOR MEMBER OF THE COUNTY BOARD DISTRICT 1\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Myrna Molina (DEM)",
+              "votes": 953,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR MEMBER OF THE COUNTY BOARD DISTRICT 2- TO SERVE AN UNEXPIRED 2-YEAR TERM\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "No Candidate (REP)",
+              "votes": 0,
+              "percent": 0.0
+            }
+          ]
         },
         {
           "name": "FOR MEMBER OF THE COUNTY BOARD DISTRICT 2- TO SERVE AN UNEXPIRED 2-YEAR TERM\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Ellen Nottke (DEM)",
+              "votes": 872,
+              "percent": 40.06
+            },
+            {
+              "name": "Martha Davidson (DEM)",
+              "votes": 774,
+              "percent": 35.55
+            },
+            {
+              "name": "Matthew Dingeldein (DEM)",
+              "votes": 531,
+              "percent": 24.39
+            }
+          ]
         },
         {
           "name": "FOR MEMBER OF THE COUNTY BOARD DISTRICT 3\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "No Candidate (REP)",
+              "votes": 0,
+              "percent": 0.0
+            }
+          ]
         },
         {
           "name": "FOR MEMBER OF THE COUNTY BOARD DISTRICT 3\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Anita Marie Lewis (DEM)",
+              "votes": 982,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR MEMBER OF THE COUNTY BOARD DISTRICT 5\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Bill Lenert (REP)",
+              "votes": 1278,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR MEMBER OF THE COUNTY BOARD DISTRICT 5\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Philip Silagi (DEM)",
+              "votes": 1791,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR MEMBER OF THE COUNTY BOARD DISTRICT 7\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "No Candidate (REP)",
+              "votes": 0,
+              "percent": 0.0
+            }
+          ]
         },
         {
           "name": "FOR MEMBER OF THE COUNTY BOARD DISTRICT 7\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Alex Arroyo (DEM)",
+              "votes": 1227,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR MEMBER OF THE COUNTY BOARD DISTRICT 9\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Jennifer Abbatacola (REP)",
+              "votes": 1024,
+              "percent": 53.58
+            },
+            {
+              "name": "Jeffrey R. Magnussen (REP)",
+              "votes": 887,
+              "percent": 46.42
+            }
+          ]
         },
         {
           "name": "FOR MEMBER OF THE COUNTY BOARD DISTRICT 9\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Marc A. Guttke (DEM)",
+              "votes": 2474,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR MEMBER OF THE COUNTY BOARD DISTRICT 11\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "No Candidate (REP)",
+              "votes": 0,
+              "percent": 0.0
+            }
+          ]
         },
         {
           "name": "FOR MEMBER OF THE COUNTY BOARD DISTRICT 11\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Leslie N Juby (DEM)",
+              "votes": 1235,
+              "percent": 36.4
+            },
+            {
+              "name": "Julie Forbes (DEM)",
+              "votes": 2158,
+              "percent": 63.6
+            }
+          ]
         },
         {
           "name": "FOR MEMBER OF THE COUNTY BOARD DISTRICT 13\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Ryan Deniz (REP)",
+              "votes": 847,
+              "percent": 69.2
+            },
+            {
+              "name": "Anthony Louis Catella (REP)",
+              "votes": 377,
+              "percent": 30.8
+            }
+          ]
         },
         {
           "name": "FOR MEMBER OF THE COUNTY BOARD DISTRICT 13\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Nicolas G. \"Nico\" Jimenez (DEM)",
+              "votes": 1326,
+              "percent": 61.67
+            },
+            {
+              "name": "Michael Linder (DEM)",
+              "votes": 824,
+              "percent": 38.33
+            }
+          ]
         },
         {
           "name": "FOR MEMBER OF THE COUNTY BOARD DISTRICT 15\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "David Young (REP)",
+              "votes": 1289,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR MEMBER OF THE COUNTY BOARD DISTRICT 15\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Kate Monteleone (DEM)",
+              "votes": 1650,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR MEMBER OF THE COUNTY BOARD DISTRICT 17\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "No Candidate (REP)",
+              "votes": 0,
+              "percent": 0.0
+            }
+          ]
         },
         {
           "name": "FOR MEMBER OF THE COUNTY BOARD DISTRICT 17\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Deborah Allan (DEM)",
+              "votes": 618,
+              "percent": 58.63
+            },
+            {
+              "name": "Deborah Willis (DEM)",
+              "votes": 436,
+              "percent": 41.37
+            }
+          ]
         },
         {
           "name": "FOR MEMBER OF THE COUNTY BOARD DISTRICT 19\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Steve Serafin (REP)",
+              "votes": 782,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR MEMBER OF THE COUNTY BOARD DISTRICT 19\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Mohammad \"Mo\" Iqbal (DEM)",
+              "votes": 1778,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR MEMBER OF THE COUNTY BOARD DISTRICT 21\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Clifford Surges (REP)",
+              "votes": 1074,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR MEMBER OF THE COUNTY BOARD DISTRICT 21\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Deborah Chabi (DEM)",
+              "votes": 1910,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR MEMBER OF THE COUNTY BOARD DISTRICT 23\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Emmanuel Thomas (REP)",
+              "votes": 641,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "FOR MEMBER OF THE COUNTY BOARD DISTRICT 23\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Christopher W. Kious (DEM)",
+              "votes": 1309,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "DEKALB COUNTY FOR REGIONAL SUPERINTENDENT OF SCHOOLS\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Carmen R. Siragusa (REP)",
+              "votes": 152,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "DEKALB COUNTY FOR REGIONAL SUPERINTENDENT OF SCHOOLS\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "No Candidate (DEM)",
+              "votes": 0,
+              "percent": 0.0
+            }
+          ]
         },
         {
           "name": "KANE COUNTY FOR REGIONAL SUPERINTENDENT OF SCHOOLS\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "John K Jonak (REP)",
+              "votes": 19844,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "KANE COUNTY FOR REGIONAL SUPERINTENDENT OF SCHOOLS\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "No Candidate (DEM)",
+              "votes": 0,
+              "percent": 0.0
+            }
+          ]
         },
         {
           "name": "LAKE COUNTY FOR REGIONAL SUPERINTENDENT OF SCHOOLS\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "No Candidate (REP)",
+              "votes": 0,
+              "percent": 0.0
+            }
+          ]
         },
         {
           "name": "LAKE COUNTY FOR REGIONAL SUPERINTENDENT OF SCHOOLS\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Michael L. Karner (DEM)",
+              "votes": 219,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "MCHENRY COUNTY FOR REGIONAL SUPERINTENDENT OF SCHOOLS\r\n             - REP",
           "party": "Republican",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Diana Hartmann (REP)",
+              "votes": 584,
+              "percent": 100.0
+            }
+          ]
         },
         {
           "name": "MCHENRY COUNTY FOR REGIONAL SUPERINTENDENT OF SCHOOLS\r\n             - DEM",
           "party": "Democratic",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "No Candidate (DEM)",
+              "votes": 0,
+              "percent": 0.0
+            }
+          ]
         },
         {
           "name": "(CITY OF GENEVA) CONSTRUCTING AND EQUIPPING A NEW POLICE STATION\r\n             - NP",
           "party": "Non-Partisan",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Yes",
+              "votes": 2140,
+              "percent": 34.5
+            },
+            {
+              "name": "No",
+              "votes": 4063,
+              "percent": 65.5
+            }
+          ]
         },
         {
           "name": "(ELGIN 41) EXPLORE AND PURSUE A PARTNERSHIP TO DEVELOP WALKING PATHS WITHIN COLLEGE PARK\r\n             - NP",
           "party": "Non-Partisan",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Yes",
+              "votes": 123,
+              "percent": 79.35
+            },
+            {
+              "name": "No",
+              "votes": 32,
+              "percent": 20.65
+            }
+          ]
         },
         {
           "name": "(HINCKLEY FIRE) PROPOSITION TO INCREASE THE LIMITING RATE\r\n             - NP",
           "party": "Non-Partisan",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Yes",
+              "votes": 6,
+              "percent": 85.71
+            },
+            {
+              "name": "No",
+              "votes": 1,
+              "percent": 14.29
+            }
+          ]
         },
         {
           "name": "(YORKVILLE 115) PROPOSITION TO ISSUE $275,142,683 SCHOOL BUILDING BONDS\r\n             - NP",
           "party": "Non-Partisan",
-          "candidates": []
+          "candidates": [
+            {
+              "name": "Yes",
+              "votes": 83,
+              "percent": 51.23
+            },
+            {
+              "name": "No",
+              "votes": 79,
+              "percent": 48.77
+            }
+          ]
         }
       ]
     },
@@ -28103,11 +29115,11 @@
     },
     "DeKalb": {
       "county": "DeKalb",
-      "scraped_at": "2026-04-14T10:38:25.190696",
-      "total_contests": 15,
+      "scraped_at": "2026-04-21T11:49:20.386000",
+      "total_contests": 19,
       "contests_by_party": {
         "Democratic": {
-          "count": 13,
+          "count": 14,
           "contests": [
             {
               "contest_name": "FOR COUNTY CLERK",
@@ -28139,6 +29151,22 @@
               ],
               "precincts_reporting": 69,
               "total_precincts": 69,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_name": "FOR REGIONAL SUPERINTENDENT OF SCHOOLS (LASALLE, MARSHALL AND PUTNAM COUNTIES)",
+              "party": "Democratic",
+              "county": "DeKalb",
+              "candidates": [
+                {
+                  "name": "RYAN F. MYERS",
+                  "party": "Democratic",
+                  "votes": 10,
+                  "percentage": 100.0
+                }
+              ],
+              "precincts_reporting": 2,
+              "total_precincts": 2,
               "reporting_percentage": 100.0
             },
             {
@@ -28382,7 +29410,7 @@
           ]
         },
         "Republican": {
-          "count": 2,
+          "count": 5,
           "contests": [
             {
               "contest_name": "FOR SHERIFF",
@@ -28401,7 +29429,7 @@
               "reporting_percentage": 100.0
             },
             {
-              "contest_name": "FOR REGIONAL SUPERINTENDENT OF SCHOOLS",
+              "contest_name": "FOR REGIONAL SUPERINTENDENT OF SCHOOLS (DEKALB COUNTY)",
               "party": "Republican",
               "county": "DeKalb",
               "candidates": [
@@ -28414,6 +29442,54 @@
               ],
               "precincts_reporting": 69,
               "total_precincts": 69,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_name": "FOR REGIONAL SUPERINTENDENT OF SCHOOLS (BOONE AND WINNEBAGO COUNTIES)",
+              "party": "Republican",
+              "county": "DeKalb",
+              "candidates": [
+                {
+                  "name": "SCOTT BLOOMQUIST",
+                  "party": "Republican",
+                  "votes": 2,
+                  "percentage": 100.0
+                }
+              ],
+              "precincts_reporting": 1,
+              "total_precincts": 1,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_name": "FOR REGIONAL SUPERINTENDENT OF SCHOOLS (KANE COUNTY)",
+              "party": "Republican",
+              "county": "DeKalb",
+              "candidates": [
+                {
+                  "name": "JOHN J JONAK",
+                  "party": "Republican",
+                  "votes": 70,
+                  "percentage": 100.0
+                }
+              ],
+              "precincts_reporting": 6,
+              "total_precincts": 6,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_name": "FOR REGIONAL SUPERINTENDENT OF SCHOOLS (LEE, OGLE AND WHITESIDE COUNTIES)",
+              "party": "Republican",
+              "county": "DeKalb",
+              "candidates": [
+                {
+                  "name": "CHRISTOPHER J. TENNYSON",
+                  "party": "Republican",
+                  "votes": 4,
+                  "percentage": 100.0
+                }
+              ],
+              "precincts_reporting": 1,
+              "total_precincts": 1,
               "reporting_percentage": 100.0
             }
           ]
