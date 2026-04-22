@@ -1,5 +1,5 @@
 {
-  "aggregated_at": "2026-04-21T15:49:22.050081",
+  "aggregated_at": "2026-04-22T10:40:45.933614",
   "num_counties": 25,
   "counties_included": [
     "Cook",
@@ -7717,7 +7717,7 @@
             "percent": 93.05
           },
           {
-            "name": "MEGHAN MARTIN",
+            "name": "Meghan Martin (i)",
             "votes": 2281,
             "counties": [
               "Grundy"
@@ -7725,7 +7725,7 @@
             "percent": 5.01
           },
           {
-            "name": "KRISTEN KOPPERS",
+            "name": "Kristen Koppers",
             "votes": 879,
             "counties": [
               "Grundy"
@@ -7829,43 +7829,40 @@
         "total_precincts": 0
       },
       "mhn_grundy_kendall": {
-        "name": "GRUNDY & KENDALL COUNTIES FOR REGIONAL SUPERINTENDENT OF SCHOOLS - REPUBLICAN PARTY",
+        "name": "REGIONAL SUPERINTENDENT OF SCHOOLS FOR GRUNDY AND KENDALL COUNTIES",
         "party": "Republican",
         "counties": [
           "Grundy",
+          "Kendall",
           "Will",
           "Kane"
         ],
-        "num_counties": 3,
+        "num_counties": 4,
         "candidates": [
           {
-            "name": "THERESA ROUSE",
-            "votes": 42336,
-            "counties": [
-              "Will"
-            ],
-            "percent": 92.98
-          },
-          {
-            "name": "MEGHAN MARTIN",
-            "votes": 2306,
+            "name": "Meghan Martin (i)",
+            "votes": 7457,
             "counties": [
               "Grundy",
+              "Kendall",
+              "Will",
               "Kane"
             ],
-            "percent": 5.06
+            "percent": 70.68
           },
           {
-            "name": "KRISTEN KOPPERS",
-            "votes": 889,
+            "name": "Kristen Koppers",
+            "votes": 3093,
             "counties": [
               "Grundy",
+              "Kendall",
+              "Will",
               "Kane"
             ],
-            "percent": 1.95
+            "percent": 29.32
           }
         ],
-        "total_votes": 45531,
+        "total_votes": 10550,
         "race_id": "mhn_grundy_kendall",
         "market": "MHN/KCN",
         "label": "Regional Superintendent of Schools \u2014 Grundy & Kendall",
@@ -7877,6 +7874,7 @@
         ],
         "counties_found": [
           "Grundy",
+          "Kendall",
           "Will",
           "Kane"
         ],
@@ -27658,30 +27656,268 @@
     },
     "Grundy": {
       "county": "Grundy",
-      "scraped_at": "2026-03-17T21:00:00",
-      "total_contests": 1,
+      "scraped_at": "2026-03-17T23:59:00",
+      "total_contests": 12,
       "contests_by_party": {
         "Democratic": {
-          "count": 0,
-          "contests": []
-        },
-        "Republican": {
-          "count": 1,
+          "count": 6,
           "contests": [
             {
-              "contest_name": "GRUNDY & KENDALL COUNTIES FOR REGIONAL SUPERINTENDENT OF SCHOOLS - REPUBLICAN PARTY",
-              "name": "GRUNDY & KENDALL COUNTIES FOR REGIONAL SUPERINTENDENT OF SCHOOLS - REPUBLICAN PARTY",
+              "contest_name": "COUNTY CLERK",
+              "name": "COUNTY CLERK",
+              "party": "Democratic",
+              "candidates": [
+                {
+                  "name": "Kay T. Olson (i)",
+                  "votes": 2422,
+                  "percentage": 100.0
+                }
+              ],
+              "precincts_reporting": 36,
+              "total_precincts": 36,
+              "reporting_percentage": 100.0,
+              "county": "Grundy"
+            },
+            {
+              "contest_name": "COUNTY BOARD DISTRICT 1",
+              "name": "COUNTY BOARD DISTRICT 1",
+              "party": "Democratic",
+              "candidates": [
+                {
+                  "name": "Jason L. Easton",
+                  "votes": 833,
+                  "percentage": 100.0
+                }
+              ],
+              "precincts_reporting": 36,
+              "total_precincts": 36,
+              "reporting_percentage": 100.0,
+              "county": "Grundy"
+            },
+            {
+              "contest_name": "3RD APPELLATE DISTRICT",
+              "name": "3RD APPELLATE DISTRICT",
+              "party": "Democratic",
+              "candidates": [
+                {
+                  "name": "John Pavich",
+                  "votes": 629,
+                  "percentage": 26.51
+                },
+                {
+                  "name": "Margaret \"Peggy\" O'Connell",
+                  "votes": 1744,
+                  "percentage": 73.49
+                }
+              ],
+              "precincts_reporting": 36,
+              "total_precincts": 36,
+              "reporting_percentage": 100.0,
+              "county": "Grundy"
+            },
+            {
+              "contest_name": "13TH CIRCUIT - AT-LARGE VACANCY",
+              "name": "13TH CIRCUIT - AT-LARGE VACANCY",
+              "party": "Democratic",
+              "candidates": [
+                {
+                  "name": "Melissa Olivero",
+                  "votes": 2234,
+                  "percentage": 100.0
+                }
+              ],
+              "precincts_reporting": 36,
+              "total_precincts": 36,
+              "reporting_percentage": 100.0,
+              "county": "Grundy"
+            }
+          ]
+        },
+        "Republican": {
+          "count": 8,
+          "contests": [
+            {
+              "contest_name": "COUNTY TREASURER",
+              "name": "COUNTY TREASURER",
               "party": "Republican",
               "candidates": [
                 {
-                  "name": "MEGHAN MARTIN",
+                  "name": "Todd Koehn (i)",
+                  "votes": 3033,
+                  "percentage": 100.0
+                }
+              ],
+              "precincts_reporting": 36,
+              "total_precincts": 36,
+              "reporting_percentage": 100.0,
+              "county": "Grundy"
+            },
+            {
+              "contest_name": "COUNTY SHERIFF",
+              "name": "COUNTY SHERIFF",
+              "party": "Republican",
+              "candidates": [
+                {
+                  "name": "Ken Briley (i)",
+                  "votes": 3264,
+                  "percentage": 100.0
+                }
+              ],
+              "precincts_reporting": 36,
+              "total_precincts": 36,
+              "reporting_percentage": 100.0,
+              "county": "Grundy"
+            },
+            {
+              "contest_name": "COUNTY BOARD DISTRICT 1",
+              "name": "COUNTY BOARD DISTRICT 1",
+              "party": "Republican",
+              "candidates": [
+                {
+                  "name": "Drew Muffler (i)",
+                  "votes": 1057,
+                  "percentage": 31.79
+                },
+                {
+                  "name": "Christina Marie Jenkins (i)",
+                  "votes": 633,
+                  "percentage": 19.04
+                },
+                {
+                  "name": "Douglas Ferro (i)",
+                  "votes": 751,
+                  "percentage": 22.59
+                },
+                {
+                  "name": "Keith Christensen",
+                  "votes": 884,
+                  "percentage": 26.59
+                }
+              ],
+              "precincts_reporting": 36,
+              "total_precincts": 36,
+              "reporting_percentage": 100.0,
+              "county": "Grundy"
+            },
+            {
+              "contest_name": "COUNTY BOARD DISTRICT 2",
+              "name": "COUNTY BOARD DISTRICT 2",
+              "party": "Republican",
+              "candidates": [
+                {
+                  "name": "Jeffrey Wynn (i)",
+                  "votes": 562,
+                  "percentage": 33.39
+                },
+                {
+                  "name": "Joshua S. Harris (i)",
+                  "votes": 591,
+                  "percentage": 35.12
+                },
+                {
+                  "name": "Laura M. Schiavone",
+                  "votes": 530,
+                  "percentage": 31.49
+                }
+              ],
+              "precincts_reporting": 36,
+              "total_precincts": 36,
+              "reporting_percentage": 100.0,
+              "county": "Grundy"
+            },
+            {
+              "contest_name": "COUNTY BOARD DISTRICT 3 UNEXPIRED 2-YEAR TERM",
+              "name": "COUNTY BOARD DISTRICT 3 UNEXPIRED 2-YEAR TERM",
+              "party": "Republican",
+              "candidates": [
+                {
+                  "name": "Carly Koehn",
+                  "votes": 975,
+                  "percentage": 100.0
+                }
+              ],
+              "precincts_reporting": 36,
+              "total_precincts": 36,
+              "reporting_percentage": 100.0,
+              "county": "Grundy"
+            },
+            {
+              "contest_name": "COUNTY BOARD DISTRICT 3",
+              "name": "COUNTY BOARD DISTRICT 3",
+              "party": "Republican",
+              "candidates": [
+                {
+                  "name": "Georgette Vota (i)",
+                  "votes": 672,
+                  "percentage": 30.6
+                },
+                {
+                  "name": "Joseph Plese (i)",
+                  "votes": 770,
+                  "percentage": 35.06
+                },
+                {
+                  "name": "Douglas M. Boresi (i)",
+                  "votes": 754,
+                  "percentage": 34.34
+                }
+              ],
+              "precincts_reporting": 36,
+              "total_precincts": 36,
+              "reporting_percentage": 100.0,
+              "county": "Grundy"
+            },
+            {
+              "contest_name": "REGIONAL SUPERINTENDENT OF SCHOOLS FOR GRUNDY AND KENDALL COUNTIES",
+              "name": "REGIONAL SUPERINTENDENT OF SCHOOLS FOR GRUNDY AND KENDALL COUNTIES",
+              "party": "Republican",
+              "candidates": [
+                {
+                  "name": "Meghan Martin (i)",
                   "votes": 2281,
                   "percentage": 72.18
                 },
                 {
-                  "name": "KRISTEN KOPPERS",
+                  "name": "Kristen Koppers",
                   "votes": 879,
                   "percentage": 27.82
+                }
+              ],
+              "precincts_reporting": 36,
+              "total_precincts": 36,
+              "reporting_percentage": 100.0,
+              "county": "Grundy"
+            },
+            {
+              "contest_name": "13TH CIRCUIT - AT-LARGE VACANCY",
+              "name": "13TH CIRCUIT - AT-LARGE VACANCY",
+              "party": "Republican",
+              "candidates": [
+                {
+                  "name": "Michelle A. Vescogni",
+                  "votes": 2891,
+                  "percentage": 100.0
+                }
+              ],
+              "precincts_reporting": 36,
+              "total_precincts": 36,
+              "reporting_percentage": 100.0,
+              "county": "Grundy"
+            },
+            {
+              "contest_name": "3RD APPELLATE DISTRICT",
+              "name": "3RD APPELLATE DISTRICT",
+              "party": "Republican",
+              "candidates": [
+                {
+                  "name": "Jason A. Helland",
+                  "votes": 2386,
+                  "percentage": 72.04
+                },
+                {
+                  "name": "Mark Senak",
+                  "votes": 926,
+                  "percentage": 27.96
                 }
               ],
               "precincts_reporting": 36,
@@ -27692,8 +27928,30 @@
           ]
         },
         "Non-Partisan": {
-          "count": 0,
-          "contests": []
+          "count": 1,
+          "contests": [
+            {
+              "contest_name": "GRUNDY COUNTY FEDERAL SCHOLARSHIP TAX CREDIT ADVISORY REFERENDUM",
+              "name": "GRUNDY COUNTY FEDERAL SCHOLARSHIP TAX CREDIT ADVISORY REFERENDUM",
+              "party": "Non-Partisan",
+              "candidates": [
+                {
+                  "name": "Yes",
+                  "votes": 4525,
+                  "percentage": 77.35
+                },
+                {
+                  "name": "No",
+                  "votes": 1315,
+                  "percentage": 22.65
+                }
+              ],
+              "precincts_reporting": 36,
+              "total_precincts": 36,
+              "reporting_percentage": 100.0,
+              "county": "Grundy"
+            }
+          ]
         }
       }
     },
