@@ -1,5 +1,5 @@
 {
-  "aggregated_at": "2026-04-23T15:36:57.630289",
+  "aggregated_at": "2026-04-23T16:26:50.870938",
   "num_counties": 25,
   "counties_included": [
     "Cook",
@@ -61,7 +61,8 @@
       "num_counties": 24,
       "candidates": [
         {
-          "name": "DON TRACY (REP)",
+          "name": "DON TRACY",
+          "party": "Republican",
           "votes": 14818,
           "counties": [
             "Whiteside",
@@ -80,7 +81,8 @@
           "percent": 24.35
         },
         {
-          "name": "RAJA KRISHNAMOORTHI (DEM)",
+          "name": "RAJA KRISHNAMOORTHI",
+          "party": "Democratic",
           "votes": 9620,
           "counties": [
             "Whiteside",
@@ -99,7 +101,8 @@
           "percent": 15.81
         },
         {
-          "name": "JEANNIE EVANS (REP)",
+          "name": "JEANNIE EVANS",
+          "party": "Republican",
           "votes": 8218,
           "counties": [
             "Whiteside",
@@ -118,7 +121,8 @@
           "percent": 13.5
         },
         {
-          "name": "JULIANA STRATTON (DEM)",
+          "name": "JULIANA STRATTON",
+          "party": "Democratic",
           "votes": 7750,
           "counties": [
             "Whiteside",
@@ -137,7 +141,8 @@
           "percent": 12.74
         },
         {
-          "name": "PAMELA DENISE LONG (REP)",
+          "name": "PAMELA DENISE LONG",
+          "party": "Republican",
           "votes": 4824,
           "counties": [
             "Whiteside",
@@ -156,7 +161,8 @@
           "percent": 7.93
         },
         {
-          "name": "CASEY CHLEBEK (REP)",
+          "name": "CASEY CHLEBEK",
+          "party": "Republican",
           "votes": 4128,
           "counties": [
             "Whiteside",
@@ -175,7 +181,8 @@
           "percent": 6.78
         },
         {
-          "name": "R. CARY CAPPARELLI (REP)",
+          "name": "R. CARY CAPPARELLI",
+          "party": "Republican",
           "votes": 3607,
           "counties": [
             "Whiteside",
@@ -194,7 +201,8 @@
           "percent": 5.93
         },
         {
-          "name": "JIMMY LEE TILLMAN, II (REP)",
+          "name": "JIMMY LEE TILLMAN, II",
+          "party": "Republican",
           "votes": 2603,
           "counties": [
             "Whiteside",
@@ -213,7 +221,8 @@
           "percent": 4.28
         },
         {
-          "name": "ROBIN KELLY (DEM)",
+          "name": "ROBIN KELLY",
+          "party": "Democratic",
           "votes": 2398,
           "counties": [
             "Whiteside",
@@ -232,7 +241,8 @@
           "percent": 3.94
         },
         {
-          "name": "KEVIN RYAN (DEM)",
+          "name": "KEVIN RYAN",
+          "party": "Democratic",
           "votes": 1535,
           "counties": [
             "Whiteside",
@@ -251,7 +261,8 @@
           "percent": 2.52
         },
         {
-          "name": "AWISI A. BUSTOS (DEM)",
+          "name": "AWISI A. BUSTOS",
+          "party": "Democratic",
           "votes": 352,
           "counties": [
             "Whiteside",
@@ -270,7 +281,8 @@
           "percent": 0.58
         },
         {
-          "name": "BRYAN MAXWELL (DEM)",
+          "name": "BRYAN MAXWELL",
+          "party": "Democratic",
           "votes": 302,
           "counties": [
             "Whiteside",
@@ -289,7 +301,8 @@
           "percent": 0.5
         },
         {
-          "name": "CHRISTOPHER SWANN (DEM)",
+          "name": "CHRISTOPHER SWANN",
+          "party": "Democratic",
           "votes": 210,
           "counties": [
             "Whiteside",
@@ -308,7 +321,8 @@
           "percent": 0.35
         },
         {
-          "name": "SEAN BROWN (DEM)",
+          "name": "SEAN BROWN",
+          "party": "Democratic",
           "votes": 183,
           "counties": [
             "Whiteside",
@@ -327,7 +341,8 @@
           "percent": 0.3
         },
         {
-          "name": "JONATHAN DEAN (DEM)",
+          "name": "JONATHAN DEAN",
+          "party": "Democratic",
           "votes": 178,
           "counties": [
             "Whiteside",
@@ -346,7 +361,8 @@
           "percent": 0.29
         },
         {
-          "name": "STEVE BOTSFORD JR. (DEM)",
+          "name": "STEVE BOTSFORD JR.",
+          "party": "Democratic",
           "votes": 119,
           "counties": [
             "Whiteside",
@@ -365,7 +381,8 @@
           "percent": 0.2
         },
         {
-          "name": "ADAM DELGADO (DEM)",
+          "name": "ADAM DELGADO",
+          "party": "Democratic",
           "votes": 7,
           "counties": [
             "Whiteside",
@@ -414,7 +431,8 @@
       "num_counties": 24,
       "candidates": [
         {
-          "name": "BAILEY/DEL MAR (REP)",
+          "name": "BAILEY/DEL MAR",
+          "party": "Republican",
           "votes": 26258,
           "counties": [
             "Whiteside",
@@ -433,7 +451,8 @@
           "percent": 41.82
         },
         {
-          "name": "PRITZKER/MITCHELL (DEM)",
+          "name": "PRITZKER/MITCHELL",
+          "party": "Democratic",
           "votes": 21979,
           "counties": [
             "Whiteside",
@@ -452,7 +471,8 @@
           "percent": 35.0
         },
         {
-          "name": "DABROWSKI/MENDOZA (REP)",
+          "name": "DABROWSKI/MENDOZA",
+          "party": "Republican",
           "votes": 8356,
           "counties": [
             "Whiteside",
@@ -471,7 +491,8 @@
           "percent": 13.31
         },
         {
-          "name": "MENDRICK/RENTERIA (REP)",
+          "name": "MENDRICK/RENTERIA",
+          "party": "Republican",
           "votes": 3321,
           "counties": [
             "Whiteside",
@@ -490,7 +511,8 @@
           "percent": 5.29
         },
         {
-          "name": "HEIDNER/NEITZKE-TROIKE (REP)",
+          "name": "HEIDNER/NEITZKE-TROIKE",
+          "party": "Republican",
           "votes": 2876,
           "counties": [
             "Whiteside",
@@ -543,7 +565,8 @@
       "num_counties": 24,
       "candidates": [
         {
-          "name": "ROBERT W. FIORETTI (REP)",
+          "name": "ROBERT W. FIORETTI",
+          "party": "Republican",
           "votes": 36362,
           "counties": [
             "Whiteside",
@@ -562,7 +585,8 @@
           "percent": 62.78
         },
         {
-          "name": "KWAME RAOUL (DEM)",
+          "name": "KWAME RAOUL",
+          "party": "Democratic",
           "votes": 21453,
           "counties": [
             "Whiteside",
@@ -581,7 +605,8 @@
           "percent": 37.04
         },
         {
-          "name": "ANDY WILLIAMS JR (REP)",
+          "name": "ANDY WILLIAMS JR",
+          "party": "Republican",
           "votes": 108,
           "counties": [
             "Whiteside",
@@ -631,7 +656,8 @@
       "num_counties": 24,
       "candidates": [
         {
-          "name": "ALEXI GIANNOULIAS (DEM)",
+          "name": "ALEXI GIANNOULIAS",
+          "party": "Democratic",
           "votes": 21853,
           "counties": [
             "Whiteside",
@@ -650,7 +676,8 @@
           "percent": 36.63
         },
         {
-          "name": "DIANE M. HARRIS (REP)",
+          "name": "DIANE M. HARRIS",
+          "party": "Republican",
           "votes": 21031,
           "counties": [
             "Whiteside",
@@ -669,7 +696,8 @@
           "percent": 35.25
         },
         {
-          "name": "WALTER ADAMCZYK (REP)",
+          "name": "WALTER ADAMCZYK",
+          "party": "Republican",
           "votes": 16771,
           "counties": [
             "Whiteside",
@@ -722,7 +750,8 @@
       "num_counties": 24,
       "candidates": [
         {
-          "name": "BRYAN DREW (REP)",
+          "name": "BRYAN DREW",
+          "party": "Republican",
           "votes": 36467,
           "counties": [
             "Whiteside",
@@ -741,7 +770,8 @@
           "percent": 63.0
         },
         {
-          "name": "MARGARET CROKE (DEM)",
+          "name": "MARGARET CROKE",
+          "party": "Democratic",
           "votes": 6933,
           "counties": [
             "Whiteside",
@@ -760,7 +790,8 @@
           "percent": 11.98
         },
         {
-          "name": "HOLLY KIM (DEM)",
+          "name": "HOLLY KIM",
+          "party": "Democratic",
           "votes": 6841,
           "counties": [
             "Whiteside",
@@ -779,7 +810,8 @@
           "percent": 11.82
         },
         {
-          "name": "KARINA VILLA (DEM)",
+          "name": "KARINA VILLA",
+          "party": "Democratic",
           "votes": 5222,
           "counties": [
             "Whiteside",
@@ -798,7 +830,8 @@
           "percent": 9.02
         },
         {
-          "name": "STEPHANIE A. KIFOWIT (DEM)",
+          "name": "STEPHANIE A. KIFOWIT",
+          "party": "Democratic",
           "votes": 2424,
           "counties": [
             "Whiteside",
@@ -851,7 +884,8 @@
       "num_counties": 24,
       "candidates": [
         {
-          "name": "MICHAEL W. FRERICHS (DEM)",
+          "name": "MICHAEL W. FRERICHS",
+          "party": "Democratic",
           "votes": 21091,
           "counties": [
             "Whiteside",
@@ -870,7 +904,8 @@
           "percent": 96.25
         },
         {
-          "name": "MAX SOLOMON (REP)",
+          "name": "MAX SOLOMON",
+          "party": "Republican",
           "votes": 822,
           "counties": [
             "Whiteside",
@@ -904,7 +939,8 @@
       "num_counties": 8,
       "candidates": [
         {
-          "name": "ERIC SORENSEN (DEM)",
+          "name": "ERIC SORENSEN",
+          "party": "Democratic",
           "votes": 5370,
           "counties": [
             "Whiteside",
@@ -915,7 +951,8 @@
           "percent": 40.66
         },
         {
-          "name": "JULIE BICKELHAUPT (REP)",
+          "name": "JULIE BICKELHAUPT",
+          "party": "Republican",
           "votes": 4818,
           "counties": [
             "Whiteside",
@@ -926,7 +963,8 @@
           "percent": 36.48
         },
         {
-          "name": "DILLAN S. VANCIL (REP)",
+          "name": "DILLAN S. VANCIL",
+          "party": "Republican",
           "votes": 3020,
           "counties": [
             "Whiteside",
@@ -953,7 +991,8 @@
       "num_counties": 6,
       "candidates": [
         {
-          "name": "RYAN SPAIN (REP)",
+          "name": "RYAN SPAIN",
+          "party": "Republican",
           "votes": 3188,
           "counties": [
             "Whiteside",
@@ -963,7 +1002,8 @@
           "percent": 63.85
         },
         {
-          "name": "NICOLE DOPLER (DEM)",
+          "name": "NICOLE DOPLER",
+          "party": "Democratic",
           "votes": 1805,
           "counties": [
             "Whiteside",
@@ -989,7 +1029,8 @@
       "num_counties": 6,
       "candidates": [
         {
-          "name": "BRADLEY J. FRITTS (REP)",
+          "name": "BRADLEY J. FRITTS",
+          "party": "Republican",
           "votes": 4559,
           "counties": [
             "Whiteside",
@@ -999,7 +1040,8 @@
           "percent": 53.56
         },
         {
-          "name": "NOLAN KEMP (DEM)",
+          "name": "NOLAN KEMP",
+          "party": "Democratic",
           "votes": 3953,
           "counties": [
             "Whiteside",
@@ -1043,7 +1085,8 @@
       "num_counties": 24,
       "candidates": [
         {
-          "name": "HANNAH M. CLARK (REP)",
+          "name": "HANNAH M. CLARK",
+          "party": "Republican",
           "votes": 8266,
           "counties": [
             "Tazewell"
@@ -1051,7 +1094,8 @@
           "percent": 21.55
         },
         {
-          "name": "STEPHANIE A. HELMS (REP)",
+          "name": "STEPHANIE A. HELMS",
+          "party": "Republican",
           "votes": 4278,
           "counties": [
             "Stephenson"
@@ -1059,7 +1103,8 @@
           "percent": 11.15
         },
         {
-          "name": "TIFFANY S. O'BRIEN (REP)",
+          "name": "TIFFANY S. O'BRIEN",
+          "party": "Republican",
           "votes": 4158,
           "counties": [
             "Ogle"
@@ -1067,7 +1112,8 @@
           "percent": 10.84
         },
         {
-          "name": "MARY NICOLE \"NIKKI\" MEIER (REP)",
+          "name": "MARY NICOLE \"NIKKI\" MEIER",
+          "party": "Republican",
           "votes": 3723,
           "counties": [
             "Livingston"
@@ -1075,7 +1121,8 @@
           "percent": 9.7
         },
         {
-          "name": "DARREN DUNCAN (REP)",
+          "name": "DARREN DUNCAN",
+          "party": "Republican",
           "votes": 2678,
           "counties": [
             "Vermilion"
@@ -1083,7 +1130,8 @@
           "percent": 6.98
         },
         {
-          "name": "JASON WHALING (REP)",
+          "name": "JASON WHALING",
+          "party": "Republican",
           "votes": 2497,
           "counties": [
             "Vermilion"
@@ -1091,7 +1139,8 @@
           "percent": 6.51
         },
         {
-          "name": "CURTIS P. NEWPORT (REP)",
+          "name": "CURTIS P. NEWPORT",
+          "party": "Republican",
           "votes": 2495,
           "counties": [
             "Boone"
@@ -1099,7 +1148,8 @@
           "percent": 6.5
         },
         {
-          "name": "JOSEPH R. BIRKEY (REP)",
+          "name": "JOSEPH R. BIRKEY",
+          "party": "Republican",
           "votes": 2396,
           "counties": [
             "Bureau"
@@ -1107,7 +1157,8 @@
           "percent": 6.25
         },
         {
-          "name": "PENNY VAN KAMPEN (REP)",
+          "name": "PENNY VAN KAMPEN",
+          "party": "Republican",
           "votes": 2365,
           "counties": [
             "Whiteside"
@@ -1115,7 +1166,8 @@
           "percent": 6.16
         },
         {
-          "name": "PAUL RUDOLPHI (REP)",
+          "name": "PAUL RUDOLPHI",
+          "party": "Republican",
           "votes": 2009,
           "counties": [
             "Lee"
@@ -1123,7 +1175,8 @@
           "percent": 5.24
         },
         {
-          "name": "LYDIA M HUTCHCRAFT (REP)",
+          "name": "LYDIA M HUTCHCRAFT",
+          "party": "Republican",
           "votes": 1558,
           "counties": [
             "Carroll"
@@ -1131,7 +1184,8 @@
           "percent": 4.06
         },
         {
-          "name": "TAYLOR BURNETT (REP)",
+          "name": "TAYLOR BURNETT",
+          "party": "Republican",
           "votes": 1549,
           "counties": [
             "Ford"
@@ -1139,7 +1193,8 @@
           "percent": 4.04
         },
         {
-          "name": "KEVIN E. KUNKEL (DEM)",
+          "name": "KEVIN E. KUNKEL",
+          "party": "Democratic",
           "votes": 392,
           "counties": [
             "Putnam"
@@ -1181,7 +1236,8 @@
       "num_counties": 24,
       "candidates": [
         {
-          "name": "JEFFREY LOWER (REP)",
+          "name": "JEFFREY LOWER",
+          "party": "Republican",
           "votes": 8370,
           "counties": [
             "Tazewell"
@@ -1189,7 +1245,8 @@
           "percent": 19.69
         },
         {
-          "name": "STEVE STOVALL (REP)",
+          "name": "STEVE STOVALL",
+          "party": "Republican",
           "votes": 4431,
           "counties": [
             "Stephenson"
@@ -1197,7 +1254,8 @@
           "percent": 10.42
         },
         {
-          "name": "BRIAN VANVICKLE (REP)",
+          "name": "BRIAN VANVICKLE",
+          "party": "Republican",
           "votes": 4230,
           "counties": [
             "Ogle"
@@ -1205,7 +1263,8 @@
           "percent": 9.95
         },
         {
-          "name": "RYAN BOHM (REP)",
+          "name": "RYAN BOHM",
+          "party": "Republican",
           "votes": 3824,
           "counties": [
             "Livingston"
@@ -1213,7 +1272,8 @@
           "percent": 9.0
         },
         {
-          "name": "JOHN W. THOMPSON (REP)",
+          "name": "JOHN W. THOMPSON",
+          "party": "Republican",
           "votes": 3629,
           "counties": [
             "Vermilion"
@@ -1221,7 +1281,8 @@
           "percent": 8.54
         },
         {
-          "name": "JOHN F. BOOKER (DEM)",
+          "name": "JOHN F. BOOKER",
+          "party": "Democratic",
           "votes": 2614,
           "counties": [
             "Whiteside"
@@ -1229,7 +1290,8 @@
           "percent": 6.15
         },
         {
-          "name": "SCOTT YUNK (REP)",
+          "name": "SCOTT YUNK",
+          "party": "Republican",
           "votes": 2614,
           "counties": [
             "Boone"
@@ -1237,7 +1299,8 @@
           "percent": 6.15
         },
         {
-          "name": "CLAYTON T. WHELAN (REP)",
+          "name": "CLAYTON T. WHELAN",
+          "party": "Republican",
           "votes": 2088,
           "counties": [
             "Lee"
@@ -1245,7 +1308,8 @@
           "percent": 4.91
         },
         {
-          "name": "TOM KAMMERER (REP)",
+          "name": "TOM KAMMERER",
+          "party": "Republican",
           "votes": 1843,
           "counties": [
             "Bureau"
@@ -1253,7 +1317,8 @@
           "percent": 4.34
         },
         {
-          "name": "MIKE HARTSHORN (REP)",
+          "name": "MIKE HARTSHORN",
+          "party": "Republican",
           "votes": 1676,
           "counties": [
             "Vermilion"
@@ -1261,7 +1326,8 @@
           "percent": 3.94
         },
         {
-          "name": "CHAD JOHNSON (REP)",
+          "name": "CHAD JOHNSON",
+          "party": "Republican",
           "votes": 1616,
           "counties": [
             "Ford"
@@ -1269,7 +1335,8 @@
           "percent": 3.8
         },
         {
-          "name": "RYAN KLOEPPING (REP)",
+          "name": "RYAN KLOEPPING",
+          "party": "Republican",
           "votes": 1525,
           "counties": [
             "Carroll"
@@ -1277,7 +1344,8 @@
           "percent": 3.59
         },
         {
-          "name": "HUGH H. SANDS (DEM)",
+          "name": "HUGH H. SANDS",
+          "party": "Democratic",
           "votes": 1112,
           "counties": [
             "Vermilion"
@@ -1285,7 +1353,8 @@
           "percent": 2.62
         },
         {
-          "name": "MICHAEL WITTIG (DEM)",
+          "name": "MICHAEL WITTIG",
+          "party": "Democratic",
           "votes": 1018,
           "counties": [
             "Bureau"
@@ -1293,7 +1362,8 @@
           "percent": 2.4
         },
         {
-          "name": "EDWARD JAUCH (REP)",
+          "name": "EDWARD JAUCH",
+          "party": "Republican",
           "votes": 757,
           "counties": [
             "Bureau"
@@ -1301,7 +1371,8 @@
           "percent": 1.78
         },
         {
-          "name": "JOSEPH A. FLANAGAN (DEM)",
+          "name": "JOSEPH A. FLANAGAN",
+          "party": "Democratic",
           "votes": 740,
           "counties": [
             "Bureau"
@@ -1309,7 +1380,8 @@
           "percent": 1.74
         },
         {
-          "name": "JOSHUA B. BOEDIGHEIMER (DEM)",
+          "name": "JOSHUA B. BOEDIGHEIMER",
+          "party": "Democratic",
           "votes": 417,
           "counties": [
             "Putnam"
@@ -1333,7 +1405,8 @@
       "num_counties": 6,
       "candidates": [
         {
-          "name": "KATHY MARSHALL (REP)",
+          "name": "KATHY MARSHALL",
+          "party": "Republican",
           "votes": 2330,
           "counties": [
             "Whiteside",
@@ -1359,7 +1432,8 @@
       "num_counties": 6,
       "candidates": [
         {
-          "name": "CHRISTOPHER SHOCKEY (REP)",
+          "name": "CHRISTOPHER SHOCKEY",
+          "party": "Republican",
           "votes": 5503,
           "counties": [
             "Whiteside",
@@ -1387,7 +1461,8 @@
       "num_counties": 8,
       "candidates": [
         {
-          "name": "CHRISTOPHER J. TENNYSON (REP)",
+          "name": "CHRISTOPHER J. TENNYSON",
+          "party": "Republican",
           "votes": 6398,
           "counties": [
             "Whiteside",
@@ -1424,7 +1499,8 @@
       "num_counties": 16,
       "candidates": [
         {
-          "name": "KIM D. JOESTING (REP)",
+          "name": "KIM D. JOESTING",
+          "party": "Republican",
           "votes": 1470,
           "counties": [
             "Tazewell"
@@ -1432,7 +1508,8 @@
           "percent": 7.59
         },
         {
-          "name": "NANCY M. PROEHL (REP)",
+          "name": "NANCY M. PROEHL",
+          "party": "Republican",
           "votes": 1383,
           "counties": [
             "Tazewell"
@@ -1440,7 +1517,8 @@
           "percent": 7.15
         },
         {
-          "name": "BRAD W. DONLEY (REP)",
+          "name": "BRAD W. DONLEY",
+          "party": "Republican",
           "votes": 1181,
           "counties": [
             "Tazewell"
@@ -1448,7 +1526,8 @@
           "percent": 6.1
         },
         {
-          "name": "KADEN NELMS (REP)",
+          "name": "KADEN NELMS",
+          "party": "Republican",
           "votes": 1179,
           "counties": [
             "Tazewell"
@@ -1456,7 +1535,8 @@
           "percent": 6.09
         },
         {
-          "name": "JERALD R STEWART JR (REP)",
+          "name": "JERALD R STEWART JR",
+          "party": "Republican",
           "votes": 964,
           "counties": [
             "Tazewell"
@@ -1464,7 +1544,8 @@
           "percent": 4.98
         },
         {
-          "name": "JOHN (JACK) L. VIETTI (REP)",
+          "name": "JOHN (JACK) L. VIETTI",
+          "party": "Republican",
           "votes": 879,
           "counties": [
             "Livingston"
@@ -1472,7 +1553,8 @@
           "percent": 4.54
         },
         {
-          "name": "JAMES C. DUFFY (DEM)",
+          "name": "JAMES C. DUFFY",
+          "party": "Democratic",
           "votes": 847,
           "counties": [
             "Whiteside"
@@ -1480,7 +1562,8 @@
           "percent": 4.38
         },
         {
-          "name": "ALEX REGALADO (DEM)",
+          "name": "ALEX REGALADO",
+          "party": "Democratic",
           "votes": 832,
           "counties": [
             "Whiteside"
@@ -1488,7 +1571,8 @@
           "percent": 4.3
         },
         {
-          "name": "FIDENCIO HOOPER-CAMPOS (DEM)",
+          "name": "FIDENCIO HOOPER-CAMPOS",
+          "party": "Democratic",
           "votes": 829,
           "counties": [
             "Whiteside"
@@ -1496,7 +1580,8 @@
           "percent": 4.28
         },
         {
-          "name": "JEFFREY G. HAMILTON (REP)",
+          "name": "JEFFREY G. HAMILTON",
+          "party": "Republican",
           "votes": 804,
           "counties": [
             "Livingston"
@@ -1504,7 +1589,8 @@
           "percent": 4.15
         },
         {
-          "name": "ERNIE SMITH (DEM)",
+          "name": "ERNIE SMITH",
+          "party": "Democratic",
           "votes": 789,
           "counties": [
             "Whiteside"
@@ -1512,7 +1598,8 @@
           "percent": 4.08
         },
         {
-          "name": "LARRY BAUGHN JR. (REP)",
+          "name": "LARRY BAUGHN JR.",
+          "party": "Republican",
           "votes": 746,
           "counties": [
             "Vermilion"
@@ -1520,7 +1607,8 @@
           "percent": 3.85
         },
         {
-          "name": "VINCENT JOSEPH VAUGHN (DEM)",
+          "name": "VINCENT JOSEPH VAUGHN",
+          "party": "Democratic",
           "votes": 743,
           "counties": [
             "Whiteside"
@@ -1528,7 +1616,8 @@
           "percent": 3.84
         },
         {
-          "name": "WILLIAM MAYS (REP)",
+          "name": "WILLIAM MAYS",
+          "party": "Republican",
           "votes": 654,
           "counties": [
             "Livingston"
@@ -1536,7 +1625,8 @@
           "percent": 3.38
         },
         {
-          "name": "MATT ELLINGSON (REP)",
+          "name": "MATT ELLINGSON",
+          "party": "Republican",
           "votes": 628,
           "counties": [
             "Boone"
@@ -1544,7 +1634,8 @@
           "percent": 3.24
         },
         {
-          "name": "KURT GLAZIER (REP)",
+          "name": "KURT GLAZIER",
+          "party": "Republican",
           "votes": 507,
           "counties": [
             "Whiteside"
@@ -1552,7 +1643,8 @@
           "percent": 2.62
         },
         {
-          "name": "DAVID R. WILTSE (REP)",
+          "name": "DAVID R. WILTSE",
+          "party": "Republican",
           "votes": 478,
           "counties": [
             "Boone"
@@ -1560,7 +1652,8 @@
           "percent": 2.47
         },
         {
-          "name": "DAVID RICE (REP)",
+          "name": "DAVID RICE",
+          "party": "Republican",
           "votes": 478,
           "counties": [
             "Livingston"
@@ -1568,7 +1661,8 @@
           "percent": 2.47
         },
         {
-          "name": "TERRY S PRILLAMAN (REP)",
+          "name": "TERRY S PRILLAMAN",
+          "party": "Republican",
           "votes": 472,
           "counties": [
             "Vermilion"
@@ -1576,7 +1670,8 @@
           "percent": 2.44
         },
         {
-          "name": "ROB STEIGER (REP)",
+          "name": "ROB STEIGER",
+          "party": "Republican",
           "votes": 447,
           "counties": [
             "Ford"
@@ -1584,7 +1679,8 @@
           "percent": 2.31
         },
         {
-          "name": "THOMAS P WITMER (REP)",
+          "name": "THOMAS P WITMER",
+          "party": "Republican",
           "votes": 446,
           "counties": [
             "Whiteside"
@@ -1592,7 +1688,8 @@
           "percent": 2.3
         },
         {
-          "name": "ROBERT J. OLSON (REP)",
+          "name": "ROBERT J. OLSON",
+          "party": "Republican",
           "votes": 441,
           "counties": [
             "Lee"
@@ -1600,7 +1697,8 @@
           "percent": 2.28
         },
         {
-          "name": "SUSAN JACOBS (REP)",
+          "name": "SUSAN JACOBS",
+          "party": "Republican",
           "votes": 424,
           "counties": [
             "Carroll"
@@ -1608,7 +1706,8 @@
           "percent": 2.19
         },
         {
-          "name": "CHRIS ROBERTSON (REP)",
+          "name": "CHRIS ROBERTSON",
+          "party": "Republican",
           "votes": 377,
           "counties": [
             "Lee"
@@ -1616,7 +1715,8 @@
           "percent": 1.95
         },
         {
-          "name": "DOMINIC BRACKENHOFF (REP)",
+          "name": "DOMINIC BRACKENHOFF",
+          "party": "Republican",
           "votes": 365,
           "counties": [
             "Ford"
@@ -1624,7 +1724,8 @@
           "percent": 1.89
         },
         {
-          "name": "MARY E COMENS (DEM)",
+          "name": "MARY E COMENS",
+          "party": "Democratic",
           "votes": 347,
           "counties": [
             "Livingston"
@@ -1632,7 +1733,8 @@
           "percent": 1.79
         },
         {
-          "name": "DEREK J. HUMPHREY (REP)",
+          "name": "DEREK J. HUMPHREY",
+          "party": "Republican",
           "votes": 344,
           "counties": [
             "Lee"
@@ -1640,7 +1742,8 @@
           "percent": 1.78
         },
         {
-          "name": "GERARD WECHET (REP)",
+          "name": "GERARD WECHET",
+          "party": "Republican",
           "votes": 302,
           "counties": [
             "Boone"
@@ -1672,7 +1775,8 @@
       "num_counties": 14,
       "candidates": [
         {
-          "name": "BEN ACKERMAN (REP)",
+          "name": "BEN ACKERMAN",
+          "party": "Republican",
           "votes": 2676,
           "counties": [
             "Tazewell"
@@ -1680,7 +1784,8 @@
           "percent": 14.45
         },
         {
-          "name": "G. NICK GRAFF (REP)",
+          "name": "G. NICK GRAFF",
+          "party": "Republican",
           "votes": 2389,
           "counties": [
             "Tazewell"
@@ -1688,7 +1793,8 @@
           "percent": 12.9
         },
         {
-          "name": "GREG SINN (REP)",
+          "name": "GREG SINN",
+          "party": "Republican",
           "votes": 2372,
           "counties": [
             "Tazewell"
@@ -1696,7 +1802,8 @@
           "percent": 12.81
         },
         {
-          "name": "ERIC LUTTRELL (REP)",
+          "name": "ERIC LUTTRELL",
+          "party": "Republican",
           "votes": 1155,
           "counties": [
             "Vermilion"
@@ -1704,7 +1811,8 @@
           "percent": 6.24
         },
         {
-          "name": "DOUG BUNTING JR (REP)",
+          "name": "DOUG BUNTING JR",
+          "party": "Republican",
           "votes": 1121,
           "counties": [
             "Livingston"
@@ -1712,7 +1820,8 @@
           "percent": 6.05
         },
         {
-          "name": "JAMES (JIM) DAVIS (REP)",
+          "name": "JAMES (JIM) DAVIS",
+          "party": "Republican",
           "votes": 1042,
           "counties": [
             "Livingston"
@@ -1720,7 +1829,8 @@
           "percent": 5.63
         },
         {
-          "name": "ROBERT F. WELLER (REP)",
+          "name": "ROBERT F. WELLER",
+          "party": "Republican",
           "votes": 978,
           "counties": [
             "Livingston"
@@ -1728,7 +1838,8 @@
           "percent": 5.28
         },
         {
-          "name": "PAUL T ZEIEN JR (REP)",
+          "name": "PAUL T ZEIEN JR",
+          "party": "Republican",
           "votes": 808,
           "counties": [
             "Boone"
@@ -1736,7 +1847,8 @@
           "percent": 4.36
         },
         {
-          "name": "JAYDEN LEE GALLAGLY (REP)",
+          "name": "JAYDEN LEE GALLAGLY",
+          "party": "Republican",
           "votes": 691,
           "counties": [
             "Boone"
@@ -1744,7 +1856,8 @@
           "percent": 3.73
         },
         {
-          "name": "GLENN C. TRUESDELL (DEM)",
+          "name": "GLENN C. TRUESDELL",
+          "party": "Democratic",
           "votes": 653,
           "counties": [
             "Whiteside"
@@ -1752,7 +1865,8 @@
           "percent": 3.53
         },
         {
-          "name": "SHAWN DOWD (DEM)",
+          "name": "SHAWN DOWD",
+          "party": "Democratic",
           "votes": 648,
           "counties": [
             "Whiteside"
@@ -1760,7 +1874,8 @@
           "percent": 3.5
         },
         {
-          "name": "DOUGLAS WETZELL (REP)",
+          "name": "DOUGLAS WETZELL",
+          "party": "Republican",
           "votes": 646,
           "counties": [
             "Whiteside"
@@ -1768,7 +1883,8 @@
           "percent": 3.49
         },
         {
-          "name": "AMIE TOPP (DEM)",
+          "name": "AMIE TOPP",
+          "party": "Democratic",
           "votes": 592,
           "counties": [
             "Whiteside"
@@ -1776,7 +1892,8 @@
           "percent": 3.2
         },
         {
-          "name": "PAUL J. CUNNIFF (DEM)",
+          "name": "PAUL J. CUNNIFF",
+          "party": "Democratic",
           "votes": 557,
           "counties": [
             "Whiteside"
@@ -1784,7 +1901,8 @@
           "percent": 3.01
         },
         {
-          "name": "NANCY BANDEMER (REP)",
+          "name": "NANCY BANDEMER",
+          "party": "Republican",
           "votes": 500,
           "counties": [
             "Carroll"
@@ -1792,7 +1910,8 @@
           "percent": 2.7
         },
         {
-          "name": "LINDA PENNELL (REP)",
+          "name": "LINDA PENNELL",
+          "party": "Republican",
           "votes": 476,
           "counties": [
             "Whiteside"
@@ -1800,7 +1919,8 @@
           "percent": 2.57
         },
         {
-          "name": "TIM NUSS (REP)",
+          "name": "TIM NUSS",
+          "party": "Republican",
           "votes": 440,
           "counties": [
             "Ford"
@@ -1808,7 +1928,8 @@
           "percent": 2.38
         },
         {
-          "name": "THOMAS M. KULASIK (REP)",
+          "name": "THOMAS M. KULASIK",
+          "party": "Republican",
           "votes": 422,
           "counties": [
             "Livingston"
@@ -1816,7 +1937,8 @@
           "percent": 2.28
         },
         {
-          "name": "KARL BOUK (REP)",
+          "name": "KARL BOUK",
+          "party": "Republican",
           "votes": 349,
           "counties": [
             "Ford"
@@ -1848,7 +1970,8 @@
       "num_counties": 14,
       "candidates": [
         {
-          "name": "PAUL RITTER (REP)",
+          "name": "PAUL RITTER",
+          "party": "Republican",
           "votes": 1035,
           "counties": [
             "Livingston"
@@ -1856,7 +1979,8 @@
           "percent": 8.49
         },
         {
-          "name": "LINDA AMBROSE (REP)",
+          "name": "LINDA AMBROSE",
+          "party": "Republican",
           "votes": 1016,
           "counties": [
             "Livingston"
@@ -1864,7 +1988,8 @@
           "percent": 8.34
         },
         {
-          "name": "SETH L. WELCH (REP)",
+          "name": "SETH L. WELCH",
+          "party": "Republican",
           "votes": 958,
           "counties": [
             "Livingston"
@@ -1872,7 +1997,8 @@
           "percent": 7.86
         },
         {
-          "name": "EDWARD WEEKS JR. (REP)",
+          "name": "EDWARD WEEKS JR.",
+          "party": "Republican",
           "votes": 859,
           "counties": [
             "Whiteside"
@@ -1880,7 +2006,8 @@
           "percent": 7.05
         },
         {
-          "name": "KEVIN J. BODINE (REP)",
+          "name": "KEVIN J. BODINE",
+          "party": "Republican",
           "votes": 794,
           "counties": [
             "Vermilion"
@@ -1888,7 +2015,8 @@
           "percent": 6.52
         },
         {
-          "name": "MARCI BOHNERT (REP)",
+          "name": "MARCI BOHNERT",
+          "party": "Republican",
           "votes": 693,
           "counties": [
             "Whiteside"
@@ -1896,7 +2024,8 @@
           "percent": 5.69
         },
         {
-          "name": "MARK S WOODS (DEM)",
+          "name": "MARK S WOODS",
+          "party": "Democratic",
           "votes": 679,
           "counties": [
             "Whiteside"
@@ -1904,7 +2033,8 @@
           "percent": 5.57
         },
         {
-          "name": "TONYA S. HILL (REP)",
+          "name": "TONYA S. HILL",
+          "party": "Republican",
           "votes": 640,
           "counties": [
             "Vermilion"
@@ -1912,7 +2042,8 @@
           "percent": 5.25
         },
         {
-          "name": "PAULA M SCHARES (DEM)",
+          "name": "PAULA M SCHARES",
+          "party": "Democratic",
           "votes": 600,
           "counties": [
             "Whiteside"
@@ -1920,7 +2051,8 @@
           "percent": 4.92
         },
         {
-          "name": "MIKE CARLYLE (DEM)",
+          "name": "MIKE CARLYLE",
+          "party": "Democratic",
           "votes": 592,
           "counties": [
             "Boone"
@@ -1928,7 +2060,8 @@
           "percent": 4.86
         },
         {
-          "name": "JAN PELS (DEM)",
+          "name": "JAN PELS",
+          "party": "Democratic",
           "votes": 578,
           "counties": [
             "Whiteside"
@@ -1936,7 +2069,8 @@
           "percent": 4.74
         },
         {
-          "name": "WILLIAM ISKE (REP)",
+          "name": "WILLIAM ISKE",
+          "party": "Republican",
           "votes": 437,
           "counties": [
             "Carroll"
@@ -1944,7 +2078,8 @@
           "percent": 3.59
         },
         {
-          "name": "RODNEY J. RILEY (REP)",
+          "name": "RODNEY J. RILEY",
+          "party": "Republican",
           "votes": 436,
           "counties": [
             "Boone"
@@ -1952,7 +2087,8 @@
           "percent": 3.58
         },
         {
-          "name": "JASON T BEYERS (REP)",
+          "name": "JASON T BEYERS",
+          "party": "Republican",
           "votes": 401,
           "counties": [
             "Carroll"
@@ -1960,7 +2096,8 @@
           "percent": 3.29
         },
         {
-          "name": "RANDY FERGUSON (REP)",
+          "name": "RANDY FERGUSON",
+          "party": "Republican",
           "votes": 373,
           "counties": [
             "Ford"
@@ -1968,7 +2105,8 @@
           "percent": 3.06
         },
         {
-          "name": "MARK SIZEMORE (REP)",
+          "name": "MARK SIZEMORE",
+          "party": "Republican",
           "votes": 349,
           "counties": [
             "Ford"
@@ -1976,7 +2114,8 @@
           "percent": 2.86
         },
         {
-          "name": "TOM WILSON (REP)",
+          "name": "TOM WILSON",
+          "party": "Republican",
           "votes": 347,
           "counties": [
             "Lee"
@@ -1984,7 +2123,8 @@
           "percent": 2.85
         },
         {
-          "name": "JASON TODD ANDERSON (REP)",
+          "name": "JASON TODD ANDERSON",
+          "party": "Republican",
           "votes": 308,
           "counties": [
             "Lee"
@@ -1992,7 +2132,8 @@
           "percent": 2.53
         },
         {
-          "name": "DANA LOGSDON (REP)",
+          "name": "DANA LOGSDON",
+          "party": "Republican",
           "votes": 293,
           "counties": [
             "Boone"
@@ -2000,7 +2141,8 @@
           "percent": 2.4
         },
         {
-          "name": "DAVID J BALLY (DEM)",
+          "name": "DAVID J BALLY",
+          "party": "Democratic",
           "votes": 275,
           "counties": [
             "Lee"
@@ -2008,7 +2150,8 @@
           "percent": 2.26
         },
         {
-          "name": "DANIEL N. AREVALO (REP)",
+          "name": "DANIEL N. AREVALO",
+          "party": "Republican",
           "votes": 262,
           "counties": [
             "Boone"
@@ -2016,7 +2159,8 @@
           "percent": 2.15
         },
         {
-          "name": "CHANCE MUNROE (DEM)",
+          "name": "CHANCE MUNROE",
+          "party": "Democratic",
           "votes": 261,
           "counties": [
             "Lee"
@@ -2052,7 +2196,8 @@
       "num_counties": 18,
       "candidates": [
         {
-          "name": "DARIN LaHOOD (REP)",
+          "name": "DARIN LaHOOD",
+          "party": "Republican",
           "votes": 20140,
           "counties": [
             "Ogle",
@@ -2068,7 +2213,8 @@
           "percent": 62.41
         },
         {
-          "name": "PAUL NOLLEY (DEM)",
+          "name": "PAUL NOLLEY",
+          "party": "Democratic",
           "votes": 12119,
           "counties": [
             "Ogle",
@@ -2084,7 +2230,8 @@
           "percent": 37.55
         },
         {
-          "name": "JOHN KITOVER (REP)",
+          "name": "JOHN KITOVER",
+          "party": "Republican",
           "votes": 13,
           "counties": [
             "Ogle",
@@ -2116,7 +2263,8 @@
       "num_counties": 9,
       "candidates": [
         {
-          "name": "KIM ARMSTRONG (DEM)",
+          "name": "KIM ARMSTRONG",
+          "party": "Democratic",
           "votes": 8053,
           "counties": [
             "Ogle",
@@ -2132,7 +2280,8 @@
           "percent": 44.32
         },
         {
-          "name": "PATRICK CORTESI (DEM)",
+          "name": "PATRICK CORTESI",
+          "party": "Democratic",
           "votes": 5108,
           "counties": [
             "Ogle",
@@ -2148,7 +2297,8 @@
           "percent": 28.11
         },
         {
-          "name": "KEVIN LAMM (DEM)",
+          "name": "KEVIN LAMM",
+          "party": "Democratic",
           "votes": 5009,
           "counties": [
             "Ogle",
@@ -2182,7 +2332,8 @@
       "num_counties": 8,
       "candidates": [
         {
-          "name": "ANDREW S. CHESNEY (REP)",
+          "name": "ANDREW S. CHESNEY",
+          "party": "Republican",
           "votes": 8995,
           "counties": [
             "Ogle",
@@ -2193,7 +2344,8 @@
           "percent": 68.24
         },
         {
-          "name": "JOSEPH H. \"JOE\" BERNING (DEM)",
+          "name": "JOSEPH H. \"JOE\" BERNING",
+          "party": "Democratic",
           "votes": 4031,
           "counties": [
             "Ogle",
@@ -2204,7 +2356,8 @@
           "percent": 30.58
         },
         {
-          "name": "JOSHUA ATKINSON (REP)",
+          "name": "JOSHUA ATKINSON",
+          "party": "Republican",
           "votes": 155,
           "counties": [
             "Ogle",
@@ -2232,7 +2385,8 @@
       "num_counties": 8,
       "candidates": [
         {
-          "name": "TONY M. McCOMBIE (REP)",
+          "name": "TONY M. McCOMBIE",
+          "party": "Republican",
           "votes": 5127,
           "counties": [
             "Ogle",
@@ -2243,7 +2397,8 @@
           "percent": 76.56
         },
         {
-          "name": "VICTORIA ONORATO (REP)",
+          "name": "VICTORIA ONORATO",
+          "party": "Republican",
           "votes": 1570,
           "counties": [
             "Ogle",
@@ -2284,7 +2439,8 @@
       "num_counties": 20,
       "candidates": [
         {
-          "name": "JOHN C. ACKERMAN (REP)",
+          "name": "JOHN C. ACKERMAN",
+          "party": "Republican",
           "votes": 8433,
           "counties": [
             "Tazewell"
@@ -2292,7 +2448,8 @@
           "percent": 25.03
         },
         {
-          "name": "JAZMIN L. WINGERT (REP)",
+          "name": "JAZMIN L. WINGERT",
+          "party": "Republican",
           "votes": 4341,
           "counties": [
             "Stephenson"
@@ -2300,7 +2457,8 @@
           "percent": 12.88
         },
         {
-          "name": "REBECCA (BECKY) DUKE (REP)",
+          "name": "REBECCA (BECKY) DUKE",
+          "party": "Republican",
           "votes": 4167,
           "counties": [
             "Ogle"
@@ -2308,7 +2466,8 @@
           "percent": 12.37
         },
         {
-          "name": "AMY E OHLSEN (REP)",
+          "name": "AMY E OHLSEN",
+          "party": "Republican",
           "votes": 2523,
           "counties": [
             "Boone"
@@ -2316,7 +2475,8 @@
           "percent": 7.49
         },
         {
-          "name": "MATTHEW S. EGGERS (REP)",
+          "name": "MATTHEW S. EGGERS",
+          "party": "Republican",
           "votes": 2406,
           "counties": [
             "Bureau"
@@ -2324,7 +2484,8 @@
           "percent": 7.14
         },
         {
-          "name": "DEBRA (DEBI) ORES (REP)",
+          "name": "DEBRA (DEBI) ORES",
+          "party": "Republican",
           "votes": 2382,
           "counties": [
             "Livingston"
@@ -2332,7 +2493,8 @@
           "percent": 7.07
         },
         {
-          "name": "NANCY L. PETERSEN (REP)",
+          "name": "NANCY L. PETERSEN",
+          "party": "Republican",
           "votes": 2080,
           "counties": [
             "Lee"
@@ -2340,7 +2502,8 @@
           "percent": 6.17
         },
         {
-          "name": "SUZANNE M. COOK (DEM)",
+          "name": "SUZANNE M. COOK",
+          "party": "Democratic",
           "votes": 2029,
           "counties": [
             "Stephenson"
@@ -2348,7 +2511,8 @@
           "percent": 6.02
         },
         {
-          "name": "GAIL D. SMYTHE (REP)",
+          "name": "GAIL D. SMYTHE",
+          "party": "Republican",
           "votes": 1631,
           "counties": [
             "Livingston"
@@ -2356,7 +2520,8 @@
           "percent": 4.84
         },
         {
-          "name": "AMY R. BUSS (REP)",
+          "name": "AMY R. BUSS",
+          "party": "Republican",
           "votes": 1593,
           "counties": [
             "Carroll"
@@ -2364,7 +2529,8 @@
           "percent": 4.73
         },
         {
-          "name": "KELSIE N. VAUGHN (REP)",
+          "name": "KELSIE N. VAUGHN",
+          "party": "Republican",
           "votes": 878,
           "counties": [
             "Ford"
@@ -2372,7 +2538,8 @@
           "percent": 2.61
         },
         {
-          "name": "AMY FREDERICK (REP)",
+          "name": "AMY FREDERICK",
+          "party": "Republican",
           "votes": 828,
           "counties": [
             "Ford"
@@ -2380,7 +2547,8 @@
           "percent": 2.46
         },
         {
-          "name": "TINA DOLDER (DEM)",
+          "name": "TINA DOLDER",
+          "party": "Democratic",
           "votes": 402,
           "counties": [
             "Putnam"
@@ -2404,7 +2572,8 @@
       "num_counties": 6,
       "candidates": [
         {
-          "name": "CARMEN R. SIRAGUSA (REP)",
+          "name": "CARMEN R. SIRAGUSA",
+          "party": "Republican",
           "votes": 59,
           "counties": [
             "Ogle",
@@ -2430,7 +2599,8 @@
       "num_counties": 6,
       "candidates": [
         {
-          "name": "MICHAEL SCOTT NOACK (REP)",
+          "name": "MICHAEL SCOTT NOACK",
+          "party": "Republican",
           "votes": 7514,
           "counties": [
             "Vermilion",
@@ -2440,7 +2610,8 @@
           "percent": 78.24
         },
         {
-          "name": "DONNA MILLER (DEM)",
+          "name": "DONNA MILLER",
+          "party": "Democratic",
           "votes": 953,
           "counties": [
             "Vermilion",
@@ -2450,7 +2621,8 @@
           "percent": 9.92
         },
         {
-          "name": "ROBERT PETERS (DEM)",
+          "name": "ROBERT PETERS",
+          "party": "Democratic",
           "votes": 435,
           "counties": [
             "Vermilion",
@@ -2460,7 +2632,8 @@
           "percent": 4.53
         },
         {
-          "name": "JESSE LOUIS JACKSON, JR. (DEM)",
+          "name": "JESSE LOUIS JACKSON, JR.",
+          "party": "Democratic",
           "votes": 343,
           "counties": [
             "Vermilion",
@@ -2470,7 +2643,8 @@
           "percent": 3.57
         },
         {
-          "name": "ERIC FRANCE (DEM)",
+          "name": "ERIC FRANCE",
+          "party": "Democratic",
           "votes": 63,
           "counties": [
             "Vermilion",
@@ -2480,7 +2654,8 @@
           "percent": 0.66
         },
         {
-          "name": "PATRICK J. \"PJK\" KEATING (DEM)",
+          "name": "PATRICK J. \"PJK\" KEATING",
+          "party": "Democratic",
           "votes": 62,
           "counties": [
             "Vermilion",
@@ -2490,7 +2665,8 @@
           "percent": 0.65
         },
         {
-          "name": "YUMEKA BROWN (DEM)",
+          "name": "YUMEKA BROWN",
+          "party": "Democratic",
           "votes": 58,
           "counties": [
             "Vermilion",
@@ -2500,7 +2676,8 @@
           "percent": 0.6
         },
         {
-          "name": "TONI C. BROWN (DEM)",
+          "name": "TONI C. BROWN",
+          "party": "Democratic",
           "votes": 56,
           "counties": [
             "Vermilion",
@@ -2510,7 +2687,8 @@
           "percent": 0.58
         },
         {
-          "name": "WILLIE PRESTON (DEM)",
+          "name": "WILLIE PRESTON",
+          "party": "Democratic",
           "votes": 44,
           "counties": [
             "Vermilion",
@@ -2520,7 +2698,8 @@
           "percent": 0.46
         },
         {
-          "name": "SIDNEY MOORE (DEM)",
+          "name": "SIDNEY MOORE",
+          "party": "Democratic",
           "votes": 40,
           "counties": [
             "Vermilion",
@@ -2530,7 +2709,8 @@
           "percent": 0.42
         },
         {
-          "name": "ADAL REGIS (DEM)",
+          "name": "ADAL REGIS",
+          "party": "Democratic",
           "votes": 36,
           "counties": [
             "Vermilion",
@@ -2556,7 +2736,8 @@
       "num_counties": 6,
       "candidates": [
         {
-          "name": "JON KELLY (REP)",
+          "name": "JON KELLY",
+          "party": "Republican",
           "votes": 1324,
           "counties": [
             "Vermilion",
@@ -2582,7 +2763,8 @@
       "num_counties": 6,
       "candidates": [
         {
-          "name": "RYAN F. MYERS (DEM)",
+          "name": "RYAN F. MYERS",
+          "party": "Democratic",
           "votes": 387,
           "counties": [
             "Lee",
@@ -2612,7 +2794,8 @@
       "num_counties": 10,
       "candidates": [
         {
-          "name": "CHRIS BALKEMA (REP)",
+          "name": "CHRIS BALKEMA",
+          "party": "Republican",
           "votes": 6702,
           "counties": [
             "Putnam",
@@ -2642,7 +2825,8 @@
       "num_counties": 8,
       "candidates": [
         {
-          "name": "TIM RUESTMAN (REP)",
+          "name": "TIM RUESTMAN",
+          "party": "Republican",
           "votes": 3419,
           "counties": [
             "Putnam",
@@ -2669,7 +2853,8 @@
       "num_counties": 6,
       "candidates": [
         {
-          "name": "MOLLY ALLEN (REP)",
+          "name": "MOLLY ALLEN",
+          "party": "Republican",
           "votes": 4184,
           "counties": [
             "Ford",
@@ -2695,7 +2880,8 @@
         "num_counties": 3,
         "candidates": [
           {
-            "name": "MARY E. MILLER (REP)",
+            "name": "MARY E. MILLER",
+            "party": "Republican",
             "votes": 745,
             "counties": [
               "Vermilion"
@@ -2703,7 +2889,8 @@
             "percent": 46.02
           },
           {
-            "name": "KATHERINE DANIELS (DEM)",
+            "name": "KATHERINE DANIELS",
+            "party": "Democratic",
             "votes": 229,
             "counties": [
               "Vermilion"
@@ -2711,7 +2898,8 @@
             "percent": 14.14
           },
           {
-            "name": "TERRY C. REDMAN (DEM)",
+            "name": "TERRY C. REDMAN",
+            "party": "Democratic",
             "votes": 176,
             "counties": [
               "Vermilion"
@@ -2719,7 +2907,8 @@
             "percent": 10.87
           },
           {
-            "name": "JENNIFER TODD (DEM)",
+            "name": "JENNIFER TODD",
+            "party": "Democratic",
             "votes": 153,
             "counties": [
               "Vermilion"
@@ -2727,7 +2916,8 @@
             "percent": 9.45
           },
           {
-            "name": "RYAN D. TEBRUGGE (REP)",
+            "name": "RYAN D. TEBRUGGE",
+            "party": "Republican",
             "votes": 107,
             "counties": [
               "Vermilion"
@@ -2735,7 +2925,8 @@
             "percent": 6.61
           },
           {
-            "name": "JUDY BOWLBY (REP)",
+            "name": "JUDY BOWLBY",
+            "party": "Republican",
             "votes": 86,
             "counties": [
               "Vermilion"
@@ -2743,7 +2934,8 @@
             "percent": 5.31
           },
           {
-            "name": "PAUL DAVIS (DEM)",
+            "name": "PAUL DAVIS",
+            "party": "Democratic",
             "votes": 81,
             "counties": [
               "Vermilion"
@@ -2751,7 +2943,8 @@
             "percent": 5.0
           },
           {
-            "name": "RANDY RALEY (DEM)",
+            "name": "RANDY RALEY",
+            "party": "Democratic",
             "votes": 24,
             "counties": [
               "Vermilion"
@@ -2759,7 +2952,8 @@
             "percent": 1.48
           },
           {
-            "name": "KYLE NUDO (DEM)",
+            "name": "KYLE NUDO",
+            "party": "Democratic",
             "votes": 18,
             "counties": [
               "Vermilion"
@@ -2780,7 +2974,8 @@
         "num_counties": 3,
         "candidates": [
           {
-            "name": "BILL FOSTER (DEM)",
+            "name": "BILL FOSTER",
+            "party": "Democratic",
             "votes": 864,
             "counties": [
               "Boone"
@@ -2788,7 +2983,8 @@
             "percent": 27.38
           },
           {
-            "name": "ANNE STAVA (DEM)",
+            "name": "ANNE STAVA",
+            "party": "Democratic",
             "votes": 453,
             "counties": [
               "Boone"
@@ -2796,7 +2992,8 @@
             "percent": 14.35
           },
           {
-            "name": "JANET YANG ROHR (DEM)",
+            "name": "JANET YANG ROHR",
+            "party": "Democratic",
             "votes": 445,
             "counties": [
               "Boone"
@@ -2804,7 +3001,8 @@
             "percent": 14.1
           },
           {
-            "name": "JEFF WALTER (REP)",
+            "name": "JEFF WALTER",
+            "party": "Republican",
             "votes": 414,
             "counties": [
               "Boone"
@@ -2812,7 +3010,8 @@
             "percent": 13.12
           },
           {
-            "name": "MICHAEL PIERCE (REP)",
+            "name": "MICHAEL PIERCE",
+            "party": "Republican",
             "votes": 388,
             "counties": [
               "Boone"
@@ -2820,7 +3019,8 @@
             "percent": 12.29
           },
           {
-            "name": "PETER JANKO (DEM)",
+            "name": "PETER JANKO",
+            "party": "Democratic",
             "votes": 284,
             "counties": [
               "Boone"
@@ -2828,7 +3028,8 @@
             "percent": 9.0
           },
           {
-            "name": "CHARLIE KIM (REP)",
+            "name": "CHARLIE KIM",
+            "party": "Republican",
             "votes": 126,
             "counties": [
               "Boone"
@@ -2836,7 +3037,8 @@
             "percent": 3.99
           },
           {
-            "name": "DANIEL HEBREARD (DEM)",
+            "name": "DANIEL HEBREARD",
+            "party": "Democratic",
             "votes": 119,
             "counties": [
               "Boone"
@@ -2844,7 +3046,8 @@
             "percent": 3.77
           },
           {
-            "name": "TEDORA BROWN (REP)",
+            "name": "TEDORA BROWN",
+            "party": "Republican",
             "votes": 63,
             "counties": [
               "Boone"
@@ -2889,7 +3092,8 @@
         "num_counties": 27,
         "candidates": [
           {
-            "name": "DARIN LaHOOD (REP)",
+            "name": "DARIN LaHOOD",
+            "party": "Republican",
             "votes": 20140,
             "counties": [
               "Boone",
@@ -2905,7 +3109,8 @@
             "percent": 39.93
           },
           {
-            "name": "PAUL NOLLEY (DEM)",
+            "name": "PAUL NOLLEY",
+            "party": "Democratic",
             "votes": 12119,
             "counties": [
               "Boone",
@@ -2921,7 +3126,8 @@
             "percent": 24.03
           },
           {
-            "name": "KIM ARMSTRONG (DEM)",
+            "name": "KIM ARMSTRONG",
+            "party": "Democratic",
             "votes": 8053,
             "counties": [
               "Boone",
@@ -2937,7 +3143,8 @@
             "percent": 15.96
           },
           {
-            "name": "PATRICK CORTESI (DEM)",
+            "name": "PATRICK CORTESI",
+            "party": "Democratic",
             "votes": 5108,
             "counties": [
               "Boone",
@@ -2953,7 +3160,8 @@
             "percent": 10.13
           },
           {
-            "name": "KEVIN LAMM (DEM)",
+            "name": "KEVIN LAMM",
+            "party": "Democratic",
             "votes": 5009,
             "counties": [
               "Boone",
@@ -2969,7 +3177,8 @@
             "percent": 9.93
           },
           {
-            "name": "JOHN KITOVER (REP)",
+            "name": "JOHN KITOVER",
+            "party": "Republican",
             "votes": 13,
             "counties": [
               "Bureau",
@@ -2998,7 +3207,8 @@
         "num_counties": 6,
         "candidates": [
           {
-            "name": "LAUREN UNDERWOOD (DEM)",
+            "name": "LAUREN UNDERWOOD",
+            "party": "Democratic",
             "votes": 982,
             "counties": [
               "Bureau",
@@ -3007,7 +3217,8 @@
             "percent": 32.24
           },
           {
-            "name": "CHRISTINE BENSON (DEM)",
+            "name": "CHRISTINE BENSON",
+            "party": "Democratic",
             "votes": 756,
             "counties": [
               "Bureau",
@@ -3016,7 +3227,8 @@
             "percent": 24.82
           },
           {
-            "name": "JAMES T. \"JIM\" MARTER (REP)",
+            "name": "JAMES T. \"JIM\" MARTER",
+            "party": "Republican",
             "votes": 504,
             "counties": [
               "Bureau",
@@ -3025,7 +3237,8 @@
             "percent": 16.55
           },
           {
-            "name": "MICHAEL CROWNER (DEM)",
+            "name": "MICHAEL CROWNER",
+            "party": "Democratic",
             "votes": 356,
             "counties": [
               "Bureau",
@@ -3034,7 +3247,8 @@
             "percent": 11.69
           },
           {
-            "name": "HARRY BENTON (DEM)",
+            "name": "HARRY BENTON",
+            "party": "Democratic",
             "votes": 243,
             "counties": [
               "Bureau",
@@ -3043,7 +3257,8 @@
             "percent": 7.98
           },
           {
-            "name": "GARY VICIAN (REP)",
+            "name": "GARY VICIAN",
+            "party": "Republican",
             "votes": 205,
             "counties": [
               "Bureau",
@@ -3052,7 +3267,8 @@
             "percent": 6.73
           },
           {
-            "name": "KRYSTAL DOREY (REP)",
+            "name": "KRYSTAL DOREY",
+            "party": "Republican",
             "votes": 0,
             "counties": [
               "Bureau",
@@ -3083,7 +3299,8 @@
         "num_counties": 12,
         "candidates": [
           {
-            "name": "ERIC SORENSEN (DEM)",
+            "name": "ERIC SORENSEN",
+            "party": "Democratic",
             "votes": 5370,
             "counties": [
               "Carroll",
@@ -3094,7 +3311,8 @@
             "percent": 25.16
           },
           {
-            "name": "JULIE BICKELHAUPT (REP)",
+            "name": "JULIE BICKELHAUPT",
+            "party": "Republican",
             "votes": 4818,
             "counties": [
               "Carroll",
@@ -3105,7 +3323,8 @@
             "percent": 22.58
           },
           {
-            "name": "PAMELA DAVIDSON (DEM)",
+            "name": "PAMELA DAVIDSON",
+            "party": "Democratic",
             "votes": 4401,
             "counties": [
               "Carroll",
@@ -3116,7 +3335,8 @@
             "percent": 20.62
           },
           {
-            "name": "MAURICE A. WEST II (DEM)",
+            "name": "MAURICE A. WEST II",
+            "party": "Democratic",
             "votes": 3732,
             "counties": [
               "Carroll",
@@ -3127,7 +3347,8 @@
             "percent": 17.49
           },
           {
-            "name": "DILLAN S. VANCIL (REP)",
+            "name": "DILLAN S. VANCIL",
+            "party": "Republican",
             "votes": 3020,
             "counties": [
               "Carroll",
@@ -3157,7 +3378,8 @@
         "num_counties": 9,
         "candidates": [
           {
-            "name": "MICHAEL SCOTT NOACK (REP)",
+            "name": "MICHAEL SCOTT NOACK",
+            "party": "Republican",
             "votes": 7514,
             "counties": [
               "Ford",
@@ -3167,7 +3389,8 @@
             "percent": 60.1
           },
           {
-            "name": "ROBIN KELLY (DEM)",
+            "name": "ROBIN KELLY",
+            "party": "Democratic",
             "votes": 1818,
             "counties": [
               "Ford",
@@ -3177,7 +3400,8 @@
             "percent": 14.54
           },
           {
-            "name": "WILLIAM \"WILL\" DAVIS (DEM)",
+            "name": "WILLIAM \"WILL\" DAVIS",
+            "party": "Democratic",
             "votes": 1080,
             "counties": [
               "Ford",
@@ -3187,7 +3411,8 @@
             "percent": 8.64
           },
           {
-            "name": "DONNA MILLER (DEM)",
+            "name": "DONNA MILLER",
+            "party": "Democratic",
             "votes": 953,
             "counties": [
               "Ford",
@@ -3197,7 +3422,8 @@
             "percent": 7.62
           },
           {
-            "name": "ROBERT PETERS (DEM)",
+            "name": "ROBERT PETERS",
+            "party": "Democratic",
             "votes": 435,
             "counties": [
               "Ford",
@@ -3207,7 +3433,8 @@
             "percent": 3.48
           },
           {
-            "name": "JESSE LOUIS JACKSON, JR. (DEM)",
+            "name": "JESSE LOUIS JACKSON, JR.",
+            "party": "Democratic",
             "votes": 343,
             "counties": [
               "Ford",
@@ -3217,7 +3444,8 @@
             "percent": 2.74
           },
           {
-            "name": "ERIC FRANCE (DEM)",
+            "name": "ERIC FRANCE",
+            "party": "Democratic",
             "votes": 63,
             "counties": [
               "Ford",
@@ -3227,7 +3455,8 @@
             "percent": 0.5
           },
           {
-            "name": "PATRICK J. \"PJK\" KEATING (DEM)",
+            "name": "PATRICK J. \"PJK\" KEATING",
+            "party": "Democratic",
             "votes": 62,
             "counties": [
               "Ford",
@@ -3237,7 +3466,8 @@
             "percent": 0.5
           },
           {
-            "name": "YUMEKA BROWN (DEM)",
+            "name": "YUMEKA BROWN",
+            "party": "Democratic",
             "votes": 58,
             "counties": [
               "Ford",
@@ -3247,7 +3477,8 @@
             "percent": 0.46
           },
           {
-            "name": "TONI C. BROWN (DEM)",
+            "name": "TONI C. BROWN",
+            "party": "Democratic",
             "votes": 56,
             "counties": [
               "Ford",
@@ -3257,7 +3488,8 @@
             "percent": 0.45
           },
           {
-            "name": "WILLIE PRESTON (DEM)",
+            "name": "WILLIE PRESTON",
+            "party": "Democratic",
             "votes": 44,
             "counties": [
               "Ford",
@@ -3267,7 +3499,8 @@
             "percent": 0.35
           },
           {
-            "name": "SIDNEY MOORE (DEM)",
+            "name": "SIDNEY MOORE",
+            "party": "Democratic",
             "votes": 40,
             "counties": [
               "Ford",
@@ -3277,7 +3510,8 @@
             "percent": 0.32
           },
           {
-            "name": "ADAL REGIS (DEM)",
+            "name": "ADAL REGIS",
+            "party": "Democratic",
             "votes": 36,
             "counties": [
               "Ford",
@@ -3301,7 +3535,8 @@
         "num_counties": 2,
         "candidates": [
           {
-            "name": "NEIL ANDERSON (REP)",
+            "name": "NEIL ANDERSON",
+            "party": "Republican",
             "votes": 2055,
             "counties": [
               "Tazewell"
@@ -3323,7 +3558,8 @@
         "num_counties": 4,
         "candidates": [
           {
-            "name": "SARAH B. MERTENS (DEM)",
+            "name": "SARAH B. MERTENS",
+            "party": "Democratic",
             "votes": 6612,
             "counties": [
               "Boone",
@@ -3332,7 +3568,8 @@
             "percent": 54.33
           },
           {
-            "name": "DAVE SYVERSON (REP)",
+            "name": "DAVE SYVERSON",
+            "party": "Republican",
             "votes": 5558,
             "counties": [
               "Boone",
@@ -3359,7 +3596,8 @@
         "num_counties": 8,
         "candidates": [
           {
-            "name": "ANDREW S. CHESNEY (REP)",
+            "name": "ANDREW S. CHESNEY",
+            "party": "Republican",
             "votes": 8995,
             "counties": [
               "Boone",
@@ -3370,7 +3608,8 @@
             "percent": 68.24
           },
           {
-            "name": "JOSEPH H. \"JOE\" BERNING (DEM)",
+            "name": "JOSEPH H. \"JOE\" BERNING",
+            "party": "Democratic",
             "votes": 4031,
             "counties": [
               "Boone",
@@ -3381,7 +3620,8 @@
             "percent": 30.58
           },
           {
-            "name": "JOSHUA T. ATKINSON (REP)",
+            "name": "JOSHUA T. ATKINSON",
+            "party": "Republican",
             "votes": 155,
             "counties": [
               "Carroll",
@@ -3403,7 +3643,8 @@
         "num_counties": 2,
         "candidates": [
           {
-            "name": "ERNIE R. MARCELAIN (DEM)",
+            "name": "ERNIE R. MARCELAIN",
+            "party": "Democratic",
             "votes": 520,
             "counties": [
               "Bureau"
@@ -3411,7 +3652,8 @@
             "percent": 58.36
           },
           {
-            "name": "SUE REZIN (REP)",
+            "name": "SUE REZIN",
+            "party": "Republican",
             "votes": 371,
             "counties": [
               "Bureau"
@@ -3439,7 +3681,8 @@
         "num_counties": 10,
         "candidates": [
           {
-            "name": "CHRIS BALKEMA (REP)",
+            "name": "CHRIS BALKEMA",
+            "party": "Republican",
             "votes": 6702,
             "counties": [
               "Bureau",
@@ -3465,7 +3708,8 @@
         "num_counties": 4,
         "candidates": [
           {
-            "name": "CHAPIN ROSE (REP)",
+            "name": "CHAPIN ROSE",
+            "party": "Republican",
             "votes": 2630,
             "counties": [
               "Ford",
@@ -3495,6 +3739,7 @@
         "candidates": [
           {
             "name": "Napoleon B. Harris III",
+            "party": "Non-Partisan",
             "votes": 23574,
             "counties": [
               "Cook"
@@ -3503,6 +3748,7 @@
           },
           {
             "name": "Frances Ann Hurley",
+            "party": "Non-Partisan",
             "votes": 15489,
             "counties": [
               "Cook"
@@ -3511,6 +3757,7 @@
           },
           {
             "name": "Mike Porfirio",
+            "party": "Non-Partisan",
             "votes": 9345,
             "counties": [
               "Cook"
@@ -3519,6 +3766,7 @@
           },
           {
             "name": "Elgie R. Sims, Jr.",
+            "party": "Non-Partisan",
             "votes": 8221,
             "counties": [
               "Cook"
@@ -3527,6 +3775,7 @@
           },
           {
             "name": "Emil Jones, III",
+            "party": "Non-Partisan",
             "votes": 6924,
             "counties": [
               "Cook"
@@ -3535,6 +3784,7 @@
           },
           {
             "name": "Christine McGovern",
+            "party": "Non-Partisan",
             "votes": 5078,
             "counties": [
               "Cook"
@@ -3543,6 +3793,7 @@
           },
           {
             "name": "Ahmed Karrar",
+            "party": "Non-Partisan",
             "votes": 3797,
             "counties": [
               "Cook"
@@ -3551,6 +3802,7 @@
           },
           {
             "name": "Brian Skala",
+            "party": "Non-Partisan",
             "votes": 3451,
             "counties": [
               "Cook"
@@ -3559,6 +3811,7 @@
           },
           {
             "name": "John Curran",
+            "party": "Non-Partisan",
             "votes": 2674,
             "counties": [
               "Cook"
@@ -3567,6 +3820,7 @@
           },
           {
             "name": "Kenny Williams",
+            "party": "Non-Partisan",
             "votes": 2223,
             "counties": [
               "Cook"
@@ -3575,6 +3829,7 @@
           },
           {
             "name": "Frederick L. Walls",
+            "party": "Non-Partisan",
             "votes": 666,
             "counties": [
               "Cook"
@@ -3583,6 +3838,7 @@
           },
           {
             "name": "Celina Villanueva",
+            "party": "Non-Partisan",
             "votes": 373,
             "counties": [
               "Cook"
@@ -3611,6 +3867,7 @@
         "candidates": [
           {
             "name": "Carina Santa Maria",
+            "party": "Non-Partisan",
             "votes": 21284,
             "counties": [
               "Cook"
@@ -3619,6 +3876,7 @@
           },
           {
             "name": "Julie A. Morrison",
+            "party": "Non-Partisan",
             "votes": 12489,
             "counties": [
               "Cook"
@@ -3627,6 +3885,7 @@
           },
           {
             "name": "Nabeela Syed",
+            "party": "Non-Partisan",
             "votes": 9114,
             "counties": [
               "Cook"
@@ -3635,6 +3894,7 @@
           },
           {
             "name": "David Mathis",
+            "party": "Non-Partisan",
             "votes": 6726,
             "counties": [
               "Cook"
@@ -3643,6 +3903,7 @@
           },
           {
             "name": "Darby Hills",
+            "party": "Non-Partisan",
             "votes": 3834,
             "counties": [
               "Cook"
@@ -3651,6 +3912,7 @@
           },
           {
             "name": "Kate McGrath",
+            "party": "Non-Partisan",
             "votes": 2914,
             "counties": [
               "Cook"
@@ -3659,6 +3921,7 @@
           },
           {
             "name": "Benjamin \"Ben\" McAdams",
+            "party": "Non-Partisan",
             "votes": 2884,
             "counties": [
               "Cook"
@@ -3667,6 +3930,7 @@
           },
           {
             "name": "Seth Lewis",
+            "party": "Non-Partisan",
             "votes": 1282,
             "counties": [
               "Cook"
@@ -3675,6 +3939,7 @@
           },
           {
             "name": "Celina Villanueva",
+            "party": "Non-Partisan",
             "votes": 373,
             "counties": [
               "Cook"
@@ -3683,6 +3948,7 @@
           },
           {
             "name": "Suzanne \"Suzy\" Glowiak Hilton",
+            "party": "Non-Partisan",
             "votes": 330,
             "counties": [
               "Cook"
@@ -3704,6 +3970,7 @@
         "candidates": [
           {
             "name": "Don Harmon",
+            "party": "Non-Partisan",
             "votes": 20799,
             "counties": [
               "Cook"
@@ -3712,6 +3979,7 @@
           },
           {
             "name": "Adriane L. Johnson",
+            "party": "Non-Partisan",
             "votes": 519,
             "counties": [
               "Cook"
@@ -3720,6 +3988,7 @@
           },
           {
             "name": "Suzanne \"Suzy\" Glowiak Hilton",
+            "party": "Non-Partisan",
             "votes": 330,
             "counties": [
               "Cook"
@@ -3743,6 +4012,7 @@
         "candidates": [
           {
             "name": "Emil Jones, III",
+            "party": "Non-Partisan",
             "votes": 6924,
             "counties": [
               "Cook"
@@ -3751,6 +4021,7 @@
           },
           {
             "name": "Ahmed Karrar",
+            "party": "Non-Partisan",
             "votes": 3797,
             "counties": [
               "Cook"
@@ -3759,6 +4030,7 @@
           },
           {
             "name": "Brian Skala",
+            "party": "Non-Partisan",
             "votes": 3451,
             "counties": [
               "Cook"
@@ -3767,6 +4039,7 @@
           },
           {
             "name": "Benjamin \"Ben\" McAdams",
+            "party": "Non-Partisan",
             "votes": 2884,
             "counties": [
               "Cook"
@@ -3775,6 +4048,7 @@
           },
           {
             "name": "John Curran",
+            "party": "Non-Partisan",
             "votes": 2674,
             "counties": [
               "Cook"
@@ -3783,6 +4057,7 @@
           },
           {
             "name": "Kenny Williams",
+            "party": "Non-Partisan",
             "votes": 2223,
             "counties": [
               "Cook"
@@ -3791,6 +4066,7 @@
           },
           {
             "name": "Seth Lewis",
+            "party": "Non-Partisan",
             "votes": 1282,
             "counties": [
               "Cook"
@@ -3810,6 +4086,7 @@
         "candidates": [
           {
             "name": "Napoleon B. Harris III",
+            "party": "Non-Partisan",
             "votes": 23574,
             "counties": [
               "Cook"
@@ -3830,6 +4107,7 @@
         "candidates": [
           {
             "name": "Nabeela Syed",
+            "party": "Non-Partisan",
             "votes": 9114,
             "counties": [
               "Cook"
@@ -3838,6 +4116,7 @@
           },
           {
             "name": "Darby Hills",
+            "party": "Non-Partisan",
             "votes": 3834,
             "counties": [
               "Cook"
@@ -3860,6 +4139,7 @@
         "candidates": [
           {
             "name": "Carina Santa Maria",
+            "party": "Non-Partisan",
             "votes": 21284,
             "counties": [
               "Cook"
@@ -3868,6 +4148,7 @@
           },
           {
             "name": "Elgie R. Sims, Jr.",
+            "party": "Non-Partisan",
             "votes": 8221,
             "counties": [
               "Cook"
@@ -3876,6 +4157,7 @@
           },
           {
             "name": "David Mathis",
+            "party": "Non-Partisan",
             "votes": 6726,
             "counties": [
               "Cook"
@@ -3884,6 +4166,7 @@
           },
           {
             "name": "Frederick L. Walls",
+            "party": "Non-Partisan",
             "votes": 666,
             "counties": [
               "Cook"
@@ -3906,6 +4189,7 @@
         "candidates": [
           {
             "name": "Frances Ann Hurley",
+            "party": "Non-Partisan",
             "votes": 15489,
             "counties": [
               "Cook"
@@ -3914,6 +4198,7 @@
           },
           {
             "name": "Ram Villivalam",
+            "party": "Non-Partisan",
             "votes": 10131,
             "counties": [
               "Cook"
@@ -3922,6 +4207,7 @@
           },
           {
             "name": "Christine McGovern",
+            "party": "Non-Partisan",
             "votes": 5078,
             "counties": [
               "Cook"
@@ -3930,6 +4216,7 @@
           },
           {
             "name": "Vince Romano",
+            "party": "Non-Partisan",
             "votes": 1929,
             "counties": [
               "Cook"
@@ -3953,6 +4240,7 @@
         "candidates": [
           {
             "name": "Patrick Hanley",
+            "party": "Non-Partisan",
             "votes": 22034,
             "counties": [
               "Cook"
@@ -3961,6 +4249,7 @@
           },
           {
             "name": "Don Harmon",
+            "party": "Non-Partisan",
             "votes": 20799,
             "counties": [
               "Cook"
@@ -3969,6 +4258,7 @@
           },
           {
             "name": "Rachel Ruttenberg",
+            "party": "Non-Partisan",
             "votes": 20529,
             "counties": [
               "Cook"
@@ -3977,6 +4267,7 @@
           },
           {
             "name": "Julie A. Morrison",
+            "party": "Non-Partisan",
             "votes": 12489,
             "counties": [
               "Cook"
@@ -3985,6 +4276,7 @@
           },
           {
             "name": "Tom Lally",
+            "party": "Non-Partisan",
             "votes": 3715,
             "counties": [
               "Cook"
@@ -3993,6 +4285,7 @@
           },
           {
             "name": "Kate McGrath",
+            "party": "Non-Partisan",
             "votes": 2914,
             "counties": [
               "Cook"
@@ -4012,6 +4305,7 @@
         "candidates": [
           {
             "name": "Mike Porfirio",
+            "party": "Non-Partisan",
             "votes": 9345,
             "counties": [
               "Cook"
@@ -4031,6 +4325,7 @@
         "candidates": [
           {
             "name": "Celina Villanueva",
+            "party": "Non-Partisan",
             "votes": 373,
             "counties": [
               "Cook"
@@ -4051,6 +4346,7 @@
         "candidates": [
           {
             "name": "Emil Jones, III",
+            "party": "Non-Partisan",
             "votes": 6924,
             "counties": [
               "Cook"
@@ -4059,6 +4355,7 @@
           },
           {
             "name": "Ahmed Karrar",
+            "party": "Non-Partisan",
             "votes": 3797,
             "counties": [
               "Cook"
@@ -4067,6 +4364,7 @@
           },
           {
             "name": "Brian Skala",
+            "party": "Non-Partisan",
             "votes": 3451,
             "counties": [
               "Cook"
@@ -4075,6 +4373,7 @@
           },
           {
             "name": "Kenny Williams",
+            "party": "Non-Partisan",
             "votes": 2223,
             "counties": [
               "Cook"
@@ -4094,6 +4393,7 @@
         "candidates": [
           {
             "name": "Napoleon B. Harris III",
+            "party": "Non-Partisan",
             "votes": 23574,
             "counties": [
               "Cook"
@@ -4114,6 +4414,7 @@
         "candidates": [
           {
             "name": "Elgie R. Sims, Jr.",
+            "party": "Non-Partisan",
             "votes": 8221,
             "counties": [
               "Cook"
@@ -4122,6 +4423,7 @@
           },
           {
             "name": "Frederick L. Walls",
+            "party": "Non-Partisan",
             "votes": 666,
             "counties": [
               "Cook"
@@ -4142,6 +4444,7 @@
         "candidates": [
           {
             "name": "Frances Ann Hurley",
+            "party": "Non-Partisan",
             "votes": 15489,
             "counties": [
               "Cook"
@@ -4150,6 +4453,7 @@
           },
           {
             "name": "Christine McGovern",
+            "party": "Non-Partisan",
             "votes": 5078,
             "counties": [
               "Cook"
@@ -4169,6 +4473,7 @@
         "candidates": [
           {
             "name": "Suzanne \"Suzy\" Glowiak Hilton",
+            "party": "Non-Partisan",
             "votes": 330,
             "counties": [
               "Cook"
@@ -4189,6 +4494,7 @@
         "candidates": [
           {
             "name": "Benjamin \"Ben\" McAdams",
+            "party": "Non-Partisan",
             "votes": 2884,
             "counties": [
               "Cook"
@@ -4197,6 +4503,7 @@
           },
           {
             "name": "Seth Lewis",
+            "party": "Non-Partisan",
             "votes": 1282,
             "counties": [
               "Cook"
@@ -4219,6 +4526,7 @@
         "candidates": [
           {
             "name": "Nabeela Syed",
+            "party": "Non-Partisan",
             "votes": 9126,
             "counties": [
               "Cook",
@@ -4228,6 +4536,7 @@
           },
           {
             "name": "Darby Hills",
+            "party": "Non-Partisan",
             "votes": 3840,
             "counties": [
               "Cook",
@@ -4249,6 +4558,7 @@
         "candidates": [
           {
             "name": "Carina Santa Maria",
+            "party": "Non-Partisan",
             "votes": 21284,
             "counties": [
               "Cook"
@@ -4257,6 +4567,7 @@
           },
           {
             "name": "David Mathis",
+            "party": "Non-Partisan",
             "votes": 6726,
             "counties": [
               "Cook"
@@ -4277,6 +4588,7 @@
         "candidates": [
           {
             "name": "Julie A. Morrison",
+            "party": "Non-Partisan",
             "votes": 12489,
             "counties": [
               "Cook"
@@ -4285,6 +4597,7 @@
           },
           {
             "name": "Kate McGrath",
+            "party": "Non-Partisan",
             "votes": 2914,
             "counties": [
               "Cook"
@@ -4304,6 +4617,7 @@
         "candidates": [
           {
             "name": "Adriane L. Johnson",
+            "party": "Non-Partisan",
             "votes": 519,
             "counties": [
               "Cook"
@@ -4323,6 +4637,7 @@
         "candidates": [
           {
             "name": "Don Harmon",
+            "party": "Non-Partisan",
             "votes": 20799,
             "counties": [
               "Cook"
@@ -4342,6 +4657,7 @@
         "candidates": [
           {
             "name": "John Curran",
+            "party": "Non-Partisan",
             "votes": 2674,
             "counties": [
               "Cook"
@@ -4363,7 +4679,8 @@
         "num_counties": 4,
         "candidates": [
           {
-            "name": "SALLY J. TURNER (REP)",
+            "name": "SALLY J. TURNER",
+            "party": "Republican",
             "votes": 4120,
             "counties": [
               "Livingston",
@@ -4384,7 +4701,8 @@
         "num_counties": 2,
         "candidates": [
           {
-            "name": "Michele Clark (DEM)",
+            "name": "Michele Clark",
+            "party": "Democratic",
             "votes": 16164,
             "counties": [
               "Kane"
@@ -4392,7 +4710,8 @@
             "percent": 61.44
           },
           {
-            "name": "Danielle Penman (REP)",
+            "name": "Danielle Penman",
+            "party": "Republican",
             "votes": 6007,
             "counties": [
               "Kane"
@@ -4400,7 +4719,8 @@
             "percent": 22.83
           },
           {
-            "name": "Jessica Breugelmans (REP)",
+            "name": "Jessica Breugelmans",
+            "party": "Republican",
             "votes": 4139,
             "counties": [
               "Kane"
@@ -4420,7 +4740,8 @@
         "num_counties": 2,
         "candidates": [
           {
-            "name": "Linda Holmes (DEM)",
+            "name": "Linda Holmes",
+            "party": "Democratic",
             "votes": 9060,
             "counties": [
               "Kane"
@@ -4428,7 +4749,8 @@
             "percent": 73.38
           },
           {
-            "name": "Edgardo \"Eddie\" Perez (REP)",
+            "name": "Edgardo \"Eddie\" Perez",
+            "party": "Republican",
             "votes": 3286,
             "counties": [
               "Kane"
@@ -4450,7 +4772,8 @@
         "num_counties": 2,
         "candidates": [
           {
-            "name": "JOSHUA S. HIGGINS (REP)",
+            "name": "JOSHUA S. HIGGINS",
+            "party": "Republican",
             "votes": 76,
             "counties": [
               "Tazewell"
@@ -4458,7 +4781,8 @@
             "percent": 49.35
           },
           {
-            "name": "NORINE K. HAMMOND (REP)",
+            "name": "NORINE K. HAMMOND",
+            "party": "Republican",
             "votes": 52,
             "counties": [
               "Tazewell"
@@ -4466,7 +4790,8 @@
             "percent": 33.77
           },
           {
-            "name": "BAILEY TEMPLETON (REP)",
+            "name": "BAILEY TEMPLETON",
+            "party": "Republican",
             "votes": 26,
             "counties": [
               "Tazewell"
@@ -4486,7 +4811,8 @@
         "num_counties": 2,
         "candidates": [
           {
-            "name": "DAVE VELLA (DEM)",
+            "name": "DAVE VELLA",
+            "party": "Democratic",
             "votes": 888,
             "counties": [
               "Boone"
@@ -4494,7 +4820,8 @@
             "percent": 51.99
           },
           {
-            "name": "KATHY EASTON (REP)",
+            "name": "KATHY EASTON",
+            "party": "Republican",
             "votes": 820,
             "counties": [
               "Boone"
@@ -4514,7 +4841,8 @@
         "num_counties": 2,
         "candidates": [
           {
-            "name": "JOE C. SOSNOWSKI (REP)",
+            "name": "JOE C. SOSNOWSKI",
+            "party": "Republican",
             "votes": 1430,
             "counties": [
               "Boone"
@@ -4522,7 +4850,8 @@
             "percent": 58.06
           },
           {
-            "name": "PETER JANKO (DEM)",
+            "name": "PETER JANKO",
+            "party": "Democratic",
             "votes": 1033,
             "counties": [
               "Boone"
@@ -4548,7 +4877,8 @@
         "num_counties": 8,
         "candidates": [
           {
-            "name": "TONY M. McCOMBIE (REP)",
+            "name": "TONY M. McCOMBIE",
+            "party": "Republican",
             "votes": 5127,
             "counties": [
               "Boone",
@@ -4559,7 +4889,8 @@
             "percent": 76.56
           },
           {
-            "name": "VICTORIA ONORATO (REP)",
+            "name": "VICTORIA ONORATO",
+            "party": "Republican",
             "votes": 1570,
             "counties": [
               "Boone",
@@ -4584,7 +4915,8 @@
         "num_counties": 4,
         "candidates": [
           {
-            "name": "JOHN M. CABELLO (REP)",
+            "name": "JOHN M. CABELLO",
+            "party": "Republican",
             "votes": 2742,
             "counties": [
               "Boone",
@@ -4593,7 +4925,8 @@
             "percent": 62.47
           },
           {
-            "name": "JOHN PING (DEM)",
+            "name": "JOHN PING",
+            "party": "Democratic",
             "votes": 1647,
             "counties": [
               "Boone",
@@ -4618,7 +4951,8 @@
         "num_counties": 6,
         "candidates": [
           {
-            "name": "RYAN SPAIN (REP)",
+            "name": "RYAN SPAIN",
+            "party": "Republican",
             "votes": 3188,
             "counties": [
               "Bureau",
@@ -4628,7 +4962,8 @@
             "percent": 63.85
           },
           {
-            "name": "NICOLE DOPLER (DEM)",
+            "name": "NICOLE DOPLER",
+            "party": "Democratic",
             "votes": 1805,
             "counties": [
               "Bureau",
@@ -4650,7 +4985,8 @@
         "num_counties": 2,
         "candidates": [
           {
-            "name": "AMY \"MURRI\" BRIEL (DEM)",
+            "name": "AMY \"MURRI\" BRIEL",
+            "party": "Democratic",
             "votes": 549,
             "counties": [
               "Bureau"
@@ -4658,7 +4994,8 @@
             "percent": 59.42
           },
           {
-            "name": "LIZ BISHOP (REP)",
+            "name": "LIZ BISHOP",
+            "party": "Republican",
             "votes": 207,
             "counties": [
               "Bureau"
@@ -4666,7 +5003,8 @@
             "percent": 22.4
           },
           {
-            "name": "CRYSTAL LOUGHRAN (REP)",
+            "name": "CRYSTAL LOUGHRAN",
+            "party": "Republican",
             "votes": 168,
             "counties": [
               "Bureau"
@@ -4674,7 +5012,8 @@
             "percent": 18.18
           },
           {
-            "name": "TYLER THOMPSON (DEM)",
+            "name": "TYLER THOMPSON",
+            "party": "Democratic",
             "votes": 0,
             "counties": [
               "Bureau"
@@ -4698,7 +5037,8 @@
         "num_counties": 6,
         "candidates": [
           {
-            "name": "TIM RUESTMAN (REP)",
+            "name": "TIM RUESTMAN",
+            "party": "Republican",
             "votes": 1551,
             "counties": [
               "Bureau",
@@ -4738,6 +5078,7 @@
         "candidates": [
           {
             "name": "Robyn Gabel",
+            "party": "Non-Partisan",
             "votes": 20557,
             "counties": [
               "Cook"
@@ -4746,6 +5087,7 @@
           },
           {
             "name": "Jennifer Gong-Gershowitz",
+            "party": "Non-Partisan",
             "votes": 18622,
             "counties": [
               "Cook"
@@ -4754,6 +5096,7 @@
           },
           {
             "name": "Brad Schneider",
+            "party": "Non-Partisan",
             "votes": 12105,
             "counties": [
               "Cook"
@@ -4762,6 +5105,7 @@
           },
           {
             "name": "Jonathan L. Jackson",
+            "party": "Non-Partisan",
             "votes": 10371,
             "counties": [
               "Cook"
@@ -4770,6 +5114,7 @@
           },
           {
             "name": "Abdelnasser Rashid",
+            "party": "Non-Partisan",
             "votes": 8320,
             "counties": [
               "Cook"
@@ -4778,6 +5123,7 @@
           },
           {
             "name": "Jenny Levin",
+            "party": "Non-Partisan",
             "votes": 6623,
             "counties": [
               "Cook"
@@ -4786,6 +5132,7 @@
           },
           {
             "name": "Kevin John Olickal",
+            "party": "Non-Partisan",
             "votes": 5384,
             "counties": [
               "Cook"
@@ -4794,6 +5141,7 @@
           },
           {
             "name": "Michael J. Kelly",
+            "party": "Non-Partisan",
             "votes": 4438,
             "counties": [
               "Cook"
@@ -4802,6 +5150,7 @@
           },
           {
             "name": "Michael \"Mike\" Crawford",
+            "party": "Non-Partisan",
             "votes": 3016,
             "counties": [
               "Cook"
@@ -4810,6 +5159,7 @@
           },
           {
             "name": "Carl Lambrecht",
+            "party": "Non-Partisan",
             "votes": 2678,
             "counties": [
               "Cook"
@@ -4818,6 +5168,7 @@
           },
           {
             "name": "Lori Smith",
+            "party": "Non-Partisan",
             "votes": 2553,
             "counties": [
               "Cook"
@@ -4826,6 +5177,7 @@
           },
           {
             "name": "James \"Jim\" Geldermann",
+            "party": "Non-Partisan",
             "votes": 2454,
             "counties": [
               "Cook"
@@ -4834,6 +5186,7 @@
           },
           {
             "name": "Morgan Coghill",
+            "party": "Non-Partisan",
             "votes": 2342,
             "counties": [
               "Cook"
@@ -4842,6 +5195,7 @@
           },
           {
             "name": "Christian Maxwell",
+            "party": "Non-Partisan",
             "votes": 1955,
             "counties": [
               "Cook"
@@ -4850,6 +5204,7 @@
           },
           {
             "name": "Eric Su",
+            "party": "Non-Partisan",
             "votes": 1208,
             "counties": [
               "Cook"
@@ -4858,6 +5213,7 @@
           },
           {
             "name": "Pete Donaghue",
+            "party": "Non-Partisan",
             "votes": 1174,
             "counties": [
               "Cook"
@@ -4866,6 +5222,7 @@
           },
           {
             "name": "Marcus Lewis",
+            "party": "Non-Partisan",
             "votes": 1006,
             "counties": [
               "Cook"
@@ -4874,6 +5231,7 @@
           },
           {
             "name": "Bill Foster",
+            "party": "Non-Partisan",
             "votes": 849,
             "counties": [
               "Cook"
@@ -4882,6 +5240,7 @@
           },
           {
             "name": "Michael Pierce",
+            "party": "Non-Partisan",
             "votes": 236,
             "counties": [
               "Cook"
@@ -4890,6 +5249,7 @@
           },
           {
             "name": "Jeff Walter",
+            "party": "Non-Partisan",
             "votes": 229,
             "counties": [
               "Cook"
@@ -4898,6 +5258,7 @@
           },
           {
             "name": "Lindsey LaPointe",
+            "party": "Non-Partisan",
             "votes": 214,
             "counties": [
               "Cook"
@@ -4906,6 +5267,7 @@
           },
           {
             "name": "Guadalupe \"Lupe\" Rivera",
+            "party": "Non-Partisan",
             "votes": 110,
             "counties": [
               "Cook"
@@ -4914,6 +5276,7 @@
           },
           {
             "name": "Aaron M. Ortiz",
+            "party": "Non-Partisan",
             "votes": 109,
             "counties": [
               "Cook"
@@ -4948,6 +5311,7 @@
         "candidates": [
           {
             "name": "Donna Miller",
+            "party": "Non-Partisan",
             "votes": 22501,
             "counties": [
               "Cook"
@@ -4956,6 +5320,7 @@
           },
           {
             "name": "Jesse Louis Jackson, Jr.",
+            "party": "Non-Partisan",
             "votes": 15810,
             "counties": [
               "Cook"
@@ -4964,6 +5329,7 @@
           },
           {
             "name": "Thaddeus Jones",
+            "party": "Non-Partisan",
             "votes": 10239,
             "counties": [
               "Cook"
@@ -4972,6 +5338,7 @@
           },
           {
             "name": "Elizabeth \"Lisa\" Hernandez",
+            "party": "Non-Partisan",
             "votes": 9480,
             "counties": [
               "Cook"
@@ -4980,6 +5347,7 @@
           },
           {
             "name": "Abdelnasser Rashid",
+            "party": "Non-Partisan",
             "votes": 8320,
             "counties": [
               "Cook"
@@ -4988,6 +5356,7 @@
           },
           {
             "name": "Robert \"Bob\" Rita",
+            "party": "Non-Partisan",
             "votes": 7748,
             "counties": [
               "Cook"
@@ -4996,6 +5365,7 @@
           },
           {
             "name": "Yumeka Brown",
+            "party": "Non-Partisan",
             "votes": 7137,
             "counties": [
               "Cook"
@@ -5004,6 +5374,7 @@
           },
           {
             "name": "Robert Peters",
+            "party": "Non-Partisan",
             "votes": 4313,
             "counties": [
               "Cook"
@@ -5012,6 +5383,7 @@
           },
           {
             "name": "Justin Q. Slaughter",
+            "party": "Non-Partisan",
             "votes": 4264,
             "counties": [
               "Cook"
@@ -5020,6 +5392,7 @@
           },
           {
             "name": "Nicole La Ha",
+            "party": "Non-Partisan",
             "votes": 2717,
             "counties": [
               "Cook"
@@ -5028,6 +5401,7 @@
           },
           {
             "name": "Michael Scott Noack",
+            "party": "Non-Partisan",
             "votes": 2658,
             "counties": [
               "Cook"
@@ -5036,6 +5410,7 @@
           },
           {
             "name": "Willie Preston",
+            "party": "Non-Partisan",
             "votes": 1755,
             "counties": [
               "Cook"
@@ -5044,6 +5419,7 @@
           },
           {
             "name": "Brad Stephens",
+            "party": "Non-Partisan",
             "votes": 1660,
             "counties": [
               "Cook"
@@ -5052,6 +5428,7 @@
           },
           {
             "name": "Laura Hruska",
+            "party": "Non-Partisan",
             "votes": 1371,
             "counties": [
               "Cook"
@@ -5060,6 +5437,7 @@
           },
           {
             "name": "Eric Su",
+            "party": "Non-Partisan",
             "votes": 1208,
             "counties": [
               "Cook"
@@ -5068,6 +5446,7 @@
           },
           {
             "name": "Maria Peterson",
+            "party": "Non-Partisan",
             "votes": 1203,
             "counties": [
               "Cook"
@@ -5076,6 +5455,7 @@
           },
           {
             "name": "Martin McLaughlin",
+            "party": "Non-Partisan",
             "votes": 1128,
             "counties": [
               "Cook"
@@ -5084,6 +5464,7 @@
           },
           {
             "name": "Lisa J. Davis",
+            "party": "Non-Partisan",
             "votes": 1081,
             "counties": [
               "Cook"
@@ -5092,6 +5473,7 @@
           },
           {
             "name": "Angie Guerrero-Cuellar",
+            "party": "Non-Partisan",
             "votes": 985,
             "counties": [
               "Cook"
@@ -5100,6 +5482,7 @@
           },
           {
             "name": "Erin Chan Ding",
+            "party": "Non-Partisan",
             "votes": 951,
             "counties": [
               "Cook"
@@ -5108,6 +5491,7 @@
           },
           {
             "name": "Toni C. Brown",
+            "party": "Non-Partisan",
             "votes": 511,
             "counties": [
               "Cook"
@@ -5116,6 +5500,7 @@
           },
           {
             "name": "Patrick J. \"PJK\" Keating",
+            "party": "Non-Partisan",
             "votes": 502,
             "counties": [
               "Cook"
@@ -5124,6 +5509,7 @@
           },
           {
             "name": "Sidney Moore",
+            "party": "Non-Partisan",
             "votes": 489,
             "counties": [
               "Cook"
@@ -5132,6 +5518,7 @@
           },
           {
             "name": "Edgar Gonzalez, Jr.",
+            "party": "Non-Partisan",
             "votes": 378,
             "counties": [
               "Cook"
@@ -5140,6 +5527,7 @@
           },
           {
             "name": "Eric France",
+            "party": "Non-Partisan",
             "votes": 371,
             "counties": [
               "Cook"
@@ -5148,6 +5536,7 @@
           },
           {
             "name": "Adal Regis",
+            "party": "Non-Partisan",
             "votes": 322,
             "counties": [
               "Cook"
@@ -5183,6 +5572,7 @@
         "candidates": [
           {
             "name": "William \"Will\" Davis",
+            "party": "Non-Partisan",
             "votes": 13779,
             "counties": [
               "Cook"
@@ -5191,6 +5581,7 @@
           },
           {
             "name": "Debbie Meyers-Martin",
+            "party": "Non-Partisan",
             "votes": 12894,
             "counties": [
               "Cook"
@@ -5199,6 +5590,7 @@
           },
           {
             "name": "Nicolle Grasse",
+            "party": "Non-Partisan",
             "votes": 10182,
             "counties": [
               "Cook"
@@ -5207,6 +5599,7 @@
           },
           {
             "name": "Rick Ryan",
+            "party": "Non-Partisan",
             "votes": 9197,
             "counties": [
               "Cook"
@@ -5215,6 +5608,7 @@
           },
           {
             "name": "Mary Gill",
+            "party": "Non-Partisan",
             "votes": 6124,
             "counties": [
               "Cook"
@@ -5223,6 +5617,7 @@
           },
           {
             "name": "Delia Ramirez",
+            "party": "Non-Partisan",
             "votes": 5991,
             "counties": [
               "Cook"
@@ -5231,6 +5626,7 @@
           },
           {
             "name": "Marcus C. Evans, Jr.",
+            "party": "Non-Partisan",
             "votes": 4216,
             "counties": [
               "Cook"
@@ -5239,6 +5635,7 @@
           },
           {
             "name": "Elizabeth Bauer",
+            "party": "Non-Partisan",
             "votes": 3206,
             "counties": [
               "Cook"
@@ -5247,6 +5644,7 @@
           },
           {
             "name": "Michael \"Mike\" Crawford",
+            "party": "Non-Partisan",
             "votes": 3016,
             "counties": [
               "Cook"
@@ -5255,6 +5653,7 @@
           },
           {
             "name": "Anna Moeller",
+            "party": "Non-Partisan",
             "votes": 2711,
             "counties": [
               "Cook"
@@ -5263,6 +5662,7 @@
           },
           {
             "name": "Cleopatra \"Cleo\" Cowley",
+            "party": "Non-Partisan",
             "votes": 2580,
             "counties": [
               "Cook"
@@ -5271,6 +5671,7 @@
           },
           {
             "name": "David Sheppard",
+            "party": "Non-Partisan",
             "votes": 2554,
             "counties": [
               "Cook"
@@ -5279,6 +5680,7 @@
           },
           {
             "name": "Angel Oakley",
+            "party": "Non-Partisan",
             "votes": 2023,
             "counties": [
               "Cook"
@@ -5287,6 +5689,7 @@
           },
           {
             "name": "David A. Dewar",
+            "party": "Non-Partisan",
             "votes": 1874,
             "counties": [
               "Cook"
@@ -5295,6 +5698,7 @@
           },
           {
             "name": "Aja Kearney",
+            "party": "Non-Partisan",
             "votes": 1848,
             "counties": [
               "Cook"
@@ -5303,6 +5707,7 @@
           },
           {
             "name": "Patrick Sheehan",
+            "party": "Non-Partisan",
             "votes": 1144,
             "counties": [
               "Cook"
@@ -5311,6 +5716,7 @@
           },
           {
             "name": "Lisa J. Davis",
+            "party": "Non-Partisan",
             "votes": 1081,
             "counties": [
               "Cook"
@@ -5319,6 +5725,7 @@
           },
           {
             "name": "Charles (Chuck) Lay",
+            "party": "Non-Partisan",
             "votes": 667,
             "counties": [
               "Cook"
@@ -5327,6 +5734,7 @@
           },
           {
             "name": "Edgar Gonzalez, Jr.",
+            "party": "Non-Partisan",
             "votes": 378,
             "counties": [
               "Cook"
@@ -5358,6 +5766,7 @@
         "candidates": [
           {
             "name": "Patty Garcia",
+            "party": "Non-Partisan",
             "votes": 26712,
             "counties": [
               "Cook"
@@ -5366,6 +5775,7 @@
           },
           {
             "name": "Mary Beth Canty",
+            "party": "Non-Partisan",
             "votes": 11588,
             "counties": [
               "Cook"
@@ -5374,6 +5784,7 @@
           },
           {
             "name": "Fred Crespo",
+            "party": "Non-Partisan",
             "votes": 8453,
             "counties": [
               "Cook"
@@ -5382,6 +5793,7 @@
           },
           {
             "name": "Lupe Castillo",
+            "party": "Non-Partisan",
             "votes": 4632,
             "counties": [
               "Cook"
@@ -5390,6 +5802,7 @@
           },
           {
             "name": "Wayne Keen",
+            "party": "Non-Partisan",
             "votes": 3443,
             "counties": [
               "Cook"
@@ -5398,6 +5811,7 @@
           },
           {
             "name": "Amanda Zahorak",
+            "party": "Non-Partisan",
             "votes": 2892,
             "counties": [
               "Cook"
@@ -5406,6 +5820,7 @@
           },
           {
             "name": "Anna Moeller",
+            "party": "Non-Partisan",
             "votes": 2711,
             "counties": [
               "Cook"
@@ -5414,6 +5829,7 @@
           },
           {
             "name": "Cleopatra \"Cleo\" Cowley",
+            "party": "Non-Partisan",
             "votes": 2580,
             "counties": [
               "Cook"
@@ -5422,6 +5838,7 @@
           },
           {
             "name": "Ralph Black",
+            "party": "Non-Partisan",
             "votes": 2350,
             "counties": [
               "Cook"
@@ -5430,6 +5847,7 @@
           },
           {
             "name": "Aja Kearney",
+            "party": "Non-Partisan",
             "votes": 1848,
             "counties": [
               "Cook"
@@ -5438,6 +5856,7 @@
           },
           {
             "name": "Maura Hirschauer",
+            "party": "Non-Partisan",
             "votes": 1611,
             "counties": [
               "Cook"
@@ -5446,6 +5865,7 @@
           },
           {
             "name": "Jennifer Sanalitro",
+            "party": "Non-Partisan",
             "votes": 1310,
             "counties": [
               "Cook"
@@ -5454,6 +5874,7 @@
           },
           {
             "name": "John Paul Augustynowicz",
+            "party": "Non-Partisan",
             "votes": 655,
             "counties": [
               "Cook"
@@ -5462,6 +5883,7 @@
           },
           {
             "name": "Martha \"Marti\" Deuter",
+            "party": "Non-Partisan",
             "votes": 324,
             "counties": [
               "Cook"
@@ -5502,6 +5924,7 @@
         "candidates": [
           {
             "name": "Mike Quigley",
+            "party": "Non-Partisan",
             "votes": 19226,
             "counties": [
               "Cook"
@@ -5510,6 +5933,7 @@
           },
           {
             "name": "Mary Beth Canty",
+            "party": "Non-Partisan",
             "votes": 11588,
             "counties": [
               "Cook"
@@ -5518,6 +5942,7 @@
           },
           {
             "name": "Tracy Katz Muhl",
+            "party": "Non-Partisan",
             "votes": 11352,
             "counties": [
               "Cook"
@@ -5526,6 +5951,7 @@
           },
           {
             "name": "Nicolle Grasse",
+            "party": "Non-Partisan",
             "votes": 10182,
             "counties": [
               "Cook"
@@ -5534,6 +5960,7 @@
           },
           {
             "name": "Michelle Mussman",
+            "party": "Non-Partisan",
             "votes": 8618,
             "counties": [
               "Cook"
@@ -5542,6 +5969,7 @@
           },
           {
             "name": "Justin Cochran",
+            "party": "Non-Partisan",
             "votes": 8277,
             "counties": [
               "Cook"
@@ -5550,6 +5978,7 @@
           },
           {
             "name": "Jenny Levin",
+            "party": "Non-Partisan",
             "votes": 6623,
             "counties": [
               "Cook"
@@ -5558,6 +5987,7 @@
           },
           {
             "name": "Tommy Hanson",
+            "party": "Non-Partisan",
             "votes": 6200,
             "counties": [
               "Cook"
@@ -5566,6 +5996,7 @@
           },
           {
             "name": "Mary Gill",
+            "party": "Non-Partisan",
             "votes": 6124,
             "counties": [
               "Cook"
@@ -5574,6 +6005,7 @@
           },
           {
             "name": "Michael J. Kelly",
+            "party": "Non-Partisan",
             "votes": 4438,
             "counties": [
               "Cook"
@@ -5582,6 +6014,7 @@
           },
           {
             "name": "Matthew Conroy",
+            "party": "Non-Partisan",
             "votes": 4346,
             "counties": [
               "Cook"
@@ -5590,6 +6023,7 @@
           },
           {
             "name": "Wayne Keen",
+            "party": "Non-Partisan",
             "votes": 3443,
             "counties": [
               "Cook"
@@ -5598,6 +6032,7 @@
           },
           {
             "name": "Elizabeth Bauer",
+            "party": "Non-Partisan",
             "votes": 3206,
             "counties": [
               "Cook"
@@ -5606,6 +6041,7 @@
           },
           {
             "name": "Edward \"Ed\" Lapinski",
+            "party": "Non-Partisan",
             "votes": 2834,
             "counties": [
               "Cook"
@@ -5614,6 +6050,7 @@
           },
           {
             "name": "Daniel T. Behr",
+            "party": "Non-Partisan",
             "votes": 2796,
             "counties": [
               "Cook"
@@ -5622,6 +6059,7 @@
           },
           {
             "name": "Ellen A. Corley",
+            "party": "Non-Partisan",
             "votes": 2734,
             "counties": [
               "Cook"
@@ -5630,6 +6068,7 @@
           },
           {
             "name": "Lori Smith",
+            "party": "Non-Partisan",
             "votes": 2553,
             "counties": [
               "Cook"
@@ -5638,6 +6077,7 @@
           },
           {
             "name": "Joseph Johnson",
+            "party": "Non-Partisan",
             "votes": 2316,
             "counties": [
               "Cook"
@@ -5646,6 +6086,7 @@
           },
           {
             "name": "David A. Dewar",
+            "party": "Non-Partisan",
             "votes": 1874,
             "counties": [
               "Cook"
@@ -5654,6 +6095,7 @@
           },
           {
             "name": "Barry Wicker",
+            "party": "Non-Partisan",
             "votes": 1433,
             "counties": [
               "Cook"
@@ -5662,6 +6104,7 @@
           },
           {
             "name": "Maria Peterson",
+            "party": "Non-Partisan",
             "votes": 1203,
             "counties": [
               "Cook"
@@ -5670,6 +6113,7 @@
           },
           {
             "name": "Martin McLaughlin",
+            "party": "Non-Partisan",
             "votes": 1128,
             "counties": [
               "Cook"
@@ -5678,6 +6122,7 @@
           },
           {
             "name": "Bob Morgan",
+            "party": "Non-Partisan",
             "votes": 1014,
             "counties": [
               "Cook"
@@ -5686,6 +6131,7 @@
           },
           {
             "name": "Kimball Ladien",
+            "party": "Non-Partisan",
             "votes": 966,
             "counties": [
               "Cook"
@@ -5694,6 +6140,7 @@
           },
           {
             "name": "Erin Chan Ding",
+            "party": "Non-Partisan",
             "votes": 951,
             "counties": [
               "Cook"
@@ -5702,6 +6149,7 @@
           },
           {
             "name": "Anthony Michael Tamez",
+            "party": "Non-Partisan",
             "votes": 850,
             "counties": [
               "Cook"
@@ -5710,6 +6158,7 @@
           },
           {
             "name": "Charles (Chuck) Lay",
+            "party": "Non-Partisan",
             "votes": 667,
             "counties": [
               "Cook"
@@ -5718,6 +6167,7 @@
           },
           {
             "name": "Daniel Didech",
+            "party": "Non-Partisan",
             "votes": 531,
             "counties": [
               "Cook"
@@ -5726,6 +6176,7 @@
           },
           {
             "name": "Martha \"Marti\" Deuter",
+            "party": "Non-Partisan",
             "votes": 324,
             "counties": [
               "Cook"
@@ -5751,6 +6202,7 @@
         "candidates": [
           {
             "name": "Sean Casten",
+            "party": "Non-Partisan",
             "votes": 27200,
             "counties": [
               "Cook"
@@ -5759,6 +6211,7 @@
           },
           {
             "name": "Niki Conforti",
+            "party": "Non-Partisan",
             "votes": 10460,
             "counties": [
               "Cook"
@@ -5767,6 +6220,7 @@
           },
           {
             "name": "Joseph \"Joey\" Ruzevich",
+            "party": "Non-Partisan",
             "votes": 9721,
             "counties": [
               "Cook"
@@ -5775,6 +6229,7 @@
           },
           {
             "name": "Rick Ryan",
+            "party": "Non-Partisan",
             "votes": 9197,
             "counties": [
               "Cook"
@@ -5783,6 +6238,7 @@
           },
           {
             "name": "Michelle Mussman",
+            "party": "Non-Partisan",
             "votes": 8618,
             "counties": [
               "Cook"
@@ -5791,6 +6247,7 @@
           },
           {
             "name": "Kevin John Olickal",
+            "party": "Non-Partisan",
             "votes": 5384,
             "counties": [
               "Cook"
@@ -5799,6 +6256,7 @@
           },
           {
             "name": "Edward \"Ed\" Lapinski",
+            "party": "Non-Partisan",
             "votes": 2834,
             "counties": [
               "Cook"
@@ -5807,6 +6265,7 @@
           },
           {
             "name": "Skylar Duensing",
+            "party": "Non-Partisan",
             "votes": 2612,
             "counties": [
               "Cook"
@@ -5815,6 +6274,7 @@
           },
           {
             "name": "David Sheppard",
+            "party": "Non-Partisan",
             "votes": 2554,
             "counties": [
               "Cook"
@@ -5846,6 +6306,7 @@
         "candidates": [
           {
             "name": "Jennifer Gong-Gershowitz",
+            "party": "Non-Partisan",
             "votes": 18622,
             "counties": [
               "Cook"
@@ -5854,6 +6315,7 @@
           },
           {
             "name": "Camille Lilly",
+            "party": "Non-Partisan",
             "votes": 16463,
             "counties": [
               "Cook"
@@ -5862,6 +6324,7 @@
           },
           {
             "name": "Emanuel \"Chris\" Welch",
+            "party": "Non-Partisan",
             "votes": 14035,
             "counties": [
               "Cook"
@@ -5870,6 +6333,7 @@
           },
           {
             "name": "Tracy Katz Muhl",
+            "party": "Non-Partisan",
             "votes": 11352,
             "counties": [
               "Cook"
@@ -5878,6 +6342,7 @@
           },
           {
             "name": "La Shawn K. Ford",
+            "party": "Non-Partisan",
             "votes": 8128,
             "counties": [
               "Cook"
@@ -5886,6 +6351,7 @@
           },
           {
             "name": "Kina Collins",
+            "party": "Non-Partisan",
             "votes": 5003,
             "counties": [
               "Cook"
@@ -5894,6 +6360,7 @@
           },
           {
             "name": "Melissa Conyears-Ervin",
+            "party": "Non-Partisan",
             "votes": 4716,
             "counties": [
               "Cook"
@@ -5902,6 +6369,7 @@
           },
           {
             "name": "Justin Q. Slaughter",
+            "party": "Non-Partisan",
             "votes": 4264,
             "counties": [
               "Cook"
@@ -5910,6 +6378,7 @@
           },
           {
             "name": "Norma Hernandez",
+            "party": "Non-Partisan",
             "votes": 4260,
             "counties": [
               "Cook"
@@ -5918,6 +6387,7 @@
           },
           {
             "name": "Anthony Driver, Jr.",
+            "party": "Non-Partisan",
             "votes": 3382,
             "counties": [
               "Cook"
@@ -5926,6 +6396,7 @@
           },
           {
             "name": "Thomas Fisher",
+            "party": "Non-Partisan",
             "votes": 2831,
             "counties": [
               "Cook"
@@ -5934,6 +6405,7 @@
           },
           {
             "name": "Daniel T. Behr",
+            "party": "Non-Partisan",
             "votes": 2796,
             "counties": [
               "Cook"
@@ -5942,6 +6414,7 @@
           },
           {
             "name": "James \"Jim\" Geldermann",
+            "party": "Non-Partisan",
             "votes": 2454,
             "counties": [
               "Cook"
@@ -5950,6 +6423,7 @@
           },
           {
             "name": "Jason Friedman",
+            "party": "Non-Partisan",
             "votes": 2185,
             "counties": [
               "Cook"
@@ -5958,6 +6432,7 @@
           },
           {
             "name": "Reed Showalter",
+            "party": "Non-Partisan",
             "votes": 2034,
             "counties": [
               "Cook"
@@ -5966,6 +6441,7 @@
           },
           {
             "name": "Anabel Mendoza",
+            "party": "Non-Partisan",
             "votes": 1690,
             "counties": [
               "Cook"
@@ -5974,6 +6450,7 @@
           },
           {
             "name": "Richard R. Boykin",
+            "party": "Non-Partisan",
             "votes": 1542,
             "counties": [
               "Cook"
@@ -5982,6 +6459,7 @@
           },
           {
             "name": "Rory Hoskins",
+            "party": "Non-Partisan",
             "votes": 1460,
             "counties": [
               "Cook"
@@ -5990,6 +6468,7 @@
           },
           {
             "name": "Chad Koppie",
+            "party": "Non-Partisan",
             "votes": 1323,
             "counties": [
               "Cook"
@@ -5998,6 +6477,7 @@
           },
           {
             "name": "Anthony Airdo",
+            "party": "Non-Partisan",
             "votes": 1179,
             "counties": [
               "Cook"
@@ -6006,6 +6486,7 @@
           },
           {
             "name": "Patrick Sheehan",
+            "party": "Non-Partisan",
             "votes": 1144,
             "counties": [
               "Cook"
@@ -6014,6 +6495,7 @@
           },
           {
             "name": "Julian-Jahleel Randolph Jemison",
+            "party": "Non-Partisan",
             "votes": 903,
             "counties": [
               "Cook"
@@ -6022,6 +6504,7 @@
           },
           {
             "name": "Jazmin J. Robinson",
+            "party": "Non-Partisan",
             "votes": 706,
             "counties": [
               "Cook"
@@ -6030,6 +6513,7 @@
           },
           {
             "name": "Patricia \"P Rae\" Easley",
+            "party": "Non-Partisan",
             "votes": 630,
             "counties": [
               "Cook"
@@ -6038,6 +6522,7 @@
           },
           {
             "name": "David Ehrlich",
+            "party": "Non-Partisan",
             "votes": 195,
             "counties": [
               "Cook"
@@ -6071,6 +6556,7 @@
         "candidates": [
           {
             "name": "Robyn Gabel",
+            "party": "Non-Partisan",
             "votes": 20557,
             "counties": [
               "Cook"
@@ -6079,6 +6565,7 @@
           },
           {
             "name": "Camille Lilly",
+            "party": "Non-Partisan",
             "votes": 16463,
             "counties": [
               "Cook"
@@ -6087,6 +6574,7 @@
           },
           {
             "name": "Debbie Meyers-Martin",
+            "party": "Non-Partisan",
             "votes": 12894,
             "counties": [
               "Cook"
@@ -6095,6 +6583,7 @@
           },
           {
             "name": "Melissa L. Bean",
+            "party": "Non-Partisan",
             "votes": 10950,
             "counties": [
               "Cook"
@@ -6103,6 +6592,7 @@
           },
           {
             "name": "Junaid Ahmed",
+            "party": "Non-Partisan",
             "votes": 9251,
             "counties": [
               "Cook"
@@ -6111,6 +6601,7 @@
           },
           {
             "name": "Robert \"Bob\" Rita",
+            "party": "Non-Partisan",
             "votes": 7748,
             "counties": [
               "Cook"
@@ -6119,6 +6610,7 @@
           },
           {
             "name": "Anthony DeLuca",
+            "party": "Non-Partisan",
             "votes": 5290,
             "counties": [
               "Cook"
@@ -6127,6 +6619,7 @@
           },
           {
             "name": "Jennifer Davis",
+            "party": "Non-Partisan",
             "votes": 5182,
             "counties": [
               "Cook"
@@ -6135,6 +6628,7 @@
           },
           {
             "name": "Mark Rice",
+            "party": "Non-Partisan",
             "votes": 5168,
             "counties": [
               "Cook"
@@ -6143,6 +6637,7 @@
           },
           {
             "name": "Kevin B. Morrison",
+            "party": "Non-Partisan",
             "votes": 4211,
             "counties": [
               "Cook"
@@ -6151,6 +6646,7 @@
           },
           {
             "name": "Shantel Franklin",
+            "party": "Non-Partisan",
             "votes": 3758,
             "counties": [
               "Cook"
@@ -6159,6 +6655,7 @@
           },
           {
             "name": "Dan Tully",
+            "party": "Non-Partisan",
             "votes": 3356,
             "counties": [
               "Cook"
@@ -6167,6 +6664,7 @@
           },
           {
             "name": "Amanda Zahorak",
+            "party": "Non-Partisan",
             "votes": 2892,
             "counties": [
               "Cook"
@@ -6175,6 +6673,7 @@
           },
           {
             "name": "Yasmeen Bankole",
+            "party": "Non-Partisan",
             "votes": 2775,
             "counties": [
               "Cook"
@@ -6183,6 +6682,7 @@
           },
           {
             "name": "Neil Khot",
+            "party": "Non-Partisan",
             "votes": 2720,
             "counties": [
               "Cook"
@@ -6191,6 +6691,7 @@
           },
           {
             "name": "Nicole La Ha",
+            "party": "Non-Partisan",
             "votes": 2717,
             "counties": [
               "Cook"
@@ -6199,6 +6700,7 @@
           },
           {
             "name": "Jill Bush",
+            "party": "Non-Partisan",
             "votes": 1587,
             "counties": [
               "Cook"
@@ -6207,6 +6709,7 @@
           },
           {
             "name": "Latonya Mitts",
+            "party": "Non-Partisan",
             "votes": 1421,
             "counties": [
               "Cook"
@@ -6215,6 +6718,7 @@
           },
           {
             "name": "Jennifer Sanalitro",
+            "party": "Non-Partisan",
             "votes": 1310,
             "counties": [
               "Cook"
@@ -6223,6 +6727,7 @@
           },
           {
             "name": "Pete Donaghue",
+            "party": "Non-Partisan",
             "votes": 1174,
             "counties": [
               "Cook"
@@ -6231,6 +6736,7 @@
           },
           {
             "name": "Bob Morgan",
+            "party": "Non-Partisan",
             "votes": 1014,
             "counties": [
               "Cook"
@@ -6239,6 +6745,7 @@
           },
           {
             "name": "Sanjyot Dunung",
+            "party": "Non-Partisan",
             "votes": 976,
             "counties": [
               "Cook"
@@ -6247,6 +6754,7 @@
           },
           {
             "name": "Julian-Jahleel Randolph Jemison",
+            "party": "Non-Partisan",
             "votes": 903,
             "counties": [
               "Cook"
@@ -6255,6 +6763,7 @@
           },
           {
             "name": "John Harrell",
+            "party": "Non-Partisan",
             "votes": 812,
             "counties": [
               "Cook"
@@ -6263,6 +6772,7 @@
           },
           {
             "name": "Kevin Ake",
+            "party": "Non-Partisan",
             "votes": 512,
             "counties": [
               "Cook"
@@ -6271,6 +6781,7 @@
           },
           {
             "name": "Adam M. Beaty",
+            "party": "Non-Partisan",
             "votes": 479,
             "counties": [
               "Cook"
@@ -6279,6 +6790,7 @@
           },
           {
             "name": "Ryan Vetticad",
+            "party": "Non-Partisan",
             "votes": 425,
             "counties": [
               "Cook"
@@ -6287,6 +6799,7 @@
           },
           {
             "name": "Herbert Hebein",
+            "party": "Non-Partisan",
             "votes": 417,
             "counties": [
               "Cook"
@@ -6312,6 +6825,7 @@
         "candidates": [
           {
             "name": "Daniel Biss",
+            "party": "Non-Partisan",
             "votes": 22110,
             "counties": [
               "Cook"
@@ -6320,6 +6834,7 @@
           },
           {
             "name": "Laura Fine",
+            "party": "Non-Partisan",
             "votes": 15913,
             "counties": [
               "Cook"
@@ -6328,6 +6843,7 @@
           },
           {
             "name": "Kat Abughazaleh",
+            "party": "Non-Partisan",
             "votes": 12387,
             "counties": [
               "Cook"
@@ -6336,6 +6852,7 @@
           },
           {
             "name": "Thaddeus Jones",
+            "party": "Non-Partisan",
             "votes": 10239,
             "counties": [
               "Cook"
@@ -6344,6 +6861,7 @@
           },
           {
             "name": "Phil Andrew",
+            "party": "Non-Partisan",
             "votes": 5898,
             "counties": [
               "Cook"
@@ -6352,6 +6870,7 @@
           },
           {
             "name": "John Elleson",
+            "party": "Non-Partisan",
             "votes": 3809,
             "counties": [
               "Cook"
@@ -6360,6 +6879,7 @@
           },
           {
             "name": "Bushra Amiwala",
+            "party": "Non-Partisan",
             "votes": 3263,
             "counties": [
               "Cook"
@@ -6368,6 +6888,7 @@
           },
           {
             "name": "Paul Friedman",
+            "party": "Non-Partisan",
             "votes": 2587,
             "counties": [
               "Cook"
@@ -6376,6 +6897,7 @@
           },
           {
             "name": "Mike Simmons",
+            "party": "Non-Partisan",
             "votes": 2140,
             "counties": [
               "Cook"
@@ -6384,6 +6906,7 @@
           },
           {
             "name": "Maura Hirschauer",
+            "party": "Non-Partisan",
             "votes": 1611,
             "counties": [
               "Cook"
@@ -6392,6 +6915,7 @@
           },
           {
             "name": "Rocio Cleveland",
+            "party": "Non-Partisan",
             "votes": 712,
             "counties": [
               "Cook"
@@ -6400,6 +6924,7 @@
           },
           {
             "name": "Dongbo Mark Su",
+            "party": "Non-Partisan",
             "votes": 678,
             "counties": [
               "Cook"
@@ -6408,6 +6933,7 @@
           },
           {
             "name": "John Paul Augustynowicz",
+            "party": "Non-Partisan",
             "votes": 655,
             "counties": [
               "Cook"
@@ -6416,6 +6942,7 @@
           },
           {
             "name": "Hoan Huynh",
+            "party": "Non-Partisan",
             "votes": 629,
             "counties": [
               "Cook"
@@ -6424,6 +6951,7 @@
           },
           {
             "name": "Jeff Cohen",
+            "party": "Non-Partisan",
             "votes": 614,
             "counties": [
               "Cook"
@@ -6432,6 +6960,7 @@
           },
           {
             "name": "Patricia A. Brown",
+            "party": "Non-Partisan",
             "votes": 611,
             "counties": [
               "Cook"
@@ -6440,6 +6969,7 @@
           },
           {
             "name": "Daniel Didech",
+            "party": "Non-Partisan",
             "votes": 531,
             "counties": [
               "Cook"
@@ -6448,6 +6978,7 @@
           },
           {
             "name": "Justin Ford",
+            "party": "Non-Partisan",
             "votes": 256,
             "counties": [
               "Cook"
@@ -6456,6 +6987,7 @@
           },
           {
             "name": "Sam Polan",
+            "party": "Non-Partisan",
             "votes": 246,
             "counties": [
               "Cook"
@@ -6464,6 +6996,7 @@
           },
           {
             "name": "Bethany Johnson",
+            "party": "Non-Partisan",
             "votes": 242,
             "counties": [
               "Cook"
@@ -6472,6 +7005,7 @@
           },
           {
             "name": "Lindsey LaPointe",
+            "party": "Non-Partisan",
             "votes": 214,
             "counties": [
               "Cook"
@@ -6480,6 +7014,7 @@
           },
           {
             "name": "Howard Rosenblum",
+            "party": "Non-Partisan",
             "votes": 110,
             "counties": [
               "Cook"
@@ -6488,6 +7023,7 @@
           },
           {
             "name": "Nick Pyati",
+            "party": "Non-Partisan",
             "votes": 108,
             "counties": [
               "Cook"
@@ -6508,6 +7044,7 @@
         "candidates": [
           {
             "name": "Brad Schneider",
+            "party": "Non-Partisan",
             "votes": 12105,
             "counties": [
               "Cook"
@@ -6516,6 +7053,7 @@
           },
           {
             "name": "Carl Lambrecht",
+            "party": "Non-Partisan",
             "votes": 2678,
             "counties": [
               "Cook"
@@ -6524,6 +7062,7 @@
           },
           {
             "name": "Morgan Coghill",
+            "party": "Non-Partisan",
             "votes": 2342,
             "counties": [
               "Cook"
@@ -6544,6 +7083,7 @@
         "candidates": [
           {
             "name": "Bill Foster",
+            "party": "Non-Partisan",
             "votes": 849,
             "counties": [
               "Cook"
@@ -6552,6 +7092,7 @@
           },
           {
             "name": "Michael Pierce",
+            "party": "Non-Partisan",
             "votes": 236,
             "counties": [
               "Cook"
@@ -6560,6 +7101,7 @@
           },
           {
             "name": "Jeff Walter",
+            "party": "Non-Partisan",
             "votes": 229,
             "counties": [
               "Cook"
@@ -6579,6 +7121,7 @@
         "candidates": [
           {
             "name": "Michael J. Kelly",
+            "party": "Non-Partisan",
             "votes": 4438,
             "counties": [
               "Cook"
@@ -6598,6 +7141,7 @@
         "candidates": [
           {
             "name": "Kevin John Olickal",
+            "party": "Non-Partisan",
             "votes": 5384,
             "counties": [
               "Cook"
@@ -6618,6 +7162,7 @@
         "candidates": [
           {
             "name": "Jennifer Gong-Gershowitz",
+            "party": "Non-Partisan",
             "votes": 18622,
             "counties": [
               "Cook"
@@ -6626,6 +7171,7 @@
           },
           {
             "name": "James \"Jim\" Geldermann",
+            "party": "Non-Partisan",
             "votes": 2454,
             "counties": [
               "Cook"
@@ -6646,6 +7192,7 @@
         "candidates": [
           {
             "name": "Robyn Gabel",
+            "party": "Non-Partisan",
             "votes": 20557,
             "counties": [
               "Cook"
@@ -6654,6 +7201,7 @@
           },
           {
             "name": "Pete Donaghue",
+            "party": "Non-Partisan",
             "votes": 1174,
             "counties": [
               "Cook"
@@ -6673,6 +7221,7 @@
         "candidates": [
           {
             "name": "Lindsey LaPointe",
+            "party": "Non-Partisan",
             "votes": 214,
             "counties": [
               "Cook"
@@ -6692,6 +7241,7 @@
         "candidates": [
           {
             "name": "Brad Stephens",
+            "party": "Non-Partisan",
             "votes": 1660,
             "counties": [
               "Cook"
@@ -6712,6 +7262,7 @@
         "candidates": [
           {
             "name": "Abdelnasser Rashid",
+            "party": "Non-Partisan",
             "votes": 8320,
             "counties": [
               "Cook"
@@ -6720,6 +7271,7 @@
           },
           {
             "name": "Eric Su",
+            "party": "Non-Partisan",
             "votes": 1208,
             "counties": [
               "Cook"
@@ -6739,6 +7291,7 @@
         "candidates": [
           {
             "name": "Angie Guerrero-Cuellar",
+            "party": "Non-Partisan",
             "votes": 985,
             "counties": [
               "Cook"
@@ -6758,6 +7311,7 @@
         "candidates": [
           {
             "name": "Edgar Gonzalez, Jr.",
+            "party": "Non-Partisan",
             "votes": 378,
             "counties": [
               "Cook"
@@ -6777,6 +7331,7 @@
         "candidates": [
           {
             "name": "Justin Q. Slaughter",
+            "party": "Non-Partisan",
             "votes": 4264,
             "counties": [
               "Cook"
@@ -6796,6 +7351,7 @@
         "candidates": [
           {
             "name": "Robert \"Bob\" Rita",
+            "party": "Non-Partisan",
             "votes": 7748,
             "counties": [
               "Cook"
@@ -6815,6 +7371,7 @@
         "candidates": [
           {
             "name": "Thaddeus Jones",
+            "party": "Non-Partisan",
             "votes": 10239,
             "counties": [
               "Cook"
@@ -6834,6 +7391,7 @@
         "candidates": [
           {
             "name": "William \"Will\" Davis",
+            "party": "Non-Partisan",
             "votes": 13779,
             "counties": [
               "Cook"
@@ -6853,6 +7411,7 @@
         "candidates": [
           {
             "name": "Michael \"Mike\" Crawford",
+            "party": "Non-Partisan",
             "votes": 3016,
             "counties": [
               "Cook"
@@ -6872,6 +7431,7 @@
         "candidates": [
           {
             "name": "Lisa J. Davis",
+            "party": "Non-Partisan",
             "votes": 1081,
             "counties": [
               "Cook"
@@ -6891,6 +7451,7 @@
         "candidates": [
           {
             "name": "Marcus C. Evans, Jr.",
+            "party": "Non-Partisan",
             "votes": 4216,
             "counties": [
               "Cook"
@@ -6910,6 +7471,7 @@
         "candidates": [
           {
             "name": "Cleopatra \"Cleo\" Cowley",
+            "party": "Non-Partisan",
             "votes": 2580,
             "counties": [
               "Cook"
@@ -6918,6 +7480,7 @@
           },
           {
             "name": "Aja Kearney",
+            "party": "Non-Partisan",
             "votes": 1848,
             "counties": [
               "Cook"
@@ -6938,6 +7501,7 @@
         "candidates": [
           {
             "name": "Mary Gill",
+            "party": "Non-Partisan",
             "votes": 6124,
             "counties": [
               "Cook"
@@ -6946,6 +7510,7 @@
           },
           {
             "name": "David A. Dewar",
+            "party": "Non-Partisan",
             "votes": 1874,
             "counties": [
               "Cook"
@@ -6954,6 +7519,7 @@
           },
           {
             "name": "Charles (Chuck) Lay",
+            "party": "Non-Partisan",
             "votes": 667,
             "counties": [
               "Cook"
@@ -6974,6 +7540,7 @@
         "candidates": [
           {
             "name": "Rick Ryan",
+            "party": "Non-Partisan",
             "votes": 9197,
             "counties": [
               "Cook"
@@ -6982,6 +7549,7 @@
           },
           {
             "name": "David Sheppard",
+            "party": "Non-Partisan",
             "votes": 2554,
             "counties": [
               "Cook"
@@ -7001,6 +7569,7 @@
         "candidates": [
           {
             "name": "Patrick Sheehan",
+            "party": "Non-Partisan",
             "votes": 1144,
             "counties": [
               "Cook"
@@ -7020,6 +7589,7 @@
         "candidates": [
           {
             "name": "Debbie Meyers-Martin",
+            "party": "Non-Partisan",
             "votes": 12894,
             "counties": [
               "Cook"
@@ -7039,6 +7609,7 @@
         "candidates": [
           {
             "name": "Anna Moeller",
+            "party": "Non-Partisan",
             "votes": 2711,
             "counties": [
               "Cook"
@@ -7059,6 +7630,7 @@
         "candidates": [
           {
             "name": "Fred Crespo",
+            "party": "Non-Partisan",
             "votes": 8453,
             "counties": [
               "Cook"
@@ -7067,6 +7639,7 @@
           },
           {
             "name": "Ralph Black",
+            "party": "Non-Partisan",
             "votes": 2350,
             "counties": [
               "Cook"
@@ -7086,6 +7659,7 @@
         "candidates": [
           {
             "name": "Martha \"Marti\" Deuter",
+            "party": "Non-Partisan",
             "votes": 324,
             "counties": [
               "Cook"
@@ -7106,6 +7680,7 @@
         "candidates": [
           {
             "name": "Amanda Zahorak",
+            "party": "Non-Partisan",
             "votes": 2892,
             "counties": [
               "Cook"
@@ -7114,6 +7689,7 @@
           },
           {
             "name": "Jennifer Sanalitro",
+            "party": "Non-Partisan",
             "votes": 1310,
             "counties": [
               "Cook"
@@ -7134,6 +7710,7 @@
         "candidates": [
           {
             "name": "Maura Hirschauer",
+            "party": "Non-Partisan",
             "votes": 1611,
             "counties": [
               "Cook"
@@ -7142,6 +7719,7 @@
           },
           {
             "name": "John Paul Augustynowicz",
+            "party": "Non-Partisan",
             "votes": 655,
             "counties": [
               "Cook"
@@ -7162,6 +7740,7 @@
         "candidates": [
           {
             "name": "Jenny Levin",
+            "party": "Non-Partisan",
             "votes": 6623,
             "counties": [
               "Cook"
@@ -7170,6 +7749,7 @@
           },
           {
             "name": "Lori Smith",
+            "party": "Non-Partisan",
             "votes": 2553,
             "counties": [
               "Cook"
@@ -7190,6 +7770,7 @@
         "candidates": [
           {
             "name": "Maria Peterson",
+            "party": "Non-Partisan",
             "votes": 1203,
             "counties": [
               "Cook"
@@ -7198,6 +7779,7 @@
           },
           {
             "name": "Martin McLaughlin",
+            "party": "Non-Partisan",
             "votes": 1128,
             "counties": [
               "Cook"
@@ -7206,6 +7788,7 @@
           },
           {
             "name": "Erin Chan Ding",
+            "party": "Non-Partisan",
             "votes": 951,
             "counties": [
               "Cook"
@@ -7226,6 +7809,7 @@
         "candidates": [
           {
             "name": "Nicolle Grasse",
+            "party": "Non-Partisan",
             "votes": 10182,
             "counties": [
               "Cook"
@@ -7234,6 +7818,7 @@
           },
           {
             "name": "Elizabeth Bauer",
+            "party": "Non-Partisan",
             "votes": 3206,
             "counties": [
               "Cook"
@@ -7254,6 +7839,7 @@
         "candidates": [
           {
             "name": "Mary Beth Canty",
+            "party": "Non-Partisan",
             "votes": 11588,
             "counties": [
               "Cook"
@@ -7262,6 +7848,7 @@
           },
           {
             "name": "Wayne Keen",
+            "party": "Non-Partisan",
             "votes": 3443,
             "counties": [
               "Cook"
@@ -7282,6 +7869,7 @@
         "candidates": [
           {
             "name": "Justin Cochran",
+            "party": "Non-Partisan",
             "votes": 8277,
             "counties": [
               "Cook"
@@ -7290,6 +7878,7 @@
           },
           {
             "name": "Joseph Johnson",
+            "party": "Non-Partisan",
             "votes": 2316,
             "counties": [
               "Cook"
@@ -7310,6 +7899,7 @@
         "candidates": [
           {
             "name": "Michelle Mussman",
+            "party": "Non-Partisan",
             "votes": 8618,
             "counties": [
               "Cook"
@@ -7318,6 +7908,7 @@
           },
           {
             "name": "Edward \"Ed\" Lapinski",
+            "party": "Non-Partisan",
             "votes": 2834,
             "counties": [
               "Cook"
@@ -7338,6 +7929,7 @@
         "candidates": [
           {
             "name": "Tracy Katz Muhl",
+            "party": "Non-Partisan",
             "votes": 11352,
             "counties": [
               "Cook"
@@ -7346,6 +7938,7 @@
           },
           {
             "name": "Daniel T. Behr",
+            "party": "Non-Partisan",
             "votes": 2796,
             "counties": [
               "Cook"
@@ -7365,6 +7958,7 @@
         "candidates": [
           {
             "name": "Bob Morgan",
+            "party": "Non-Partisan",
             "votes": 1014,
             "counties": [
               "Cook"
@@ -7384,6 +7978,7 @@
         "candidates": [
           {
             "name": "Daniel Didech",
+            "party": "Non-Partisan",
             "votes": 531,
             "counties": [
               "Cook"
@@ -7404,6 +7999,7 @@
         "candidates": [
           {
             "name": "Norma Hernandez",
+            "party": "Non-Partisan",
             "votes": 4260,
             "counties": [
               "Cook"
@@ -7412,6 +8008,7 @@
           },
           {
             "name": "Anthony Airdo",
+            "party": "Non-Partisan",
             "votes": 1179,
             "counties": [
               "Cook"
@@ -7432,6 +8029,7 @@
         "candidates": [
           {
             "name": "Camille Lilly",
+            "party": "Non-Partisan",
             "votes": 16463,
             "counties": [
               "Cook"
@@ -7440,6 +8038,7 @@
           },
           {
             "name": "Julian-Jahleel Randolph Jemison",
+            "party": "Non-Partisan",
             "votes": 903,
             "counties": [
               "Cook"
@@ -7460,6 +8059,7 @@
         "candidates": [
           {
             "name": "Anthony DeLuca",
+            "party": "Non-Partisan",
             "votes": 5290,
             "counties": [
               "Cook"
@@ -7468,6 +8068,7 @@
           },
           {
             "name": "Adam M. Beaty",
+            "party": "Non-Partisan",
             "votes": 479,
             "counties": [
               "Cook"
@@ -7487,6 +8088,7 @@
         "candidates": [
           {
             "name": "Nicole La Ha",
+            "party": "Non-Partisan",
             "votes": 2717,
             "counties": [
               "Cook"
@@ -7510,7 +8112,8 @@
         "num_counties": 6,
         "candidates": [
           {
-            "name": "BRADLEY J. FRITTS (REP)",
+            "name": "BRADLEY J. FRITTS",
+            "party": "Republican",
             "votes": 4559,
             "counties": [
               "Lee",
@@ -7520,7 +8123,8 @@
             "percent": 53.56
           },
           {
-            "name": "NOLAN KEMP (DEM)",
+            "name": "NOLAN KEMP",
+            "party": "Democratic",
             "votes": 3953,
             "counties": [
               "Lee",
@@ -7542,7 +8146,8 @@
         "num_counties": 2,
         "candidates": [
           {
-            "name": "WILLIAM E HAUTER (REP)",
+            "name": "WILLIAM E HAUTER",
+            "party": "Republican",
             "votes": 4159,
             "counties": [
               "Tazewell"
@@ -7562,7 +8167,8 @@
         "num_counties": 2,
         "candidates": [
           {
-            "name": "TRAVIS WEAVER (REP)",
+            "name": "TRAVIS WEAVER",
+            "party": "Republican",
             "votes": 1943,
             "counties": [
               "Tazewell"
@@ -7582,7 +8188,8 @@
         "num_counties": 2,
         "candidates": [
           {
-            "name": "SHARON CHUNG (DEM)",
+            "name": "SHARON CHUNG",
+            "party": "Democratic",
             "votes": 893,
             "counties": [
               "Tazewell"
@@ -7604,7 +8211,8 @@
         "num_counties": 2,
         "candidates": [
           {
-            "name": "Meghan Martin (REP)",
+            "name": "Meghan Martin",
+            "party": "Republican",
             "votes": 25,
             "counties": [
               "Kane"
@@ -7613,6 +8221,7 @@
           },
           {
             "name": "RYAN F. MYERS",
+            "party": "Democratic",
             "votes": 10,
             "counties": [
               "DeKalb"
@@ -7620,7 +8229,8 @@
             "percent": 22.22
           },
           {
-            "name": "Kristen Koppers (REP)",
+            "name": "Kristen Koppers",
+            "party": "Republican",
             "votes": 10,
             "counties": [
               "Kane"
@@ -7660,6 +8270,7 @@
         "candidates": [
           {
             "name": "REBECCA GAMBOA",
+            "party": "Democratic",
             "votes": 89562,
             "counties": [
               "DuPage"
@@ -7668,6 +8279,7 @@
           },
           {
             "name": "THERESA ROUSE",
+            "party": "Democratic",
             "votes": 42336,
             "counties": [
               "Will"
@@ -7676,6 +8288,7 @@
           },
           {
             "name": "Misael Nascimento",
+            "party": "Democratic",
             "votes": 63,
             "counties": [
               "DuPage"
@@ -7710,6 +8323,7 @@
         "candidates": [
           {
             "name": "THERESA ROUSE",
+            "party": "Democratic",
             "votes": 42336,
             "counties": [
               "Will"
@@ -7718,6 +8332,7 @@
           },
           {
             "name": "Meghan Martin (i)",
+            "party": "Republican",
             "votes": 2281,
             "counties": [
               "Grundy"
@@ -7726,6 +8341,7 @@
           },
           {
             "name": "Kristen Koppers",
+            "party": "Republican",
             "votes": 879,
             "counties": [
               "Grundy"
@@ -7765,6 +8381,7 @@
         "candidates": [
           {
             "name": "KATHY MARSHALL",
+            "party": "Republican",
             "votes": 2656,
             "counties": [
               "Henry"
@@ -7773,6 +8390,7 @@
           },
           {
             "name": "RYAN F. MYERS",
+            "party": "Democratic",
             "votes": 10,
             "counties": [
               "DeKalb"
@@ -7841,6 +8459,7 @@
         "candidates": [
           {
             "name": "Meghan Martin (i)",
+            "party": "Republican",
             "votes": 7457,
             "counties": [
               "Grundy",
@@ -7852,6 +8471,7 @@
           },
           {
             "name": "Kristen Koppers",
+            "party": "Republican",
             "votes": 3093,
             "counties": [
               "Grundy",
@@ -7894,7 +8514,8 @@
         "num_counties": 5,
         "candidates": [
           {
-            "name": "John K Jonak (REP)",
+            "name": "John K Jonak",
+            "party": "Republican",
             "votes": 25289,
             "counties": [
               "Kane",
@@ -7938,6 +8559,7 @@
         "candidates": [
           {
             "name": "Michael L. Karner",
+            "party": "Democratic",
             "votes": 496,
             "counties": [
               "McHenry"
@@ -7945,7 +8567,8 @@
             "percent": 93.41
           },
           {
-            "name": "Meghan Martin (REP)",
+            "name": "Meghan Martin",
+            "party": "Republican",
             "votes": 25,
             "counties": [
               "Kane"
@@ -7953,7 +8576,8 @@
             "percent": 4.71
           },
           {
-            "name": "Kristen Koppers (REP)",
+            "name": "Kristen Koppers",
+            "party": "Republican",
             "votes": 10,
             "counties": [
               "Kane"
@@ -7987,6 +8611,7 @@
         "candidates": [
           {
             "name": "THERESA ROUSE",
+            "party": "Democratic",
             "votes": 42336,
             "counties": [
               "Will"
@@ -8019,6 +8644,7 @@
         "candidates": [
           {
             "name": "RYAN F. MYERS",
+            "party": "Democratic",
             "votes": 10,
             "counties": [
               "DeKalb"
@@ -8080,25 +8706,34 @@
       "party": "Democratic",
       "counties": [
         "DuPage",
+        "DuPage",
+        "Will",
         "Will",
         "Bureau",
+        "Bureau",
         "Grundy",
+        "Grundy",
+        "Kankakee",
         "Kankakee"
       ],
-      "num_counties": 5,
+      "num_counties": 10,
       "candidates": [
         {
           "name": "MARGARET 'PEGGY' O'CONNELL",
-          "votes": 108658,
+          "party": "Democratic",
+          "votes": 111504,
           "counties": [
             "DuPage",
             "Will",
+            "Bureau",
+            "Grundy",
             "Kankakee"
           ],
-          "percent": 67.89
+          "percent": 46.25
         },
         {
           "name": "JOHN PAVICH",
+          "party": "Democratic",
           "votes": 48548,
           "counties": [
             "DuPage",
@@ -8107,19 +8742,36 @@
             "Grundy",
             "Kankakee"
           ],
-          "percent": 30.33
+          "percent": 20.14
         },
         {
-          "name": "MARGARET \"PEGGY\" O'CONNELL (DEM)",
-          "votes": 2846,
+          "name": "JASON A. HELLAND",
+          "party": "Republican",
+          "votes": 45317,
           "counties": [
+            "DuPage",
+            "Will",
             "Bureau",
-            "Grundy"
+            "Grundy",
+            "Kankakee"
           ],
-          "percent": 1.78
+          "percent": 18.8
+        },
+        {
+          "name": "MARK SENAK",
+          "party": "Republican",
+          "votes": 35731,
+          "counties": [
+            "DuPage",
+            "Will",
+            "Bureau",
+            "Grundy",
+            "Kankakee"
+          ],
+          "percent": 14.82
         }
       ],
-      "total_votes": 160052,
+      "total_votes": 241100,
       "label": "3rd Appellate District",
       "counties_needed": [
         "DuPage",
@@ -8153,6 +8805,7 @@
         "candidates": [
           {
             "name": "YES",
+            "party": "Non-Partisan",
             "votes": 11114,
             "counties": [
               "DuPage"
@@ -8161,6 +8814,7 @@
           },
           {
             "name": "NO",
+            "party": "Non-Partisan",
             "votes": 9398,
             "counties": [
               "DuPage"
@@ -8195,6 +8849,7 @@
         "candidates": [
           {
             "name": "NO",
+            "party": "Non-Partisan",
             "votes": 3811,
             "counties": [
               "DuPage"
@@ -8203,6 +8858,7 @@
           },
           {
             "name": "YES",
+            "party": "Non-Partisan",
             "votes": 3618,
             "counties": [
               "DuPage"
@@ -8236,6 +8892,7 @@
         "candidates": [
           {
             "name": "Yes",
+            "party": "Non-Partisan",
             "votes": 6,
             "counties": [
               "Kane"
@@ -8244,6 +8901,7 @@
           },
           {
             "name": "No",
+            "party": "Non-Partisan",
             "votes": 1,
             "counties": [
               "Kane"
@@ -8279,6 +8937,7 @@
         "candidates": [
           {
             "name": "YES",
+            "party": "Non-Partisan",
             "votes": 7,
             "counties": [
               "Lee"
@@ -8287,6 +8946,7 @@
           },
           {
             "name": "NO",
+            "party": "Non-Partisan",
             "votes": 1,
             "counties": [
               "Lee"
@@ -8323,6 +8983,7 @@
         "candidates": [
           {
             "name": "YES",
+            "party": "Non-Partisan",
             "votes": 588,
             "counties": [
               "Carroll",
@@ -8332,6 +8993,7 @@
           },
           {
             "name": "NO",
+            "party": "Non-Partisan",
             "votes": 341,
             "counties": [
               "Carroll",
@@ -8371,6 +9033,7 @@
         "candidates": [
           {
             "name": "YES",
+            "party": "Non-Partisan",
             "votes": 212,
             "counties": [
               "Bureau",
@@ -8380,6 +9043,7 @@
           },
           {
             "name": "NO",
+            "party": "Non-Partisan",
             "votes": 68,
             "counties": [
               "Bureau",
@@ -8415,6 +9079,7 @@
         "candidates": [
           {
             "name": "Yes",
+            "party": "Non-Partisan",
             "votes": 83,
             "counties": [
               "Kane"
@@ -8423,6 +9088,7 @@
           },
           {
             "name": "No",
+            "party": "Non-Partisan",
             "votes": 79,
             "counties": [
               "Kane"
