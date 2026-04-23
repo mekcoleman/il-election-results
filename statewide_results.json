@@ -1,5 +1,5 @@
 {
-  "aggregated_at": "2026-04-22T10:40:45.933614",
+  "aggregated_at": "2026-04-23T15:36:57.630289",
   "num_counties": 25,
   "counties_included": [
     "Cook",
@@ -8074,6 +8074,73 @@
         "precincts_reporting": 0,
         "total_precincts": 0
       }
+    },
+    "third_appellate": {
+      "name": "FOR JUDGE OF THE APPELLATE COURT THIRD JUDICIAL DISTRICT (To fill the vacancy of the Honorable Mary W. McDade)",
+      "party": "Democratic",
+      "counties": [
+        "DuPage",
+        "Will",
+        "Bureau",
+        "Grundy",
+        "Kankakee"
+      ],
+      "num_counties": 5,
+      "candidates": [
+        {
+          "name": "MARGARET 'PEGGY' O'CONNELL",
+          "votes": 108658,
+          "counties": [
+            "DuPage",
+            "Will",
+            "Kankakee"
+          ],
+          "percent": 67.89
+        },
+        {
+          "name": "JOHN PAVICH",
+          "votes": 48548,
+          "counties": [
+            "DuPage",
+            "Will",
+            "Bureau",
+            "Grundy",
+            "Kankakee"
+          ],
+          "percent": 30.33
+        },
+        {
+          "name": "MARGARET \"PEGGY\" O'CONNELL (DEM)",
+          "votes": 2846,
+          "counties": [
+            "Bureau",
+            "Grundy"
+          ],
+          "percent": 1.78
+        }
+      ],
+      "total_votes": 160052,
+      "label": "3rd Appellate District",
+      "counties_needed": [
+        "DuPage",
+        "Will",
+        "Bureau",
+        "Grundy",
+        "Iroquois",
+        "Kankakee",
+        "La Salle"
+      ],
+      "counties_found": [
+        "DuPage",
+        "Will",
+        "Bureau",
+        "Grundy",
+        "Kankakee"
+      ],
+      "counties_missing": [
+        "Iroquois"
+      ],
+      "complete": false
     },
     "cross_county_referendums": {
       "naperville_park_bonds": {
