@@ -1,5 +1,5 @@
 {
-  "aggregated_at": "2026-04-24T11:24:06.380160",
+  "aggregated_at": "2026-04-24T11:29:54.639987",
   "num_counties": 26,
   "counties_included": [
     "Cook",
@@ -8543,10 +8543,56 @@
         "party": "Democratic",
         "counties": [
           "DeKalb",
+          "DeKalb",
+          "DeKalb",
+          "DeKalb",
+          "DeKalb",
+          "Kane",
+          "Kane",
+          "Kane",
+          "Kane",
           "Kane"
         ],
-        "num_counties": 2,
+        "num_counties": 10,
         "candidates": [
+          {
+            "name": "JOHN J JONAK",
+            "party": "Republican",
+            "votes": 19914,
+            "counties": [
+              "DeKalb",
+              "Kane"
+            ],
+            "percent": 78.53
+          },
+          {
+            "name": "CARMEN R. SIRAGUSA",
+            "party": "Republican",
+            "votes": 4591,
+            "counties": [
+              "DeKalb",
+              "Kane"
+            ],
+            "percent": 18.1
+          },
+          {
+            "name": "Diana Hartmann",
+            "party": "Republican",
+            "votes": 584,
+            "counties": [
+              "Kane"
+            ],
+            "percent": 2.3
+          },
+          {
+            "name": "Michael L. Karner",
+            "party": "Democratic",
+            "votes": 219,
+            "counties": [
+              "Kane"
+            ],
+            "percent": 0.86
+          },
           {
             "name": "Meghan Martin",
             "party": "Republican",
@@ -8554,7 +8600,7 @@
             "counties": [
               "Kane"
             ],
-            "percent": 55.56
+            "percent": 0.1
           },
           {
             "name": "RYAN F. MYERS",
@@ -8563,7 +8609,7 @@
             "counties": [
               "DeKalb"
             ],
-            "percent": 22.22
+            "percent": 0.04
           },
           {
             "name": "Kristen Koppers",
@@ -8572,10 +8618,28 @@
             "counties": [
               "Kane"
             ],
-            "percent": 22.22
+            "percent": 0.04
+          },
+          {
+            "name": "CHRISTOPHER J. TENNYSON",
+            "party": "Republican",
+            "votes": 4,
+            "counties": [
+              "DeKalb"
+            ],
+            "percent": 0.02
+          },
+          {
+            "name": "SCOTT BLOOMQUIST",
+            "party": "Republican",
+            "votes": 2,
+            "counties": [
+              "DeKalb"
+            ],
+            "percent": 0.01
           }
         ],
-        "total_votes": 45,
+        "total_votes": 25359,
         "race_id": "ddc_dekalb",
         "market": "DDC",
         "label": "Regional Superintendent of Schools",
@@ -8601,18 +8665,36 @@
         "party": "Democratic",
         "counties": [
           "DuPage",
+          "DuPage",
+          "DuPage",
+          "Will",
+          "Will",
+          "Will",
+          "Will",
+          "Will",
           "Will"
         ],
-        "num_counties": 2,
+        "num_counties": 9,
         "candidates": [
           {
             "name": "REBECCA GAMBOA",
             "party": "Democratic",
-            "votes": 89562,
+            "votes": 95351,
             "counties": [
-              "DuPage"
+              "DuPage",
+              "Will"
             ],
-            "percent": 67.87
+            "percent": 46.01
+          },
+          {
+            "name": "AMBER M. QUIRK",
+            "party": "Republican",
+            "votes": 42518,
+            "counties": [
+              "DuPage",
+              "Will"
+            ],
+            "percent": 20.51
           },
           {
             "name": "THERESA ROUSE",
@@ -8621,7 +8703,43 @@
             "counties": [
               "Will"
             ],
-            "percent": 32.08
+            "percent": 20.43
+          },
+          {
+            "name": "ELIZABETH CAPARELLI-RUFF",
+            "party": "Republican",
+            "votes": 24611,
+            "counties": [
+              "Will"
+            ],
+            "percent": 11.87
+          },
+          {
+            "name": "JOHN K. JONAK",
+            "party": "Republican",
+            "votes": 2072,
+            "counties": [
+              "DuPage"
+            ],
+            "percent": 1.0
+          },
+          {
+            "name": "MEGHAN MARTIN",
+            "party": "Republican",
+            "votes": 189,
+            "counties": [
+              "Will"
+            ],
+            "percent": 0.09
+          },
+          {
+            "name": "KRISTEN KOPPERS",
+            "party": "Republican",
+            "votes": 113,
+            "counties": [
+              "Will"
+            ],
+            "percent": 0.05
           },
           {
             "name": "Misael Nascimento",
@@ -8630,10 +8748,19 @@
             "counties": [
               "DuPage"
             ],
-            "percent": 0.05
+            "percent": 0.03
+          },
+          {
+            "name": "PATRICIA HIGH",
+            "party": "Republican",
+            "votes": 3,
+            "counties": [
+              "Will"
+            ],
+            "percent": 0.0
           }
         ],
-        "total_votes": 131961,
+        "total_votes": 207256,
         "race_id": "slm_dupage",
         "market": "SLM",
         "label": "Regional Superintendent of Schools",
@@ -8654,9 +8781,14 @@
         "party": "Democratic",
         "counties": [
           "Will",
+          "Will",
+          "Will",
+          "Will",
+          "Will",
+          "Will",
           "Grundy"
         ],
-        "num_counties": 2,
+        "num_counties": 7,
         "candidates": [
           {
             "name": "THERESA ROUSE",
@@ -8665,28 +8797,66 @@
             "counties": [
               "Will"
             ],
-            "percent": 93.05
+            "percent": 53.82
           },
           {
-            "name": "Meghan Martin (i)",
+            "name": "ELIZABETH CAPARELLI-RUFF",
             "party": "Republican",
-            "votes": 2281,
+            "votes": 24611,
             "counties": [
-              "Grundy"
+              "Will"
             ],
-            "percent": 5.01
+            "percent": 31.28
           },
           {
-            "name": "Kristen Koppers",
-            "party": "Republican",
-            "votes": 879,
+            "name": "REBECCA GAMBOA",
+            "party": "Democratic",
+            "votes": 5789,
             "counties": [
+              "Will"
+            ],
+            "percent": 7.36
+          },
+          {
+            "name": "MEGHAN MARTIN",
+            "party": "Republican",
+            "votes": 2470,
+            "counties": [
+              "Will",
               "Grundy"
             ],
-            "percent": 1.93
+            "percent": 3.14
+          },
+          {
+            "name": "AMBER M. QUIRK",
+            "party": "Republican",
+            "votes": 2467,
+            "counties": [
+              "Will"
+            ],
+            "percent": 3.14
+          },
+          {
+            "name": "KRISTEN KOPPERS",
+            "party": "Republican",
+            "votes": 992,
+            "counties": [
+              "Will",
+              "Grundy"
+            ],
+            "percent": 1.26
+          },
+          {
+            "name": "PATRICIA HIGH",
+            "party": "Republican",
+            "votes": 3,
+            "counties": [
+              "Will"
+            ],
+            "percent": 0.0
           }
         ],
-        "total_votes": 45496,
+        "total_votes": 78668,
         "race_id": "kdj_kankakee",
         "market": "KDJ",
         "label": "Regional Superintendent of Schools \u2014 Iroquois & Kankakee",
@@ -8710,10 +8880,23 @@
         "party": "Democratic",
         "counties": [
           "DeKalb",
+          "DeKalb",
+          "DeKalb",
+          "DeKalb",
+          "DeKalb",
           "Henry"
         ],
-        "num_counties": 2,
+        "num_counties": 6,
         "candidates": [
+          {
+            "name": "CARMEN R. SIRAGUSA",
+            "party": "Republican",
+            "votes": 4439,
+            "counties": [
+              "DeKalb"
+            ],
+            "percent": 61.82
+          },
           {
             "name": "KATHY MARSHALL",
             "party": "Republican",
@@ -8721,7 +8904,16 @@
             "counties": [
               "Henry"
             ],
-            "percent": 99.62
+            "percent": 36.99
+          },
+          {
+            "name": "JOHN J JONAK",
+            "party": "Republican",
+            "votes": 70,
+            "counties": [
+              "DeKalb"
+            ],
+            "percent": 0.97
           },
           {
             "name": "RYAN F. MYERS",
@@ -8730,10 +8922,28 @@
             "counties": [
               "DeKalb"
             ],
-            "percent": 0.38
+            "percent": 0.14
+          },
+          {
+            "name": "CHRISTOPHER J. TENNYSON",
+            "party": "Republican",
+            "votes": 4,
+            "counties": [
+              "DeKalb"
+            ],
+            "percent": 0.06
+          },
+          {
+            "name": "SCOTT BLOOMQUIST",
+            "party": "Republican",
+            "votes": 2,
+            "counties": [
+              "DeKalb"
+            ],
+            "percent": 0.03
           }
         ],
-        "total_votes": 2666,
+        "total_votes": 7181,
         "race_id": "svm_lee_ogle_whiteside",
         "market": "SVM",
         "label": "Regional Superintendent of Schools \u2014 Lee, Ogle & Whiteside",
@@ -8888,18 +9098,55 @@
         "party": "Democratic",
         "counties": [
           "McHenry",
+          "McHenry",
+          "McHenry",
+          "McHenry",
+          "Kane",
+          "Kane",
+          "Kane",
+          "Kane",
           "Kane"
         ],
-        "num_counties": 2,
+        "num_counties": 9,
         "candidates": [
+          {
+            "name": "John K. Jonak",
+            "party": "Republican",
+            "votes": 21078,
+            "counties": [
+              "McHenry",
+              "Kane"
+            ],
+            "percent": 59.84
+          },
+          {
+            "name": "Diana Hartmann",
+            "party": "Republican",
+            "votes": 13241,
+            "counties": [
+              "McHenry",
+              "Kane"
+            ],
+            "percent": 37.59
+          },
           {
             "name": "Michael L. Karner",
             "party": "Democratic",
-            "votes": 496,
+            "votes": 715,
             "counties": [
-              "McHenry"
+              "McHenry",
+              "Kane"
             ],
-            "percent": 93.41
+            "percent": 2.03
+          },
+          {
+            "name": "Carmen R. Siragusa",
+            "party": "Republican",
+            "votes": 152,
+            "counties": [
+              "Kane"
+            ],
+            "percent": 0.43
           },
           {
             "name": "Meghan Martin",
@@ -8908,7 +9155,7 @@
             "counties": [
               "Kane"
             ],
-            "percent": 4.71
+            "percent": 0.07
           },
           {
             "name": "Kristen Koppers",
@@ -8917,10 +9164,19 @@
             "counties": [
               "Kane"
             ],
-            "percent": 1.88
+            "percent": 0.03
+          },
+          {
+            "name": "Scott Bloomquist",
+            "party": "Republican",
+            "votes": 0,
+            "counties": [
+              "McHenry"
+            ],
+            "percent": 0.0
           }
         ],
-        "total_votes": 531,
+        "total_votes": 35221,
         "race_id": "nwh_mchenry",
         "market": "NWH",
         "label": "Regional Superintendent of Schools",
@@ -8940,9 +9196,10 @@
         "name": "FOR REGIONAL SUPERINTENDENT OF SCHOOLS  (WILL COUNTY)",
         "party": "Democratic",
         "counties": [
+          "Will",
           "Will"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": [
           {
             "name": "THERESA ROUSE",
@@ -8951,10 +9208,19 @@
             "counties": [
               "Will"
             ],
-            "percent": 100.0
+            "percent": 63.24
+          },
+          {
+            "name": "ELIZABETH CAPARELLI-RUFF",
+            "party": "Republican",
+            "votes": 24611,
+            "counties": [
+              "Will"
+            ],
+            "percent": 36.76
           }
         ],
-        "total_votes": 42336,
+        "total_votes": 66947,
         "race_id": "jhn_will",
         "market": "JHN",
         "label": "Regional Superintendent of Schools",
