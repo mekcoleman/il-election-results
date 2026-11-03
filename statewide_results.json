@@ -1,5 +1,5 @@
 {
-  "aggregated_at": "2026-11-03T12:37:31.738660",
+  "aggregated_at": "2026-11-03T14:41:14.285923",
   "num_counties": 27,
   "counties_included": [
     "Cook",
@@ -84,421 +84,149 @@
         "0": {
           "name": "JB Pritzker & Christian Mitchell",
           "party": "Non-Partisan",
-          "votes": 300222,
+          "votes": 573342,
           "counties": [
-            "Cook"
+            "Mercer",
+            "DeKalb",
+            "Henry",
+            "Carroll",
+            "McHenry",
+            "Will",
+            "Stephenson",
+            "Livingston",
+            "Boone",
+            "Bureau",
+            "Whiteside",
+            "Putnam",
+            "Cook",
+            "Ford",
+            "Lee",
+            "Tazewell",
+            "Kankakee",
+            "DuPage",
+            "Kendall",
+            "Ogle",
+            "Kane",
+            "Vermilion"
           ],
-          "percentage": 36.91
+          "percentage": 70.67
         },
         "1": {
-          "name": "JB PRITZER / CHRISTIAN MITCHELL",
-          "party": "Democratic",
-          "votes": 103849,
-          "counties": [
-            "DuPage"
-          ],
-          "percentage": 12.77
-        },
-        "2": {
-          "name": "PRITZKER / MITCHELL",
-          "party": "Democratic",
-          "votes": 52625,
-          "counties": [
-            "Will"
-          ],
-          "percentage": 6.47
-        },
-        "3": {
-          "name": "JB Pritzker\r\nChristian Mitchell",
-          "party": "Democratic",
-          "votes": 44365,
-          "counties": [
-            "Kane"
-          ],
-          "percentage": 5.45
-        },
-        "4": {
-          "name": "Ted Dabrowski & Carrie Mendoza",
-          "party": "Non-Partisan",
-          "votes": 31866,
-          "counties": [
-            "Cook"
-          ],
-          "percentage": 3.92
-        },
-        "5": {
-          "name": "BAILEY/DEL MAR",
-          "party": "Republican",
-          "votes": 27557,
-          "counties": [
-            "Mercer",
-            "Whiteside",
-            "Ogle",
-            "Vermilion",
-            "Lee",
-            "Putnam",
-            "Boone",
-            "Bureau",
-            "Carroll",
-            "Stephenson",
-            "Ford",
-            "Tazewell",
-            "Livingston"
-          ],
-          "percentage": 3.39
-        },
-        "6": {
-          "name": "(JB Pritzker /  Christian Mitchell",
-          "party": "Democratic",
-          "votes": 24271,
-          "counties": [
-            "McHenry"
-          ],
-          "percentage": 2.98
-        },
-        "7": {
-          "name": "PRITZKER/MITCHELL",
-          "party": "Democratic",
-          "votes": 22689,
-          "counties": [
-            "Mercer",
-            "Whiteside",
-            "Ogle",
-            "Vermilion",
-            "Lee",
-            "Putnam",
-            "Boone",
-            "Bureau",
-            "Carroll",
-            "Stephenson",
-            "Ford",
-            "Tazewell",
-            "Livingston"
-          ],
-          "percentage": 2.79
-        },
-        "8": {
           "name": "Darren Bailey & Aaron B. Del Mar",
           "party": "Non-Partisan",
-          "votes": 20026,
-          "counties": [
-            "Cook"
-          ],
-          "percentage": 2.46
-        },
-        "9": {
-          "name": "TED DABROWSKI / CARRIE MENDOZA",
-          "party": "Republican",
-          "votes": 18874,
-          "counties": [
-            "Kankakee",
-            "DuPage"
-          ],
-          "percentage": 2.32
-        },
-        "10": {
-          "name": "DARREN BAILEY / AARON B. DEL MAR",
-          "party": "Republican",
-          "votes": 15489,
-          "counties": [
-            "Kankakee",
-            "DuPage"
-          ],
-          "percentage": 1.9
-        },
-        "11": {
-          "name": "BAILEY / DEL MAR",
-          "party": "Republican",
-          "votes": 12866,
-          "counties": [
-            "Will"
-          ],
-          "percentage": 1.58
-        },
-        "12": {
-          "name": "JAMES MENDRICK / ROBERT RENTERIA",
-          "party": "Republican",
-          "votes": 12589,
-          "counties": [
-            "Kankakee",
-            "DuPage"
-          ],
-          "percentage": 1.55
-        },
-        "13": {
-          "name": "JB PRITZKER AND MITCHELL",
-          "party": "Democratic",
-          "votes": 11310,
-          "counties": [
-            "Kendall"
-          ],
-          "percentage": 1.39
-        },
-        "14": {
-          "name": "DABROWSKI / MENDOZA",
-          "party": "Republican",
-          "votes": 11210,
-          "counties": [
-            "Will"
-          ],
-          "percentage": 1.38
-        },
-        "15": {
-          "name": "(JB PRITZKER / (CHRISTIAN MITCHELL",
-          "party": "Democratic",
-          "votes": 8859,
-          "counties": [
-            "Henry",
-            "DeKalb"
-          ],
-          "percentage": 1.09
-        },
-        "16": {
-          "name": "DABROWSKI/MENDOZA",
-          "party": "Republican",
-          "votes": 8650,
+          "votes": 96051,
           "counties": [
             "Mercer",
-            "Whiteside",
-            "Ogle",
-            "Vermilion",
-            "Lee",
-            "Putnam",
+            "Henry",
+            "Carroll",
+            "McHenry",
+            "Will",
+            "Stephenson",
+            "Livingston",
             "Boone",
             "Bureau",
-            "Carroll",
-            "Stephenson",
+            "Whiteside",
+            "Putnam",
+            "Cook",
             "Ford",
+            "Lee",
             "Tazewell",
-            "Livingston"
+            "Kankakee",
+            "DuPage",
+            "Kendall",
+            "Ogle",
+            "Kane",
+            "Vermilion"
           ],
-          "percentage": 1.06
+          "percentage": 11.84
         },
-        "17": {
-          "name": "Darren Bailey\r\nAaron B. Del Mar",
-          "party": "Republican",
-          "votes": 8228,
-          "counties": [
-            "Kane"
-          ],
-          "percentage": 1.01
-        },
-        "18": {
-          "name": "Rick Heidner & Christina Neitzke-Troike",
+        "2": {
+          "name": "Ted Dabrowski & Carrie Mendoza",
           "party": "Non-Partisan",
-          "votes": 7916,
+          "votes": 86898,
           "counties": [
-            "Cook"
+            "Mercer",
+            "Henry",
+            "Carroll",
+            "McHenry",
+            "Will",
+            "Stephenson",
+            "Livingston",
+            "Boone",
+            "Bureau",
+            "Whiteside",
+            "Putnam",
+            "Cook",
+            "Ford",
+            "Lee",
+            "Tazewell",
+            "Kankakee",
+            "DuPage",
+            "Kendall",
+            "Ogle",
+            "Kane",
+            "Vermilion"
           ],
-          "percentage": 0.97
+          "percentage": 10.71
         },
-        "19": {
-          "name": "Ted Dabrowski\r\nCarrie Mendoza",
-          "party": "Republican",
-          "votes": 7731,
-          "counties": [
-            "Kane"
-          ],
-          "percentage": 0.95
-        },
-        "20": {
-          "name": "(Darren Bailey / Aaron B. Del Mar",
-          "party": "Republican",
-          "votes": 6021,
-          "counties": [
-            "McHenry"
-          ],
-          "percentage": 0.74
-        },
-        "21": {
-          "name": "(Ted Dabrowski / Carrie Mendoza",
-          "party": "Republican",
-          "votes": 5746,
-          "counties": [
-            "McHenry"
-          ],
-          "percentage": 0.71
-        },
-        "22": {
+        "3": {
           "name": "James Mendrick & Robert Renteria",
           "party": "Non-Partisan",
-          "votes": 5548,
+          "votes": 30741,
           "counties": [
-            "Cook"
-          ],
-          "percentage": 0.68
-        },
-        "23": {
-          "name": "RICK HEIDNER / CHRISTINA NEITZKE-TROIKE",
-          "party": "Republican",
-          "votes": 5364,
-          "counties": [
+            "Mercer",
+            "Henry",
+            "Carroll",
+            "McHenry",
+            "Will",
+            "Stephenson",
+            "Livingston",
+            "Boone",
+            "Bureau",
+            "Whiteside",
+            "Putnam",
+            "Cook",
+            "Ford",
+            "Lee",
+            "Tazewell",
             "Kankakee",
-            "DuPage"
+            "DuPage",
+            "Kendall",
+            "Ogle",
+            "Kane",
+            "Vermilion"
           ],
-          "percentage": 0.66
+          "percentage": 3.79
         },
-        "24": {
-          "name": "JB PRITZKER / CHRISTIAN MITCHELL",
-          "party": "Democratic",
-          "votes": 5152,
-          "counties": [
-            "Kankakee"
-          ],
-          "percentage": 0.63
-        },
-        "25": {
-          "name": "BAILEY AND DEL MAR",
-          "party": "Republican",
-          "votes": 4122,
-          "counties": [
-            "Kendall"
-          ],
-          "percentage": 0.51
-        },
-        "26": {
-          "name": "HEIDNER / NEITZKE-TROIKE",
-          "party": "Republican",
-          "votes": 3727,
-          "counties": [
-            "Will"
-          ],
-          "percentage": 0.46
-        },
-        "27": {
-          "name": "MENDRICK/RENTERIA",
-          "party": "Republican",
-          "votes": 3455,
+        "4": {
+          "name": "Rick Heidner & Christina Neitzke-Troike",
+          "party": "Non-Partisan",
+          "votes": 23661,
           "counties": [
             "Mercer",
-            "Whiteside",
-            "Ogle",
-            "Vermilion",
-            "Lee",
-            "Putnam",
+            "Carroll",
+            "Will",
+            "Stephenson",
+            "Livingston",
             "Boone",
             "Bureau",
-            "Carroll",
-            "Stephenson",
-            "Ford",
-            "Tazewell",
-            "Livingston"
-          ],
-          "percentage": 0.42
-        },
-        "28": {
-          "name": "MENDRICK / RENTERIA",
-          "party": "Republican",
-          "votes": 3308,
-          "counties": [
-            "Will"
-          ],
-          "percentage": 0.41
-        },
-        "29": {
-          "name": "Rick Heidner\r\nChristina Neitzke-Troike",
-          "party": "Republican",
-          "votes": 3029,
-          "counties": [
-            "Kane"
-          ],
-          "percentage": 0.37
-        },
-        "30": {
-          "name": "HEIDNER/NEITZKE-TROIKE",
-          "party": "Republican",
-          "votes": 2981,
-          "counties": [
-            "Mercer",
             "Whiteside",
-            "Ogle",
-            "Vermilion",
-            "Lee",
             "Putnam",
-            "Boone",
-            "Bureau",
-            "Carroll",
-            "Stephenson",
+            "Cook",
             "Ford",
+            "Lee",
             "Tazewell",
-            "Livingston"
+            "Kankakee",
+            "DuPage",
+            "Kendall",
+            "Ogle",
+            "Kane",
+            "Vermilion"
           ],
-          "percentage": 0.37
+          "percentage": 2.92
         },
-        "31": {
-          "name": "James Mendrick\r\nRobert Renteria",
-          "party": "Republican",
-          "votes": 2881,
-          "counties": [
-            "Kane"
-          ],
-          "percentage": 0.35
-        },
-        "32": {
-          "name": "DABROWSKI AND MENDOZA",
-          "party": "Republican",
-          "votes": 2172,
-          "counties": [
-            "Kendall"
-          ],
-          "percentage": 0.27
-        },
-        "33": {
-          "name": "(Rick Heidner / Christina Neitzke-",
-          "party": "Republican",
-          "votes": 1811,
-          "counties": [
-            "McHenry"
-          ],
-          "percentage": 0.22
-        },
-        "34": {
-          "name": "(DARREN BAILEY / (AARON B. DEL MAR",
-          "party": "Republican",
-          "votes": 1742,
-          "counties": [
-            "Henry"
-          ],
-          "percentage": 0.21
-        },
-        "35": {
-          "name": "(James Mendrick / Robert Renteria",
-          "party": "Republican",
-          "votes": 1568,
-          "counties": [
-            "McHenry"
-          ],
-          "percentage": 0.19
-        },
-        "36": {
-          "name": "MENDRICK AND RENTERIA",
-          "party": "Republican",
-          "votes": 1136,
-          "counties": [
-            "Kendall"
-          ],
-          "percentage": 0.14
-        },
-        "37": {
-          "name": "(TED DABROWSKI / (CARRIE MENDOZA",
-          "party": "Republican",
-          "votes": 649,
-          "counties": [
-            "Henry"
-          ],
-          "percentage": 0.08
-        },
-        "38": {
-          "name": "HEIDNER AND NEITZKE-TROIKE",
-          "party": "Republican",
-          "votes": 644,
-          "counties": [
-            "Kendall"
-          ],
-          "percentage": 0.08
-        },
-        "39": {
-          "name": "Joseph Severino\r\nRantch Isquith",
+        "5": {
+          "name": "Joseph Severino Rantch Isquith",
           "party": "Republican",
           "votes": 480,
           "counties": [
@@ -506,26 +234,19 @@
           ],
           "percentage": 0.06
         },
-        "40": {
-          "name": "(JAMES MENDRICK / (ROBERT RENTERIA",
+        "6": {
+          "name": "Write-In 1120",
           "party": "Republican",
-          "votes": 256,
+          "votes": 36,
           "counties": [
-            "Henry"
+            "McHenry",
+            "Henry",
+            "Kankakee"
           ],
-          "percentage": 0.03
+          "percentage": 0.0
         },
-        "41": {
-          "name": "show more / R / (RICK HEIDNER / (CHRISTINA NEITZKE-TROIKE",
-          "party": "Republican",
-          "votes": 250,
-          "counties": [
-            "Henry"
-          ],
-          "percentage": 0.03
-        },
-        "42": {
-          "name": "Rejected write-ins",
+        "7": {
+          "name": "Rejected Write-Ins",
           "party": "Republican",
           "votes": 36,
           "counties": [
@@ -533,27 +254,8 @@
           ],
           "percentage": 0.0
         },
-        "43": {
-          "name": "WRITE-IN",
-          "party": "Republican",
-          "votes": 32,
-          "counties": [
-            "Henry",
-            "McHenry"
-          ],
-          "percentage": 0.0
-        },
-        "44": {
-          "name": "WRITE-IN 1120",
-          "party": "Republican",
-          "votes": 4,
-          "counties": [
-            "Kankakee"
-          ],
-          "percentage": 0.0
-        },
-        "45": {
-          "name": "Unassigned write-ins",
+        "8": {
+          "name": "Unassigned Write-Ins",
           "party": "Republican",
           "votes": 0,
           "counties": [
@@ -564,7 +266,7 @@
       },
       "precincts_reporting": 3749,
       "total_precincts": 3749,
-      "total_votes": 813306,
+      "total_votes": 811245,
       "race_id": "governor",
       "label": "Governor / Lieutenant Governor",
       "counties_needed": [
@@ -678,7 +380,7 @@
       "num_counties": 41,
       "candidates": {
         "0": {
-          "name": "RAJA KRISHNAMOORTHI",
+          "name": "Raja Krishnamoorthi",
           "party": "Democratic",
           "votes": 109436,
           "counties": [
@@ -702,10 +404,10 @@
             "Tazewell",
             "Livingston"
           ],
-          "percentage": 24.21
+          "percentage": 24.43
         },
         "1": {
-          "name": "JULIANA STRATTON",
+          "name": "Juliana Stratton",
           "party": "Democratic",
           "votes": 108074,
           "counties": [
@@ -731,10 +433,10 @@
             "DeKalb",
             "Livingston"
           ],
-          "percentage": 23.9
+          "percentage": 24.13
         },
         "2": {
-          "name": "DON TRACY",
+          "name": "Don Tracy",
           "party": "Republican",
           "votes": 60376,
           "counties": [
@@ -759,10 +461,10 @@
             "Tazewell",
             "Livingston"
           ],
-          "percentage": 13.35
+          "percentage": 13.48
         },
         "3": {
-          "name": "JEANNIE EVANS",
+          "name": "Jeannie Evans",
           "party": "Republican",
           "votes": 45384,
           "counties": [
@@ -787,10 +489,10 @@
             "Tazewell",
             "Livingston"
           ],
-          "percentage": 10.04
+          "percentage": 10.13
         },
         "4": {
-          "name": "ROBIN KELLY",
+          "name": "Robin Kelly",
           "party": "Democratic",
           "votes": 38226,
           "counties": [
@@ -816,10 +518,10 @@
             "DeKalb",
             "Livingston"
           ],
-          "percentage": 8.45
+          "percentage": 8.53
         },
         "5": {
-          "name": "CASEY CHLEBEK",
+          "name": "Casey Chlebek",
           "party": "Republican",
           "votes": 18825,
           "counties": [
@@ -844,10 +546,10 @@
             "Tazewell",
             "Livingston"
           ],
-          "percentage": 4.16
+          "percentage": 4.2
         },
         "6": {
-          "name": "R. CARY CAPPARELLI",
+          "name": "R. Cary Capparelli",
           "party": "Republican",
           "votes": 18254,
           "counties": [
@@ -872,10 +574,10 @@
             "Tazewell",
             "Livingston"
           ],
-          "percentage": 4.04
+          "percentage": 4.07
         },
         "7": {
-          "name": "PAMELA DENISE LONG",
+          "name": "Pamela Denise Long",
           "party": "Republican",
           "votes": 16314,
           "counties": [
@@ -899,10 +601,10 @@
             "Tazewell",
             "Livingston"
           ],
-          "percentage": 3.61
+          "percentage": 3.64
         },
         "8": {
-          "name": "KEVIN RYAN",
+          "name": "Kevin Ryan",
           "party": "Democratic",
           "votes": 13819,
           "counties": [
@@ -928,10 +630,10 @@
             "DeKalb",
             "Livingston"
           ],
-          "percentage": 3.06
+          "percentage": 3.08
         },
         "9": {
-          "name": "JIMMY LEE TILLMAN, II",
+          "name": "Jimmy Lee Tillman, II",
           "party": "Republican",
           "votes": 8948,
           "counties": [
@@ -956,20 +658,10 @@
             "Tazewell",
             "Livingston"
           ],
-          "percentage": 1.98
+          "percentage": 2.0
         },
         "10": {
-          "name": "show more / D / RAJA KRISHNAMOORTHI",
-          "party": "Democratic",
-          "votes": 3829,
-          "counties": [
-            "Henry",
-            "DeKalb"
-          ],
-          "percentage": 0.85
-        },
-        "11": {
-          "name": "BRYAN MAXWELL",
+          "name": "Bryan Maxwell",
           "party": "Democratic",
           "votes": 2376,
           "counties": [
@@ -997,8 +689,8 @@
           ],
           "percentage": 0.53
         },
-        "12": {
-          "name": "AWISI A. BUSTOS",
+        "11": {
+          "name": "Awisi A. Bustos",
           "party": "Democratic",
           "votes": 1800,
           "counties": [
@@ -1026,8 +718,8 @@
           ],
           "percentage": 0.4
         },
-        "13": {
-          "name": "JONATHAN DEAN",
+        "12": {
+          "name": "Jonathan Dean",
           "party": "Democratic",
           "votes": 1677,
           "counties": [
@@ -1055,8 +747,8 @@
           ],
           "percentage": 0.37
         },
-        "14": {
-          "name": "SEAN BROWN",
+        "13": {
+          "name": "Sean Brown",
           "party": "Democratic",
           "votes": 1620,
           "counties": [
@@ -1084,8 +776,8 @@
           ],
           "percentage": 0.36
         },
-        "15": {
-          "name": "CHRISTOPHER SWANN",
+        "14": {
+          "name": "Christopher Swann",
           "party": "Democratic",
           "votes": 1562,
           "counties": [
@@ -1113,8 +805,8 @@
           ],
           "percentage": 0.35
         },
-        "16": {
-          "name": "STEVE BOTSFORD JR.",
+        "15": {
+          "name": "Steve Botsford Jr.",
           "party": "Democratic",
           "votes": 1120,
           "counties": [
@@ -1142,17 +834,8 @@
           ],
           "percentage": 0.25
         },
-        "17": {
-          "name": "show more / R / PAMELA DENISE LONG",
-          "party": "Republican",
-          "votes": 329,
-          "counties": [
-            "Henry"
-          ],
-          "percentage": 0.07
-        },
-        "18": {
-          "name": "Unassigned write-ins",
+        "16": {
+          "name": "Unassigned Write-Ins",
           "party": "Democratic",
           "votes": 53,
           "counties": [
@@ -1161,8 +844,8 @@
           ],
           "percentage": 0.01
         },
-        "19": {
-          "name": "Rejected write-ins",
+        "17": {
+          "name": "Rejected Write-Ins",
           "party": "Democratic",
           "votes": 45,
           "counties": [
@@ -1170,19 +853,20 @@
           ],
           "percentage": 0.01
         },
-        "20": {
-          "name": "WRITE-IN",
+        "18": {
+          "name": "Write-In 110",
           "party": "Democratic",
-          "votes": 31,
+          "votes": 34,
           "counties": [
-            "Henry",
             "McHenry",
-            "DeKalb"
+            "Henry",
+            "DeKalb",
+            "Kankakee"
           ],
           "percentage": 0.01
         },
-        "21": {
-          "name": "ADAM DELGADO",
+        "19": {
+          "name": "Adam Delgado",
           "party": "Democratic",
           "votes": 17,
           "counties": [
@@ -1199,20 +883,11 @@
             "Livingston"
           ],
           "percentage": 0.0
-        },
-        "22": {
-          "name": "WRITE-IN 110",
-          "party": "Democratic",
-          "votes": 3,
-          "counties": [
-            "Kankakee"
-          ],
-          "percentage": 0.0
         }
       },
       "precincts_reporting": 3757,
       "total_precincts": 3759,
-      "total_votes": 452118,
+      "total_votes": 447960,
       "race_id": "us_senate",
       "label": "U.S. Senate",
       "counties_needed": [
@@ -1387,7 +1062,18 @@
           "percentage": 27.87
         },
         "2": {
-          "name": "ANDY WILLIAMS JR",
+          "name": "Write-In 1130",
+          "party": "Republican",
+          "votes": 489,
+          "counties": [
+            "McHenry",
+            "Henry",
+            "Kankakee"
+          ],
+          "percentage": 0.06
+        },
+        "3": {
+          "name": "Andy Williams JR",
           "party": "Republican",
           "votes": 455,
           "counties": [
@@ -1406,18 +1092,8 @@
           ],
           "percentage": 0.06
         },
-        "3": {
-          "name": "WRITE-IN",
-          "party": "Republican",
-          "votes": 394,
-          "counties": [
-            "Henry",
-            "McHenry"
-          ],
-          "percentage": 0.05
-        },
         "4": {
-          "name": "Unassigned write-ins",
+          "name": "Unassigned Write-Ins",
           "party": "Republican",
           "votes": 291,
           "counties": [
@@ -1427,16 +1103,7 @@
           "percentage": 0.04
         },
         "5": {
-          "name": "WRITE-IN 1130",
-          "party": "Republican",
-          "votes": 95,
-          "counties": [
-            "Kankakee"
-          ],
-          "percentage": 0.01
-        },
-        "6": {
-          "name": "Rejected write-ins",
+          "name": "Rejected Write-Ins",
           "party": "Republican",
           "votes": 74,
           "counties": [
@@ -1589,7 +1256,7 @@
             "Tazewell",
             "Livingston"
           ],
-          "percentage": 27.54
+          "percentage": 27.64
         },
         "1": {
           "name": "Margaret Croke",
@@ -1617,7 +1284,7 @@
             "Tazewell",
             "Livingston"
           ],
-          "percentage": 25.89
+          "percentage": 25.98
         },
         "2": {
           "name": "Karina Villa",
@@ -1647,7 +1314,7 @@
             "DeKalb",
             "Livingston"
           ],
-          "percentage": 22.48
+          "percentage": 22.56
         },
         "3": {
           "name": "Holly Kim",
@@ -1677,7 +1344,7 @@
             "DeKalb",
             "Livingston"
           ],
-          "percentage": 16.7
+          "percentage": 16.76
         },
         "4": {
           "name": "Stephanie A. Kifowit",
@@ -1707,22 +1374,12 @@
             "DeKalb",
             "Livingston"
           ],
-          "percentage": 7.03
-        },
-        "5": {
-          "name": "show more / D / MARGARET CROKE",
-          "party": "Democratic",
-          "votes": 2738,
-          "counties": [
-            "Henry",
-            "DeKalb"
-          ],
-          "percentage": 0.35
+          "percentage": 7.06
         }
       },
       "precincts_reporting": 3749,
       "total_precincts": 3749,
-      "total_votes": 777711,
+      "total_votes": 774973,
       "race_id": "comptroller",
       "label": "Comptroller",
       "counties_needed": [
@@ -2036,7 +1693,7 @@
       "num_counties": 35,
       "candidates": {
         "0": {
-          "name": "MICHAEL W. FRERICHS",
+          "name": "Michael W. Frerichs",
           "party": "Democratic",
           "votes": 103372,
           "counties": [
@@ -2061,7 +1718,7 @@
           "percentage": 55.88
         },
         "1": {
-          "name": "LAUREN UNDERWOOD",
+          "name": "Lauren Underwood",
           "party": "Democratic",
           "votes": 11265,
           "counties": [
@@ -2070,7 +1727,7 @@
           "percentage": 6.09
         },
         "2": {
-          "name": "CHRISTINE BENSON",
+          "name": "Christine Benson",
           "party": "Democratic",
           "votes": 8290,
           "counties": [
@@ -2079,7 +1736,7 @@
           "percentage": 4.48
         },
         "3": {
-          "name": "JILL FERKO",
+          "name": "Jill Ferko",
           "party": "Republican",
           "votes": 7586,
           "counties": [
@@ -2088,7 +1745,7 @@
           "percentage": 4.1
         },
         "4": {
-          "name": "JAMES T. \"JIM\" MARTER",
+          "name": "James T. \"jim\" Marter",
           "party": "Republican",
           "votes": 5830,
           "counties": [
@@ -2097,7 +1754,7 @@
           "percentage": 3.15
         },
         "5": {
-          "name": "LINDA HOLMES",
+          "name": "Linda Holmes",
           "party": "Democratic",
           "votes": 5164,
           "counties": [
@@ -2106,7 +1763,7 @@
           "percentage": 2.79
         },
         "6": {
-          "name": "JED DAVIS",
+          "name": "Jed Davis",
           "party": "Republican",
           "votes": 4988,
           "counties": [
@@ -2115,7 +1772,7 @@
           "percentage": 2.7
         },
         "7": {
-          "name": "SUE REZIN",
+          "name": "Sue Rezin",
           "party": "Republican",
           "votes": 4881,
           "counties": [
@@ -2124,7 +1781,7 @@
           "percentage": 2.64
         },
         "8": {
-          "name": "HARRY BENTON",
+          "name": "Harry Benton",
           "party": "Democratic",
           "votes": 4713,
           "counties": [
@@ -2134,7 +1791,7 @@
           "percentage": 2.55
         },
         "9": {
-          "name": "CAROLINE McCREE",
+          "name": "Caroline McCree",
           "party": "Democratic",
           "votes": 4557,
           "counties": [
@@ -2143,7 +1800,7 @@
           "percentage": 2.46
         },
         "10": {
-          "name": "ERNIE R. MARCELAIN",
+          "name": "Ernie R. Marcelain",
           "party": "Democratic",
           "votes": 4542,
           "counties": [
@@ -2152,7 +1809,7 @@
           "percentage": 2.46
         },
         "11": {
-          "name": "MICHAEL CROWNER",
+          "name": "Michael Crowner",
           "party": "Democratic",
           "votes": 4265,
           "counties": [
@@ -2161,7 +1818,7 @@
           "percentage": 2.31
         },
         "12": {
-          "name": "MATT HANSON",
+          "name": "Matt Hanson",
           "party": "Democratic",
           "votes": 2756,
           "counties": [
@@ -2170,7 +1827,7 @@
           "percentage": 1.49
         },
         "13": {
-          "name": "EDGARDO \"EDDIE\" PEREZ",
+          "name": "Edgardo \"eddie\" Perez",
           "party": "Republican",
           "votes": 2192,
           "counties": [
@@ -2179,7 +1836,7 @@
           "percentage": 1.18
         },
         "14": {
-          "name": "GARY VICIAN",
+          "name": "Gary Vician",
           "party": "Republican",
           "votes": 1972,
           "counties": [
@@ -2188,7 +1845,7 @@
           "percentage": 1.07
         },
         "15": {
-          "name": "MAX SOLOMON",
+          "name": "Max Solomon",
           "party": "Republican",
           "votes": 1876,
           "counties": [
@@ -2207,7 +1864,7 @@
           "percentage": 1.01
         },
         "16": {
-          "name": "JESSE RODRIGUEZ",
+          "name": "Jesse Rodriguez",
           "party": "Republican",
           "votes": 1461,
           "counties": [
@@ -2216,7 +1873,7 @@
           "percentage": 0.79
         },
         "17": {
-          "name": "JARED PLOGER",
+          "name": "Jared Ploger",
           "party": "Democratic",
           "votes": 1240,
           "counties": [
@@ -2225,7 +1882,7 @@
           "percentage": 0.67
         },
         "18": {
-          "name": "SABA HAIDER",
+          "name": "Saba Haider",
           "party": "Democratic",
           "votes": 1230,
           "counties": [
@@ -2234,7 +1891,7 @@
           "percentage": 0.66
         },
         "19": {
-          "name": "Rejected write-ins",
+          "name": "Rejected Write-Ins",
           "party": "Republican",
           "votes": 948,
           "counties": [
@@ -2243,7 +1900,7 @@
           "percentage": 0.51
         },
         "20": {
-          "name": "BRIAN SCOPA",
+          "name": "Brian Scopa",
           "party": "Republican",
           "votes": 742,
           "counties": [
@@ -2252,7 +1909,7 @@
           "percentage": 0.4
         },
         "21": {
-          "name": "WRITE-IN 1160",
+          "name": "Write-In 1160",
           "party": "Republican",
           "votes": 669,
           "counties": [
@@ -2261,7 +1918,7 @@
           "percentage": 0.36
         },
         "22": {
-          "name": "GABBY SHANAHAN",
+          "name": "Gabby Shanahan",
           "party": "Republican",
           "votes": 410,
           "counties": [
@@ -2270,7 +1927,7 @@
           "percentage": 0.22
         },
         "23": {
-          "name": "BOB ALLEN",
+          "name": "Bob Allen",
           "party": "Non-Partisan",
           "votes": 55,
           "counties": [
@@ -2279,7 +1936,7 @@
           "percentage": 0.03
         },
         "24": {
-          "name": "Unassigned write-ins",
+          "name": "Unassigned Write-Ins",
           "party": "Republican",
           "votes": 0,
           "counties": [
@@ -2411,421 +2068,149 @@
           "0": {
             "name": "JB Pritzker & Christian Mitchell",
             "party": "Non-Partisan",
-            "votes": 300222,
+            "votes": 573342,
             "counties": [
-              "Cook"
+              "Mercer",
+              "DeKalb",
+              "Henry",
+              "Carroll",
+              "McHenry",
+              "Will",
+              "Stephenson",
+              "Livingston",
+              "Boone",
+              "Bureau",
+              "Whiteside",
+              "Putnam",
+              "Cook",
+              "Ford",
+              "Lee",
+              "Tazewell",
+              "Kankakee",
+              "DuPage",
+              "Kendall",
+              "Ogle",
+              "Kane",
+              "Vermilion"
             ],
-            "percentage": 36.91
+            "percentage": 70.67
           },
           "1": {
-            "name": "JB PRITZER / CHRISTIAN MITCHELL",
-            "party": "Democratic",
-            "votes": 103849,
-            "counties": [
-              "DuPage"
-            ],
-            "percentage": 12.77
-          },
-          "2": {
-            "name": "PRITZKER / MITCHELL",
-            "party": "Democratic",
-            "votes": 52625,
-            "counties": [
-              "Will"
-            ],
-            "percentage": 6.47
-          },
-          "3": {
-            "name": "JB Pritzker\r\nChristian Mitchell",
-            "party": "Democratic",
-            "votes": 44365,
-            "counties": [
-              "Kane"
-            ],
-            "percentage": 5.45
-          },
-          "4": {
-            "name": "Ted Dabrowski & Carrie Mendoza",
-            "party": "Non-Partisan",
-            "votes": 31866,
-            "counties": [
-              "Cook"
-            ],
-            "percentage": 3.92
-          },
-          "5": {
-            "name": "BAILEY/DEL MAR",
-            "party": "Republican",
-            "votes": 27557,
-            "counties": [
-              "Mercer",
-              "Whiteside",
-              "Ogle",
-              "Vermilion",
-              "Lee",
-              "Putnam",
-              "Boone",
-              "Bureau",
-              "Carroll",
-              "Stephenson",
-              "Ford",
-              "Tazewell",
-              "Livingston"
-            ],
-            "percentage": 3.39
-          },
-          "6": {
-            "name": "(JB Pritzker /  Christian Mitchell",
-            "party": "Democratic",
-            "votes": 24271,
-            "counties": [
-              "McHenry"
-            ],
-            "percentage": 2.98
-          },
-          "7": {
-            "name": "PRITZKER/MITCHELL",
-            "party": "Democratic",
-            "votes": 22689,
-            "counties": [
-              "Mercer",
-              "Whiteside",
-              "Ogle",
-              "Vermilion",
-              "Lee",
-              "Putnam",
-              "Boone",
-              "Bureau",
-              "Carroll",
-              "Stephenson",
-              "Ford",
-              "Tazewell",
-              "Livingston"
-            ],
-            "percentage": 2.79
-          },
-          "8": {
             "name": "Darren Bailey & Aaron B. Del Mar",
             "party": "Non-Partisan",
-            "votes": 20026,
-            "counties": [
-              "Cook"
-            ],
-            "percentage": 2.46
-          },
-          "9": {
-            "name": "TED DABROWSKI / CARRIE MENDOZA",
-            "party": "Republican",
-            "votes": 18874,
-            "counties": [
-              "Kankakee",
-              "DuPage"
-            ],
-            "percentage": 2.32
-          },
-          "10": {
-            "name": "DARREN BAILEY / AARON B. DEL MAR",
-            "party": "Republican",
-            "votes": 15489,
-            "counties": [
-              "Kankakee",
-              "DuPage"
-            ],
-            "percentage": 1.9
-          },
-          "11": {
-            "name": "BAILEY / DEL MAR",
-            "party": "Republican",
-            "votes": 12866,
-            "counties": [
-              "Will"
-            ],
-            "percentage": 1.58
-          },
-          "12": {
-            "name": "JAMES MENDRICK / ROBERT RENTERIA",
-            "party": "Republican",
-            "votes": 12589,
-            "counties": [
-              "Kankakee",
-              "DuPage"
-            ],
-            "percentage": 1.55
-          },
-          "13": {
-            "name": "JB PRITZKER AND MITCHELL",
-            "party": "Democratic",
-            "votes": 11310,
-            "counties": [
-              "Kendall"
-            ],
-            "percentage": 1.39
-          },
-          "14": {
-            "name": "DABROWSKI / MENDOZA",
-            "party": "Republican",
-            "votes": 11210,
-            "counties": [
-              "Will"
-            ],
-            "percentage": 1.38
-          },
-          "15": {
-            "name": "(JB PRITZKER / (CHRISTIAN MITCHELL",
-            "party": "Democratic",
-            "votes": 8859,
-            "counties": [
-              "Henry",
-              "DeKalb"
-            ],
-            "percentage": 1.09
-          },
-          "16": {
-            "name": "DABROWSKI/MENDOZA",
-            "party": "Republican",
-            "votes": 8650,
+            "votes": 96051,
             "counties": [
               "Mercer",
-              "Whiteside",
-              "Ogle",
-              "Vermilion",
-              "Lee",
-              "Putnam",
+              "Henry",
+              "Carroll",
+              "McHenry",
+              "Will",
+              "Stephenson",
+              "Livingston",
               "Boone",
               "Bureau",
-              "Carroll",
-              "Stephenson",
+              "Whiteside",
+              "Putnam",
+              "Cook",
               "Ford",
+              "Lee",
               "Tazewell",
-              "Livingston"
+              "Kankakee",
+              "DuPage",
+              "Kendall",
+              "Ogle",
+              "Kane",
+              "Vermilion"
             ],
-            "percentage": 1.06
+            "percentage": 11.84
           },
-          "17": {
-            "name": "Darren Bailey\r\nAaron B. Del Mar",
-            "party": "Republican",
-            "votes": 8228,
-            "counties": [
-              "Kane"
-            ],
-            "percentage": 1.01
-          },
-          "18": {
-            "name": "Rick Heidner & Christina Neitzke-Troike",
+          "2": {
+            "name": "Ted Dabrowski & Carrie Mendoza",
             "party": "Non-Partisan",
-            "votes": 7916,
+            "votes": 86898,
             "counties": [
-              "Cook"
+              "Mercer",
+              "Henry",
+              "Carroll",
+              "McHenry",
+              "Will",
+              "Stephenson",
+              "Livingston",
+              "Boone",
+              "Bureau",
+              "Whiteside",
+              "Putnam",
+              "Cook",
+              "Ford",
+              "Lee",
+              "Tazewell",
+              "Kankakee",
+              "DuPage",
+              "Kendall",
+              "Ogle",
+              "Kane",
+              "Vermilion"
             ],
-            "percentage": 0.97
+            "percentage": 10.71
           },
-          "19": {
-            "name": "Ted Dabrowski\r\nCarrie Mendoza",
-            "party": "Republican",
-            "votes": 7731,
-            "counties": [
-              "Kane"
-            ],
-            "percentage": 0.95
-          },
-          "20": {
-            "name": "(Darren Bailey / Aaron B. Del Mar",
-            "party": "Republican",
-            "votes": 6021,
-            "counties": [
-              "McHenry"
-            ],
-            "percentage": 0.74
-          },
-          "21": {
-            "name": "(Ted Dabrowski / Carrie Mendoza",
-            "party": "Republican",
-            "votes": 5746,
-            "counties": [
-              "McHenry"
-            ],
-            "percentage": 0.71
-          },
-          "22": {
+          "3": {
             "name": "James Mendrick & Robert Renteria",
             "party": "Non-Partisan",
-            "votes": 5548,
+            "votes": 30741,
             "counties": [
-              "Cook"
-            ],
-            "percentage": 0.68
-          },
-          "23": {
-            "name": "RICK HEIDNER / CHRISTINA NEITZKE-TROIKE",
-            "party": "Republican",
-            "votes": 5364,
-            "counties": [
+              "Mercer",
+              "Henry",
+              "Carroll",
+              "McHenry",
+              "Will",
+              "Stephenson",
+              "Livingston",
+              "Boone",
+              "Bureau",
+              "Whiteside",
+              "Putnam",
+              "Cook",
+              "Ford",
+              "Lee",
+              "Tazewell",
               "Kankakee",
-              "DuPage"
+              "DuPage",
+              "Kendall",
+              "Ogle",
+              "Kane",
+              "Vermilion"
             ],
-            "percentage": 0.66
+            "percentage": 3.79
           },
-          "24": {
-            "name": "JB PRITZKER / CHRISTIAN MITCHELL",
-            "party": "Democratic",
-            "votes": 5152,
-            "counties": [
-              "Kankakee"
-            ],
-            "percentage": 0.63
-          },
-          "25": {
-            "name": "BAILEY AND DEL MAR",
-            "party": "Republican",
-            "votes": 4122,
-            "counties": [
-              "Kendall"
-            ],
-            "percentage": 0.51
-          },
-          "26": {
-            "name": "HEIDNER / NEITZKE-TROIKE",
-            "party": "Republican",
-            "votes": 3727,
-            "counties": [
-              "Will"
-            ],
-            "percentage": 0.46
-          },
-          "27": {
-            "name": "MENDRICK/RENTERIA",
-            "party": "Republican",
-            "votes": 3455,
+          "4": {
+            "name": "Rick Heidner & Christina Neitzke-Troike",
+            "party": "Non-Partisan",
+            "votes": 23661,
             "counties": [
               "Mercer",
-              "Whiteside",
-              "Ogle",
-              "Vermilion",
-              "Lee",
-              "Putnam",
+              "Carroll",
+              "Will",
+              "Stephenson",
+              "Livingston",
               "Boone",
               "Bureau",
-              "Carroll",
-              "Stephenson",
-              "Ford",
-              "Tazewell",
-              "Livingston"
-            ],
-            "percentage": 0.42
-          },
-          "28": {
-            "name": "MENDRICK / RENTERIA",
-            "party": "Republican",
-            "votes": 3308,
-            "counties": [
-              "Will"
-            ],
-            "percentage": 0.41
-          },
-          "29": {
-            "name": "Rick Heidner\r\nChristina Neitzke-Troike",
-            "party": "Republican",
-            "votes": 3029,
-            "counties": [
-              "Kane"
-            ],
-            "percentage": 0.37
-          },
-          "30": {
-            "name": "HEIDNER/NEITZKE-TROIKE",
-            "party": "Republican",
-            "votes": 2981,
-            "counties": [
-              "Mercer",
               "Whiteside",
-              "Ogle",
-              "Vermilion",
-              "Lee",
               "Putnam",
-              "Boone",
-              "Bureau",
-              "Carroll",
-              "Stephenson",
+              "Cook",
               "Ford",
+              "Lee",
               "Tazewell",
-              "Livingston"
+              "Kankakee",
+              "DuPage",
+              "Kendall",
+              "Ogle",
+              "Kane",
+              "Vermilion"
             ],
-            "percentage": 0.37
+            "percentage": 2.92
           },
-          "31": {
-            "name": "James Mendrick\r\nRobert Renteria",
-            "party": "Republican",
-            "votes": 2881,
-            "counties": [
-              "Kane"
-            ],
-            "percentage": 0.35
-          },
-          "32": {
-            "name": "DABROWSKI AND MENDOZA",
-            "party": "Republican",
-            "votes": 2172,
-            "counties": [
-              "Kendall"
-            ],
-            "percentage": 0.27
-          },
-          "33": {
-            "name": "(Rick Heidner / Christina Neitzke-",
-            "party": "Republican",
-            "votes": 1811,
-            "counties": [
-              "McHenry"
-            ],
-            "percentage": 0.22
-          },
-          "34": {
-            "name": "(DARREN BAILEY / (AARON B. DEL MAR",
-            "party": "Republican",
-            "votes": 1742,
-            "counties": [
-              "Henry"
-            ],
-            "percentage": 0.21
-          },
-          "35": {
-            "name": "(James Mendrick / Robert Renteria",
-            "party": "Republican",
-            "votes": 1568,
-            "counties": [
-              "McHenry"
-            ],
-            "percentage": 0.19
-          },
-          "36": {
-            "name": "MENDRICK AND RENTERIA",
-            "party": "Republican",
-            "votes": 1136,
-            "counties": [
-              "Kendall"
-            ],
-            "percentage": 0.14
-          },
-          "37": {
-            "name": "(TED DABROWSKI / (CARRIE MENDOZA",
-            "party": "Republican",
-            "votes": 649,
-            "counties": [
-              "Henry"
-            ],
-            "percentage": 0.08
-          },
-          "38": {
-            "name": "HEIDNER AND NEITZKE-TROIKE",
-            "party": "Republican",
-            "votes": 644,
-            "counties": [
-              "Kendall"
-            ],
-            "percentage": 0.08
-          },
-          "39": {
-            "name": "Joseph Severino\r\nRantch Isquith",
+          "5": {
+            "name": "Joseph Severino Rantch Isquith",
             "party": "Republican",
             "votes": 480,
             "counties": [
@@ -2833,26 +2218,19 @@
             ],
             "percentage": 0.06
           },
-          "40": {
-            "name": "(JAMES MENDRICK / (ROBERT RENTERIA",
+          "6": {
+            "name": "Write-In 1120",
             "party": "Republican",
-            "votes": 256,
+            "votes": 36,
             "counties": [
-              "Henry"
+              "McHenry",
+              "Henry",
+              "Kankakee"
             ],
-            "percentage": 0.03
+            "percentage": 0.0
           },
-          "41": {
-            "name": "show more / R / (RICK HEIDNER / (CHRISTINA NEITZKE-TROIKE",
-            "party": "Republican",
-            "votes": 250,
-            "counties": [
-              "Henry"
-            ],
-            "percentage": 0.03
-          },
-          "42": {
-            "name": "Rejected write-ins",
+          "7": {
+            "name": "Rejected Write-Ins",
             "party": "Republican",
             "votes": 36,
             "counties": [
@@ -2860,27 +2238,8 @@
             ],
             "percentage": 0.0
           },
-          "43": {
-            "name": "WRITE-IN",
-            "party": "Republican",
-            "votes": 32,
-            "counties": [
-              "Henry",
-              "McHenry"
-            ],
-            "percentage": 0.0
-          },
-          "44": {
-            "name": "WRITE-IN 1120",
-            "party": "Republican",
-            "votes": 4,
-            "counties": [
-              "Kankakee"
-            ],
-            "percentage": 0.0
-          },
-          "45": {
-            "name": "Unassigned write-ins",
+          "8": {
+            "name": "Unassigned Write-Ins",
             "party": "Republican",
             "votes": 0,
             "counties": [
@@ -2891,7 +2250,7 @@
         },
         "precincts_reporting": 3749,
         "total_precincts": 3749,
-        "total_votes": 813306,
+        "total_votes": 811245,
         "race_id": "governor",
         "label": "Governor / Lieutenant Governor",
         "counties_needed": [
@@ -3005,7 +2364,7 @@
         "num_counties": 41,
         "candidates": {
           "0": {
-            "name": "RAJA KRISHNAMOORTHI",
+            "name": "Raja Krishnamoorthi",
             "party": "Democratic",
             "votes": 109436,
             "counties": [
@@ -3029,10 +2388,10 @@
               "Tazewell",
               "Livingston"
             ],
-            "percentage": 24.21
+            "percentage": 24.43
           },
           "1": {
-            "name": "JULIANA STRATTON",
+            "name": "Juliana Stratton",
             "party": "Democratic",
             "votes": 108074,
             "counties": [
@@ -3058,10 +2417,10 @@
               "DeKalb",
               "Livingston"
             ],
-            "percentage": 23.9
+            "percentage": 24.13
           },
           "2": {
-            "name": "DON TRACY",
+            "name": "Don Tracy",
             "party": "Republican",
             "votes": 60376,
             "counties": [
@@ -3086,10 +2445,10 @@
               "Tazewell",
               "Livingston"
             ],
-            "percentage": 13.35
+            "percentage": 13.48
           },
           "3": {
-            "name": "JEANNIE EVANS",
+            "name": "Jeannie Evans",
             "party": "Republican",
             "votes": 45384,
             "counties": [
@@ -3114,10 +2473,10 @@
               "Tazewell",
               "Livingston"
             ],
-            "percentage": 10.04
+            "percentage": 10.13
           },
           "4": {
-            "name": "ROBIN KELLY",
+            "name": "Robin Kelly",
             "party": "Democratic",
             "votes": 38226,
             "counties": [
@@ -3143,10 +2502,10 @@
               "DeKalb",
               "Livingston"
             ],
-            "percentage": 8.45
+            "percentage": 8.53
           },
           "5": {
-            "name": "CASEY CHLEBEK",
+            "name": "Casey Chlebek",
             "party": "Republican",
             "votes": 18825,
             "counties": [
@@ -3171,10 +2530,10 @@
               "Tazewell",
               "Livingston"
             ],
-            "percentage": 4.16
+            "percentage": 4.2
           },
           "6": {
-            "name": "R. CARY CAPPARELLI",
+            "name": "R. Cary Capparelli",
             "party": "Republican",
             "votes": 18254,
             "counties": [
@@ -3199,10 +2558,10 @@
               "Tazewell",
               "Livingston"
             ],
-            "percentage": 4.04
+            "percentage": 4.07
           },
           "7": {
-            "name": "PAMELA DENISE LONG",
+            "name": "Pamela Denise Long",
             "party": "Republican",
             "votes": 16314,
             "counties": [
@@ -3226,10 +2585,10 @@
               "Tazewell",
               "Livingston"
             ],
-            "percentage": 3.61
+            "percentage": 3.64
           },
           "8": {
-            "name": "KEVIN RYAN",
+            "name": "Kevin Ryan",
             "party": "Democratic",
             "votes": 13819,
             "counties": [
@@ -3255,10 +2614,10 @@
               "DeKalb",
               "Livingston"
             ],
-            "percentage": 3.06
+            "percentage": 3.08
           },
           "9": {
-            "name": "JIMMY LEE TILLMAN, II",
+            "name": "Jimmy Lee Tillman, II",
             "party": "Republican",
             "votes": 8948,
             "counties": [
@@ -3283,20 +2642,10 @@
               "Tazewell",
               "Livingston"
             ],
-            "percentage": 1.98
+            "percentage": 2.0
           },
           "10": {
-            "name": "show more / D / RAJA KRISHNAMOORTHI",
-            "party": "Democratic",
-            "votes": 3829,
-            "counties": [
-              "Henry",
-              "DeKalb"
-            ],
-            "percentage": 0.85
-          },
-          "11": {
-            "name": "BRYAN MAXWELL",
+            "name": "Bryan Maxwell",
             "party": "Democratic",
             "votes": 2376,
             "counties": [
@@ -3324,8 +2673,8 @@
             ],
             "percentage": 0.53
           },
-          "12": {
-            "name": "AWISI A. BUSTOS",
+          "11": {
+            "name": "Awisi A. Bustos",
             "party": "Democratic",
             "votes": 1800,
             "counties": [
@@ -3353,8 +2702,8 @@
             ],
             "percentage": 0.4
           },
-          "13": {
-            "name": "JONATHAN DEAN",
+          "12": {
+            "name": "Jonathan Dean",
             "party": "Democratic",
             "votes": 1677,
             "counties": [
@@ -3382,8 +2731,8 @@
             ],
             "percentage": 0.37
           },
-          "14": {
-            "name": "SEAN BROWN",
+          "13": {
+            "name": "Sean Brown",
             "party": "Democratic",
             "votes": 1620,
             "counties": [
@@ -3411,8 +2760,8 @@
             ],
             "percentage": 0.36
           },
-          "15": {
-            "name": "CHRISTOPHER SWANN",
+          "14": {
+            "name": "Christopher Swann",
             "party": "Democratic",
             "votes": 1562,
             "counties": [
@@ -3440,8 +2789,8 @@
             ],
             "percentage": 0.35
           },
-          "16": {
-            "name": "STEVE BOTSFORD JR.",
+          "15": {
+            "name": "Steve Botsford Jr.",
             "party": "Democratic",
             "votes": 1120,
             "counties": [
@@ -3469,17 +2818,8 @@
             ],
             "percentage": 0.25
           },
-          "17": {
-            "name": "show more / R / PAMELA DENISE LONG",
-            "party": "Republican",
-            "votes": 329,
-            "counties": [
-              "Henry"
-            ],
-            "percentage": 0.07
-          },
-          "18": {
-            "name": "Unassigned write-ins",
+          "16": {
+            "name": "Unassigned Write-Ins",
             "party": "Democratic",
             "votes": 53,
             "counties": [
@@ -3488,8 +2828,8 @@
             ],
             "percentage": 0.01
           },
-          "19": {
-            "name": "Rejected write-ins",
+          "17": {
+            "name": "Rejected Write-Ins",
             "party": "Democratic",
             "votes": 45,
             "counties": [
@@ -3497,19 +2837,20 @@
             ],
             "percentage": 0.01
           },
-          "20": {
-            "name": "WRITE-IN",
+          "18": {
+            "name": "Write-In 110",
             "party": "Democratic",
-            "votes": 31,
+            "votes": 34,
             "counties": [
-              "Henry",
               "McHenry",
-              "DeKalb"
+              "Henry",
+              "DeKalb",
+              "Kankakee"
             ],
             "percentage": 0.01
           },
-          "21": {
-            "name": "ADAM DELGADO",
+          "19": {
+            "name": "Adam Delgado",
             "party": "Democratic",
             "votes": 17,
             "counties": [
@@ -3526,20 +2867,11 @@
               "Livingston"
             ],
             "percentage": 0.0
-          },
-          "22": {
-            "name": "WRITE-IN 110",
-            "party": "Democratic",
-            "votes": 3,
-            "counties": [
-              "Kankakee"
-            ],
-            "percentage": 0.0
           }
         },
         "precincts_reporting": 3757,
         "total_precincts": 3759,
-        "total_votes": 452118,
+        "total_votes": 447960,
         "race_id": "us_senate",
         "label": "U.S. Senate",
         "counties_needed": [
@@ -3714,7 +3046,18 @@
             "percentage": 27.87
           },
           "2": {
-            "name": "ANDY WILLIAMS JR",
+            "name": "Write-In 1130",
+            "party": "Republican",
+            "votes": 489,
+            "counties": [
+              "McHenry",
+              "Henry",
+              "Kankakee"
+            ],
+            "percentage": 0.06
+          },
+          "3": {
+            "name": "Andy Williams JR",
             "party": "Republican",
             "votes": 455,
             "counties": [
@@ -3733,18 +3076,8 @@
             ],
             "percentage": 0.06
           },
-          "3": {
-            "name": "WRITE-IN",
-            "party": "Republican",
-            "votes": 394,
-            "counties": [
-              "Henry",
-              "McHenry"
-            ],
-            "percentage": 0.05
-          },
           "4": {
-            "name": "Unassigned write-ins",
+            "name": "Unassigned Write-Ins",
             "party": "Republican",
             "votes": 291,
             "counties": [
@@ -3754,16 +3087,7 @@
             "percentage": 0.04
           },
           "5": {
-            "name": "WRITE-IN 1130",
-            "party": "Republican",
-            "votes": 95,
-            "counties": [
-              "Kankakee"
-            ],
-            "percentage": 0.01
-          },
-          "6": {
-            "name": "Rejected write-ins",
+            "name": "Rejected Write-Ins",
             "party": "Republican",
             "votes": 74,
             "counties": [
@@ -3916,7 +3240,7 @@
               "Tazewell",
               "Livingston"
             ],
-            "percentage": 27.54
+            "percentage": 27.64
           },
           "1": {
             "name": "Margaret Croke",
@@ -3944,7 +3268,7 @@
               "Tazewell",
               "Livingston"
             ],
-            "percentage": 25.89
+            "percentage": 25.98
           },
           "2": {
             "name": "Karina Villa",
@@ -3974,7 +3298,7 @@
               "DeKalb",
               "Livingston"
             ],
-            "percentage": 22.48
+            "percentage": 22.56
           },
           "3": {
             "name": "Holly Kim",
@@ -4004,7 +3328,7 @@
               "DeKalb",
               "Livingston"
             ],
-            "percentage": 16.7
+            "percentage": 16.76
           },
           "4": {
             "name": "Stephanie A. Kifowit",
@@ -4034,22 +3358,12 @@
               "DeKalb",
               "Livingston"
             ],
-            "percentage": 7.03
-          },
-          "5": {
-            "name": "show more / D / MARGARET CROKE",
-            "party": "Democratic",
-            "votes": 2738,
-            "counties": [
-              "Henry",
-              "DeKalb"
-            ],
-            "percentage": 0.35
+            "percentage": 7.06
           }
         },
         "precincts_reporting": 3749,
         "total_precincts": 3749,
-        "total_votes": 777711,
+        "total_votes": 774973,
         "race_id": "comptroller",
         "label": "Comptroller",
         "counties_needed": [
@@ -4363,7 +3677,7 @@
         "num_counties": 35,
         "candidates": {
           "0": {
-            "name": "MICHAEL W. FRERICHS",
+            "name": "Michael W. Frerichs",
             "party": "Democratic",
             "votes": 103372,
             "counties": [
@@ -4388,7 +3702,7 @@
             "percentage": 55.88
           },
           "1": {
-            "name": "LAUREN UNDERWOOD",
+            "name": "Lauren Underwood",
             "party": "Democratic",
             "votes": 11265,
             "counties": [
@@ -4397,7 +3711,7 @@
             "percentage": 6.09
           },
           "2": {
-            "name": "CHRISTINE BENSON",
+            "name": "Christine Benson",
             "party": "Democratic",
             "votes": 8290,
             "counties": [
@@ -4406,7 +3720,7 @@
             "percentage": 4.48
           },
           "3": {
-            "name": "JILL FERKO",
+            "name": "Jill Ferko",
             "party": "Republican",
             "votes": 7586,
             "counties": [
@@ -4415,7 +3729,7 @@
             "percentage": 4.1
           },
           "4": {
-            "name": "JAMES T. \"JIM\" MARTER",
+            "name": "James T. \"jim\" Marter",
             "party": "Republican",
             "votes": 5830,
             "counties": [
@@ -4424,7 +3738,7 @@
             "percentage": 3.15
           },
           "5": {
-            "name": "LINDA HOLMES",
+            "name": "Linda Holmes",
             "party": "Democratic",
             "votes": 5164,
             "counties": [
@@ -4433,7 +3747,7 @@
             "percentage": 2.79
           },
           "6": {
-            "name": "JED DAVIS",
+            "name": "Jed Davis",
             "party": "Republican",
             "votes": 4988,
             "counties": [
@@ -4442,7 +3756,7 @@
             "percentage": 2.7
           },
           "7": {
-            "name": "SUE REZIN",
+            "name": "Sue Rezin",
             "party": "Republican",
             "votes": 4881,
             "counties": [
@@ -4451,7 +3765,7 @@
             "percentage": 2.64
           },
           "8": {
-            "name": "HARRY BENTON",
+            "name": "Harry Benton",
             "party": "Democratic",
             "votes": 4713,
             "counties": [
@@ -4461,7 +3775,7 @@
             "percentage": 2.55
           },
           "9": {
-            "name": "CAROLINE McCREE",
+            "name": "Caroline McCree",
             "party": "Democratic",
             "votes": 4557,
             "counties": [
@@ -4470,7 +3784,7 @@
             "percentage": 2.46
           },
           "10": {
-            "name": "ERNIE R. MARCELAIN",
+            "name": "Ernie R. Marcelain",
             "party": "Democratic",
             "votes": 4542,
             "counties": [
@@ -4479,7 +3793,7 @@
             "percentage": 2.46
           },
           "11": {
-            "name": "MICHAEL CROWNER",
+            "name": "Michael Crowner",
             "party": "Democratic",
             "votes": 4265,
             "counties": [
@@ -4488,7 +3802,7 @@
             "percentage": 2.31
           },
           "12": {
-            "name": "MATT HANSON",
+            "name": "Matt Hanson",
             "party": "Democratic",
             "votes": 2756,
             "counties": [
@@ -4497,7 +3811,7 @@
             "percentage": 1.49
           },
           "13": {
-            "name": "EDGARDO \"EDDIE\" PEREZ",
+            "name": "Edgardo \"eddie\" Perez",
             "party": "Republican",
             "votes": 2192,
             "counties": [
@@ -4506,7 +3820,7 @@
             "percentage": 1.18
           },
           "14": {
-            "name": "GARY VICIAN",
+            "name": "Gary Vician",
             "party": "Republican",
             "votes": 1972,
             "counties": [
@@ -4515,7 +3829,7 @@
             "percentage": 1.07
           },
           "15": {
-            "name": "MAX SOLOMON",
+            "name": "Max Solomon",
             "party": "Republican",
             "votes": 1876,
             "counties": [
@@ -4534,7 +3848,7 @@
             "percentage": 1.01
           },
           "16": {
-            "name": "JESSE RODRIGUEZ",
+            "name": "Jesse Rodriguez",
             "party": "Republican",
             "votes": 1461,
             "counties": [
@@ -4543,7 +3857,7 @@
             "percentage": 0.79
           },
           "17": {
-            "name": "JARED PLOGER",
+            "name": "Jared Ploger",
             "party": "Democratic",
             "votes": 1240,
             "counties": [
@@ -4552,7 +3866,7 @@
             "percentage": 0.67
           },
           "18": {
-            "name": "SABA HAIDER",
+            "name": "Saba Haider",
             "party": "Democratic",
             "votes": 1230,
             "counties": [
@@ -4561,7 +3875,7 @@
             "percentage": 0.66
           },
           "19": {
-            "name": "Rejected write-ins",
+            "name": "Rejected Write-Ins",
             "party": "Republican",
             "votes": 948,
             "counties": [
@@ -4570,7 +3884,7 @@
             "percentage": 0.51
           },
           "20": {
-            "name": "BRIAN SCOPA",
+            "name": "Brian Scopa",
             "party": "Republican",
             "votes": 742,
             "counties": [
@@ -4579,7 +3893,7 @@
             "percentage": 0.4
           },
           "21": {
-            "name": "WRITE-IN 1160",
+            "name": "Write-In 1160",
             "party": "Republican",
             "votes": 669,
             "counties": [
@@ -4588,7 +3902,7 @@
             "percentage": 0.36
           },
           "22": {
-            "name": "GABBY SHANAHAN",
+            "name": "Gabby Shanahan",
             "party": "Republican",
             "votes": 410,
             "counties": [
@@ -4597,7 +3911,7 @@
             "percentage": 0.22
           },
           "23": {
-            "name": "BOB ALLEN",
+            "name": "Bob Allen",
             "party": "Non-Partisan",
             "votes": 55,
             "counties": [
@@ -4606,7 +3920,7 @@
             "percentage": 0.03
           },
           "24": {
-            "name": "Unassigned write-ins",
+            "name": "Unassigned Write-Ins",
             "party": "Republican",
             "votes": 0,
             "counties": [
@@ -4704,7 +4018,7 @@
         "num_counties": 12,
         "candidates": {
           "0": {
-            "name": "LAUREN UNDERWOOD",
+            "name": "Lauren Underwood",
             "party": "Democratic",
             "votes": 27238,
             "counties": [
@@ -4742,7 +4056,7 @@
             "percentage": 9.93
           },
           "4": {
-            "name": "JAMES T. 'JIM' MARTER",
+            "name": "James T. 'jim' Marter",
             "party": "Republican",
             "votes": 8790,
             "counties": [
@@ -4771,7 +4085,7 @@
             "percentage": 5.17
           },
           "7": {
-            "name": "GARY VICIAN",
+            "name": "Gary Vician",
             "party": "Republican",
             "votes": 3151,
             "counties": [
@@ -4818,7 +4132,7 @@
             "percentage": 1.1
           },
           "12": {
-            "name": "CHARLIE KIM",
+            "name": "Charlie Kim",
             "party": "Republican",
             "votes": 261,
             "counties": [
@@ -4827,7 +4141,7 @@
             "percentage": 0.25
           },
           "13": {
-            "name": "TEDORA BROWN",
+            "name": "Tedora Brown",
             "party": "Republican",
             "votes": 166,
             "counties": [
@@ -4836,7 +4150,7 @@
             "percentage": 0.16
           },
           "14": {
-            "name": "Unassigned write-ins",
+            "name": "Unassigned Write-Ins",
             "party": "Republican",
             "votes": 52,
             "counties": [
@@ -4886,7 +4200,7 @@
             "percentage": 39.06
           },
           "1": {
-            "name": "Jesse Louis Jackson, Jr.",
+            "name": "Jesse Louis Jackson, Sr.",
             "party": "Non-Partisan",
             "votes": 17036,
             "counties": [
@@ -4936,7 +4250,7 @@
             "percentage": 2.93
           },
           "6": {
-            "name": "Patrick J. \"PJK\" Keating",
+            "name": "Patrick J. \"pjk\" Keating",
             "party": "Non-Partisan",
             "votes": 639,
             "counties": [
@@ -5223,7 +4537,7 @@
             "percentage": 20.92
           },
           "2": {
-            "name": "Joseph \"Joey\" Ruzevich",
+            "name": "Joseph \"joey\" Ruzevich",
             "party": "Non-Partisan",
             "votes": 9721,
             "counties": [
@@ -5295,7 +4609,7 @@
             "percentage": 13.16
           },
           "3": {
-            "name": "Anthony Driver, Jr.",
+            "name": "Anthony Driver, Sr.",
             "party": "Non-Partisan",
             "votes": 3382,
             "counties": [
@@ -5376,7 +4690,7 @@
             "percentage": 1.97
           },
           "12": {
-            "name": "Patricia \"P Rae\" Easley",
+            "name": "Patricia \"p Rae\" Easley",
             "party": "Non-Partisan",
             "votes": 630,
             "counties": [
@@ -5834,7 +5148,7 @@
             "percentage": 10.35
           },
           "3": {
-            "name": "CHARLIE KIM",
+            "name": "Charlie Kim",
             "party": "Republican",
             "votes": 261,
             "counties": [
@@ -5843,7 +5157,7 @@
             "percentage": 2.32
           },
           "4": {
-            "name": "TEDORA BROWN",
+            "name": "Tedora Brown",
             "party": "Republican",
             "votes": 166,
             "counties": [
@@ -5891,7 +5205,7 @@
         "num_counties": 2,
         "candidates": {
           "0": {
-            "name": "LAUREN UNDERWOOD",
+            "name": "Lauren Underwood",
             "party": "Democratic",
             "votes": 27238,
             "counties": [
@@ -5900,7 +5214,7 @@
             "percentage": 69.43
           },
           "1": {
-            "name": "JAMES T. 'JIM' MARTER",
+            "name": "James T. 'jim' Marter",
             "party": "Republican",
             "votes": 8790,
             "counties": [
@@ -5909,7 +5223,7 @@
             "percentage": 22.41
           },
           "2": {
-            "name": "GARY VICIAN",
+            "name": "Gary Vician",
             "party": "Republican",
             "votes": 3151,
             "counties": [
@@ -5918,7 +5232,7 @@
             "percentage": 8.03
           },
           "3": {
-            "name": "Unassigned write-ins",
+            "name": "Unassigned Write-Ins",
             "party": "Republican",
             "votes": 52,
             "counties": [
@@ -6001,7 +5315,7 @@
             "percentage": 11.42
           },
           "3": {
-            "name": "Elgie R. Sims, Jr.",
+            "name": "Elgie R. Sims, Sr.",
             "party": "Non-Partisan",
             "votes": 8221,
             "counties": [
@@ -6167,7 +5481,7 @@
             "percentage": 4.76
           },
           "6": {
-            "name": "Benjamin \"Ben\" McAdams",
+            "name": "Benjamin \"ben\" McAdams",
             "party": "Non-Partisan",
             "votes": 2884,
             "counties": [
@@ -6194,7 +5508,7 @@
             "percentage": 0.61
           },
           "9": {
-            "name": "Suzanne \"Suzy\" Glowiak Hilton",
+            "name": "Suzanne \"suzy\" Glowiak Hilton",
             "party": "Non-Partisan",
             "votes": 330,
             "counties": [
@@ -6245,7 +5559,7 @@
             "percentage": 2.4
           },
           "2": {
-            "name": "Suzanne \"Suzy\" Glowiak Hilton",
+            "name": "Suzanne \"suzy\" Glowiak Hilton",
             "party": "Non-Partisan",
             "votes": 330,
             "counties": [
@@ -6307,7 +5621,7 @@
             "percentage": 14.85
           },
           "3": {
-            "name": "Benjamin \"Ben\" McAdams",
+            "name": "Benjamin \"ben\" McAdams",
             "party": "Non-Partisan",
             "votes": 2884,
             "counties": [
@@ -6452,7 +5766,7 @@
             "percentage": 57.68
           },
           "1": {
-            "name": "Elgie R. Sims, Jr.",
+            "name": "Elgie R. Sims, Sr.",
             "party": "Non-Partisan",
             "votes": 8221,
             "counties": [
@@ -6783,7 +6097,7 @@
             "percentage": 98.79
           },
           "1": {
-            "name": "Unassigned write-ins",
+            "name": "Unassigned Write-Ins",
             "party": "Republican",
             "votes": 306,
             "counties": [
@@ -6822,7 +6136,7 @@
         "num_counties": 4,
         "candidates": {
           "0": {
-            "name": "Elgie R. Sims, Jr.",
+            "name": "Elgie R. Sims, Sr.",
             "party": "Non-Partisan",
             "votes": 8799,
             "counties": [
@@ -6911,7 +6225,7 @@
         "num_counties": 2,
         "candidates": {
           "0": {
-            "name": "LAURA ELLMAN",
+            "name": "Laura Ellman",
             "party": "Democratic",
             "votes": 3630,
             "counties": [
@@ -6920,7 +6234,7 @@
             "percentage": 69.21
           },
           "1": {
-            "name": "JULIE BERKOWICZ",
+            "name": "Julie Berkowicz",
             "party": "Republican",
             "votes": 1615,
             "counties": [
@@ -6954,7 +6268,7 @@
         "num_counties": 1,
         "candidates": {
           "0": {
-            "name": "Suzanne \"Suzy\" Glowiak Hilton",
+            "name": "Suzanne \"suzy\" Glowiak Hilton",
             "party": "Non-Partisan",
             "votes": 330,
             "counties": [
@@ -6989,7 +6303,7 @@
         "num_counties": 2,
         "candidates": {
           "0": {
-            "name": "Benjamin \"Ben\" McAdams",
+            "name": "Benjamin \"ben\" McAdams",
             "party": "Non-Partisan",
             "votes": 2884,
             "counties": [
@@ -7309,7 +6623,7 @@
         "num_counties": 2,
         "candidates": {
           "0": {
-            "name": "SUE REZIN",
+            "name": "Sue Rezin",
             "party": "Republican",
             "votes": 57,
             "counties": [
@@ -7318,7 +6632,7 @@
             "percentage": 57.0
           },
           "1": {
-            "name": "ERNIE R. MARCELAIN",
+            "name": "Ernie R. Marcelain",
             "party": "Democratic",
             "votes": 43,
             "counties": [
@@ -7446,7 +6760,7 @@
             "percentage": 74.13
           },
           "1": {
-            "name": "Edgardo \"Eddie\" Perez",
+            "name": "Edgardo \"eddie\" Perez",
             "party": "Republican",
             "votes": 3946,
             "counties": [
@@ -7486,7 +6800,7 @@
         "num_counties": 2,
         "candidates": {
           "0": {
-            "name": "CHRIS BALKEMA",
+            "name": "Chris Balkema",
             "party": "Republican",
             "votes": 41,
             "counties": [
@@ -7610,7 +6924,7 @@
             "percentage": 5.93
           },
           "6": {
-            "name": "Michael \"Mike\" Crawford",
+            "name": "Michael \"mike\" Crawford",
             "party": "Non-Partisan",
             "votes": 3016,
             "counties": [
@@ -7628,7 +6942,7 @@
             "percentage": 3.41
           },
           "8": {
-            "name": "James \"Jim\" Geldermann",
+            "name": "James \"jim\" Geldermann",
             "party": "Non-Partisan",
             "votes": 2454,
             "counties": [
@@ -7655,7 +6969,7 @@
             "percentage": 1.57
           },
           "11": {
-            "name": "Lindsey LaPointe",
+            "name": "Lindsey Lapointe",
             "party": "Non-Partisan",
             "votes": 214,
             "counties": [
@@ -7664,7 +6978,7 @@
             "percentage": 0.29
           },
           "12": {
-            "name": "Guadalupe \"Lupe\" Rivera",
+            "name": "Guadalupe \"lupe\" Rivera",
             "party": "Non-Partisan",
             "votes": 110,
             "counties": [
@@ -7726,7 +7040,7 @@
             "percentage": 19.42
           },
           "1": {
-            "name": "Elizabeth \"Lisa\" Hernandez",
+            "name": "Elizabeth \"lisa\" Hernandez",
             "party": "Non-Partisan",
             "votes": 9480,
             "counties": [
@@ -7744,7 +7058,7 @@
             "percentage": 15.78
           },
           "3": {
-            "name": "Robert \"Bob\" Rita",
+            "name": "Robert \"bob\" Rita",
             "party": "Non-Partisan",
             "votes": 7748,
             "counties": [
@@ -7843,7 +7157,7 @@
             "percentage": 1.8
           },
           "14": {
-            "name": "Edgar Gonzalez, Jr.",
+            "name": "Edgar Gonzalez, Sr.",
             "party": "Non-Partisan",
             "votes": 378,
             "counties": [
@@ -7888,7 +7202,7 @@
         "num_counties": 15,
         "candidates": {
           "0": {
-            "name": "William \"Will\" Davis",
+            "name": "William \"will\" Davis",
             "party": "Non-Partisan",
             "votes": 13779,
             "counties": [
@@ -7933,7 +7247,7 @@
             "percentage": 7.91
           },
           "5": {
-            "name": "Marcus C. Evans, Jr.",
+            "name": "Marcus C. Evans, Sr.",
             "party": "Non-Partisan",
             "votes": 4216,
             "counties": [
@@ -7951,7 +7265,7 @@
             "percentage": 4.14
           },
           "7": {
-            "name": "Michael \"Mike\" Crawford",
+            "name": "Michael \"mike\" Crawford",
             "party": "Non-Partisan",
             "votes": 3016,
             "counties": [
@@ -7969,7 +7283,7 @@
             "percentage": 3.5
           },
           "9": {
-            "name": "Cleopatra \"Cleo\" Cowley",
+            "name": "Cleopatra \"cleo\" Cowley",
             "party": "Non-Partisan",
             "votes": 2580,
             "counties": [
@@ -8023,7 +7337,7 @@
             "percentage": 1.4
           },
           "15": {
-            "name": "Charles (Chuck) Lay",
+            "name": "Charles (chuck) Lay",
             "party": "Non-Partisan",
             "votes": 667,
             "counties": [
@@ -8032,7 +7346,7 @@
             "percentage": 0.86
           },
           "16": {
-            "name": "Edgar Gonzalez, Jr.",
+            "name": "Edgar Gonzalez, Sr.",
             "party": "Non-Partisan",
             "votes": 378,
             "counties": [
@@ -8118,7 +7432,7 @@
             "percentage": 6.82
           },
           "5": {
-            "name": "Cleopatra \"Cleo\" Cowley",
+            "name": "Cleopatra \"cleo\" Cowley",
             "party": "Non-Partisan",
             "votes": 2580,
             "counties": [
@@ -8172,7 +7486,7 @@
             "percentage": 1.65
           },
           "11": {
-            "name": "Martha \"Marti\" Deuter",
+            "name": "Martha \"marti\" Deuter",
             "party": "Non-Partisan",
             "votes": 324,
             "counties": [
@@ -8312,7 +7626,7 @@
             "percentage": 3.48
           },
           "10": {
-            "name": "Edward \"Ed\" Lapinski",
+            "name": "Edward \"ed\" Lapinski",
             "party": "Non-Partisan",
             "votes": 2834,
             "counties": [
@@ -8393,7 +7707,7 @@
             "percentage": 1.03
           },
           "19": {
-            "name": "Charles (Chuck) Lay",
+            "name": "Charles (chuck) Lay",
             "party": "Non-Partisan",
             "votes": 667,
             "counties": [
@@ -8411,7 +7725,7 @@
             "percentage": 0.58
           },
           "21": {
-            "name": "Martha \"Marti\" Deuter",
+            "name": "Martha \"marti\" Deuter",
             "party": "Non-Partisan",
             "votes": 324,
             "counties": [
@@ -8473,7 +7787,7 @@
             "percentage": 18.83
           },
           "3": {
-            "name": "Edward \"Ed\" Lapinski",
+            "name": "Edward \"ed\" Lapinski",
             "party": "Non-Partisan",
             "votes": 2834,
             "counties": [
@@ -8541,7 +7855,7 @@
             "percentage": 21.25
           },
           "2": {
-            "name": "Emanuel \"Chris\" Welch",
+            "name": "Emanuel \"chris\" Welch",
             "party": "Non-Partisan",
             "votes": 14035,
             "counties": [
@@ -8586,7 +7900,7 @@
             "percentage": 3.61
           },
           "7": {
-            "name": "James \"Jim\" Geldermann",
+            "name": "James \"jim\" Geldermann",
             "party": "Non-Partisan",
             "votes": 2454,
             "counties": [
@@ -8686,7 +8000,7 @@
             "percentage": 15.91
           },
           "3": {
-            "name": "Robert \"Bob\" Rita",
+            "name": "Robert \"bob\" Rita",
             "party": "Non-Partisan",
             "votes": 7748,
             "counties": [
@@ -8695,7 +8009,7 @@
             "percentage": 9.56
           },
           "4": {
-            "name": "Anthony DeLuca",
+            "name": "Anthony Deluca",
             "party": "Non-Partisan",
             "votes": 5290,
             "counties": [
@@ -8865,7 +8179,7 @@
             "percentage": 4.01
           },
           "4": {
-            "name": "Lindsey LaPointe",
+            "name": "Lindsey Lapointe",
             "party": "Non-Partisan",
             "votes": 214,
             "counties": [
@@ -8968,7 +8282,7 @@
             "percentage": 88.36
           },
           "1": {
-            "name": "James \"Jim\" Geldermann",
+            "name": "James \"jim\" Geldermann",
             "party": "Non-Partisan",
             "votes": 2454,
             "counties": [
@@ -9040,7 +8354,7 @@
         "num_counties": 1,
         "candidates": {
           "0": {
-            "name": "Lindsey LaPointe",
+            "name": "Lindsey Lapointe",
             "party": "Non-Partisan",
             "votes": 214,
             "counties": [
@@ -9174,7 +8488,7 @@
         "num_counties": 1,
         "candidates": {
           "0": {
-            "name": "Edgar Gonzalez, Jr.",
+            "name": "Edgar Gonzalez, Sr.",
             "party": "Non-Partisan",
             "votes": 378,
             "counties": [
@@ -9241,7 +8555,7 @@
         "num_counties": 1,
         "candidates": {
           "0": {
-            "name": "Robert \"Bob\" Rita",
+            "name": "Robert \"bob\" Rita",
             "party": "Non-Partisan",
             "votes": 7748,
             "counties": [
@@ -9313,7 +8627,7 @@
         "num_counties": 1,
         "candidates": {
           "0": {
-            "name": "William \"Will\" Davis",
+            "name": "William \"will\" Davis",
             "party": "Non-Partisan",
             "votes": 13779,
             "counties": [
@@ -9344,7 +8658,7 @@
         "num_counties": 1,
         "candidates": {
           "0": {
-            "name": "Michael \"Mike\" Crawford",
+            "name": "Michael \"mike\" Crawford",
             "party": "Non-Partisan",
             "votes": 3016,
             "counties": [
@@ -9406,7 +8720,7 @@
         "num_counties": 1,
         "candidates": {
           "0": {
-            "name": "Marcus C. Evans, Jr.",
+            "name": "Marcus C. Evans, Sr.",
             "party": "Non-Partisan",
             "votes": 4216,
             "counties": [
@@ -9441,7 +8755,7 @@
         "num_counties": 5,
         "candidates": {
           "0": {
-            "name": "Cleopatra \"Cleo\" Cowley",
+            "name": "Cleopatra \"cleo\" Cowley",
             "party": "Non-Partisan",
             "votes": 3488,
             "counties": [
@@ -9508,7 +8822,7 @@
             "percentage": 21.63
           },
           "2": {
-            "name": "Charles (Chuck) Lay",
+            "name": "Charles (chuck) Lay",
             "party": "Non-Partisan",
             "votes": 667,
             "counties": [
@@ -9653,7 +8967,7 @@
         "num_counties": 2,
         "candidates": {
           "0": {
-            "name": "JANET YANG ROHR",
+            "name": "Janet Yang Rohr",
             "party": "Democratic",
             "votes": 3683,
             "counties": [
@@ -9662,7 +8976,7 @@
             "percentage": 70.66
           },
           "1": {
-            "name": "AJAY GUPTA",
+            "name": "Ajay Gupta",
             "party": "Republican",
             "votes": 1529,
             "counties": [
@@ -9773,7 +9087,7 @@
         "num_counties": 1,
         "candidates": {
           "0": {
-            "name": "Martha \"Marti\" Deuter",
+            "name": "Martha \"marti\" Deuter",
             "party": "Non-Partisan",
             "votes": 324,
             "counties": [
@@ -10175,7 +9489,7 @@
             "percentage": 75.25
           },
           "1": {
-            "name": "Edward \"Ed\" Lapinski",
+            "name": "Edward \"ed\" Lapinski",
             "party": "Non-Partisan",
             "votes": 2834,
             "counties": [
@@ -10410,7 +9724,7 @@
         "num_counties": 2,
         "candidates": {
           "0": {
-            "name": "DAVE VELLA",
+            "name": "Dave Vella",
             "party": "Democratic",
             "votes": 888,
             "counties": [
@@ -10419,7 +9733,7 @@
             "percentage": 51.99
           },
           "1": {
-            "name": "KATHY EASTON",
+            "name": "Kathy Easton",
             "party": "Republican",
             "votes": 820,
             "counties": [
@@ -10454,7 +9768,7 @@
         "num_counties": 2,
         "candidates": {
           "0": {
-            "name": "JOE C. SOSNOWSKI",
+            "name": "Joe C. Sosnowski",
             "party": "Republican",
             "votes": 1430,
             "counties": [
@@ -10463,7 +9777,7 @@
             "percentage": 58.06
           },
           "1": {
-            "name": "PETER JANKO",
+            "name": "Peter Janko",
             "party": "Democratic",
             "votes": 1033,
             "counties": [
@@ -10546,7 +9860,7 @@
         "num_counties": 2,
         "candidates": {
           "0": {
-            "name": "DAN SWANSON",
+            "name": "Dan Swanson",
             "party": "Republican",
             "votes": 459,
             "counties": [
@@ -10555,7 +9869,7 @@
             "percentage": 72.63
           },
           "1": {
-            "name": "KERMIT THOMAS",
+            "name": "Kermit Thomas",
             "party": "Democratic",
             "votes": 173,
             "counties": [
@@ -10564,7 +9878,7 @@
             "percentage": 27.37
           },
           "2": {
-            "name": "GEOFFEREY SCHULZ",
+            "name": "Geofferey Schulz",
             "party": "Democratic",
             "votes": 0,
             "counties": [
@@ -10611,7 +9925,7 @@
         "num_counties": 6,
         "candidates": {
           "0": {
-            "name": "RYAN SPAIN",
+            "name": "Ryan Spain",
             "party": "Republican",
             "votes": 3188,
             "counties": [
@@ -10622,7 +9936,7 @@
             "percentage": 63.85
           },
           "1": {
-            "name": "NICOLE DOPLER",
+            "name": "Nicole Dopler",
             "party": "Democratic",
             "votes": 1805,
             "counties": [
@@ -10675,7 +9989,7 @@
         "num_counties": 6,
         "candidates": {
           "0": {
-            "name": "BRADLEY J. FRITTS",
+            "name": "Bradley J. Fritts",
             "party": "Republican",
             "votes": 4559,
             "counties": [
@@ -10686,7 +10000,7 @@
             "percentage": 53.56
           },
           "1": {
-            "name": "NOLAN KEMP",
+            "name": "Nolan Kemp",
             "party": "Democratic",
             "votes": 3953,
             "counties": [
@@ -10729,7 +10043,7 @@
         "num_counties": 2,
         "candidates": {
           "0": {
-            "name": "JED DAVIS",
+            "name": "Jed Davis",
             "party": "Republican",
             "votes": 58,
             "counties": [
@@ -10738,7 +10052,7 @@
             "percentage": 58.0
           },
           "1": {
-            "name": "CAROLINE McCREE",
+            "name": "Caroline McCree",
             "party": "Democratic",
             "votes": 42,
             "counties": [
@@ -10779,7 +10093,7 @@
         "num_counties": 2,
         "candidates": {
           "0": {
-            "name": "AMY \"MURRI\" BRIEL",
+            "name": "Amy \"murri\" Briel",
             "party": "Democratic",
             "votes": 549,
             "counties": [
@@ -10788,7 +10102,7 @@
             "percentage": 59.42
           },
           "1": {
-            "name": "LIZ BISHOP",
+            "name": "Liz Bishop",
             "party": "Republican",
             "votes": 207,
             "counties": [
@@ -10797,7 +10111,7 @@
             "percentage": 22.4
           },
           "2": {
-            "name": "CRYSTAL LOUGHRAN",
+            "name": "Crystal Loughran",
             "party": "Republican",
             "votes": 168,
             "counties": [
@@ -10806,7 +10120,7 @@
             "percentage": 18.18
           },
           "3": {
-            "name": "TYLER THOMPSON",
+            "name": "Tyler Thompson",
             "party": "Democratic",
             "votes": 0,
             "counties": [
@@ -10930,7 +10244,7 @@
         "num_counties": 4,
         "candidates": {
           "0": {
-            "name": "JACKIE HAAS",
+            "name": "Jackie Haas",
             "party": "Republican",
             "votes": 3544,
             "counties": [
@@ -10940,7 +10254,7 @@
             "percentage": 62.34
           },
           "1": {
-            "name": "Candidate Removed by SBE",
+            "name": "Candidate Removed By Sbe",
             "party": "Democratic",
             "votes": 2079,
             "counties": [
@@ -10949,7 +10263,7 @@
             "percentage": 36.57
           },
           "2": {
-            "name": "WRITE-IN 270",
+            "name": "Write-In 270",
             "party": "Democratic",
             "votes": 62,
             "counties": [
@@ -10990,7 +10304,7 @@
         "num_counties": 4,
         "candidates": {
           "0": {
-            "name": "Anthony DeLuca",
+            "name": "Anthony Deluca",
             "party": "Non-Partisan",
             "votes": 8541,
             "counties": [
@@ -11180,7 +10494,7 @@
         "num_counties": 2,
         "candidates": {
           "0": {
-            "name": "DAGMARA 'DEE' AVELAR",
+            "name": "Dagmara 'dee' Avelar",
             "party": "Democratic",
             "votes": 7335,
             "counties": [
@@ -11189,7 +10503,7 @@
             "percentage": 72.05
           },
           "1": {
-            "name": "CHRIS METCALFE",
+            "name": "Chris Metcalfe",
             "party": "Republican",
             "votes": 2846,
             "counties": [
@@ -11224,7 +10538,7 @@
         "num_counties": 2,
         "candidates": {
           "0": {
-            "name": "LAWRENCE 'LARRY' M. WALSH, JR.",
+            "name": "Lawrence 'larry' M. Walsh, Jr.",
             "party": "Democratic",
             "votes": 6780,
             "counties": [
@@ -11233,7 +10547,7 @@
             "percentage": 89.54
           },
           "1": {
-            "name": "Unassigned write-ins",
+            "name": "Unassigned Write-Ins",
             "party": "Republican",
             "votes": 792,
             "counties": [
@@ -11265,7 +10579,7 @@
         "num_counties": 2,
         "candidates": {
           "0": {
-            "name": "WILLIAM E HAUTER",
+            "name": "William E Hauter",
             "party": "Republican",
             "votes": 4159,
             "counties": [
@@ -11318,7 +10632,7 @@
         "num_counties": 8,
         "candidates": {
           "0": {
-            "name": "TONY M. McCOMBIE",
+            "name": "Tony M. McCombie",
             "party": "Republican",
             "votes": 5127,
             "counties": [
@@ -11330,7 +10644,7 @@
             "percentage": 76.56
           },
           "1": {
-            "name": "VICTORIA ONORATO",
+            "name": "Victoria Onorato",
             "party": "Republican",
             "votes": 1570,
             "counties": [
@@ -11380,7 +10694,7 @@
         "num_counties": 4,
         "candidates": {
           "0": {
-            "name": "JOHN M. CABELLO",
+            "name": "John M. Cabello",
             "party": "Republican",
             "votes": 2742,
             "counties": [
@@ -11390,7 +10704,7 @@
             "percentage": 62.47
           },
           "1": {
-            "name": "JOHN PING",
+            "name": "John Ping",
             "party": "Democratic",
             "votes": 1647,
             "counties": [
@@ -11428,7 +10742,7 @@
         "num_counties": 2,
         "candidates": {
           "0": {
-            "name": "SHARON CHUNG",
+            "name": "Sharon Chung",
             "party": "Democratic",
             "votes": 893,
             "counties": [
@@ -11467,7 +10781,7 @@
         "num_counties": 2,
         "candidates": {
           "0": {
-            "name": "TRAVIS WEAVER",
+            "name": "Travis Weaver",
             "party": "Republican",
             "votes": 1943,
             "counties": [
@@ -11512,7 +10826,7 @@
         "num_counties": 4,
         "candidates": {
           "0": {
-            "name": "JOSHUA S. HIGGINS",
+            "name": "Joshua S. Higgins",
             "party": "Republican",
             "votes": 866,
             "counties": [
@@ -11522,7 +10836,7 @@
             "percentage": 55.34
           },
           "1": {
-            "name": "NORINE K. HAMMOND",
+            "name": "Norine K. Hammond",
             "party": "Republican",
             "votes": 471,
             "counties": [
@@ -11532,7 +10846,7 @@
             "percentage": 30.1
           },
           "2": {
-            "name": "BAILEY TEMPLETON",
+            "name": "Bailey Templeton",
             "party": "Republican",
             "votes": 228,
             "counties": [
@@ -11590,7 +10904,7 @@
         "num_counties": 2,
         "candidates": {
           "0": {
-            "name": "HARRY BENTON",
+            "name": "Harry Benton",
             "party": "Democratic",
             "votes": 6209,
             "counties": [
@@ -11599,7 +10913,7 @@
             "percentage": 65.14
           },
           "1": {
-            "name": "GABBY SHANAHAN",
+            "name": "Gabby Shanahan",
             "party": "Republican",
             "votes": 3323,
             "counties": [
@@ -11634,7 +10948,7 @@
         "num_counties": 2,
         "candidates": {
           "0": {
-            "name": "NATALIE A. MANLEY",
+            "name": "Natalie A. Manley",
             "party": "Democratic",
             "votes": 8341,
             "counties": [
@@ -11643,7 +10957,7 @@
             "percentage": 72.31
           },
           "1": {
-            "name": "NONA PARKER",
+            "name": "Nona Parker",
             "party": "Republican",
             "votes": 3194,
             "counties": [
@@ -11679,7 +10993,7 @@
         "num_counties": 6,
         "candidates": {
           "0": {
-            "name": "TIM RUESTMAN",
+            "name": "Tim Ruestman",
             "party": "Republican",
             "votes": 1551,
             "counties": [
@@ -11726,7 +11040,7 @@
         "num_counties": 2,
         "candidates": {
           "0": {
-            "name": "JASON R. BUNTING",
+            "name": "Jason R. Bunting",
             "party": "Republican",
             "votes": 42,
             "counties": [
@@ -11777,17 +11091,16 @@
         "num_counties": 10,
         "candidates": {
           "0": {
-            "name": "JOHN J JONAK",
+            "name": "John K Jonak",
             "party": "Republican",
-            "votes": 19914,
+            "votes": 19844,
             "counties": [
-              "DeKalb",
               "Kane"
             ],
-            "percentage": 78.53
+            "percentage": 78.25
           },
           "1": {
-            "name": "CARMEN R. SIRAGUSA",
+            "name": "Carmen R. Siragusa",
             "party": "Republican",
             "votes": 4591,
             "counties": [
@@ -11815,6 +11128,15 @@
             "percentage": 0.86
           },
           "4": {
+            "name": "John J Jonak",
+            "party": "Republican",
+            "votes": 70,
+            "counties": [
+              "DeKalb"
+            ],
+            "percentage": 0.28
+          },
+          "5": {
             "name": "Meghan Martin",
             "party": "Republican",
             "votes": 25,
@@ -11823,8 +11145,8 @@
             ],
             "percentage": 0.1
           },
-          "5": {
-            "name": "RYAN F. MYERS",
+          "6": {
+            "name": "Ryan F. Myers",
             "party": "Democratic",
             "votes": 10,
             "counties": [
@@ -11832,7 +11154,7 @@
             ],
             "percentage": 0.04
           },
-          "6": {
+          "7": {
             "name": "Kristen Koppers",
             "party": "Republican",
             "votes": 10,
@@ -11841,8 +11163,8 @@
             ],
             "percentage": 0.04
           },
-          "7": {
-            "name": "CHRISTOPHER J. TENNYSON",
+          "8": {
+            "name": "Christopher J. Tennyson",
             "party": "Republican",
             "votes": 4,
             "counties": [
@@ -11850,8 +11172,8 @@
             ],
             "percentage": 0.02
           },
-          "8": {
-            "name": "SCOTT BLOOMQUIST",
+          "9": {
+            "name": "Scott Bloomquist",
             "party": "Republican",
             "votes": 2,
             "counties": [
@@ -11900,7 +11222,7 @@
         "num_counties": 9,
         "candidates": {
           "0": {
-            "name": "REBECCA GAMBOA",
+            "name": "Rebecca Gamboa",
             "party": "Democratic",
             "votes": 95351,
             "counties": [
@@ -11910,7 +11232,7 @@
             "percentage": 46.01
           },
           "1": {
-            "name": "AMBER M. QUIRK",
+            "name": "Amber M. Quirk",
             "party": "Republican",
             "votes": 42518,
             "counties": [
@@ -11920,7 +11242,7 @@
             "percentage": 20.51
           },
           "2": {
-            "name": "THERESA ROUSE",
+            "name": "Theresa Rouse",
             "party": "Democratic",
             "votes": 42336,
             "counties": [
@@ -11929,7 +11251,7 @@
             "percentage": 20.43
           },
           "3": {
-            "name": "ELIZABETH CAPARELLI-RUFF",
+            "name": "Elizabeth Caparelli-Ruff",
             "party": "Republican",
             "votes": 24611,
             "counties": [
@@ -11938,7 +11260,7 @@
             "percentage": 11.87
           },
           "4": {
-            "name": "JOHN K. JONAK",
+            "name": "John K. Jonak",
             "party": "Republican",
             "votes": 2072,
             "counties": [
@@ -11947,7 +11269,7 @@
             "percentage": 1.0
           },
           "5": {
-            "name": "MEGHAN MARTIN",
+            "name": "Meghan Martin",
             "party": "Republican",
             "votes": 189,
             "counties": [
@@ -11956,7 +11278,7 @@
             "percentage": 0.09
           },
           "6": {
-            "name": "KRISTEN KOPPERS",
+            "name": "Kristen Koppers",
             "party": "Republican",
             "votes": 113,
             "counties": [
@@ -11974,7 +11296,7 @@
             "percentage": 0.03
           },
           "8": {
-            "name": "PATRICIA HIGH",
+            "name": "Patricia High",
             "party": "Republican",
             "votes": 3,
             "counties": [
@@ -12016,7 +11338,7 @@
         "num_counties": 7,
         "candidates": {
           "0": {
-            "name": "THERESA ROUSE",
+            "name": "Theresa Rouse",
             "party": "Democratic",
             "votes": 42336,
             "counties": [
@@ -12025,7 +11347,7 @@
             "percentage": 53.82
           },
           "1": {
-            "name": "ELIZABETH CAPARELLI-RUFF",
+            "name": "Elizabeth Caparelli-Ruff",
             "party": "Republican",
             "votes": 24611,
             "counties": [
@@ -12034,7 +11356,7 @@
             "percentage": 31.28
           },
           "2": {
-            "name": "REBECCA GAMBOA",
+            "name": "Rebecca Gamboa",
             "party": "Democratic",
             "votes": 5789,
             "counties": [
@@ -12043,17 +11365,17 @@
             "percentage": 7.36
           },
           "3": {
-            "name": "MEGHAN MARTIN",
+            "name": "Meghan Martin (i)",
             "party": "Republican",
             "votes": 2470,
             "counties": [
-              "Will",
-              "Grundy"
+              "Grundy",
+              "Will"
             ],
             "percentage": 3.14
           },
           "4": {
-            "name": "AMBER M. QUIRK",
+            "name": "Amber M. Quirk",
             "party": "Republican",
             "votes": 2467,
             "counties": [
@@ -12062,7 +11384,7 @@
             "percentage": 3.14
           },
           "5": {
-            "name": "KRISTEN KOPPERS",
+            "name": "Kristen Koppers",
             "party": "Republican",
             "votes": 992,
             "counties": [
@@ -12072,7 +11394,7 @@
             "percentage": 1.26
           },
           "6": {
-            "name": "PATRICIA HIGH",
+            "name": "Patricia High",
             "party": "Republican",
             "votes": 3,
             "counties": [
@@ -12116,7 +11438,7 @@
         "num_counties": 6,
         "candidates": {
           "0": {
-            "name": "CARMEN R. SIRAGUSA",
+            "name": "Carmen R. Siragusa",
             "party": "Republican",
             "votes": 4439,
             "counties": [
@@ -12125,7 +11447,7 @@
             "percentage": 61.82
           },
           "1": {
-            "name": "KATHY MARSHALL",
+            "name": "Kathy Marshall",
             "party": "Republican",
             "votes": 2656,
             "counties": [
@@ -12134,7 +11456,7 @@
             "percentage": 36.99
           },
           "2": {
-            "name": "JOHN J JONAK",
+            "name": "John J Jonak",
             "party": "Republican",
             "votes": 70,
             "counties": [
@@ -12143,7 +11465,7 @@
             "percentage": 0.97
           },
           "3": {
-            "name": "RYAN F. MYERS",
+            "name": "Ryan F. Myers",
             "party": "Democratic",
             "votes": 10,
             "counties": [
@@ -12152,7 +11474,7 @@
             "percentage": 0.14
           },
           "4": {
-            "name": "CHRISTOPHER J. TENNYSON",
+            "name": "Christopher J. Tennyson",
             "party": "Republican",
             "votes": 4,
             "counties": [
@@ -12161,7 +11483,7 @@
             "percentage": 0.06
           },
           "5": {
-            "name": "SCOTT BLOOMQUIST",
+            "name": "Scott Bloomquist",
             "party": "Republican",
             "votes": 2,
             "counties": [
@@ -12236,10 +11558,10 @@
             "party": "Republican",
             "votes": 7457,
             "counties": [
+              "Kane",
               "Grundy",
-              "Kendall",
               "Will",
-              "Kane"
+              "Kendall"
             ],
             "percentage": 70.68
           },
@@ -12292,15 +11614,23 @@
           "0": {
             "name": "John K Jonak",
             "party": "Republican",
-            "votes": 25289,
+            "votes": 25219,
             "counties": [
               "Kane",
               "McHenry",
-              "DeKalb",
               "DuPage",
               "Cook"
             ],
-            "percentage": 100.0
+            "percentage": 99.72
+          },
+          "1": {
+            "name": "John J Jonak",
+            "party": "Republican",
+            "votes": 70,
+            "counties": [
+              "DeKalb"
+            ],
+            "percentage": 0.28
           }
         },
         "precincts_reporting": 63,
@@ -12437,7 +11767,7 @@
         "num_counties": 2,
         "candidates": {
           "0": {
-            "name": "THERESA ROUSE",
+            "name": "Theresa Rouse",
             "party": "Democratic",
             "votes": 42336,
             "counties": [
@@ -12446,7 +11776,7 @@
             "percentage": 63.24
           },
           "1": {
-            "name": "ELIZABETH CAPARELLI-RUFF",
+            "name": "Elizabeth Caparelli-Ruff",
             "party": "Republican",
             "votes": 24611,
             "counties": [
@@ -12481,7 +11811,7 @@
         "num_counties": 1,
         "candidates": {
           "0": {
-            "name": "RYAN F. MYERS",
+            "name": "Ryan F. Myers",
             "party": "Democratic",
             "votes": 10,
             "counties": [
@@ -12563,7 +11893,7 @@
       "num_counties": 14,
       "candidates": {
         "0": {
-          "name": "MARGARET 'PEGGY' O'CONNELL",
+          "name": "Margaret 'peggy' O'connell",
           "party": "Democratic",
           "votes": 116281,
           "counties": [
@@ -12578,7 +11908,7 @@
           "percentage": 45.48
         },
         "1": {
-          "name": "JASON A. HELLAND",
+          "name": "Jason A. Helland",
           "party": "Republican",
           "votes": 50703,
           "counties": [
@@ -12593,7 +11923,7 @@
           "percentage": 19.83
         },
         "2": {
-          "name": "JOHN PAVICH",
+          "name": "John Pavich",
           "party": "Democratic",
           "votes": 50161,
           "counties": [
@@ -12608,7 +11938,7 @@
           "percentage": 19.62
         },
         "3": {
-          "name": "MARK SENAK",
+          "name": "Mark Senak",
           "party": "Republican",
           "votes": 38520,
           "counties": [
@@ -12658,7 +11988,7 @@
         "num_counties": 1,
         "candidates": {
           "0": {
-            "name": "YES",
+            "name": "Yes",
             "party": "Non-Partisan",
             "votes": 11114,
             "counties": [
@@ -12667,7 +11997,7 @@
             "percentage": 54.18
           },
           "1": {
-            "name": "NO",
+            "name": "No",
             "party": "Non-Partisan",
             "votes": 9398,
             "counties": [
@@ -12704,7 +12034,7 @@
         "num_counties": 1,
         "candidates": {
           "0": {
-            "name": "NO",
+            "name": "No",
             "party": "Non-Partisan",
             "votes": 3811,
             "counties": [
@@ -12713,7 +12043,7 @@
             "percentage": 51.3
           },
           "1": {
-            "name": "YES",
+            "name": "Yes",
             "party": "Non-Partisan",
             "votes": 3618,
             "counties": [
@@ -12796,7 +12126,7 @@
         "num_counties": 2,
         "candidates": {
           "0": {
-            "name": "YES",
+            "name": "Yes",
             "party": "Non-Partisan",
             "votes": 7,
             "counties": [
@@ -12805,7 +12135,7 @@
             "percentage": 87.5
           },
           "1": {
-            "name": "NO",
+            "name": "No",
             "party": "Non-Partisan",
             "votes": 1,
             "counties": [
@@ -12844,7 +12174,7 @@
         "num_counties": 2,
         "candidates": {
           "0": {
-            "name": "YES",
+            "name": "Yes",
             "party": "Non-Partisan",
             "votes": 588,
             "counties": [
@@ -12854,7 +12184,7 @@
             "percentage": 63.29
           },
           "1": {
-            "name": "NO",
+            "name": "No",
             "party": "Non-Partisan",
             "votes": 341,
             "counties": [
@@ -12896,7 +12226,7 @@
         "num_counties": 2,
         "candidates": {
           "0": {
-            "name": "YES",
+            "name": "Yes",
             "party": "Non-Partisan",
             "votes": 212,
             "counties": [
@@ -12906,7 +12236,7 @@
             "percentage": 75.71
           },
           "1": {
-            "name": "NO",
+            "name": "No",
             "party": "Non-Partisan",
             "votes": 68,
             "counties": [
