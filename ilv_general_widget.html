@@ -1,0 +1,1319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Illinois Valley General Election Results – November 3, 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  /* ── Reset & base ─────────────────────────────────────────── */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --accent:      #2c5f8a;
+    --accent-dark: #1a3d5c;
+    --accent-light:#e8f2fa;
+    --ink:         #1a1a2e;
+    --ink-mid:     #444;
+    --ink-light:   #777;
+    --rule:        #e0e0e0;
+    --bg:          #f9f9f9;
+    --white:       #ffffff;
+    --bar-default: #2c5f8a;
+    --bar-yes:     #27ae60;
+    --bar-no:      #e74c3c;
+    --font:        'Nunito Sans', sans-serif;
+    --radius:      6px;
+  }
+
+  body {
+    font-family: var(--font);
+    background: var(--bg);
+    color: var(--ink);
+    font-size: 15px;
+    line-height: 1.4;
+  }
+
+  /* ── Widget shell ─────────────────────────────────────────── */
+  .widget {
+    max-width: 780px;
+    margin: 0 auto;
+    background: var(--white);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+
+  /* ── Header ───────────────────────────────────────────────── */
+  .widget-header {
+    background: var(--ink);
+    color: var(--white);
+    padding: 18px 24px 14px;
+  }
+  .widget-header h1 {
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: -0.3px;
+    line-height: 1.2;
+  }
+  .widget-meta {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 6px;
+    font-size: 12px;
+    color: rgba(255,255,255,0.65);
+    flex-wrap: wrap;
+  }
+  .widget-meta .badge {
+    background: var(--accent);
+    color: var(--white);
+    padding: 2px 8px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .widget-meta .badge.live { background: #e74c3c; animation: pulse 2s infinite; }
+  @keyframes pulse {
+    0%,100% { opacity: 1; }
+    50%      { opacity: 0.6; }
+  }
+  #last-updated { font-style: italic; }
+
+  /* ── Precinct banner ──────────────────────────────────────── */
+  .precinct-bar {
+    background: var(--accent-light);
+    border-bottom: 1px solid #c2d8ea;
+    padding: 8px 24px;
+    font-size: 12px;
+    color: var(--accent-dark);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .precinct-bar .pct-track {
+    flex: 1;
+    height: 5px;
+    background: #c2d8ea;
+    border-radius: 3px;
+    overflow: hidden;
+    max-width: 200px;
+  }
+  .precinct-bar .pct-fill {
+    height: 100%;
+    background: var(--accent);
+    border-radius: 3px;
+    transition: width 0.6s ease;
+  }
+
+  /* ── Sections ─────────────────────────────────────────────── */
+  .section { border-top: 3px solid var(--ink); }
+  .section + .section { border-top: 1px solid var(--rule); }
+  .section-title {
+    background: var(--ink);
+    color: var(--white);
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    padding: 6px 24px;
+  }
+
+  /* ── Race ─────────────────────────────────────────────────── */
+  .race {
+    padding: 12px 24px 14px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .race:last-child { border-bottom: none; }
+  .race-name {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--ink-mid);
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+  }
+  .race-seats {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--ink-light);
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    margin-bottom: 8px;
+  }
+  .race-note {
+    font-size: 11px;
+    color: var(--ink-light);
+    font-style: italic;
+    margin-bottom: 8px;
+  }
+
+  /* ── Candidate row ────────────────────────────────────────── */
+  .candidate {
+    display: grid;
+    grid-template-columns: minmax(0, 220px) 1fr 70px;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6px;
+  }
+  .candidate:last-child { margin-bottom: 0; }
+
+  .cand-name {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--ink);
+    line-height: 1.3;
+    align-self: center;
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+  .cand-name.leader { font-weight: 800; }
+
+  /* Party badge — small, unobtrusive */
+  .party-badge {
+    font-size: 10px;
+    font-weight: 700;
+    padding: 1px 5px;
+    border-radius: 3px;
+    letter-spacing: 0.3px;
+    flex-shrink: 0;
+    line-height: 1.5;
+  }
+  .party-badge.D  { background: #dce8f5; color: #1a5276; }
+  .party-badge.R  { background: #fde9e7; color: #922b21; }
+  .party-badge.G  { background: #e4f5e1; color: #1e6b2e; }
+  .party-badge.L  { background: #fef5e4; color: #7d6608; }
+  .party-badge.I  { background: #f0edf8; color: #5b2c6f; }
+  .party-badge.NP { background: #f0f0f0; color: #555;    }
+
+  .bar-wrap {
+    position: relative;
+    height: 24px;
+    background: #f0f0f0;
+    border-radius: 3px;
+    overflow: visible;
+  }
+  .bar-fill {
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    border-radius: 3px;
+    background: var(--bar-default);
+    transition: width 0.8s cubic-bezier(.4,0,.2,1);
+    min-width: 2px;
+    overflow: visible;
+  }
+  .bar-fill.leader-bar { filter: brightness(1.12); }
+  .bar-fill.yes { background: var(--bar-yes); }
+  .bar-fill.no  { background: var(--bar-no);  }
+
+  .bar-votes {
+    position: absolute;
+    right: 7px; top: 50%;
+    transform: translateY(-50%);
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--white);
+    white-space: nowrap;
+    z-index: 2;
+  }
+
+  .cand-pct {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--ink-mid);
+    text-align: right;
+  }
+  .cand-pct.leader-pct { color: var(--ink); }
+
+  /* ── Uncontested / pending ────────────────────────────────── */
+  .uncontested {
+    font-size: 12px;
+    font-style: italic;
+    color: var(--ink-light);
+    padding: 4px 0 2px;
+  }
+
+  /* ── Referendum ───────────────────────────────────────────── */
+  .ref-question {
+    font-size: 12px;
+    color: var(--ink-mid);
+    margin-bottom: 8px;
+    font-style: italic;
+    line-height: 1.5;
+  }
+
+  /* ── Loading / error states ───────────────────────────────── */
+  .state-msg {
+    padding: 40px 24px;
+    text-align: center;
+    color: var(--ink-light);
+    font-size: 14px;
+  }
+  .state-msg .spinner {
+    width: 28px; height: 28px;
+    border: 3px solid var(--rule);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+    margin: 0 auto 12px;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* ── Footer ───────────────────────────────────────────────── */
+  .widget-footer {
+    padding: 10px 24px;
+    font-size: 11px;
+    color: var(--ink-light);
+    border-top: 1px solid var(--rule);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .widget-footer a { color: var(--accent); text-decoration: none; }
+
+  /* ── Export bar ───────────────────────────────────────────── */
+  .export-bar {
+    padding: 8px 24px 10px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+  }
+  .export-btn {
+    background: none;
+    color: var(--ink-light);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    padding: 3px 9px;
+    font-family: var(--font);
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: color 0.15s, border-color 0.15s;
+  }
+  .export-btn:hover { color: var(--accent); border-color: var(--accent); }
+
+  /* ── Responsive ───────────────────────────────────────────── */
+  @media (max-width: 520px) {
+    .candidate { grid-template-columns: minmax(0, 150px) 1fr 52px; gap: 6px; }
+    .cand-name  { font-size: 12px; }
+    .widget-header { padding: 14px 16px; }
+    .race, .widget-footer { padding-left: 16px; padding-right: 16px; }
+    .section-title { padding-left: 16px; }
+    .precinct-bar  { padding: 7px 16px; }
+  }
+
+</style>
+</head>
+<body>
+
+<div class="widget" id="widget">
+  <div class="widget-header">
+    <h1>Illinois Valley General Election Results</h1>
+    <div class="widget-meta">
+      <span class="badge" id="status-badge">Loading…</span>
+      <span>November 3, 2026</span>
+      <span>Unofficial Results</span>
+      <span id="last-updated"></span>
+    </div>
+  </div>
+
+  
+  <div class="precinct-bar" id="precinct-bar" style="display:none">
+    <span id="precinct-text"></span>
+    <div class="pct-track"><div class="pct-fill" id="precinct-fill"></div></div>
+  </div>
+
+  <div id="results-root">
+    <div class="state-msg">
+      <div class="spinner"></div>
+      Loading results…
+    </div>
+  </div>
+
+  <div class="widget-footer">
+    <span>Source: County clerk's offices · (i) indicates incumbent</span>
+    <span>Refreshes every 60 seconds · <a href="https://www.lasallecountyil.gov/251/Election-Results" target="_blank">Official results</a></span>
+  </div>
+
+  <div class="export-bar">
+    <button class="export-btn" onclick="exportResults('txt')">⬇ Export as .txt</button>
+    <button class="export-btn" onclick="exportResults('html')">⬇ Export as .html</button>
+  </div>
+</div>
+
+<script>
+// ══════════════════════════════════════════════════════════════════════════════
+// ── Configuration ─────────────────────────────────────────────────────────────
+// ══════════════════════════════════════════════════════════════════════════════
+
+const MARKET         = 'ILV';
+const COUNTIES       = ['La Salle', 'Bureau', 'Putnam', 'Livingston'];
+const SUPT_RACE_IDS  = ['ilv_lasalle_marshall_putnam', 'ilv_bureau_henry_stark', 'ilv_dewitt_livingston'];
+const CROSS_COUNTY_REF_IDS = [];
+// Congressional district IDs (from multi_county_races.congress in statewide_meta.json)
+// Only include districts this county contributes to
+const CONGRESSIONAL_DISTRICT_IDS = ['district_14', 'district_16'];
+
+// Maps RACE_DEFINITIONS labels → aggregator keys in multi_county_races.statewide
+const STATEWIDE_RACE_LABELS = {
+  'Governor / Lieutenant Governor': 'governor',
+  'U.S. Senate':                    'us_senate',
+  'Attorney General':               'attorney_general',
+  'Comptroller':                    'comptroller',
+  'Secretary of State':             'secretary_of_state',
+  'Treasurer':                      'treasurer',
+};
+const ELECTION_DATE  = 'November 3, 2026';
+
+const DATA_URL   = 'https://mekcoleman.github.io/il-election-results/statewide_results.json';
+const REFRESH_MS = 60_000;
+
+// ══════════════════════════════════════════════════════════════════════════════
+// ── Race definitions ──────────────────────────────────────────────────────────
+// ══════════════════════════════════════════════════════════════════════════════
+
+const RACE_DEFINITIONS = [
+  // ── Statewide ──────────────────────────────────────────────────────────────
+  {
+    section: 'STATEWIDE',
+    races: [
+      { label: 'Governor / Lieutenant Governor',
+        match: /governor/i },
+      { label: 'U.S. Senate',
+        match: /u\.?s\.?\s*senate|united states senate/i },
+      { label: 'Attorney General',
+        match: /attorney general/i },
+      { label: 'Comptroller',
+        match: /comptroller/i },
+      { label: 'Secretary of State',
+        match: /secretary of state/i },
+      { label: 'Treasurer',
+        match: /\bstate treasurer\b|^treasurer$/i },
+    ]
+  },
+
+  // ── Congressional ──────────────────────────────────────────────────────────
+  {
+    section: 'CONGRESSIONAL',
+    races: [
+      { label: '14th Congressional District',
+        match: /14th congressional|congress.*district.*14\b/i,
+        note: 'Pulls votes from Bureau, DeKalb, Kane, Kendall, La Salle, Putnam and Will counties' },
+      { label: '16th Congressional District',
+        match: /16th congressional|congress.*district.*16\b/i,
+        note: 'Pulls votes from Bureau, La Salle, Livingston and 18 other counties' },
+    ]
+  },
+
+  // ── State Senate ───────────────────────────────────────────────────────────
+  {
+    section: 'STATE SENATE',
+    races: [
+      { label: 'State Senate District 38',
+        match: /senate.*district.*38\b/i,
+        note: 'Pulls votes from Bureau, DeKalb, Grundy, Kendall, La Salle and Will counties' },
+    ]
+  },
+
+  // ── State House ────────────────────────────────────────────────────────────
+  {
+    section: 'STATE HOUSE',
+    races: [
+      { label: 'State House District 73',
+        match: /house.*district.*73\b/i,
+        note: 'Pulls votes from Bureau, Henry, Lee, Marshall, Peoria, Rock Island, Stark, Whiteside and Woodford counties' },
+      { label: 'State House District 74',
+        match: /house.*district.*74\b/i,
+        note: 'Pulls votes from DeKalb, La Salle, Lee, Ogle and Whiteside counties' },
+      { label: 'State House District 75',
+        match: /house.*district.*75\b/i,
+        note: 'Pulls votes from DeKalb, Grundy, Kendall, La Salle and Will counties' },
+      { label: 'State House District 76',
+        match: /house.*district.*76\b/i,
+        note: 'Pulls votes from Bureau, DeKalb and La Salle counties' },
+    ]
+  },
+
+  // ── La Salle County ────────────────────────────────────────────────────────
+  {
+    section: 'LA SALLE COUNTY',
+    county: 'La Salle',
+    races: [
+      { label: 'La Salle County Clerk',
+        match: /county clerk/i },
+      { label: 'La Salle County Treasurer',
+        match: /county treasurer/i },
+      { label: 'La Salle County Sheriff',
+        match: /county sheriff|sheriff/i },
+      { label: 'La Salle County Board District 16',
+        match: /county board.*district\s*16\b/i },
+      { label: 'La Salle County Board District 29',
+        match: /county board.*district\s*29\b/i },
+    ]
+  },
+
+  // ── Bureau County ──────────────────────────────────────────────────────────
+  {
+    section: 'BUREAU COUNTY',
+    county: 'Bureau',
+    races: [
+      { label: 'Bureau County Clerk and Recorder',
+        match: /county clerk|clerk and recorder/i },
+      { label: 'Bureau County Treasurer',
+        match: /county treasurer/i },
+      { label: 'Bureau County Sheriff',
+        match: /county sheriff|sheriff/i },
+    ]
+  },
+
+  // ── Putnam County ──────────────────────────────────────────────────────────
+  {
+    section: 'PUTNAM COUNTY',
+    county: 'Putnam',
+    races: [
+      { label: 'Putnam County Clerk and Recorder',
+        match: /county clerk|clerk and recorder/i },
+      { label: 'Putnam County Treasurer',
+        match: /county treasurer/i },
+      { label: 'Putnam County Sheriff',
+        match: /county sheriff|sheriff/i },
+      { label: 'Putnam County Board',
+        seats: 3,
+        match: /county board/i },
+    ]
+  },
+
+  // ── Livingston County ──────────────────────────────────────────────────────
+  {
+    section: 'LIVINGSTON COUNTY',
+    county: 'Livingston',
+    races: [
+      { label: 'Livingston County Clerk and Recorder',
+        match: /county clerk|clerk and recorder/i },
+      { label: 'Livingston County Treasurer',
+        match: /county treasurer/i },
+      { label: 'Livingston County Sheriff',
+        match: /county sheriff|sheriff/i },
+      { label: 'Livingston County Board District 1',
+        seats: 3,
+        match: /county board.*district\s*1\b/i },
+    ]
+  },
+
+  // ── Multi-County Offices ───────────────────────────────────────────────────
+  {
+    section: 'MULTI-COUNTY OFFICES',
+    races: [
+      { label: 'Regional Superintendent – La Salle, Marshall and Putnam',
+        match: /superintendent.*la salle.*marshall|la salle.*marshall.*putnam.*superintendent/i,
+        note: 'Pulls votes from La Salle, Marshall, Putnam, DeKalb, Lee and Bureau counties' },
+      { label: 'Regional Superintendent – Bureau, Henry and Stark',
+        match: /superintendent.*bureau.*henry|bureau.*henry.*stark.*superintendent/i,
+        note: 'Pulls votes from Bureau, Henry, Stark, Lee, Whiteside, Rock Island and Marshall counties' },
+      { label: 'Regional Superintendent – DeWitt, Livingston, Logan and McLean',
+        match: /superintendent.*livingston|livingston.*superintendent/i,
+        note: 'Pulls votes from DeWitt, Livingston, Logan, McLean and other counties' },
+      { label: '3rd Appellate District',
+        match: /3rd appellate|appellate.*district.*3|third appellate/i,
+        note: 'Pulls votes from DuPage, Will, Bureau, Grundy, Iroquois, Kankakee and La Salle counties' },
+      { label: '13th Circuit – At-Large Vacancy',
+        match: /13th circuit.*at.large|13th circuit.*vacancy/i,
+        note: 'Pulls votes from Bureau, Grundy and La Salle counties' },
+    ]
+  },
+];
+
+// ══════════════════════════════════════════════════════════════════════════════
+// ── Pre-election candidate lists ──────────────────────────────────────────────
+// ══════════════════════════════════════════════════════════════════════════════
+
+const PENDING_CANDIDATES = {
+  // ── Statewide ──────────────────────────────────────────────────────────────
+  'Governor / Lieutenant Governor': {
+    candidates: [
+      { name: 'JB Pritzker / Christian Mitchell (i)', party: 'D', votes: 0 },
+      { name: 'Darren Bailey / Aaron B. Del Mar',     party: 'R', votes: 0 },
+      { name: 'Griselda Romero / Eyde Arndell',       party: 'G', votes: 0 },
+      { name: 'Collin Corbett / Carolyn Schofield',  party: 'I', votes: 0 },
+    ]
+  },
+  'U.S. Senate': {
+    candidates: [
+      { name: 'Juliana Stratton',       party: 'D',  votes: 0 },
+      { name: 'Don Tracy',              party: 'R',  votes: 0 },
+      { name: 'Tyrone F Muhammad',      party: 'I',  votes: 0 },
+      { name: 'Whitfield Harrington Jr',party: 'NP', votes: 0 },
+    ]
+  },
+  'Attorney General': {
+    candidates: [
+      { name: 'Kwame Raoul (i)',  party: 'D', votes: 0 },
+      { name: 'Robert Fioretti', party: 'R', votes: 0 },
+    ]
+  },
+  'Comptroller': {
+    candidates: [
+      { name: 'Margaret Croke',     party: 'D', votes: 0 },
+      { name: 'Bryan Drew',         party: 'R', votes: 0 },
+      { name: 'Anna Schiefelbein',  party: 'G', votes: 0 },
+    ]
+  },
+  'Secretary of State': {
+    candidates: [
+      { name: 'Alexi Giannoulias (i)', party: 'D', votes: 0 },
+      { name: 'Diane Harris',          party: 'R', votes: 0 },
+      { name: 'Jeffrey Schiefelbein',  party: 'G', votes: 0 },
+    ]
+  },
+  'Treasurer': {
+    candidates: [
+      { name: 'Michael W. Frerichs (i)', party: 'D', votes: 0 },
+      { name: 'Max Solomon',             party: 'R', votes: 0 },
+      { name: 'Timothea Papas',          party: 'G', votes: 0 },
+    ]
+  },
+
+  // ── Congressional ──────────────────────────────────────────────────────────
+  '14th Congressional District': {
+    candidates: [
+      { name: 'Lauren Underwood (i)', party: 'D', votes: 0 },
+      { name: 'James Marter',         party: 'R', votes: 0 },
+    ]
+  },
+  '16th Congressional District': {
+    candidates: [
+      { name: 'Darin LaHood (i)', party: 'R', votes: 0 },
+      { name: 'Paul Nolley',      party: 'D', votes: 0 },
+    ]
+  },
+
+  // ── State Senate ───────────────────────────────────────────────────────────
+  'State Senate District 38': {
+    candidates: [
+      { name: 'Sue Rezin (i)',      party: 'R', votes: 0 },
+      { name: 'Ernie Marcelain',    party: 'D', votes: 0 },
+    ]
+  },
+
+  // ── State House ────────────────────────────────────────────────────────────
+  'State House District 73': {
+    candidates: [
+      { name: 'Ryan Spain (i)',   party: 'R', votes: 0 },
+      { name: 'Nicole Dopler',    party: 'D', votes: 0 },
+    ]
+  },
+  'State House District 74': {
+    candidates: [
+      { name: 'Bradley Fritts (i)', party: 'R', votes: 0 },
+      { name: 'Nolan Kemp',         party: 'D', votes: 0 },
+    ]
+  },
+  'State House District 75': {
+    candidates: [
+      { name: 'Jed Davis (i)',      party: 'R', votes: 0 },
+      { name: 'Caroline McCree',    party: 'D', votes: 0 },
+    ]
+  },
+  'State House District 76': {
+    candidates: [
+      { name: 'Amy Briel (i)',  party: 'D', votes: 0 },
+      { name: 'Liz Bishop',     party: 'R', votes: 0 },
+    ]
+  },
+
+  // ── La Salle County ────────────────────────────────────────────────────────
+  'La Salle County Clerk': {
+    candidates: [
+      { name: 'Charlie E. Mitchell',  party: 'D', votes: 0 },
+      { name: 'Jennifer Ebner (i)',   party: 'R', votes: 0 },
+    ]
+  },
+  'La Salle County Treasurer': {
+    candidates: [
+      { name: 'James L. Spelich (i)', party: 'R', votes: 0 },
+    ]
+  },
+  'La Salle County Sheriff': {
+    candidates: [
+      { name: 'Adam C. Diss (i)', party: 'R', votes: 0 },
+    ]
+  },
+  'La Salle County Board District 16': {
+    candidates: [
+      { name: 'Mark William Hill',          party: 'D', votes: 0 },
+      { name: 'William "Bill" Brown (i)',   party: 'R', votes: 0 },
+    ]
+  },
+  'La Salle County Board District 29': {
+    candidates: [
+      { name: 'Morgan Phillips',   party: 'D', votes: 0 },
+      { name: 'Tina Busch (i)',    party: 'R', votes: 0 },
+    ]
+  },
+
+  // ── Bureau County ──────────────────────────────────────────────────────────
+  'Bureau County Clerk and Recorder': {
+    candidates: [
+      { name: 'Matthew S. Eggers (i)', party: 'R', votes: 0 },
+    ]
+  },
+  'Bureau County Treasurer': {
+    candidates: [
+      { name: 'Joseph R. Birkey (i)', party: 'R', votes: 0 },
+    ]
+  },
+  'Bureau County Sheriff': {
+    candidates: [
+      { name: 'Michael Wittig',  party: 'D', votes: 0 },
+      { name: 'Tom Kammerer',    party: 'R', votes: 0 },
+    ]
+  },
+
+  // ── Putnam County ──────────────────────────────────────────────────────────
+  'Putnam County Clerk and Recorder': {
+    candidates: [
+      { name: 'Tina Dolder (i)', party: 'D', votes: 0 },
+    ]
+  },
+  'Putnam County Treasurer': {
+    candidates: [
+      { name: 'Kevin E. Kunkel (i)', party: 'D', votes: 0 },
+    ]
+  },
+  'Putnam County Sheriff': {
+    candidates: [
+      { name: 'Joshua B. Boedigheimer (i)', party: 'D', votes: 0 },
+    ]
+  },
+  'Putnam County Board': {
+    candidates: [
+      { name: 'Anthony "Tony" Rue Jr. (i)', party: 'D', votes: 0 },
+      { name: 'Luke D. Holly (i)',           party: 'D', votes: 0 },
+      { name: 'Charles Lenkaitis (i)',        party: 'D', votes: 0 },
+    ]
+  },
+
+  // ── Livingston County ──────────────────────────────────────────────────────
+  'Livingston County Clerk and Recorder': {
+    candidates: [
+      { name: 'Debra "Debi" Ores', party: 'R', votes: 0 },
+    ]
+  },
+  'Livingston County Treasurer': {
+    candidates: [
+      { name: 'Mary Nicole "Nikki" Meier (i)', party: 'R', votes: 0 },
+    ]
+  },
+  'Livingston County Sheriff': {
+    candidates: [
+      { name: 'Ryan Bohm (i)', party: 'R', votes: 0 },
+    ]
+  },
+  'Livingston County Board District 1': {
+    candidates: [
+      { name: 'Mary E. Comens',             party: 'D', votes: 0 },
+      { name: 'John "Jack" L. Vietti (i)',  party: 'R', votes: 0 },
+      { name: 'Jeffrey G. Hamilton',         party: 'R', votes: 0 },
+      { name: 'William Mays (i)',            party: 'R', votes: 0 },
+    ]
+  },
+
+  // ── Multi-County Offices ───────────────────────────────────────────────────
+  'Regional Superintendent – La Salle, Marshall and Putnam': {
+    candidates: [
+      { name: 'Ryan F. Myers', party: 'D', votes: 0 },
+    ]
+  },
+  'Regional Superintendent – Bureau, Henry and Stark': {
+    candidates: [
+      { name: 'Kathy Marshall (i)', party: 'R', votes: 0 },
+    ]
+  },
+  'Regional Superintendent – DeWitt, Livingston, Logan and McLean': {
+    candidates: [
+      { name: 'Molly Allen (i)', party: 'R', votes: 0 },
+    ]
+  },
+  '3rd Appellate District': {
+    candidates: [
+      { name: "Margaret \"Peggy\" O'Connell", party: 'D', votes: 0 },
+      { name: 'Jason A. Helland',              party: 'R', votes: 0 },
+    ]
+  },
+  '13th Circuit – At-Large Vacancy': {
+    candidates: [
+      { name: 'Melissa Olivero',       party: 'D', votes: 0 },
+      { name: 'Michelle A. Vescogni',  party: 'R', votes: 0 },
+    ]
+  },
+};
+
+// ══════════════════════════════════════════════════════════════════════════════
+// ── Utility ───────────────────────────────────────────────────────────────────
+// ══════════════════════════════════════════════════════════════════════════════
+
+function fmt(n) {
+  return Number(n).toLocaleString('en-US');
+}
+
+function escHtml(str) {
+  return String(str)
+    .replace(/&/g,'&amp;')
+    .replace(/</g,'&lt;')
+    .replace(/>/g,'&gt;')
+    .replace(/"/g,'&quot;');
+}
+
+function contestName(c) {
+  return (c.contest_name || c.name || '').trim();
+}
+
+// Build name-normalization map from PENDING_CANDIDATES (flat candidates[])
+function buildPendingNameMap() {
+  const map = {};
+  const normalize = s => s
+    .replace(/\s*\(i\)\s*/gi, '')
+    .replace(/[""''"'`]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .toUpperCase();
+  for (const entry of Object.values(PENDING_CANDIDATES)) {
+    for (const cand of (entry.candidates || [])) {
+      const key = normalize(cand.name || '');
+      if (key) map[key] = cand;
+    }
+  }
+  return map;
+}
+const PENDING_NAME_MAP = buildPendingNameMap();
+
+function getCandidate(c) {
+  const normalize = s => s
+    .replace(/\s*\(i\)\s*/gi, '')
+    .replace(/[""''"'`]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .toUpperCase();
+  const key = normalize(c.name || '');
+  return PENDING_NAME_MAP[key] || c;
+}
+
+// ══════════════════════════════════════════════════════════════════════════════
+// ── Data normalization ────────────────────────────────────────────────────────
+// ══════════════════════════════════════════════════════════════════════════════
+
+// Flatten county data (any shape) into a flat array of contests.
+function flattenCountyContests(countyData) {
+  if (!countyData) return [];
+
+  // November format: flat contests array
+  if (Array.isArray(countyData.contests)) return countyData.contests;
+
+  // March-style fallbacks
+  if (countyData.by_party) {
+    return Object.values(countyData.by_party)
+      .flatMap(b => Array.isArray(b) ? b : (b.contests || []));
+  }
+  if (countyData.contests_by_party) {
+    return Object.values(countyData.contests_by_party)
+      .flatMap(b => Array.isArray(b) ? b : (b.contests || []));
+  }
+
+  return [];
+}
+
+// ══════════════════════════════════════════════════════════════════════════════
+// ── Synthetic contest builder ─────────────────────────────────────────────────
+// ══════════════════════════════════════════════════════════════════════════════
+
+// Build a flat synthetic contest from a multi-county race entry.
+function makeSyntheticContest(label, race) {
+  const candidates = Object.values(race.candidates || {}).map(c => ({
+    name:       c.name,
+    votes:      c.votes      || 0,
+    percentage: c.percentage || 0,
+    party:      c.party      || '',
+  }));
+  return {
+    contest_name:        label,
+    name:                label,
+    candidates,
+    precincts_reporting: race.precincts_reporting || 0,
+    total_precincts:     race.total_precincts     || 0,
+    _multi_county:       true,
+    _counties_found:     race.counties_found    || [],
+    _counties_missing:   race.counties_missing  || [],
+    _complete:           race.complete !== false,
+  };
+}
+
+// ══════════════════════════════════════════════════════════════════════════════
+// ── Section builder ───────────────────────────────────────────────────────────
+// ══════════════════════════════════════════════════════════════════════════════
+
+
+function buildSections(countyDataMap, suptRaces, crossCountyRefs, aggregatedRaces) {
+  // Build shared pool for sections WITHOUT a county key
+  // (statewide, congressional, state leg, multi-county offices)
+  const sharedContests = [];
+
+  // Inject superintendent races into shared pool
+  const suptLabels = {
+    'ilv_lasalle_marshall_putnam': 'Regional Superintendent – La Salle, Marshall and Putnam',
+    'ilv_bureau_henry_stark':      'Regional Superintendent – Bureau, Henry and Stark',
+    'ilv_dewitt_livingston':       'Regional Superintendent – DeWitt, Livingston, Logan and McLean',
+    'third_appellate':             '3rd Appellate District',
+  };
+  for (const [id, race] of Object.entries(suptRaces)) {
+    if (!race || !race.candidates) continue;
+    const label = suptLabels[id] || race.label || id;
+    sharedContests.push(makeSyntheticContest(label, race));
+  }
+
+  // Inject cross-county referendums into shared pool
+  for (const [, ref] of Object.entries(crossCountyRefs)) {
+    if (!ref || !ref.candidates) continue;
+    sharedContests.push(makeSyntheticContest(ref.label, ref));
+  }
+
+  // Inject aggregated statewide/congressional/senate/house races into shared pool
+  // These take priority over county-level partials via _is_aggregated flag
+  const SECTION_AGG_MAP = {
+    'STATEWIDE':     { src: (aggregatedRaces || {}).statewide    || {}, idFn: l => STATEWIDE_RACE_LABELS[l] || null },
+    'CONGRESSIONAL': { src: (aggregatedRaces || {}).congress     || {}, idFn: l => { const m = l.match(/\b(\d+)\b/); return m ? `district_${m[1]}` : null; } },
+    'STATE SENATE':  { src: (aggregatedRaces || {}).state_senate || {}, idFn: l => { const m = l.match(/\b(\d+)\b/); return m ? `district_${m[1]}` : null; } },
+    'STATE HOUSE':   { src: (aggregatedRaces || {}).state_house  || {}, idFn: l => { const m = l.match(/\b(\d+)\b/); return m ? `district_${m[1]}` : null; } },
+  };
+  for (const sectionDef of RACE_DEFINITIONS) {
+    const agg = SECTION_AGG_MAP[sectionDef.section];
+    if (!agg) continue;
+    for (const raceDef of sectionDef.races) {
+      const aggId = agg.idFn(raceDef.label);
+      if (!aggId) continue;
+      const race = agg.src[aggId];
+      if (!race?.candidates) continue;
+      const synth = makeSyntheticContest(raceDef.label, race);
+      synth._is_aggregated = true;
+      sharedContests.unshift(synth); // front of pool so it matches first
+    }
+  }
+
+  // Also dump all county contests into shared pool for statewide/congressional/state leg
+  for (const [, data] of Object.entries(countyDataMap)) {
+    if (!data) continue;
+    const flat = flattenCountyContests(data);
+    sharedContests.push(...flat);
+  }
+
+  const sections = [];
+  const usedSharedIds = new Set();
+
+  for (const sectionDef of RACE_DEFINITIONS) {
+    const renderedRaces = [];
+    const hasCcounty = Object.prototype.hasOwnProperty.call(sectionDef, 'county');
+    const county = sectionDef.county || null;
+
+    // Build the pool for this section
+    let pool;
+    if (hasCcounty && county) {
+      // County-specific section — scope to that county's flat contests only
+      pool = flattenCountyContests(countyDataMap[county] || null);
+    } else {
+      // No county key — use shared pool (deduped by contest name)
+      pool = sharedContests;
+    }
+
+    for (const raceDef of sectionDef.races) {
+      // For shared pool, avoid showing the same injected contest twice
+      const allPoolMatched = pool.filter(c => {
+        const id = contestName(c);
+        if (!hasCcounty || !county) {
+          if (usedSharedIds.has(id)) return false;
+        }
+        return raceDef.match.test(id);
+      });
+
+      // Deduplicate candidates across multiple matching contests
+      const mergedCandidates = [];
+      const seenNames = new Set();
+      let firstMatch = null;
+      for (const c of matched) {
+        if (!firstMatch) firstMatch = c;
+        if (!hasCcounty || !county) usedSharedIds.add(contestName(c));
+        for (const cand of (c.candidates || [])) {
+          const key = (cand.name || '').toUpperCase().trim();
+          if (!seenNames.has(key)) {
+            seenNames.add(key);
+            mergedCandidates.push(cand);
+          }
+        }
+      }
+
+      if (matched.length === 0) {
+        renderedRaces.push({ ...raceDef, candidates: null, precincts: null, pending: true });
+      } else {
+        renderedRaces.push({
+          ...raceDef,
+          candidates: mergedCandidates,
+          precincts: {
+            reporting: firstMatch.precincts_reporting || 0,
+            total:     firstMatch.total_precincts     || 0,
+          },
+          pending: false,
+        });
+      }
+    }
+
+    if (renderedRaces.length > 0) {
+      sections.push({ title: sectionDef.section, races: renderedRaces });
+    }
+  }
+
+  return sections;
+}
+
+// ══════════════════════════════════════════════════════════════════════════════
+// ── Rendering ─────────────────────────────────────────────────────────────────
+// ══════════════════════════════════════════════════════════════════════════════
+
+function renderPartyBadge(party) {
+  if (!party) return '';
+  const cls = ['D','R','G','L','I','NP'].includes(party) ? party : 'NP';
+  return `<span class="party-badge ${cls}">${escHtml(party)}</span>`;
+}
+
+function renderCandidateRow(cand, maxVotes, hasResults, rank, seats) {
+  const votes     = cand.votes || 0;
+  const seatCount = seats || 1;
+  const isLeader  = hasResults && votes > 0 && rank <= seatCount;
+
+  let pct = 0;
+  if (hasResults && cand._raceTotal > 0) {
+    pct = votes / cand._raceTotal * 100;
+  } else if (hasResults) {
+    pct = cand.percentage || cand.percent || 0;
+  }
+
+  const barPct    = maxVotes > 0 ? (votes / maxVotes * 100) : 0;
+  const voteLabel = hasResults ? fmt(votes) : '–';
+
+  const nameUpper = (cand.name || '').toUpperCase().trim();
+  let barClass = '';
+  if (nameUpper === 'YES') barClass = 'yes';
+  if (nameUpper === 'NO')  barClass = 'no';
+
+  const resolved    = getCandidate(cand);
+  const displayName = resolved.name || cand.name;
+  const party       = resolved.party ?? (cand.party || '');
+
+  return `
+    <div class="candidate">
+      <div class="cand-name${isLeader ? ' leader' : ''}">
+        ${escHtml(displayName)}${renderPartyBadge(party)}
+      </div>
+      <div class="bar-wrap">
+        <div class="bar-fill${barClass ? ' '+barClass : ''}${isLeader ? ' leader-bar' : ''}"
+             style="width:${barPct.toFixed(1)}%">
+          <span class="bar-votes">${voteLabel}</span>
+        </div>
+      </div>
+      <div class="cand-pct${isLeader ? ' leader-pct' : ''}">${hasResults ? pct.toFixed(1)+'%' : ''}</div>
+    </div>`;
+}
+
+function renderRace(race) {
+  const hasResults = !race.pending && race.candidates && race.candidates.length > 0;
+  let html = `<div class="race">`;
+  html += `<div class="race-name">${escHtml(race.label)}</div>`;
+  if (race.seats) html += `<div class="race-seats">Vote for ${race.seats}</div>`;
+  if (race.note)  html += `<div class="race-note">⚠ ${escHtml(race.note)}</div>`;
+
+  if (hasResults) {
+    const sorted = [...race.candidates].sort((a, b) => (b.votes || 0) - (a.votes || 0));
+    const raceTotal = sorted.reduce((sum, c) => sum + (c.votes || 0), 0);
+    const maxVotes  = sorted[0]?.votes || 0;
+    sorted.forEach(c => { c._raceTotal = raceTotal; });
+
+    const SKIP = /^(no candidate|unassigned write.?in|rejected write.?in)$/i;
+    const rows = sorted
+      .filter(c => !SKIP.test((c.name || '').trim()))
+      .map((c, i) => renderCandidateRow(c, maxVotes, true, i + 1, race.seats))
+      .join('');
+    html += rows || `<div class="uncontested">No results available.</div>`;
+  } else {
+    const pending = PENDING_CANDIDATES[race.label];
+    if (pending && pending.noCandidate) {
+      html += `<div class="uncontested">No candidates filed.</div>`;
+    } else if (pending && pending.candidates && pending.candidates.length > 0) {
+      const rows = pending.candidates.map((c, i) =>
+        renderCandidateRow(c, 0, false, i + 1, race.seats)
+      ).join('');
+      html += rows;
+    } else {
+      html += `<div class="uncontested">Results pending…</div>`;
+    }
+  }
+
+  html += `</div>`;
+  return html;
+}
+
+function renderSections(sections) {
+  return sections.map(sec => `
+    <div class="section">
+      <div class="section-title">${escHtml(sec.title)}</div>
+      ${sec.races.map(renderRace).join('')}
+    </div>`).join('');
+}
+
+// ══════════════════════════════════════════════════════════════════════════════
+// ── Precinct bar ──────────────────────────────────────────────────────────────
+// ══════════════════════════════════════════════════════════════════════════════
+
+function updatePrecinctBar(countyDataMap) {
+  let reporting = 0, total = 0;
+  for (const data of Object.values(countyDataMap)) {
+    if (!data) continue;
+    const flat = flattenCountyContests(data);
+    for (const c of flat) {
+      if ((c.total_precincts || 0) > total) {
+        total     = c.total_precincts;
+        reporting = c.precincts_reporting;
+      }
+    }
+  }
+  const bar = document.getElementById('precinct-bar');
+  if (total > 0) {
+    const pct = Math.round(reporting / total * 100);
+    document.getElementById('precinct-text').textContent =
+      `${reporting.toLocaleString()} of ${total.toLocaleString()} precincts reporting (${pct}%)`;
+    document.getElementById('precinct-fill').style.width = pct + '%';
+    bar.style.display = 'flex';
+  }
+}
+
+// ══════════════════════════════════════════════════════════════════════════════
+// ── Data fetching ─────────────────────────────────────────────────────────────
+// ══════════════════════════════════════════════════════════════════════════════
+
+async function fetchResults() {
+  try {
+    const bust = '?_=' + Date.now();
+    const resp = await fetch(DATA_URL + bust);
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    const statewide = await resp.json();
+
+    // Pull county results for each county
+    const countyData = {};
+    for (const county of COUNTIES) {
+      countyData[county] = (statewide.county_results || {})[county] || null;
+    }
+
+    // Pull superintendent races
+    const suptRaces = {};
+    const allSupt = (statewide.multi_county_races || {}).regional_superintendents || {};
+    for (const id of SUPT_RACE_IDS) {
+      if (allSupt[id]) suptRaces[id] = allSupt[id];
+    }
+
+    // Pull 3rd Appellate race
+    const appellateRace = (statewide.multi_county_races || {}).third_appellate || null;
+    if (appellateRace) suptRaces['third_appellate'] = appellateRace;
+
+    // Pull cross-county referendums
+    const crossCountyRefs = {};
+    const allRefs = (statewide.multi_county_races || {}).cross_county_referendums || {};
+    for (const id of CROSS_COUNTY_REF_IDS) {
+      if (allRefs[id]) crossCountyRefs[id] = allRefs[id];
+    }
+
+    // Pull aggregated statewide/congressional/legislative races
+    const aggregatedRaces = statewide.multi_county_races || {};
+    return { statewide, countyData, suptRaces, crossCountyRefs, aggregatedRaces };
+  } catch (err) {
+    console.warn('Fetch error:', err);
+    return null;
+  }
+}
+
+// ══════════════════════════════════════════════════════════════════════════════
+// ── Refresh loop ──────────────────────────────────────────────────────────────
+// ══════════════════════════════════════════════════════════════════════════════
+
+async function refresh() {
+  const result = await fetchResults();
+  const badge  = document.getElementById('status-badge');
+  const root   = document.getElementById('results-root');
+  const upd    = document.getElementById('last-updated');
+
+  if (!result) {
+    badge.textContent = 'Results Pending';
+    badge.className   = 'badge';
+    renderPending();
+    return;
+  }
+
+  const { statewide, countyData, suptRaces, crossCountyRefs, aggregatedRaces } = result;
+
+  const scrapedAt = statewide.aggregated_at ? new Date(statewide.aggregated_at) : null;
+  if (scrapedAt) {
+    upd.textContent = 'Updated ' + scrapedAt.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+  }
+
+  const hasVotes = Object.values(countyData).some(data => data &&
+    flattenCountyContests(data).some(c => (c.candidates || []).some(x => (x.votes || 0) > 0))
+  );
+  badge.textContent = hasVotes ? 'Live Results' : 'Results Pending';
+  badge.className   = hasVotes ? 'badge live'   : 'badge';
+
+  updatePrecinctBar(countyData);
+
+  const sections = buildSections(countyData, suptRaces, crossCountyRefs, aggregatedRaces);
+  root.innerHTML  = renderSections(sections);
+}
+
+// ══════════════════════════════════════════════════════════════════════════════
+// ── Export ────────────────────────────────────────────────────────────────────
+// ══════════════════════════════════════════════════════════════════════════════
+
+function exportResults(format) {
+  const PREAMBLE_1 = 'Voters in the Illinois Valley this week determined who will make the important decisions regarding their communities, state and country.';
+  const PREAMBLE_2 = 'Mail-in ballots have two weeks to arrive as long as they were postmarked by Election Day. Provisional ballots also can be addressed and counted during that time.';
+  const KEY_1      = '(i) indicates incumbent.';
+  const KEY_2      = '* indicates who is leading.';
+
+  function extractData() {
+    const sections = [];
+    document.querySelectorAll('.section').forEach(section => {
+      const titleEl = section.querySelector('.section-title');
+      const title   = titleEl ? titleEl.textContent.trim() : '';
+      const races   = [];
+
+      section.querySelectorAll('.race').forEach(raceEl => {
+        const raceNameEl = raceEl.querySelector('.race-name');
+        const raceNoteEl = raceEl.querySelector('.race-note');
+        const raceName   = raceNameEl ? raceNameEl.textContent.trim() : '';
+        const raceNote   = raceNoteEl ? raceNoteEl.textContent.trim() : '';
+        const candidates = [];
+
+        raceEl.querySelectorAll('.candidate').forEach(cand => {
+          const nameEl  = cand.querySelector('.cand-name');
+          const pctEl   = cand.querySelector('.cand-pct');
+          const votesEl = cand.querySelector('.bar-votes');
+          const badge   = nameEl ? nameEl.querySelector('.party-badge') : null;
+          const name    = nameEl
+            ? nameEl.textContent.replace(badge?.textContent || '', '').trim()
+            : '';
+          const party    = badge ? badge.textContent.trim() : '';
+          const pct      = pctEl   ? pctEl.textContent.trim()  : '';
+          const votes    = votesEl ? votesEl.textContent.trim() : '';
+          const isLeader = nameEl && nameEl.classList.contains('leader');
+          if (name) candidates.push({ name, party, votes, pct, isLeader });
+        });
+
+        races.push({ name: raceName, note: raceNote, candidates });
+      });
+
+      if (title) sections.push({ title, races });
+    });
+    return sections;
+  }
+
+  function formatCandLine(c, isHtml) {
+    const prefix   = c.isLeader ? '*' : ' ';
+    const partyStr = c.party    ? ` (${c.party})` : '';
+    const voteWord = c.votes === '1' ? 'vote' : 'votes';
+    const votePart = c.votes   ? `: ${c.votes} ${voteWord}` : '';
+    const pctPart  = c.pct     ? ` (${c.pct})` : '';
+    return `${prefix}${c.name}${partyStr}${votePart}${pctPart}`;
+  }
+
+  function buildTxt(sections) {
+    const lines = [];
+    lines.push(PREAMBLE_1);
+    lines.push(PREAMBLE_2);
+    lines.push(KEY_1);
+    lines.push(KEY_2);
+    lines.push('');
+    sections.forEach(sec => {
+      lines.push(sec.title.toUpperCase());
+      lines.push('');
+      sec.races.forEach(race => {
+        lines.push(race.name);
+        if (race.note) lines.push(race.note);
+        race.candidates.forEach(c => lines.push(formatCandLine(c, false)));
+        lines.push('');
+      });
+    });
+    lines.push("Source: County clerk's offices");
+    return lines.join('\n');
+  }
+
+  function buildHtml(sections) {
+    const esc = s => s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    const lines = [];
+    lines.push(`<p>${esc(PREAMBLE_1)}<br>${esc(PREAMBLE_2)}</p>`);
+    lines.push(`<p>${esc(KEY_1)}<br>${esc(KEY_2)}</p>`);
+    sections.forEach(sec => {
+      lines.push(`<p><strong>${esc(sec.title.toUpperCase())}</strong></p>`);
+      sec.races.forEach(race => {
+        lines.push(`<p><strong>${esc(race.name)}</strong>`);
+        if (race.note) lines.push(`<br><em>${esc(race.note)}</em>`);
+        lines.push('</p>');
+        lines.push('<p>');
+        race.candidates.forEach(c => {
+          lines.push(`<br>${esc(formatCandLine(c, true))}`);
+        });
+        lines.push('</p>');
+      });
+    });
+    lines.push(`<p>Source: County clerk's offices</p>`);
+    return lines.join('\n');
+  }
+
+  const sections = extractData();
+  const isHtml   = format === 'html';
+  const content  = isHtml ? buildHtml(sections) : buildTxt(sections);
+  const mimeType = isHtml ? 'text/html' : 'text/plain';
+  const filename = isHtml
+    ? 'ilv_general_results_nov2026.html'
+    : 'ilv_general_results_nov2026.txt';
+
+  const blob = new Blob([content], { type: mimeType });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href     = url;
+  a.download = filename;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+// ══════════════════════════════════════════════════════════════════════════════
+// ── Boot ──────────────────────────────────────────────────────────────────────
+// ══════════════════════════════════════════════════════════════════════════════
+
+function renderPending() {
+  const badge = document.getElementById('status-badge');
+  const root  = document.getElementById('results-root');
+  badge.textContent = 'Results Pending';
+  badge.className   = 'badge';
+  const emptyMap = {};
+  for (const c of COUNTIES) emptyMap[c] = null;
+  const sections = buildSections(emptyMap, {}, {});
+  root.innerHTML = renderSections(sections);
+}
+
+renderPending();
+refresh();
+setInterval(refresh, REFRESH_MS);
+</script>
+</body>
+</html>
