@@ -1307,7 +1307,7 @@ function renderPending() {
   badge.className   = 'badge';
   const emptyMap = {};
   for (const c of COUNTIES) emptyMap[c] = null;
-  const sections = buildSections(emptyMap, {}, {});
+  const sections = buildSections(emptyMap, {}, {}, {});
   root.innerHTML = renderSections(sections);
 }
 
