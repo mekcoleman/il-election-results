@@ -366,7 +366,7 @@
 
 const MARKET         = 'SVM';
 const COUNTIES       = ['Whiteside', 'Carroll', 'Lee', 'Ogle'];
-const SUPT_RACE_IDS  = ['svm_lee_ogle_whiteside', 'svm_carroll_jo_daviess_stephenson'];
+const SUPT_RACE_IDS  = ['svm_lee_ogle_whiteside', 'svm_carroll_jodaviess_stephenson'];
 const CROSS_COUNTY_REF_IDS = [];
 // Congressional district IDs (from multi_county_races.congress in statewide_meta.json)
 // Only include districts this county contributes to
@@ -942,7 +942,7 @@ function buildSections(countyDataMap, suptRaces, crossCountyRefs, aggregatedRace
   // Inject superintendent races into shared pool
   const suptLabels = {
     'svm_lee_ogle_whiteside':             'Regional Superintendent – Lee, Ogle and Whiteside',
-    'svm_carroll_jo_daviess_stephenson':  'Regional Superintendent – Carroll, Jo Daviess and Stephenson',
+    'svm_carroll_jodaviess_stephenson':  'Regional Superintendent – Carroll, Jo Daviess and Stephenson',
     'third_appellate':                    '3rd Appellate District',
   };
   for (const [id, race] of Object.entries(suptRaces)) {
