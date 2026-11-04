@@ -522,18 +522,21 @@ const RACE_DEFINITIONS = [
   {
     section: 'COUNTY BOARD',
     races: [
-      { label: 'County Board District 14 – Unexpired Term',
+      { label: 'County Board District 14',
         seats: 1,
-        match: /county board.*district\s*14\b/i },
+        match: /(?:county board|members.*board).*(?:\b14th\s+district|district\s*14\b)/i },
       { label: 'County Board District 15',
         seats: 1,
-        match: /county board.*district\s*15\b/i },
+        match: /(?:county board|members.*board).*(?:\b15th\s+district|district\s*15\b)/i },
+      { label: 'County Board District 21',
+        seats: 1,
+        match: /(?:county board|members.*board).*(?:\b21st\s+district|district\s*21\b)/i },
       { label: 'County Board District 25',
         seats: 1,
-        match: /county board.*district\s*25\b/i },
+        match: /(?:county board|members.*board).*(?:\b25th\s+district|district\s*25\b)/i },
       { label: 'County Board District 28 – Unexpired Term',
         seats: 1,
-        match: /county board.*district\s*28\b/i },
+        match: /(?:county board|members.*board).*(?:\b28th\s+district|district\s*28\b)/i },
     ]
   },
   {
@@ -661,7 +664,7 @@ const PENDING_CANDIDATES = {
       { name: 'Patricia High (i)', party: 'R', votes: 0 },
     ]
   },
-  'County Board District 14 – Unexpired Term': {
+  'County Board District 14': {
     candidates: [
       { name: 'Gary Ciaccio', party: 'D', votes: 0 },
       { name: 'Kenneth Lewellen (i)', party: 'R', votes: 0 },
