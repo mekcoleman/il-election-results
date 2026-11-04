@@ -415,10 +415,10 @@ const RACE_DEFINITIONS = [
     section: 'CONGRESSIONAL',
     races: [
       { label: '14th Congressional District',
-        match: /14th congressional|congress.*district.*14\b/i,
+        match: /\b(?:14th|fourteenth)\s+congressional|congressional.*\b14th\s+district/i,
         note: 'Pulls votes from Bureau, DeKalb, Kane, Kendall, La Salle, Putnam and Will counties' },
       { label: '16th Congressional District',
-        match: /16th congressional|congress.*district.*16\b/i,
+        match: /\b(?:16th|sixteenth)\s+congressional|congressional.*\b16th\s+district/i,
         note: 'Pulls votes from Bureau, La Salle, Livingston and 18 other counties' },
     ]
   },
@@ -994,6 +994,26 @@ function buildSections(countyDataMap, suptRaces, crossCountyRefs, aggregatedRace
       }
     }
 
+    // ── County board fallback: surface raw contests when all board patterns miss ──
+    {
+      const boardRaces = renderedRaces.filter(r => /county board/i.test(r.label));
+      if (boardRaces.length > 0 && boardRaces.every(r => r.pending)) {
+        const _fbPool = (typeof pool !== 'undefined' ? pool : contests) || [];
+        const _fbContest = _fbPool.filter(c => /county board|members.*board/i.test(contestName(c)));
+        if (_fbContest.length > 0) {
+          for (let i = renderedRaces.length - 1; i >= 0; i--) {
+            if (/county board/i.test(renderedRaces[i].label) && renderedRaces[i].pending)
+              renderedRaces.splice(i, 1);
+          }
+          for (const c of _fbContest) {
+            renderedRaces.push({ label: contestName(c), seats: null, _fallback: true,
+              candidates: c.candidates || [],
+              precincts: { reporting: c.precincts_reporting || 0, total: c.total_precincts || 0 },
+              pending: (c.candidates || []).length === 0 });
+          }
+        }
+      }
+    }
     if (renderedRaces.length > 0) {
       sections.push({ title: sectionDef.section, races: renderedRaces });
     }
