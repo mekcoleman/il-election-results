@@ -128,6 +128,20 @@ python3 run_election_night.py --once --no-push
 
 Look for counties showing `0 contests` — those need their web_ids fixed. Any county logging `0 contests` with a Clarity platform is a stale web_id.
 
+Then check every widget against the county data the test run just saved:
+
+```bash
+python3 validate_widget_patterns.py            # all 10 widgets
+python3 validate_widget_patterns.py --names    # also list candidates missing from either side
+```
+
+This works before any votes are counted, as long as the county sites have posted their race lists. It reports:
+- **❌ NO MATCH:** a widget race whose pattern finds no contest. It names the county's actual title when it can find the race by candidate names (e.g. widget expects "Forest Preserve President", DuPage writes "FOR PRESIDENT OF THE FOREST PRESERVE"). Fix the `match:` pattern.
+- **✏️ SPELLING:** a name in `PENDING_CANDIDATES` that's close to, but not the same as, the county's spelling (e.g. "Carl Schult" vs "CARL SCHULTZ"). Check which is right; the widget shows your list's spelling.
+- **❌ No county file:** that county's scraper didn't produce data. Fix the scraper first.
+
+It exits with an error until every widget is clean. Statewide, congressional and legislative races pass if the aggregator (`statewide_results.json`) has them; run `validate_aggregator.py --statewide` for those districts.
+
 ---
 
 ## Step 7: Start the loop at 7pm
