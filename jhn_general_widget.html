@@ -973,7 +973,7 @@ function buildSections(contests) {
       }
 
       // Pull precincts from first matched contest
-      const firstMatch = matched[0] || {};
+      const firstMatch = allPoolMatched[0] || {};
 
       if (allPoolMatched.length === 0) {
         renderedRaces.push({ ...raceDef, candidates: null, precincts: null, pending: true });
