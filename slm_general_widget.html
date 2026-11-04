@@ -1044,11 +1044,17 @@ function buildSections(contests) {
         return raceDef.match.test(contestName(c));
       });
 
+      // If any match is aggregated (multi-county totals from statewide_meta.json),
+      // use only those — prevents raw county feed copies (e.g. NP "Name (DEM)"
+      // cross-filed rows) from mixing in duplicate candidate rows.
+      const hasAgg = allPoolMatched.some(c => c._is_aggregated);
+      const finalMatched = hasAgg ? allPoolMatched.filter(c => c._is_aggregated) : allPoolMatched;
+
       // Deduplicate: if multiple contests matched (can happen with flat+injected),
       // merge candidates into one race.
       const mergedCandidates = [];
       const seenNames = new Set();
-      for (const c of allPoolMatched) {
+      for (const c of finalMatched) {
         const id = contestName(c) + '__' + (c._partyBucket || '');
         usedContestIds.add(id);
         for (const cand of (c.candidates || [])) {
@@ -1064,9 +1070,11 @@ function buildSections(contests) {
       }
 
       // Pull precincts from first matched contest
-      const firstMatch = allPoolMatched[0] || {};
+      for (const c of allPoolMatched) usedContestIds.add(contestName(c) + '__' + (c._partyBucket || ''));
 
-      if (allPoolMatched.length === 0) {
+      const firstMatch = finalMatched[0] || {};
+
+      if (finalMatched.length === 0) {
         renderedRaces.push({ ...raceDef, candidates: null, precincts: null, pending: true });
       } else {
         renderedRaces.push({
@@ -1244,6 +1252,7 @@ function buildSyntheticContest(label, race) {
     precincts_reporting: race.precincts_reporting || 0,
     total_precincts:     race.total_precincts     || 0,
     _multi_county:       true,
+    _is_aggregated:      true,
     _counties_found:     race.counties_found    || [],
     _counties_missing:   race.counties_missing  || [],
     _complete:           race.complete !== false,
