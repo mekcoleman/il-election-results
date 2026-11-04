@@ -642,7 +642,7 @@ function buildSections(contests) {
     const renderedRaces = [];
 
     for (const raceDef of sectionDef.races) {
-      const matched = contests.filter(c => {
+      const allPoolMatched = contests.filter(c => {
         const id = contestName(c) + '__' + (c._partyBucket || '');
         if (usedContestIds.has(id)) return false;
         return raceDef.match.test(contestName(c));
