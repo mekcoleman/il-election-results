@@ -475,16 +475,16 @@ const RACE_DEFINITIONS = [
     section: 'CONGRESSIONAL',
     races: [
       { label: '3rd Congressional District',
-        match: /3rd congressional|congress.*district.*3\b/i,
+        match: /\b(?:3rd|third)\s+congressional|congressional.*\b3rd\s+district/i,
         note: 'Pulls votes from Cook and DuPage counties' },
       { label: '4th Congressional District',
-        match: /4th congressional|congress.*district.*4\b/i,
+        match: /\b(?:4th|fourth)\s+congressional|congressional.*\b4th\s+district/i,
         note: 'Pulls votes from Cook and DuPage counties' },
       { label: '6th Congressional District',
-        match: /6th congressional|congress.*district.*6\b/i,
+        match: /\b(?:6th|sixth)\s+congressional|congressional.*\b6th\s+district/i,
         note: 'Pulls votes from Cook and DuPage counties' },
       { label: '8th Congressional District',
-        match: /8th congressional|congress.*district.*8\b/i,
+        match: /\b(?:8th|eighth)\s+congressional|congressional.*\b8th\s+district/i,
         note: 'Pulls votes from Cook, DuPage and Kane counties' },
     ]
   },
@@ -1081,6 +1081,26 @@ function buildSections(contests) {
       }
     }
 
+    // ── County board fallback: surface raw contests when all board patterns miss ──
+    {
+      const boardRaces = renderedRaces.filter(r => /county board/i.test(r.label));
+      if (boardRaces.length > 0 && boardRaces.every(r => r.pending)) {
+        const _fbPool = (typeof pool !== 'undefined' ? pool : contests) || [];
+        const _fbContest = _fbPool.filter(c => /county board|members.*board/i.test(contestName(c)));
+        if (_fbContest.length > 0) {
+          for (let i = renderedRaces.length - 1; i >= 0; i--) {
+            if (/county board/i.test(renderedRaces[i].label) && renderedRaces[i].pending)
+              renderedRaces.splice(i, 1);
+          }
+          for (const c of _fbContest) {
+            renderedRaces.push({ label: contestName(c), seats: null, _fallback: true,
+              candidates: c.candidates || [],
+              precincts: { reporting: c.precincts_reporting || 0, total: c.total_precincts || 0 },
+              pending: (c.candidates || []).length === 0 });
+          }
+        }
+      }
+    }
     if (renderedRaces.length > 0) {
       sections.push({ title: sectionDef.section, races: renderedRaces });
     }
