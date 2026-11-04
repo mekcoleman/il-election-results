@@ -910,8 +910,21 @@ function buildSections(contests) {
 
 function renderPartyBadge(party) {
   if (!party) return '';
-  const cls = ['D','R','G','L','I','NP'].includes(party) ? party : 'NP';
-  return `<span class="party-badge ${cls}">${escHtml(party)}</span>`;
+  const PARTY_CODES = {
+    'Democratic': 'D', 'Democrat': 'D', 'DEM': 'D',
+    'Republican': 'R', 'Republican Party': 'R', 'REP': 'R',
+    'Green': 'G', 'GRN': 'G',
+    'Libertarian': 'L', 'LIB': 'L',
+    'Independent': 'I', 'IND': 'I',
+    'Non-Partisan': 'NP', 'Nonpartisan': 'NP', 'Non Partisan': 'NP',
+    'Working Class Party': 'WCP', 'WCP': 'WCP',
+    'American Center Party': 'ACP', 'ACP': 'ACP',
+  };
+  const code = PARTY_CODES[party] || (['D','R','G','L','I','NP','WCP','ACP'].includes(party) ? party : null);
+  const cls  = code || 'NP';
+  const label = code || party;
+  return `<span class="party-badge ${cls}">${escHtml(label)}</span>`;
+}">${escHtml(party)}</span>`;
 }
 
 function renderCandidateRow(cand, maxVotes, hasResults, rank, seats) {
