@@ -1120,6 +1120,29 @@ function injectCrossCountyRefs(countyData, crossCountyRefs) {
 // STATE HOUSE. Auto-detects which races to inject by reading RACE_DEFINITIONS
 // section names — no separate district ID constants needed.
 
+// Kendall's feed names both the state and the county treasurer race just
+// "TREASURER". Before statewide totals are swapped in (which removes raw
+// contests named "TREASURER"), relabel the one whose candidates are on the
+// County Treasurer list so it survives and matches /county treasurer/.
+function relabelCountyTreasurer(data) {
+  const listed = ((PENDING_CANDIDATES['County Treasurer'] || {}).candidates || [])
+    .map(p => _nameTokens(p.name)).filter(t => t.length).map(t => t[t.length - 1]);
+  if (!data || !listed.length) return data;
+  const fix = c => {
+    if (!c || !/^treasurer$/i.test(contestName(c))) return;
+    const hit = (c.candidates || []).some(x => {
+      const t = _nameTokens(x.name);
+      return t.length && listed.includes(t[t.length - 1]);
+    });
+    if (hit) { c.contest_name = 'COUNTY TREASURER'; if (c.name) c.name = 'COUNTY TREASURER'; }
+  };
+  (data.contests || []).forEach(fix);
+  for (const key of ['contests_by_party', 'by_party']) {
+    for (const b of Object.values(data[key] || {})) (Array.isArray(b) ? b : (b.contests || [])).forEach(fix);
+  }
+  return data;
+}
+
 function injectAggregatedRaces(countyData, meta) {
   if (!meta) return countyData;
   const mc = meta.multi_county_races || {};
@@ -1253,6 +1276,7 @@ async function refresh() {
   countyData = injectSuptRace(countyData, suptRace);
   countyData = injectMultiCountyRace(countyData, appellateRace, '3rd Appellate District');
   countyData = injectCrossCountyRefs(countyData, crossCountyRefs);
+  countyData = relabelCountyTreasurer(countyData);
   countyData = injectAggregatedRaces(countyData, meta);
 
   const scrapedAt = meta.aggregated_at
