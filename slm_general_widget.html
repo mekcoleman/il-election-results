@@ -588,7 +588,7 @@ const RACE_DEFINITIONS = [
     section: 'FOREST PRESERVE',
     races: [
       { label: 'Forest Preserve President',
-        match: /forest preserve president/i },
+        match: /forest preserve president|president of the forest preserve/i },
       { label: 'Forest Preserve District 1',
         match: /forest preserve.*district\s*1\b/i },
       { label: 'Forest Preserve District 2',
@@ -604,7 +604,7 @@ const RACE_DEFINITIONS = [
         match: /3rd appellate|appellate.*district.*3|third appellate/i,
         note: 'Pulls votes from DuPage, Will, Bureau, Grundy, Iroquois, Kankakee and La Salle counties' },
       { label: '18th Circuit – 4th Subcircuit Vacancy',
-        match: /18th circuit.*4th|18th.*4th sub/i,
+        match: /(?:18th|eighteenth)\b.*(?:4th|fourth) subcircuit|18th circuit.*4th/i,
         note: 'DuPage County only' },
     ]
   },
