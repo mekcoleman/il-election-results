@@ -1147,15 +1147,15 @@ function injectAggregatedRaces(countyData, meta) {
     },
     'CONGRESSIONAL': {
       src:  mc.congress     || {},
-      idFn: label => { const m = label.match(/\b(\d+)\b/); return m ? `district_${m[1]}` : null; },
+      idFn: label => { const m = label.match(/(\d+)/); return m ? `district_${m[1]}` : null; },
     },
     'STATE SENATE': {
       src:  mc.state_senate || {},
-      idFn: label => { const m = label.match(/\b(\d+)\b/); return m ? `district_${m[1]}` : null; },
+      idFn: label => { const m = label.match(/(\d+)/); return m ? `district_${m[1]}` : null; },
     },
     'STATE HOUSE': {
       src:  mc.state_house  || {},
-      idFn: label => { const m = label.match(/\b(\d+)\b/); return m ? `district_${m[1]}` : null; },
+      idFn: label => { const m = label.match(/(\d+)/); return m ? `district_${m[1]}` : null; },
     },
   };
 

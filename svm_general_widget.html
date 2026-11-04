@@ -891,9 +891,9 @@ function buildSections(countyDataMap, suptRaces, crossCountyRefs, aggregatedRace
   // These take priority over county-level partials via _is_aggregated flag
   const SECTION_AGG_MAP = {
     'STATEWIDE':     { src: (aggregatedRaces || {}).statewide    || {}, idFn: l => STATEWIDE_RACE_LABELS[l] || null },
-    'CONGRESSIONAL': { src: (aggregatedRaces || {}).congress     || {}, idFn: l => { const m = l.match(/\b(\d+)\b/); return m ? `district_${m[1]}` : null; } },
-    'STATE SENATE':  { src: (aggregatedRaces || {}).state_senate || {}, idFn: l => { const m = l.match(/\b(\d+)\b/); return m ? `district_${m[1]}` : null; } },
-    'STATE HOUSE':   { src: (aggregatedRaces || {}).state_house  || {}, idFn: l => { const m = l.match(/\b(\d+)\b/); return m ? `district_${m[1]}` : null; } },
+    'CONGRESSIONAL': { src: (aggregatedRaces || {}).congress     || {}, idFn: l => { const m = l.match(/(\d+)/); return m ? `district_${m[1]}` : null; } },
+    'STATE SENATE':  { src: (aggregatedRaces || {}).state_senate || {}, idFn: l => { const m = l.match(/(\d+)/); return m ? `district_${m[1]}` : null; } },
+    'STATE HOUSE':   { src: (aggregatedRaces || {}).state_house  || {}, idFn: l => { const m = l.match(/(\d+)/); return m ? `district_${m[1]}` : null; } },
   };
   for (const sectionDef of RACE_DEFINITIONS) {
     const agg = SECTION_AGG_MAP[sectionDef.section];
