@@ -739,7 +739,79 @@ function buildPendingNameMap() {
 }
 const PENDING_NAME_MAP = buildPendingNameMap();
 
+// ── Race-scoped name resolution ───────────────────────────────────────────────
+// Your PENDING_CANDIDATES entries are the display default (spelling, casing,
+// "(i)" and party); the feed only supplies votes. Feed names are matched to
+// your list within the same race, ignoring casing, middle initials, quoted
+// nicknames, Jr/Sr/III suffixes and "(DEM)"-style tags. Unmatched feed
+// candidates (e.g. write-ins you didn't list) show as the feed spells them.
+function _nameTokens(raw) {
+  let s = String(raw || '')
+    .replace(/\((?:i|dem|rep|ind|acp|grn|lib|wcp|np)\)/gi, ' ');
+  // Tickets ("A / B"): match on the first real name
+  const segs = s.split('/')
+    .map(x => x.replace(/[()]/g, ' ').trim())
+    .filter(x => x.replace(/[^A-Za-z]/g, '').length > 1);
+  s = segs[0] || '';
+  s = s.replace(/["“”][^"“”]*["“”]/g, ' ')   // "Jim"
+       .replace(/(^|\s)['‘’][^'‘’]+['‘’](?=\s|$)/g, ' ') // 'Jim'
+       .replace(/[^A-Za-z\s-]/g, ' ')
+       .toUpperCase();
+  const SUFFIX = new Set(['JR', 'SR', 'II', 'III', 'IV']);
+  return s.split(/[\s-]+/).filter(t => t.length > 1 && !SUFFIX.has(t));
+}
+
+function _editDist(a, b) {
+  const d = Array.from({ length: a.length + 1 }, (_, i) => [i]);
+  for (let j = 1; j <= b.length; j++) d[0][j] = j;
+  for (let i = 1; i <= a.length; i++)
+    for (let j = 1; j <= b.length; j++)
+      d[i][j] = Math.min(d[i-1][j] + 1, d[i][j-1] + 1, d[i-1][j-1] + (a[i-1] === b[j-1] ? 0 : 1));
+  return d[a.length][b.length];
+}
+
+function resolveRaceCandidates(label, cands) {
+  const listed = ((PENDING_CANDIDATES[label] || {}).candidates || [])
+    .map(p => ({ p, t: _nameTokens(p.name) }))
+    .filter(x => x.t.length);
+  if (!listed.length) return;
+  const owner = new Map();   // listed entry -> feed row already showing it
+  const pick = (test, pool) => {
+    const hits = pool.filter(x => test(x.t));
+    return hits.length === 1 ? hits[0] : null;
+  };
+  for (let i = 0; i < cands.length; i++) {
+    const cand = cands[i];
+    const t = _nameTokens(cand.name);
+    if (!t.length) continue;
+    const first = t[0], last = t[t.length - 1];
+    const unused = listed.filter(x => !owner.has(x));
+    // Strong matches (same full name, or same first + last name) may fold a
+    // second feed spelling of the same person into one row.
+    let hit = pick(x => x.join(' ') === t.join(' '), listed) ||
+              pick(x => x[0] === first && x[x.length - 1] === last, listed);
+    if (hit && owner.has(hit)) {
+      const keep = owner.get(hit);
+      keep.votes = (keep.votes || 0) + (cand.votes || 0);
+      cands.splice(i, 1); i--;
+      continue;
+    }
+    // Weaker matches only claim a listed candidate nobody has claimed yet:
+    // same last name, or same first name with a near-identical last name
+    // (feed typos such as Petersen/Peterson, Revis/Reavis).
+    hit = hit ||
+          pick(x => x[x.length - 1] === last, unused) ||
+          pick(x => x[0] === first && _editDist(x[x.length - 1], last) <= 2, unused);
+    if (hit) {
+      owner.set(hit, cand);
+      cand._displayName  = hit.p.name;
+      cand._displayParty = hit.p.party;
+    }
+  }
+}
+
 function getCandidate(c) {
+  if (c._displayName) return { name: c._displayName, party: c._displayParty ?? c.party };
   const normalize = s => s
     .replace(/\s*\(i\)\s*/gi, '')
     .replace(/[""''"'`]/g, '')
@@ -822,6 +894,8 @@ function buildSections(contests) {
       for (const c of allPoolMatched) usedContestIds.add(contestName(c) + '__' + (c._partyBucket || ''));
 
       const firstMatch = finalMatched[0] || {};
+
+      resolveRaceCandidates(raceDef.label, mergedCandidates);
 
       if (finalMatched.length === 0) {
         renderedRaces.push({ ...raceDef, candidates: null, precincts: null, pending: true });
