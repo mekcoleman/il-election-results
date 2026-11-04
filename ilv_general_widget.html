@@ -893,7 +893,9 @@ function buildSections(countyDataMap, suptRaces, crossCountyRefs, aggregatedRace
   for (const [id, race] of Object.entries(suptRaces)) {
     if (!race || !race.candidates) continue;
     const label = suptLabels[id] || race.label || id;
-    sharedContests.push(makeSyntheticContest(label, race));
+    const synth = makeSyntheticContest(label, race);
+    synth._is_aggregated = true;
+    sharedContests.unshift(synth); // front of pool — preferred over raw county copies
   }
 
   // Inject cross-county referendums into shared pool
@@ -959,11 +961,17 @@ function buildSections(countyDataMap, suptRaces, crossCountyRefs, aggregatedRace
         return raceDef.match.test(id);
       });
 
+      // If any match is aggregated (multi-county totals from statewide_meta.json),
+      // use only those — prevents raw county feed copies (e.g. NP "Name (DEM)"
+      // cross-filed rows) from mixing in duplicate candidate rows.
+      const hasAgg = allPoolMatched.some(c => c._is_aggregated);
+      const finalMatched = hasAgg ? allPoolMatched.filter(c => c._is_aggregated) : allPoolMatched;
+
       // Deduplicate candidates across multiple matching contests
       const mergedCandidates = [];
       const seenNames = new Set();
       let firstMatch = null;
-      for (const c of allPoolMatched) {
+      for (const c of finalMatched) {
         if (!firstMatch) firstMatch = c;
         if (!hasCcounty || !county) usedSharedIds.add(contestName(c));
         for (const cand of (c.candidates || [])) {
@@ -979,7 +987,7 @@ function buildSections(countyDataMap, suptRaces, crossCountyRefs, aggregatedRace
         }
       }
 
-      if (allPoolMatched.length === 0) {
+      if (finalMatched.length === 0) {
         renderedRaces.push({ ...raceDef, candidates: null, precincts: null, pending: true });
       } else {
         renderedRaces.push({
