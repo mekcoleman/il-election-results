@@ -496,21 +496,21 @@ const RACE_DEFINITIONS = [
       {
         label: 'County Board District 1',
         seats: 3,
-        match: /county board.*district\s*1\b|board.*district\s*1\b/i,
+        match: /(?:county board|members.*board).*district\s*(?:one\b|1\b)/i,
       },
       {
         label: 'County Board District 2',
         seats: 3,
-        match: /county board.*district\s*2\b|board.*district\s*2\b/i,
+        match: /(?:county board|members.*board).*district\s*(?:two\b|2\b)/i,
       },
       {
         label: 'County Board District 3 – Unexpired 2-Year Term',
-        match: /county board.*district\s*3\b.*unexpired|board.*district\s*3\b.*2.year/i,
+        match: /(?:county board|members.*board).*district\s*(?:three\b|3\b).*(?:unexpired|2.year)/i,
       },
       {
         label: 'County Board District 3',
         seats: 3,
-        match: /county board.*district\s*3\b/i,
+        match: /(?:county board|members.*board).*district\s*(?:three\b|3\b)/i,
       },
     ]
   },
@@ -813,7 +813,7 @@ function buildSections(contests) {
       }
 
       // Pull precincts from first matched contest
-      const firstMatch = matched[0] || {};
+      const firstMatch = allPoolMatched[0] || {};
 
       if (allPoolMatched.length === 0) {
         renderedRaces.push({ ...raceDef, candidates: null, precincts: null, pending: true });
