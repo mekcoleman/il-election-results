@@ -1432,7 +1432,7 @@ function exportResults(format) {
           // Get name text, stripping the party badge
           const badge   = nameEl ? nameEl.querySelector('.party-badge') : null;
           const name    = nameEl
-            ? nameEl.textContent.replace(badge?.textContent || '', '').trim()
+            ? (() => { const n = nameEl.cloneNode(true); n.querySelectorAll('.party-badge').forEach(b => b.remove()); return n.textContent.replace(/\s+/g, ' ').trim(); })()
             : '';
           const party   = badge ? badge.textContent.trim() : '';
           const pct     = pctEl   ? pctEl.textContent.trim()  : '';
@@ -1450,7 +1450,7 @@ function exportResults(format) {
   }
 
   function formatCandLine(c, isHtml) {
-    const prefix   = c.isLeader ? '*' : (isHtml ? ' ' : ' ');
+    const prefix   = c.isLeader ? '*' : '';
     const partyStr = c.party    ? ` (${c.party})` : '';
     const voteWord = c.votes === '1' ? 'vote' : 'votes';
     const votePart = c.votes   ? `: ${c.votes} ${voteWord}` : '';
