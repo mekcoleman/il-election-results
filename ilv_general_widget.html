@@ -92,8 +92,14 @@
     color: var(--accent-dark);
     font-weight: 700;
     display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  .precinct-bar .precinct-county-row {
+    display: flex;
     align-items: center;
     gap: 10px;
+    width: 100%;
   }
   .precinct-bar .pct-track {
     flex: 1;
@@ -327,8 +333,12 @@
 
   
   <div class="precinct-bar" id="precinct-bar" style="display:none">
+    <span id="precinct-statewide-text" style="font-size:0.82em;opacity:0.72"></span>
+    <div class="precinct-county-row">
+      <span id="precinct-statewide-text" style="display:block;font-size:0.82em;opacity:0.72;margin-bottom:1px"></span>
     <span id="precinct-text"></span>
-    <div class="pct-track"><div class="pct-fill" id="precinct-fill"></div></div>
+      <div class="pct-track"><div class="pct-fill" id="precinct-fill"></div></div>
+    </div>
   </div>
 
   <div id="results-root">
@@ -1090,25 +1100,35 @@ function renderSections(sections) {
 // ── Precinct bar ──────────────────────────────────────────────────────────────
 // ══════════════════════════════════════════════════════════════════════════════
 
-function updatePrecinctBar(countyDataMap) {
-  let reporting = 0, total = 0;
+function updatePrecinctBar(countyDataMap, statewideRaces) {
+  // Sum precincts across core counties
+  let reporting = 0, total = 0, seen = new Set();
   for (const data of Object.values(countyDataMap)) {
     if (!data) continue;
     const flat = flattenCountyContests(data);
     for (const c of flat) {
-      if ((c.total_precincts || 0) > total) {
-        total     = c.total_precincts;
-        reporting = c.precincts_reporting;
-      }
+      const t = c.total_precincts || 0;
+      const r = c.precincts_reporting || 0;
+      // Use the contest with the most precincts per county as that county's rep
+      if (t > 0 && !seen.has(t)) { seen.add(t); reporting += r; total += t; }
     }
   }
   const bar = document.getElementById('precinct-bar');
   if (total > 0) {
     const pct = Math.round(reporting / total * 100);
     document.getElementById('precinct-text').textContent =
-      `${reporting.toLocaleString()} of ${total.toLocaleString()} precincts reporting (${pct}%)`;
+      `${reporting.toLocaleString()} of ${total.toLocaleString()} precincts reporting in core counties (${pct}%)`;
     document.getElementById('precinct-fill').style.width = pct + '%';
     bar.style.display = 'flex';
+  }
+  // Statewide precinct count
+  const govRace = (statewideRaces || {}).governor;
+  if (govRace && govRace.total_precincts) {
+    const sr = govRace.precincts_reporting || 0;
+    const st = govRace.total_precincts;
+    const spct = Math.round(sr / st * 100);
+    document.getElementById('precinct-statewide-text').textContent =
+      `Statewide: ${sr.toLocaleString()} of ${st.toLocaleString()} precincts reporting (${spct}%)`;
   }
 }
 
@@ -1186,7 +1206,7 @@ async function refresh() {
   badge.textContent = hasVotes ? 'Live Results' : 'Results Pending';
   badge.className   = hasVotes ? 'badge live'   : 'badge';
 
-  updatePrecinctBar(countyData);
+  updatePrecinctBar(countyData, statewide.statewide_races || {});
 
   const sections = buildSections(countyData, suptRaces, crossCountyRefs, aggregatedRaces);
   root.innerHTML  = renderSections(sections);
