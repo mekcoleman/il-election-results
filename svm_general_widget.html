@@ -1160,7 +1160,7 @@ function renderRace(race) {
     const maxVotes  = sorted[0]?.votes || 0;
     sorted.forEach(c => { c._raceTotal = raceTotal; });
 
-    const SKIP = /^(no candidate|unassigned write.?in|rejected write.?in)$/i;
+    const SKIP = /^(no candidate(\/candidato)?|(unassigned |rejected )?write.?ins?)$/i;   // hide write-in tallies, not named write-in candidates
     const rows = sorted
       .filter(c => !SKIP.test((c.name || '').trim()))
       .map((c, i) => renderCandidateRow(c, maxVotes, true, i + 1, race.seats))
