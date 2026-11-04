@@ -1,5 +1,5 @@
 {
-  "aggregated_at": "2026-11-04T00:44:12.314260",
+  "aggregated_at": "2026-11-04T00:50:57.817292",
   "num_counties": 92,
   "counties_included": [
     "Shelby",
@@ -147,92 +147,92 @@
           "party": "Democratic",
           "votes": 1436502,
           "counties": [
-            "Mason",
-            "Vermilion",
-            "Logan",
-            "Will",
-            "Whiteside",
             "Putnam",
-            "Bond",
-            "Henry",
-            "Sangamon",
-            "DeWitt",
-            "La Salle",
-            "Clark",
-            "McHenry",
-            "Kendall",
-            "Carroll",
-            "Macon",
-            "Livingston",
-            "Ogle",
-            "Stephenson",
-            "Douglas",
-            "Boone",
+            "Logan",
             "Edgar",
-            "Grundy",
-            "Tazewell",
             "Moultrie",
-            "Christian",
-            "Kane",
-            "Kankakee",
-            "Lee",
-            "Lake",
-            "Bloomington",
-            "Bureau",
-            "Ford",
-            "Shelby",
-            "DeKalb",
-            "DuPage",
-            "Coles",
+            "Douglas",
             "Cook",
-            "Piatt"
+            "Grundy",
+            "Lake",
+            "DuPage",
+            "Bloomington",
+            "Whiteside",
+            "Will",
+            "Ogle",
+            "Kankakee",
+            "Coles",
+            "Henry",
+            "Lee",
+            "Piatt",
+            "Mason",
+            "Clark",
+            "Bond",
+            "Livingston",
+            "La Salle",
+            "Shelby",
+            "Carroll",
+            "DeKalb",
+            "DeWitt",
+            "Macon",
+            "Kane",
+            "Vermilion",
+            "McHenry",
+            "Tazewell",
+            "Kendall",
+            "Ford",
+            "Stephenson",
+            "Boone",
+            "Christian",
+            "Bureau",
+            "Sangamon"
           ],
           "percentage": 59.58
         },
         "1": {
-          "name": "Vote For One / R / Darren Bailey / Aaron B. Del Mar",
-          "party": "Democratic",
+          "name": "Darren Bailey / Aaron B. Del Mar",
+          "party": "Republican",
           "votes": 887179,
           "counties": [
-            "Mason",
-            "Vermilion",
-            "Logan",
-            "Will",
-            "Henry",
-            "Whiteside",
-            "Bond",
             "Putnam",
-            "Sangamon",
-            "DeWitt",
-            "La Salle",
-            "Clark",
-            "McHenry",
-            "Kendall",
-            "Carroll",
-            "Macon",
-            "Livingston",
-            "Ogle",
-            "Stephenson",
-            "Douglas",
-            "Boone",
+            "Logan",
             "Edgar",
-            "Grundy",
-            "Tazewell",
             "Moultrie",
-            "Christian",
-            "Kane",
-            "Kankakee",
-            "Lee",
-            "Lake",
-            "Bloomington",
-            "Bureau",
-            "Ford",
-            "Shelby",
-            "DeKalb",
-            "DuPage",
-            "Coles",
+            "Douglas",
             "Cook",
-            "Piatt"
+            "Grundy",
+            "Lake",
+            "DuPage",
+            "Bloomington",
+            "Whiteside",
+            "Will",
+            "Ogle",
+            "Kankakee",
+            "Coles",
+            "Henry",
+            "Lee",
+            "Piatt",
+            "Mason",
+            "Clark",
+            "Bond",
+            "Livingston",
+            "La Salle",
+            "Shelby",
+            "Carroll",
+            "DeKalb",
+            "DeWitt",
+            "Macon",
+            "Kane",
+            "Vermilion",
+            "McHenry",
+            "Tazewell",
+            "Kendall",
+            "Ford",
+            "Stephenson",
+            "Boone",
+            "Christian",
+            "Bureau",
+            "Sangamon"
           ],
           "percentage": 36.8
         },
@@ -241,44 +241,44 @@
           "party": "Democratic",
           "votes": 81404,
           "counties": [
-            "Mason",
-            "Vermilion",
-            "Logan",
-            "Will",
-            "Henry",
-            "Whiteside",
-            "Bond",
             "Putnam",
-            "Sangamon",
-            "DeWitt",
-            "La Salle",
-            "Clark",
-            "Kendall",
-            "Carroll",
-            "Macon",
-            "Livingston",
-            "Ogle",
-            "Stephenson",
-            "Douglas",
-            "Boone",
+            "Logan",
             "Edgar",
-            "Grundy",
-            "Tazewell",
             "Moultrie",
-            "Christian",
-            "Kane",
-            "Kankakee",
-            "Lee",
-            "Lake",
-            "Bloomington",
-            "Bureau",
-            "Ford",
-            "Shelby",
-            "DeKalb",
-            "DuPage",
-            "Coles",
+            "Douglas",
             "Cook",
-            "Piatt"
+            "Grundy",
+            "Lake",
+            "DuPage",
+            "Bloomington",
+            "Whiteside",
+            "Will",
+            "Ogle",
+            "Kankakee",
+            "Coles",
+            "Henry",
+            "Lee",
+            "Piatt",
+            "Mason",
+            "Clark",
+            "Bond",
+            "Livingston",
+            "La Salle",
+            "Shelby",
+            "Carroll",
+            "DeKalb",
+            "DeWitt",
+            "Macon",
+            "Kane",
+            "Vermilion",
+            "Tazewell",
+            "Kendall",
+            "Ford",
+            "Stephenson",
+            "Boone",
+            "Christian",
+            "Bureau",
+            "Sangamon"
           ],
           "percentage": 3.38
         }
@@ -570,47 +570,47 @@
           "percentage": 53.78
         },
         "1": {
-          "name": "Vote For One / R / Don Tracy",
-          "party": "Democratic",
+          "name": "Don Tracy",
+          "party": "Republican",
           "votes": 648361,
           "counties": [
-            "Mason",
-            "Vermilion",
-            "Logan",
-            "Will",
-            "Whiteside",
-            "Henry",
-            "Bond",
-            "Putnam",
-            "Sangamon",
-            "DeWitt",
-            "La Salle",
-            "Clark",
-            "McHenry",
-            "Kendall",
-            "Carroll",
-            "Macon",
-            "Livingston",
-            "Ogle",
-            "Stephenson",
-            "Douglas",
-            "Boone",
-            "Edgar",
-            "Grundy",
-            "Tazewell",
-            "Moultrie",
-            "Christian",
-            "Kane",
-            "Kankakee",
-            "Lee",
-            "Bloomington",
-            "Bureau",
-            "Ford",
             "Shelby",
-            "DeKalb",
+            "Bond",
+            "Kankakee",
+            "Whiteside",
+            "Ogle",
+            "Logan",
             "DuPage",
+            "Macon",
+            "DeWitt",
+            "Kane",
+            "Vermilion",
+            "Lee",
+            "Douglas",
+            "Will",
+            "Putnam",
+            "Piatt",
+            "Henry",
+            "Boone",
+            "La Salle",
+            "Bureau",
+            "Bloomington",
+            "Kendall",
+            "Mason",
+            "Christian",
+            "Grundy",
+            "McHenry",
+            "Carroll",
+            "Stephenson",
+            "Clark",
+            "Sangamon",
             "Coles",
-            "Piatt"
+            "Moultrie",
+            "Ford",
+            "Tazewell",
+            "DeKalb",
+            "Edgar",
+            "Livingston"
           ],
           "percentage": 44.58
         },
@@ -619,40 +619,40 @@
           "party": "Non-Partisan",
           "votes": 20424,
           "counties": [
-            "Mason",
-            "Vermilion",
-            "Logan",
-            "Will",
-            "Whiteside",
             "Putnam",
-            "Bond",
-            "Sangamon",
-            "DeWitt",
-            "La Salle",
-            "Clark",
-            "McHenry",
-            "Kendall",
-            "Carroll",
-            "Macon",
-            "Livingston",
-            "Ogle",
-            "Stephenson",
-            "Douglas",
-            "Boone",
+            "Logan",
             "Edgar",
-            "Grundy",
-            "Tazewell",
             "Moultrie",
-            "Christian",
-            "Kankakee",
-            "Lee",
-            "Bloomington",
-            "Bureau",
-            "Ford",
-            "Shelby",
+            "Douglas",
+            "Grundy",
             "DuPage",
+            "Bloomington",
+            "Whiteside",
+            "Will",
+            "Ogle",
+            "Kankakee",
             "Coles",
-            "Piatt"
+            "Lee",
+            "Piatt",
+            "Mason",
+            "Clark",
+            "Bond",
+            "Livingston",
+            "La Salle",
+            "Shelby",
+            "Carroll",
+            "DeWitt",
+            "Macon",
+            "Vermilion",
+            "McHenry",
+            "Tazewell",
+            "Kendall",
+            "Ford",
+            "Stephenson",
+            "Boone",
+            "Christian",
+            "Bureau",
+            "Sangamon"
           ],
           "percentage": 1.4
         }
@@ -948,49 +948,49 @@
           "percentage": 61.04
         },
         "1": {
-          "name": "Vote For One / R / Robert W. Fioretti",
-          "party": "Democratic",
+          "name": "Robert W. Fioretti",
+          "party": "Republican",
           "votes": 935898,
           "counties": [
-            "Mason",
-            "Vermilion",
-            "Logan",
-            "Will",
-            "Henry",
-            "Whiteside",
+            "Shelby",
             "Bond",
-            "Putnam",
-            "Sangamon",
-            "DeWitt",
-            "La Salle",
-            "Clark",
-            "McHenry",
-            "Kendall",
-            "Carroll",
-            "Macon",
-            "Livingston",
-            "Ogle",
-            "Stephenson",
-            "Douglas",
-            "Boone",
-            "Edgar",
-            "Grundy",
-            "Tazewell",
-            "Moultrie",
-            "Christian",
-            "Kane",
+            "Cook",
             "Kankakee",
+            "Whiteside",
+            "Ogle",
+            "Logan",
+            "DuPage",
+            "Macon",
+            "DeWitt",
+            "Kane",
+            "Vermilion",
             "Lee",
+            "Douglas",
+            "Will",
+            "Putnam",
+            "Piatt",
+            "Henry",
+            "Boone",
+            "La Salle",
+            "Bureau",
             "Lake",
             "Bloomington",
-            "Bureau",
-            "Ford",
-            "Shelby",
-            "DeKalb",
-            "DuPage",
+            "Kendall",
+            "Mason",
+            "Christian",
+            "Grundy",
+            "McHenry",
+            "Carroll",
+            "Stephenson",
+            "Clark",
+            "Sangamon",
             "Coles",
-            "Cook",
-            "Piatt"
+            "Moultrie",
+            "Ford",
+            "Tazewell",
+            "DeKalb",
+            "Edgar",
+            "Livingston"
           ],
           "percentage": 38.96
         }
@@ -1288,50 +1288,50 @@
           "percentage": 60.2
         },
         "1": {
-          "name": "Vote For One / R / Bryan Drew",
-          "party": "Democratic",
+          "name": "Bryan Drew",
+          "party": "Republican",
           "votes": 951290,
           "counties": [
-            "Mason",
-            "Vermilion",
-            "Logan",
-            "Will",
-            "Henry",
-            "Whiteside",
+            "Shelby",
             "Bond",
-            "Putnam",
-            "Sangamon",
-            "DeWitt",
-            "La Salle",
-            "Clark",
-            "McHenry",
-            "Kendall",
-            "Carroll",
-            "Macon",
-            "Livingston",
-            "Ogle",
-            "Stephenson",
-            "Douglas",
-            "Boone",
-            "Edgar",
-            "Grundy",
-            "Tazewell",
-            "Jo Daviess",
-            "Christian",
-            "Moultrie",
-            "Kane",
+            "Cook",
             "Kankakee",
+            "Whiteside",
+            "Ogle",
+            "Logan",
+            "DuPage",
+            "Macon",
+            "DeWitt",
+            "Jo Daviess",
+            "Kane",
+            "Vermilion",
             "Lee",
+            "Douglas",
+            "Will",
+            "Putnam",
+            "Piatt",
+            "Henry",
+            "Boone",
+            "La Salle",
+            "Bureau",
             "Lake",
             "Bloomington",
-            "Bureau",
-            "Ford",
-            "Shelby",
-            "DeKalb",
-            "DuPage",
+            "Kendall",
+            "Mason",
+            "Christian",
+            "Grundy",
+            "McHenry",
+            "Carroll",
+            "Stephenson",
+            "Clark",
+            "Sangamon",
             "Coles",
-            "Cook",
-            "Piatt"
+            "Moultrie",
+            "Ford",
+            "Tazewell",
+            "DeKalb",
+            "Edgar",
+            "Livingston"
           ],
           "percentage": 39.77
         }
@@ -1627,49 +1627,49 @@
           "percentage": 64.42
         },
         "1": {
-          "name": "Vote For One / R / Diane M. Harris",
-          "party": "Democratic",
+          "name": "Diane M. Harris",
+          "party": "Republican",
           "votes": 854280,
           "counties": [
-            "Mason",
-            "Vermilion",
-            "Logan",
-            "Will",
-            "Henry",
-            "Whiteside",
+            "Shelby",
             "Bond",
-            "Putnam",
-            "Sangamon",
-            "DeWitt",
-            "La Salle",
-            "Clark",
-            "McHenry",
-            "Kendall",
-            "Carroll",
-            "Macon",
-            "Livingston",
-            "Ogle",
-            "Stephenson",
-            "Douglas",
-            "Boone",
-            "Edgar",
-            "Grundy",
-            "Tazewell",
-            "Moultrie",
-            "Christian",
-            "Kane",
+            "Cook",
             "Kankakee",
+            "Whiteside",
+            "Ogle",
+            "Logan",
+            "DuPage",
+            "Macon",
+            "DeWitt",
+            "Kane",
+            "Vermilion",
             "Lee",
+            "Douglas",
+            "Will",
+            "Putnam",
+            "Piatt",
+            "Henry",
+            "Boone",
+            "La Salle",
+            "Bureau",
             "Lake",
             "Bloomington",
-            "Bureau",
-            "Ford",
-            "Shelby",
-            "DeKalb",
-            "DuPage",
+            "Kendall",
+            "Mason",
+            "Christian",
+            "Grundy",
+            "McHenry",
+            "Carroll",
+            "Stephenson",
+            "Clark",
+            "Sangamon",
             "Coles",
-            "Cook",
-            "Piatt"
+            "Moultrie",
+            "Ford",
+            "Tazewell",
+            "DeKalb",
+            "Edgar",
+            "Livingston"
           ],
           "percentage": 35.58
         }
@@ -1960,46 +1960,46 @@
           "percentage": 51.05
         },
         "1": {
-          "name": "Vote For One / R / Max Solomon",
-          "party": "Democratic",
+          "name": "Max Solomon",
+          "party": "Republican",
           "votes": 503641,
           "counties": [
-            "Mason",
-            "Vermilion",
-            "Logan",
-            "Whiteside",
-            "Henry",
+            "Shelby",
             "Bond",
-            "Putnam",
-            "Sangamon",
-            "DeWitt",
-            "La Salle",
-            "Clark",
-            "McHenry",
-            "Kendall",
-            "Carroll",
-            "Macon",
-            "Livingston",
-            "Ogle",
-            "Stephenson",
-            "Douglas",
-            "Boone",
-            "Edgar",
-            "Grundy",
-            "Tazewell",
-            "Jo Daviess",
-            "Christian",
-            "Moultrie",
-            "Kane",
             "Kankakee",
+            "Whiteside",
+            "Ogle",
+            "Logan",
+            "Macon",
+            "DeWitt",
+            "Jo Daviess",
+            "Kane",
+            "Vermilion",
             "Lee",
+            "Douglas",
+            "Putnam",
+            "Piatt",
+            "Henry",
+            "Boone",
+            "La Salle",
+            "Bureau",
             "Lake",
             "Bloomington",
-            "Bureau",
-            "Ford",
-            "Shelby",
+            "Kendall",
+            "Mason",
+            "Christian",
+            "Grundy",
+            "McHenry",
+            "Carroll",
+            "Stephenson",
+            "Clark",
+            "Sangamon",
             "Coles",
-            "Piatt"
+            "Moultrie",
+            "Ford",
+            "Tazewell",
+            "Edgar",
+            "Livingston"
           ],
           "percentage": 44.7
         }
@@ -2255,92 +2255,92 @@
             "party": "Democratic",
             "votes": 1436502,
             "counties": [
-              "Mason",
-              "Vermilion",
-              "Logan",
-              "Will",
-              "Whiteside",
               "Putnam",
-              "Bond",
-              "Henry",
-              "Sangamon",
-              "DeWitt",
-              "La Salle",
-              "Clark",
-              "McHenry",
-              "Kendall",
-              "Carroll",
-              "Macon",
-              "Livingston",
-              "Ogle",
-              "Stephenson",
-              "Douglas",
-              "Boone",
+              "Logan",
               "Edgar",
-              "Grundy",
-              "Tazewell",
               "Moultrie",
-              "Christian",
-              "Kane",
-              "Kankakee",
-              "Lee",
-              "Lake",
-              "Bloomington",
-              "Bureau",
-              "Ford",
-              "Shelby",
-              "DeKalb",
-              "DuPage",
-              "Coles",
+              "Douglas",
               "Cook",
-              "Piatt"
+              "Grundy",
+              "Lake",
+              "DuPage",
+              "Bloomington",
+              "Whiteside",
+              "Will",
+              "Ogle",
+              "Kankakee",
+              "Coles",
+              "Henry",
+              "Lee",
+              "Piatt",
+              "Mason",
+              "Clark",
+              "Bond",
+              "Livingston",
+              "La Salle",
+              "Shelby",
+              "Carroll",
+              "DeKalb",
+              "DeWitt",
+              "Macon",
+              "Kane",
+              "Vermilion",
+              "McHenry",
+              "Tazewell",
+              "Kendall",
+              "Ford",
+              "Stephenson",
+              "Boone",
+              "Christian",
+              "Bureau",
+              "Sangamon"
             ],
             "percentage": 59.58
           },
           "1": {
-            "name": "Vote For One / R / Darren Bailey / Aaron B. Del Mar",
-            "party": "Democratic",
+            "name": "Darren Bailey / Aaron B. Del Mar",
+            "party": "Republican",
             "votes": 887179,
             "counties": [
-              "Mason",
-              "Vermilion",
-              "Logan",
-              "Will",
-              "Henry",
-              "Whiteside",
-              "Bond",
               "Putnam",
-              "Sangamon",
-              "DeWitt",
-              "La Salle",
-              "Clark",
-              "McHenry",
-              "Kendall",
-              "Carroll",
-              "Macon",
-              "Livingston",
-              "Ogle",
-              "Stephenson",
-              "Douglas",
-              "Boone",
+              "Logan",
               "Edgar",
-              "Grundy",
-              "Tazewell",
               "Moultrie",
-              "Christian",
-              "Kane",
-              "Kankakee",
-              "Lee",
-              "Lake",
-              "Bloomington",
-              "Bureau",
-              "Ford",
-              "Shelby",
-              "DeKalb",
-              "DuPage",
-              "Coles",
+              "Douglas",
               "Cook",
-              "Piatt"
+              "Grundy",
+              "Lake",
+              "DuPage",
+              "Bloomington",
+              "Whiteside",
+              "Will",
+              "Ogle",
+              "Kankakee",
+              "Coles",
+              "Henry",
+              "Lee",
+              "Piatt",
+              "Mason",
+              "Clark",
+              "Bond",
+              "Livingston",
+              "La Salle",
+              "Shelby",
+              "Carroll",
+              "DeKalb",
+              "DeWitt",
+              "Macon",
+              "Kane",
+              "Vermilion",
+              "McHenry",
+              "Tazewell",
+              "Kendall",
+              "Ford",
+              "Stephenson",
+              "Boone",
+              "Christian",
+              "Bureau",
+              "Sangamon"
             ],
             "percentage": 36.8
           },
@@ -2349,44 +2349,44 @@
             "party": "Democratic",
             "votes": 81404,
             "counties": [
-              "Mason",
-              "Vermilion",
-              "Logan",
-              "Will",
-              "Henry",
-              "Whiteside",
-              "Bond",
               "Putnam",
-              "Sangamon",
-              "DeWitt",
-              "La Salle",
-              "Clark",
-              "Kendall",
-              "Carroll",
-              "Macon",
-              "Livingston",
-              "Ogle",
-              "Stephenson",
-              "Douglas",
-              "Boone",
+              "Logan",
               "Edgar",
-              "Grundy",
-              "Tazewell",
               "Moultrie",
-              "Christian",
-              "Kane",
-              "Kankakee",
-              "Lee",
-              "Lake",
-              "Bloomington",
-              "Bureau",
-              "Ford",
-              "Shelby",
-              "DeKalb",
-              "DuPage",
-              "Coles",
+              "Douglas",
               "Cook",
-              "Piatt"
+              "Grundy",
+              "Lake",
+              "DuPage",
+              "Bloomington",
+              "Whiteside",
+              "Will",
+              "Ogle",
+              "Kankakee",
+              "Coles",
+              "Henry",
+              "Lee",
+              "Piatt",
+              "Mason",
+              "Clark",
+              "Bond",
+              "Livingston",
+              "La Salle",
+              "Shelby",
+              "Carroll",
+              "DeKalb",
+              "DeWitt",
+              "Macon",
+              "Kane",
+              "Vermilion",
+              "Tazewell",
+              "Kendall",
+              "Ford",
+              "Stephenson",
+              "Boone",
+              "Christian",
+              "Bureau",
+              "Sangamon"
             ],
             "percentage": 3.38
           }
@@ -2678,47 +2678,47 @@
             "percentage": 53.78
           },
           "1": {
-            "name": "Vote For One / R / Don Tracy",
-            "party": "Democratic",
+            "name": "Don Tracy",
+            "party": "Republican",
             "votes": 648361,
             "counties": [
-              "Mason",
-              "Vermilion",
-              "Logan",
-              "Will",
-              "Whiteside",
-              "Henry",
-              "Bond",
-              "Putnam",
-              "Sangamon",
-              "DeWitt",
-              "La Salle",
-              "Clark",
-              "McHenry",
-              "Kendall",
-              "Carroll",
-              "Macon",
-              "Livingston",
-              "Ogle",
-              "Stephenson",
-              "Douglas",
-              "Boone",
-              "Edgar",
-              "Grundy",
-              "Tazewell",
-              "Moultrie",
-              "Christian",
-              "Kane",
-              "Kankakee",
-              "Lee",
-              "Bloomington",
-              "Bureau",
-              "Ford",
               "Shelby",
-              "DeKalb",
+              "Bond",
+              "Kankakee",
+              "Whiteside",
+              "Ogle",
+              "Logan",
               "DuPage",
+              "Macon",
+              "DeWitt",
+              "Kane",
+              "Vermilion",
+              "Lee",
+              "Douglas",
+              "Will",
+              "Putnam",
+              "Piatt",
+              "Henry",
+              "Boone",
+              "La Salle",
+              "Bureau",
+              "Bloomington",
+              "Kendall",
+              "Mason",
+              "Christian",
+              "Grundy",
+              "McHenry",
+              "Carroll",
+              "Stephenson",
+              "Clark",
+              "Sangamon",
               "Coles",
-              "Piatt"
+              "Moultrie",
+              "Ford",
+              "Tazewell",
+              "DeKalb",
+              "Edgar",
+              "Livingston"
             ],
             "percentage": 44.58
           },
@@ -2727,40 +2727,40 @@
             "party": "Non-Partisan",
             "votes": 20424,
             "counties": [
-              "Mason",
-              "Vermilion",
-              "Logan",
-              "Will",
-              "Whiteside",
               "Putnam",
-              "Bond",
-              "Sangamon",
-              "DeWitt",
-              "La Salle",
-              "Clark",
-              "McHenry",
-              "Kendall",
-              "Carroll",
-              "Macon",
-              "Livingston",
-              "Ogle",
-              "Stephenson",
-              "Douglas",
-              "Boone",
+              "Logan",
               "Edgar",
-              "Grundy",
-              "Tazewell",
               "Moultrie",
-              "Christian",
-              "Kankakee",
-              "Lee",
-              "Bloomington",
-              "Bureau",
-              "Ford",
-              "Shelby",
+              "Douglas",
+              "Grundy",
               "DuPage",
+              "Bloomington",
+              "Whiteside",
+              "Will",
+              "Ogle",
+              "Kankakee",
               "Coles",
-              "Piatt"
+              "Lee",
+              "Piatt",
+              "Mason",
+              "Clark",
+              "Bond",
+              "Livingston",
+              "La Salle",
+              "Shelby",
+              "Carroll",
+              "DeWitt",
+              "Macon",
+              "Vermilion",
+              "McHenry",
+              "Tazewell",
+              "Kendall",
+              "Ford",
+              "Stephenson",
+              "Boone",
+              "Christian",
+              "Bureau",
+              "Sangamon"
             ],
             "percentage": 1.4
           }
@@ -3056,49 +3056,49 @@
             "percentage": 61.04
           },
           "1": {
-            "name": "Vote For One / R / Robert W. Fioretti",
-            "party": "Democratic",
+            "name": "Robert W. Fioretti",
+            "party": "Republican",
             "votes": 935898,
             "counties": [
-              "Mason",
-              "Vermilion",
-              "Logan",
-              "Will",
-              "Henry",
-              "Whiteside",
+              "Shelby",
               "Bond",
-              "Putnam",
-              "Sangamon",
-              "DeWitt",
-              "La Salle",
-              "Clark",
-              "McHenry",
-              "Kendall",
-              "Carroll",
-              "Macon",
-              "Livingston",
-              "Ogle",
-              "Stephenson",
-              "Douglas",
-              "Boone",
-              "Edgar",
-              "Grundy",
-              "Tazewell",
-              "Moultrie",
-              "Christian",
-              "Kane",
+              "Cook",
               "Kankakee",
+              "Whiteside",
+              "Ogle",
+              "Logan",
+              "DuPage",
+              "Macon",
+              "DeWitt",
+              "Kane",
+              "Vermilion",
               "Lee",
+              "Douglas",
+              "Will",
+              "Putnam",
+              "Piatt",
+              "Henry",
+              "Boone",
+              "La Salle",
+              "Bureau",
               "Lake",
               "Bloomington",
-              "Bureau",
-              "Ford",
-              "Shelby",
-              "DeKalb",
-              "DuPage",
+              "Kendall",
+              "Mason",
+              "Christian",
+              "Grundy",
+              "McHenry",
+              "Carroll",
+              "Stephenson",
+              "Clark",
+              "Sangamon",
               "Coles",
-              "Cook",
-              "Piatt"
+              "Moultrie",
+              "Ford",
+              "Tazewell",
+              "DeKalb",
+              "Edgar",
+              "Livingston"
             ],
             "percentage": 38.96
           }
@@ -3396,50 +3396,50 @@
             "percentage": 60.2
           },
           "1": {
-            "name": "Vote For One / R / Bryan Drew",
-            "party": "Democratic",
+            "name": "Bryan Drew",
+            "party": "Republican",
             "votes": 951290,
             "counties": [
-              "Mason",
-              "Vermilion",
-              "Logan",
-              "Will",
-              "Henry",
-              "Whiteside",
+              "Shelby",
               "Bond",
-              "Putnam",
-              "Sangamon",
-              "DeWitt",
-              "La Salle",
-              "Clark",
-              "McHenry",
-              "Kendall",
-              "Carroll",
-              "Macon",
-              "Livingston",
-              "Ogle",
-              "Stephenson",
-              "Douglas",
-              "Boone",
-              "Edgar",
-              "Grundy",
-              "Tazewell",
-              "Jo Daviess",
-              "Christian",
-              "Moultrie",
-              "Kane",
+              "Cook",
               "Kankakee",
+              "Whiteside",
+              "Ogle",
+              "Logan",
+              "DuPage",
+              "Macon",
+              "DeWitt",
+              "Jo Daviess",
+              "Kane",
+              "Vermilion",
               "Lee",
+              "Douglas",
+              "Will",
+              "Putnam",
+              "Piatt",
+              "Henry",
+              "Boone",
+              "La Salle",
+              "Bureau",
               "Lake",
               "Bloomington",
-              "Bureau",
-              "Ford",
-              "Shelby",
-              "DeKalb",
-              "DuPage",
+              "Kendall",
+              "Mason",
+              "Christian",
+              "Grundy",
+              "McHenry",
+              "Carroll",
+              "Stephenson",
+              "Clark",
+              "Sangamon",
               "Coles",
-              "Cook",
-              "Piatt"
+              "Moultrie",
+              "Ford",
+              "Tazewell",
+              "DeKalb",
+              "Edgar",
+              "Livingston"
             ],
             "percentage": 39.77
           }
@@ -3735,49 +3735,49 @@
             "percentage": 64.42
           },
           "1": {
-            "name": "Vote For One / R / Diane M. Harris",
-            "party": "Democratic",
+            "name": "Diane M. Harris",
+            "party": "Republican",
             "votes": 854280,
             "counties": [
-              "Mason",
-              "Vermilion",
-              "Logan",
-              "Will",
-              "Henry",
-              "Whiteside",
+              "Shelby",
               "Bond",
-              "Putnam",
-              "Sangamon",
-              "DeWitt",
-              "La Salle",
-              "Clark",
-              "McHenry",
-              "Kendall",
-              "Carroll",
-              "Macon",
-              "Livingston",
-              "Ogle",
-              "Stephenson",
-              "Douglas",
-              "Boone",
-              "Edgar",
-              "Grundy",
-              "Tazewell",
-              "Moultrie",
-              "Christian",
-              "Kane",
+              "Cook",
               "Kankakee",
+              "Whiteside",
+              "Ogle",
+              "Logan",
+              "DuPage",
+              "Macon",
+              "DeWitt",
+              "Kane",
+              "Vermilion",
               "Lee",
+              "Douglas",
+              "Will",
+              "Putnam",
+              "Piatt",
+              "Henry",
+              "Boone",
+              "La Salle",
+              "Bureau",
               "Lake",
               "Bloomington",
-              "Bureau",
-              "Ford",
-              "Shelby",
-              "DeKalb",
-              "DuPage",
+              "Kendall",
+              "Mason",
+              "Christian",
+              "Grundy",
+              "McHenry",
+              "Carroll",
+              "Stephenson",
+              "Clark",
+              "Sangamon",
               "Coles",
-              "Cook",
-              "Piatt"
+              "Moultrie",
+              "Ford",
+              "Tazewell",
+              "DeKalb",
+              "Edgar",
+              "Livingston"
             ],
             "percentage": 35.58
           }
@@ -4068,46 +4068,46 @@
             "percentage": 51.05
           },
           "1": {
-            "name": "Vote For One / R / Max Solomon",
-            "party": "Democratic",
+            "name": "Max Solomon",
+            "party": "Republican",
             "votes": 503641,
             "counties": [
-              "Mason",
-              "Vermilion",
-              "Logan",
-              "Whiteside",
-              "Henry",
+              "Shelby",
               "Bond",
-              "Putnam",
-              "Sangamon",
-              "DeWitt",
-              "La Salle",
-              "Clark",
-              "McHenry",
-              "Kendall",
-              "Carroll",
-              "Macon",
-              "Livingston",
-              "Ogle",
-              "Stephenson",
-              "Douglas",
-              "Boone",
-              "Edgar",
-              "Grundy",
-              "Tazewell",
-              "Jo Daviess",
-              "Christian",
-              "Moultrie",
-              "Kane",
               "Kankakee",
+              "Whiteside",
+              "Ogle",
+              "Logan",
+              "Macon",
+              "DeWitt",
+              "Jo Daviess",
+              "Kane",
+              "Vermilion",
               "Lee",
+              "Douglas",
+              "Putnam",
+              "Piatt",
+              "Henry",
+              "Boone",
+              "La Salle",
+              "Bureau",
               "Lake",
               "Bloomington",
-              "Bureau",
-              "Ford",
-              "Shelby",
+              "Kendall",
+              "Mason",
+              "Christian",
+              "Grundy",
+              "McHenry",
+              "Carroll",
+              "Stephenson",
+              "Clark",
+              "Sangamon",
               "Coles",
-              "Piatt"
+              "Moultrie",
+              "Ford",
+              "Tazewell",
+              "Edgar",
+              "Livingston"
             ],
             "percentage": 44.7
           }
@@ -5331,25 +5331,25 @@
         "num_counties": 15,
         "candidates": {
           "0": {
-            "name": "Vote For One / R / Darin Lahood",
-            "party": "Democratic",
+            "name": "Darin Lahood",
+            "party": "Republican",
             "votes": 98224,
             "counties": [
-              "Bureau",
-              "Ford",
               "Boone",
-              "McHenry",
-              "Henry",
+              "Bureau",
               "DeKalb",
+              "Ford",
               "Grundy",
-              "Putnam",
-              "Livingston",
-              "Tazewell",
+              "Henry",
               "Jo Daviess",
               "La Salle",
-              "Ogle",
               "Lee",
-              "Stephenson"
+              "Livingston",
+              "McHenry",
+              "Ogle",
+              "Putnam",
+              "Stephenson",
+              "Tazewell"
             ],
             "percentage": 61.06
           },
@@ -5445,15 +5445,15 @@
         "num_counties": 5,
         "candidates": {
           "0": {
-            "name": "Vote For One / R / Dillan S. Vancil",
-            "party": "Democratic",
+            "name": "Dillan S. Vancil",
+            "party": "Republican",
             "votes": 25095,
             "counties": [
               "Carroll",
-              "Whiteside",
               "Henry",
+              "Stephenson",
               "Tazewell",
-              "Stephenson"
+              "Whiteside"
             ],
             "percentage": 52.74
           },
@@ -6566,15 +6566,15 @@
       },
       "district_36": {
         "name": "FOR STATE SENATOR THIRTY-SIXTH LEGISLATIVE DISTRICT",
-        "party": "Democratic",
+        "party": "Republican",
         "counties": [
           "Henry"
         ],
         "num_counties": 1,
         "candidates": {
           "0": {
-            "name": "Vote For One / R / Brad Beekman",
-            "party": "Democratic",
+            "name": "Brad Beekman",
+            "party": "Republican",
             "votes": 2611,
             "counties": [
               "Henry"
@@ -6622,55 +6622,58 @@
           "Bureau",
           "DeKalb",
           "Grundy",
+          "La Salle",
           "Will"
         ],
-        "num_counties": 4,
+        "num_counties": 5,
         "candidates": {
           "0": {
-            "name": "Ernie R. Marcelain",
-            "party": "Democratic",
-            "votes": 14986,
-            "counties": [
-              "Bureau",
-              "DeKalb",
-              "Grundy",
-              "Will"
-            ],
-            "percentage": 54.74
-          },
-          "1": {
             "name": "Sue Rezin",
             "party": "Republican",
-            "votes": 12389,
+            "votes": 27693,
             "counties": [
               "Bureau",
               "DeKalb",
               "Grundy",
+              "La Salle",
               "Will"
             ],
-            "percentage": 45.26
+            "percentage": 52.07
+          },
+          "1": {
+            "name": "Ernie R. Marcelain",
+            "party": "Democratic",
+            "votes": 25489,
+            "counties": [
+              "Bureau",
+              "DeKalb",
+              "Grundy",
+              "La Salle",
+              "Will"
+            ],
+            "percentage": 47.93
           }
         },
-        "precincts_reporting": 64,
-        "total_precincts": 64,
-        "total_votes": 27375,
+        "precincts_reporting": 138,
+        "total_precincts": 138,
+        "total_votes": 53182,
         "counties_needed": [
           "Bureau",
           "DeKalb",
           "Grundy",
           "Kendall",
-          "LaSalle",
+          "La Salle",
           "Will"
         ],
         "counties_found": [
           "Bureau",
           "DeKalb",
           "Grundy",
+          "La Salle",
           "Will"
         ],
         "counties_missing": [
-          "Kendall",
-          "LaSalle"
+          "Kendall"
         ],
         "complete": false,
         "district": 38
@@ -6873,46 +6876,49 @@
           "Boone",
           "Carroll",
           "DeKalb",
+          "Jo Daviess",
           "Ogle",
           "Stephenson"
         ],
-        "num_counties": 5,
+        "num_counties": 6,
         "candidates": {
           "0": {
             "name": "Andrew S. Chesney",
             "party": "Republican",
-            "votes": 25864,
+            "votes": 31969,
             "counties": [
               "Boone",
               "Carroll",
               "DeKalb",
+              "Jo Daviess",
               "Ogle",
               "Stephenson"
             ],
-            "percentage": 63.1
+            "percentage": 62.43
           },
           "1": {
             "name": "Joseph H. \"joe\" Berning",
             "party": "Democratic",
-            "votes": 15123,
+            "votes": 19239,
             "counties": [
               "Boone",
               "Carroll",
               "DeKalb",
+              "Jo Daviess",
               "Ogle",
               "Stephenson"
             ],
-            "percentage": 36.9
+            "percentage": 37.57
           }
         },
-        "precincts_reporting": 101,
-        "total_precincts": 101,
-        "total_votes": 40987,
+        "precincts_reporting": 129,
+        "total_precincts": 129,
+        "total_votes": 51208,
         "counties_needed": [
           "Boone",
           "Carroll",
           "DeKalb",
-          "JoDaviess",
+          "Jo Daviess",
           "Ogle",
           "Stephenson",
           "Winnebago"
@@ -6921,11 +6927,11 @@
           "Boone",
           "Carroll",
           "DeKalb",
+          "Jo Daviess",
           "Ogle",
           "Stephenson"
         ],
         "counties_missing": [
-          "JoDaviess",
           "Winnebago"
         ],
         "complete": false,
@@ -6933,7 +6939,7 @@
       },
       "district_47": {
         "name": "FOR STATE SENATOR FORTY-SEVENTH LEGISLATIVE DISTRICT",
-        "party": "Democratic",
+        "party": "Republican",
         "counties": [
           "Henry",
           "Mason",
@@ -6942,12 +6948,12 @@
         "num_counties": 3,
         "candidates": {
           "0": {
-            "name": "Vote For One / R / Neil Anderson",
-            "party": "Democratic",
+            "name": "Neil Anderson",
+            "party": "Republican",
             "votes": 20397,
             "counties": [
-              "Mason",
               "Henry",
+              "Mason",
               "Tazewell"
             ],
             "percentage": 100.0
@@ -7120,21 +7126,23 @@
           "Bureau",
           "Ford",
           "Grundy",
+          "La Salle",
           "Livingston",
           "Putnam",
           "Tazewell",
           "Will"
         ],
-        "num_counties": 7,
+        "num_counties": 8,
         "candidates": {
           "0": {
             "name": "Chris Balkema",
             "party": "Republican",
-            "votes": 30394,
+            "votes": 36260,
             "counties": [
               "Bureau",
               "Ford",
               "Grundy",
+              "La Salle",
               "Livingston",
               "Putnam",
               "Tazewell",
@@ -7143,15 +7151,15 @@
             "percentage": 100.0
           }
         },
-        "precincts_reporting": 121,
-        "total_precincts": 121,
-        "total_votes": 30394,
+        "precincts_reporting": 151,
+        "total_precincts": 151,
+        "total_votes": 36260,
         "counties_needed": [
           "Bureau",
           "Ford",
           "Grundy",
           "Iroquois",
-          "LaSalle",
+          "La Salle",
           "Livingston",
           "Marshall",
           "McLean",
@@ -7165,6 +7173,7 @@
           "Bureau",
           "Ford",
           "Grundy",
+          "La Salle",
           "Livingston",
           "Putnam",
           "Tazewell",
@@ -7172,7 +7181,6 @@
         ],
         "counties_missing": [
           "Iroquois",
-          "LaSalle",
           "Marshall",
           "McLean",
           "Peoria",
@@ -9939,15 +9947,15 @@
       },
       "district_71": {
         "name": "FOR REPRESENTATIVE IN THE GENERAL ASSEMBLY SEVENTY-FIRST REPRESENTATIVE DISTRICT",
-        "party": "Democratic",
+        "party": "Republican",
         "counties": [
           "Henry"
         ],
         "num_counties": 1,
         "candidates": {
           "0": {
-            "name": "Vote For One / R / Dan Swanson",
-            "party": "Democratic",
+            "name": "Dan Swanson",
+            "party": "Republican",
             "votes": 3035,
             "counties": [
               "Henry"
@@ -10000,14 +10008,14 @@
         "num_counties": 4,
         "candidates": {
           "0": {
-            "name": "Vote For One / R / Ryan Spain",
-            "party": "Democratic",
+            "name": "Ryan Spain",
+            "party": "Republican",
             "votes": 14377,
             "counties": [
-              "Whiteside",
+              "Bureau",
               "Henry",
               "Lee",
-              "Bureau"
+              "Whiteside"
             ],
             "percentage": 65.2
           },
@@ -10056,53 +10064,56 @@
         "name": "STATE REPRESENTATIVE 74TH DISTRICT",
         "party": "Non-Partisan",
         "counties": [
+          "La Salle",
           "Lee",
           "Ogle",
           "Whiteside"
         ],
-        "num_counties": 3,
+        "num_counties": 4,
         "candidates": {
           "0": {
             "name": "Bradley J. Fritts",
             "party": "Republican",
-            "votes": 16994,
+            "votes": 19976,
             "counties": [
+              "La Salle",
               "Lee",
               "Ogle",
               "Whiteside"
             ],
-            "percentage": 57.03
+            "percentage": 57.48
           },
           "1": {
             "name": "Nolan Kemp",
             "party": "Democratic",
-            "votes": 12805,
+            "votes": 14774,
             "counties": [
+              "La Salle",
               "Lee",
               "Ogle",
               "Whiteside"
             ],
-            "percentage": 42.97
+            "percentage": 42.52
           }
         },
-        "precincts_reporting": 100,
-        "total_precincts": 100,
-        "total_votes": 29799,
+        "precincts_reporting": 119,
+        "total_precincts": 119,
+        "total_votes": 34750,
         "counties_needed": [
           "DeKalb",
-          "LaSalle",
+          "La Salle",
           "Lee",
           "Ogle",
           "Whiteside"
         ],
         "counties_found": [
+          "La Salle",
           "Lee",
           "Ogle",
           "Whiteside"
         ],
         "counties_missing": [
-          "DeKalb",
-          "LaSalle"
+          "DeKalb"
         ],
         "complete": false,
         "district": 74
@@ -10113,51 +10124,54 @@
         "counties": [
           "Grundy",
           "Kendall",
+          "La Salle",
           "Will"
         ],
-        "num_counties": 3,
+        "num_counties": 4,
         "candidates": {
           "0": {
             "name": "Jed Davis",
             "party": "Republican",
-            "votes": 16654,
+            "votes": 20271,
             "counties": [
               "Grundy",
               "Kendall",
+              "La Salle",
               "Will"
             ],
-            "percentage": 51.81
+            "percentage": 53.82
           },
           "1": {
             "name": "Caroline McCree",
             "party": "Democratic",
-            "votes": 15489,
+            "votes": 17395,
             "counties": [
               "Grundy",
               "Kendall",
+              "La Salle",
               "Will"
             ],
-            "percentage": 48.19
+            "percentage": 46.18
           }
         },
-        "precincts_reporting": 56,
-        "total_precincts": 56,
-        "total_votes": 32143,
+        "precincts_reporting": 70,
+        "total_precincts": 70,
+        "total_votes": 37666,
         "counties_needed": [
           "DeKalb",
           "Grundy",
           "Kendall",
-          "LaSalle",
+          "La Salle",
           "Will"
         ],
         "counties_found": [
           "Grundy",
           "Kendall",
+          "La Salle",
           "Will"
         ],
         "counties_missing": [
-          "DeKalb",
-          "LaSalle"
+          "DeKalb"
         ],
         "complete": false,
         "district": 75
@@ -10166,43 +10180,46 @@
         "name": "STATE REPRESENTATIVE 76TH DISTRICT",
         "party": "Non-Partisan",
         "counties": [
-          "Bureau"
+          "Bureau",
+          "La Salle"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
-            "name": "Amy \"murri\" Briel",
-            "party": "Democratic",
-            "votes": 1643,
-            "counties": [
-              "Bureau"
-            ],
-            "percentage": 54.48
-          },
-          "1": {
             "name": "Liz Bishop",
             "party": "Republican",
-            "votes": 1373,
+            "votes": 11582,
             "counties": [
-              "Bureau"
+              "Bureau",
+              "La Salle"
             ],
-            "percentage": 45.52
+            "percentage": 50.15
+          },
+          "1": {
+            "name": "Amy \"murri\" Briel",
+            "party": "Democratic",
+            "votes": 11511,
+            "counties": [
+              "Bureau",
+              "La Salle"
+            ],
+            "percentage": 49.85
           }
         },
-        "precincts_reporting": 13,
-        "total_precincts": 13,
-        "total_votes": 3016,
+        "precincts_reporting": 74,
+        "total_precincts": 74,
+        "total_votes": 23093,
         "counties_needed": [
           "Bureau",
           "DeKalb",
-          "LaSalle"
+          "La Salle"
         ],
         "counties_found": [
-          "Bureau"
+          "Bureau",
+          "La Salle"
         ],
         "counties_missing": [
-          "DeKalb",
-          "LaSalle"
+          "DeKalb"
         ],
         "complete": false,
         "district": 76
@@ -10739,32 +10756,34 @@
         "counties": [
           "Boone",
           "Carroll",
+          "Jo Daviess",
           "Ogle",
           "Stephenson"
         ],
-        "num_counties": 4,
+        "num_counties": 5,
         "candidates": {
           "0": {
             "name": "Tony M. McCombie",
             "party": "Republican",
-            "votes": 19889,
+            "votes": 27862,
             "counties": [
               "Boone",
               "Carroll",
+              "Jo Daviess",
               "Ogle",
               "Stephenson"
             ],
             "percentage": 100.0
           }
         },
-        "precincts_reporting": 66,
-        "total_precincts": 66,
-        "total_votes": 19889,
+        "precincts_reporting": 94,
+        "total_precincts": 94,
+        "total_votes": 27862,
         "counties_needed": [
           "Boone",
           "Carroll",
           "DeKalb",
-          "JoDaviess",
+          "Jo Daviess",
           "Ogle",
           "Stephenson",
           "Winnebago"
@@ -10772,12 +10791,12 @@
         "counties_found": [
           "Boone",
           "Carroll",
+          "Jo Daviess",
           "Ogle",
           "Stephenson"
         ],
         "counties_missing": [
           "DeKalb",
-          "JoDaviess",
           "Winnebago"
         ],
         "complete": false,
@@ -10861,7 +10880,7 @@
       },
       "district_93": {
         "name": "FOR REPRESENTATIVE IN THE GENERAL ASSEMBLY NINETY-THIRD REPRESENTATIVE DISTRICT",
-        "party": "Democratic",
+        "party": "Republican",
         "counties": [
           "Henry",
           "Tazewell"
@@ -10869,8 +10888,8 @@
         "num_counties": 2,
         "candidates": {
           "0": {
-            "name": "Vote For One / R / Travis Weaver",
-            "party": "Democratic",
+            "name": "Travis Weaver",
+            "party": "Republican",
             "votes": 16152,
             "counties": [
               "Henry",
@@ -11173,29 +11192,31 @@
         "party": "Non-Partisan",
         "counties": [
           "Bureau",
+          "La Salle",
           "Putnam",
           "Tazewell"
         ],
-        "num_counties": 3,
+        "num_counties": 4,
         "candidates": {
           "0": {
             "name": "Tim Ruestman",
             "party": "Republican",
-            "votes": 8276,
+            "votes": 9002,
             "counties": [
               "Bureau",
+              "La Salle",
               "Putnam",
               "Tazewell"
             ],
             "percentage": 100.0
           }
         },
-        "precincts_reporting": 26,
-        "total_precincts": 26,
-        "total_votes": 8276,
+        "precincts_reporting": 30,
+        "total_precincts": 30,
+        "total_votes": 9002,
         "counties_needed": [
           "Bureau",
-          "LaSalle",
+          "La Salle",
           "McLean",
           "Peoria",
           "Putnam",
@@ -11204,11 +11225,11 @@
         ],
         "counties_found": [
           "Bureau",
+          "La Salle",
           "Putnam",
           "Tazewell"
         ],
         "counties_missing": [
-          "LaSalle",
           "McLean",
           "Peoria",
           "Woodford"
@@ -11221,38 +11242,40 @@
         "party": "Non-Partisan",
         "counties": [
           "Grundy",
+          "La Salle",
           "Will"
         ],
-        "num_counties": 2,
+        "num_counties": 3,
         "candidates": {
           "0": {
             "name": "Jason R. Bunting",
             "party": "Republican",
-            "votes": 7900,
+            "votes": 13035,
             "counties": [
               "Grundy",
+              "La Salle",
               "Will"
             ],
             "percentage": 100.0
           }
         },
-        "precincts_reporting": 29,
-        "total_precincts": 29,
-        "total_votes": 7900,
+        "precincts_reporting": 55,
+        "total_precincts": 55,
+        "total_votes": 13035,
         "counties_needed": [
           "Grundy",
           "Iroquois",
-          "LaSalle",
+          "La Salle",
           "McLean",
           "Will"
         ],
         "counties_found": [
           "Grundy",
+          "La Salle",
           "Will"
         ],
         "counties_missing": [
           "Iroquois",
-          "LaSalle",
           "McLean"
         ],
         "complete": false,
@@ -11511,17 +11534,17 @@
         "num_counties": 7,
         "candidates": {
           "0": {
-            "name": "Vote For One / R / Christopher J. Tennyson",
-            "party": "Democratic",
+            "name": "Christopher J. Tennyson",
+            "party": "Republican",
             "votes": 40760,
             "counties": [
-              "Bureau",
-              "Whiteside",
-              "Henry",
-              "DeKalb",
-              "Ogle",
               "Lee",
-              "Stephenson"
+              "Ogle",
+              "Whiteside",
+              "Stephenson",
+              "DeKalb",
+              "Henry",
+              "Bureau"
             ],
             "percentage": 100.0
           }
@@ -11885,14 +11908,14 @@
         "num_counties": 4,
         "candidates": {
           "0": {
-            "name": "Vote For One / R / Kathy Marshall",
-            "party": "Democratic",
+            "name": "Kathy Marshall",
+            "party": "Republican",
             "votes": 24833,
             "counties": [
-              "Whiteside",
+              "Bureau",
               "Henry",
               "Lee",
-              "Bureau"
+              "Whiteside"
             ],
             "percentage": 100.0
           }
@@ -12321,7 +12344,7 @@
     "Shelby": {
       "county": "Shelby",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.456352",
+      "scraped_at": "2026-11-04T00:50:56.535872",
       "source": "pollresults.net \u2014 https://il-shelby.pollresults.net",
       "summary": {
         "registered_voters": 14936,
@@ -13114,7 +13137,7 @@
     "Bond": {
       "county": "Bond",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:09.835821",
+      "scraped_at": "2026-11-04T00:50:56.294462",
       "source": "pollresults.net \u2014 https://il-bond.pollresults.net",
       "summary": {
         "registered_voters": 10536,
@@ -13617,7 +13640,7 @@
       "authority": "Cook County Clerk",
       "coverage": "Suburban Cook County (excluding Chicago)",
       "source": "Live HTML \u2014 https://electionnight.cookcountyclerkil.gov/",
-      "scraped_at": "2026-11-04T00:43:59.412107",
+      "scraped_at": "2026-11-04T00:50:38.963682",
       "contests": [
         {
           "name": "Senator, U.S. - Vote For 1",
@@ -17440,14 +17463,14 @@
     "Mercer": {
       "county": "Mercer",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:09.642486",
+      "scraped_at": "2026-11-04T00:50:56.568303",
       "source": "pollresults.net \u2014 https://il-mercer.pollresults.net",
       "summary": {},
       "contests": []
     },
     "Kankakee": {
       "county": "Kankakee",
-      "scraped_at": "2026-11-04T00:44:07.263354",
+      "scraped_at": "2026-11-04T00:50:52.608440",
       "total_contests": 48,
       "contests_by_party": {
         "Democratic": {
@@ -18615,7 +18638,7 @@
     "Washington": {
       "county": "Washington",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.659484",
+      "scraped_at": "2026-11-04T00:50:56.370932",
       "source": "pollresults.net \u2014 https://il-washington.pollresults.net",
       "summary": {},
       "contests": []
@@ -18623,7 +18646,7 @@
     "Hancock": {
       "county": "Hancock",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:09.581049",
+      "scraped_at": "2026-11-04T00:50:56.372546",
       "source": "pollresults.net \u2014 https://il-hancock.pollresults.net",
       "summary": {},
       "contests": []
@@ -18631,7 +18654,7 @@
     "Richland": {
       "county": "Richland",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.584892",
+      "scraped_at": "2026-11-04T00:50:56.403932",
       "source": "pollresults.net \u2014 https://il-richland.pollresults.net",
       "summary": {},
       "contests": []
@@ -18639,7 +18662,7 @@
     "Whiteside": {
       "county": "Whiteside",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.457127",
+      "scraped_at": "2026-11-04T00:50:56.501644",
       "source": "pollresults.net \u2014 https://il-whiteside.pollresults.net",
       "summary": {
         "registered_voters": 37781,
@@ -19220,7 +19243,7 @@
     "Franklin": {
       "county": "Franklin",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:09.963107",
+      "scraped_at": "2026-11-04T00:50:56.359565",
       "source": "pollresults.net \u2014 https://il-franklin.pollresults.net",
       "summary": {},
       "contests": []
@@ -19228,7 +19251,7 @@
     "Effingham": {
       "county": "Effingham",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:09.893816",
+      "scraped_at": "2026-11-04T00:50:56.401796",
       "source": "pollresults.net \u2014 https://il-effingham.pollresults.net",
       "summary": {},
       "contests": []
@@ -19236,7 +19259,7 @@
     "Ogle": {
       "county": "Ogle",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:09.964817",
+      "scraped_at": "2026-11-04T00:50:56.133213",
       "source": "pollresults.net \u2014 https://il-ogle.pollresults.net",
       "summary": {
         "registered_voters": 35426,
@@ -19936,7 +19959,7 @@
     "Logan": {
       "county": "Logan",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.001835",
+      "scraped_at": "2026-11-04T00:50:56.167913",
       "source": "pollresults.net \u2014 https://il-logan.pollresults.net",
       "summary": {
         "registered_voters": 17936,
@@ -20517,7 +20540,7 @@
     "DuPage": {
       "summary": {},
       "county": "DuPage County",
-      "scraped_at": "2026-11-04T00:43:54.026616",
+      "scraped_at": "2026-11-04T00:50:34.015717",
       "source": "Scytl summary JSON",
       "election_id": "127290",
       "contests": [
@@ -22050,7 +22073,7 @@
     "Macon": {
       "county": "Macon",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:11.386370",
+      "scraped_at": "2026-11-04T00:50:56.194048",
       "source": "pollresults.net \u2014 https://il-macon.pollresults.net",
       "summary": {
         "registered_voters": 69503,
@@ -23009,7 +23032,7 @@
     "Fayette": {
       "county": "Fayette",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.372144",
+      "scraped_at": "2026-11-04T00:50:56.152461",
       "source": "pollresults.net \u2014 https://il-fayette.pollresults.net",
       "summary": {},
       "contests": []
@@ -23017,7 +23040,7 @@
     "Crawford": {
       "county": "Crawford",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.119410",
+      "scraped_at": "2026-11-04T00:50:56.173586",
       "source": "pollresults.net \u2014 https://il-crawford.pollresults.net",
       "summary": {},
       "contests": []
@@ -23025,7 +23048,7 @@
     "Clinton": {
       "county": "Clinton",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:09.981872",
+      "scraped_at": "2026-11-04T00:50:56.196604",
       "source": "pollresults.net \u2014 https://il-clinton.pollresults.net",
       "summary": {},
       "contests": []
@@ -23033,7 +23056,7 @@
     "Wayne": {
       "county": "Wayne",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.499610",
+      "scraped_at": "2026-11-04T00:50:56.546957",
       "source": "pollresults.net \u2014 https://il-wayne.pollresults.net",
       "summary": {},
       "contests": []
@@ -23041,7 +23064,7 @@
     "Hardin": {
       "county": "Hardin",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:09.846727",
+      "scraped_at": "2026-11-04T00:50:56.362790",
       "source": "pollresults.net \u2014 https://il-hardin.pollresults.net",
       "summary": {},
       "contests": []
@@ -23049,7 +23072,7 @@
     "Brown": {
       "county": "Brown",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:09.882984",
+      "scraped_at": "2026-11-04T00:50:56.302658",
       "source": "pollresults.net \u2014 https://il-brown.pollresults.net",
       "summary": {},
       "contests": []
@@ -23057,7 +23080,7 @@
     "Clay": {
       "county": "Clay",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:09.761340",
+      "scraped_at": "2026-11-04T00:50:56.291250",
       "source": "pollresults.net \u2014 https://il-clay.pollresults.net",
       "summary": {},
       "contests": []
@@ -23065,7 +23088,7 @@
     "Montgomery": {
       "county": "Montgomery",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:11.379003",
+      "scraped_at": "2026-11-04T00:50:56.564270",
       "source": "pollresults.net \u2014 https://il-montgomery.pollresults.net",
       "summary": {},
       "contests": []
@@ -23073,7 +23096,7 @@
     "Henderson": {
       "county": "Henderson",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.341242",
+      "scraped_at": "2026-11-04T00:50:56.301773",
       "source": "pollresults.net \u2014 https://il-henderson.pollresults.net",
       "summary": {},
       "contests": []
@@ -23081,7 +23104,7 @@
     "DeWitt": {
       "county": "DeWitt",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:09.849779",
+      "scraped_at": "2026-11-04T00:50:56.067464",
       "source": "pollresults.net \u2014 https://il-dewitt.pollresults.net",
       "summary": {
         "registered_voters": 10717,
@@ -24089,7 +24112,7 @@
       },
       "county": "Kane County",
       "election_date": "2026-11-03",
-      "scraped_at": "2026-11-04T00:44:01.594281",
+      "scraped_at": "2026-11-04T00:50:41.091422",
       "source": "Kane County custom platform",
       "contests": [
         {
@@ -25133,7 +25156,7 @@
     "Menard": {
       "county": "Menard",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.399212",
+      "scraped_at": "2026-11-04T00:50:56.097321",
       "source": "pollresults.net \u2014 https://il-menard.pollresults.net",
       "summary": {},
       "contests": []
@@ -25141,7 +25164,7 @@
     "Massac": {
       "county": "Massac",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.568612",
+      "scraped_at": "2026-11-04T00:50:56.308477",
       "source": "pollresults.net \u2014 https://il-massac.pollresults.net",
       "summary": {},
       "contests": []
@@ -25149,7 +25172,7 @@
     "White": {
       "county": "White",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:11.379013",
+      "scraped_at": "2026-11-04T00:50:56.544166",
       "source": "pollresults.net \u2014 https://il-white.pollresults.net",
       "summary": {},
       "contests": []
@@ -25157,7 +25180,7 @@
     "Vermilion": {
       "county": "Vermilion",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:11.399455",
+      "scraped_at": "2026-11-04T00:50:56.543278",
       "source": "pollresults.net \u2014 https://il-vermilion.pollresults.net",
       "summary": {
         "registered_voters": 29291,
@@ -25934,7 +25957,7 @@
     "Lee": {
       "county": "Lee",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:09.914208",
+      "scraped_at": "2026-11-04T00:50:56.350608",
       "source": "pollresults.net \u2014 https://il-lee.pollresults.net",
       "summary": {
         "registered_voters": 22398,
@@ -26516,7 +26539,7 @@
     "Wabash": {
       "county": "Wabash",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.535009",
+      "scraped_at": "2026-11-04T00:50:56.461406",
       "source": "pollresults.net \u2014 https://il-wabash.pollresults.net",
       "summary": {},
       "contests": []
@@ -26524,7 +26547,7 @@
     "Madison": {
       "county": "Madison",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.366483",
+      "scraped_at": "2026-11-04T00:50:56.371057",
       "source": "pollresults.net \u2014 https://il-madison.pollresults.net",
       "summary": {},
       "contests": []
@@ -26532,7 +26555,7 @@
     "Douglas": {
       "county": "Douglas",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.570293",
+      "scraped_at": "2026-11-04T00:50:56.199657",
       "source": "pollresults.net \u2014 https://il-douglas.pollresults.net",
       "summary": {
         "registered_voters": 11940,
@@ -27061,14 +27084,14 @@
     "Adams": {
       "county": "Adams",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:09.734156",
+      "scraped_at": "2026-11-04T00:50:56.190823",
       "source": "pollresults.net \u2014 https://il-adams.pollresults.net",
       "summary": {},
       "contests": []
     },
     "Will": {
       "county": "Will",
-      "scraped_at": "2026-11-04T00:43:54.200332",
+      "scraped_at": "2026-11-04T00:50:34.179367",
       "total_contests": 71,
       "contests_by_party": {
         "Democratic": {
@@ -28842,7 +28865,7 @@
     },
     "Winnebago": {
       "county": "Winnebago",
-      "scraped_at": "2026-11-04T00:44:02.591133",
+      "scraped_at": "2026-11-04T00:50:41.462362",
       "total_contests": 0,
       "contests_by_party": {
         "Democratic": {
@@ -28862,7 +28885,7 @@
     "Scott": {
       "county": "Scott",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.582228",
+      "scraped_at": "2026-11-04T00:50:56.499791",
       "source": "pollresults.net \u2014 https://il-scott.pollresults.net",
       "summary": {},
       "contests": []
@@ -28870,7 +28893,7 @@
     "Putnam": {
       "county": "Putnam",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:11.367469",
+      "scraped_at": "2026-11-04T00:50:56.494534",
       "source": "pollresults.net \u2014 https://il-putnam.pollresults.net",
       "summary": {
         "registered_voters": 4019,
@@ -29258,7 +29281,7 @@
     "Piatt": {
       "county": "Piatt",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.579522",
+      "scraped_at": "2026-11-04T00:50:56.952672",
       "source": "pollresults.net \u2014 https://il-piatt.pollresults.net",
       "summary": {
         "registered_voters": 12719,
@@ -29903,7 +29926,7 @@
     "Cass": {
       "county": "Cass",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.008488",
+      "scraped_at": "2026-11-04T00:50:56.300152",
       "source": "pollresults.net \u2014 https://il-cass.pollresults.net",
       "summary": {},
       "contests": []
@@ -29911,7 +29934,7 @@
     "Randolph": {
       "county": "Randolph",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.361597",
+      "scraped_at": "2026-11-04T00:50:56.553481",
       "source": "pollresults.net \u2014 https://il-randolph.pollresults.net",
       "summary": {},
       "contests": []
@@ -29919,30 +29942,28 @@
     "Monroe": {
       "county": "Monroe",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.670855",
+      "scraped_at": "2026-11-04T00:50:56.540326",
       "source": "pollresults.net \u2014 https://il-monroe.pollresults.net",
       "summary": {},
       "contests": []
     },
     "Henry": {
       "county": "Henry",
-      "scraped_at": "2026-11-04T00:44:05.586293",
+      "scraped_at": "2026-11-04T00:50:51.130204",
       "total_contests": 27,
       "contests_by_party": {
         "Democratic": {
-          "count": 20,
+          "count": 0,
+          "contests": []
+        },
+        "Republican": {
+          "count": 22,
           "contests": [
             {
               "contest_name": "FOR COUNTY CLERK AND RECORDER",
-              "party": "Democratic",
+              "party": "Republican",
               "county": "Henry",
               "candidates": [
-                {
-                  "name": "(Vote for one) / R / No Candidate",
-                  "party": "",
-                  "votes": 0,
-                  "percentage": 0.0
-                },
                 {
                   "name": "Barb Link",
                   "party": "Democratic",
@@ -29956,12 +29977,12 @@
             },
             {
               "contest_name": "FOR COUNTY TREASURER",
-              "party": "Democratic",
+              "party": "Republican",
               "county": "Henry",
               "candidates": [
                 {
-                  "name": "(Vote for one) / R / Kelly J. Vincent",
-                  "party": "",
+                  "name": "Kelly J. Vincent",
+                  "party": "Republican",
                   "votes": 15393,
                   "percentage": 100.0
                 }
@@ -29972,12 +29993,12 @@
             },
             {
               "contest_name": "FOR COUNTY SHERIFF",
-              "party": "Democratic",
+              "party": "Republican",
               "county": "Henry",
               "candidates": [
                 {
-                  "name": "(Vote for one) / R / Joshua C. Verscheure",
-                  "party": "",
+                  "name": "Joshua C. Verscheure",
+                  "party": "Republican",
                   "votes": 15448,
                   "percentage": 100.0
                 }
@@ -29988,12 +30009,12 @@
             },
             {
               "contest_name": "FOR REGIONAL SUPERINTENDENT OF SCHOOLS (BUREUA, HENRY AND STARK COUNTIES)",
-              "party": "Democratic",
+              "party": "Republican",
               "county": "Henry",
               "candidates": [
                 {
-                  "name": "(Vote for one) / R / Kathy Marshall",
-                  "party": "",
+                  "name": "Kathy Marshall",
+                  "party": "Republican",
                   "votes": 14919,
                   "percentage": 100.0
                 }
@@ -30004,12 +30025,12 @@
             },
             {
               "contest_name": "FOR REGIONAL SUPERINTENDENT OF SCHOOLS (HENDERSON, KNOX AND WARREN COUNTIES)",
-              "party": "Democratic",
+              "party": "Republican",
               "county": "Henry",
               "candidates": [
                 {
-                  "name": "(Vote for one) / R / Kathryn Jennings",
-                  "party": "",
+                  "name": "Kathryn Jennings",
+                  "party": "Republican",
                   "votes": 10,
                   "percentage": 100.0
                 }
@@ -30020,12 +30041,12 @@
             },
             {
               "contest_name": "FOR REGIONAL SUPERINTENDENT OF SCHOOLS (LEE, OGLE AND WHITESIDE COUNTIES)",
-              "party": "Democratic",
+              "party": "Republican",
               "county": "Henry",
               "candidates": [
                 {
-                  "name": "(Vote for one) / R / Christopher J. Tennyson",
-                  "party": "",
+                  "name": "Christopher J. Tennyson",
+                  "party": "Republican",
                   "votes": 30,
                   "percentage": 100.0
                 }
@@ -30035,344 +30056,13 @@
               "reporting_percentage": 100.0
             },
             {
-              "contest_name": "FOR COUNTY BOARD - DISTRICT 2 (TO SERVE AN UNEXPIRED 2-YEAR TERM)",
-              "party": "Democratic",
-              "county": "Henry",
-              "candidates": [
-                {
-                  "name": "(Vote for one) / R / Crystal Strode",
-                  "party": "",
-                  "votes": 6395,
-                  "percentage": 100.0
-                }
-              ],
-              "precincts_reporting": 28,
-              "total_precincts": 28,
-              "reporting_percentage": 100.0
-            },
-            {
-              "contest_name": "FOR GOVERNOR AND LIEUTENANT GOVERNOR",
-              "party": "Democratic",
-              "county": "Henry",
-              "candidates": [
-                {
-                  "name": "(Vote for one) / R / (Darren Bailey / (Aaron B. Del Mar",
-                  "party": "",
-                  "votes": 11476,
-                  "percentage": 59.15
-                },
-                {
-                  "name": "(JB Pritzker / (Christian Mitchell",
-                  "party": "Democratic",
-                  "votes": 7150,
-                  "percentage": 36.86
-                },
-                {
-                  "name": "I / (Collin Corbett / (Carolyn Schofield",
-                  "party": "Democratic",
-                  "votes": 761,
-                  "percentage": 3.92
-                },
-                {
-                  "name": "show more / WRITE-IN",
-                  "party": "Democratic",
-                  "votes": 13,
-                  "percentage": 0.07
-                }
-              ],
-              "precincts_reporting": 52,
-              "total_precincts": 52,
-              "reporting_percentage": 100.0
-            },
-            {
-              "contest_name": "FOR ATTORNEY GENERAL",
-              "party": "Democratic",
-              "county": "Henry",
-              "candidates": [
-                {
-                  "name": "(Vote for one) / R / Robert W. Fioretti",
-                  "party": "",
-                  "votes": 11666,
-                  "percentage": 60.79
-                },
-                {
-                  "name": "Kwame Raoul",
-                  "party": "Democratic",
-                  "votes": 7524,
-                  "percentage": 39.21
-                }
-              ],
-              "precincts_reporting": 52,
-              "total_precincts": 52,
-              "reporting_percentage": 100.0
-            },
-            {
-              "contest_name": "FOR SECRETARY OF STATE",
-              "party": "Democratic",
-              "county": "Henry",
-              "candidates": [
-                {
-                  "name": "(Vote for one) / R / Diane M. Harris",
-                  "party": "",
-                  "votes": 10871,
-                  "percentage": 56.23
-                },
-                {
-                  "name": "Alexi Giannoulias",
-                  "party": "Democratic",
-                  "votes": 8461,
-                  "percentage": 43.77
-                }
-              ],
-              "precincts_reporting": 52,
-              "total_precincts": 52,
-              "reporting_percentage": 100.0
-            },
-            {
-              "contest_name": "FOR COMPTROLLER",
-              "party": "Democratic",
-              "county": "Henry",
-              "candidates": [
-                {
-                  "name": "(Vote for one) / R / Bryan Drew",
-                  "party": "",
-                  "votes": 11563,
-                  "percentage": 60.43
-                },
-                {
-                  "name": "Margaret Croke",
-                  "party": "Democratic",
-                  "votes": 7558,
-                  "percentage": 39.5
-                },
-                {
-                  "name": "WRITE-IN",
-                  "party": "Democratic",
-                  "votes": 12,
-                  "percentage": 0.06
-                }
-              ],
-              "precincts_reporting": 52,
-              "total_precincts": 52,
-              "reporting_percentage": 100.0
-            },
-            {
-              "contest_name": "FOR STATE TREASURER",
-              "party": "Democratic",
-              "county": "Henry",
-              "candidates": [
-                {
-                  "name": "(Vote for one) / R / Max Solomon",
-                  "party": "",
-                  "votes": 11246,
-                  "percentage": 58.67
-                },
-                {
-                  "name": "Michael W. Frerichs",
-                  "party": "Democratic",
-                  "votes": 7907,
-                  "percentage": 41.25
-                },
-                {
-                  "name": "WRITE-IN",
-                  "party": "Democratic",
-                  "votes": 15,
-                  "percentage": 0.08
-                }
-              ],
-              "precincts_reporting": 52,
-              "total_precincts": 52,
-              "reporting_percentage": 100.0
-            },
-            {
-              "contest_name": "FOR REPRESENTATIVE IN CONGRESS SIXTEENTH CONGRESSIONAL DISTRICT",
-              "party": "Democratic",
-              "county": "Henry",
-              "candidates": [
-                {
-                  "name": "(Vote for one) / R / Darin LaHood",
-                  "party": "",
-                  "votes": 7838,
-                  "percentage": 64.39
-                },
-                {
-                  "name": "Paul Nolley",
-                  "party": "Democratic",
-                  "votes": 4335,
-                  "percentage": 35.61
-                }
-              ],
-              "precincts_reporting": 30,
-              "total_precincts": 30,
-              "reporting_percentage": 100.0
-            },
-            {
-              "contest_name": "FOR REPRESENTATIVE IN CONGRESS SEVENTEENTH CONGRESSIONAL DISTRICT",
-              "party": "Democratic",
-              "county": "Henry",
-              "candidates": [
-                {
-                  "name": "(Vote for one) / R / Dillan S. Vancil",
-                  "party": "",
-                  "votes": 3585,
-                  "percentage": 49.94
-                },
-                {
-                  "name": "Eric Sorensen",
-                  "party": "Democratic",
-                  "votes": 3584,
-                  "percentage": 49.93
-                },
-                {
-                  "name": "WRITE-IN",
-                  "party": "Democratic",
-                  "votes": 9,
-                  "percentage": 0.13
-                }
-              ],
-              "precincts_reporting": 23,
-              "total_precincts": 23,
-              "reporting_percentage": 100.0
-            },
-            {
-              "contest_name": "FOR STATE SENATOR THIRTY-SIXTH LEGISLATIVE DISTRICT",
-              "party": "Democratic",
-              "county": "Henry",
-              "candidates": [
-                {
-                  "name": "(Vote for one) / R / Brad Beekman",
-                  "party": "",
-                  "votes": 2611,
-                  "percentage": 55.46
-                },
-                {
-                  "name": "Michael W. Halpin",
-                  "party": "Democratic",
-                  "votes": 2097,
-                  "percentage": 44.54
-                }
-              ],
-              "precincts_reporting": 10,
-              "total_precincts": 10,
-              "reporting_percentage": 100.0
-            },
-            {
-              "contest_name": "FOR STATE SENATOR FORTY-SEVENTH LEGISLATIVE DISTRICT",
-              "party": "Democratic",
-              "county": "Henry",
-              "candidates": [
-                {
-                  "name": "(Vote for one) / R / Neil Anderson",
-                  "party": "",
-                  "votes": 7356,
-                  "percentage": 100.0
-                }
-              ],
-              "precincts_reporting": 31,
-              "total_precincts": 31,
-              "reporting_percentage": 100.0
-            },
-            {
-              "contest_name": "FOR REPRESENTATIVE IN THE GENERAL ASSEMBLY SEVENTY-FIRST REPRESENTATIVE DISTRICT",
-              "party": "Democratic",
-              "county": "Henry",
-              "candidates": [
-                {
-                  "name": "(Vote for one) / R / Dan Swanson",
-                  "party": "",
-                  "votes": 3035,
-                  "percentage": 64.3
-                },
-                {
-                  "name": "Kermit Thomas",
-                  "party": "Democratic",
-                  "votes": 1685,
-                  "percentage": 35.7
-                }
-              ],
-              "precincts_reporting": 10,
-              "total_precincts": 10,
-              "reporting_percentage": 100.0
-            },
-            {
-              "contest_name": "FOR REPRESENTATIVE IN THE GENERAL ASSEMBLY SEVENTY-THIRD REPRESENTATIVE DISTRICT",
-              "party": "Democratic",
-              "county": "Henry",
-              "candidates": [
-                {
-                  "name": "(Vote for one) / R / Ryan Spain",
-                  "party": "",
-                  "votes": 3242,
-                  "percentage": 61.99
-                },
-                {
-                  "name": "Nicole Dopler",
-                  "party": "Democratic",
-                  "votes": 1988,
-                  "percentage": 38.01
-                }
-              ],
-              "precincts_reporting": 11,
-              "total_precincts": 11,
-              "reporting_percentage": 100.0
-            },
-            {
-              "contest_name": "FOR REPRESENTATIVE IN THE GENERAL ASSEMBLY NINETY-THIRD REPRESENTATIVE DISTRICT",
-              "party": "Democratic",
-              "county": "Henry",
-              "candidates": [
-                {
-                  "name": "(Vote for one) / R / Travis Weaver",
-                  "party": "",
-                  "votes": 7381,
-                  "percentage": 100.0
-                }
-              ],
-              "precincts_reporting": 31,
-              "total_precincts": 31,
-              "reporting_percentage": 100.0
-            },
-            {
-              "contest_name": "FOR UNITED STATES SENATOR",
-              "party": "Democratic",
-              "county": "Henry",
-              "candidates": [
-                {
-                  "name": "(Vote for one) / R / Don Tracy",
-                  "party": "",
-                  "votes": 11199,
-                  "percentage": 58.03
-                },
-                {
-                  "name": "Juliana Stratton",
-                  "party": "Democratic",
-                  "votes": 7768,
-                  "percentage": 40.25
-                },
-                {
-                  "name": "AMC / Whitfield Harrington Jr",
-                  "party": "Democratic",
-                  "votes": 331,
-                  "percentage": 1.72
-                }
-              ],
-              "precincts_reporting": 52,
-              "total_precincts": 52,
-              "reporting_percentage": 100.0
-            }
-          ]
-        },
-        "Republican": {
-          "count": 2,
-          "contests": [
-            {
               "contest_name": "FOR COUNTY BOARD - DISTRICT  1",
               "party": "Republican",
               "county": "Henry",
               "candidates": [
                 {
-                  "name": "(Vote for no more than five) / R / Bob Wachtel",
-                  "party": "",
+                  "name": "Bob Wachtel",
+                  "party": "Republican",
                   "votes": 6370,
                   "percentage": 12.88
                 },
@@ -30441,8 +30131,8 @@
               "county": "Henry",
               "candidates": [
                 {
-                  "name": "(Vote for no more than five) / R / Marshall Jones",
-                  "party": "",
+                  "name": "Marshall Jones",
+                  "party": "Republican",
                   "votes": 4996,
                   "percentage": 17.14
                 },
@@ -30486,6 +30176,332 @@
               "precincts_reporting": 28,
               "total_precincts": 28,
               "reporting_percentage": 100.0
+            },
+            {
+              "contest_name": "FOR COUNTY BOARD - DISTRICT 2 (TO SERVE AN UNEXPIRED 2-YEAR TERM)",
+              "party": "Republican",
+              "county": "Henry",
+              "candidates": [
+                {
+                  "name": "Crystal Strode",
+                  "party": "Republican",
+                  "votes": 6395,
+                  "percentage": 100.0
+                }
+              ],
+              "precincts_reporting": 28,
+              "total_precincts": 28,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_name": "FOR GOVERNOR AND LIEUTENANT GOVERNOR",
+              "party": "Republican",
+              "county": "Henry",
+              "candidates": [
+                {
+                  "name": "(Darren Bailey / (Aaron B. Del Mar",
+                  "party": "Republican",
+                  "votes": 11476,
+                  "percentage": 59.15
+                },
+                {
+                  "name": "(JB Pritzker / (Christian Mitchell",
+                  "party": "Democratic",
+                  "votes": 7150,
+                  "percentage": 36.86
+                },
+                {
+                  "name": "I / (Collin Corbett / (Carolyn Schofield",
+                  "party": "Democratic",
+                  "votes": 761,
+                  "percentage": 3.92
+                },
+                {
+                  "name": "show more / WRITE-IN",
+                  "party": "Democratic",
+                  "votes": 13,
+                  "percentage": 0.07
+                }
+              ],
+              "precincts_reporting": 52,
+              "total_precincts": 52,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_name": "FOR ATTORNEY GENERAL",
+              "party": "Republican",
+              "county": "Henry",
+              "candidates": [
+                {
+                  "name": "Robert W. Fioretti",
+                  "party": "Republican",
+                  "votes": 11666,
+                  "percentage": 60.79
+                },
+                {
+                  "name": "Kwame Raoul",
+                  "party": "Democratic",
+                  "votes": 7524,
+                  "percentage": 39.21
+                }
+              ],
+              "precincts_reporting": 52,
+              "total_precincts": 52,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_name": "FOR SECRETARY OF STATE",
+              "party": "Republican",
+              "county": "Henry",
+              "candidates": [
+                {
+                  "name": "Diane M. Harris",
+                  "party": "Republican",
+                  "votes": 10871,
+                  "percentage": 56.23
+                },
+                {
+                  "name": "Alexi Giannoulias",
+                  "party": "Democratic",
+                  "votes": 8461,
+                  "percentage": 43.77
+                }
+              ],
+              "precincts_reporting": 52,
+              "total_precincts": 52,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_name": "FOR COMPTROLLER",
+              "party": "Republican",
+              "county": "Henry",
+              "candidates": [
+                {
+                  "name": "Bryan Drew",
+                  "party": "Republican",
+                  "votes": 11563,
+                  "percentage": 60.43
+                },
+                {
+                  "name": "Margaret Croke",
+                  "party": "Democratic",
+                  "votes": 7558,
+                  "percentage": 39.5
+                },
+                {
+                  "name": "WRITE-IN",
+                  "party": "Democratic",
+                  "votes": 12,
+                  "percentage": 0.06
+                }
+              ],
+              "precincts_reporting": 52,
+              "total_precincts": 52,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_name": "FOR STATE TREASURER",
+              "party": "Republican",
+              "county": "Henry",
+              "candidates": [
+                {
+                  "name": "Max Solomon",
+                  "party": "Republican",
+                  "votes": 11246,
+                  "percentage": 58.67
+                },
+                {
+                  "name": "Michael W. Frerichs",
+                  "party": "Democratic",
+                  "votes": 7907,
+                  "percentage": 41.25
+                },
+                {
+                  "name": "WRITE-IN",
+                  "party": "Democratic",
+                  "votes": 15,
+                  "percentage": 0.08
+                }
+              ],
+              "precincts_reporting": 52,
+              "total_precincts": 52,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_name": "FOR REPRESENTATIVE IN CONGRESS SIXTEENTH CONGRESSIONAL DISTRICT",
+              "party": "Republican",
+              "county": "Henry",
+              "candidates": [
+                {
+                  "name": "Darin LaHood",
+                  "party": "Republican",
+                  "votes": 7838,
+                  "percentage": 64.39
+                },
+                {
+                  "name": "Paul Nolley",
+                  "party": "Democratic",
+                  "votes": 4335,
+                  "percentage": 35.61
+                }
+              ],
+              "precincts_reporting": 30,
+              "total_precincts": 30,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_name": "FOR REPRESENTATIVE IN CONGRESS SEVENTEENTH CONGRESSIONAL DISTRICT",
+              "party": "Republican",
+              "county": "Henry",
+              "candidates": [
+                {
+                  "name": "Dillan S. Vancil",
+                  "party": "Republican",
+                  "votes": 3585,
+                  "percentage": 49.94
+                },
+                {
+                  "name": "Eric Sorensen",
+                  "party": "Democratic",
+                  "votes": 3584,
+                  "percentage": 49.93
+                },
+                {
+                  "name": "WRITE-IN",
+                  "party": "Democratic",
+                  "votes": 9,
+                  "percentage": 0.13
+                }
+              ],
+              "precincts_reporting": 23,
+              "total_precincts": 23,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_name": "FOR STATE SENATOR THIRTY-SIXTH LEGISLATIVE DISTRICT",
+              "party": "Republican",
+              "county": "Henry",
+              "candidates": [
+                {
+                  "name": "Brad Beekman",
+                  "party": "Republican",
+                  "votes": 2611,
+                  "percentage": 55.46
+                },
+                {
+                  "name": "Michael W. Halpin",
+                  "party": "Democratic",
+                  "votes": 2097,
+                  "percentage": 44.54
+                }
+              ],
+              "precincts_reporting": 10,
+              "total_precincts": 10,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_name": "FOR STATE SENATOR FORTY-SEVENTH LEGISLATIVE DISTRICT",
+              "party": "Republican",
+              "county": "Henry",
+              "candidates": [
+                {
+                  "name": "Neil Anderson",
+                  "party": "Republican",
+                  "votes": 7356,
+                  "percentage": 100.0
+                }
+              ],
+              "precincts_reporting": 31,
+              "total_precincts": 31,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_name": "FOR REPRESENTATIVE IN THE GENERAL ASSEMBLY SEVENTY-FIRST REPRESENTATIVE DISTRICT",
+              "party": "Republican",
+              "county": "Henry",
+              "candidates": [
+                {
+                  "name": "Dan Swanson",
+                  "party": "Republican",
+                  "votes": 3035,
+                  "percentage": 64.3
+                },
+                {
+                  "name": "Kermit Thomas",
+                  "party": "Democratic",
+                  "votes": 1685,
+                  "percentage": 35.7
+                }
+              ],
+              "precincts_reporting": 10,
+              "total_precincts": 10,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_name": "FOR REPRESENTATIVE IN THE GENERAL ASSEMBLY SEVENTY-THIRD REPRESENTATIVE DISTRICT",
+              "party": "Republican",
+              "county": "Henry",
+              "candidates": [
+                {
+                  "name": "Ryan Spain",
+                  "party": "Republican",
+                  "votes": 3242,
+                  "percentage": 61.99
+                },
+                {
+                  "name": "Nicole Dopler",
+                  "party": "Democratic",
+                  "votes": 1988,
+                  "percentage": 38.01
+                }
+              ],
+              "precincts_reporting": 11,
+              "total_precincts": 11,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_name": "FOR REPRESENTATIVE IN THE GENERAL ASSEMBLY NINETY-THIRD REPRESENTATIVE DISTRICT",
+              "party": "Republican",
+              "county": "Henry",
+              "candidates": [
+                {
+                  "name": "Travis Weaver",
+                  "party": "Republican",
+                  "votes": 7381,
+                  "percentage": 100.0
+                }
+              ],
+              "precincts_reporting": 31,
+              "total_precincts": 31,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_name": "FOR UNITED STATES SENATOR",
+              "party": "Republican",
+              "county": "Henry",
+              "candidates": [
+                {
+                  "name": "Don Tracy",
+                  "party": "Republican",
+                  "votes": 11199,
+                  "percentage": 58.03
+                },
+                {
+                  "name": "Juliana Stratton",
+                  "party": "Democratic",
+                  "votes": 7768,
+                  "percentage": 40.25
+                },
+                {
+                  "name": "AMC / Whitfield Harrington Jr",
+                  "party": "Democratic",
+                  "votes": 331,
+                  "percentage": 1.72
+                }
+              ],
+              "precincts_reporting": 52,
+              "total_precincts": 52,
+              "reporting_percentage": 100.0
             }
           ]
         },
@@ -30498,7 +30514,7 @@
               "county": "Henry",
               "candidates": [
                 {
-                  "name": "(Vote for one) / YES",
+                  "name": "YES",
                   "party": "",
                   "votes": 668,
                   "percentage": 61.79
@@ -30520,7 +30536,7 @@
               "county": "Henry",
               "candidates": [
                 {
-                  "name": "(Vote for one) / YES",
+                  "name": "YES",
                   "party": "",
                   "votes": 13996,
                   "percentage": 82.95
@@ -30542,7 +30558,7 @@
               "county": "Henry",
               "candidates": [
                 {
-                  "name": "(Vote for one) / YES",
+                  "name": "YES",
                   "party": "",
                   "votes": 14689,
                   "percentage": 84.38
@@ -30564,7 +30580,7 @@
               "county": "Henry",
               "candidates": [
                 {
-                  "name": "(Vote for one) / YES",
+                  "name": "YES",
                   "party": "",
                   "votes": 14123,
                   "percentage": 83.28
@@ -30586,7 +30602,7 @@
               "county": "Henry",
               "candidates": [
                 {
-                  "name": "(Vote for one) / YES",
+                  "name": "YES",
                   "party": "",
                   "votes": 1310,
                   "percentage": 55.82
@@ -30609,7 +30625,7 @@
     "Boone": {
       "county": "Boone",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:09.404877",
+      "scraped_at": "2026-11-04T00:50:56.402954",
       "source": "pollresults.net \u2014 https://il-boone.pollresults.net",
       "summary": {
         "registered_voters": 35037,
@@ -31324,7 +31340,7 @@
     "Perry": {
       "county": "Perry",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.451055",
+      "scraped_at": "2026-11-04T00:50:56.204953",
       "source": "pollresults.net \u2014 https://il-perry.pollresults.net",
       "summary": {},
       "contests": []
@@ -31332,7 +31348,7 @@
     "La Salle": {
       "county": "La Salle",
       "election_date": "2026-11-03",
-      "scraped_at": "2026-11-04T00:44:12",
+      "scraped_at": "2026-11-04T00:50:57",
       "pdf_generated": "10:50:13 PM",
       "source": "La Salle County Election Summary Report PDF (https://lasallecountyil.gov/DocumentCenter/View/6259/Election-Summary-Report)",
       "summary": {
@@ -32079,7 +32095,7 @@
     "Bureau": {
       "county": "Bureau",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:09.671529",
+      "scraped_at": "2026-11-04T00:50:55.906983",
       "source": "pollresults.net \u2014 https://il-bureau.pollresults.net",
       "summary": {
         "registered_voters": 20675,
@@ -32802,14 +32818,14 @@
     "Edwards": {
       "county": "Edwards",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:09.883835",
+      "scraped_at": "2026-11-04T00:50:56.305370",
       "source": "pollresults.net \u2014 https://il-edwards.pollresults.net",
       "summary": {},
       "contests": []
     },
     "Lake": {
       "county": "Lake",
-      "scraped_at": "2026-11-04T00:43:54.194014",
+      "scraped_at": "2026-11-04T00:50:34.179849",
       "total_contests": 53,
       "contests_by_party": {
         "Democratic": {
@@ -34057,14 +34073,14 @@
     "Pope": {
       "county": "Pope",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.566632",
+      "scraped_at": "2026-11-04T00:50:56.541328",
       "source": "pollresults.net \u2014 https://il-pope.pollresults.net",
       "summary": {},
       "contests": []
     },
     "Bloomington": {
       "county": "Bloomington",
-      "scraped_at": "2026-11-04T00:43:54.196724",
+      "scraped_at": "2026-11-04T00:50:34.131913",
       "total_contests": 34,
       "contests_by_party": {
         "Democratic": {
@@ -34898,14 +34914,14 @@
     "Gallatin": {
       "county": "Gallatin",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:09.833837",
+      "scraped_at": "2026-11-04T00:50:56.538702",
       "source": "pollresults.net \u2014 https://il-gallatin.pollresults.net",
       "summary": {},
       "contests": []
     },
     "Kendall": {
       "county": "Kendall",
-      "scraped_at": "2026-11-04T00:43:54.111881",
+      "scraped_at": "2026-11-04T00:50:34.158316",
       "total_contests": 26,
       "contests_by_party": {
         "Democratic": {
@@ -35592,7 +35608,7 @@
     "Mason": {
       "county": "Mason",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.111236",
+      "scraped_at": "2026-11-04T00:50:56.348219",
       "source": "pollresults.net \u2014 https://il-mason.pollresults.net",
       "summary": {
         "registered_voters": 8961,
@@ -36138,7 +36154,7 @@
     "Alexander": {
       "county": "Alexander",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:09.643663",
+      "scraped_at": "2026-11-04T00:50:56.301289",
       "source": "pollresults.net \u2014 https://il-alexander.pollresults.net",
       "summary": {},
       "contests": []
@@ -36146,7 +36162,7 @@
     "Jersey": {
       "county": "Jersey",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.047478",
+      "scraped_at": "2026-11-04T00:50:56.151114",
       "source": "pollresults.net \u2014 https://il-jersey.pollresults.net",
       "summary": {},
       "contests": []
@@ -36154,7 +36170,7 @@
     "Christian": {
       "county": "Christian",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:09.858057",
+      "scraped_at": "2026-11-04T00:50:56.174524",
       "source": "pollresults.net \u2014 https://il-christian.pollresults.net",
       "summary": {
         "registered_voters": 21734,
@@ -36859,7 +36875,7 @@
       "total_precincts": 40,
       "total_contests": 25,
       "source": "https://grundy.results.gbsvote.com/results/grundy/2026-general/current/results.json",
-      "scraped_at": "2026-11-04T00:44:05.847683",
+      "scraped_at": "2026-11-04T00:50:51.397085",
       "contests": [
         {
           "name": "UNITED STATES SENATOR",
@@ -37438,7 +37454,7 @@
     },
     "McHenry": {
       "county": "McHenry",
-      "scraped_at": "2026-11-04T00:44:06.729641",
+      "scraped_at": "2026-11-04T00:50:52.132801",
       "total_contests": 45,
       "contests_by_party": {
         "Democratic": {
@@ -38526,7 +38542,7 @@
     "Carroll": {
       "county": "Carroll",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:09.899791",
+      "scraped_at": "2026-11-04T00:50:56.098090",
       "source": "pollresults.net \u2014 https://il-carroll.pollresults.net",
       "summary": {
         "registered_voters": 10791,
@@ -38988,7 +39004,7 @@
     "Johnson": {
       "county": "Johnson",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.064735",
+      "scraped_at": "2026-11-04T00:50:56.317163",
       "source": "pollresults.net \u2014 https://il-johnson.pollresults.net",
       "summary": {},
       "contests": []
@@ -38996,7 +39012,7 @@
     "Hamilton": {
       "county": "Hamilton",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:09.810780",
+      "scraped_at": "2026-11-04T00:50:56.290168",
       "source": "pollresults.net \u2014 https://il-hamilton.pollresults.net",
       "summary": {},
       "contests": []
@@ -39004,7 +39020,7 @@
     "Union": {
       "county": "Union",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.576851",
+      "scraped_at": "2026-11-04T00:50:56.297291",
       "source": "pollresults.net \u2014 https://il-union.pollresults.net",
       "summary": {},
       "contests": []
@@ -39012,7 +39028,7 @@
     "Stephenson": {
       "county": "Stephenson",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.688193",
+      "scraped_at": "2026-11-04T00:50:56.495005",
       "source": "pollresults.net \u2014 https://il-stephenson.pollresults.net",
       "summary": {
         "registered_voters": 28360,
@@ -39697,7 +39713,7 @@
     "Clark": {
       "county": "Clark",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.386891",
+      "scraped_at": "2026-11-04T00:50:56.171749",
       "source": "pollresults.net \u2014 https://il-clark.pollresults.net",
       "summary": {
         "registered_voters": 11170,
@@ -40181,14 +40197,14 @@
     "Williamson": {
       "county": "Williamson",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.582242",
+      "scraped_at": "2026-11-04T00:50:56.563353",
       "source": "pollresults.net \u2014 https://il-williamson.pollresults.net",
       "summary": {},
       "contests": []
     },
     "Sangamon": {
       "county": "Sangamon",
-      "scraped_at": "2026-11-04T00:43:54.109384",
+      "scraped_at": "2026-11-04T00:50:34.191622",
       "total_contests": 49,
       "contests_by_party": {
         "Democratic": {
@@ -41349,7 +41365,7 @@
     "Macoupin": {
       "county": "Macoupin",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:11.381669",
+      "scraped_at": "2026-11-04T00:50:56.546541",
       "source": "pollresults.net \u2014 https://il-macoupin.pollresults.net",
       "summary": {},
       "contests": []
@@ -41357,7 +41373,7 @@
     "Pulaski": {
       "county": "Pulaski",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.545239",
+      "scraped_at": "2026-11-04T00:50:56.541330",
       "source": "pollresults.net \u2014 https://il-pulaski.pollresults.net",
       "summary": {},
       "contests": []
@@ -41365,7 +41381,7 @@
     "Coles": {
       "county": "Coles",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:09.850150",
+      "scraped_at": "2026-11-04T00:50:55.694392",
       "source": "pollresults.net \u2014 https://il-coles.pollresults.net",
       "summary": {
         "registered_voters": 29725,
@@ -41981,7 +41997,7 @@
     "Calhoun": {
       "county": "Calhoun",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.042814",
+      "scraped_at": "2026-11-04T00:50:55.664183",
       "source": "pollresults.net \u2014 https://il-calhoun.pollresults.net",
       "summary": {},
       "contests": []
@@ -41989,7 +42005,7 @@
     "Greene": {
       "county": "Greene",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:09.848926",
+      "scraped_at": "2026-11-04T00:50:55.920139",
       "source": "pollresults.net \u2014 https://il-greene.pollresults.net",
       "summary": {},
       "contests": []
@@ -41997,7 +42013,7 @@
     "Moultrie": {
       "county": "Moultrie",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.478443",
+      "scraped_at": "2026-11-04T00:50:56.493835",
       "source": "pollresults.net \u2014 https://il-moultrie.pollresults.net",
       "summary": {
         "registered_voters": 8789,
@@ -42540,7 +42556,7 @@
     "Ford": {
       "county": "Ford",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:09.726124",
+      "scraped_at": "2026-11-04T00:50:55.836918",
       "source": "pollresults.net \u2014 https://il-ford.pollresults.net",
       "summary": {
         "registered_voters": 9519,
@@ -43179,7 +43195,7 @@
     "St. Clair": {
       "county": "St. Clair",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.568896",
+      "scraped_at": "2026-11-04T00:50:56.448941",
       "source": "pollresults.net \u2014 https://il-stclair.pollresults.net",
       "summary": {},
       "contests": []
@@ -43187,7 +43203,7 @@
     "Pike": {
       "county": "Pike",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.501739",
+      "scraped_at": "2026-11-04T00:50:56.402465",
       "source": "pollresults.net \u2014 https://il-pike.pollresults.net",
       "summary": {},
       "contests": []
@@ -43195,7 +43211,7 @@
     "Morgan": {
       "county": "Morgan",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:11.388900",
+      "scraped_at": "2026-11-04T00:50:56.365328",
       "source": "pollresults.net \u2014 https://il-morgan.pollresults.net",
       "summary": {},
       "contests": []
@@ -43203,7 +43219,7 @@
     "Saline": {
       "county": "Saline",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.237765",
+      "scraped_at": "2026-11-04T00:50:56.287177",
       "source": "pollresults.net \u2014 https://il-saline.pollresults.net",
       "summary": {},
       "contests": []
@@ -43211,7 +43227,7 @@
     "Jasper": {
       "county": "Jasper",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:11.382211",
+      "scraped_at": "2026-11-04T00:50:56.304602",
       "source": "pollresults.net \u2014 https://il-jasper.pollresults.net",
       "summary": {},
       "contests": []
@@ -43219,7 +43235,7 @@
     "Jackson": {
       "county": "Jackson",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.101081",
+      "scraped_at": "2026-11-04T00:50:56.360115",
       "source": "pollresults.net \u2014 https://il-jackson.pollresults.net",
       "summary": {},
       "contests": []
@@ -43227,7 +43243,7 @@
     "Tazewell": {
       "county": "Tazewell",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.466893",
+      "scraped_at": "2026-11-04T00:50:56.553311",
       "source": "pollresults.net \u2014 https://il-tazewell.pollresults.net",
       "summary": {
         "registered_voters": 84748,
@@ -43937,7 +43953,7 @@
     "Cumberland": {
       "county": "Cumberland",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:09.999708",
+      "scraped_at": "2026-11-04T00:50:56.301814",
       "source": "pollresults.net \u2014 https://il-cumberland.pollresults.net",
       "summary": {},
       "contests": []
@@ -43945,7 +43961,7 @@
     "Schuyler": {
       "county": "Schuyler",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:11.376663",
+      "scraped_at": "2026-11-04T00:50:56.546947",
       "source": "pollresults.net \u2014 https://il-schuyler.pollresults.net",
       "summary": {},
       "contests": []
@@ -43953,7 +43969,7 @@
     "Jefferson": {
       "county": "Jefferson",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.282122",
+      "scraped_at": "2026-11-04T00:50:56.541372",
       "source": "pollresults.net \u2014 https://il-jefferson.pollresults.net",
       "summary": {},
       "contests": []
@@ -43961,7 +43977,7 @@
     "Marion": {
       "county": "Marion",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.662528",
+      "scraped_at": "2026-11-04T00:50:56.395442",
       "source": "pollresults.net \u2014 https://il-marion.pollresults.net",
       "summary": {},
       "contests": []
@@ -43969,14 +43985,14 @@
     "Lawrence": {
       "county": "Lawrence",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.061297",
+      "scraped_at": "2026-11-04T00:50:56.305000",
       "source": "pollresults.net \u2014 https://il-lawrence.pollresults.net",
       "summary": {},
       "contests": []
     },
     "DeKalb": {
       "county": "DeKalb",
-      "scraped_at": "2026-11-04T00:44:04.338385",
+      "scraped_at": "2026-11-04T00:50:47.137450",
       "total_contests": 42,
       "contests_by_party": {
         "Democratic": {
@@ -44892,7 +44908,7 @@
     "Edgar": {
       "county": "Edgar",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.009146",
+      "scraped_at": "2026-11-04T00:50:56.221717",
       "source": "pollresults.net \u2014 https://il-edgar.pollresults.net",
       "summary": {
         "registered_voters": 11838,
@@ -45411,7 +45427,7 @@
       "authority": "Chicago Board of Election Commissioners",
       "jurisdiction": "Chicago (City)",
       "election_date": "2026-11-03",
-      "scraped_at": "2026-11-04T00:44:01.029762",
+      "scraped_at": "2026-11-04T00:50:40.541702",
       "source": "HTML \u2014 https://results.chicagoelections.gov/results/ElectionSummary.html",
       "summary": {
         "precincts_reporting": 1212,
@@ -45422,7 +45438,7 @@
     "Livingston": {
       "county": "Livingston",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:44:10.255167",
+      "scraped_at": "2026-11-04T00:50:56.352872",
       "source": "pollresults.net \u2014 https://il-livingston.pollresults.net",
       "summary": {
         "registered_voters": 22933,
