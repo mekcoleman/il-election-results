@@ -1,5 +1,5 @@
 {
-  "aggregated_at": "2026-11-03T22:20:32.579387",
+  "aggregated_at": "2026-11-03T23:00:32.320225",
   "num_counties": 85,
   "counties_included": [
     "Shelby",
@@ -213,38 +213,38 @@
           "party": "Democratic",
           "votes": 43039,
           "counties": [
-            "Moultrie",
-            "Ford",
-            "Christian",
-            "Putnam",
-            "Henry",
-            "Kane",
-            "Carroll",
-            "DeKalb",
-            "Edgar",
-            "Bureau",
-            "Coles",
-            "Shelby",
+            "Stephenson",
             "Lee",
-            "Piatt",
-            "Tazewell",
-            "La Salle",
             "Boone",
-            "Ogle",
+            "Ford",
+            "Carroll",
             "Livingston",
+            "DuPage",
             "Logan",
-            "Douglas",
-            "Clark",
-            "Bond",
-            "DeWitt",
-            "Grundy",
-            "Whiteside",
             "Macon",
+            "Piatt",
+            "La Salle",
+            "Bureau",
             "Vermilion",
             "Mason",
-            "DuPage",
+            "Kane",
+            "Coles",
+            "Tazewell",
+            "Edgar",
+            "Putnam",
+            "Grundy",
+            "DeWitt",
+            "Shelby",
+            "Henry",
             "Cook",
-            "Stephenson"
+            "Douglas",
+            "Christian",
+            "Clark",
+            "Whiteside",
+            "DeKalb",
+            "Bond",
+            "Moultrie",
+            "Ogle"
           ],
           "percentage": 3.36
         }
@@ -553,34 +553,34 @@
           "party": "Non-Partisan",
           "votes": 5000,
           "counties": [
-            "Moultrie",
-            "Ford",
-            "Christian",
-            "Putnam",
-            "Carroll",
-            "Edgar",
-            "Bureau",
-            "Coles",
-            "Shelby",
+            "Stephenson",
             "Lee",
-            "Piatt",
-            "Tazewell",
-            "La Salle",
             "Boone",
-            "Ogle",
+            "Ford",
+            "Carroll",
             "Livingston",
+            "DuPage",
             "Logan",
-            "Douglas",
-            "Clark",
-            "Bond",
-            "DeWitt",
-            "Grundy",
-            "Whiteside",
             "Macon",
+            "Piatt",
+            "La Salle",
+            "Bureau",
             "Vermilion",
             "Mason",
-            "DuPage",
-            "Stephenson"
+            "Edgar",
+            "Coles",
+            "Tazewell",
+            "Putnam",
+            "Grundy",
+            "DeWitt",
+            "Shelby",
+            "Douglas",
+            "Christian",
+            "Clark",
+            "Whiteside",
+            "Bond",
+            "Moultrie",
+            "Ogle"
           ],
           "percentage": 0.92
         }
@@ -2104,38 +2104,38 @@
             "party": "Democratic",
             "votes": 43039,
             "counties": [
-              "Moultrie",
-              "Ford",
-              "Christian",
-              "Putnam",
-              "Henry",
-              "Kane",
-              "Carroll",
-              "DeKalb",
-              "Edgar",
-              "Bureau",
-              "Coles",
-              "Shelby",
+              "Stephenson",
               "Lee",
-              "Piatt",
-              "Tazewell",
-              "La Salle",
               "Boone",
-              "Ogle",
+              "Ford",
+              "Carroll",
               "Livingston",
+              "DuPage",
               "Logan",
-              "Douglas",
-              "Clark",
-              "Bond",
-              "DeWitt",
-              "Grundy",
-              "Whiteside",
               "Macon",
+              "Piatt",
+              "La Salle",
+              "Bureau",
               "Vermilion",
               "Mason",
-              "DuPage",
+              "Kane",
+              "Coles",
+              "Tazewell",
+              "Edgar",
+              "Putnam",
+              "Grundy",
+              "DeWitt",
+              "Shelby",
+              "Henry",
               "Cook",
-              "Stephenson"
+              "Douglas",
+              "Christian",
+              "Clark",
+              "Whiteside",
+              "DeKalb",
+              "Bond",
+              "Moultrie",
+              "Ogle"
             ],
             "percentage": 3.36
           }
@@ -2444,34 +2444,34 @@
             "party": "Non-Partisan",
             "votes": 5000,
             "counties": [
-              "Moultrie",
-              "Ford",
-              "Christian",
-              "Putnam",
-              "Carroll",
-              "Edgar",
-              "Bureau",
-              "Coles",
-              "Shelby",
+              "Stephenson",
               "Lee",
-              "Piatt",
-              "Tazewell",
-              "La Salle",
               "Boone",
-              "Ogle",
+              "Ford",
+              "Carroll",
               "Livingston",
+              "DuPage",
               "Logan",
-              "Douglas",
-              "Clark",
-              "Bond",
-              "DeWitt",
-              "Grundy",
-              "Whiteside",
               "Macon",
+              "Piatt",
+              "La Salle",
+              "Bureau",
               "Vermilion",
               "Mason",
-              "DuPage",
-              "Stephenson"
+              "Edgar",
+              "Coles",
+              "Tazewell",
+              "Putnam",
+              "Grundy",
+              "DeWitt",
+              "Shelby",
+              "Douglas",
+              "Christian",
+              "Clark",
+              "Whiteside",
+              "Bond",
+              "Moultrie",
+              "Ogle"
             ],
             "percentage": 0.92
           }
@@ -4122,7 +4122,7 @@
         ],
         "complete": false,
         "district": 1,
-        "label": "1)? Congressional District"
+        "label": "1st Congressional District"
       },
       "district_2": {
         "name": "U.S. Representative, 2nd District - Vote For 1",
@@ -4187,22 +4187,24 @@
         ],
         "complete": false,
         "district": 2,
-        "label": "2)? Congressional District"
+        "label": "2nd Congressional District"
       },
       "district_3": {
         "name": "U.S. Representative, 3rd District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
-          "Cook"
+          "Cook",
+          "DuPage"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Delia Ramirez",
             "party": "Democratic",
             "votes": 14943,
             "counties": [
-              "Cook"
+              "Cook",
+              "DuPage"
             ],
             "percentage": 69.74
           },
@@ -4211,7 +4213,8 @@
             "party": "Republican",
             "votes": 6484,
             "counties": [
-              "Cook"
+              "Cook",
+              "DuPage"
             ],
             "percentage": 30.26
           }
@@ -4224,29 +4227,30 @@
           "DuPage"
         ],
         "counties_found": [
-          "Cook"
-        ],
-        "counties_missing": [
+          "Cook",
           "DuPage"
         ],
-        "complete": false,
+        "counties_missing": [],
+        "complete": true,
         "district": 3,
-        "label": "3)? Congressional District"
+        "label": "3rd Congressional District"
       },
       "district_4": {
         "name": "U.S. Representative, 4th District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
-          "Cook"
+          "Cook",
+          "DuPage"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Patty Garcia",
             "party": "Democratic",
             "votes": 54004,
             "counties": [
-              "Cook"
+              "Cook",
+              "DuPage"
             ],
             "percentage": 68.79
           },
@@ -4255,7 +4259,8 @@
             "party": "Republican",
             "votes": 12699,
             "counties": [
-              "Cook"
+              "Cook",
+              "DuPage"
             ],
             "percentage": 16.18
           },
@@ -4264,7 +4269,8 @@
             "party": "Independent",
             "votes": 9412,
             "counties": [
-              "Cook"
+              "Cook",
+              "DuPage"
             ],
             "percentage": 11.99
           },
@@ -4273,7 +4279,8 @@
             "party": "Working Class Party",
             "votes": 2389,
             "counties": [
-              "Cook"
+              "Cook",
+              "DuPage"
             ],
             "percentage": 3.04
           }
@@ -4286,14 +4293,13 @@
           "DuPage"
         ],
         "counties_found": [
-          "Cook"
-        ],
-        "counties_missing": [
+          "Cook",
           "DuPage"
         ],
-        "complete": false,
+        "counties_missing": [],
+        "complete": true,
         "district": 4,
-        "label": "4)? Congressional District"
+        "label": "4th Congressional District"
       },
       "district_5": {
         "name": "U.S. Representative, 5th District - Vote For 1",
@@ -4337,22 +4343,24 @@
         ],
         "complete": false,
         "district": 5,
-        "label": "5)? Congressional District"
+        "label": "5th Congressional District"
       },
       "district_6": {
         "name": "U.S. Representative, 6th District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
-          "Cook"
+          "Cook",
+          "DuPage"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Sean Casten",
             "party": "Democratic",
             "votes": 65413,
             "counties": [
-              "Cook"
+              "Cook",
+              "DuPage"
             ],
             "percentage": 59.99
           },
@@ -4361,7 +4369,8 @@
             "party": "Republican",
             "votes": 43630,
             "counties": [
-              "Cook"
+              "Cook",
+              "DuPage"
             ],
             "percentage": 40.01
           }
@@ -4374,14 +4383,13 @@
           "DuPage"
         ],
         "counties_found": [
-          "Cook"
-        ],
-        "counties_missing": [
+          "Cook",
           "DuPage"
         ],
-        "complete": false,
+        "counties_missing": [],
+        "complete": true,
         "district": 6,
-        "label": "6)? Congressional District"
+        "label": "6th Congressional District"
       },
       "district_7": {
         "name": "U.S. Representative, 7th District - Vote For 1",
@@ -4422,16 +4430,17 @@
         "counties_missing": [],
         "complete": true,
         "district": 7,
-        "label": "7)? Congressional District"
+        "label": "7th Congressional District"
       },
       "district_8": {
         "name": "U.S. Representative, 8th District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
           "Cook",
+          "DuPage",
           "Kane"
         ],
-        "num_counties": 2,
+        "num_counties": 3,
         "candidates": {
           "0": {
             "name": "Melissa L. Bean",
@@ -4439,6 +4448,7 @@
             "votes": 101141,
             "counties": [
               "Cook",
+              "DuPage",
               "Kane"
             ],
             "percentage": 64.86
@@ -4449,6 +4459,7 @@
             "votes": 54796,
             "counties": [
               "Cook",
+              "DuPage",
               "Kane"
             ],
             "percentage": 35.14
@@ -4464,14 +4475,13 @@
         ],
         "counties_found": [
           "Cook",
+          "DuPage",
           "Kane"
         ],
-        "counties_missing": [
-          "DuPage"
-        ],
-        "complete": false,
+        "counties_missing": [],
+        "complete": true,
         "district": 8,
-        "label": "8)? Congressional District"
+        "label": "8th Congressional District"
       },
       "district_9": {
         "name": "U.S. Representative, 9th District - Vote For 1",
@@ -4517,7 +4527,7 @@
         ],
         "complete": false,
         "district": 9,
-        "label": "9)? Congressional District"
+        "label": "9th Congressional District"
       },
       "district_10": {
         "name": "U.S. Representative, 10th District - Vote For 1",
@@ -4563,7 +4573,7 @@
         ],
         "complete": false,
         "district": 10,
-        "label": "10)? Congressional District"
+        "label": "10th Congressional District"
       },
       "district_11": {
         "name": "CONGRESSIONAL 11TH DISTRICT REPRESENTATIVE",
@@ -4571,9 +4581,10 @@
         "counties": [
           "Boone",
           "Cook",
+          "DuPage",
           "Kane"
         ],
-        "num_counties": 3,
+        "num_counties": 4,
         "candidates": {
           "0": {
             "name": "Bill Foster",
@@ -4582,6 +4593,7 @@
             "counties": [
               "Boone",
               "Cook",
+              "DuPage",
               "Kane"
             ],
             "percentage": 62.29
@@ -4593,6 +4605,7 @@
             "counties": [
               "Boone",
               "Cook",
+              "DuPage",
               "Kane"
             ],
             "percentage": 37.71
@@ -4614,18 +4627,18 @@
         "counties_found": [
           "Boone",
           "Cook",
+          "DuPage",
           "Kane"
         ],
         "counties_missing": [
           "DeKalb",
-          "DuPage",
           "Lake",
           "McHenry",
           "Will"
         ],
         "complete": false,
         "district": 11,
-        "label": "11)? Congressional District"
+        "label": "11th Congressional District"
       },
       "district_12": {
         "name": "CONGRESSIONAL 12TH DISTRICT REPRESENTATIVE",
@@ -4736,7 +4749,7 @@
         ],
         "complete": false,
         "district": 12,
-        "label": "12)? Congressional District"
+        "label": "12th Congressional District"
       },
       "district_13": {
         "name": "CONGRESSIONAL 13TH DISTRICT REPRESENTATIVE",
@@ -4793,7 +4806,7 @@
         ],
         "complete": false,
         "district": 13,
-        "label": "13)? Congressional District"
+        "label": "13th Congressional District"
       },
       "district_14": {
         "name": "CONGRESSIONAL 14TH DISTRICT REPRESENTATIVE",
@@ -4856,7 +4869,7 @@
         ],
         "complete": false,
         "district": 14,
-        "label": "14)? Congressional District"
+        "label": "14th Congressional District"
       },
       "district_15": {
         "name": "CONGRESSIONAL 15TH DISTRICT REPRESENTATIVE",
@@ -5002,7 +5015,7 @@
         ],
         "complete": false,
         "district": 15,
-        "label": "15)? Congressional District"
+        "label": "15th Congressional District"
       },
       "district_16": {
         "name": "CONGRESSIONAL 16TH DISTRICT REPRESENTATIVE",
@@ -5011,6 +5024,8 @@
           "Boone",
           "Bureau",
           "Ford",
+          "Grundy",
+          "Jo Daviess",
           "La Salle",
           "Lee",
           "Livingston",
@@ -5019,16 +5034,18 @@
           "Stephenson",
           "Tazewell"
         ],
-        "num_counties": 10,
+        "num_counties": 12,
         "candidates": {
           "0": {
             "name": "Darin Lahood",
             "party": "Republican",
-            "votes": 65226,
+            "votes": 81909,
             "counties": [
               "Boone",
               "Bureau",
               "Ford",
+              "Grundy",
+              "Jo Daviess",
               "La Salle",
               "Lee",
               "Livingston",
@@ -5037,16 +5054,18 @@
               "Stephenson",
               "Tazewell"
             ],
-            "percentage": 61.58
+            "percentage": 60.94
           },
           "1": {
             "name": "Paul Nolley",
             "party": "Democratic",
-            "votes": 40689,
+            "votes": 52494,
             "counties": [
               "Boone",
               "Bureau",
               "Ford",
+              "Grundy",
+              "Jo Daviess",
               "La Salle",
               "Lee",
               "Livingston",
@@ -5055,12 +5074,12 @@
               "Stephenson",
               "Tazewell"
             ],
-            "percentage": 38.42
+            "percentage": 39.06
           }
         },
-        "precincts_reporting": 258,
-        "total_precincts": 291,
-        "total_votes": 105915,
+        "precincts_reporting": 326,
+        "total_precincts": 359,
+        "total_votes": 134403,
         "counties_needed": [
           "Boone",
           "Bureau",
@@ -5088,6 +5107,8 @@
           "Boone",
           "Bureau",
           "Ford",
+          "Grundy",
+          "Jo Daviess",
           "La Salle",
           "Lee",
           "Livingston",
@@ -5098,9 +5119,7 @@
         ],
         "counties_missing": [
           "DeKalb",
-          "Grundy",
           "Henry",
-          "Jo Daviess",
           "Marshall",
           "McHenry",
           "McLean",
@@ -5111,7 +5130,7 @@
         ],
         "complete": false,
         "district": 16,
-        "label": "16)? Congressional District"
+        "label": "16th Congressional District"
       },
       "district_17": {
         "name": "CONGRESSIONAL 17TH DISTRICT REPRESENTATIVE",
@@ -5188,7 +5207,7 @@
         ],
         "complete": false,
         "district": 17,
-        "label": "17)? Congressional District"
+        "label": "17th Congressional District"
       }
     },
     "state_senate": {
@@ -5655,9 +5674,10 @@
         "counties": [
           "Cook",
           "Cook",
-          "Cook"
+          "Cook",
+          "DuPage"
         ],
-        "num_counties": 3,
+        "num_counties": 4,
         "candidates": {
           "0": {
             "name": "Emil Jones III",
@@ -5691,7 +5711,8 @@
             "party": "Democratic",
             "votes": 5210,
             "counties": [
-              "Cook"
+              "Cook",
+              "DuPage"
             ],
             "percentage": 8.62
           },
@@ -5700,7 +5721,8 @@
             "party": "Republican",
             "votes": 3887,
             "counties": [
-              "Cook"
+              "Cook",
+              "DuPage"
             ],
             "percentage": 6.43
           }
@@ -5713,12 +5735,11 @@
           "DuPage"
         ],
         "counties_found": [
-          "Cook"
-        ],
-        "counties_missing": [
+          "Cook",
           "DuPage"
         ],
-        "complete": false,
+        "counties_missing": [],
+        "complete": true,
         "district": 4
       },
       "district_5": {
@@ -6205,20 +6226,65 @@
         "complete": true,
         "district": 18
       },
+      "district_21": {
+        "name": "FOR STATE SENATOR TWENTY-FIRST LEGISLATIVE DISTRICT",
+        "party": "Non-Partisan",
+        "counties": [
+          "DuPage"
+        ],
+        "num_counties": 1,
+        "candidates": {
+          "0": {
+            "name": "Laura Ellman",
+            "party": "Non-Partisan",
+            "votes": 0,
+            "counties": [
+              "DuPage"
+            ],
+            "percentage": 0.0
+          },
+          "1": {
+            "name": "Julie Berkowicz",
+            "party": "Non-Partisan",
+            "votes": 0,
+            "counties": [
+              "DuPage"
+            ],
+            "percentage": 0.0
+          }
+        },
+        "precincts_reporting": 0,
+        "total_precincts": 0,
+        "total_votes": 0,
+        "counties_needed": [
+          "DuPage",
+          "Will"
+        ],
+        "counties_found": [
+          "DuPage"
+        ],
+        "counties_missing": [
+          "Will"
+        ],
+        "complete": false,
+        "district": 21
+      },
       "district_23": {
         "name": "State Senator, 23rd District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
-          "Cook"
+          "Cook",
+          "DuPage"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Suzanne \"suzy\" Glowiak Hilton",
             "party": "Democratic",
             "votes": 688,
             "counties": [
-              "Cook"
+              "Cook",
+              "DuPage"
             ],
             "percentage": 65.84
           },
@@ -6227,7 +6293,8 @@
             "party": "Republican",
             "votes": 357,
             "counties": [
-              "Cook"
+              "Cook",
+              "DuPage"
             ],
             "percentage": 34.16
           }
@@ -6240,28 +6307,29 @@
           "DuPage"
         ],
         "counties_found": [
-          "Cook"
-        ],
-        "counties_missing": [
+          "Cook",
           "DuPage"
         ],
-        "complete": false,
+        "counties_missing": [],
+        "complete": true,
         "district": 23
       },
       "district_24": {
         "name": "State Senator, 24th District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
-          "Cook"
+          "Cook",
+          "DuPage"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Benjamin \"ben\" McAdams",
             "party": "Democratic",
             "votes": 5210,
             "counties": [
-              "Cook"
+              "Cook",
+              "DuPage"
             ],
             "percentage": 57.27
           },
@@ -6270,7 +6338,8 @@
             "party": "Republican",
             "votes": 3887,
             "counties": [
-              "Cook"
+              "Cook",
+              "DuPage"
             ],
             "percentage": 42.73
           }
@@ -6283,12 +6352,11 @@
           "DuPage"
         ],
         "counties_found": [
-          "Cook"
-        ],
-        "counties_missing": [
+          "Cook",
           "DuPage"
         ],
-        "complete": false,
+        "counties_missing": [],
+        "complete": true,
         "district": 24
       },
       "district_26": {
@@ -6459,18 +6527,20 @@
         "district": 30
       },
       "district_33": {
-        "name": "FOR STATE SENATOR 33RD LEGISLATIVE DISTRICT",
+        "name": "FOR STATE SENATOR THIRTY-THIRD LEGISLATIVE DISTRICT",
         "party": "Non-Partisan",
         "counties": [
+          "DuPage",
           "Kane"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Michele Clark",
             "party": "Non-Partisan",
             "votes": 37328,
             "counties": [
+              "DuPage",
               "Kane"
             ],
             "percentage": 57.09
@@ -6480,6 +6550,7 @@
             "party": "Non-Partisan",
             "votes": 28061,
             "counties": [
+              "DuPage",
               "Kane"
             ],
             "percentage": 42.91
@@ -6494,10 +6565,10 @@
           "McHenry"
         ],
         "counties_found": [
+          "DuPage",
           "Kane"
         ],
         "counties_missing": [
-          "DuPage",
           "McHenry"
         ],
         "complete": false,
@@ -6559,32 +6630,35 @@
         "name": "STATE SENATE 38TH DISTRICT",
         "party": "Non-Partisan",
         "counties": [
-          "Bureau"
+          "Bureau",
+          "Grundy"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Sue Rezin",
             "party": "Republican",
-            "votes": 1598,
+            "votes": 6423,
             "counties": [
-              "Bureau"
+              "Bureau",
+              "Grundy"
             ],
-            "percentage": 52.69
+            "percentage": 59.49
           },
           "1": {
             "name": "Ernie R. Marcelain",
             "party": "Democratic",
-            "votes": 1435,
+            "votes": 4374,
             "counties": [
-              "Bureau"
+              "Bureau",
+              "Grundy"
             ],
-            "percentage": 47.31
+            "percentage": 40.51
           }
         },
-        "precincts_reporting": 13,
-        "total_precincts": 13,
-        "total_votes": 3033,
+        "precincts_reporting": 30,
+        "total_precincts": 30,
+        "total_votes": 10797,
         "counties_needed": [
           "Bureau",
           "DeKalb",
@@ -6594,11 +6668,11 @@
           "Will"
         ],
         "counties_found": [
-          "Bureau"
+          "Bureau",
+          "Grundy"
         ],
         "counties_missing": [
           "DeKalb",
-          "Grundy",
           "Kendall",
           "LaSalle",
           "Will"
@@ -6610,16 +6684,18 @@
         "name": "State Senator, 39th District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
-          "Cook"
+          "Cook",
+          "DuPage"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Don Harmon",
             "party": "Democratic",
             "votes": 38553,
             "counties": [
-              "Cook"
+              "Cook",
+              "DuPage"
             ],
             "percentage": 100.0
           }
@@ -6632,28 +6708,29 @@
           "DuPage"
         ],
         "counties_found": [
-          "Cook"
-        ],
-        "counties_missing": [
+          "Cook",
           "DuPage"
         ],
-        "complete": false,
+        "counties_missing": [],
+        "complete": true,
         "district": 39
       },
       "district_41": {
         "name": "State Senator, 41st District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
-          "Cook"
+          "Cook",
+          "DuPage"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "John Curran",
             "party": "Republican",
             "votes": 13836,
             "counties": [
-              "Cook"
+              "Cook",
+              "DuPage"
             ],
             "percentage": 100.0
           }
@@ -6667,37 +6744,40 @@
           "Will"
         ],
         "counties_found": [
-          "Cook"
+          "Cook",
+          "DuPage"
         ],
         "counties_missing": [
-          "DuPage",
           "Will"
         ],
         "complete": false,
         "district": 41
       },
       "district_42": {
-        "name": "FOR STATE SENATOR 42ND LEGISLATIVE DISTRICT",
+        "name": "FOR STATE SENATOR FORTY-SECOND LEGISLATIVE DISTRICT",
         "party": "Non-Partisan",
         "counties": [
+          "DuPage",
           "Kane"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Jared Ploger",
             "party": "Non-Partisan",
             "votes": 21196,
             "counties": [
+              "DuPage",
               "Kane"
             ],
             "percentage": 66.58
           },
           "1": {
-            "name": "Edgardo \"eddie\" Perez",
+            "name": "Edgardo 'eddie' Perez",
             "party": "Non-Partisan",
             "votes": 10637,
             "counties": [
+              "DuPage",
               "Kane"
             ],
             "percentage": 33.42
@@ -6713,10 +6793,10 @@
           "Will"
         ],
         "counties_found": [
+          "DuPage",
           "Kane"
         ],
         "counties_missing": [
-          "DuPage",
           "Kendall",
           "Will"
         ],
@@ -7031,19 +7111,21 @@
         "counties": [
           "Bureau",
           "Ford",
+          "Grundy",
           "Livingston",
           "Putnam",
           "Tazewell"
         ],
-        "num_counties": 5,
+        "num_counties": 6,
         "candidates": {
           "0": {
             "name": "Chris Balkema",
             "party": "Republican",
-            "votes": 20382,
+            "votes": 28028,
             "counties": [
               "Bureau",
               "Ford",
+              "Grundy",
               "Livingston",
               "Putnam",
               "Tazewell"
@@ -7051,9 +7133,9 @@
             "percentage": 100.0
           }
         },
-        "precincts_reporting": 84,
-        "total_precincts": 92,
-        "total_votes": 20382,
+        "precincts_reporting": 111,
+        "total_precincts": 119,
+        "total_votes": 28028,
         "counties_needed": [
           "Bureau",
           "Ford",
@@ -7072,12 +7154,12 @@
         "counties_found": [
           "Bureau",
           "Ford",
+          "Grundy",
           "Livingston",
           "Putnam",
           "Tazewell"
         ],
         "counties_missing": [
-          "Grundy",
           "Iroquois",
           "LaSalle",
           "Marshall",
@@ -8561,9 +8643,12 @@
           "Cook",
           "Cook",
           "Cook",
-          "Cook"
+          "Cook",
+          "DuPage",
+          "DuPage",
+          "DuPage"
         ],
-        "num_counties": 8,
+        "num_counties": 11,
         "candidates": {
           "0": {
             "name": "Jennifer Gong-Gershowitz",
@@ -8579,7 +8664,8 @@
             "party": "Democratic",
             "votes": 27138,
             "counties": [
-              "Cook"
+              "Cook",
+              "DuPage"
             ],
             "percentage": 17.17
           },
@@ -8606,7 +8692,8 @@
             "party": "Democratic",
             "votes": 11189,
             "counties": [
-              "Cook"
+              "Cook",
+              "DuPage"
             ],
             "percentage": 7.08
           },
@@ -8651,7 +8738,8 @@
             "party": "Republican",
             "votes": 3958,
             "counties": [
-              "Cook"
+              "Cook",
+              "DuPage"
             ],
             "percentage": 2.5
           },
@@ -8672,6 +8760,24 @@
               "Cook"
             ],
             "percentage": 0.61
+          },
+          "12": {
+            "name": "Erica Bray-Parker",
+            "party": "Non-Partisan",
+            "votes": 0,
+            "counties": [
+              "DuPage"
+            ],
+            "percentage": 0.0
+          },
+          "13": {
+            "name": "Robert A. Vrankovich",
+            "party": "Non-Partisan",
+            "votes": 0,
+            "counties": [
+              "DuPage"
+            ],
+            "percentage": 0.0
           }
         },
         "precincts_reporting": 0,
@@ -8682,12 +8788,11 @@
           "DuPage"
         ],
         "counties_found": [
-          "Cook"
-        ],
-        "counties_missing": [
+          "Cook",
           "DuPage"
         ],
-        "complete": false,
+        "counties_missing": [],
+        "complete": true,
         "district": 7
       },
       "district_8": {
@@ -9650,6 +9755,89 @@
         "complete": false,
         "district": 38
       },
+      "district_41": {
+        "name": "FOR REPRESENTATIVE IN THE GENERAL ASSEMBLY FORTY-FIRST REPRESENTATIVE DISTRICT",
+        "party": "Non-Partisan",
+        "counties": [
+          "DuPage"
+        ],
+        "num_counties": 1,
+        "candidates": {
+          "0": {
+            "name": "Janet Yang Rohr",
+            "party": "Non-Partisan",
+            "votes": 0,
+            "counties": [
+              "DuPage"
+            ],
+            "percentage": 0.0
+          },
+          "1": {
+            "name": "Ajay Gupta",
+            "party": "Non-Partisan",
+            "votes": 0,
+            "counties": [
+              "DuPage"
+            ],
+            "percentage": 0.0
+          }
+        },
+        "precincts_reporting": 0,
+        "total_precincts": 0,
+        "total_votes": 0,
+        "counties_needed": [
+          "DuPage",
+          "Will"
+        ],
+        "counties_found": [
+          "DuPage"
+        ],
+        "counties_missing": [
+          "Will"
+        ],
+        "complete": false,
+        "district": 41
+      },
+      "district_42": {
+        "name": "FOR REPRESENTATIVE IN THE GENERAL ASSEMBLY FORTY-SECOND REPRESENTATIVE DISTRICT",
+        "party": "Non-Partisan",
+        "counties": [
+          "DuPage"
+        ],
+        "num_counties": 1,
+        "candidates": {
+          "0": {
+            "name": "Margaret A. Delarosa",
+            "party": "Non-Partisan",
+            "votes": 0,
+            "counties": [
+              "DuPage"
+            ],
+            "percentage": 0.0
+          },
+          "1": {
+            "name": "Stephanie W. Trussell",
+            "party": "Non-Partisan",
+            "votes": 0,
+            "counties": [
+              "DuPage"
+            ],
+            "percentage": 0.0
+          }
+        },
+        "precincts_reporting": 0,
+        "total_precincts": 0,
+        "total_votes": 0,
+        "counties_needed": [
+          "DuPage"
+        ],
+        "counties_found": [
+          "DuPage"
+        ],
+        "counties_missing": [],
+        "complete": true,
+        "district": 42
+      },
       "district_43": {
         "name": "State Representative, 43rd District - Vote For 1",
         "party": "Non-Partisan",
@@ -9729,16 +9917,18 @@
         "name": "State Representative, 45th District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
-          "Cook"
+          "Cook",
+          "DuPage"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Martha \"marti\" Deuter",
             "party": "Democratic",
             "votes": 651,
             "counties": [
-              "Cook"
+              "Cook",
+              "DuPage"
             ],
             "percentage": 62.78
           },
@@ -9747,7 +9937,8 @@
             "party": "Republican",
             "votes": 386,
             "counties": [
-              "Cook"
+              "Cook",
+              "DuPage"
             ],
             "percentage": 37.22
           }
@@ -9760,28 +9951,109 @@
           "DuPage"
         ],
         "counties_found": [
-          "Cook"
-        ],
-        "counties_missing": [
+          "Cook",
           "DuPage"
         ],
-        "complete": false,
+        "counties_missing": [],
+        "complete": true,
         "district": 45
+      },
+      "district_46": {
+        "name": "FOR REPRESENTATIVE IN THE GENERAL ASSEMBLY FORTY-SIXTH REPRESENTATIVE DISTRICT",
+        "party": "Non-Partisan",
+        "counties": [
+          "DuPage"
+        ],
+        "num_counties": 1,
+        "candidates": {
+          "0": {
+            "name": "Diane Blair-Sherlock",
+            "party": "Non-Partisan",
+            "votes": 0,
+            "counties": [
+              "DuPage"
+            ],
+            "percentage": 0.0
+          },
+          "1": {
+            "name": "Pedro Jovany Mendoza",
+            "party": "Non-Partisan",
+            "votes": 0,
+            "counties": [
+              "DuPage"
+            ],
+            "percentage": 0.0
+          }
+        },
+        "precincts_reporting": 0,
+        "total_precincts": 0,
+        "total_votes": 0,
+        "counties_needed": [
+          "DuPage"
+        ],
+        "counties_found": [
+          "DuPage"
+        ],
+        "counties_missing": [],
+        "complete": true,
+        "district": 46
+      },
+      "district_47": {
+        "name": "FOR REPRESENTATIVE IN THE GENERAL ASSEMBLY FORTY-SEVENTH REPRESENTATIVE DISTRICT",
+        "party": "Non-Partisan",
+        "counties": [
+          "DuPage"
+        ],
+        "num_counties": 1,
+        "candidates": {
+          "0": {
+            "name": "Erica Bray-Parker",
+            "party": "Non-Partisan",
+            "votes": 0,
+            "counties": [
+              "DuPage"
+            ],
+            "percentage": 0.0
+          },
+          "1": {
+            "name": "Robert A. Vrankovich",
+            "party": "Non-Partisan",
+            "votes": 0,
+            "counties": [
+              "DuPage"
+            ],
+            "percentage": 0.0
+          }
+        },
+        "precincts_reporting": 0,
+        "total_precincts": 0,
+        "total_votes": 0,
+        "counties_needed": [
+          "DuPage"
+        ],
+        "counties_found": [
+          "DuPage"
+        ],
+        "counties_missing": [],
+        "complete": true,
+        "district": 47
       },
       "district_48": {
         "name": "State Representative, 48th District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
-          "Cook"
+          "Cook",
+          "DuPage"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Amanda Zahorak",
             "party": "Democratic",
             "votes": 5241,
             "counties": [
-              "Cook"
+              "Cook",
+              "DuPage"
             ],
             "percentage": 57.73
           },
@@ -9790,7 +10062,8 @@
             "party": "Republican",
             "votes": 3837,
             "counties": [
-              "Cook"
+              "Cook",
+              "DuPage"
             ],
             "percentage": 42.27
           }
@@ -9803,12 +10076,11 @@
           "DuPage"
         ],
         "counties_found": [
-          "Cook"
-        ],
-        "counties_missing": [
+          "Cook",
           "DuPage"
         ],
-        "complete": false,
+        "counties_missing": [],
+        "complete": true,
         "district": 48
       },
       "district_49": {
@@ -9816,9 +10088,10 @@
         "party": "Non-Partisan",
         "counties": [
           "Cook",
+          "DuPage",
           "Kane"
         ],
-        "num_counties": 2,
+        "num_counties": 3,
         "candidates": {
           "0": {
             "name": "Maura Hirschauer",
@@ -9826,6 +10099,7 @@
             "votes": 6574,
             "counties": [
               "Cook",
+              "DuPage",
               "Kane"
             ],
             "percentage": 66.86
@@ -9836,6 +10110,7 @@
             "votes": 3259,
             "counties": [
               "Cook",
+              "DuPage",
               "Kane"
             ],
             "percentage": 33.14
@@ -9851,27 +10126,28 @@
         ],
         "counties_found": [
           "Cook",
+          "DuPage",
           "Kane"
         ],
-        "counties_missing": [
-          "DuPage"
-        ],
-        "complete": false,
+        "counties_missing": [],
+        "complete": true,
         "district": 49
       },
       "district_50": {
-        "name": "FOR THE 50TH REPRESENTATIVE DISTRICT IN THE GENERAL ASSEMBLY",
+        "name": "FOR REPRESENTATIVE IN THE GENERAL ASSEMBLY FIFTIETH REPRESENTATIVE DISTRICT",
         "party": "Non-Partisan",
         "counties": [
+          "DuPage",
           "Kane"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Barbara Hernandez",
             "party": "Non-Partisan",
             "votes": 19619,
             "counties": [
+              "DuPage",
               "Kane"
             ],
             "percentage": 100.0
@@ -9885,12 +10161,11 @@
           "Kane"
         ],
         "counties_found": [
+          "DuPage",
           "Kane"
         ],
-        "counties_missing": [
-          "DuPage"
-        ],
-        "complete": false,
+        "counties_missing": [],
+        "complete": true,
         "district": 50
       },
       "district_51": {
@@ -10110,16 +10385,18 @@
         "name": "State Representative, 56th District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
-          "Cook"
+          "Cook",
+          "DuPage"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Michelle Mussman",
             "party": "Democratic",
             "votes": 16066,
             "counties": [
-              "Cook"
+              "Cook",
+              "DuPage"
             ],
             "percentage": 66.85
           },
@@ -10128,7 +10405,8 @@
             "party": "Republican",
             "votes": 7968,
             "counties": [
-              "Cook"
+              "Cook",
+              "DuPage"
             ],
             "percentage": 33.15
           }
@@ -10141,12 +10419,11 @@
           "DuPage"
         ],
         "counties_found": [
-          "Cook"
-        ],
-        "counties_missing": [
+          "Cook",
           "DuPage"
         ],
-        "complete": false,
+        "counties_missing": [],
+        "complete": true,
         "district": 56
       },
       "district_57": {
@@ -10261,18 +10538,20 @@
         "district": 59
       },
       "district_65": {
-        "name": "FOR THE 65TH REPRESENTATIVE DISTRICT IN THE GENERAL ASSEMBLY",
+        "name": "FOR REPRESENTATIVE IN THE GENERAL ASSEMBLY SIXTY-FIFTH REPRESENTATIVE DISTRICT",
         "party": "Non-Partisan",
         "counties": [
+          "DuPage",
           "Kane"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Ricky Rivard",
             "party": "Non-Partisan",
             "votes": 22963,
             "counties": [
+              "DuPage",
               "Kane"
             ],
             "percentage": 52.97
@@ -10282,6 +10561,7 @@
             "party": "Non-Partisan",
             "votes": 20384,
             "counties": [
+              "DuPage",
               "Kane"
             ],
             "percentage": 47.03
@@ -10295,12 +10575,11 @@
           "Kane"
         ],
         "counties_found": [
+          "DuPage",
           "Kane"
         ],
-        "counties_missing": [
-          "DuPage"
-        ],
-        "complete": false,
+        "counties_missing": [],
+        "complete": true,
         "district": 65
       },
       "district_66": {
@@ -10595,6 +10874,55 @@
         "complete": false,
         "district": 74
       },
+      "district_75": {
+        "name": "REPRESENTATIVE IN THE GENERAL ASSEMBLY - SEVENTY-FIFTH REPRESENTATIVE DISTRICT",
+        "party": "Non-Partisan",
+        "counties": [
+          "Grundy"
+        ],
+        "num_counties": 1,
+        "candidates": {
+          "0": {
+            "name": "Jed Davis",
+            "party": "Republican",
+            "votes": 4437,
+            "counties": [
+              "Grundy"
+            ],
+            "percentage": 57.41
+          },
+          "1": {
+            "name": "Caroline McCree",
+            "party": "Democratic",
+            "votes": 3292,
+            "counties": [
+              "Grundy"
+            ],
+            "percentage": 42.59
+          }
+        },
+        "precincts_reporting": 17,
+        "total_precincts": 17,
+        "total_votes": 7729,
+        "counties_needed": [
+          "DeKalb",
+          "Grundy",
+          "Kendall",
+          "LaSalle",
+          "Will"
+        ],
+        "counties_found": [
+          "Grundy"
+        ],
+        "counties_missing": [
+          "DeKalb",
+          "Kendall",
+          "LaSalle",
+          "Will"
+        ],
+        "complete": false,
+        "district": 75
+      },
       "district_76": {
         "name": "STATE REPRESENTATIVE 76TH DISTRICT",
         "party": "Non-Partisan",
@@ -10644,16 +10972,18 @@
         "name": "State Representative, 77th District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
-          "Cook"
+          "Cook",
+          "DuPage"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Norma Hernandez",
             "party": "Democratic",
             "votes": 11189,
             "counties": [
-              "Cook"
+              "Cook",
+              "DuPage"
             ],
             "percentage": 73.87
           },
@@ -10662,7 +10992,8 @@
             "party": "Republican",
             "votes": 3958,
             "counties": [
-              "Cook"
+              "Cook",
+              "DuPage"
             ],
             "percentage": 26.13
           }
@@ -10675,12 +11006,11 @@
           "DuPage"
         ],
         "counties_found": [
-          "Cook"
-        ],
-        "counties_missing": [
+          "Cook",
           "DuPage"
         ],
-        "complete": false,
+        "counties_missing": [],
+        "complete": true,
         "district": 77
       },
       "district_78": {
@@ -10727,23 +11057,25 @@
         "name": "State Representative, 79th District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
-          "Cook"
+          "Cook",
+          "Grundy"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Jackie Haas",
             "party": "Republican",
-            "votes": 958,
+            "votes": 1504,
             "counties": [
-              "Cook"
+              "Cook",
+              "Grundy"
             ],
             "percentage": 100.0
           }
         },
-        "precincts_reporting": 0,
-        "total_precincts": 0,
-        "total_votes": 958,
+        "precincts_reporting": 2,
+        "total_precincts": 2,
+        "total_votes": 1504,
         "counties_needed": [
           "Cook",
           "Grundy",
@@ -10751,10 +11083,10 @@
           "Will"
         ],
         "counties_found": [
-          "Cook"
+          "Cook",
+          "Grundy"
         ],
         "counties_missing": [
-          "Grundy",
           "Kankakee",
           "Will"
         ],
@@ -10804,20 +11136,62 @@
         "complete": false,
         "district": 80
       },
+      "district_81": {
+        "name": "FOR REPRESENTATIVE IN THE GENERAL ASSEMBLY EIGHTY-FIRST REPRESENTATIVE DISTRICT",
+        "party": "Non-Partisan",
+        "counties": [
+          "DuPage"
+        ],
+        "num_counties": 1,
+        "candidates": {
+          "0": {
+            "name": "Anne Stava",
+            "party": "Non-Partisan",
+            "votes": 0,
+            "counties": [
+              "DuPage"
+            ],
+            "percentage": 0.0
+          },
+          "1": {
+            "name": "Laura Hois",
+            "party": "Non-Partisan",
+            "votes": 0,
+            "counties": [
+              "DuPage"
+            ],
+            "percentage": 0.0
+          }
+        },
+        "precincts_reporting": 0,
+        "total_precincts": 0,
+        "total_votes": 0,
+        "counties_needed": [
+          "DuPage"
+        ],
+        "counties_found": [
+          "DuPage"
+        ],
+        "counties_missing": [],
+        "complete": true,
+        "district": 81
+      },
       "district_82": {
         "name": "State Representative, 82nd District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
-          "Cook"
+          "Cook",
+          "DuPage"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Nicole La Ha",
             "party": "Republican",
             "votes": 13732,
             "counties": [
-              "Cook"
+              "Cook",
+              "DuPage"
             ],
             "percentage": 100.0
           }
@@ -10831,10 +11205,10 @@
           "Will"
         ],
         "counties_found": [
-          "Cook"
+          "Cook",
+          "DuPage"
         ],
         "counties_missing": [
-          "DuPage",
           "Will"
         ],
         "complete": false,
@@ -10884,18 +11258,20 @@
         "district": 83
       },
       "district_84": {
-        "name": "FOR THE 84TH REPRESENTATIVE DISTRICT IN THE GENERAL ASSEMBLY",
+        "name": "FOR REPRESENTATIVE IN THE GENERAL ASSEMBLY EIGHTY-FOURTH REPRESENTATIVE DISTRICT",
         "party": "Non-Partisan",
         "counties": [
+          "DuPage",
           "Kane"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Saba Haider",
             "party": "Non-Partisan",
             "votes": 2356,
             "counties": [
+              "DuPage",
               "Kane"
             ],
             "percentage": 78.77
@@ -10905,6 +11281,7 @@
             "party": "Non-Partisan",
             "votes": 635,
             "counties": [
+              "DuPage",
               "Kane"
             ],
             "percentage": 21.23
@@ -10920,15 +11297,58 @@
           "Will"
         ],
         "counties_found": [
+          "DuPage",
           "Kane"
         ],
         "counties_missing": [
-          "DuPage",
           "Kendall",
           "Will"
         ],
         "complete": false,
         "district": 84
+      },
+      "district_85": {
+        "name": "FOR REPRESENTATIVE IN THE GENERAL ASSEMBLY EIGHTY-FIFTH REPRESENTATIVE DISTRICT",
+        "party": "Non-Partisan",
+        "counties": [
+          "DuPage"
+        ],
+        "num_counties": 1,
+        "candidates": {
+          "0": {
+            "name": "Dagmara 'dee' Avelar",
+            "party": "Non-Partisan",
+            "votes": 0,
+            "counties": [
+              "DuPage"
+            ],
+            "percentage": 0.0
+          },
+          "1": {
+            "name": "Chris Metcalfe",
+            "party": "Non-Partisan",
+            "votes": 0,
+            "counties": [
+              "DuPage"
+            ],
+            "percentage": 0.0
+          }
+        },
+        "precincts_reporting": 0,
+        "total_precincts": 0,
+        "total_votes": 0,
+        "counties_needed": [
+          "DuPage",
+          "Will"
+        ],
+        "counties_found": [
+          "DuPage"
+        ],
+        "counties_missing": [
+          "Will"
+        ],
+        "complete": false,
+        "district": 85
       },
       "district_87": {
         "name": "STATE REPRESENTATIVE 87TH DISTRICT",
@@ -11419,6 +11839,46 @@
         ],
         "complete": false,
         "district": 105
+      },
+      "district_106": {
+        "name": "REPRESENTATIVE IN THE GENERAL ASSEMBLY - ONE HUNDRED AND SIXTH REPRESENTATIVE DISTRICT",
+        "party": "Non-Partisan",
+        "counties": [
+          "Grundy"
+        ],
+        "num_counties": 1,
+        "candidates": {
+          "0": {
+            "name": "Jason R. Bunting",
+            "party": "Republican",
+            "votes": 7668,
+            "counties": [
+              "Grundy"
+            ],
+            "percentage": 100.0
+          }
+        },
+        "precincts_reporting": 27,
+        "total_precincts": 27,
+        "total_votes": 7668,
+        "counties_needed": [
+          "Grundy",
+          "Iroquois",
+          "LaSalle",
+          "McLean",
+          "Will"
+        ],
+        "counties_found": [
+          "Grundy"
+        ],
+        "counties_missing": [
+          "Iroquois",
+          "LaSalle",
+          "McLean",
+          "Will"
+        ],
+        "complete": false,
+        "district": 106
       },
       "district_107": {
         "name": "STATE REPRESENTATIVE 107TH DISTRICT",
@@ -12535,7 +12995,7 @@
     "Shelby": {
       "county": "Shelby",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.609770",
+      "scraped_at": "2026-11-03T23:00:31.586998",
       "source": "pollresults.net \u2014 https://il-shelby.pollresults.net",
       "summary": {
         "registered_voters": 14936,
@@ -13328,7 +13788,7 @@
     "Bond": {
       "county": "Bond",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.202841",
+      "scraped_at": "2026-11-03T23:00:30.784535",
       "source": "pollresults.net \u2014 https://il-bond.pollresults.net",
       "summary": {
         "registered_voters": 10536,
@@ -13831,7 +14291,7 @@
       "authority": "Cook County Clerk",
       "coverage": "Suburban Cook County (excluding Chicago)",
       "source": "Live HTML \u2014 https://electionnight.cookcountyclerkil.gov/",
-      "scraped_at": "2026-11-03T22:20:22.383163",
+      "scraped_at": "2026-11-03T23:00:17.009569",
       "contests": [
         {
           "name": "Senator, U.S. - Vote For 1",
@@ -17654,7 +18114,7 @@
     "Mercer": {
       "county": "Mercer",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.769190",
+      "scraped_at": "2026-11-03T23:00:31.493182",
       "source": "pollresults.net \u2014 https://il-mercer.pollresults.net",
       "summary": {},
       "contests": []
@@ -17662,7 +18122,7 @@
     "Washington": {
       "county": "Washington",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.814961",
+      "scraped_at": "2026-11-03T23:00:31.035511",
       "source": "pollresults.net \u2014 https://il-washington.pollresults.net",
       "summary": {},
       "contests": []
@@ -17670,7 +18130,7 @@
     "Hancock": {
       "county": "Hancock",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.655860",
+      "scraped_at": "2026-11-03T23:00:31.708816",
       "source": "pollresults.net \u2014 https://il-hancock.pollresults.net",
       "summary": {},
       "contests": []
@@ -17678,7 +18138,7 @@
     "Richland": {
       "county": "Richland",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.759835",
+      "scraped_at": "2026-11-03T23:00:31.488116",
       "source": "pollresults.net \u2014 https://il-richland.pollresults.net",
       "summary": {},
       "contests": []
@@ -17686,7 +18146,7 @@
     "Whiteside": {
       "county": "Whiteside",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.926937",
+      "scraped_at": "2026-11-03T23:00:31.582242",
       "source": "pollresults.net \u2014 https://il-whiteside.pollresults.net",
       "summary": {
         "registered_voters": 37781,
@@ -18267,7 +18727,7 @@
     "Franklin": {
       "county": "Franklin",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.590339",
+      "scraped_at": "2026-11-03T23:00:31.574599",
       "source": "pollresults.net \u2014 https://il-franklin.pollresults.net",
       "summary": {},
       "contests": []
@@ -18275,7 +18735,7 @@
     "Effingham": {
       "county": "Effingham",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.314974",
+      "scraped_at": "2026-11-03T23:00:31.139362",
       "source": "pollresults.net \u2014 https://il-effingham.pollresults.net",
       "summary": {},
       "contests": []
@@ -18283,7 +18743,7 @@
     "Ogle": {
       "county": "Ogle",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.814831",
+      "scraped_at": "2026-11-03T23:00:31.510439",
       "source": "pollresults.net \u2014 https://il-ogle.pollresults.net",
       "summary": {
         "registered_voters": 35426,
@@ -18983,7 +19443,7 @@
     "Logan": {
       "county": "Logan",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.789764",
+      "scraped_at": "2026-11-03T23:00:31.565111",
       "source": "pollresults.net \u2014 https://il-logan.pollresults.net",
       "summary": {
         "registered_voters": 17936,
@@ -20947,7 +21407,7 @@
     "Macon": {
       "county": "Macon",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.537028",
+      "scraped_at": "2026-11-03T23:00:31.866957",
       "source": "pollresults.net \u2014 https://il-macon.pollresults.net",
       "summary": {
         "registered_voters": 69503,
@@ -21906,7 +22366,7 @@
     "Fayette": {
       "county": "Fayette",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.600626",
+      "scraped_at": "2026-11-03T23:00:30.943507",
       "source": "pollresults.net \u2014 https://il-fayette.pollresults.net",
       "summary": {},
       "contests": []
@@ -21914,7 +22374,7 @@
     "Crawford": {
       "county": "Crawford",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.295450",
+      "scraped_at": "2026-11-03T23:00:31.121652",
       "source": "pollresults.net \u2014 https://il-crawford.pollresults.net",
       "summary": {},
       "contests": []
@@ -21922,7 +22382,7 @@
     "Clinton": {
       "county": "Clinton",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.646828",
+      "scraped_at": "2026-11-03T23:00:31.192999",
       "source": "pollresults.net \u2014 https://il-clinton.pollresults.net",
       "summary": {},
       "contests": []
@@ -21930,7 +22390,7 @@
     "Wayne": {
       "county": "Wayne",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.810412",
+      "scraped_at": "2026-11-03T23:00:31.586447",
       "source": "pollresults.net \u2014 https://il-wayne.pollresults.net",
       "summary": {},
       "contests": []
@@ -21938,7 +22398,7 @@
     "Hardin": {
       "county": "Hardin",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.657074",
+      "scraped_at": "2026-11-03T23:00:31.078875",
       "source": "pollresults.net \u2014 https://il-hardin.pollresults.net",
       "summary": {},
       "contests": []
@@ -21946,7 +22406,7 @@
     "Brown": {
       "county": "Brown",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.593099",
+      "scraped_at": "2026-11-03T23:00:30.893993",
       "source": "pollresults.net \u2014 https://il-brown.pollresults.net",
       "summary": {},
       "contests": []
@@ -21954,7 +22414,7 @@
     "Clay": {
       "county": "Clay",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.020712",
+      "scraped_at": "2026-11-03T23:00:31.650560",
       "source": "pollresults.net \u2014 https://il-clay.pollresults.net",
       "summary": {},
       "contests": []
@@ -21962,7 +22422,7 @@
     "Montgomery": {
       "county": "Montgomery",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.504947",
+      "scraped_at": "2026-11-03T23:00:31.408176",
       "source": "pollresults.net \u2014 https://il-montgomery.pollresults.net",
       "summary": {},
       "contests": []
@@ -21970,7 +22430,7 @@
     "Henderson": {
       "county": "Henderson",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.888196",
+      "scraped_at": "2026-11-03T23:00:31.076409",
       "source": "pollresults.net \u2014 https://il-henderson.pollresults.net",
       "summary": {},
       "contests": []
@@ -21978,7 +22438,7 @@
     "DeWitt": {
       "county": "DeWitt",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.653704",
+      "scraped_at": "2026-11-03T23:00:31.487234",
       "source": "pollresults.net \u2014 https://il-dewitt.pollresults.net",
       "summary": {
         "registered_voters": 10717,
@@ -22986,7 +23446,7 @@
       },
       "county": "Kane County",
       "election_date": "2026-11-03",
-      "scraped_at": "2026-11-03T22:20:24.707531",
+      "scraped_at": "2026-11-03T23:00:19.327791",
       "source": "Kane County custom platform",
       "contests": [
         {
@@ -24030,7 +24490,7 @@
     "Menard": {
       "county": "Menard",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.652088",
+      "scraped_at": "2026-11-03T23:00:31.444697",
       "source": "pollresults.net \u2014 https://il-menard.pollresults.net",
       "summary": {},
       "contests": []
@@ -24038,7 +24498,7 @@
     "Massac": {
       "county": "Massac",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.504806",
+      "scraped_at": "2026-11-03T23:00:31.574139",
       "source": "pollresults.net \u2014 https://il-massac.pollresults.net",
       "summary": {},
       "contests": []
@@ -24046,7 +24506,7 @@
     "White": {
       "county": "White",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.627608",
+      "scraped_at": "2026-11-03T23:00:31.501494",
       "source": "pollresults.net \u2014 https://il-white.pollresults.net",
       "summary": {},
       "contests": []
@@ -24054,7 +24514,7 @@
     "Vermilion": {
       "county": "Vermilion",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.681410",
+      "scraped_at": "2026-11-03T23:00:31.055546",
       "source": "pollresults.net \u2014 https://il-vermilion.pollresults.net",
       "summary": {
         "registered_voters": 29291,
@@ -24831,7 +25291,7 @@
     "Lee": {
       "county": "Lee",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.872487",
+      "scraped_at": "2026-11-03T23:00:31.219870",
       "source": "pollresults.net \u2014 https://il-lee.pollresults.net",
       "summary": {
         "registered_voters": 22398,
@@ -25413,7 +25873,7 @@
     "Wabash": {
       "county": "Wabash",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.918966",
+      "scraped_at": "2026-11-03T23:00:31.583136",
       "source": "pollresults.net \u2014 https://il-wabash.pollresults.net",
       "summary": {},
       "contests": []
@@ -25421,7 +25881,7 @@
     "Madison": {
       "county": "Madison",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.651671",
+      "scraped_at": "2026-11-03T23:00:31.448219",
       "source": "pollresults.net \u2014 https://il-madison.pollresults.net",
       "summary": {},
       "contests": []
@@ -25429,7 +25889,7 @@
     "Douglas": {
       "county": "Douglas",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.789398",
+      "scraped_at": "2026-11-03T23:00:31.389089",
       "source": "pollresults.net \u2014 https://il-douglas.pollresults.net",
       "summary": {
         "registered_voters": 11940,
@@ -25958,14 +26418,14 @@
     "Adams": {
       "county": "Adams",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.650068",
+      "scraped_at": "2026-11-03T23:00:30.940497",
       "source": "pollresults.net \u2014 https://il-adams.pollresults.net",
       "summary": {},
       "contests": []
     },
     "Winnebago": {
       "county": "Winnebago",
-      "scraped_at": "2026-11-03T22:20:25.053523",
+      "scraped_at": "2026-11-03T23:00:19.617665",
       "total_contests": 0,
       "contests_by_party": {
         "Democratic": {
@@ -25985,7 +26445,7 @@
     "Scott": {
       "county": "Scott",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.772346",
+      "scraped_at": "2026-11-03T23:00:31.129434",
       "source": "pollresults.net \u2014 https://il-scott.pollresults.net",
       "summary": {},
       "contests": []
@@ -25993,7 +26453,7 @@
     "Putnam": {
       "county": "Putnam",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.831145",
+      "scraped_at": "2026-11-03T23:00:31.495220",
       "source": "pollresults.net \u2014 https://il-putnam.pollresults.net",
       "summary": {
         "registered_voters": 4019,
@@ -26381,7 +26841,7 @@
     "Piatt": {
       "county": "Piatt",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.824407",
+      "scraped_at": "2026-11-03T23:00:30.988548",
       "source": "pollresults.net \u2014 https://il-piatt.pollresults.net",
       "summary": {
         "registered_voters": 12719,
@@ -27026,7 +27486,7 @@
     "Cass": {
       "county": "Cass",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.107981",
+      "scraped_at": "2026-11-03T23:00:31.190177",
       "source": "pollresults.net \u2014 https://il-cass.pollresults.net",
       "summary": {},
       "contests": []
@@ -27034,7 +27494,7 @@
     "Randolph": {
       "county": "Randolph",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.765806",
+      "scraped_at": "2026-11-03T23:00:31.150273",
       "source": "pollresults.net \u2014 https://il-randolph.pollresults.net",
       "summary": {},
       "contests": []
@@ -27042,14 +27502,14 @@
     "Monroe": {
       "county": "Monroe",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.312776",
+      "scraped_at": "2026-11-03T23:00:31.640851",
       "source": "pollresults.net \u2014 https://il-monroe.pollresults.net",
       "summary": {},
       "contests": []
     },
     "Henry": {
       "county": "Henry",
-      "scraped_at": "2026-11-03T22:20:27.816593",
+      "scraped_at": "2026-11-03T23:00:27.082596",
       "total_contests": 18,
       "contests_by_party": {
         "Democratic": {
@@ -27532,7 +27992,7 @@
     "Boone": {
       "county": "Boone",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.083365",
+      "scraped_at": "2026-11-03T23:00:30.969595",
       "source": "pollresults.net \u2014 https://il-boone.pollresults.net",
       "summary": {
         "registered_voters": 35037,
@@ -28247,7 +28707,7 @@
     "Perry": {
       "county": "Perry",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.604137",
+      "scraped_at": "2026-11-03T23:00:31.347825",
       "source": "pollresults.net \u2014 https://il-perry.pollresults.net",
       "summary": {},
       "contests": []
@@ -28714,7 +29174,7 @@
     "Bureau": {
       "county": "Bureau",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.187292",
+      "scraped_at": "2026-11-03T23:00:31.601584",
       "source": "pollresults.net \u2014 https://il-bureau.pollresults.net",
       "summary": {
         "registered_voters": 20675,
@@ -29437,7 +29897,7 @@
     "Edwards": {
       "county": "Edwards",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.353053",
+      "scraped_at": "2026-11-03T23:00:31.491943",
       "source": "pollresults.net \u2014 https://il-edwards.pollresults.net",
       "summary": {},
       "contests": []
@@ -29445,7 +29905,7 @@
     "Pope": {
       "county": "Pope",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.765298",
+      "scraped_at": "2026-11-03T23:00:31.333118",
       "source": "pollresults.net \u2014 https://il-pope.pollresults.net",
       "summary": {},
       "contests": []
@@ -29453,7 +29913,7 @@
     "Gallatin": {
       "county": "Gallatin",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.625216",
+      "scraped_at": "2026-11-03T23:00:31.409601",
       "source": "pollresults.net \u2014 https://il-gallatin.pollresults.net",
       "summary": {},
       "contests": []
@@ -29461,7 +29921,7 @@
     "Mason": {
       "county": "Mason",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.922940",
+      "scraped_at": "2026-11-03T23:00:31.567969",
       "source": "pollresults.net \u2014 https://il-mason.pollresults.net",
       "summary": {
         "registered_voters": 8961,
@@ -30007,7 +30467,7 @@
     "Alexander": {
       "county": "Alexander",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.317232",
+      "scraped_at": "2026-11-03T23:00:30.958430",
       "source": "pollresults.net \u2014 https://il-alexander.pollresults.net",
       "summary": {},
       "contests": []
@@ -30015,7 +30475,7 @@
     "Jersey": {
       "county": "Jersey",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.781101",
+      "scraped_at": "2026-11-03T23:00:31.559707",
       "source": "pollresults.net \u2014 https://il-jersey.pollresults.net",
       "summary": {},
       "contests": []
@@ -30023,7 +30483,7 @@
     "Christian": {
       "county": "Christian",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.316227",
+      "scraped_at": "2026-11-03T23:00:31.436637",
       "source": "pollresults.net \u2014 https://il-christian.pollresults.net",
       "summary": {
         "registered_voters": 21734,
@@ -30728,7 +31188,7 @@
       "total_precincts": 40,
       "total_contests": 25,
       "source": "https://grundy.results.gbsvote.com/results/grundy/2026-general/current/results.json",
-      "scraped_at": "2026-11-03T22:20:28.154554",
+      "scraped_at": "2026-11-03T23:00:27.480758",
       "contests": [
         {
           "name": "UNITED STATES SENATOR",
@@ -31308,7 +31768,7 @@
     "Carroll": {
       "county": "Carroll",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.823130",
+      "scraped_at": "2026-11-03T23:00:31.493710",
       "source": "pollresults.net \u2014 https://il-carroll.pollresults.net",
       "summary": {
         "registered_voters": 10791,
@@ -31770,7 +32230,7 @@
     "Johnson": {
       "county": "Johnson",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.826180",
+      "scraped_at": "2026-11-03T23:00:31.487525",
       "source": "pollresults.net \u2014 https://il-johnson.pollresults.net",
       "summary": {},
       "contests": []
@@ -31778,7 +32238,7 @@
     "Hamilton": {
       "county": "Hamilton",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.922112",
+      "scraped_at": "2026-11-03T23:00:31.645936",
       "source": "pollresults.net \u2014 https://il-hamilton.pollresults.net",
       "summary": {},
       "contests": []
@@ -31786,7 +32246,7 @@
     "Union": {
       "county": "Union",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.763476",
+      "scraped_at": "2026-11-03T23:00:31.493635",
       "source": "pollresults.net \u2014 https://il-union.pollresults.net",
       "summary": {},
       "contests": []
@@ -31794,7 +32254,7 @@
     "Stephenson": {
       "county": "Stephenson",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.814047",
+      "scraped_at": "2026-11-03T23:00:31.435905",
       "source": "pollresults.net \u2014 https://il-stephenson.pollresults.net",
       "summary": {
         "registered_voters": 28360,
@@ -32479,7 +32939,7 @@
     "Clark": {
       "county": "Clark",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.306451",
+      "scraped_at": "2026-11-03T23:00:31.422646",
       "source": "pollresults.net \u2014 https://il-clark.pollresults.net",
       "summary": {
         "registered_voters": 11170,
@@ -32963,7 +33423,7 @@
     "Williamson": {
       "county": "Williamson",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.925374",
+      "scraped_at": "2026-11-03T23:00:31.136108",
       "source": "pollresults.net \u2014 https://il-williamson.pollresults.net",
       "summary": {},
       "contests": []
@@ -32971,7 +33431,7 @@
     "Macoupin": {
       "county": "Macoupin",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.920107",
+      "scraped_at": "2026-11-03T23:00:31.708842",
       "source": "pollresults.net \u2014 https://il-macoupin.pollresults.net",
       "summary": {},
       "contests": []
@@ -32979,7 +33439,7 @@
     "Pulaski": {
       "county": "Pulaski",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.817404",
+      "scraped_at": "2026-11-03T23:00:31.866945",
       "source": "pollresults.net \u2014 https://il-pulaski.pollresults.net",
       "summary": {},
       "contests": []
@@ -32987,7 +33447,7 @@
     "Coles": {
       "county": "Coles",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.600011",
+      "scraped_at": "2026-11-03T23:00:30.659483",
       "source": "pollresults.net \u2014 https://il-coles.pollresults.net",
       "summary": {
         "registered_voters": 29725,
@@ -33603,7 +34063,7 @@
     "Calhoun": {
       "county": "Calhoun",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.595330",
+      "scraped_at": "2026-11-03T23:00:31.371053",
       "source": "pollresults.net \u2014 https://il-calhoun.pollresults.net",
       "summary": {},
       "contests": []
@@ -33611,7 +34071,7 @@
     "Greene": {
       "county": "Greene",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.825650",
+      "scraped_at": "2026-11-03T23:00:31.425406",
       "source": "pollresults.net \u2014 https://il-greene.pollresults.net",
       "summary": {},
       "contests": []
@@ -33619,7 +34079,7 @@
     "Moultrie": {
       "county": "Moultrie",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.654553",
+      "scraped_at": "2026-11-03T23:00:31.053855",
       "source": "pollresults.net \u2014 https://il-moultrie.pollresults.net",
       "summary": {
         "registered_voters": 8789,
@@ -34162,7 +34622,7 @@
     "Ford": {
       "county": "Ford",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.813287",
+      "scraped_at": "2026-11-03T23:00:31.140524",
       "source": "pollresults.net \u2014 https://il-ford.pollresults.net",
       "summary": {
         "registered_voters": 9519,
@@ -34801,7 +35261,7 @@
     "St. Clair": {
       "county": "St. Clair",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.812850",
+      "scraped_at": "2026-11-03T23:00:31.077695",
       "source": "pollresults.net \u2014 https://il-stclair.pollresults.net",
       "summary": {},
       "contests": []
@@ -34809,7 +35269,7 @@
     "Pike": {
       "county": "Pike",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.770603",
+      "scraped_at": "2026-11-03T23:00:31.495809",
       "source": "pollresults.net \u2014 https://il-pike.pollresults.net",
       "summary": {},
       "contests": []
@@ -34817,7 +35277,7 @@
     "Morgan": {
       "county": "Morgan",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.823942",
+      "scraped_at": "2026-11-03T23:00:31.581676",
       "source": "pollresults.net \u2014 https://il-morgan.pollresults.net",
       "summary": {},
       "contests": []
@@ -34825,7 +35285,7 @@
     "Saline": {
       "county": "Saline",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.812507",
+      "scraped_at": "2026-11-03T23:00:31.369795",
       "source": "pollresults.net \u2014 https://il-saline.pollresults.net",
       "summary": {},
       "contests": []
@@ -34833,7 +35293,7 @@
     "Jasper": {
       "county": "Jasper",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.919704",
+      "scraped_at": "2026-11-03T23:00:31.497541",
       "source": "pollresults.net \u2014 https://il-jasper.pollresults.net",
       "summary": {},
       "contests": []
@@ -34841,7 +35301,7 @@
     "Jackson": {
       "county": "Jackson",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.593069",
+      "scraped_at": "2026-11-03T23:00:31.569169",
       "source": "pollresults.net \u2014 https://il-jackson.pollresults.net",
       "summary": {},
       "contests": []
@@ -34849,7 +35309,7 @@
     "Tazewell": {
       "county": "Tazewell",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.923636",
+      "scraped_at": "2026-11-03T23:00:31.134178",
       "source": "pollresults.net \u2014 https://il-tazewell.pollresults.net",
       "summary": {
         "registered_voters": 84748,
@@ -35559,7 +36019,7 @@
     "Cumberland": {
       "county": "Cumberland",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.304396",
+      "scraped_at": "2026-11-03T23:00:31.007965",
       "source": "pollresults.net \u2014 https://il-cumberland.pollresults.net",
       "summary": {},
       "contests": []
@@ -35567,7 +36027,7 @@
     "Schuyler": {
       "county": "Schuyler",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.631938",
+      "scraped_at": "2026-11-03T23:00:31.555344",
       "source": "pollresults.net \u2014 https://il-schuyler.pollresults.net",
       "summary": {},
       "contests": []
@@ -35575,7 +36035,7 @@
     "Jefferson": {
       "county": "Jefferson",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.609353",
+      "scraped_at": "2026-11-03T23:00:31.645898",
       "source": "pollresults.net \u2014 https://il-jefferson.pollresults.net",
       "summary": {},
       "contests": []
@@ -35583,7 +36043,7 @@
     "Marion": {
       "county": "Marion",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.659310",
+      "scraped_at": "2026-11-03T23:00:31.585127",
       "source": "pollresults.net \u2014 https://il-marion.pollresults.net",
       "summary": {},
       "contests": []
@@ -35591,14 +36051,14 @@
     "Lawrence": {
       "county": "Lawrence",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.666069",
+      "scraped_at": "2026-11-03T23:00:31.415189",
       "source": "pollresults.net \u2014 https://il-lawrence.pollresults.net",
       "summary": {},
       "contests": []
     },
     "DeKalb": {
       "county": "DeKalb",
-      "scraped_at": "2026-11-03T22:20:26.499842",
+      "scraped_at": "2026-11-03T23:00:21.949929",
       "total_contests": 18,
       "contests_by_party": {
         "Democratic": {
@@ -36015,7 +36475,7 @@
     "Edgar": {
       "county": "Edgar",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.079946",
+      "scraped_at": "2026-11-03T23:00:31.074636",
       "source": "pollresults.net \u2014 https://il-edgar.pollresults.net",
       "summary": {
         "registered_voters": 11838,
@@ -36534,10 +36994,10 @@
       "authority": "Chicago Board of Election Commissioners",
       "jurisdiction": "Chicago (City)",
       "election_date": "2026-11-03",
-      "scraped_at": "2026-11-03T22:20:24.074349",
+      "scraped_at": "2026-11-03T23:00:18.667700",
       "source": "HTML \u2014 https://results.chicagoelections.gov/results/ElectionSummary.html",
       "summary": {
-        "precincts_reporting": 1073,
+        "precincts_reporting": 1171,
         "total_precincts": 1291
       },
       "contests": []
@@ -36545,7 +37005,7 @@
     "Livingston": {
       "county": "Livingston",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T22:20:31.828996",
+      "scraped_at": "2026-11-03T23:00:31.317208",
       "source": "pollresults.net \u2014 https://il-livingston.pollresults.net",
       "summary": {
         "registered_voters": 22933,
