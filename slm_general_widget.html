@@ -1052,7 +1052,10 @@ function buildSections(contests) {
         const id = contestName(c) + '__' + (c._partyBucket || '');
         usedContestIds.add(id);
         for (const cand of (c.candidates || [])) {
-          const key = (cand.name || '').toUpperCase().trim();
+          const rawName = (cand.name || '').trim();
+          // Skip cross-filed/parenthesized duplicates
+          if (rawName.startsWith('(')) continue;
+          const key = rawName.toUpperCase();
           if (!seenNames.has(key)) {
             seenNames.add(key);
             mergedCandidates.push(cand);
