@@ -945,7 +945,7 @@ function buildSections(countyDataMap, suptRaces, crossCountyRefs, aggregatedRace
       const mergedCandidates = [];
       const seenNames = new Set();
       let firstMatch = null;
-      for (const c of matched) {
+      for (const c of allPoolMatched) {
         if (!firstMatch) firstMatch = c;
         if (!hasCcounty || !county) usedSharedIds.add(contestName(c));
         for (const cand of (c.candidates || [])) {
@@ -957,7 +957,7 @@ function buildSections(countyDataMap, suptRaces, crossCountyRefs, aggregatedRace
         }
       }
 
-      if (matched.length === 0) {
+      if (allPoolMatched.length === 0) {
         renderedRaces.push({ ...raceDef, candidates: null, precincts: null, pending: true });
       } else {
         renderedRaces.push({
