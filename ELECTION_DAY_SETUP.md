@@ -19,6 +19,7 @@ County websites get redesigned or moved between elections, and a scraper pointed
 - [ ] **Confirm the platform.** pollresults.net hosts only Bond, Boone, Bureau, Carroll, Christian, Clark, Coles, DeWitt, Douglas, Edgar, Ford, Lee, Livingston, Logan, Macon, Mason, Moultrie, Ogle, Piatt, Putnam, Shelby, Stephenson, Tazewell, Vermilion and Whiteside. Any other `il-<county>.pollresults.net` address redirects to /Error/NotFound and returns nothing.
 - [ ] **Platinum counties (DeKalb, Henry):** compare the category links on the results page with `CATEGORIES` in `dekalb_county_scraper.py`. Henry reuses the DeKalb parser, so test both after any change.
 - [ ] **No hard-coded data versions.** Every Clarity/Scytl scraper (including DuPage and Winnebago) must read `current_ver.txt` on each run.
+- [ ] **`config.json` → `election_info`:** set the date, name and `election_type` (`primary`, `general` or `consolidated`). Only a primary splits races into party groups.
 - [ ] **Per-election PDF addresses:** La Salle (`config.json` → `doc_id`, from the county's Election Results page) and Jo Daviess (`PDF_URL` in `jo_daviess_county_scraper.py`, from `jodaviesscountyil.gov/1380/Election-Results`).
 - [ ] **Every needed county is in `run_all_scrapers.sh`.** DuPage, La Salle and Jo Daviess weren't running automatically on Nov. 3, 2026.
 - [ ] **Test run, then check freshness.** List `scraped_at` and total votes for every file in `county_results/`. Anything stale, or empty on a site that has test data, needs fixing before election night.
