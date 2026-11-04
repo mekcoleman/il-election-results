@@ -506,12 +506,12 @@ const RACE_DEFINITIONS = [
       {
         label: 'County Board District 1',
         seats: 2,
-        match: /county board.*district\s*1\b|board.*district\s*1\b/i,
+        match: /(?:county board|members.*board).*(?:\b1st\s+district|district\s*1\b)/i,
       },
       {
         label: 'County Board District 2',
         seats: 3,
-        match: /county board.*district\s*2\b|board.*district\s*2\b/i,
+        match: /(?:county board|members.*board).*(?:\b2nd\s+district|district\s*2\b)/i,
       },
     ]
   },
@@ -803,6 +803,26 @@ function buildSections(contests) {
       }
     }
 
+    // ── County board fallback: surface raw contests when all board patterns miss ──
+    {
+      const boardRaces = renderedRaces.filter(r => /county board/i.test(r.label));
+      if (boardRaces.length > 0 && boardRaces.every(r => r.pending)) {
+        const _fbPool = (typeof pool !== 'undefined' ? pool : contests) || [];
+        const _fbContest = _fbPool.filter(c => /county board|members.*board/i.test(contestName(c)));
+        if (_fbContest.length > 0) {
+          for (let i = renderedRaces.length - 1; i >= 0; i--) {
+            if (/county board/i.test(renderedRaces[i].label) && renderedRaces[i].pending)
+              renderedRaces.splice(i, 1);
+          }
+          for (const c of _fbContest) {
+            renderedRaces.push({ label: contestName(c), seats: null, _fallback: true,
+              candidates: c.candidates || [],
+              precincts: { reporting: c.precincts_reporting || 0, total: c.total_precincts || 0 },
+              pending: (c.candidates || []).length === 0 });
+          }
+        }
+      }
+    }
     if (renderedRaces.length > 0) {
       sections.push({ title: sectionDef.section, races: renderedRaces });
     }
