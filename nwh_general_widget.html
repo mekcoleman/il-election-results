@@ -883,7 +883,7 @@ function buildSections(contests) {
       // merge candidates into one race.
       const mergedCandidates = [];
       const seenNames = new Set();
-      for (const c of matched) {
+      for (const c of allPoolMatched) {
         const id = contestName(c) + '__' + (c._partyBucket || '');
         usedContestIds.add(id);
         for (const cand of (c.candidates || [])) {
@@ -898,7 +898,7 @@ function buildSections(contests) {
       // Pull precincts from first matched contest
       const firstMatch = matched[0] || {};
 
-      if (matched.length === 0) {
+      if (allPoolMatched.length === 0) {
         renderedRaces.push({ ...raceDef, candidates: null, precincts: null, pending: true });
       } else {
         renderedRaces.push({
