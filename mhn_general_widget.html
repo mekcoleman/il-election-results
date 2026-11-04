@@ -431,6 +431,11 @@ const RACE_DEFINITIONS = [
         match: /senate.*district.*38\b/i,
         note: 'Pulls votes from Bureau, DeKalb, Grundy, Kendall, La Salle and Will counties',
       },
+      {
+        label: 'State Senate District 53',
+        match: /senate.*district.*53\b|fifty-third.*district/i,
+        note: 'Pulls votes from Grundy and other counties',
+      },
     ]
   },
   {
@@ -512,6 +517,19 @@ const RACE_DEFINITIONS = [
         match: /13th circuit.*at.large|13th circuit.*vacancy/i,
         note: 'Pulls votes from Bureau, Grundy and La Salle counties',
       },
+      {
+        label: '13th Circuit – Retention',
+        match: /^circuit court judge$/i,
+      },
+    ]
+  },
+  {
+    section: 'REFERENDUM',
+    races: [
+      {
+        label: 'Consolidation of Local Townships',
+        match: /consolidation.*townships|townships.*consolidat/i,
+      },
     ]
   },
 ];
@@ -574,6 +592,11 @@ const PENDING_CANDIDATES = {
     candidates: [
       { name: 'Sue Rezin (i)',    party: 'R', votes: 0 },
       { name: 'Ernie Marcelain', party: 'D', votes: 0 },
+    ]
+  },
+  'State Senate District 53': {
+    candidates: [
+      { name: 'Chris Balkema', party: 'R', votes: 0 },
     ]
   },
   'State House District 75': {
@@ -650,6 +673,18 @@ const PENDING_CANDIDATES = {
     candidates: [
       { name: 'Melissa Olivero',       party: 'D', votes: 0 },
       { name: 'Michelle A. Vescogni',  party: 'R', votes: 0 },
+    ]
+  },
+  '13th Circuit – Retention': {
+    candidates: [
+      { name: 'Yes', party: '', votes: 0 },
+      { name: 'No',  party: '', votes: 0 },
+    ]
+  },
+  'Consolidation of Local Townships': {
+    candidates: [
+      { name: 'Yes', party: '', votes: 0 },
+      { name: 'No',  party: '', votes: 0 },
     ]
   },
 };
