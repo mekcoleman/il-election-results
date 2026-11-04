@@ -1,5 +1,5 @@
 {
-  "aggregated_at": "2026-11-04T00:57:54.849530",
+  "aggregated_at": "2026-11-04T01:04:57.196648",
   "num_counties": 92,
   "counties_included": [
     "Shelby",
@@ -150,48 +150,48 @@
           "party": "Democratic",
           "votes": 1999302,
           "counties": [
-            "Jo Daviess",
-            "DuPage",
-            "Shelby",
-            "La Salle",
-            "Chicago Board of Election Commissioners",
-            "Moultrie",
-            "Carroll",
-            "Livingston",
-            "Edgar",
-            "Boone",
-            "Bond",
-            "Will",
-            "Lee",
-            "Vermilion",
-            "Putnam",
-            "Clark",
-            "Bloomington",
-            "Ford",
-            "Lake",
-            "Kane",
-            "Logan",
-            "Henry",
-            "DeWitt",
-            "Sangamon",
-            "Ogle",
-            "Bureau",
-            "Cook",
-            "Douglas",
-            "Winnebago",
             "Coles",
-            "Mason",
-            "DeKalb",
-            "Whiteside",
-            "Kankakee",
-            "Macon",
-            "Christian",
-            "Grundy",
-            "Stephenson",
-            "Tazewell",
-            "Kendall",
             "Piatt",
-            "McHenry"
+            "Mason",
+            "Clark",
+            "Logan",
+            "La Salle",
+            "Moultrie",
+            "Christian",
+            "Will",
+            "Putnam",
+            "Boone",
+            "Ogle",
+            "Macon",
+            "Tazewell",
+            "Edgar",
+            "Bureau",
+            "DeWitt",
+            "Ford",
+            "Whiteside",
+            "Kane",
+            "Chicago Board of Election Commissioners",
+            "McHenry",
+            "Winnebago",
+            "Cook",
+            "DuPage",
+            "Lake",
+            "Carroll",
+            "Bloomington",
+            "Stephenson",
+            "Douglas",
+            "Grundy",
+            "Henry",
+            "Livingston",
+            "Bond",
+            "Jo Daviess",
+            "DeKalb",
+            "Sangamon",
+            "Kankakee",
+            "Shelby",
+            "Vermilion",
+            "Kendall",
+            "Lee"
           ],
           "percentage": 64.55
         },
@@ -200,48 +200,48 @@
           "party": "Republican",
           "votes": 992447,
           "counties": [
-            "Jo Daviess",
-            "DuPage",
-            "Shelby",
-            "La Salle",
-            "Chicago Board of Election Commissioners",
-            "Moultrie",
-            "Carroll",
-            "Livingston",
-            "Edgar",
-            "Boone",
-            "Bond",
-            "Will",
-            "Lee",
-            "Vermilion",
-            "Putnam",
-            "Clark",
-            "Bloomington",
-            "Ford",
-            "Lake",
-            "Kane",
-            "Logan",
-            "Henry",
-            "DeWitt",
-            "Sangamon",
-            "Ogle",
-            "Bureau",
-            "Cook",
-            "Douglas",
-            "Winnebago",
             "Coles",
-            "Mason",
-            "DeKalb",
-            "Whiteside",
-            "Kankakee",
-            "Macon",
-            "Christian",
-            "Grundy",
-            "Stephenson",
-            "Tazewell",
-            "Kendall",
             "Piatt",
-            "McHenry"
+            "Mason",
+            "Clark",
+            "Logan",
+            "La Salle",
+            "Moultrie",
+            "Christian",
+            "Will",
+            "Putnam",
+            "Boone",
+            "Ogle",
+            "Macon",
+            "Tazewell",
+            "Edgar",
+            "Bureau",
+            "DeWitt",
+            "Ford",
+            "Whiteside",
+            "Kane",
+            "Chicago Board of Election Commissioners",
+            "McHenry",
+            "Winnebago",
+            "Cook",
+            "DuPage",
+            "Lake",
+            "Carroll",
+            "Bloomington",
+            "Stephenson",
+            "Douglas",
+            "Grundy",
+            "Henry",
+            "Livingston",
+            "Bond",
+            "Jo Daviess",
+            "DeKalb",
+            "Sangamon",
+            "Kankakee",
+            "Shelby",
+            "Vermilion",
+            "Kendall",
+            "Lee"
           ],
           "percentage": 32.04
         },
@@ -250,47 +250,47 @@
           "party": "Democratic",
           "votes": 99712,
           "counties": [
-            "Jo Daviess",
-            "DuPage",
-            "Shelby",
-            "La Salle",
-            "Chicago Board of Election Commissioners",
-            "Moultrie",
-            "Carroll",
-            "Livingston",
-            "Edgar",
-            "Boone",
-            "Bond",
-            "Will",
-            "Lee",
-            "Vermilion",
-            "Putnam",
-            "Clark",
-            "Bloomington",
-            "Ford",
-            "Lake",
-            "Kane",
-            "Logan",
-            "Henry",
-            "DeWitt",
-            "Sangamon",
-            "Ogle",
-            "Bureau",
-            "Cook",
-            "Douglas",
-            "Winnebago",
             "Coles",
+            "Piatt",
             "Mason",
-            "DeKalb",
-            "Kankakee",
-            "Whiteside",
-            "Macon",
+            "Clark",
+            "Logan",
+            "La Salle",
+            "Moultrie",
             "Christian",
-            "Grundy",
-            "Stephenson",
+            "Will",
+            "Putnam",
+            "Boone",
+            "Ogle",
+            "Macon",
             "Tazewell",
+            "Edgar",
+            "Bureau",
+            "DeWitt",
+            "Ford",
+            "Whiteside",
+            "Kane",
+            "Chicago Board of Election Commissioners",
+            "Winnebago",
+            "Cook",
+            "DuPage",
+            "Lake",
+            "Carroll",
+            "Bloomington",
+            "Stephenson",
+            "Douglas",
+            "Grundy",
+            "Henry",
+            "Livingston",
+            "Bond",
+            "Jo Daviess",
+            "DeKalb",
+            "Sangamon",
+            "Kankakee",
+            "Shelby",
+            "Vermilion",
             "Kendall",
-            "Piatt"
+            "Lee"
           ],
           "percentage": 3.22
         }
@@ -643,43 +643,43 @@
           "party": "Non-Partisan",
           "votes": 31004,
           "counties": [
-            "Tazewell",
-            "Jo Daviess",
-            "DuPage",
-            "Shelby",
-            "La Salle",
-            "Chicago Board of Election Commissioners",
-            "Carroll",
-            "Livingston",
-            "Edgar",
-            "Boone",
-            "Bond",
-            "Will",
-            "Lee",
-            "Vermilion",
-            "Putnam",
-            "Clark",
-            "Bloomington",
-            "Ford",
-            "Logan",
-            "DeWitt",
-            "Sangamon",
-            "Ogle",
-            "Bureau",
-            "Douglas",
-            "Winnebago",
             "Coles",
-            "Mason",
-            "Whiteside",
-            "Macon",
-            "Christian",
-            "Stephenson",
-            "Kankakee",
-            "Grundy",
-            "Moultrie",
-            "Kendall",
             "Piatt",
-            "McHenry"
+            "Mason",
+            "Clark",
+            "Logan",
+            "Moultrie",
+            "La Salle",
+            "Christian",
+            "Will",
+            "Putnam",
+            "Boone",
+            "Ogle",
+            "Macon",
+            "Tazewell",
+            "Edgar",
+            "Bureau",
+            "DeWitt",
+            "Ford",
+            "Whiteside",
+            "Chicago Board of Election Commissioners",
+            "McHenry",
+            "Winnebago",
+            "DuPage",
+            "Carroll",
+            "Bloomington",
+            "Stephenson",
+            "Douglas",
+            "Grundy",
+            "Livingston",
+            "Bond",
+            "Jo Daviess",
+            "Sangamon",
+            "Kankakee",
+            "Shelby",
+            "Vermilion",
+            "Kendall",
+            "Lee"
           ],
           "percentage": 1.43
         }
@@ -2318,48 +2318,48 @@
             "party": "Democratic",
             "votes": 1999302,
             "counties": [
-              "Jo Daviess",
-              "DuPage",
-              "Shelby",
-              "La Salle",
-              "Chicago Board of Election Commissioners",
-              "Moultrie",
-              "Carroll",
-              "Livingston",
-              "Edgar",
-              "Boone",
-              "Bond",
-              "Will",
-              "Lee",
-              "Vermilion",
-              "Putnam",
-              "Clark",
-              "Bloomington",
-              "Ford",
-              "Lake",
-              "Kane",
-              "Logan",
-              "Henry",
-              "DeWitt",
-              "Sangamon",
-              "Ogle",
-              "Bureau",
-              "Cook",
-              "Douglas",
-              "Winnebago",
               "Coles",
-              "Mason",
-              "DeKalb",
-              "Whiteside",
-              "Kankakee",
-              "Macon",
-              "Christian",
-              "Grundy",
-              "Stephenson",
-              "Tazewell",
-              "Kendall",
               "Piatt",
-              "McHenry"
+              "Mason",
+              "Clark",
+              "Logan",
+              "La Salle",
+              "Moultrie",
+              "Christian",
+              "Will",
+              "Putnam",
+              "Boone",
+              "Ogle",
+              "Macon",
+              "Tazewell",
+              "Edgar",
+              "Bureau",
+              "DeWitt",
+              "Ford",
+              "Whiteside",
+              "Kane",
+              "Chicago Board of Election Commissioners",
+              "McHenry",
+              "Winnebago",
+              "Cook",
+              "DuPage",
+              "Lake",
+              "Carroll",
+              "Bloomington",
+              "Stephenson",
+              "Douglas",
+              "Grundy",
+              "Henry",
+              "Livingston",
+              "Bond",
+              "Jo Daviess",
+              "DeKalb",
+              "Sangamon",
+              "Kankakee",
+              "Shelby",
+              "Vermilion",
+              "Kendall",
+              "Lee"
             ],
             "percentage": 64.55
           },
@@ -2368,48 +2368,48 @@
             "party": "Republican",
             "votes": 992447,
             "counties": [
-              "Jo Daviess",
-              "DuPage",
-              "Shelby",
-              "La Salle",
-              "Chicago Board of Election Commissioners",
-              "Moultrie",
-              "Carroll",
-              "Livingston",
-              "Edgar",
-              "Boone",
-              "Bond",
-              "Will",
-              "Lee",
-              "Vermilion",
-              "Putnam",
-              "Clark",
-              "Bloomington",
-              "Ford",
-              "Lake",
-              "Kane",
-              "Logan",
-              "Henry",
-              "DeWitt",
-              "Sangamon",
-              "Ogle",
-              "Bureau",
-              "Cook",
-              "Douglas",
-              "Winnebago",
               "Coles",
-              "Mason",
-              "DeKalb",
-              "Whiteside",
-              "Kankakee",
-              "Macon",
-              "Christian",
-              "Grundy",
-              "Stephenson",
-              "Tazewell",
-              "Kendall",
               "Piatt",
-              "McHenry"
+              "Mason",
+              "Clark",
+              "Logan",
+              "La Salle",
+              "Moultrie",
+              "Christian",
+              "Will",
+              "Putnam",
+              "Boone",
+              "Ogle",
+              "Macon",
+              "Tazewell",
+              "Edgar",
+              "Bureau",
+              "DeWitt",
+              "Ford",
+              "Whiteside",
+              "Kane",
+              "Chicago Board of Election Commissioners",
+              "McHenry",
+              "Winnebago",
+              "Cook",
+              "DuPage",
+              "Lake",
+              "Carroll",
+              "Bloomington",
+              "Stephenson",
+              "Douglas",
+              "Grundy",
+              "Henry",
+              "Livingston",
+              "Bond",
+              "Jo Daviess",
+              "DeKalb",
+              "Sangamon",
+              "Kankakee",
+              "Shelby",
+              "Vermilion",
+              "Kendall",
+              "Lee"
             ],
             "percentage": 32.04
           },
@@ -2418,47 +2418,47 @@
             "party": "Democratic",
             "votes": 99712,
             "counties": [
-              "Jo Daviess",
-              "DuPage",
-              "Shelby",
-              "La Salle",
-              "Chicago Board of Election Commissioners",
-              "Moultrie",
-              "Carroll",
-              "Livingston",
-              "Edgar",
-              "Boone",
-              "Bond",
-              "Will",
-              "Lee",
-              "Vermilion",
-              "Putnam",
-              "Clark",
-              "Bloomington",
-              "Ford",
-              "Lake",
-              "Kane",
-              "Logan",
-              "Henry",
-              "DeWitt",
-              "Sangamon",
-              "Ogle",
-              "Bureau",
-              "Cook",
-              "Douglas",
-              "Winnebago",
               "Coles",
+              "Piatt",
               "Mason",
-              "DeKalb",
-              "Kankakee",
-              "Whiteside",
-              "Macon",
+              "Clark",
+              "Logan",
+              "La Salle",
+              "Moultrie",
               "Christian",
-              "Grundy",
-              "Stephenson",
+              "Will",
+              "Putnam",
+              "Boone",
+              "Ogle",
+              "Macon",
               "Tazewell",
+              "Edgar",
+              "Bureau",
+              "DeWitt",
+              "Ford",
+              "Whiteside",
+              "Kane",
+              "Chicago Board of Election Commissioners",
+              "Winnebago",
+              "Cook",
+              "DuPage",
+              "Lake",
+              "Carroll",
+              "Bloomington",
+              "Stephenson",
+              "Douglas",
+              "Grundy",
+              "Henry",
+              "Livingston",
+              "Bond",
+              "Jo Daviess",
+              "DeKalb",
+              "Sangamon",
+              "Kankakee",
+              "Shelby",
+              "Vermilion",
               "Kendall",
-              "Piatt"
+              "Lee"
             ],
             "percentage": 3.22
           }
@@ -2811,43 +2811,43 @@
             "party": "Non-Partisan",
             "votes": 31004,
             "counties": [
-              "Tazewell",
-              "Jo Daviess",
-              "DuPage",
-              "Shelby",
-              "La Salle",
-              "Chicago Board of Election Commissioners",
-              "Carroll",
-              "Livingston",
-              "Edgar",
-              "Boone",
-              "Bond",
-              "Will",
-              "Lee",
-              "Vermilion",
-              "Putnam",
-              "Clark",
-              "Bloomington",
-              "Ford",
-              "Logan",
-              "DeWitt",
-              "Sangamon",
-              "Ogle",
-              "Bureau",
-              "Douglas",
-              "Winnebago",
               "Coles",
-              "Mason",
-              "Whiteside",
-              "Macon",
-              "Christian",
-              "Stephenson",
-              "Kankakee",
-              "Grundy",
-              "Moultrie",
-              "Kendall",
               "Piatt",
-              "McHenry"
+              "Mason",
+              "Clark",
+              "Logan",
+              "Moultrie",
+              "La Salle",
+              "Christian",
+              "Will",
+              "Putnam",
+              "Boone",
+              "Ogle",
+              "Macon",
+              "Tazewell",
+              "Edgar",
+              "Bureau",
+              "DeWitt",
+              "Ford",
+              "Whiteside",
+              "Chicago Board of Election Commissioners",
+              "McHenry",
+              "Winnebago",
+              "DuPage",
+              "Carroll",
+              "Bloomington",
+              "Stephenson",
+              "Douglas",
+              "Grundy",
+              "Livingston",
+              "Bond",
+              "Jo Daviess",
+              "Sangamon",
+              "Kankakee",
+              "Shelby",
+              "Vermilion",
+              "Kendall",
+              "Lee"
             ],
             "percentage": 1.43
           }
@@ -4447,45 +4447,50 @@
           "Cook",
           "Cook",
           "Kankakee",
-          "Will"
+          "Will",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 13,
+        "num_counties": 14,
         "candidates": {
-          "3": {
-            "name": "Christian Maxwell",
-            "party": "Republican",
-            "votes": 59822,
-            "counties": [
-              "Cook",
-              "Kankakee",
-              "Will"
-            ],
-            "percentage": 7.36
-          },
-          "4": {
+          "0": {
             "name": "Jonathan L. Jackson",
             "party": "Democratic",
-            "votes": 59769,
+            "votes": 146848,
             "counties": [
               "Cook",
               "Kankakee",
-              "Will"
+              "Will",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 7.35
+            "percentage": 16.24
+          },
+          "4": {
+            "name": "Christian Maxwell",
+            "party": "Republican",
+            "votes": 64264,
+            "counties": [
+              "Cook",
+              "Kankakee",
+              "Will",
+              "Chicago Board of Election Commissioners"
+            ],
+            "percentage": 7.11
           }
         },
-        "precincts_reporting": 119,
-        "total_precincts": 119,
-        "total_votes": 812966,
+        "precincts_reporting": 193,
+        "total_precincts": 197,
+        "total_votes": 904487,
         "counties_needed": [
           "Cook",
           "Kankakee",
-          "Will"
+          "Will",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
           "Kankakee",
-          "Will"
+          "Will",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -4501,42 +4506,45 @@
           "Kankakee",
           "Livingston",
           "Vermilion",
-          "Will"
+          "Will",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 6,
+        "num_counties": 7,
         "candidates": {
           "0": {
             "name": "Donna Miller",
             "party": "Democratic",
-            "votes": 120757,
+            "votes": 146569,
             "counties": [
               "Cook",
               "Ford",
               "Kankakee",
               "Livingston",
               "Vermilion",
-              "Will"
+              "Will",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 73.11
+            "percentage": 75.8
           },
           "1": {
             "name": "Michael Scott Noack",
             "party": "Republican",
-            "votes": 44385,
+            "votes": 46755,
             "counties": [
               "Cook",
               "Ford",
               "Kankakee",
               "Livingston",
               "Vermilion",
-              "Will"
+              "Will",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 26.87
+            "percentage": 24.18
           }
         },
-        "precincts_reporting": 153,
-        "total_precincts": 154,
-        "total_votes": 165169,
+        "precincts_reporting": 345,
+        "total_precincts": 356,
+        "total_votes": 193351,
         "counties_needed": [
           "Champaign",
           "Cook",
@@ -4545,7 +4553,8 @@
           "Kankakee",
           "Livingston",
           "Vermilion",
-          "Will"
+          "Will",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
@@ -4553,7 +4562,8 @@
           "Kankakee",
           "Livingston",
           "Vermilion",
-          "Will"
+          "Will",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [
           "Champaign",
@@ -4568,41 +4578,46 @@
         "party": "Non-Partisan",
         "counties": [
           "Cook",
-          "DuPage"
+          "DuPage",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 2,
+        "num_counties": 3,
         "candidates": {
           "0": {
             "name": "Delia Ramirez",
             "party": "Democratic",
-            "votes": 54144,
+            "votes": 133437,
             "counties": [
               "Cook",
-              "DuPage"
+              "DuPage",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 63.63
+            "percentage": 75.49
           },
           "1": {
             "name": "Angel Oakley",
             "party": "Republican",
-            "votes": 30948,
+            "votes": 43314,
             "counties": [
               "Cook",
-              "DuPage"
+              "DuPage",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 36.37
+            "percentage": 24.51
           }
         },
-        "precincts_reporting": 117,
-        "total_precincts": 118,
-        "total_votes": 85092,
+        "precincts_reporting": 257,
+        "total_precincts": 270,
+        "total_votes": 176751,
         "counties_needed": [
           "Cook",
-          "DuPage"
+          "DuPage",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
-          "DuPage"
+          "DuPage",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -4614,61 +4629,68 @@
         "party": "Non-Partisan",
         "counties": [
           "Cook",
-          "DuPage"
+          "DuPage",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 2,
+        "num_counties": 3,
         "candidates": {
           "0": {
             "name": "Patty Garcia",
             "party": "Democratic",
-            "votes": 61961,
+            "votes": 104806,
             "counties": [
               "Cook",
-              "DuPage"
+              "DuPage",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 65.69
+            "percentage": 70.7
           },
           "1": {
             "name": "Lupe Castillo",
             "party": "Republican",
-            "votes": 18659,
+            "votes": 24388,
             "counties": [
               "Cook",
-              "DuPage"
+              "DuPage",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 19.78
+            "percentage": 16.45
           },
           "2": {
             "name": "Chris Getty",
             "party": "Independent",
-            "votes": 11026,
+            "votes": 13910,
             "counties": [
               "Cook",
-              "DuPage"
+              "DuPage",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 11.69
+            "percentage": 9.38
           },
           "3": {
             "name": "Ed Hershey",
             "party": "Working Class Party",
-            "votes": 2674,
+            "votes": 5129,
             "counties": [
               "Cook",
-              "DuPage"
+              "DuPage",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 2.84
+            "percentage": 3.46
           }
         },
-        "precincts_reporting": 29,
-        "total_precincts": 30,
-        "total_votes": 94320,
+        "precincts_reporting": 269,
+        "total_precincts": 272,
+        "total_votes": 148233,
         "counties_needed": [
           "Cook",
-          "DuPage"
+          "DuPage",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
-          "DuPage"
+          "DuPage",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -4680,41 +4702,46 @@
         "party": "Non-Partisan",
         "counties": [
           "Cook",
-          "Lake"
+          "Lake",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 2,
+        "num_counties": 3,
         "candidates": {
           "0": {
             "name": "Mike Quigley",
             "party": "Democratic",
-            "votes": 62056,
+            "votes": 180585,
             "counties": [
               "Cook",
-              "Lake"
+              "Lake",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 63.72
+            "percentage": 75.41
           },
           "1": {
             "name": "Tommy Hanson",
             "party": "Republican",
-            "votes": 35337,
+            "votes": 58894,
             "counties": [
               "Cook",
-              "Lake"
+              "Lake",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 36.28
+            "percentage": 24.59
           }
         },
-        "precincts_reporting": 28,
-        "total_precincts": 28,
-        "total_votes": 97393,
+        "precincts_reporting": 80,
+        "total_precincts": 84,
+        "total_votes": 239479,
         "counties_needed": [
           "Cook",
-          "Lake"
+          "Lake",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
-          "Lake"
+          "Lake",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -4726,41 +4753,46 @@
         "party": "Non-Partisan",
         "counties": [
           "Cook",
-          "DuPage"
+          "DuPage",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 2,
+        "num_counties": 3,
         "candidates": {
           "0": {
             "name": "Sean Casten",
             "party": "Democratic",
-            "votes": 145882,
+            "votes": 157210,
             "counties": [
               "Cook",
-              "DuPage"
+              "DuPage",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 62.67
+            "percentage": 62.54
           },
           "1": {
             "name": "Niki Conforti",
             "party": "Republican",
-            "votes": 86899,
+            "votes": 94179,
             "counties": [
               "Cook",
-              "DuPage"
+              "DuPage",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 37.33
+            "percentage": 37.46
           }
         },
-        "precincts_reporting": 211,
-        "total_precincts": 212,
-        "total_votes": 232781,
+        "precincts_reporting": 484,
+        "total_precincts": 503,
+        "total_votes": 251389,
         "counties_needed": [
           "Cook",
-          "DuPage"
+          "DuPage",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
-          "DuPage"
+          "DuPage",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -4771,37 +4803,42 @@
         "name": "U.S. Representative, 7th District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "La Shawn K. Ford",
             "party": "Democratic",
-            "votes": 51324,
+            "votes": 158168,
             "counties": [
-              "Cook"
+              "Cook",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 88.29
+            "percentage": 88.94
           },
           "1": {
             "name": "Chad Koppie",
             "party": "Republican",
-            "votes": 6804,
+            "votes": 19668,
             "counties": [
-              "Cook"
+              "Cook",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 11.71
+            "percentage": 11.06
           }
         },
-        "precincts_reporting": 0,
-        "total_precincts": 0,
-        "total_votes": 58128,
+        "precincts_reporting": 3,
+        "total_precincts": 3,
+        "total_votes": 177836,
         "counties_needed": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -4814,45 +4851,50 @@
         "counties": [
           "Cook",
           "DuPage",
-          "Kane"
+          "Kane",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 3,
+        "num_counties": 4,
         "candidates": {
           "0": {
             "name": "Melissa L. Bean",
             "party": "Democratic",
-            "votes": 132142,
+            "votes": 132860,
             "counties": [
               "Cook",
               "DuPage",
-              "Kane"
+              "Kane",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 63.77
+            "percentage": 63.76
           },
           "1": {
             "name": "Jennifer Davis",
             "party": "Republican",
-            "votes": 75076,
+            "votes": 75525,
             "counties": [
               "Cook",
               "DuPage",
-              "Kane"
+              "Kane",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 36.23
+            "percentage": 36.24
           }
         },
-        "precincts_reporting": 110,
-        "total_precincts": 111,
-        "total_votes": 207218,
+        "precincts_reporting": 223,
+        "total_precincts": 230,
+        "total_votes": 208385,
         "counties_needed": [
           "Cook",
           "DuPage",
-          "Kane"
+          "Kane",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
           "DuPage",
-          "Kane"
+          "Kane",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -4865,45 +4907,50 @@
         "counties": [
           "Cook",
           "Lake",
-          "McHenry"
+          "McHenry",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 3,
+        "num_counties": 4,
         "candidates": {
           "0": {
             "name": "Daniel Biss",
             "party": "Democratic",
-            "votes": 117214,
+            "votes": 177560,
             "counties": [
               "Cook",
               "Lake",
-              "McHenry"
+              "McHenry",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 70.04
+            "percentage": 75.38
           },
           "1": {
             "name": "John Elleson",
             "party": "Republican",
-            "votes": 50147,
+            "votes": 57988,
             "counties": [
               "Cook",
               "Lake",
-              "McHenry"
+              "McHenry",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 29.96
+            "percentage": 24.62
           }
         },
-        "precincts_reporting": 95,
-        "total_precincts": 95,
-        "total_votes": 167361,
+        "precincts_reporting": 198,
+        "total_precincts": 204,
+        "total_votes": 235548,
         "counties_needed": [
           "Cook",
           "Lake",
-          "McHenry"
+          "McHenry",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
           "Lake",
-          "McHenry"
+          "McHenry",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -4949,7 +4996,8 @@
         "counties_needed": [
           "Cook",
           "Lake",
-          "McHenry"
+          "McHenry",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
@@ -5020,7 +5068,8 @@
           "Kane",
           "Lake",
           "McHenry",
-          "Will"
+          "Will",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Boone",
@@ -5447,14 +5496,15 @@
           "Putnam",
           "Stephenson",
           "Tazewell",
+          "Winnebago",
           "Winnebago"
         ],
-        "num_counties": 16,
+        "num_counties": 17,
         "candidates": {
           "0": {
             "name": "Darin Lahood",
             "party": "Republican",
-            "votes": 121028,
+            "votes": 124347,
             "counties": [
               "Boone",
               "Bureau",
@@ -5471,14 +5521,15 @@
               "Putnam",
               "Stephenson",
               "Tazewell",
+              "Winnebago",
               "Winnebago"
             ],
-            "percentage": 59.54
+            "percentage": 59.01
           },
           "1": {
             "name": "Paul Nolley",
             "party": "Democratic",
-            "votes": 82228,
+            "votes": 86369,
             "counties": [
               "Boone",
               "Bureau",
@@ -5495,14 +5546,15 @@
               "Putnam",
               "Stephenson",
               "Tazewell",
+              "Winnebago",
               "Winnebago"
             ],
-            "percentage": 40.46
+            "percentage": 40.99
           }
         },
-        "precincts_reporting": 489,
-        "total_precincts": 489,
-        "total_votes": 203256,
+        "precincts_reporting": 513,
+        "total_precincts": 513,
+        "total_votes": 210716,
         "counties_needed": [
           "Boone",
           "Bureau",
@@ -5564,37 +5616,40 @@
           "Stephenson",
           "Tazewell",
           "Whiteside",
+          "Winnebago",
           "Winnebago"
         ],
-        "num_counties": 6,
+        "num_counties": 7,
         "candidates": {
           "0": {
-            "name": "Dillan S. Vancil",
-            "party": "Republican",
-            "votes": 28971,
-            "counties": [
-              "Carroll",
-              "Henry",
-              "Stephenson",
-              "Tazewell",
-              "Whiteside",
-              "Winnebago"
-            ],
-            "percentage": 51.68
-          },
-          "1": {
             "name": "Eric Sorensen",
             "party": "Democratic",
-            "votes": 27075,
+            "votes": 48549,
             "counties": [
               "Carroll",
               "Henry",
               "Stephenson",
               "Tazewell",
               "Whiteside",
+              "Winnebago",
               "Winnebago"
             ],
-            "percentage": 48.3
+            "percentage": 56.46
+          },
+          "1": {
+            "name": "Dillan S. Vancil",
+            "party": "Republican",
+            "votes": 37420,
+            "counties": [
+              "Carroll",
+              "Henry",
+              "Stephenson",
+              "Tazewell",
+              "Whiteside",
+              "Winnebago",
+              "Winnebago"
+            ],
+            "percentage": 43.52
           },
           "2": {
             "name": "Write-In",
@@ -5607,9 +5662,9 @@
             "percentage": 0.02
           }
         },
-        "precincts_reporting": 166,
-        "total_precincts": 167,
-        "total_votes": 56060,
+        "precincts_reporting": 247,
+        "total_precincts": 248,
+        "total_votes": 85983,
         "counties_needed": [
           "Carroll",
           "Fulton",
@@ -5912,7 +5967,8 @@
         "total_precincts": 0,
         "total_votes": 466469,
         "counties_needed": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook"
@@ -5921,41 +5977,182 @@
         "complete": true,
         "district": 1
       },
-      "district_8": {
-        "name": "State Senator, 8th District - Vote For 1",
-        "party": "Non-Partisan",
+      "district_2": {
+        "name": "State Senator, 2nd District",
+        "party": "",
         "counties": [
-          "Cook"
+          "Chicago Board of Election Commissioners"
         ],
         "num_counties": 1,
         "candidates": {
           "0": {
+            "name": "Omar Aquino",
+            "party": "Democratic",
+            "votes": 38542,
+            "counties": [
+              "Chicago Board of Election Commissioners"
+            ],
+            "percentage": 100.0
+          }
+        },
+        "precincts_reporting": 102,
+        "total_precincts": 113,
+        "total_votes": 38542,
+        "counties_needed": [
+          "Cook",
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_found": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_missing": [
+          "Cook"
+        ],
+        "complete": false,
+        "district": 2
+      },
+      "district_3": {
+        "name": "State Senator, 3rd District",
+        "party": "",
+        "counties": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "num_counties": 1,
+        "candidates": {
+          "0": {
+            "name": "Mattie Hunter",
+            "party": "Democratic",
+            "votes": 38148,
+            "counties": [
+              "Chicago Board of Election Commissioners"
+            ],
+            "percentage": 100.0
+          }
+        },
+        "precincts_reporting": 106,
+        "total_precincts": 114,
+        "total_votes": 38148,
+        "counties_needed": [
+          "Cook",
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_found": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_missing": [
+          "Cook"
+        ],
+        "complete": false,
+        "district": 3
+      },
+      "district_5": {
+        "name": "State Senator, 5th District",
+        "party": "",
+        "counties": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "num_counties": 1,
+        "candidates": {
+          "0": {
+            "name": "Lakesia Collins",
+            "party": "Democratic",
+            "votes": 40269,
+            "counties": [
+              "Chicago Board of Election Commissioners"
+            ],
+            "percentage": 100.0
+          }
+        },
+        "precincts_reporting": 100,
+        "total_precincts": 101,
+        "total_votes": 40269,
+        "counties_needed": [
+          "Cook",
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_found": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_missing": [
+          "Cook"
+        ],
+        "complete": false,
+        "district": 5
+      },
+      "district_6": {
+        "name": "State Senator, 6th District",
+        "party": "",
+        "counties": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "num_counties": 1,
+        "candidates": {
+          "0": {
+            "name": "Sara Feigenholtz",
+            "party": "Democratic",
+            "votes": 59204,
+            "counties": [
+              "Chicago Board of Election Commissioners"
+            ],
+            "percentage": 100.0
+          }
+        },
+        "precincts_reporting": 77,
+        "total_precincts": 79,
+        "total_votes": 59204,
+        "counties_needed": [
+          "Cook",
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_found": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_missing": [
+          "Cook"
+        ],
+        "complete": false,
+        "district": 6
+      },
+      "district_8": {
+        "name": "State Senator, 8th District - Vote For 1",
+        "party": "Non-Partisan",
+        "counties": [
+          "Cook",
+          "Chicago Board of Election Commissioners"
+        ],
+        "num_counties": 2,
+        "candidates": {
+          "0": {
             "name": "Ram Villivalam",
             "party": "Democratic",
-            "votes": 17385,
+            "votes": 39594,
             "counties": [
-              "Cook"
+              "Cook",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 69.39
+            "percentage": 73.29
           },
           "1": {
             "name": "Vince Romano",
             "party": "Republican",
-            "votes": 7669,
+            "votes": 14429,
             "counties": [
-              "Cook"
+              "Cook",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 30.61
+            "percentage": 26.71
           }
         },
-        "precincts_reporting": 0,
-        "total_precincts": 0,
-        "total_votes": 25054,
+        "precincts_reporting": 6,
+        "total_precincts": 6,
+        "total_votes": 54023,
         "counties_needed": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -5965,37 +6162,42 @@
         "name": "State Senator, 9th District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Patrick Hanley",
             "party": "Democratic",
-            "votes": 59682,
+            "votes": 60973,
             "counties": [
-              "Cook"
+              "Cook",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 80.6
+            "percentage": 80.75
           },
           "1": {
             "name": "Tom Lally",
             "party": "Republican",
-            "votes": 14365,
+            "votes": 14535,
             "counties": [
-              "Cook"
+              "Cook",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 19.4
+            "percentage": 19.25
           }
         },
-        "precincts_reporting": 0,
-        "total_precincts": 0,
-        "total_votes": 74047,
+        "precincts_reporting": 69,
+        "total_precincts": 70,
+        "total_votes": 75508,
         "counties_needed": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -6005,28 +6207,32 @@
         "name": "State Senator, 11th District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Mike Porfirio",
             "party": "Democratic",
-            "votes": 23002,
+            "votes": 41427,
             "counties": [
-              "Cook"
+              "Cook",
+              "Chicago Board of Election Commissioners"
             ],
             "percentage": 100.0
           }
         },
-        "precincts_reporting": 0,
-        "total_precincts": 0,
-        "total_votes": 23002,
+        "precincts_reporting": 70,
+        "total_precincts": 77,
+        "total_votes": 41427,
         "counties_needed": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -6036,28 +6242,32 @@
         "name": "State Senator, 12th District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Celina Villanueva",
             "party": "Democratic",
-            "votes": 1179,
+            "votes": 25905,
             "counties": [
-              "Cook"
+              "Cook",
+              "Chicago Board of Election Commissioners"
             ],
             "percentage": 100.0
           }
         },
-        "precincts_reporting": 0,
-        "total_precincts": 0,
-        "total_votes": 1179,
+        "precincts_reporting": 43,
+        "total_precincts": 50,
+        "total_votes": 25905,
         "counties_needed": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -6068,41 +6278,46 @@
         "party": "Non-Partisan",
         "counties": [
           "Cook",
-          "Will"
+          "Will",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 2,
+        "num_counties": 3,
         "candidates": {
           "0": {
             "name": "Emil Jones III",
             "party": "Democratic",
-            "votes": 24825,
+            "votes": 43432,
             "counties": [
               "Cook",
-              "Will"
+              "Will",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 64.39
+            "percentage": 75.02
           },
           "1": {
             "name": "Brian Skala",
             "party": "Republican",
-            "votes": 13732,
+            "votes": 14462,
             "counties": [
               "Cook",
-              "Will"
+              "Will",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 35.61
+            "percentage": 24.98
           }
         },
-        "precincts_reporting": 2,
-        "total_precincts": 2,
-        "total_votes": 38557,
+        "precincts_reporting": 5,
+        "total_precincts": 7,
+        "total_votes": 57894,
         "counties_needed": [
           "Cook",
-          "Will"
+          "Will",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
-          "Will"
+          "Will",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -6114,34 +6329,38 @@
         "counties": [
           "Cook",
           "Kankakee",
-          "Will"
+          "Will",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 3,
+        "num_counties": 4,
         "candidates": {
           "0": {
             "name": "Napoleon B. Harris III",
             "party": "Democratic",
-            "votes": 53169,
+            "votes": 54081,
             "counties": [
               "Cook",
               "Kankakee",
-              "Will"
+              "Will",
+              "Chicago Board of Election Commissioners"
             ],
             "percentage": 100.0
           }
         },
-        "precincts_reporting": 24,
-        "total_precincts": 24,
-        "total_votes": 53169,
+        "precincts_reporting": 94,
+        "total_precincts": 98,
+        "total_votes": 54081,
         "counties_needed": [
           "Cook",
           "Kankakee",
-          "Will"
+          "Will",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
           "Kankakee",
-          "Will"
+          "Will",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -6153,45 +6372,50 @@
         "counties": [
           "Cook",
           "Kankakee",
-          "Will"
+          "Will",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 3,
+        "num_counties": 4,
         "candidates": {
           "0": {
             "name": "Elgie R. Sims Sr.",
             "party": "Democratic",
-            "votes": 21269,
+            "votes": 48250,
             "counties": [
               "Cook",
               "Kankakee",
-              "Will"
+              "Will",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 75.64
+            "percentage": 84.67
           },
           "1": {
             "name": "Frederick L. Walls",
             "party": "Republican",
-            "votes": 6851,
+            "votes": 8735,
             "counties": [
               "Cook",
               "Kankakee",
-              "Will"
+              "Will",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 24.36
+            "percentage": 15.33
           }
         },
-        "precincts_reporting": 22,
-        "total_precincts": 22,
-        "total_votes": 28120,
+        "precincts_reporting": 56,
+        "total_precincts": 63,
+        "total_votes": 56985,
         "counties_needed": [
           "Cook",
           "Kankakee",
-          "Will"
+          "Will",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
           "Kankakee",
-          "Will"
+          "Will",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -6201,41 +6425,80 @@
         "name": "State Senator, 18th District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Frances Ann Hurley",
             "party": "Democratic",
-            "votes": 30259,
+            "votes": 40181,
             "counties": [
-              "Cook"
+              "Cook",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 62.79
+            "percentage": 65.74
           },
           "1": {
             "name": "Christine McGovern",
             "party": "Republican",
-            "votes": 17930,
+            "votes": 20942,
             "counties": [
-              "Cook"
+              "Cook",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 37.21
+            "percentage": 34.26
           }
         },
-        "precincts_reporting": 0,
-        "total_precincts": 0,
-        "total_votes": 48189,
+        "precincts_reporting": 93,
+        "total_precincts": 97,
+        "total_votes": 61123,
         "counties_needed": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
         "district": 18
+      },
+      "district_20": {
+        "name": "State Senator, 20th District",
+        "party": "",
+        "counties": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "num_counties": 1,
+        "candidates": {
+          "0": {
+            "name": "Graciela Guzman",
+            "party": "Democratic",
+            "votes": 42601,
+            "counties": [
+              "Chicago Board of Election Commissioners"
+            ],
+            "percentage": 100.0
+          }
+        },
+        "precincts_reporting": 18,
+        "total_precincts": 19,
+        "total_votes": 42601,
+        "counties_needed": [
+          "Cook",
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_found": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_missing": [
+          "Cook"
+        ],
+        "complete": false,
+        "district": 20
       },
       "district_21": {
         "name": "FOR STATE SENATOR TWENTY-FIRST LEGISLATIVE DISTRICT",
@@ -6317,7 +6580,8 @@
         "total_votes": 71353,
         "counties_needed": [
           "Cook",
-          "DuPage"
+          "DuPage",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
@@ -6362,7 +6626,8 @@
         "total_votes": 80776,
         "counties_needed": [
           "Cook",
-          "DuPage"
+          "DuPage",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
@@ -6415,7 +6680,8 @@
           "Cook",
           "Kane",
           "Lake",
-          "McHenry"
+          "McHenry",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
@@ -6458,7 +6724,8 @@
         "total_precincts": 0,
         "total_votes": 64717,
         "counties_needed": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook"
@@ -6502,7 +6769,8 @@
         "total_votes": 72167,
         "counties_needed": [
           "Cook",
-          "Lake"
+          "Lake",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
@@ -6537,7 +6805,8 @@
         "total_votes": 42007,
         "counties_needed": [
           "Cook",
-          "Lake"
+          "Lake",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
@@ -6824,31 +7093,35 @@
         "party": "Non-Partisan",
         "counties": [
           "Cook",
-          "DuPage"
+          "DuPage",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 2,
+        "num_counties": 3,
         "candidates": {
           "0": {
             "name": "Don Harmon",
             "party": "Democratic",
-            "votes": 43665,
+            "votes": 51467,
             "counties": [
               "Cook",
-              "DuPage"
+              "DuPage",
+              "Chicago Board of Election Commissioners"
             ],
             "percentage": 100.0
           }
         },
-        "precincts_reporting": 16,
-        "total_precincts": 16,
-        "total_votes": 43665,
+        "precincts_reporting": 63,
+        "total_precincts": 66,
+        "total_votes": 51467,
         "counties_needed": [
           "Cook",
-          "DuPage"
+          "DuPage",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
-          "DuPage"
+          "DuPage",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -6882,7 +7155,8 @@
         "counties_needed": [
           "Cook",
           "DuPage",
-          "Will"
+          "Will",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
@@ -7442,9 +7716,10 @@
           "Cook",
           "Cook",
           "Cook",
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 44,
+        "num_counties": 45,
         "candidates": {
           "0": {
             "name": "Robyn Gabel",
@@ -7453,7 +7728,7 @@
             "counties": [
               "Cook"
             ],
-            "percentage": 4.61
+            "percentage": 4.52
           },
           "1": {
             "name": "Jennifer Gong-Gershowitz",
@@ -7462,7 +7737,7 @@
             "counties": [
               "Cook"
             ],
-            "percentage": 4.23
+            "percentage": 4.14
           },
           "2": {
             "name": "Emanuel \"chris\" Welch",
@@ -7471,7 +7746,7 @@
             "counties": [
               "Cook"
             ],
-            "percentage": 4.04
+            "percentage": 3.96
           },
           "3": {
             "name": "William \"will\" Davis",
@@ -7480,7 +7755,7 @@
             "counties": [
               "Cook"
             ],
-            "percentage": 3.93
+            "percentage": 3.85
           },
           "4": {
             "name": "Camille Lilly",
@@ -7489,7 +7764,7 @@
             "counties": [
               "Cook"
             ],
-            "percentage": 3.83
+            "percentage": 3.75
           },
           "5": {
             "name": "Debbie Meyers-Martin",
@@ -7498,7 +7773,7 @@
             "counties": [
               "Cook"
             ],
-            "percentage": 3.59
+            "percentage": 3.52
           },
           "6": {
             "name": "Mary Beth Canty",
@@ -7507,7 +7782,7 @@
             "counties": [
               "Cook"
             ],
-            "percentage": 3.36
+            "percentage": 3.28
           },
           "7": {
             "name": "Tracy Katz Muhl",
@@ -7516,7 +7791,7 @@
             "counties": [
               "Cook"
             ],
-            "percentage": 3.15
+            "percentage": 3.09
           },
           "8": {
             "name": "Elizabeth \"lisa\" Hernandez",
@@ -7525,7 +7800,7 @@
             "counties": [
               "Cook"
             ],
-            "percentage": 3.03
+            "percentage": 2.97
           },
           "9": {
             "name": "Nicolle Grasse",
@@ -7534,7 +7809,7 @@
             "counties": [
               "Cook"
             ],
-            "percentage": 3.01
+            "percentage": 2.95
           },
           "10": {
             "name": "Thaddeus Jones",
@@ -7543,7 +7818,7 @@
             "counties": [
               "Cook"
             ],
-            "percentage": 2.78
+            "percentage": 2.72
           },
           "11": {
             "name": "Robert \"bob\" Rita",
@@ -7552,7 +7827,7 @@
             "counties": [
               "Cook"
             ],
-            "percentage": 2.74
+            "percentage": 2.68
           },
           "12": {
             "name": "Rick Ryan",
@@ -7561,7 +7836,7 @@
             "counties": [
               "Cook"
             ],
-            "percentage": 2.71
+            "percentage": 2.66
           },
           "13": {
             "name": "Abdelnasser Rashid",
@@ -7570,7 +7845,7 @@
             "counties": [
               "Cook"
             ],
-            "percentage": 2.7
+            "percentage": 2.64
           },
           "14": {
             "name": "Fred Crespo",
@@ -7579,7 +7854,7 @@
             "counties": [
               "Cook"
             ],
-            "percentage": 2.54
+            "percentage": 2.48
           },
           "15": {
             "name": "Justin Cochran",
@@ -7588,7 +7863,7 @@
             "counties": [
               "Cook"
             ],
-            "percentage": 2.51
+            "percentage": 2.45
           },
           "16": {
             "name": "Michelle Mussman",
@@ -7597,351 +7872,361 @@
             "counties": [
               "Cook"
             ],
-            "percentage": 2.39
+            "percentage": 2.34
           },
           "17": {
+            "name": "Aaron M. Ortiz",
+            "party": "Democratic",
+            "votes": 15060,
+            "counties": [
+              "Cook",
+              "Chicago Board of Election Commissioners"
+            ],
+            "percentage": 2.2
+          },
+          "18": {
             "name": "Shantel Franklin",
             "party": "Democratic",
             "votes": 13747,
             "counties": [
               "Cook"
             ],
-            "percentage": 2.05
+            "percentage": 2.01
           },
-          "18": {
+          "19": {
             "name": "Nicole La Ha",
             "party": "Republican",
             "votes": 13732,
             "counties": [
               "Cook"
             ],
-            "percentage": 2.05
+            "percentage": 2.0
           },
-          "19": {
+          "20": {
             "name": "Jenny Levin",
             "party": "Democratic",
             "votes": 13697,
             "counties": [
               "Cook"
             ],
-            "percentage": 2.04
+            "percentage": 2.0
           },
-          "20": {
+          "21": {
             "name": "Mary Gill",
             "party": "Democratic",
             "votes": 12252,
             "counties": [
               "Cook"
             ],
-            "percentage": 1.83
+            "percentage": 1.79
           },
-          "21": {
+          "22": {
             "name": "Joseph M. Tracy",
             "party": "Republican",
             "votes": 11317,
             "counties": [
               "Cook"
             ],
-            "percentage": 1.69
+            "percentage": 1.65
           },
-          "22": {
+          "23": {
             "name": "Anthony Deluca",
             "party": "Democratic",
             "votes": 11192,
             "counties": [
               "Cook"
             ],
-            "percentage": 1.67
+            "percentage": 1.63
           },
-          "23": {
+          "24": {
             "name": "Norma Hernandez",
             "party": "Democratic",
             "votes": 11189,
             "counties": [
               "Cook"
             ],
-            "percentage": 1.67
+            "percentage": 1.63
           },
-          "24": {
+          "25": {
             "name": "Elizabeth Bauer",
             "party": "Republican",
             "votes": 10672,
             "counties": [
               "Cook"
             ],
-            "percentage": 1.59
+            "percentage": 1.56
           },
-          "25": {
+          "26": {
             "name": "Daniel T. Behr",
             "party": "Republican",
             "votes": 10391,
             "counties": [
               "Cook"
             ],
-            "percentage": 1.55
+            "percentage": 1.52
           },
-          "26": {
+          "27": {
             "name": "Justin Q. Slaughter",
             "party": "Democratic",
             "votes": 10306,
             "counties": [
               "Cook"
             ],
-            "percentage": 1.54
+            "percentage": 1.5
           },
-          "27": {
+          "28": {
             "name": "Kevin John Olickal",
             "party": "Democratic",
             "votes": 9843,
             "counties": [
               "Cook"
             ],
-            "percentage": 1.47
+            "percentage": 1.44
           },
-          "28": {
+          "29": {
             "name": "Marcus C. Evans Sr.",
             "party": "Democratic",
             "votes": 9555,
             "counties": [
               "Cook"
             ],
-            "percentage": 1.42
+            "percentage": 1.39
           },
-          "29": {
+          "30": {
             "name": "Joseph Johnson",
             "party": "Republican",
             "votes": 9290,
             "counties": [
               "Cook"
             ],
-            "percentage": 1.38
+            "percentage": 1.36
           },
-          "30": {
+          "31": {
             "name": "Michael J. Kelly",
             "party": "Democratic",
             "votes": 9190,
             "counties": [
               "Cook"
             ],
-            "percentage": 1.37
+            "percentage": 1.34
           },
-          "31": {
+          "32": {
             "name": "James \"jim\" Geldermann",
             "party": "Republican",
             "votes": 9132,
             "counties": [
               "Cook"
             ],
-            "percentage": 1.36
+            "percentage": 1.33
           },
-          "32": {
+          "33": {
             "name": "David Sheppard",
             "party": "Republican",
             "votes": 9003,
             "counties": [
               "Cook"
             ],
-            "percentage": 1.34
+            "percentage": 1.31
           },
-          "33": {
+          "34": {
             "name": "Cleopatra \"cleo\" Cowley",
             "party": "Democratic",
             "votes": 8555,
             "counties": [
               "Cook"
             ],
-            "percentage": 1.27
+            "percentage": 1.25
           },
-          "34": {
+          "35": {
             "name": "David A. Dewar",
             "party": "Republican",
             "votes": 8380,
             "counties": [
               "Cook"
             ],
-            "percentage": 1.25
+            "percentage": 1.22
           },
-          "35": {
+          "36": {
             "name": "Lori Smith",
             "party": "Republican",
             "votes": 8335,
             "counties": [
               "Cook"
             ],
-            "percentage": 1.24
+            "percentage": 1.22
           },
-          "36": {
+          "37": {
             "name": "Rhys Read",
             "party": "Republican",
             "votes": 7968,
             "counties": [
               "Cook"
             ],
-            "percentage": 1.19
+            "percentage": 1.16
           },
-          "37": {
+          "38": {
             "name": "Michael \"mike\" Crawford",
             "party": "Democratic",
             "votes": 7718,
             "counties": [
               "Cook"
             ],
-            "percentage": 1.15
+            "percentage": 1.13
           },
-          "38": {
+          "39": {
             "name": "Brad Stephens",
             "party": "Republican",
             "votes": 7034,
             "counties": [
               "Cook"
             ],
-            "percentage": 1.05
+            "percentage": 1.03
           },
-          "39": {
+          "40": {
             "name": "Ralph Black",
             "party": "Republican",
             "votes": 6359,
             "counties": [
               "Cook"
             ],
-            "percentage": 0.95
+            "percentage": 0.93
           },
-          "40": {
+          "41": {
             "name": "Anna Moeller",
             "party": "Democratic",
             "votes": 6318,
             "counties": [
               "Cook"
             ],
-            "percentage": 0.94
+            "percentage": 0.92
           },
-          "41": {
+          "42": {
             "name": "Patrick Sheehan",
             "party": "Republican",
             "votes": 6037,
             "counties": [
               "Cook"
             ],
-            "percentage": 0.9
+            "percentage": 0.88
           },
-          "42": {
+          "43": {
             "name": "Eric Su",
             "party": "Republican",
             "votes": 5313,
             "counties": [
               "Cook"
             ],
-            "percentage": 0.79
+            "percentage": 0.78
           },
-          "43": {
+          "44": {
             "name": "Pete Donaghue",
             "party": "Republican",
             "votes": 5266,
             "counties": [
               "Cook"
             ],
-            "percentage": 0.78
+            "percentage": 0.77
           },
-          "44": {
+          "45": {
             "name": "Amanda Zahorak",
             "party": "Democratic",
             "votes": 5241,
             "counties": [
               "Cook"
             ],
-            "percentage": 0.78
+            "percentage": 0.76
           },
-          "45": {
+          "46": {
             "name": "Laura Hruska",
             "party": "Republican",
             "votes": 4529,
             "counties": [
               "Cook"
             ],
-            "percentage": 0.67
+            "percentage": 0.66
           },
-          "46": {
+          "47": {
             "name": "Anthony Airdo",
             "party": "Republican",
             "votes": 3958,
             "counties": [
               "Cook"
             ],
-            "percentage": 0.59
+            "percentage": 0.58
           },
-          "47": {
+          "48": {
             "name": "Jennifer Sanalitro",
             "party": "Republican",
             "votes": 3837,
             "counties": [
               "Cook"
             ],
-            "percentage": 0.57
+            "percentage": 0.56
           },
-          "48": {
+          "49": {
             "name": "Maura Hirschauer",
             "party": "Democratic",
             "votes": 3773,
             "counties": [
               "Cook"
             ],
-            "percentage": 0.56
+            "percentage": 0.55
           },
-          "49": {
+          "50": {
             "name": "Julian-Jahleel Randolph Jemison",
             "party": "Republican",
             "votes": 3705,
             "counties": [
               "Cook"
             ],
-            "percentage": 0.55
+            "percentage": 0.54
           },
-          "50": {
+          "51": {
             "name": "Maria Peterson",
             "party": "Democratic",
             "votes": 3499,
             "counties": [
               "Cook"
             ],
-            "percentage": 0.52
+            "percentage": 0.51
           },
-          "51": {
+          "52": {
             "name": "Martin McLaughlin",
             "party": "Republican",
             "votes": 3213,
             "counties": [
               "Cook"
             ],
-            "percentage": 0.48
+            "percentage": 0.47
           },
-          "52": {
+          "53": {
             "name": "Angie Guerrero-Cuellar",
             "party": "Democratic",
             "votes": 2955,
             "counties": [
               "Cook"
             ],
-            "percentage": 0.44
+            "percentage": 0.43
           },
-          "53": {
+          "54": {
             "name": "Lisa J. Davis",
             "party": "Democratic",
             "votes": 2666,
             "counties": [
               "Cook"
             ],
-            "percentage": 0.4
+            "percentage": 0.39
           },
-          "54": {
+          "55": {
             "name": "Bob Morgan",
             "party": "Democratic",
             "votes": 2054,
             "counties": [
               "Cook"
             ],
-            "percentage": 0.31
+            "percentage": 0.3
           },
-          "55": {
+          "56": {
             "name": "John Paul Augustynowicz",
             "party": "Republican",
             "votes": 2030,
@@ -7950,7 +8235,7 @@
             ],
             "percentage": 0.3
           },
-          "56": {
+          "57": {
             "name": "Daniel Didech",
             "party": "Democratic",
             "votes": 1477,
@@ -7959,7 +8244,7 @@
             ],
             "percentage": 0.22
           },
-          "57": {
+          "58": {
             "name": "Adam M. Beaty",
             "party": "Republican",
             "votes": 1441,
@@ -7968,16 +8253,16 @@
             ],
             "percentage": 0.21
           },
-          "58": {
+          "59": {
             "name": "Edgar Gonzalez Sr.",
             "party": "Democratic",
             "votes": 1182,
             "counties": [
               "Cook"
             ],
-            "percentage": 0.18
+            "percentage": 0.17
           },
-          "59": {
+          "60": {
             "name": "Jackie Haas",
             "party": "Republican",
             "votes": 958,
@@ -7986,19 +8271,10 @@
             ],
             "percentage": 0.14
           },
-          "60": {
+          "61": {
             "name": "Martha \"marti\" Deuter",
             "party": "Democratic",
             "votes": 651,
-            "counties": [
-              "Cook"
-            ],
-            "percentage": 0.1
-          },
-          "61": {
-            "name": "Aaron M. Ortiz",
-            "party": "Democratic",
-            "votes": 607,
             "counties": [
               "Cook"
             ],
@@ -8032,14 +8308,16 @@
             "percentage": 0.05
           }
         },
-        "precincts_reporting": 0,
-        "total_precincts": 0,
-        "total_votes": 671007,
+        "precincts_reporting": 59,
+        "total_precincts": 60,
+        "total_votes": 685460,
         "counties_needed": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -8076,7 +8354,8 @@
         "total_precincts": 0,
         "total_votes": 24857,
         "counties_needed": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook"
@@ -8084,6 +8363,142 @@
         "counties_missing": [],
         "complete": true,
         "district": 2
+      },
+      "district_3": {
+        "name": "State Representative, 3rd District",
+        "party": "",
+        "counties": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "num_counties": 1,
+        "candidates": {
+          "0": {
+            "name": "Eva-Dina Delgado",
+            "party": "Democratic",
+            "votes": 20824,
+            "counties": [
+              "Chicago Board of Election Commissioners"
+            ],
+            "percentage": 100.0
+          }
+        },
+        "precincts_reporting": 51,
+        "total_precincts": 57,
+        "total_votes": 20824,
+        "counties_needed": [
+          "Cook",
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_found": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_missing": [
+          "Cook"
+        ],
+        "complete": false,
+        "district": 3
+      },
+      "district_4": {
+        "name": "State Representative, 4th District",
+        "party": "",
+        "counties": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "num_counties": 1,
+        "candidates": {
+          "0": {
+            "name": "Lilian Jimenez",
+            "party": "Democratic",
+            "votes": 17869,
+            "counties": [
+              "Chicago Board of Election Commissioners"
+            ],
+            "percentage": 100.0
+          }
+        },
+        "precincts_reporting": 46,
+        "total_precincts": 53,
+        "total_votes": 17869,
+        "counties_needed": [
+          "Cook",
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_found": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_missing": [
+          "Cook"
+        ],
+        "complete": false,
+        "district": 4
+      },
+      "district_5": {
+        "name": "State Representative, 5th District",
+        "party": "",
+        "counties": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "num_counties": 1,
+        "candidates": {
+          "0": {
+            "name": "Kimberly Neely Dubuclet",
+            "party": "Democratic",
+            "votes": 22208,
+            "counties": [
+              "Chicago Board of Election Commissioners"
+            ],
+            "percentage": 100.0
+          }
+        },
+        "precincts_reporting": 60,
+        "total_precincts": 66,
+        "total_votes": 22208,
+        "counties_needed": [
+          "Cook",
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_found": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_missing": [
+          "Cook"
+        ],
+        "complete": false,
+        "district": 5
+      },
+      "district_6": {
+        "name": "State Representative, 6th District",
+        "party": "",
+        "counties": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "num_counties": 1,
+        "candidates": {
+          "0": {
+            "name": "Sonya Marie Harper",
+            "party": "Democratic",
+            "votes": 15994,
+            "counties": [
+              "Chicago Board of Election Commissioners"
+            ],
+            "percentage": 100.0
+          }
+        },
+        "precincts_reporting": 25,
+        "total_precincts": 26,
+        "total_votes": 15994,
+        "counties_needed": [
+          "Cook",
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_found": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_missing": [
+          "Cook"
+        ],
+        "complete": false,
+        "district": 6
       },
       "district_7": {
         "name": "State Representative, 7th District - Vote For 1",
@@ -8110,7 +8525,8 @@
         "total_votes": 30013,
         "counties_needed": [
           "Cook",
-          "DuPage"
+          "DuPage",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
@@ -8124,59 +8540,289 @@
         "name": "State Representative, 8th District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Shantel Franklin",
             "party": "Democratic",
-            "votes": 13747,
+            "votes": 23569,
             "counties": [
-              "Cook"
+              "Cook",
+              "Chicago Board of Election Commissioners"
             ],
             "percentage": 100.0
           }
         },
-        "precincts_reporting": 0,
-        "total_precincts": 0,
-        "total_votes": 13747,
+        "precincts_reporting": 58,
+        "total_precincts": 62,
+        "total_votes": 23569,
         "counties_needed": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
         "district": 8
       },
-      "district_15": {
-        "name": "State Representative, 15th District - Vote For 1",
-        "party": "Non-Partisan",
+      "district_9": {
+        "name": "State Representative, 9th District",
+        "party": "",
         "counties": [
-          "Cook"
+          "Chicago Board of Election Commissioners"
         ],
         "num_counties": 1,
         "candidates": {
           "0": {
-            "name": "Michael J. Kelly",
+            "name": "Yolonda Morris",
             "party": "Democratic",
-            "votes": 9190,
+            "votes": 17849,
             "counties": [
-              "Cook"
+              "Chicago Board of Election Commissioners"
             ],
             "percentage": 100.0
           }
         },
-        "precincts_reporting": 0,
-        "total_precincts": 0,
-        "total_votes": 9190,
+        "precincts_reporting": 58,
+        "total_precincts": 62,
+        "total_votes": 17849,
         "counties_needed": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_missing": [
           "Cook"
+        ],
+        "complete": false,
+        "district": 9
+      },
+      "district_10": {
+        "name": "State Representative, 10th District",
+        "party": "",
+        "counties": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "num_counties": 1,
+        "candidates": {
+          "0": {
+            "name": "Jawaharial \"omar\" Williams",
+            "party": "Democratic",
+            "votes": 21713,
+            "counties": [
+              "Chicago Board of Election Commissioners"
+            ],
+            "percentage": 100.0
+          }
+        },
+        "precincts_reporting": 50,
+        "total_precincts": 51,
+        "total_votes": 21713,
+        "counties_needed": [
+          "Cook",
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_found": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_missing": [
+          "Cook"
+        ],
+        "complete": false,
+        "district": 10
+      },
+      "district_11": {
+        "name": "State Representative, 11th District",
+        "party": "",
+        "counties": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "num_counties": 1,
+        "candidates": {
+          "0": {
+            "name": "Ann M. Williams",
+            "party": "Democratic",
+            "votes": 32543,
+            "counties": [
+              "Chicago Board of Election Commissioners"
+            ],
+            "percentage": 100.0
+          }
+        },
+        "precincts_reporting": 52,
+        "total_precincts": 52,
+        "total_votes": 32543,
+        "counties_needed": [
+          "Cook",
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_found": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_missing": [
+          "Cook"
+        ],
+        "complete": false,
+        "district": 11
+      },
+      "district_12": {
+        "name": "State Representative, 12th District",
+        "party": "",
+        "counties": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "num_counties": 1,
+        "candidates": {
+          "0": {
+            "name": "Paul Kendrick",
+            "party": "Democratic",
+            "votes": 25823,
+            "counties": [
+              "Chicago Board of Election Commissioners"
+            ],
+            "percentage": 85.42
+          },
+          "1": {
+            "name": "Justin J. Kumar",
+            "party": "Republican",
+            "votes": 4408,
+            "counties": [
+              "Chicago Board of Election Commissioners"
+            ],
+            "percentage": 14.58
+          }
+        },
+        "precincts_reporting": 51,
+        "total_precincts": 54,
+        "total_votes": 30231,
+        "counties_needed": [
+          "Cook",
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_found": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_missing": [
+          "Cook"
+        ],
+        "complete": false,
+        "district": 12
+      },
+      "district_13": {
+        "name": "State Representative, 13th District",
+        "party": "",
+        "counties": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "num_counties": 1,
+        "candidates": {
+          "0": {
+            "name": "Demerike \"demi\" Palecek",
+            "party": "Democratic",
+            "votes": 32388,
+            "counties": [
+              "Chicago Board of Election Commissioners"
+            ],
+            "percentage": 91.51
+          },
+          "1": {
+            "name": "Terry Nguyen Le",
+            "party": "Republican",
+            "votes": 3005,
+            "counties": [
+              "Chicago Board of Election Commissioners"
+            ],
+            "percentage": 8.49
+          }
+        },
+        "precincts_reporting": 49,
+        "total_precincts": 52,
+        "total_votes": 35393,
+        "counties_needed": [
+          "Cook",
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_found": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_missing": [
+          "Cook"
+        ],
+        "complete": false,
+        "district": 13
+      },
+      "district_14": {
+        "name": "State Representative, 14th District",
+        "party": "",
+        "counties": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "num_counties": 1,
+        "candidates": {
+          "0": {
+            "name": "Kelly M. Cassidy",
+            "party": "Democratic",
+            "votes": 28060,
+            "counties": [
+              "Chicago Board of Election Commissioners"
+            ],
+            "percentage": 100.0
+          }
+        },
+        "precincts_reporting": 46,
+        "total_precincts": 47,
+        "total_votes": 28060,
+        "counties_needed": [
+          "Cook",
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_found": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_missing": [
+          "Cook"
+        ],
+        "complete": false,
+        "district": 14
+      },
+      "district_15": {
+        "name": "State Representative, 15th District - Vote For 1",
+        "party": "Non-Partisan",
+        "counties": [
+          "Cook",
+          "Chicago Board of Election Commissioners"
+        ],
+        "num_counties": 2,
+        "candidates": {
+          "0": {
+            "name": "Michael J. Kelly",
+            "party": "Democratic",
+            "votes": 23350,
+            "counties": [
+              "Cook",
+              "Chicago Board of Election Commissioners"
+            ],
+            "percentage": 100.0
+          }
+        },
+        "precincts_reporting": 32,
+        "total_precincts": 33,
+        "total_votes": 23350,
+        "counties_needed": [
+          "Cook",
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_found": [
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -8186,28 +8832,32 @@
         "name": "State Representative, 16th District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Kevin John Olickal",
             "party": "Democratic",
-            "votes": 9843,
+            "votes": 19403,
             "counties": [
-              "Cook"
+              "Cook",
+              "Chicago Board of Election Commissioners"
             ],
             "percentage": 100.0
           }
         },
-        "precincts_reporting": 0,
-        "total_precincts": 0,
-        "total_votes": 9843,
+        "precincts_reporting": 6,
+        "total_precincts": 6,
+        "total_votes": 19403,
         "counties_needed": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -8244,7 +8894,8 @@
         "total_precincts": 0,
         "total_votes": 37516,
         "counties_needed": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook"
@@ -8257,37 +8908,42 @@
         "name": "State Representative, 18th District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Robyn Gabel",
             "party": "Democratic",
-            "votes": 30956,
+            "votes": 32232,
             "counties": [
-              "Cook"
+              "Cook",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 85.46
+            "percentage": 85.55
           },
           "1": {
             "name": "Pete Donaghue",
             "party": "Republican",
-            "votes": 5266,
+            "votes": 5444,
             "counties": [
-              "Cook"
+              "Cook",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 14.54
+            "percentage": 14.45
           }
         },
-        "precincts_reporting": 0,
-        "total_precincts": 0,
-        "total_votes": 36222,
+        "precincts_reporting": 63,
+        "total_precincts": 63,
+        "total_votes": 37676,
         "counties_needed": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -8297,37 +8953,42 @@
         "name": "State Representative, 19th District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Lindsey Lapointe",
             "party": "Democratic",
-            "votes": 540,
+            "votes": 22545,
             "counties": [
-              "Cook"
+              "Cook",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 61.57
+            "percentage": 76.41
           },
           "1": {
             "name": "John \"jz\" Zimmers",
             "party": "Republican",
-            "votes": 337,
+            "votes": 6959,
             "counties": [
-              "Cook"
+              "Cook",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 38.43
+            "percentage": 23.59
           }
         },
-        "precincts_reporting": 0,
-        "total_precincts": 0,
-        "total_votes": 877,
+        "precincts_reporting": 37,
+        "total_precincts": 37,
+        "total_votes": 29504,
         "counties_needed": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -8337,28 +8998,32 @@
         "name": "State Representative, 20th District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Brad Stephens",
             "party": "Republican",
-            "votes": 7034,
+            "votes": 19715,
             "counties": [
-              "Cook"
+              "Cook",
+              "Chicago Board of Election Commissioners"
             ],
             "percentage": 100.0
           }
         },
-        "precincts_reporting": 0,
-        "total_precincts": 0,
-        "total_votes": 7034,
+        "precincts_reporting": 10,
+        "total_precincts": 10,
+        "total_votes": 19715,
         "counties_needed": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -8368,37 +9033,42 @@
         "name": "State Representative, 21st District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Abdelnasser Rashid",
             "party": "Democratic",
-            "votes": 18116,
+            "votes": 19191,
             "counties": [
-              "Cook"
+              "Cook",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 77.32
+            "percentage": 75.29
           },
           "1": {
             "name": "Eric Su",
             "party": "Republican",
-            "votes": 5313,
+            "votes": 6297,
             "counties": [
-              "Cook"
+              "Cook",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 22.68
+            "percentage": 24.71
           }
         },
-        "precincts_reporting": 0,
-        "total_precincts": 0,
-        "total_votes": 23429,
+        "precincts_reporting": 63,
+        "total_precincts": 64,
+        "total_votes": 25488,
         "counties_needed": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -8408,28 +9078,32 @@
         "name": "State Representative, 22nd District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Angie Guerrero-Cuellar",
             "party": "Democratic",
-            "votes": 2955,
+            "votes": 20228,
             "counties": [
-              "Cook"
+              "Cook",
+              "Chicago Board of Election Commissioners"
             ],
             "percentage": 100.0
           }
         },
-        "precincts_reporting": 0,
-        "total_precincts": 0,
-        "total_votes": 2955,
+        "precincts_reporting": 30,
+        "total_precincts": 34,
+        "total_votes": 20228,
         "counties_needed": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -8439,63 +9113,182 @@
         "name": "State Representative, 23rd District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Edgar Gonzalez Sr.",
             "party": "Democratic",
-            "votes": 1182,
+            "votes": 10486,
             "counties": [
-              "Cook"
+              "Cook",
+              "Chicago Board of Election Commissioners"
             ],
             "percentage": 100.0
           }
         },
-        "precincts_reporting": 0,
-        "total_precincts": 0,
-        "total_votes": 1182,
+        "precincts_reporting": 45,
+        "total_precincts": 49,
+        "total_votes": 10486,
         "counties_needed": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
         "district": 23
+      },
+      "district_24": {
+        "name": "State Representative, 24th District",
+        "party": "",
+        "counties": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "num_counties": 1,
+        "candidates": {
+          "0": {
+            "name": "Theresa Mah",
+            "party": "Democratic",
+            "votes": 15116,
+            "counties": [
+              "Chicago Board of Election Commissioners"
+            ],
+            "percentage": 100.0
+          }
+        },
+        "precincts_reporting": 59,
+        "total_precincts": 61,
+        "total_votes": 15116,
+        "counties_needed": [
+          "Cook",
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_found": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_missing": [
+          "Cook"
+        ],
+        "complete": false,
+        "district": 24
+      },
+      "district_25": {
+        "name": "State Representative, 25th District",
+        "party": "",
+        "counties": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "num_counties": 1,
+        "candidates": {
+          "0": {
+            "name": "Curtis J. Tarver II",
+            "party": "Democratic",
+            "votes": 23436,
+            "counties": [
+              "Chicago Board of Election Commissioners"
+            ],
+            "percentage": 93.37
+          },
+          "1": {
+            "name": "Antoinette Jewel Simmons",
+            "party": "Republican",
+            "votes": 1664,
+            "counties": [
+              "Chicago Board of Election Commissioners"
+            ],
+            "percentage": 6.63
+          }
+        },
+        "precincts_reporting": 61,
+        "total_precincts": 62,
+        "total_votes": 25100,
+        "counties_needed": [
+          "Cook",
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_found": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_missing": [
+          "Cook"
+        ],
+        "complete": false,
+        "district": 25
+      },
+      "district_26": {
+        "name": "State Representative, 26th District",
+        "party": "",
+        "counties": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "num_counties": 1,
+        "candidates": {
+          "0": {
+            "name": "Kam Buckner",
+            "party": "Democratic",
+            "votes": 22987,
+            "counties": [
+              "Chicago Board of Election Commissioners"
+            ],
+            "percentage": 100.0
+          }
+        },
+        "precincts_reporting": 33,
+        "total_precincts": 39,
+        "total_votes": 22987,
+        "counties_needed": [
+          "Cook",
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_found": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_missing": [
+          "Cook"
+        ],
+        "complete": false,
+        "district": 26
       },
       "district_27": {
         "name": "State Representative, 27th District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
           "Cook",
-          "Will"
+          "Will",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 2,
+        "num_counties": 3,
         "candidates": {
           "0": {
             "name": "Justin Q. Slaughter",
             "party": "Democratic",
-            "votes": 10960,
+            "votes": 24872,
             "counties": [
               "Cook",
-              "Will"
+              "Will",
+              "Chicago Board of Election Commissioners"
             ],
             "percentage": 100.0
           }
         },
-        "precincts_reporting": 2,
-        "total_precincts": 2,
-        "total_votes": 10960,
+        "precincts_reporting": 12,
+        "total_precincts": 13,
+        "total_votes": 24872,
         "counties_needed": [
           "Cook",
-          "Will"
+          "Will",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
-          "Will"
+          "Will",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -8505,28 +9298,32 @@
         "name": "State Representative, 28th District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Robert \"bob\" Rita",
             "party": "Democratic",
-            "votes": 18395,
+            "votes": 22893,
             "counties": [
-              "Cook"
+              "Cook",
+              "Chicago Board of Election Commissioners"
             ],
             "percentage": 100.0
           }
         },
-        "precincts_reporting": 0,
-        "total_precincts": 0,
-        "total_votes": 18395,
+        "precincts_reporting": 3,
+        "total_precincts": 5,
+        "total_votes": 22893,
         "counties_needed": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -8538,34 +9335,38 @@
         "counties": [
           "Cook",
           "Kankakee",
-          "Will"
+          "Will",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 3,
+        "num_counties": 4,
         "candidates": {
           "0": {
             "name": "Thaddeus Jones",
             "party": "Democratic",
-            "votes": 26237,
+            "votes": 27183,
             "counties": [
               "Cook",
               "Kankakee",
-              "Will"
+              "Will",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 98.28
+            "percentage": 98.34
           }
         },
-        "precincts_reporting": 24,
-        "total_precincts": 24,
-        "total_votes": 26695,
+        "precincts_reporting": 53,
+        "total_precincts": 60,
+        "total_votes": 27641,
         "counties_needed": [
           "Cook",
           "Kankakee",
-          "Will"
+          "Will",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
           "Kankakee",
-          "Will"
+          "Will",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -8593,7 +9394,8 @@
         "total_precincts": 0,
         "total_votes": 26380,
         "counties_needed": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook"
@@ -8606,28 +9408,32 @@
         "name": "State Representative, 31st District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Michael \"mike\" Crawford",
             "party": "Democratic",
-            "votes": 7718,
+            "votes": 19434,
             "counties": [
-              "Cook"
+              "Cook",
+              "Chicago Board of Election Commissioners"
             ],
             "percentage": 100.0
           }
         },
-        "precincts_reporting": 0,
-        "total_precincts": 0,
-        "total_votes": 7718,
+        "precincts_reporting": 43,
+        "total_precincts": 51,
+        "total_votes": 19434,
         "counties_needed": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -8637,28 +9443,32 @@
         "name": "State Representative, 32nd District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Lisa J. Davis",
             "party": "Democratic",
-            "votes": 2666,
+            "votes": 14590,
             "counties": [
-              "Cook"
+              "Cook",
+              "Chicago Board of Election Commissioners"
             ],
             "percentage": 100.0
           }
         },
-        "precincts_reporting": 0,
-        "total_precincts": 0,
-        "total_votes": 2666,
+        "precincts_reporting": 43,
+        "total_precincts": 45,
+        "total_votes": 14590,
         "counties_needed": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -8668,28 +9478,32 @@
         "name": "State Representative, 33rd District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Marcus C. Evans Sr.",
             "party": "Democratic",
-            "votes": 9555,
+            "votes": 24304,
             "counties": [
-              "Cook"
+              "Cook",
+              "Chicago Board of Election Commissioners"
             ],
             "percentage": 100.0
           }
         },
-        "precincts_reporting": 0,
-        "total_precincts": 0,
-        "total_votes": 9555,
+        "precincts_reporting": 29,
+        "total_precincts": 31,
+        "total_votes": 24304,
         "counties_needed": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -8701,34 +9515,38 @@
         "counties": [
           "Cook",
           "Kankakee",
-          "Will"
+          "Will",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 3,
+        "num_counties": 4,
         "candidates": {
           "0": {
             "name": "Cleopatra \"cleo\" Cowley",
             "party": "Democratic",
-            "votes": 13784,
+            "votes": 25919,
             "counties": [
               "Cook",
               "Kankakee",
-              "Will"
+              "Will",
+              "Chicago Board of Election Commissioners"
             ],
             "percentage": 100.0
           }
         },
-        "precincts_reporting": 22,
-        "total_precincts": 22,
-        "total_votes": 13784,
+        "precincts_reporting": 50,
+        "total_precincts": 55,
+        "total_votes": 25919,
         "counties_needed": [
           "Cook",
           "Kankakee",
-          "Will"
+          "Will",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
           "Kankakee",
-          "Will"
+          "Will",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -8738,37 +9556,42 @@
         "name": "State Representative, 35th District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Mary Gill",
             "party": "Democratic",
-            "votes": 12252,
+            "votes": 20195,
             "counties": [
-              "Cook"
+              "Cook",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 59.38
+            "percentage": 65.53
           },
           "1": {
             "name": "David A. Dewar",
             "party": "Republican",
-            "votes": 8380,
+            "votes": 10624,
             "counties": [
-              "Cook"
+              "Cook",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 40.62
+            "percentage": 34.47
           }
         },
-        "precincts_reporting": 0,
-        "total_precincts": 0,
-        "total_votes": 20632,
+        "precincts_reporting": 8,
+        "total_precincts": 10,
+        "total_votes": 30819,
         "counties_needed": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -8778,37 +9601,42 @@
         "name": "State Representative, 36th District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Rick Ryan",
             "party": "Democratic",
-            "votes": 18207,
+            "votes": 20159,
             "counties": [
-              "Cook"
+              "Cook",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 66.91
+            "percentage": 67.37
           },
           "1": {
             "name": "David Sheppard",
             "party": "Republican",
-            "votes": 9003,
+            "votes": 9764,
             "counties": [
-              "Cook"
+              "Cook",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 33.09
+            "percentage": 32.63
           }
         },
-        "precincts_reporting": 0,
-        "total_precincts": 0,
-        "total_votes": 27210,
+        "precincts_reporting": 48,
+        "total_precincts": 52,
+        "total_votes": 29923,
         "counties_needed": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -8839,7 +9667,8 @@
         "total_votes": 29304,
         "counties_needed": [
           "Cook",
-          "Will"
+          "Will",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
@@ -8874,7 +9703,8 @@
         "total_votes": 32565,
         "counties_needed": [
           "Cook",
-          "Will"
+          "Will",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
@@ -8883,6 +9713,83 @@
         "counties_missing": [],
         "complete": true,
         "district": 38
+      },
+      "district_39": {
+        "name": "State Representative, 39th District",
+        "party": "",
+        "counties": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "num_counties": 1,
+        "candidates": {
+          "0": {
+            "name": "Will Guzzardi",
+            "party": "Democratic",
+            "votes": 19792,
+            "counties": [
+              "Chicago Board of Election Commissioners"
+            ],
+            "percentage": 89.21
+          },
+          "1": {
+            "name": "Cesar A. Guillen",
+            "party": "Republican",
+            "votes": 2394,
+            "counties": [
+              "Chicago Board of Election Commissioners"
+            ],
+            "percentage": 10.79
+          }
+        },
+        "precincts_reporting": 48,
+        "total_precincts": 48,
+        "total_votes": 22186,
+        "counties_needed": [
+          "Cook",
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_found": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_missing": [
+          "Cook"
+        ],
+        "complete": false,
+        "district": 39
+      },
+      "district_40": {
+        "name": "State Representative, 40th District",
+        "party": "",
+        "counties": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "num_counties": 1,
+        "candidates": {
+          "0": {
+            "name": "Miguel Alvelo-Rivera",
+            "party": "Democratic",
+            "votes": 22078,
+            "counties": [
+              "Chicago Board of Election Commissioners"
+            ],
+            "percentage": 100.0
+          }
+        },
+        "precincts_reporting": 5,
+        "total_precincts": 5,
+        "total_votes": 22078,
+        "counties_needed": [
+          "Cook",
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_found": [
+          "Chicago Board of Election Commissioners"
+        ],
+        "counties_missing": [
+          "Cook"
+        ],
+        "complete": false,
+        "district": 40
       },
       "district_41": {
         "name": "FOR REPRESENTATIVE IN THE GENERAL ASSEMBLY FORTY-FIRST REPRESENTATIVE DISTRICT",
@@ -8994,7 +9901,8 @@
         "total_votes": 17565,
         "counties_needed": [
           "Cook",
-          "Kane"
+          "Kane",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
@@ -9035,7 +9943,8 @@
         "total_precincts": 0,
         "total_votes": 23379,
         "counties_needed": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook"
@@ -9079,7 +9988,8 @@
         "total_votes": 40978,
         "counties_needed": [
           "Cook",
-          "DuPage"
+          "DuPage",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
@@ -9204,7 +10114,8 @@
         "total_votes": 35835,
         "counties_needed": [
           "Cook",
-          "DuPage"
+          "DuPage",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
@@ -9253,7 +10164,8 @@
         "counties_needed": [
           "Cook",
           "DuPage",
-          "Kane"
+          "Kane",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
@@ -9334,7 +10246,8 @@
         "total_votes": 40851,
         "counties_needed": [
           "Cook",
-          "Lake"
+          "Lake",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
@@ -9387,7 +10300,8 @@
           "Cook",
           "Kane",
           "Lake",
-          "McHenry"
+          "McHenry",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
@@ -9430,7 +10344,8 @@
         "total_precincts": 0,
         "total_votes": 30877,
         "counties_needed": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook"
@@ -9470,7 +10385,8 @@
         "total_precincts": 0,
         "total_votes": 33832,
         "counties_needed": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook"
@@ -9483,37 +10399,42 @@
         "name": "State Representative, 55th District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Justin Cochran",
             "party": "Democratic",
-            "votes": 16825,
+            "votes": 17934,
             "counties": [
-              "Cook"
+              "Cook",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 64.43
+            "percentage": 64.17
           },
           "1": {
             "name": "Joseph Johnson",
             "party": "Republican",
-            "votes": 9290,
+            "votes": 10015,
             "counties": [
-              "Cook"
+              "Cook",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 35.57
+            "percentage": 35.83
           }
         },
-        "precincts_reporting": 0,
-        "total_precincts": 0,
-        "total_votes": 26115,
+        "precincts_reporting": 18,
+        "total_precincts": 19,
+        "total_votes": 27949,
         "counties_needed": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -9554,7 +10475,8 @@
         "total_votes": 26515,
         "counties_needed": [
           "Cook",
-          "DuPage"
+          "DuPage",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
@@ -9599,7 +10521,8 @@
         "total_votes": 33131,
         "counties_needed": [
           "Cook",
-          "Lake"
+          "Lake",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
@@ -9634,7 +10557,8 @@
         "total_votes": 31437,
         "counties_needed": [
           "Cook",
-          "Lake"
+          "Lake",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
@@ -9669,7 +10593,8 @@
         "total_votes": 24220,
         "counties_needed": [
           "Cook",
-          "Lake"
+          "Lake",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
@@ -10448,7 +11373,8 @@
         "total_votes": 21793,
         "counties_needed": [
           "Cook",
-          "DuPage"
+          "DuPage",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
@@ -10462,37 +11388,42 @@
         "name": "State Representative, 78th District - Vote For 1",
         "party": "Non-Partisan",
         "counties": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 1,
+        "num_counties": 2,
         "candidates": {
           "0": {
             "name": "Camille Lilly",
             "party": "Democratic",
-            "votes": 25706,
+            "votes": 33406,
             "counties": [
-              "Cook"
+              "Cook",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 87.4
+            "percentage": 88.1
           },
           "1": {
             "name": "Julian-Jahleel Randolph Jemison",
             "party": "Republican",
-            "votes": 3705,
+            "votes": 4511,
             "counties": [
-              "Cook"
+              "Cook",
+              "Chicago Board of Election Commissioners"
             ],
-            "percentage": 12.6
+            "percentage": 11.9
           }
         },
-        "precincts_reporting": 0,
-        "total_precincts": 0,
-        "total_votes": 29411,
+        "precincts_reporting": 1212,
+        "total_precincts": 1291,
+        "total_votes": 37917,
         "counties_needed": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
-          "Cook"
+          "Cook",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [],
         "complete": true,
@@ -10529,7 +11460,8 @@
           "Cook",
           "Grundy",
           "Kankakee",
-          "Will"
+          "Will",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
@@ -10576,7 +11508,8 @@
         "total_votes": 33184,
         "counties_needed": [
           "Cook",
-          "Will"
+          "Will",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
@@ -10654,7 +11587,8 @@
         "counties_needed": [
           "Cook",
           "DuPage",
-          "Will"
+          "Will",
+          "Chicago Board of Election Commissioners"
         ],
         "counties_found": [
           "Cook",
@@ -12546,7 +13480,7 @@
     "Shelby": {
       "county": "Shelby",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.589515",
+      "scraped_at": "2026-11-04T01:04:54.455970",
       "source": "pollresults.net \u2014 https://il-shelby.pollresults.net",
       "summary": {
         "registered_voters": 14936,
@@ -13339,7 +14273,7 @@
     "Bond": {
       "county": "Bond",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.228046",
+      "scraped_at": "2026-11-04T01:04:53.259202",
       "source": "pollresults.net \u2014 https://il-bond.pollresults.net",
       "summary": {
         "registered_voters": 10536,
@@ -13842,7 +14776,7 @@
       "authority": "Cook County Clerk",
       "coverage": "Suburban Cook County (excluding Chicago)",
       "source": "Live HTML \u2014 https://electionnight.cookcountyclerkil.gov/",
-      "scraped_at": "2026-11-04T00:57:20.175742",
+      "scraped_at": "2026-11-04T01:04:38.503324",
       "contests": [
         {
           "name": "Senator, U.S. - Vote For 1",
@@ -17665,14 +18599,14 @@
     "Mercer": {
       "county": "Mercer",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:53.001190",
+      "scraped_at": "2026-11-04T01:04:54.090226",
       "source": "pollresults.net \u2014 https://il-mercer.pollresults.net",
       "summary": {},
       "contests": []
     },
     "Kankakee": {
       "county": "Kankakee",
-      "scraped_at": "2026-11-04T00:57:40.024790",
+      "scraped_at": "2026-11-04T01:04:49.808474",
       "total_contests": 48,
       "contests_by_party": {
         "Democratic": {
@@ -18840,7 +19774,7 @@
     "Washington": {
       "county": "Washington",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.992420",
+      "scraped_at": "2026-11-04T01:04:54.057195",
       "source": "pollresults.net \u2014 https://il-washington.pollresults.net",
       "summary": {},
       "contests": []
@@ -18848,7 +19782,7 @@
     "Hancock": {
       "county": "Hancock",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.998711",
+      "scraped_at": "2026-11-04T01:04:54.190485",
       "source": "pollresults.net \u2014 https://il-hancock.pollresults.net",
       "summary": {},
       "contests": []
@@ -18856,7 +19790,7 @@
     "Richland": {
       "county": "Richland",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:53.008783",
+      "scraped_at": "2026-11-04T01:04:54.045503",
       "source": "pollresults.net \u2014 https://il-richland.pollresults.net",
       "summary": {},
       "contests": []
@@ -18864,7 +19798,7 @@
     "Whiteside": {
       "county": "Whiteside",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:53.046166",
+      "scraped_at": "2026-11-04T01:04:54.378953",
       "source": "pollresults.net \u2014 https://il-whiteside.pollresults.net",
       "summary": {
         "registered_voters": 37781,
@@ -19445,7 +20379,7 @@
     "Franklin": {
       "county": "Franklin",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.996076",
+      "scraped_at": "2026-11-04T01:04:54.005002",
       "source": "pollresults.net \u2014 https://il-franklin.pollresults.net",
       "summary": {},
       "contests": []
@@ -19453,7 +20387,7 @@
     "Effingham": {
       "county": "Effingham",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:53.064290",
+      "scraped_at": "2026-11-04T01:04:54.536409",
       "source": "pollresults.net \u2014 https://il-effingham.pollresults.net",
       "summary": {},
       "contests": []
@@ -19461,7 +20395,7 @@
     "Ogle": {
       "county": "Ogle",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.756990",
+      "scraped_at": "2026-11-04T01:04:54.415190",
       "source": "pollresults.net \u2014 https://il-ogle.pollresults.net",
       "summary": {
         "registered_voters": 35426,
@@ -20161,7 +21095,7 @@
     "Logan": {
       "county": "Logan",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.611771",
+      "scraped_at": "2026-11-04T01:04:53.677566",
       "source": "pollresults.net \u2014 https://il-logan.pollresults.net",
       "summary": {
         "registered_voters": 17936,
@@ -20742,7 +21676,7 @@
     "DuPage": {
       "summary": {},
       "county": "DuPage County",
-      "scraped_at": "2026-11-04T00:57:15.946259",
+      "scraped_at": "2026-11-04T01:04:34.375487",
       "source": "Scytl summary JSON",
       "election_id": "127290",
       "contests": [
@@ -22275,7 +23209,7 @@
     "Macon": {
       "county": "Macon",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:53.047875",
+      "scraped_at": "2026-11-04T01:04:54.350424",
       "source": "pollresults.net \u2014 https://il-macon.pollresults.net",
       "summary": {
         "registered_voters": 69503,
@@ -23234,7 +24168,7 @@
     "Fayette": {
       "county": "Fayette",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.720371",
+      "scraped_at": "2026-11-04T01:04:53.953287",
       "source": "pollresults.net \u2014 https://il-fayette.pollresults.net",
       "summary": {},
       "contests": []
@@ -23242,7 +24176,7 @@
     "Crawford": {
       "county": "Crawford",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.725415",
+      "scraped_at": "2026-11-04T01:04:54.031446",
       "source": "pollresults.net \u2014 https://il-crawford.pollresults.net",
       "summary": {},
       "contests": []
@@ -23250,7 +24184,7 @@
     "Clinton": {
       "county": "Clinton",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:53.002046",
+      "scraped_at": "2026-11-04T01:04:54.581699",
       "source": "pollresults.net \u2014 https://il-clinton.pollresults.net",
       "summary": {},
       "contests": []
@@ -23258,7 +24192,7 @@
     "Wayne": {
       "county": "Wayne",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.756873",
+      "scraped_at": "2026-11-04T01:04:54.492943",
       "source": "pollresults.net \u2014 https://il-wayne.pollresults.net",
       "summary": {},
       "contests": []
@@ -23266,7 +24200,7 @@
     "Hardin": {
       "county": "Hardin",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:53.058475",
+      "scraped_at": "2026-11-04T01:04:54.382728",
       "source": "pollresults.net \u2014 https://il-hardin.pollresults.net",
       "summary": {},
       "contests": []
@@ -23274,7 +24208,7 @@
     "Brown": {
       "county": "Brown",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:53.017555",
+      "scraped_at": "2026-11-04T01:04:54.497416",
       "source": "pollresults.net \u2014 https://il-brown.pollresults.net",
       "summary": {},
       "contests": []
@@ -23282,7 +24216,7 @@
     "Clay": {
       "county": "Clay",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:53.020642",
+      "scraped_at": "2026-11-04T01:04:54.092694",
       "source": "pollresults.net \u2014 https://il-clay.pollresults.net",
       "summary": {},
       "contests": []
@@ -23290,7 +24224,7 @@
     "Montgomery": {
       "county": "Montgomery",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.996445",
+      "scraped_at": "2026-11-04T01:04:54.412730",
       "source": "pollresults.net \u2014 https://il-montgomery.pollresults.net",
       "summary": {},
       "contests": []
@@ -23298,7 +24232,7 @@
     "Henderson": {
       "county": "Henderson",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:53.058590",
+      "scraped_at": "2026-11-04T01:04:54.455876",
       "source": "pollresults.net \u2014 https://il-henderson.pollresults.net",
       "summary": {},
       "contests": []
@@ -23306,7 +24240,7 @@
     "DeWitt": {
       "county": "DeWitt",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.611825",
+      "scraped_at": "2026-11-04T01:04:54.457041",
       "source": "pollresults.net \u2014 https://il-dewitt.pollresults.net",
       "summary": {
         "registered_voters": 10717,
@@ -24578,7 +25512,7 @@
       },
       "county": "Kane County",
       "election_date": "2026-11-03",
-      "scraped_at": "2026-11-04T00:57:23.742896",
+      "scraped_at": "2026-11-04T01:04:40.621550",
       "source": "Kane County custom platform",
       "contests": [
         {
@@ -25622,7 +26556,7 @@
     "Menard": {
       "county": "Menard",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:53.011700",
+      "scraped_at": "2026-11-04T01:04:53.667880",
       "source": "pollresults.net \u2014 https://il-menard.pollresults.net",
       "summary": {},
       "contests": []
@@ -25630,7 +26564,7 @@
     "Massac": {
       "county": "Massac",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:53.023075",
+      "scraped_at": "2026-11-04T01:04:54.423368",
       "source": "pollresults.net \u2014 https://il-massac.pollresults.net",
       "summary": {},
       "contests": []
@@ -25638,7 +26572,7 @@
     "White": {
       "county": "White",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.762462",
+      "scraped_at": "2026-11-04T01:04:54.379695",
       "source": "pollresults.net \u2014 https://il-white.pollresults.net",
       "summary": {},
       "contests": []
@@ -25646,7 +26580,7 @@
     "Vermilion": {
       "county": "Vermilion",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:53.044596",
+      "scraped_at": "2026-11-04T01:04:54.519988",
       "source": "pollresults.net \u2014 https://il-vermilion.pollresults.net",
       "summary": {
         "registered_voters": 29291,
@@ -26423,7 +27357,7 @@
     "Lee": {
       "county": "Lee",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:53.040742",
+      "scraped_at": "2026-11-04T01:04:53.076648",
       "source": "pollresults.net \u2014 https://il-lee.pollresults.net",
       "summary": {
         "registered_voters": 22398,
@@ -27005,7 +27939,7 @@
     "Wabash": {
       "county": "Wabash",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.999751",
+      "scraped_at": "2026-11-04T01:04:54.218798",
       "source": "pollresults.net \u2014 https://il-wabash.pollresults.net",
       "summary": {},
       "contests": []
@@ -27013,7 +27947,7 @@
     "Madison": {
       "county": "Madison",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.994292",
+      "scraped_at": "2026-11-04T01:04:54.460685",
       "source": "pollresults.net \u2014 https://il-madison.pollresults.net",
       "summary": {},
       "contests": []
@@ -27021,7 +27955,7 @@
     "Douglas": {
       "county": "Douglas",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:53.017456",
+      "scraped_at": "2026-11-04T01:04:53.691973",
       "source": "pollresults.net \u2014 https://il-douglas.pollresults.net",
       "summary": {
         "registered_voters": 11940,
@@ -27550,14 +28484,14 @@
     "Adams": {
       "county": "Adams",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:53.012543",
+      "scraped_at": "2026-11-04T01:04:53.580958",
       "source": "pollresults.net \u2014 https://il-adams.pollresults.net",
       "summary": {},
       "contests": []
     },
     "Will": {
       "county": "Will",
-      "scraped_at": "2026-11-04T00:57:16.067963",
+      "scraped_at": "2026-11-04T01:04:34.593366",
       "total_contests": 71,
       "contests_by_party": {
         "Democratic": {
@@ -29331,7 +30265,7 @@
     },
     "Winnebago": {
       "county": "Winnebago",
-      "scraped_at": "2026-11-04T00:57:25.309004",
+      "scraped_at": "2026-11-04T01:04:41.471455",
       "total_contests": 73,
       "contests_by_party": {
         "Democratic": {
@@ -31134,7 +32068,7 @@
     "Scott": {
       "county": "Scott",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.735498",
+      "scraped_at": "2026-11-04T01:04:54.536516",
       "source": "pollresults.net \u2014 https://il-scott.pollresults.net",
       "summary": {},
       "contests": []
@@ -31142,7 +32076,7 @@
     "Putnam": {
       "county": "Putnam",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.992836",
+      "scraped_at": "2026-11-04T01:04:53.830736",
       "source": "pollresults.net \u2014 https://il-putnam.pollresults.net",
       "summary": {
         "registered_voters": 4019,
@@ -31530,7 +32464,7 @@
     "Piatt": {
       "county": "Piatt",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.699729",
+      "scraped_at": "2026-11-04T01:04:53.993044",
       "source": "pollresults.net \u2014 https://il-piatt.pollresults.net",
       "summary": {
         "registered_voters": 12719,
@@ -32175,7 +33109,7 @@
     "Cass": {
       "county": "Cass",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.722104",
+      "scraped_at": "2026-11-04T01:04:54.236627",
       "source": "pollresults.net \u2014 https://il-cass.pollresults.net",
       "summary": {},
       "contests": []
@@ -32183,7 +33117,7 @@
     "Randolph": {
       "county": "Randolph",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.999794",
+      "scraped_at": "2026-11-04T01:04:54.328979",
       "source": "pollresults.net \u2014 https://il-randolph.pollresults.net",
       "summary": {},
       "contests": []
@@ -32191,14 +33125,14 @@
     "Monroe": {
       "county": "Monroe",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.720243",
+      "scraped_at": "2026-11-04T01:04:53.728352",
       "source": "pollresults.net \u2014 https://il-monroe.pollresults.net",
       "summary": {},
       "contests": []
     },
     "Henry": {
       "county": "Henry",
-      "scraped_at": "2026-11-04T00:57:36.126669",
+      "scraped_at": "2026-11-04T01:04:47.326699",
       "total_contests": 27,
       "contests_by_party": {
         "Democratic": {
@@ -32874,7 +33808,7 @@
     "Boone": {
       "county": "Boone",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.617201",
+      "scraped_at": "2026-11-04T01:04:53.831965",
       "source": "pollresults.net \u2014 https://il-boone.pollresults.net",
       "summary": {
         "registered_voters": 35037,
@@ -33589,7 +34523,7 @@
     "Perry": {
       "county": "Perry",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:53.015148",
+      "scraped_at": "2026-11-04T01:04:53.965004",
       "source": "pollresults.net \u2014 https://il-perry.pollresults.net",
       "summary": {},
       "contests": []
@@ -33597,7 +34531,7 @@
     "La Salle": {
       "county": "La Salle",
       "election_date": "2026-11-03",
-      "scraped_at": "2026-11-04T00:57:54",
+      "scraped_at": "2026-11-04T01:04:56",
       "pdf_generated": "10:50:13 PM",
       "source": "La Salle County Election Summary Report PDF (https://lasallecountyil.gov/DocumentCenter/View/6259/Election-Summary-Report)",
       "summary": {
@@ -34344,7 +35278,7 @@
     "Bureau": {
       "county": "Bureau",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:53.044015",
+      "scraped_at": "2026-11-04T01:04:53.175738",
       "source": "pollresults.net \u2014 https://il-bureau.pollresults.net",
       "summary": {
         "registered_voters": 20675,
@@ -35067,14 +36001,14 @@
     "Edwards": {
       "county": "Edwards",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.700740",
+      "scraped_at": "2026-11-04T01:04:53.861768",
       "source": "pollresults.net \u2014 https://il-edwards.pollresults.net",
       "summary": {},
       "contests": []
     },
     "Lake": {
       "county": "Lake",
-      "scraped_at": "2026-11-04T00:57:16.068550",
+      "scraped_at": "2026-11-04T01:04:34.559244",
       "total_contests": 53,
       "contests_by_party": {
         "Democratic": {
@@ -36322,14 +37256,14 @@
     "Pope": {
       "county": "Pope",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.393096",
+      "scraped_at": "2026-11-04T01:04:53.968202",
       "source": "pollresults.net \u2014 https://il-pope.pollresults.net",
       "summary": {},
       "contests": []
     },
     "Bloomington": {
       "county": "Bloomington",
-      "scraped_at": "2026-11-04T00:57:16.226179",
+      "scraped_at": "2026-11-04T01:04:34.539882",
       "total_contests": 34,
       "contests_by_party": {
         "Democratic": {
@@ -37163,14 +38097,14 @@
     "Gallatin": {
       "county": "Gallatin",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:53.015813",
+      "scraped_at": "2026-11-04T01:04:54.094975",
       "source": "pollresults.net \u2014 https://il-gallatin.pollresults.net",
       "summary": {},
       "contests": []
     },
     "Kendall": {
       "county": "Kendall",
-      "scraped_at": "2026-11-04T00:57:15.993869",
+      "scraped_at": "2026-11-04T01:04:34.480862",
       "total_contests": 26,
       "contests_by_party": {
         "Democratic": {
@@ -37857,7 +38791,7 @@
     "Mason": {
       "county": "Mason",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.767675",
+      "scraped_at": "2026-11-04T01:04:53.655509",
       "source": "pollresults.net \u2014 https://il-mason.pollresults.net",
       "summary": {
         "registered_voters": 8961,
@@ -38403,7 +39337,7 @@
     "Alexander": {
       "county": "Alexander",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.589609",
+      "scraped_at": "2026-11-04T01:04:54.055745",
       "source": "pollresults.net \u2014 https://il-alexander.pollresults.net",
       "summary": {},
       "contests": []
@@ -38411,7 +39345,7 @@
     "Jersey": {
       "county": "Jersey",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.632638",
+      "scraped_at": "2026-11-04T01:04:54.498182",
       "source": "pollresults.net \u2014 https://il-jersey.pollresults.net",
       "summary": {},
       "contests": []
@@ -38419,7 +39353,7 @@
     "Christian": {
       "county": "Christian",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.619997",
+      "scraped_at": "2026-11-04T01:04:53.352969",
       "source": "pollresults.net \u2014 https://il-christian.pollresults.net",
       "summary": {
         "registered_voters": 21734,
@@ -39124,7 +40058,7 @@
       "total_precincts": 40,
       "total_contests": 25,
       "source": "https://grundy.results.gbsvote.com/results/grundy/2026-general/current/results.json",
-      "scraped_at": "2026-11-04T00:57:37.398826",
+      "scraped_at": "2026-11-04T01:04:47.697076",
       "contests": [
         {
           "name": "UNITED STATES SENATOR",
@@ -39703,7 +40637,7 @@
     },
     "McHenry": {
       "county": "McHenry",
-      "scraped_at": "2026-11-04T00:57:39.448345",
+      "scraped_at": "2026-11-04T01:04:48.235391",
       "total_contests": 45,
       "contests_by_party": {
         "Democratic": {
@@ -40791,7 +41725,7 @@
     "Carroll": {
       "county": "Carroll",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:53.006404",
+      "scraped_at": "2026-11-04T01:04:53.809965",
       "source": "pollresults.net \u2014 https://il-carroll.pollresults.net",
       "summary": {
         "registered_voters": 10791,
@@ -41253,7 +42187,7 @@
     "Johnson": {
       "county": "Johnson",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.727383",
+      "scraped_at": "2026-11-04T01:04:54.060433",
       "source": "pollresults.net \u2014 https://il-johnson.pollresults.net",
       "summary": {},
       "contests": []
@@ -41261,7 +42195,7 @@
     "Hamilton": {
       "county": "Hamilton",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:53.003668",
+      "scraped_at": "2026-11-04T01:04:54.452429",
       "source": "pollresults.net \u2014 https://il-hamilton.pollresults.net",
       "summary": {},
       "contests": []
@@ -41269,7 +42203,7 @@
     "Union": {
       "county": "Union",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:53.015926",
+      "scraped_at": "2026-11-04T01:04:54.434602",
       "source": "pollresults.net \u2014 https://il-union.pollresults.net",
       "summary": {},
       "contests": []
@@ -41277,7 +42211,7 @@
     "Stephenson": {
       "county": "Stephenson",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:53.044761",
+      "scraped_at": "2026-11-04T01:04:54.449857",
       "source": "pollresults.net \u2014 https://il-stephenson.pollresults.net",
       "summary": {
         "registered_voters": 28360,
@@ -41962,7 +42896,7 @@
     "Clark": {
       "county": "Clark",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.658201",
+      "scraped_at": "2026-11-04T01:04:54.084205",
       "source": "pollresults.net \u2014 https://il-clark.pollresults.net",
       "summary": {
         "registered_voters": 11170,
@@ -42446,14 +43380,14 @@
     "Williamson": {
       "county": "Williamson",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.999461",
+      "scraped_at": "2026-11-04T01:04:54.499384",
       "source": "pollresults.net \u2014 https://il-williamson.pollresults.net",
       "summary": {},
       "contests": []
     },
     "Sangamon": {
       "county": "Sangamon",
-      "scraped_at": "2026-11-04T00:57:16.067097",
+      "scraped_at": "2026-11-04T01:04:34.500156",
       "total_contests": 49,
       "contests_by_party": {
         "Democratic": {
@@ -43614,7 +44548,7 @@
     "Macoupin": {
       "county": "Macoupin",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.992522",
+      "scraped_at": "2026-11-04T01:04:54.240291",
       "source": "pollresults.net \u2014 https://il-macoupin.pollresults.net",
       "summary": {},
       "contests": []
@@ -43622,7 +44556,7 @@
     "Pulaski": {
       "county": "Pulaski",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.744139",
+      "scraped_at": "2026-11-04T01:04:54.531247",
       "source": "pollresults.net \u2014 https://il-pulaski.pollresults.net",
       "summary": {},
       "contests": []
@@ -43630,7 +44564,7 @@
     "Coles": {
       "county": "Coles",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.771300",
+      "scraped_at": "2026-11-04T01:04:53.179076",
       "source": "pollresults.net \u2014 https://il-coles.pollresults.net",
       "summary": {
         "registered_voters": 29725,
@@ -44246,7 +45180,7 @@
     "Calhoun": {
       "county": "Calhoun",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.564474",
+      "scraped_at": "2026-11-04T01:04:54.086629",
       "source": "pollresults.net \u2014 https://il-calhoun.pollresults.net",
       "summary": {},
       "contests": []
@@ -44254,7 +45188,7 @@
     "Greene": {
       "county": "Greene",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:53.010559",
+      "scraped_at": "2026-11-04T01:04:54.184184",
       "source": "pollresults.net \u2014 https://il-greene.pollresults.net",
       "summary": {},
       "contests": []
@@ -44262,7 +45196,7 @@
     "Moultrie": {
       "county": "Moultrie",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:53.043457",
+      "scraped_at": "2026-11-04T01:04:54.352794",
       "source": "pollresults.net \u2014 https://il-moultrie.pollresults.net",
       "summary": {
         "registered_voters": 8789,
@@ -44805,7 +45739,7 @@
     "Ford": {
       "county": "Ford",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.631019",
+      "scraped_at": "2026-11-04T01:04:53.385421",
       "source": "pollresults.net \u2014 https://il-ford.pollresults.net",
       "summary": {
         "registered_voters": 9519,
@@ -45444,7 +46378,7 @@
     "St. Clair": {
       "county": "St. Clair",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.615989",
+      "scraped_at": "2026-11-04T01:04:54.493619",
       "source": "pollresults.net \u2014 https://il-stclair.pollresults.net",
       "summary": {},
       "contests": []
@@ -45452,7 +46386,7 @@
     "Pike": {
       "county": "Pike",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.397756",
+      "scraped_at": "2026-11-04T01:04:54.587692",
       "source": "pollresults.net \u2014 https://il-pike.pollresults.net",
       "summary": {},
       "contests": []
@@ -45460,7 +46394,7 @@
     "Morgan": {
       "county": "Morgan",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:53.014611",
+      "scraped_at": "2026-11-04T01:04:54.448714",
       "source": "pollresults.net \u2014 https://il-morgan.pollresults.net",
       "summary": {},
       "contests": []
@@ -45468,7 +46402,7 @@
     "Saline": {
       "county": "Saline",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:53.020192",
+      "scraped_at": "2026-11-04T01:04:54.102426",
       "source": "pollresults.net \u2014 https://il-saline.pollresults.net",
       "summary": {},
       "contests": []
@@ -45476,7 +46410,7 @@
     "Jasper": {
       "county": "Jasper",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.404485",
+      "scraped_at": "2026-11-04T01:04:54.424040",
       "source": "pollresults.net \u2014 https://il-jasper.pollresults.net",
       "summary": {},
       "contests": []
@@ -45484,7 +46418,7 @@
     "Jackson": {
       "county": "Jackson",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.703539",
+      "scraped_at": "2026-11-04T01:04:54.062133",
       "source": "pollresults.net \u2014 https://il-jackson.pollresults.net",
       "summary": {},
       "contests": []
@@ -45492,7 +46426,7 @@
     "Tazewell": {
       "county": "Tazewell",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.720614",
+      "scraped_at": "2026-11-04T01:04:54.372492",
       "source": "pollresults.net \u2014 https://il-tazewell.pollresults.net",
       "summary": {
         "registered_voters": 84748,
@@ -46202,7 +47136,7 @@
     "Cumberland": {
       "county": "Cumberland",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:53.021253",
+      "scraped_at": "2026-11-04T01:04:53.790749",
       "source": "pollresults.net \u2014 https://il-cumberland.pollresults.net",
       "summary": {},
       "contests": []
@@ -46210,7 +47144,7 @@
     "Schuyler": {
       "county": "Schuyler",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.993404",
+      "scraped_at": "2026-11-04T01:04:54.534359",
       "source": "pollresults.net \u2014 https://il-schuyler.pollresults.net",
       "summary": {},
       "contests": []
@@ -46218,7 +47152,7 @@
     "Jefferson": {
       "county": "Jefferson",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:53.011331",
+      "scraped_at": "2026-11-04T01:04:55.090972",
       "source": "pollresults.net \u2014 https://il-jefferson.pollresults.net",
       "summary": {},
       "contests": []
@@ -46226,7 +47160,7 @@
     "Marion": {
       "county": "Marion",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.758915",
+      "scraped_at": "2026-11-04T01:04:54.499575",
       "source": "pollresults.net \u2014 https://il-marion.pollresults.net",
       "summary": {},
       "contests": []
@@ -46234,14 +47168,14 @@
     "Lawrence": {
       "county": "Lawrence",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.758118",
+      "scraped_at": "2026-11-04T01:04:54.618150",
       "source": "pollresults.net \u2014 https://il-lawrence.pollresults.net",
       "summary": {},
       "contests": []
     },
     "DeKalb": {
       "county": "DeKalb",
-      "scraped_at": "2026-11-04T00:57:31.585472",
+      "scraped_at": "2026-11-04T01:04:46.031325",
       "total_contests": 42,
       "contests_by_party": {
         "Democratic": {
@@ -47157,7 +48091,7 @@
     "Edgar": {
       "county": "Edgar",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.996275",
+      "scraped_at": "2026-11-04T01:04:54.001571",
       "source": "pollresults.net \u2014 https://il-edgar.pollresults.net",
       "summary": {
         "registered_voters": 11838,
@@ -47676,7 +48610,7 @@
       "authority": "Chicago Board of Election Commissioners",
       "jurisdiction": "Chicago (City)",
       "election_date": "2026-11-03",
-      "scraped_at": "2026-11-04T00:57:21.762686",
+      "scraped_at": "2026-11-04T01:04:40.001561",
       "source": "HTML \u2014 https://results.chicagoelections.gov/results/ElectionSummary.html",
       "summary": {
         "precincts_reporting": 1212,
@@ -52359,7 +53293,7 @@
     "Livingston": {
       "county": "Livingston",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-04T00:57:52.748391",
+      "scraped_at": "2026-11-04T01:04:53.750323",
       "source": "pollresults.net \u2014 https://il-livingston.pollresults.net",
       "summary": {
         "registered_voters": 22933,
