@@ -1085,6 +1085,7 @@ function injectAggregatedRaces(countyData, meta) {
 function updatePrecinctBar(contests, statewideRaces) {
   let reporting = 0, total = 0;
   for (const c of contests) {
+    if (c._multi_county) continue; // skip cross-county aggregated contests — their precinct counts span multiple counties
     if ((c.total_precincts || 0) > total) {
       total     = c.total_precincts;
       reporting = c.precincts_reporting;
