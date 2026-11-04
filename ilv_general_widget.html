@@ -543,7 +543,7 @@ const RACE_DEFINITIONS = [
         match: /3rd appellate|appellate.*district.*3|third appellate/i,
         note: 'Pulls votes from DuPage, Will, Bureau, Grundy, Iroquois, Kankakee and La Salle counties' },
       { label: '13th Circuit – At-Large Vacancy',
-        match: /13th circuit.*at.large|13th circuit.*vacancy/i,
+        match: /13th circuit.*at.large|13th circuit.*vacancy|(?:13th|thirteenth)\s+judicial\s+circuit/i,
         note: 'Pulls votes from Bureau, Grundy and La Salle counties' },
     ]
   },
@@ -961,6 +961,7 @@ function buildSections(countyDataMap, suptRaces, crossCountyRefs, aggregatedRace
     'ilv_bureau_henry_stark':      'Regional Superintendent – Bureau, Henry and Stark',
     'ilv_dewitt_livingston':       'Regional Superintendent – DeWitt, Livingston, Logan and McLean',
     'third_appellate':             '3rd Appellate District',
+    'thirteenth_circuit':          '13th Circuit – At-Large Vacancy',
   };
   for (const [id, race] of Object.entries(suptRaces)) {
     if (!race || !race.candidates) continue;
@@ -1276,6 +1277,10 @@ async function fetchResults() {
     // Pull 3rd Appellate race
     const appellateRace = (statewide.multi_county_races || {}).third_appellate || null;
     if (appellateRace) suptRaces['third_appellate'] = appellateRace;
+
+    // Pull 13th Circuit at-large vacancy (Bureau, Grundy, La Salle)
+    const thirteenthRace = (statewide.multi_county_races || {}).thirteenth_circuit || null;
+    if (thirteenthRace) suptRaces['thirteenth_circuit'] = thirteenthRace;
 
     // Pull cross-county referendums
     const crossCountyRefs = {};

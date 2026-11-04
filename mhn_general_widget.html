@@ -524,7 +524,7 @@ const RACE_DEFINITIONS = [
       },
       {
         label: '13th Circuit – At-Large Vacancy',
-        match: /13th circuit.*at.large|13th circuit.*vacancy/i,
+        match: /13th circuit.*at.large|13th circuit.*vacancy|(?:13th|thirteenth)\s+judicial\s+circuit/i,
         note: 'Pulls votes from Bureau, Grundy and La Salle counties',
       },
       {
@@ -1279,6 +1279,7 @@ async function refresh() {
   // Inject multi-county races
   countyData = injectSuptRace(countyData, suptRace);
   countyData = injectMultiCountyRace(countyData, appellateRace, '3rd Appellate District');
+  countyData = injectMultiCountyRace(countyData, (meta.multi_county_races || {}).thirteenth_circuit || null, '13th Circuit – At-Large Vacancy');
   countyData = injectCrossCountyRefs(countyData, crossCountyRefs);
   countyData = injectAggregatedRaces(countyData, meta);
 
