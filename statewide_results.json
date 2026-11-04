@@ -1,5 +1,5 @@
 {
-  "aggregated_at": "2026-11-03T21:22:31.505274",
+  "aggregated_at": "2026-11-03T21:28:41.369431",
   "num_counties": 84,
   "counties_included": [
     "Shelby",
@@ -130,7 +130,7 @@
         "0": {
           "name": "JB Pritzker / Christian Mitchell",
           "party": "Democratic",
-          "votes": 633923,
+          "votes": 642409,
           "counties": [
             "Shelby",
             "Bond",
@@ -165,12 +165,12 @@
             "Edgar",
             "Livingston"
           ],
-          "percentage": 58.94
+          "percentage": 58.75
         },
         "1": {
           "name": "Darren Bailey / Aaron B. Del Mar",
           "party": "Republican",
-          "votes": 405162,
+          "votes": 414055,
           "counties": [
             "Shelby",
             "Bond",
@@ -205,52 +205,52 @@
             "Edgar",
             "Livingston"
           ],
-          "percentage": 37.67
+          "percentage": 37.86
         },
         "2": {
           "name": "I / Collin Corbett / Carolyn Schofield",
           "party": "Democratic",
-          "votes": 36279,
+          "votes": 36929,
           "counties": [
-            "DeWitt",
             "Ford",
-            "Livingston",
-            "Edgar",
-            "Whiteside",
-            "Moultrie",
-            "Henry",
-            "Vermilion",
-            "Putnam",
-            "Carroll",
-            "DeKalb",
             "Cook",
-            "Douglas",
-            "La Salle",
-            "Macon",
-            "Bond",
-            "Mason",
-            "Shelby",
-            "Logan",
-            "Kane",
-            "Ogle",
-            "DuPage",
-            "Bureau",
-            "Boone",
-            "Christian",
-            "Piatt",
-            "Tazewell",
-            "Clark",
             "Coles",
             "Lee",
+            "Piatt",
+            "Bond",
+            "Vermilion",
+            "Tazewell",
+            "Douglas",
+            "DeWitt",
+            "Kane",
+            "Ogle",
+            "Grundy",
+            "Moultrie",
+            "La Salle",
+            "Livingston",
+            "DeKalb",
+            "Boone",
             "Stephenson",
-            "Grundy"
+            "Edgar",
+            "Carroll",
+            "Whiteside",
+            "Putnam",
+            "Mason",
+            "DuPage",
+            "Macon",
+            "Bureau",
+            "Shelby",
+            "Logan",
+            "Christian",
+            "Henry",
+            "Clark"
           ],
-          "percentage": 3.37
+          "percentage": 3.38
         }
       },
-      "precincts_reporting": 943,
+      "precincts_reporting": 966,
       "total_precincts": 1138,
-      "total_votes": 1075521,
+      "total_votes": 1093550,
       "race_id": "governor",
       "label": "Governor / Lieutenant Governor",
       "counties_needed": [
@@ -470,7 +470,7 @@
         "0": {
           "name": "Don Tracy",
           "party": "Republican",
-          "votes": 261151,
+          "votes": 269942,
           "counties": [
             "Shelby",
             "Bond",
@@ -504,12 +504,12 @@
             "Edgar",
             "Livingston"
           ],
-          "percentage": 52.57
+          "percentage": 52.44
         },
         "1": {
           "name": "Juliana Stratton",
           "party": "Democratic",
-          "votes": 227852,
+          "votes": 236793,
           "counties": [
             "Shelby",
             "Bond",
@@ -543,48 +543,48 @@
             "Edgar",
             "Livingston"
           ],
-          "percentage": 45.86
+          "percentage": 46.0
         },
         "2": {
           "name": "Whitfield Harrington JR",
           "party": "Non-Partisan",
-          "votes": 4540,
+          "votes": 4739,
           "counties": [
-            "DeWitt",
             "Ford",
-            "Livingston",
-            "Edgar",
-            "Whiteside",
-            "Moultrie",
-            "Vermilion",
-            "Putnam",
-            "Carroll",
-            "Douglas",
-            "Macon",
-            "La Salle",
-            "Bond",
-            "Mason",
-            "Shelby",
-            "Logan",
-            "Ogle",
-            "DuPage",
-            "Bureau",
-            "Boone",
-            "Christian",
-            "Piatt",
-            "Tazewell",
-            "Clark",
             "Coles",
             "Lee",
+            "Piatt",
+            "Bond",
+            "Vermilion",
+            "Tazewell",
+            "Douglas",
+            "DeWitt",
+            "Ogle",
+            "Grundy",
+            "Moultrie",
+            "Livingston",
+            "La Salle",
+            "Boone",
             "Stephenson",
-            "Grundy"
+            "Edgar",
+            "Carroll",
+            "Whiteside",
+            "Putnam",
+            "Mason",
+            "DuPage",
+            "Macon",
+            "Bureau",
+            "Shelby",
+            "Logan",
+            "Christian",
+            "Clark"
           ],
-          "percentage": 0.91
+          "percentage": 0.92
         }
       },
-      "precincts_reporting": 943,
+      "precincts_reporting": 966,
       "total_precincts": 1138,
-      "total_votes": 496806,
+      "total_votes": 514737,
       "race_id": "us_senate",
       "label": "U.S. Senate",
       "counties_needed": [
@@ -805,7 +805,7 @@
         "0": {
           "name": "Kwame Raoul",
           "party": "Democratic",
-          "votes": 647114,
+          "votes": 655953,
           "counties": [
             "Shelby",
             "Bond",
@@ -840,12 +840,12 @@
             "Edgar",
             "Livingston"
           ],
-          "percentage": 60.47
+          "percentage": 60.28
         },
         "1": {
           "name": "Robert W. Fioretti",
           "party": "Republican",
-          "votes": 423103,
+          "votes": 432170,
           "counties": [
             "Shelby",
             "Bond",
@@ -880,12 +880,12 @@
             "Edgar",
             "Livingston"
           ],
-          "percentage": 39.53
+          "percentage": 39.72
         }
       },
-      "precincts_reporting": 943,
+      "precincts_reporting": 966,
       "total_precincts": 1138,
-      "total_votes": 1070217,
+      "total_votes": 1088123,
       "race_id": "attorney_general",
       "label": "Attorney General",
       "counties_needed": [
@@ -1106,7 +1106,7 @@
         "0": {
           "name": "Margaret Croke",
           "party": "Democratic",
-          "votes": 635083,
+          "votes": 643886,
           "counties": [
             "Shelby",
             "Bond",
@@ -1141,12 +1141,12 @@
             "Edgar",
             "Livingston"
           ],
-          "percentage": 59.89
+          "percentage": 59.71
         },
         "1": {
           "name": "Bryan Drew",
           "party": "Republican",
-          "votes": 425197,
+          "votes": 434245,
           "counties": [
             "Shelby",
             "Bond",
@@ -1181,12 +1181,12 @@
             "Edgar",
             "Livingston"
           ],
-          "percentage": 40.1
+          "percentage": 40.27
         }
       },
-      "precincts_reporting": 943,
+      "precincts_reporting": 966,
       "total_precincts": 1138,
-      "total_votes": 1060466,
+      "total_votes": 1078317,
       "race_id": "comptroller",
       "label": "Comptroller",
       "counties_needed": [
@@ -1407,7 +1407,7 @@
         "0": {
           "name": "Alexi Giannoulias",
           "party": "Democratic",
-          "votes": 681671,
+          "votes": 691127,
           "counties": [
             "Shelby",
             "Bond",
@@ -1442,12 +1442,12 @@
             "Edgar",
             "Livingston"
           ],
-          "percentage": 63.65
+          "percentage": 63.47
         },
         "1": {
           "name": "Diane M. Harris",
           "party": "Republican",
-          "votes": 389322,
+          "votes": 397812,
           "counties": [
             "Shelby",
             "Bond",
@@ -1482,12 +1482,12 @@
             "Edgar",
             "Livingston"
           ],
-          "percentage": 36.35
+          "percentage": 36.53
         }
       },
-      "precincts_reporting": 943,
+      "precincts_reporting": 966,
       "total_precincts": 1138,
-      "total_votes": 1070993,
+      "total_votes": 1088939,
       "race_id": "secretary_of_state",
       "label": "Secretary of State",
       "counties_needed": [
@@ -1705,7 +1705,7 @@
         "0": {
           "name": "Max Solomon",
           "party": "Republican",
-          "votes": 246138,
+          "votes": 254860,
           "counties": [
             "Shelby",
             "Bond",
@@ -1737,12 +1737,12 @@
             "Edgar",
             "Livingston"
           ],
-          "percentage": 53.54
+          "percentage": 53.37
         },
         "1": {
           "name": "Michael W. Frerichs",
           "party": "Democratic",
-          "votes": 213453,
+          "votes": 222507,
           "counties": [
             "Shelby",
             "Bond",
@@ -1774,12 +1774,12 @@
             "Edgar",
             "Livingston"
           ],
-          "percentage": 46.43
+          "percentage": 46.6
         }
       },
-      "precincts_reporting": 874,
+      "precincts_reporting": 897,
       "total_precincts": 1069,
-      "total_votes": 459717,
+      "total_votes": 477493,
       "race_id": "treasurer",
       "label": "Treasurer",
       "counties_needed": [
@@ -2003,7 +2003,7 @@
           "0": {
             "name": "JB Pritzker / Christian Mitchell",
             "party": "Democratic",
-            "votes": 633923,
+            "votes": 642409,
             "counties": [
               "Shelby",
               "Bond",
@@ -2038,12 +2038,12 @@
               "Edgar",
               "Livingston"
             ],
-            "percentage": 58.94
+            "percentage": 58.75
           },
           "1": {
             "name": "Darren Bailey / Aaron B. Del Mar",
             "party": "Republican",
-            "votes": 405162,
+            "votes": 414055,
             "counties": [
               "Shelby",
               "Bond",
@@ -2078,52 +2078,52 @@
               "Edgar",
               "Livingston"
             ],
-            "percentage": 37.67
+            "percentage": 37.86
           },
           "2": {
             "name": "I / Collin Corbett / Carolyn Schofield",
             "party": "Democratic",
-            "votes": 36279,
+            "votes": 36929,
             "counties": [
-              "DeWitt",
               "Ford",
-              "Livingston",
-              "Edgar",
-              "Whiteside",
-              "Moultrie",
-              "Henry",
-              "Vermilion",
-              "Putnam",
-              "Carroll",
-              "DeKalb",
               "Cook",
-              "Douglas",
-              "La Salle",
-              "Macon",
-              "Bond",
-              "Mason",
-              "Shelby",
-              "Logan",
-              "Kane",
-              "Ogle",
-              "DuPage",
-              "Bureau",
-              "Boone",
-              "Christian",
-              "Piatt",
-              "Tazewell",
-              "Clark",
               "Coles",
               "Lee",
+              "Piatt",
+              "Bond",
+              "Vermilion",
+              "Tazewell",
+              "Douglas",
+              "DeWitt",
+              "Kane",
+              "Ogle",
+              "Grundy",
+              "Moultrie",
+              "La Salle",
+              "Livingston",
+              "DeKalb",
+              "Boone",
               "Stephenson",
-              "Grundy"
+              "Edgar",
+              "Carroll",
+              "Whiteside",
+              "Putnam",
+              "Mason",
+              "DuPage",
+              "Macon",
+              "Bureau",
+              "Shelby",
+              "Logan",
+              "Christian",
+              "Henry",
+              "Clark"
             ],
-            "percentage": 3.37
+            "percentage": 3.38
           }
         },
-        "precincts_reporting": 943,
+        "precincts_reporting": 966,
         "total_precincts": 1138,
-        "total_votes": 1075521,
+        "total_votes": 1093550,
         "race_id": "governor",
         "label": "Governor / Lieutenant Governor",
         "counties_needed": [
@@ -2343,7 +2343,7 @@
           "0": {
             "name": "Don Tracy",
             "party": "Republican",
-            "votes": 261151,
+            "votes": 269942,
             "counties": [
               "Shelby",
               "Bond",
@@ -2377,12 +2377,12 @@
               "Edgar",
               "Livingston"
             ],
-            "percentage": 52.57
+            "percentage": 52.44
           },
           "1": {
             "name": "Juliana Stratton",
             "party": "Democratic",
-            "votes": 227852,
+            "votes": 236793,
             "counties": [
               "Shelby",
               "Bond",
@@ -2416,48 +2416,48 @@
               "Edgar",
               "Livingston"
             ],
-            "percentage": 45.86
+            "percentage": 46.0
           },
           "2": {
             "name": "Whitfield Harrington JR",
             "party": "Non-Partisan",
-            "votes": 4540,
+            "votes": 4739,
             "counties": [
-              "DeWitt",
               "Ford",
-              "Livingston",
-              "Edgar",
-              "Whiteside",
-              "Moultrie",
-              "Vermilion",
-              "Putnam",
-              "Carroll",
-              "Douglas",
-              "Macon",
-              "La Salle",
-              "Bond",
-              "Mason",
-              "Shelby",
-              "Logan",
-              "Ogle",
-              "DuPage",
-              "Bureau",
-              "Boone",
-              "Christian",
-              "Piatt",
-              "Tazewell",
-              "Clark",
               "Coles",
               "Lee",
+              "Piatt",
+              "Bond",
+              "Vermilion",
+              "Tazewell",
+              "Douglas",
+              "DeWitt",
+              "Ogle",
+              "Grundy",
+              "Moultrie",
+              "Livingston",
+              "La Salle",
+              "Boone",
               "Stephenson",
-              "Grundy"
+              "Edgar",
+              "Carroll",
+              "Whiteside",
+              "Putnam",
+              "Mason",
+              "DuPage",
+              "Macon",
+              "Bureau",
+              "Shelby",
+              "Logan",
+              "Christian",
+              "Clark"
             ],
-            "percentage": 0.91
+            "percentage": 0.92
           }
         },
-        "precincts_reporting": 943,
+        "precincts_reporting": 966,
         "total_precincts": 1138,
-        "total_votes": 496806,
+        "total_votes": 514737,
         "race_id": "us_senate",
         "label": "U.S. Senate",
         "counties_needed": [
@@ -2678,7 +2678,7 @@
           "0": {
             "name": "Kwame Raoul",
             "party": "Democratic",
-            "votes": 647114,
+            "votes": 655953,
             "counties": [
               "Shelby",
               "Bond",
@@ -2713,12 +2713,12 @@
               "Edgar",
               "Livingston"
             ],
-            "percentage": 60.47
+            "percentage": 60.28
           },
           "1": {
             "name": "Robert W. Fioretti",
             "party": "Republican",
-            "votes": 423103,
+            "votes": 432170,
             "counties": [
               "Shelby",
               "Bond",
@@ -2753,12 +2753,12 @@
               "Edgar",
               "Livingston"
             ],
-            "percentage": 39.53
+            "percentage": 39.72
           }
         },
-        "precincts_reporting": 943,
+        "precincts_reporting": 966,
         "total_precincts": 1138,
-        "total_votes": 1070217,
+        "total_votes": 1088123,
         "race_id": "attorney_general",
         "label": "Attorney General",
         "counties_needed": [
@@ -2979,7 +2979,7 @@
           "0": {
             "name": "Margaret Croke",
             "party": "Democratic",
-            "votes": 635083,
+            "votes": 643886,
             "counties": [
               "Shelby",
               "Bond",
@@ -3014,12 +3014,12 @@
               "Edgar",
               "Livingston"
             ],
-            "percentage": 59.89
+            "percentage": 59.71
           },
           "1": {
             "name": "Bryan Drew",
             "party": "Republican",
-            "votes": 425197,
+            "votes": 434245,
             "counties": [
               "Shelby",
               "Bond",
@@ -3054,12 +3054,12 @@
               "Edgar",
               "Livingston"
             ],
-            "percentage": 40.1
+            "percentage": 40.27
           }
         },
-        "precincts_reporting": 943,
+        "precincts_reporting": 966,
         "total_precincts": 1138,
-        "total_votes": 1060466,
+        "total_votes": 1078317,
         "race_id": "comptroller",
         "label": "Comptroller",
         "counties_needed": [
@@ -3280,7 +3280,7 @@
           "0": {
             "name": "Alexi Giannoulias",
             "party": "Democratic",
-            "votes": 681671,
+            "votes": 691127,
             "counties": [
               "Shelby",
               "Bond",
@@ -3315,12 +3315,12 @@
               "Edgar",
               "Livingston"
             ],
-            "percentage": 63.65
+            "percentage": 63.47
           },
           "1": {
             "name": "Diane M. Harris",
             "party": "Republican",
-            "votes": 389322,
+            "votes": 397812,
             "counties": [
               "Shelby",
               "Bond",
@@ -3355,12 +3355,12 @@
               "Edgar",
               "Livingston"
             ],
-            "percentage": 36.35
+            "percentage": 36.53
           }
         },
-        "precincts_reporting": 943,
+        "precincts_reporting": 966,
         "total_precincts": 1138,
-        "total_votes": 1070993,
+        "total_votes": 1088939,
         "race_id": "secretary_of_state",
         "label": "Secretary of State",
         "counties_needed": [
@@ -3578,7 +3578,7 @@
           "0": {
             "name": "Max Solomon",
             "party": "Republican",
-            "votes": 246138,
+            "votes": 254860,
             "counties": [
               "Shelby",
               "Bond",
@@ -3610,12 +3610,12 @@
               "Edgar",
               "Livingston"
             ],
-            "percentage": 53.54
+            "percentage": 53.37
           },
           "1": {
             "name": "Michael W. Frerichs",
             "party": "Democratic",
-            "votes": 213453,
+            "votes": 222507,
             "counties": [
               "Shelby",
               "Bond",
@@ -3647,12 +3647,12 @@
               "Edgar",
               "Livingston"
             ],
-            "percentage": 46.43
+            "percentage": 46.6
           }
         },
-        "precincts_reporting": 874,
+        "precincts_reporting": 897,
         "total_precincts": 1069,
-        "total_votes": 459717,
+        "total_votes": 477493,
         "race_id": "treasurer",
         "label": "Treasurer",
         "counties_needed": [
@@ -4101,31 +4101,31 @@
           "0": {
             "name": "Donna Miller",
             "party": "Democratic",
-            "votes": 83073,
+            "votes": 83389,
             "counties": [
               "Cook",
               "Ford",
               "Livingston",
               "Vermilion"
             ],
-            "percentage": 80.47
+            "percentage": 79.75
           },
           "1": {
             "name": "Michael Scott Noack",
             "party": "Republican",
-            "votes": 20161,
+            "votes": 21171,
             "counties": [
               "Cook",
               "Ford",
               "Livingston",
               "Vermilion"
             ],
-            "percentage": 19.53
+            "percentage": 20.25
           }
         },
-        "precincts_reporting": 59,
+        "precincts_reporting": 63,
         "total_precincts": 84,
-        "total_votes": 103234,
+        "total_votes": 104560,
         "counties_needed": [
           "Champaign",
           "Cook",
@@ -4541,29 +4541,29 @@
           "0": {
             "name": "Bill Foster",
             "party": "Democratic",
-            "votes": 52150,
+            "votes": 53907,
             "counties": [
               "Boone",
               "Cook",
               "Kane"
             ],
-            "percentage": 61.83
+            "percentage": 61.81
           },
           "1": {
             "name": "Jeff Walter",
             "party": "Republican",
-            "votes": 32195,
+            "votes": 33301,
             "counties": [
               "Boone",
               "Cook",
               "Kane"
             ],
-            "percentage": 38.17
+            "percentage": 38.19
           }
         },
-        "precincts_reporting": 16,
+        "precincts_reporting": 17,
         "total_precincts": 17,
-        "total_votes": 84345,
+        "total_votes": 87208,
         "counties_needed": [
           "Boone",
           "Cook",
@@ -4844,7 +4844,7 @@
           "0": {
             "name": "Mary E. Miller",
             "party": "Republican",
-            "votes": 61102,
+            "votes": 61707,
             "counties": [
               "Bond",
               "Christian",
@@ -4860,12 +4860,12 @@
               "Shelby",
               "Vermilion"
             ],
-            "percentage": 68.24
+            "percentage": 68.34
           },
           "1": {
             "name": "Jennifer Todd",
             "party": "Democratic",
-            "votes": 28440,
+            "votes": 28584,
             "counties": [
               "Bond",
               "Christian",
@@ -4881,12 +4881,12 @@
               "Shelby",
               "Vermilion"
             ],
-            "percentage": 31.76
+            "percentage": 31.66
           }
         },
-        "precincts_reporting": 290,
+        "precincts_reporting": 293,
         "total_precincts": 314,
-        "total_votes": 89542,
+        "total_votes": 90291,
         "counties_needed": [
           "Adams",
           "Bond",
@@ -4987,7 +4987,7 @@
           "0": {
             "name": "Darin Lahood",
             "party": "Republican",
-            "votes": 57162,
+            "votes": 60330,
             "counties": [
               "Boone",
               "Bureau",
@@ -5000,12 +5000,12 @@
               "Stephenson",
               "Tazewell"
             ],
-            "percentage": 63.17
+            "percentage": 62.49
           },
           "1": {
             "name": "Paul Nolley",
             "party": "Democratic",
-            "votes": 33320,
+            "votes": 36215,
             "counties": [
               "Boone",
               "Bureau",
@@ -5018,12 +5018,12 @@
               "Stephenson",
               "Tazewell"
             ],
-            "percentage": 36.83
+            "percentage": 37.51
           }
         },
-        "precincts_reporting": 236,
+        "precincts_reporting": 244,
         "total_precincts": 291,
-        "total_votes": 90482,
+        "total_votes": 96545,
         "counties_needed": [
           "Boone",
           "Bureau",
@@ -5090,31 +5090,31 @@
           "0": {
             "name": "Dillan S. Vancil",
             "party": "Republican",
-            "votes": 18597,
+            "votes": 21510,
             "counties": [
               "Carroll",
               "Stephenson",
               "Tazewell",
               "Whiteside"
             ],
-            "percentage": 55.63
+            "percentage": 53.24
           },
           "1": {
             "name": "Eric Sorensen",
             "party": "Democratic",
-            "votes": 14831,
+            "votes": 18893,
             "counties": [
               "Carroll",
               "Stephenson",
               "Tazewell",
               "Whiteside"
             ],
-            "percentage": 44.37
+            "percentage": 46.76
           }
         },
-        "precincts_reporting": 109,
+        "precincts_reporting": 117,
         "total_precincts": 117,
-        "total_votes": 33428,
+        "total_votes": 40403,
         "counties_needed": [
           "Carroll",
           "Fulton",
@@ -9844,25 +9844,25 @@
           "0": {
             "name": "Dave Vella",
             "party": "Democratic",
-            "votes": 1868,
+            "votes": 3823,
             "counties": [
               "Boone"
             ],
-            "percentage": 52.72
+            "percentage": 57.97
           },
           "1": {
             "name": "Kathy Easton",
             "party": "Republican",
-            "votes": 1675,
+            "votes": 2772,
             "counties": [
               "Boone"
             ],
-            "percentage": 47.28
+            "percentage": 42.03
           }
         },
-        "precincts_reporting": 14,
+        "precincts_reporting": 15,
         "total_precincts": 15,
-        "total_votes": 3543,
+        "total_votes": 6595,
         "counties_needed": [
           "Boone",
           "Winnebago"
@@ -9887,25 +9887,25 @@
           "0": {
             "name": "Joe C. Sosnowski",
             "party": "Republican",
-            "votes": 4378,
+            "votes": 5758,
             "counties": [
               "Boone"
             ],
-            "percentage": 65.95
+            "percentage": 59.88
           },
           "1": {
             "name": "Peter Janko",
             "party": "Democratic",
-            "votes": 2260,
+            "votes": 3858,
             "counties": [
               "Boone"
             ],
-            "percentage": 34.05
+            "percentage": 40.12
           }
         },
         "precincts_reporting": 17,
         "total_precincts": 17,
-        "total_votes": 6638,
+        "total_votes": 9616,
         "counties_needed": [
           "Boone",
           "McHenry",
@@ -9979,29 +9979,29 @@
           "0": {
             "name": "Ryan Spain",
             "party": "Republican",
-            "votes": 9155,
+            "votes": 11135,
             "counties": [
               "Bureau",
               "Lee",
               "Whiteside"
             ],
-            "percentage": 68.44
+            "percentage": 66.2
           },
           "1": {
             "name": "Nicole Dopler",
             "party": "Democratic",
-            "votes": 4222,
+            "votes": 5684,
             "counties": [
               "Bureau",
               "Lee",
               "Whiteside"
             ],
-            "percentage": 31.56
+            "percentage": 33.8
           }
         },
-        "precincts_reporting": 60,
+        "precincts_reporting": 66,
         "total_precincts": 66,
-        "total_votes": 13377,
+        "total_votes": 16819,
         "counties_needed": [
           "Bureau",
           "Henry",
@@ -10040,29 +10040,29 @@
           "0": {
             "name": "Bradley J. Fritts",
             "party": "Republican",
-            "votes": 13184,
+            "votes": 15123,
             "counties": [
               "Lee",
               "Ogle",
               "Whiteside"
             ],
-            "percentage": 60.82
+            "percentage": 57.75
           },
           "1": {
             "name": "Nolan Kemp",
             "party": "Democratic",
-            "votes": 8493,
+            "votes": 11062,
             "counties": [
               "Lee",
               "Ogle",
               "Whiteside"
             ],
-            "percentage": 39.18
+            "percentage": 42.25
           }
         },
-        "precincts_reporting": 87,
+        "precincts_reporting": 93,
         "total_precincts": 100,
-        "total_votes": 21677,
+        "total_votes": 26185,
         "counties_needed": [
           "DeKalb",
           "LaSalle",
@@ -10527,7 +10527,7 @@
           "0": {
             "name": "Tony M. McCombie",
             "party": "Republican",
-            "votes": 15487,
+            "votes": 16939,
             "counties": [
               "Boone",
               "Carroll",
@@ -10537,9 +10537,9 @@
             "percentage": 100.0
           }
         },
-        "precincts_reporting": 61,
+        "precincts_reporting": 65,
         "total_precincts": 66,
-        "total_votes": 15487,
+        "total_votes": 16939,
         "counties_needed": [
           "Boone",
           "Carroll",
@@ -10575,7 +10575,7 @@
           "0": {
             "name": "John M. Cabello",
             "party": "Republican",
-            "votes": 8405,
+            "votes": 8503,
             "counties": [
               "Boone",
               "Stephenson"
@@ -10585,7 +10585,7 @@
         },
         "precincts_reporting": 30,
         "total_precincts": 30,
-        "total_votes": 8405,
+        "total_votes": 8503,
         "counties_needed": [
           "Boone",
           "Stephenson",
@@ -12009,7 +12009,7 @@
     "Shelby": {
       "county": "Shelby",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.570566",
+      "scraped_at": "2026-11-03T21:28:40.464919",
       "source": "pollresults.net \u2014 https://il-shelby.pollresults.net",
       "summary": {
         "registered_voters": 14936,
@@ -12802,7 +12802,7 @@
     "Bond": {
       "county": "Bond",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.304696",
+      "scraped_at": "2026-11-03T21:28:40.170748",
       "source": "pollresults.net \u2014 https://il-bond.pollresults.net",
       "summary": {
         "registered_voters": 10536,
@@ -13305,7 +13305,7 @@
       "authority": "Cook County Clerk",
       "coverage": "Suburban Cook County (excluding Chicago)",
       "source": "Live HTML \u2014 https://electionnight.cookcountyclerkil.gov/",
-      "scraped_at": "2026-11-03T21:22:14.580475",
+      "scraped_at": "2026-11-03T21:28:24.537129",
       "contests": [
         {
           "name": "Senator, U.S. - Vote For 1",
@@ -17128,7 +17128,7 @@
     "Mercer": {
       "county": "Mercer",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.825004",
+      "scraped_at": "2026-11-03T21:28:40.355061",
       "source": "pollresults.net \u2014 https://il-mercer.pollresults.net",
       "summary": {},
       "contests": []
@@ -17136,7 +17136,7 @@
     "Washington": {
       "county": "Washington",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:31.134343",
+      "scraped_at": "2026-11-03T21:28:40.558860",
       "source": "pollresults.net \u2014 https://il-washington.pollresults.net",
       "summary": {},
       "contests": []
@@ -17144,7 +17144,7 @@
     "Hancock": {
       "county": "Hancock",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.593730",
+      "scraped_at": "2026-11-03T21:28:40.349116",
       "source": "pollresults.net \u2014 https://il-hancock.pollresults.net",
       "summary": {},
       "contests": []
@@ -17152,7 +17152,7 @@
     "Richland": {
       "county": "Richland",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:31.113206",
+      "scraped_at": "2026-11-03T21:28:40.603697",
       "source": "pollresults.net \u2014 https://il-richland.pollresults.net",
       "summary": {},
       "contests": []
@@ -17160,42 +17160,42 @@
     "Whiteside": {
       "county": "Whiteside",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.736716",
+      "scraped_at": "2026-11-03T21:28:40.491858",
       "source": "pollresults.net \u2014 https://il-whiteside.pollresults.net",
       "summary": {
         "registered_voters": 37781,
-        "ballots_cast": 12403,
-        "turnout_percent": 32.8,
+        "ballots_cast": 19434,
+        "turnout_percent": 51.4,
         "total_precincts": 60,
-        "precincts_reporting": 52
+        "precincts_reporting": 60
       },
       "contests": [
         {
           "name": "UNITED STATES SENATOR",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 52,
+          "precincts_reporting": 60,
           "total_precincts": 60,
-          "ballots_cast": 12403,
+          "ballots_cast": 19434,
           "registered_voters": 37781,
           "candidates": [
             {
               "name": "Don Tracy (REP)",
               "party": "Non-Partisan",
-              "votes": 7007,
-              "percent": 56.95
+              "votes": 10044,
+              "percent": 52.23
             },
             {
               "name": "Juliana Stratton (DEM)",
               "party": "Non-Partisan",
-              "votes": 5087,
-              "percent": 41.35
+              "votes": 8888,
+              "percent": 46.22
             },
             {
               "name": "Whitfield Harrington Jr (ACP)",
               "party": "Non-Partisan",
-              "votes": 209,
-              "percent": 1.7
+              "votes": 298,
+              "percent": 1.55
             }
           ]
         },
@@ -17203,28 +17203,28 @@
           "name": "STATE GOVERNOR AND LT GOVERNOR",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 52,
+          "precincts_reporting": 60,
           "total_precincts": 60,
-          "ballots_cast": 12402,
+          "ballots_cast": 19431,
           "registered_voters": 37781,
           "candidates": [
             {
               "name": "(Darren Bailey/(Aaron B. Del Mar (REP)",
               "party": "Non-Partisan",
-              "votes": 7266,
-              "percent": 58.81
+              "votes": 10374,
+              "percent": 53.67
             },
             {
               "name": "(JB Pritzker/(Christian Mitchell (DEM)",
               "party": "Non-Partisan",
-              "votes": 4595,
-              "percent": 37.19
+              "votes": 8176,
+              "percent": 42.3
             },
             {
               "name": "(Collin Corbett/(Carolyn Schofield (IND)",
               "party": "Non-Partisan",
-              "votes": 495,
-              "percent": 4.01
+              "votes": 780,
+              "percent": 4.04
             }
           ]
         },
@@ -17232,22 +17232,22 @@
           "name": "STATE ATTORNEY GENERAL",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 52,
+          "precincts_reporting": 60,
           "total_precincts": 60,
-          "ballots_cast": 12402,
+          "ballots_cast": 19431,
           "registered_voters": 37781,
           "candidates": [
             {
               "name": "Robert W. Fioretti (REP)",
               "party": "Non-Partisan",
-              "votes": 7347,
-              "percent": 59.91
+              "votes": 10537,
+              "percent": 54.92
             },
             {
               "name": "Kwame Raoul (DEM)",
               "party": "Non-Partisan",
-              "votes": 4916,
-              "percent": 40.09
+              "votes": 8648,
+              "percent": 45.08
             }
           ]
         },
@@ -17255,22 +17255,22 @@
           "name": "STATE SECRETARY OF STATE",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 52,
+          "precincts_reporting": 60,
           "total_precincts": 60,
-          "ballots_cast": 12402,
+          "ballots_cast": 19431,
           "registered_voters": 37781,
           "candidates": [
             {
               "name": "Diane M. Harris (REP)",
               "party": "Non-Partisan",
-              "votes": 6830,
-              "percent": 55.59
+              "votes": 9787,
+              "percent": 50.91
             },
             {
               "name": "Alexi Giannoulias (DEM)",
               "party": "Non-Partisan",
-              "votes": 5456,
-              "percent": 44.41
+              "votes": 9439,
+              "percent": 49.09
             }
           ]
         },
@@ -17278,22 +17278,22 @@
           "name": "STATE COMPTROLLER",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 52,
+          "precincts_reporting": 60,
           "total_precincts": 60,
-          "ballots_cast": 12402,
+          "ballots_cast": 19431,
           "registered_voters": 37781,
           "candidates": [
             {
               "name": "Bryan Drew (REP)",
               "party": "Non-Partisan",
-              "votes": 7215,
-              "percent": 59.09
+              "votes": 10373,
+              "percent": 54.25
             },
             {
               "name": "Margaret Croke (DEM)",
               "party": "Non-Partisan",
-              "votes": 4995,
-              "percent": 40.91
+              "votes": 8749,
+              "percent": 45.75
             }
           ]
         },
@@ -17301,22 +17301,22 @@
           "name": "STATE TREASURER",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 52,
+          "precincts_reporting": 60,
           "total_precincts": 60,
-          "ballots_cast": 12402,
+          "ballots_cast": 19431,
           "registered_voters": 37781,
           "candidates": [
             {
               "name": "Max Solomon (REP)",
               "party": "Non-Partisan",
-              "votes": 7095,
-              "percent": 58.12
+              "votes": 10183,
+              "percent": 53.38
             },
             {
               "name": "Michael W. Frerichs (DEM)",
               "party": "Non-Partisan",
-              "votes": 5113,
-              "percent": 41.88
+              "votes": 8894,
+              "percent": 46.62
             }
           ]
         },
@@ -17324,22 +17324,22 @@
           "name": "CONGRESSIONAL 17TH DISTRICT REPRESENTATIVE",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 52,
+          "precincts_reporting": 60,
           "total_precincts": 60,
-          "ballots_cast": 12403,
+          "ballots_cast": 19434,
           "registered_voters": 37781,
           "candidates": [
             {
               "name": "Dillan S. Vancil (REP)",
               "party": "Non-Partisan",
-              "votes": 6807,
-              "percent": 55.28
+              "votes": 9720,
+              "percent": 50.39
             },
             {
               "name": "Eric Sorensen (DEM)",
               "party": "Non-Partisan",
-              "votes": 5506,
-              "percent": 44.72
+              "votes": 9568,
+              "percent": 49.61
             }
           ]
         },
@@ -17347,22 +17347,22 @@
           "name": "STATE REPRESENTATIVE 73RD DISTRICT",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 17,
+          "precincts_reporting": 23,
           "total_precincts": 23,
-          "ballots_cast": 4214,
+          "ballots_cast": 7688,
           "registered_voters": 14245,
           "candidates": [
             {
               "name": "Ryan Spain (REP)",
               "party": "Non-Partisan",
-              "votes": 2849,
-              "percent": 68.3
+              "votes": 4829,
+              "percent": 63.43
             },
             {
               "name": "Nicole Dopler (DEM)",
               "party": "Non-Partisan",
-              "votes": 1322,
-              "percent": 31.7
+              "votes": 2784,
+              "percent": 36.57
             }
           ]
         },
@@ -17370,22 +17370,22 @@
           "name": "STATE REPRESENTATIVE 74TH DISTRICT",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 38,
+          "precincts_reporting": 40,
           "total_precincts": 40,
-          "ballots_cast": 8188,
+          "ballots_cast": 11743,
           "registered_voters": 23536,
           "candidates": [
             {
               "name": "Bradley J. Fritts (REP)",
               "party": "Non-Partisan",
-              "votes": 4639,
-              "percent": 57.11
+              "votes": 5993,
+              "percent": 51.46
             },
             {
               "name": "Nolan Kemp (DEM)",
               "party": "Non-Partisan",
-              "votes": 3484,
-              "percent": 42.89
+              "votes": 5654,
+              "percent": 48.54
             }
           ]
         },
@@ -17393,15 +17393,15 @@
           "name": "COUNTY CLERK",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 52,
+          "precincts_reporting": 60,
           "total_precincts": 60,
-          "ballots_cast": 12402,
+          "ballots_cast": 19431,
           "registered_voters": 37781,
           "candidates": [
             {
               "name": "Karen J. Stralow (REP)",
               "party": "Non-Partisan",
-              "votes": 10244,
+              "votes": 15684,
               "percent": 100.0
             }
           ]
@@ -17410,15 +17410,15 @@
           "name": "COUNTY TREASURER",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 52,
+          "precincts_reporting": 60,
           "total_precincts": 60,
-          "ballots_cast": 12402,
+          "ballots_cast": 19431,
           "registered_voters": 37781,
           "candidates": [
             {
               "name": "Penny Van Kampen (REP)",
               "party": "Non-Partisan",
-              "votes": 10192,
+              "votes": 15581,
               "percent": 100.0
             }
           ]
@@ -17427,15 +17427,15 @@
           "name": "COUNTY SHERIFF",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 52,
+          "precincts_reporting": 60,
           "total_precincts": 60,
-          "ballots_cast": 12402,
+          "ballots_cast": 19431,
           "registered_voters": 37781,
           "candidates": [
             {
               "name": "John F. Booker (DEM)",
               "party": "Non-Partisan",
-              "votes": 10494,
+              "votes": 16520,
               "percent": 100.0
             }
           ]
@@ -17446,13 +17446,13 @@
           "vote_for": 1,
           "precincts_reporting": 2,
           "total_precincts": 2,
-          "ballots_cast": 12,
+          "ballots_cast": 15,
           "registered_voters": 17,
           "candidates": [
             {
               "name": "Kathy Marshall (REP)",
               "party": "Non-Partisan",
-              "votes": 10,
+              "votes": 13,
               "percent": 100.0
             }
           ]
@@ -17463,13 +17463,13 @@
           "vote_for": 1,
           "precincts_reporting": 3,
           "total_precincts": 3,
-          "ballots_cast": 143,
+          "ballots_cast": 176,
           "registered_voters": 257,
           "candidates": [
             {
               "name": "Christopher Shockey (REP)",
               "party": "Non-Partisan",
-              "votes": 126,
+              "votes": 152,
               "percent": 100.0
             }
           ]
@@ -17478,15 +17478,15 @@
           "name": "ESR SUPERINTENDENT OF SCHOOLS (LEE-OGLE-WHITESIDE)",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 52,
+          "precincts_reporting": 60,
           "total_precincts": 60,
-          "ballots_cast": 12247,
+          "ballots_cast": 19240,
           "registered_voters": 37507,
           "candidates": [
             {
               "name": "Christopher J. Tennyson (REP)",
               "party": "Non-Partisan",
-              "votes": 9970,
+              "votes": 15221,
               "percent": 100.0
             }
           ]
@@ -17495,58 +17495,58 @@
           "name": "COUNTY BOARD 1ST DISTRICT MEMBER",
           "party": "Non-Partisan",
           "vote_for": 5,
-          "precincts_reporting": 18,
+          "precincts_reporting": 20,
           "total_precincts": 20,
-          "ballots_cast": 4087,
+          "ballots_cast": 6237,
           "registered_voters": 12564,
           "candidates": [
             {
               "name": "Kurt Glazier (REP)",
               "party": "Non-Partisan",
-              "votes": 2045,
-              "percent": 13.49
+              "votes": 2885,
+              "percent": 12.14
             },
             {
               "name": "Thomas P Witmer (REP)",
               "party": "Non-Partisan",
-              "votes": 1871,
-              "percent": 12.34
+              "votes": 2593,
+              "percent": 10.91
             },
             {
               "name": "Steve Elgin (REP)",
               "party": "Non-Partisan",
-              "votes": 1780,
-              "percent": 11.74
+              "votes": 2469,
+              "percent": 10.39
             },
             {
               "name": "James C. Duffy (DEM)",
               "party": "Non-Partisan",
-              "votes": 2031,
-              "percent": 13.4
+              "votes": 3380,
+              "percent": 14.22
             },
             {
               "name": "Alex Regalado (DEM)",
               "party": "Non-Partisan",
-              "votes": 1994,
-              "percent": 13.15
+              "votes": 3313,
+              "percent": 13.94
             },
             {
               "name": "Fidencio Hooper-Campos (DEM)",
               "party": "Non-Partisan",
-              "votes": 1784,
-              "percent": 11.77
+              "votes": 2993,
+              "percent": 12.59
             },
             {
               "name": "Ernie Smith (DEM)",
               "party": "Non-Partisan",
-              "votes": 1918,
-              "percent": 12.65
+              "votes": 3223,
+              "percent": 13.56
             },
             {
               "name": "Vincent Joseph Vaughn (DEM)",
               "party": "Non-Partisan",
-              "votes": 1737,
-              "percent": 11.46
+              "votes": 2917,
+              "percent": 12.27
             }
           ]
         },
@@ -17556,44 +17556,44 @@
           "vote_for": 5,
           "precincts_reporting": 18,
           "total_precincts": 18,
-          "ballots_cast": 4641,
+          "ballots_cast": 5958,
           "registered_voters": 11778,
           "candidates": [
             {
               "name": "Douglas Wetzell (REP)",
               "party": "Non-Partisan",
-              "votes": 2910,
-              "percent": 22.13
+              "votes": 3441,
+              "percent": 19.67
             },
             {
               "name": "Linda Pennell (REP)",
               "party": "Non-Partisan",
-              "votes": 2504,
-              "percent": 19.04
+              "votes": 2966,
+              "percent": 16.96
             },
             {
               "name": "Glenn C. Truesdell (DEM)",
               "party": "Non-Partisan",
-              "votes": 1984,
-              "percent": 15.09
+              "votes": 2840,
+              "percent": 16.24
             },
             {
               "name": "Shawn Dowd (DEM)",
               "party": "Non-Partisan",
-              "votes": 2056,
-              "percent": 15.63
+              "votes": 2902,
+              "percent": 16.59
             },
             {
               "name": "Amie Topp (DEM)",
               "party": "Non-Partisan",
-              "votes": 1779,
-              "percent": 13.53
+              "votes": 2586,
+              "percent": 14.78
             },
             {
               "name": "Paul J. Cunniff (DEM)",
               "party": "Non-Partisan",
-              "votes": 1918,
-              "percent": 14.58
+              "votes": 2756,
+              "percent": 15.76
             }
           ]
         },
@@ -17601,46 +17601,46 @@
           "name": "COUNTY BOARD 3RD DISTRICT MEMBER",
           "party": "Non-Partisan",
           "vote_for": 4,
-          "precincts_reporting": 16,
+          "precincts_reporting": 22,
           "total_precincts": 22,
-          "ballots_cast": 3674,
+          "ballots_cast": 7236,
           "registered_voters": 13439,
           "candidates": [
             {
               "name": "Edward Weeks Jr. (REP)",
               "party": "Non-Partisan",
-              "votes": 2293,
-              "percent": 21.24
+              "votes": 4243,
+              "percent": 19.87
             },
             {
               "name": "Marci Bohnert (REP)",
               "party": "Non-Partisan",
-              "votes": 2180,
-              "percent": 20.19
+              "votes": 3984,
+              "percent": 18.66
             },
             {
               "name": "Kenneth Stralow (REP)",
               "party": "Non-Partisan",
-              "votes": 2505,
-              "percent": 23.2
+              "votes": 4600,
+              "percent": 21.55
             },
             {
               "name": "Mark S Woods (DEM)",
               "party": "Non-Partisan",
-              "votes": 1597,
-              "percent": 14.79
+              "votes": 3444,
+              "percent": 16.13
             },
             {
               "name": "Paula M Schares (DEM)",
               "party": "Non-Partisan",
-              "votes": 1163,
-              "percent": 10.77
+              "votes": 2652,
+              "percent": 12.42
             },
             {
               "name": "Jan Pels (DEM)",
               "party": "Non-Partisan",
-              "votes": 1059,
-              "percent": 9.81
+              "votes": 2426,
+              "percent": 11.36
             }
           ]
         },
@@ -17648,22 +17648,22 @@
           "name": "RETAIN TERENCE M. PATTON",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 52,
+          "precincts_reporting": 60,
           "total_precincts": 60,
-          "ballots_cast": 12402,
+          "ballots_cast": 19431,
           "registered_voters": 37781,
           "candidates": [
             {
               "name": "Yes",
               "party": "Non-Partisan",
-              "votes": 8516,
-              "percent": 78.63
+              "votes": 13420,
+              "percent": 79.37
             },
             {
               "name": "No",
               "party": "Non-Partisan",
-              "votes": 2315,
-              "percent": 21.37
+              "votes": 3488,
+              "percent": 20.63
             }
           ]
         },
@@ -17671,22 +17671,22 @@
           "name": "RETAIN PETER W. CHURCH",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 52,
+          "precincts_reporting": 60,
           "total_precincts": 60,
-          "ballots_cast": 12402,
+          "ballots_cast": 19431,
           "registered_voters": 37781,
           "candidates": [
             {
               "name": "Yes",
               "party": "Non-Partisan",
-              "votes": 8476,
-              "percent": 78.63
+              "votes": 13426,
+              "percent": 79.87
             },
             {
               "name": "No",
               "party": "Non-Partisan",
-              "votes": 2303,
-              "percent": 21.37
+              "votes": 3384,
+              "percent": 20.13
             }
           ]
         },
@@ -17694,22 +17694,22 @@
           "name": "RETAIN JOHN L. McGEHEE",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 52,
+          "precincts_reporting": 60,
           "total_precincts": 60,
-          "ballots_cast": 12402,
+          "ballots_cast": 19431,
           "registered_voters": 37781,
           "candidates": [
             {
               "name": "Yes",
               "party": "Non-Partisan",
-              "votes": 8497,
-              "percent": 78.72
+              "votes": 13465,
+              "percent": 79.93
             },
             {
               "name": "No",
               "party": "Non-Partisan",
-              "votes": 2297,
-              "percent": 21.28
+              "votes": 3382,
+              "percent": 20.07
             }
           ]
         },
@@ -17719,20 +17719,20 @@
           "vote_for": 1,
           "precincts_reporting": 3,
           "total_precincts": 3,
-          "ballots_cast": 143,
+          "ballots_cast": 176,
           "registered_voters": 257,
           "candidates": [
             {
               "name": "Yes",
               "party": "Non-Partisan",
-              "votes": 40,
-              "percent": 28.99
+              "votes": 53,
+              "percent": 30.99
             },
             {
               "name": "No",
               "party": "Non-Partisan",
-              "votes": 98,
-              "percent": 71.01
+              "votes": 118,
+              "percent": 69.01
             }
           ]
         }
@@ -17741,7 +17741,7 @@
     "Franklin": {
       "county": "Franklin",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.227127",
+      "scraped_at": "2026-11-03T21:28:40.271076",
       "source": "pollresults.net \u2014 https://il-franklin.pollresults.net",
       "summary": {},
       "contests": []
@@ -17749,7 +17749,7 @@
     "Effingham": {
       "county": "Effingham",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.570599",
+      "scraped_at": "2026-11-03T21:28:40.484506",
       "source": "pollresults.net \u2014 https://il-effingham.pollresults.net",
       "summary": {},
       "contests": []
@@ -17757,42 +17757,42 @@
     "Ogle": {
       "county": "Ogle",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.804433",
+      "scraped_at": "2026-11-03T21:28:40.584046",
       "source": "pollresults.net \u2014 https://il-ogle.pollresults.net",
       "summary": {
         "registered_voters": 35426,
-        "ballots_cast": 9284,
-        "turnout_percent": 26.2,
+        "ballots_cast": 11557,
+        "turnout_percent": 32.6,
         "total_precincts": 51,
-        "precincts_reporting": 36
+        "precincts_reporting": 43
       },
       "contests": [
         {
           "name": "UNITED STATES SENATOR",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 36,
+          "precincts_reporting": 43,
           "total_precincts": 51,
-          "ballots_cast": 9284,
+          "ballots_cast": 11557,
           "registered_voters": 35426,
           "candidates": [
             {
               "name": "Juliana Stratton (DEM)",
               "party": "Non-Partisan",
-              "votes": 2594,
-              "percent": 28.17
+              "votes": 3364,
+              "percent": 29.35
             },
             {
               "name": "Don Tracy (REP)",
               "party": "Non-Partisan",
-              "votes": 6456,
-              "percent": 70.11
+              "votes": 7911,
+              "percent": 69.01
             },
             {
               "name": "Whitfield Harrington Jr (ACP)",
               "party": "Non-Partisan",
-              "votes": 159,
-              "percent": 1.73
+              "votes": 188,
+              "percent": 1.64
             }
           ]
         },
@@ -17800,27 +17800,27 @@
           "name": "STATE GOVERNOR AND LT GOVERNOR",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 36,
+          "precincts_reporting": 43,
           "total_precincts": 51,
-          "ballots_cast": 9284,
+          "ballots_cast": 11557,
           "registered_voters": 35426,
           "candidates": [
             {
               "name": "(JB Pritzker/(Christian Mitchell (DEM)",
               "party": "Non-Partisan",
-              "votes": 2312,
-              "percent": 24.98
+              "votes": 3004,
+              "percent": 26.07
             },
             {
               "name": "(Darren Bailey/(Aaron B. Del Mar (REP)",
               "party": "Non-Partisan",
-              "votes": 6556,
-              "percent": 70.84
+              "votes": 8035,
+              "percent": 69.74
             },
             {
               "name": "(Collin Corbett/(Carolyn Schofield (IND)",
               "party": "Non-Partisan",
-              "votes": 387,
+              "votes": 482,
               "percent": 4.18
             }
           ]
@@ -17829,22 +17829,22 @@
           "name": "STATE ATTORNEY GENERAL",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 36,
+          "precincts_reporting": 43,
           "total_precincts": 51,
-          "ballots_cast": 9284,
+          "ballots_cast": 11557,
           "registered_voters": 35426,
           "candidates": [
             {
               "name": "Kwame Raoul (DEM)",
               "party": "Non-Partisan",
-              "votes": 2566,
-              "percent": 27.98
+              "votes": 3333,
+              "percent": 29.16
             },
             {
               "name": "Robert W. Fioretti (REP)",
               "party": "Non-Partisan",
-              "votes": 6605,
-              "percent": 72.02
+              "votes": 8098,
+              "percent": 70.84
             }
           ]
         },
@@ -17852,22 +17852,22 @@
           "name": "STATE SECRETARY OF STATE",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 36,
+          "precincts_reporting": 43,
           "total_precincts": 51,
-          "ballots_cast": 9284,
+          "ballots_cast": 11557,
           "registered_voters": 35426,
           "candidates": [
             {
               "name": "Alexi Giannoulias (DEM)",
               "party": "Non-Partisan",
-              "votes": 2939,
-              "percent": 32.0
+              "votes": 3785,
+              "percent": 33.07
             },
             {
               "name": "Diane M. Harris (REP)",
               "party": "Non-Partisan",
-              "votes": 6245,
-              "percent": 68.0
+              "votes": 7661,
+              "percent": 66.93
             }
           ]
         },
@@ -17875,22 +17875,22 @@
           "name": "STATE COMPTROLLER",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 36,
+          "precincts_reporting": 43,
           "total_precincts": 51,
-          "ballots_cast": 9284,
+          "ballots_cast": 11557,
           "registered_voters": 35426,
           "candidates": [
             {
               "name": "Margaret Croke (DEM)",
               "party": "Non-Partisan",
-              "votes": 2532,
-              "percent": 27.76
+              "votes": 3284,
+              "percent": 28.88
             },
             {
               "name": "Bryan Drew (REP)",
               "party": "Non-Partisan",
-              "votes": 6590,
-              "percent": 72.24
+              "votes": 8087,
+              "percent": 71.12
             }
           ]
         },
@@ -17898,22 +17898,22 @@
           "name": "STATE TREASURER",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 36,
+          "precincts_reporting": 43,
           "total_precincts": 51,
-          "ballots_cast": 9284,
+          "ballots_cast": 11557,
           "registered_voters": 35426,
           "candidates": [
             {
               "name": "Michael W. Frerichs (DEM)",
               "party": "Non-Partisan",
-              "votes": 2629,
-              "percent": 28.78
+              "votes": 3412,
+              "percent": 29.98
             },
             {
               "name": "Max Solomon (REP)",
               "party": "Non-Partisan",
-              "votes": 6506,
-              "percent": 71.22
+              "votes": 7969,
+              "percent": 70.02
             }
           ]
         },
@@ -17921,22 +17921,22 @@
           "name": "CONGRESSIONAL 16TH DISTRICT REPRESENTATIVE",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 36,
+          "precincts_reporting": 43,
           "total_precincts": 51,
-          "ballots_cast": 9284,
+          "ballots_cast": 11557,
           "registered_voters": 35426,
           "candidates": [
             {
               "name": "Paul Nolley (DEM)",
               "party": "Non-Partisan",
-              "votes": 2531,
-              "percent": 27.46
+              "votes": 3284,
+              "percent": 28.61
             },
             {
               "name": "Darin LaHood (REP)",
               "party": "Non-Partisan",
-              "votes": 6687,
-              "percent": 72.54
+              "votes": 8193,
+              "percent": 71.39
             }
           ]
         },
@@ -17944,22 +17944,22 @@
           "name": "STATE SENATE 45TH DISTRICT",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 28,
+          "precincts_reporting": 31,
           "total_precincts": 32,
-          "ballots_cast": 7315,
+          "ballots_cast": 8597,
           "registered_voters": 23074,
           "candidates": [
             {
               "name": "Joseph H. \"Joe\" Berning (DEM)",
               "party": "Non-Partisan",
-              "votes": 1929,
-              "percent": 26.62
+              "votes": 2255,
+              "percent": 26.47
             },
             {
               "name": "Andrew S. Chesney (REP)",
               "party": "Non-Partisan",
-              "votes": 5318,
-              "percent": 73.38
+              "votes": 6265,
+              "percent": 73.53
             }
           ]
         },
@@ -17967,22 +17967,22 @@
           "name": "STATE REPRESENTATIVE 74TH DISTRICT",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 8,
+          "precincts_reporting": 12,
           "total_precincts": 19,
-          "ballots_cast": 1969,
+          "ballots_cast": 2960,
           "registered_voters": 12352,
           "candidates": [
             {
               "name": "Nolan Kemp (DEM)",
               "party": "Non-Partisan",
-              "votes": 497,
-              "percent": 25.5
+              "votes": 896,
+              "percent": 30.55
             },
             {
               "name": "Bradley J. Fritts (REP)",
               "party": "Non-Partisan",
-              "votes": 1452,
-              "percent": 74.5
+              "votes": 2037,
+              "percent": 69.45
             }
           ]
         },
@@ -17990,15 +17990,15 @@
           "name": "STATE REPRESENTATIVE 89TH DISTRICT",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 28,
+          "precincts_reporting": 31,
           "total_precincts": 32,
-          "ballots_cast": 7315,
+          "ballots_cast": 8597,
           "registered_voters": 23074,
           "candidates": [
             {
               "name": "Tony M. McCombie (REP)",
               "party": "Non-Partisan",
-              "votes": 6287,
+              "votes": 7388,
               "percent": 100.0
             }
           ]
@@ -18007,15 +18007,15 @@
           "name": "COUNTY CLERK AND RECORDER",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 36,
+          "precincts_reporting": 43,
           "total_precincts": 51,
-          "ballots_cast": 9284,
+          "ballots_cast": 11557,
           "registered_voters": 35426,
           "candidates": [
             {
               "name": "Rebecca (Becky) Duke (REP)",
               "party": "Non-Partisan",
-              "votes": 8035,
+              "votes": 9967,
               "percent": 100.0
             }
           ]
@@ -18024,15 +18024,15 @@
           "name": "COUNTY TREASURER",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 36,
+          "precincts_reporting": 43,
           "total_precincts": 51,
-          "ballots_cast": 9284,
+          "ballots_cast": 11557,
           "registered_voters": 35426,
           "candidates": [
             {
               "name": "Tiffany S. O'Brien (REP)",
               "party": "Non-Partisan",
-              "votes": 8002,
+              "votes": 9922,
               "percent": 100.0
             }
           ]
@@ -18041,15 +18041,15 @@
           "name": "COUNTY SHERIFF",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 36,
+          "precincts_reporting": 43,
           "total_precincts": 51,
-          "ballots_cast": 9284,
+          "ballots_cast": 11557,
           "registered_voters": 35426,
           "candidates": [
             {
               "name": "Brian VanVickle (REP)",
               "party": "Non-Partisan",
-              "votes": 8063,
+              "votes": 9994,
               "percent": 100.0
             }
           ]
@@ -18092,15 +18092,15 @@
           "name": "ESR SUPERINTENDENT OF SCHOOLS (LEE-OGLE-WHITESIDE)",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 36,
+          "precincts_reporting": 43,
           "total_precincts": 51,
-          "ballots_cast": 9259,
+          "ballots_cast": 11532,
           "registered_voters": 35351,
           "candidates": [
             {
               "name": "Christopher J. Tennyson (REP)",
               "party": "Non-Partisan",
-              "votes": 7965,
+              "votes": 9878,
               "percent": 100.0
             }
           ]
@@ -18211,16 +18211,16 @@
           "name": "COUNTY BOARD 4TH DISTRICT MEMBER-2YR TERM",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 0,
+          "precincts_reporting": 4,
           "total_precincts": 6,
-          "ballots_cast": 0,
+          "ballots_cast": 991,
           "registered_voters": 4494,
           "candidates": [
             {
               "name": "David W. Sawlsville (REP)",
               "party": "Non-Partisan",
-              "votes": 0,
-              "percent": 0.0
+              "votes": 835,
+              "percent": 100.0
             }
           ]
         },
@@ -18228,16 +18228,16 @@
           "name": "COUNTY BOARD 4TH DISTRICT MEMBER-4YR TERM",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 0,
+          "precincts_reporting": 4,
           "total_precincts": 6,
-          "ballots_cast": 0,
+          "ballots_cast": 991,
           "registered_voters": 4494,
           "candidates": [
             {
               "name": "David Williams (REP)",
               "party": "Non-Partisan",
-              "votes": 0,
-              "percent": 0.0
+              "votes": 817,
+              "percent": 100.0
             }
           ]
         },
@@ -18245,15 +18245,15 @@
           "name": "COUNTY BOARD 5TH DISTRICT MEMBER-2YR TERM",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 3,
+          "precincts_reporting": 6,
           "total_precincts": 6,
-          "ballots_cast": 895,
+          "ballots_cast": 2177,
           "registered_voters": 5058,
           "candidates": [
             {
               "name": "Donald Griffin (REP)",
               "party": "Non-Partisan",
-              "votes": 753,
+              "votes": 1832,
               "percent": 100.0
             }
           ]
@@ -18262,15 +18262,15 @@
           "name": "COUNTY BOARD 5TH DISTRICT MEMBER-4YR TERM",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 3,
+          "precincts_reporting": 6,
           "total_precincts": 6,
-          "ballots_cast": 895,
+          "ballots_cast": 2177,
           "registered_voters": 5058,
           "candidates": [
             {
               "name": "Bruce E Larson (REP)",
               "party": "Non-Partisan",
-              "votes": 747,
+              "votes": 1835,
               "percent": 100.0
             }
           ]
@@ -18387,22 +18387,22 @@
           "name": "RETAIN JOHN B. ROE IV",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 36,
+          "precincts_reporting": 43,
           "total_precincts": 51,
-          "ballots_cast": 9284,
+          "ballots_cast": 11557,
           "registered_voters": 35426,
           "candidates": [
             {
               "name": "Yes",
               "party": "Non-Partisan",
-              "votes": 7132,
-              "percent": 85.53
+              "votes": 8913,
+              "percent": 85.6
             },
             {
               "name": "No",
               "party": "Non-Partisan",
-              "votes": 1207,
-              "percent": 14.47
+              "votes": 1499,
+              "percent": 14.4
             }
           ]
         },
@@ -18410,22 +18410,22 @@
           "name": "RETAIN DOUGLAS E. LEE",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 36,
+          "precincts_reporting": 43,
           "total_precincts": 51,
-          "ballots_cast": 9284,
+          "ballots_cast": 11557,
           "registered_voters": 35426,
           "candidates": [
             {
               "name": "Yes",
               "party": "Non-Partisan",
-              "votes": 6953,
-              "percent": 85.1
+              "votes": 8665,
+              "percent": 85.02
             },
             {
               "name": "No",
               "party": "Non-Partisan",
-              "votes": 1217,
-              "percent": 14.9
+              "votes": 1527,
+              "percent": 14.98
             }
           ]
         },
@@ -18433,22 +18433,22 @@
           "name": "RETAIN J. JERRY KANE",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 36,
+          "precincts_reporting": 43,
           "total_precincts": 51,
-          "ballots_cast": 9284,
+          "ballots_cast": 11557,
           "registered_voters": 35426,
           "candidates": [
             {
               "name": "Yes",
               "party": "Non-Partisan",
-              "votes": 6917,
-              "percent": 84.91
+              "votes": 8632,
+              "percent": 84.88
             },
             {
               "name": "No",
               "party": "Non-Partisan",
-              "votes": 1229,
-              "percent": 15.09
+              "votes": 1538,
+              "percent": 15.12
             }
           ]
         }
@@ -18457,7 +18457,7 @@
     "Logan": {
       "county": "Logan",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.513457",
+      "scraped_at": "2026-11-03T21:28:40.349515",
       "source": "pollresults.net \u2014 https://il-logan.pollresults.net",
       "summary": {
         "registered_voters": 17936,
@@ -20421,7 +20421,7 @@
     "Macon": {
       "county": "Macon",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.607626",
+      "scraped_at": "2026-11-03T21:28:40.565832",
       "source": "pollresults.net \u2014 https://il-macon.pollresults.net",
       "summary": {
         "registered_voters": 69503,
@@ -21380,7 +21380,7 @@
     "Fayette": {
       "county": "Fayette",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.665712",
+      "scraped_at": "2026-11-03T21:28:40.347168",
       "source": "pollresults.net \u2014 https://il-fayette.pollresults.net",
       "summary": {},
       "contests": []
@@ -21388,7 +21388,7 @@
     "Crawford": {
       "county": "Crawford",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.676244",
+      "scraped_at": "2026-11-03T21:28:40.399046",
       "source": "pollresults.net \u2014 https://il-crawford.pollresults.net",
       "summary": {},
       "contests": []
@@ -21396,7 +21396,7 @@
     "Clinton": {
       "county": "Clinton",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.692842",
+      "scraped_at": "2026-11-03T21:28:40.116846",
       "source": "pollresults.net \u2014 https://il-clinton.pollresults.net",
       "summary": {},
       "contests": []
@@ -21404,7 +21404,7 @@
     "Wayne": {
       "county": "Wayne",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.829285",
+      "scraped_at": "2026-11-03T21:28:40.502299",
       "source": "pollresults.net \u2014 https://il-wayne.pollresults.net",
       "summary": {},
       "contests": []
@@ -21412,7 +21412,7 @@
     "Hardin": {
       "county": "Hardin",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.575983",
+      "scraped_at": "2026-11-03T21:28:40.349826",
       "source": "pollresults.net \u2014 https://il-hardin.pollresults.net",
       "summary": {},
       "contests": []
@@ -21420,7 +21420,7 @@
     "Brown": {
       "county": "Brown",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.526757",
+      "scraped_at": "2026-11-03T21:28:39.831436",
       "source": "pollresults.net \u2014 https://il-brown.pollresults.net",
       "summary": {},
       "contests": []
@@ -21428,7 +21428,7 @@
     "Clay": {
       "county": "Clay",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.374796",
+      "scraped_at": "2026-11-03T21:28:40.311347",
       "source": "pollresults.net \u2014 https://il-clay.pollresults.net",
       "summary": {},
       "contests": []
@@ -21436,7 +21436,7 @@
     "Montgomery": {
       "county": "Montgomery",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.737583",
+      "scraped_at": "2026-11-03T21:28:40.504597",
       "source": "pollresults.net \u2014 https://il-montgomery.pollresults.net",
       "summary": {},
       "contests": []
@@ -21444,7 +21444,7 @@
     "Henderson": {
       "county": "Henderson",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.461559",
+      "scraped_at": "2026-11-03T21:28:40.471484",
       "source": "pollresults.net \u2014 https://il-henderson.pollresults.net",
       "summary": {},
       "contests": []
@@ -21452,7 +21452,7 @@
     "DeWitt": {
       "county": "DeWitt",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.743009",
+      "scraped_at": "2026-11-03T21:28:40.227097",
       "source": "pollresults.net \u2014 https://il-dewitt.pollresults.net",
       "summary": {
         "registered_voters": 10717,
@@ -22063,7 +22063,7 @@
       },
       "county": "Kane County",
       "election_date": "2026-11-03",
-      "scraped_at": "2026-11-03T21:22:15.903688",
+      "scraped_at": "2026-11-03T21:28:28.206389",
       "source": "Kane County custom platform",
       "contests": [
         {
@@ -23107,7 +23107,7 @@
     "Menard": {
       "county": "Menard",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.690533",
+      "scraped_at": "2026-11-03T21:28:40.233693",
       "source": "pollresults.net \u2014 https://il-menard.pollresults.net",
       "summary": {},
       "contests": []
@@ -23115,7 +23115,7 @@
     "Massac": {
       "county": "Massac",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.659341",
+      "scraped_at": "2026-11-03T21:28:40.497282",
       "source": "pollresults.net \u2014 https://il-massac.pollresults.net",
       "summary": {},
       "contests": []
@@ -23123,7 +23123,7 @@
     "White": {
       "county": "White",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.738575",
+      "scraped_at": "2026-11-03T21:28:40.499378",
       "source": "pollresults.net \u2014 https://il-white.pollresults.net",
       "summary": {},
       "contests": []
@@ -23131,42 +23131,42 @@
     "Vermilion": {
       "county": "Vermilion",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.746310",
+      "scraped_at": "2026-11-03T21:28:40.512131",
       "source": "pollresults.net \u2014 https://il-vermilion.pollresults.net",
       "summary": {
         "registered_voters": 29291,
-        "ballots_cast": 13372,
-        "turnout_percent": 45.7,
+        "ballots_cast": 15465,
+        "turnout_percent": 52.8,
         "total_precincts": 38,
-        "precincts_reporting": 32
+        "precincts_reporting": 38
       },
       "contests": [
         {
           "name": "UNITED STATES SENATOR",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 32,
+          "precincts_reporting": 38,
           "total_precincts": 38,
-          "ballots_cast": 13372,
+          "ballots_cast": 15465,
           "registered_voters": 29291,
           "candidates": [
             {
               "name": "Juliana Stratton (DEM)",
               "party": "Non-Partisan",
-              "votes": 3766,
-              "percent": 28.59
+              "votes": 4222,
+              "percent": 27.69
             },
             {
               "name": "Don Tracy (REP)",
               "party": "Non-Partisan",
-              "votes": 9227,
-              "percent": 70.05
+              "votes": 10823,
+              "percent": 70.99
             },
             {
               "name": "Whitfield Harrington Jr (ACP)",
               "party": "Non-Partisan",
-              "votes": 179,
-              "percent": 1.36
+              "votes": 200,
+              "percent": 1.31
             }
           ]
         },
@@ -23174,28 +23174,28 @@
           "name": "STATE GOVERNOR AND LT GOVERNOR",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 32,
+          "precincts_reporting": 38,
           "total_precincts": 38,
-          "ballots_cast": 13369,
+          "ballots_cast": 15462,
           "registered_voters": 29291,
           "candidates": [
             {
               "name": "(JB Pritzker/(Christian Mitchell (DEM)",
               "party": "Non-Partisan",
-              "votes": 3301,
-              "percent": 24.87
+              "votes": 3686,
+              "percent": 24.0
             },
             {
               "name": "(Darren Bailey/(Aaron B. Del Mar (REP)",
               "party": "Non-Partisan",
-              "votes": 9473,
-              "percent": 71.36
+              "votes": 11114,
+              "percent": 72.37
             },
             {
               "name": "(Collin Corbett/(Carolyn Schofield (IND)",
               "party": "Non-Partisan",
-              "votes": 501,
-              "percent": 3.77
+              "votes": 558,
+              "percent": 3.63
             }
           ]
         },
@@ -23203,22 +23203,22 @@
           "name": "STATE ATTORNEY GENERAL",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 32,
+          "precincts_reporting": 38,
           "total_precincts": 38,
-          "ballots_cast": 13369,
+          "ballots_cast": 15462,
           "registered_voters": 29291,
           "candidates": [
             {
               "name": "Kwame Raoul (DEM)",
               "party": "Non-Partisan",
-              "votes": 3777,
-              "percent": 28.66
+              "votes": 4232,
+              "percent": 27.76
             },
             {
               "name": "Robert W. Fioretti (REP)",
               "party": "Non-Partisan",
-              "votes": 9402,
-              "percent": 71.34
+              "votes": 11014,
+              "percent": 72.24
             }
           ]
         },
@@ -23226,22 +23226,22 @@
           "name": "STATE SECRETARY OF STATE",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 32,
+          "precincts_reporting": 38,
           "total_precincts": 38,
-          "ballots_cast": 13369,
+          "ballots_cast": 15462,
           "registered_voters": 29291,
           "candidates": [
             {
               "name": "Alexi Giannoulias (DEM)",
               "party": "Non-Partisan",
-              "votes": 4393,
-              "percent": 33.38
+              "votes": 4932,
+              "percent": 32.37
             },
             {
               "name": "Diane M. Harris (REP)",
               "party": "Non-Partisan",
-              "votes": 8769,
-              "percent": 66.62
+              "votes": 10302,
+              "percent": 67.63
             }
           ]
         },
@@ -23249,22 +23249,22 @@
           "name": "STATE COMPTROLLER",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 32,
+          "precincts_reporting": 38,
           "total_precincts": 38,
-          "ballots_cast": 13369,
+          "ballots_cast": 15462,
           "registered_voters": 29291,
           "candidates": [
             {
               "name": "Margaret Croke (DEM)",
               "party": "Non-Partisan",
-              "votes": 3648,
-              "percent": 27.82
+              "votes": 4076,
+              "percent": 26.85
             },
             {
               "name": "Bryan Drew (REP)",
               "party": "Non-Partisan",
-              "votes": 9466,
-              "percent": 72.18
+              "votes": 11102,
+              "percent": 73.15
             }
           ]
         },
@@ -23272,22 +23272,22 @@
           "name": "STATE TREASURER",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 32,
+          "precincts_reporting": 38,
           "total_precincts": 38,
-          "ballots_cast": 13369,
+          "ballots_cast": 15462,
           "registered_voters": 29291,
           "candidates": [
             {
               "name": "Michael W. Frerichs (DEM)",
               "party": "Non-Partisan",
-              "votes": 5022,
-              "percent": 38.25
+              "votes": 5635,
+              "percent": 37.08
             },
             {
               "name": "Max Solomon (REP)",
               "party": "Non-Partisan",
-              "votes": 8106,
-              "percent": 61.75
+              "votes": 9562,
+              "percent": 62.92
             }
           ]
         },
@@ -23295,22 +23295,22 @@
           "name": "CONGRESSIONAL 2ND DISTRICT REPRESENTATIVE",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 27,
+          "precincts_reporting": 31,
           "total_precincts": 31,
-          "ballots_cast": 11159,
+          "ballots_cast": 12494,
           "registered_voters": 23705,
           "candidates": [
             {
               "name": "Donna Miller (DEM)",
               "party": "Non-Partisan",
-              "votes": 3170,
-              "percent": 28.87
+              "votes": 3486,
+              "percent": 28.33
             },
             {
               "name": "Michael Scott Noack (REP)",
               "party": "Non-Partisan",
-              "votes": 7811,
-              "percent": 71.13
+              "votes": 8821,
+              "percent": 71.67
             }
           ]
         },
@@ -23318,22 +23318,22 @@
           "name": "CONGRESSIONAL 15TH DISTRICT REPRESENTATIVE",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 10,
+          "precincts_reporting": 13,
           "total_precincts": 13,
-          "ballots_cast": 2213,
+          "ballots_cast": 2971,
           "registered_voters": 5586,
           "candidates": [
             {
               "name": "Jennifer Todd (DEM)",
               "party": "Non-Partisan",
-              "votes": 709,
-              "percent": 32.37
+              "votes": 853,
+              "percent": 29.02
             },
             {
               "name": "Mary E. Miller (REP)",
               "party": "Non-Partisan",
-              "votes": 1481,
-              "percent": 67.63
+              "votes": 2086,
+              "percent": 70.98
             }
           ]
         },
@@ -23341,15 +23341,15 @@
           "name": "STATE SENATE 51ST DISTRICT",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 18,
+          "precincts_reporting": 24,
           "total_precincts": 24,
-          "ballots_cast": 5564,
+          "ballots_cast": 7657,
           "registered_voters": 14667,
           "candidates": [
             {
               "name": "Chapin Rose (REP)",
               "party": "Non-Partisan",
-              "votes": 4712,
+              "votes": 6605,
               "percent": 100.0
             }
           ]
@@ -23358,22 +23358,22 @@
           "name": "STATE REPRESENTATIVE 101ST DISTRICT",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 6,
+          "precincts_reporting": 9,
           "total_precincts": 9,
-          "ballots_cast": 2315,
+          "ballots_cast": 3650,
           "registered_voters": 7180,
           "candidates": [
             {
               "name": "Douglas Fagan (DEM)",
               "party": "Non-Partisan",
-              "votes": 533,
-              "percent": 23.32
+              "votes": 832,
+              "percent": 23.07
             },
             {
               "name": "Chris G. Miller (REP)",
               "party": "Non-Partisan",
-              "votes": 1753,
-              "percent": 76.68
+              "votes": 2775,
+              "percent": 76.93
             }
           ]
         },
@@ -23381,15 +23381,15 @@
           "name": "STATE REPRESENTATIVE 102ND DISTRICT",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 12,
+          "precincts_reporting": 15,
           "total_precincts": 15,
-          "ballots_cast": 3249,
+          "ballots_cast": 4007,
           "registered_voters": 7487,
           "candidates": [
             {
               "name": "Adam M. Niemerg (REP)",
               "party": "Non-Partisan",
-              "votes": 2658,
+              "votes": 3347,
               "percent": 100.0
             }
           ]
@@ -23421,15 +23421,15 @@
           "name": "COUNTY CLERK",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 32,
+          "precincts_reporting": 38,
           "total_precincts": 38,
-          "ballots_cast": 13369,
+          "ballots_cast": 15462,
           "registered_voters": 29291,
           "candidates": [
             {
               "name": "Robyn Heffern (REP)",
               "party": "Non-Partisan",
-              "votes": 11251,
+              "votes": 13138,
               "percent": 100.0
             }
           ]
@@ -23438,15 +23438,15 @@
           "name": "COUNTY TREASURER",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 32,
+          "precincts_reporting": 38,
           "total_precincts": 38,
-          "ballots_cast": 13369,
+          "ballots_cast": 15462,
           "registered_voters": 29291,
           "candidates": [
             {
               "name": "Darren Duncan (REP)",
               "party": "Non-Partisan",
-              "votes": 10903,
+              "votes": 12725,
               "percent": 100.0
             }
           ]
@@ -23455,22 +23455,22 @@
           "name": "COUNTY SHERIFF",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 32,
+          "precincts_reporting": 38,
           "total_precincts": 38,
-          "ballots_cast": 13369,
+          "ballots_cast": 15462,
           "registered_voters": 29291,
           "candidates": [
             {
               "name": "Hugh H. Sands (DEM)",
               "party": "Non-Partisan",
-              "votes": 3018,
-              "percent": 22.91
+              "votes": 3370,
+              "percent": 22.11
             },
             {
               "name": "John W. Thompson (REP)",
               "party": "Non-Partisan",
-              "votes": 10157,
-              "percent": 77.09
+              "votes": 11870,
+              "percent": 77.89
             }
           ]
         },
@@ -23478,15 +23478,15 @@
           "name": "COUNTY SUPERVISOR OF ASSESSMENTS",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 32,
+          "precincts_reporting": 38,
           "total_precincts": 38,
-          "ballots_cast": 13369,
+          "ballots_cast": 15462,
           "registered_voters": 29291,
           "candidates": [
             {
               "name": "Nathan A. \"Nate\" Byram (REP)",
               "party": "Non-Partisan",
-              "votes": 11187,
+              "votes": 13070,
               "percent": 100.0
             }
           ]
@@ -23495,15 +23495,15 @@
           "name": "ESR SUPERINTENDENT OF SCHOOLS (CHAMPAIGN-FORD)",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 4,
+          "precincts_reporting": 5,
           "total_precincts": 5,
-          "ballots_cast": 150,
+          "ballots_cast": 197,
           "registered_voters": 313,
           "candidates": [
             {
               "name": "Jon Kelly (REP)",
               "party": "Non-Partisan",
-              "votes": 118,
+              "votes": 161,
               "percent": 100.0
             }
           ]
@@ -23512,15 +23512,15 @@
           "name": "ESR SUPERINTENDENT OF SCHOOLS (VERMILION)",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 32,
+          "precincts_reporting": 38,
           "total_precincts": 38,
-          "ballots_cast": 13219,
+          "ballots_cast": 15265,
           "registered_voters": 28978,
           "candidates": [
             {
               "name": "Aaron Hird (REP)",
               "party": "Non-Partisan",
-              "votes": 11195,
+              "votes": 13018,
               "percent": 100.0
             }
           ]
@@ -23529,22 +23529,22 @@
           "name": "COUNTY BOARD 1ST DISTRICT MEMBER",
           "party": "Non-Partisan",
           "vote_for": 2,
-          "precincts_reporting": 3,
+          "precincts_reporting": 6,
           "total_precincts": 6,
-          "ballots_cast": 1212,
+          "ballots_cast": 2547,
           "registered_voters": 5112,
           "candidates": [
             {
               "name": "Larry Baughn Jr. (REP)",
               "party": "Non-Partisan",
-              "votes": 816,
-              "percent": 54.08
+              "votes": 1861,
+              "percent": 57.81
             },
             {
               "name": "Terry S Prillaman (REP)",
               "party": "Non-Partisan",
-              "votes": 693,
-              "percent": 45.92
+              "votes": 1358,
+              "percent": 42.19
             }
           ]
         },
@@ -23569,22 +23569,22 @@
           "name": "COUNTY BOARD 3RD DISTRICT MEMBER",
           "party": "Non-Partisan",
           "vote_for": 2,
-          "precincts_reporting": 7,
+          "precincts_reporting": 10,
           "total_precincts": 10,
-          "ballots_cast": 2302,
+          "ballots_cast": 3060,
           "registered_voters": 5473,
           "candidates": [
             {
               "name": "Kevin J. Bodine (REP)",
               "party": "Non-Partisan",
-              "votes": 1402,
-              "percent": 49.26
+              "votes": 1932,
+              "percent": 50.19
             },
             {
               "name": "Tonya S. Hill (REP)",
               "party": "Non-Partisan",
-              "votes": 1444,
-              "percent": 50.74
+              "votes": 1917,
+              "percent": 49.81
             }
           ]
         },
@@ -23741,15 +23741,15 @@
           "name": "COUNTY BOARD OF REVIEW 2ND DISTRICT MEMBER",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 12,
+          "precincts_reporting": 15,
           "total_precincts": 15,
-          "ballots_cast": 5439,
+          "ballots_cast": 6774,
           "registered_voters": 12437,
           "candidates": [
             {
               "name": "Natalie Duncan (REP)",
               "party": "Non-Partisan",
-              "votes": 4393,
+              "votes": 5536,
               "percent": 100.0
             }
           ]
@@ -23758,15 +23758,15 @@
           "name": "COUNTY BOARD OF REVIEW 3RD DISTRICT MEMBER",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 17,
+          "precincts_reporting": 20,
           "total_precincts": 20,
-          "ballots_cast": 6907,
+          "ballots_cast": 7665,
           "registered_voters": 14869,
           "candidates": [
             {
               "name": "Jay Fruhling (REP)",
               "party": "Non-Partisan",
-              "votes": 5679,
+              "votes": 6348,
               "percent": 100.0
             }
           ]
@@ -23775,15 +23775,15 @@
           "name": "APPELLATE COURT JUDGE 5TH JUDICIAL DISTRICT(WELCH)",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 32,
+          "precincts_reporting": 38,
           "total_precincts": 38,
-          "ballots_cast": 13369,
+          "ballots_cast": 15462,
           "registered_voters": 29291,
           "candidates": [
             {
               "name": "Amy E. Sholar (REP)",
               "party": "Non-Partisan",
-              "votes": 11034,
+              "votes": 12874,
               "percent": 100.0
             }
           ]
@@ -23792,22 +23792,22 @@
           "name": "RETAIN JAMES A. KNECHT",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 32,
+          "precincts_reporting": 38,
           "total_precincts": 38,
-          "ballots_cast": 13369,
+          "ballots_cast": 15462,
           "registered_voters": 29291,
           "candidates": [
             {
               "name": "Yes",
               "party": "Non-Partisan",
-              "votes": 9517,
-              "percent": 80.2
+              "votes": 11043,
+              "percent": 80.37
             },
             {
               "name": "No",
               "party": "Non-Partisan",
-              "votes": 2349,
-              "percent": 19.8
+              "votes": 2697,
+              "percent": 19.63
             }
           ]
         },
@@ -23815,22 +23815,22 @@
           "name": "RETAIN JOHN B. BARBERIS, JR.",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 32,
+          "precincts_reporting": 38,
           "total_precincts": 38,
-          "ballots_cast": 13369,
+          "ballots_cast": 15462,
           "registered_voters": 29291,
           "candidates": [
             {
               "name": "Yes",
               "party": "Non-Partisan",
-              "votes": 9404,
-              "percent": 79.47
+              "votes": 10902,
+              "percent": 79.58
             },
             {
               "name": "No",
               "party": "Non-Partisan",
-              "votes": 2429,
-              "percent": 20.53
+              "votes": 2798,
+              "percent": 20.42
             }
           ]
         },
@@ -23838,22 +23838,22 @@
           "name": "RETAIN MITCHELL SHICK",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 32,
+          "precincts_reporting": 38,
           "total_precincts": 38,
-          "ballots_cast": 13369,
+          "ballots_cast": 15462,
           "registered_voters": 29291,
           "candidates": [
             {
               "name": "Yes",
               "party": "Non-Partisan",
-              "votes": 9501,
-              "percent": 80.37
+              "votes": 11023,
+              "percent": 80.47
             },
             {
               "name": "No",
               "party": "Non-Partisan",
-              "votes": 2321,
-              "percent": 19.63
+              "votes": 2675,
+              "percent": 19.53
             }
           ]
         },
@@ -23861,22 +23861,22 @@
           "name": "RETAIN THOMAS M. O'SHAUGHNESSY",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 32,
+          "precincts_reporting": 38,
           "total_precincts": 38,
-          "ballots_cast": 13369,
+          "ballots_cast": 15462,
           "registered_voters": 29291,
           "candidates": [
             {
               "name": "Yes",
               "party": "Non-Partisan",
-              "votes": 10265,
-              "percent": 84.1
+              "votes": 11827,
+              "percent": 83.99
             },
             {
               "name": "No",
               "party": "Non-Partisan",
-              "votes": 1941,
-              "percent": 15.9
+              "votes": 2255,
+              "percent": 16.01
             }
           ]
         },
@@ -23908,7 +23908,7 @@
     "Lee": {
       "county": "Lee",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.777706",
+      "scraped_at": "2026-11-03T21:28:40.564521",
       "source": "pollresults.net \u2014 https://il-lee.pollresults.net",
       "summary": {
         "registered_voters": 22398,
@@ -24490,7 +24490,7 @@
     "Wabash": {
       "county": "Wabash",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.706290",
+      "scraped_at": "2026-11-03T21:28:40.560421",
       "source": "pollresults.net \u2014 https://il-wabash.pollresults.net",
       "summary": {},
       "contests": []
@@ -24498,7 +24498,7 @@
     "Madison": {
       "county": "Madison",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.736817",
+      "scraped_at": "2026-11-03T21:28:40.352271",
       "source": "pollresults.net \u2014 https://il-madison.pollresults.net",
       "summary": {},
       "contests": []
@@ -24506,7 +24506,7 @@
     "Douglas": {
       "county": "Douglas",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.463682",
+      "scraped_at": "2026-11-03T21:28:40.409457",
       "source": "pollresults.net \u2014 https://il-douglas.pollresults.net",
       "summary": {
         "registered_voters": 11940,
@@ -25035,14 +25035,14 @@
     "Adams": {
       "county": "Adams",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.284353",
+      "scraped_at": "2026-11-03T21:28:39.720770",
       "source": "pollresults.net \u2014 https://il-adams.pollresults.net",
       "summary": {},
       "contests": []
     },
     "Winnebago": {
       "county": "Winnebago",
-      "scraped_at": "2026-11-03T21:22:16.319548",
+      "scraped_at": "2026-11-03T21:28:28.660302",
       "total_contests": 0,
       "contests_by_party": {
         "Democratic": {
@@ -25062,7 +25062,7 @@
     "Scott": {
       "county": "Scott",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.829819",
+      "scraped_at": "2026-11-03T21:28:40.356065",
       "source": "pollresults.net \u2014 https://il-scott.pollresults.net",
       "summary": {},
       "contests": []
@@ -25070,7 +25070,7 @@
     "Putnam": {
       "county": "Putnam",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.789206",
+      "scraped_at": "2026-11-03T21:28:40.437941",
       "source": "pollresults.net \u2014 https://il-putnam.pollresults.net",
       "summary": {
         "registered_voters": 4019,
@@ -25458,7 +25458,7 @@
     "Piatt": {
       "county": "Piatt",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.641929",
+      "scraped_at": "2026-11-03T21:28:39.948475",
       "source": "pollresults.net \u2014 https://il-piatt.pollresults.net",
       "summary": {
         "registered_voters": 12719,
@@ -26103,7 +26103,7 @@
     "Cass": {
       "county": "Cass",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.591979",
+      "scraped_at": "2026-11-03T21:28:40.165195",
       "source": "pollresults.net \u2014 https://il-cass.pollresults.net",
       "summary": {},
       "contests": []
@@ -26111,7 +26111,7 @@
     "Randolph": {
       "county": "Randolph",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.828176",
+      "scraped_at": "2026-11-03T21:28:40.406511",
       "source": "pollresults.net \u2014 https://il-randolph.pollresults.net",
       "summary": {},
       "contests": []
@@ -26119,14 +26119,14 @@
     "Monroe": {
       "county": "Monroe",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.304449",
+      "scraped_at": "2026-11-03T21:28:40.399726",
       "source": "pollresults.net \u2014 https://il-monroe.pollresults.net",
       "summary": {},
       "contests": []
     },
     "Henry": {
       "county": "Henry",
-      "scraped_at": "2026-11-03T21:22:26.356328",
+      "scraped_at": "2026-11-03T21:28:36.228259",
       "total_contests": 18,
       "contests_by_party": {
         "Democratic": {
@@ -26609,42 +26609,42 @@
     "Boone": {
       "county": "Boone",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.037853",
+      "scraped_at": "2026-11-03T21:28:39.680552",
       "source": "pollresults.net \u2014 https://il-boone.pollresults.net",
       "summary": {
         "registered_voters": 35037,
-        "ballots_cast": 11070,
-        "turnout_percent": 31.6,
+        "ballots_cast": 17830,
+        "turnout_percent": 50.9,
         "total_precincts": 37,
-        "precincts_reporting": 35
+        "precincts_reporting": 37
       },
       "contests": [
         {
           "name": "UNITED STATES SENATOR",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 35,
+          "precincts_reporting": 37,
           "total_precincts": 37,
-          "ballots_cast": 11070,
+          "ballots_cast": 17830,
           "registered_voters": 35037,
           "candidates": [
             {
               "name": "Juliana Stratton (DEM)",
               "party": "Non-Partisan",
-              "votes": 4533,
-              "percent": 41.27
+              "votes": 8447,
+              "percent": 47.83
             },
             {
               "name": "Don Tracy (REP)",
               "party": "Non-Partisan",
-              "votes": 6280,
-              "percent": 57.17
+              "votes": 8983,
+              "percent": 50.86
             },
             {
               "name": "Whitfield Harrington Jr (ACP)",
               "party": "Non-Partisan",
-              "votes": 172,
-              "percent": 1.57
+              "votes": 232,
+              "percent": 1.31
             }
           ]
         },
@@ -26652,28 +26652,28 @@
           "name": "STATE GOVERNOR AND LT GOVERNOR",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 35,
+          "precincts_reporting": 37,
           "total_precincts": 37,
-          "ballots_cast": 11070,
+          "ballots_cast": 17830,
           "registered_voters": 35037,
           "candidates": [
             {
               "name": "(JB Pritzker/(Christian Mitchell (DEM)",
               "party": "Non-Partisan",
-              "votes": 4243,
-              "percent": 38.47
+              "votes": 8071,
+              "percent": 45.51
             },
             {
               "name": "(Darren Bailey/(Aaron B. Del Mar (REP)",
               "party": "Non-Partisan",
-              "votes": 6357,
-              "percent": 57.64
+              "votes": 9022,
+              "percent": 50.87
             },
             {
               "name": "(Collin Corbett/(Carolyn Schofield (IND)",
               "party": "Non-Partisan",
-              "votes": 428,
-              "percent": 3.88
+              "votes": 641,
+              "percent": 3.61
             }
           ]
         },
@@ -26681,22 +26681,22 @@
           "name": "STATE ATTORNEY GENERAL",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 35,
+          "precincts_reporting": 37,
           "total_precincts": 37,
-          "ballots_cast": 11070,
+          "ballots_cast": 17830,
           "registered_voters": 35037,
           "candidates": [
             {
               "name": "Kwame Raoul (DEM)",
               "party": "Non-Partisan",
-              "votes": 4479,
-              "percent": 40.9
+              "votes": 8364,
+              "percent": 47.5
             },
             {
               "name": "Robert W. Fioretti (REP)",
               "party": "Non-Partisan",
-              "votes": 6472,
-              "percent": 59.1
+              "votes": 9244,
+              "percent": 52.5
             }
           ]
         },
@@ -26704,22 +26704,22 @@
           "name": "STATE SECRETARY OF STATE",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 35,
+          "precincts_reporting": 37,
           "total_precincts": 37,
-          "ballots_cast": 11070,
+          "ballots_cast": 17830,
           "registered_voters": 35037,
           "candidates": [
             {
               "name": "Alexi Giannoulias (DEM)",
               "party": "Non-Partisan",
-              "votes": 4825,
-              "percent": 43.99
+              "votes": 8913,
+              "percent": 50.53
             },
             {
               "name": "Diane M. Harris (REP)",
               "party": "Non-Partisan",
-              "votes": 6143,
-              "percent": 56.01
+              "votes": 8727,
+              "percent": 49.47
             }
           ]
         },
@@ -26727,22 +26727,22 @@
           "name": "STATE COMPTROLLER",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 35,
+          "precincts_reporting": 37,
           "total_precincts": 37,
-          "ballots_cast": 11070,
+          "ballots_cast": 17830,
           "registered_voters": 35037,
           "candidates": [
             {
               "name": "Margaret Croke (DEM)",
               "party": "Non-Partisan",
-              "votes": 4427,
-              "percent": 40.64
+              "votes": 8296,
+              "percent": 47.36
             },
             {
               "name": "Bryan Drew (REP)",
               "party": "Non-Partisan",
-              "votes": 6465,
-              "percent": 59.36
+              "votes": 9222,
+              "percent": 52.64
             }
           ]
         },
@@ -26750,22 +26750,22 @@
           "name": "STATE TREASURER",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 35,
+          "precincts_reporting": 37,
           "total_precincts": 37,
-          "ballots_cast": 11070,
+          "ballots_cast": 17830,
           "registered_voters": 35037,
           "candidates": [
             {
               "name": "Michael W. Frerichs (DEM)",
               "party": "Non-Partisan",
-              "votes": 4482,
-              "percent": 41.17
+              "votes": 8359,
+              "percent": 47.82
             },
             {
               "name": "Max Solomon (REP)",
               "party": "Non-Partisan",
-              "votes": 6405,
-              "percent": 58.83
+              "votes": 9120,
+              "percent": 52.18
             }
           ]
         },
@@ -26773,22 +26773,22 @@
           "name": "CONGRESSIONAL 11TH DISTRICT REPRESENTATIVE",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 16,
+          "precincts_reporting": 17,
           "total_precincts": 17,
-          "ballots_cast": 4134,
+          "ballots_cast": 7045,
           "registered_voters": 15160,
           "candidates": [
             {
               "name": "Bill Foster (DEM)",
               "party": "Non-Partisan",
-              "votes": 1988,
-              "percent": 48.77
+              "votes": 3745,
+              "percent": 53.97
             },
             {
               "name": "Jeff Walter (REP)",
               "party": "Non-Partisan",
-              "votes": 2088,
-              "percent": 51.23
+              "votes": 3194,
+              "percent": 46.03
             }
           ]
         },
@@ -26796,22 +26796,22 @@
           "name": "CONGRESSIONAL 16TH DISTRICT REPRESENTATIVE",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 20,
+          "precincts_reporting": 21,
           "total_precincts": 21,
-          "ballots_cast": 6936,
+          "ballots_cast": 10785,
           "registered_voters": 19877,
           "candidates": [
             {
               "name": "Paul Nolley (DEM)",
               "party": "Non-Partisan",
-              "votes": 2528,
-              "percent": 36.67
+              "votes": 4670,
+              "percent": 43.66
             },
             {
               "name": "Darin LaHood (REP)",
               "party": "Non-Partisan",
-              "votes": 4365,
-              "percent": 63.33
+              "votes": 6027,
+              "percent": 56.34
             }
           ]
         },
@@ -26821,20 +26821,20 @@
           "vote_for": 1,
           "precincts_reporting": 17,
           "total_precincts": 17,
-          "ballots_cast": 6704,
+          "ballots_cast": 9735,
           "registered_voters": 18081,
           "candidates": [
             {
               "name": "Sarah B. Mertens (DEM)",
               "party": "Non-Partisan",
-              "votes": 2264,
-              "percent": 33.98
+              "votes": 3845,
+              "percent": 39.84
             },
             {
               "name": "Dave Syverson (REP)",
               "party": "Non-Partisan",
-              "votes": 4398,
-              "percent": 66.02
+              "votes": 5806,
+              "percent": 60.16
             }
           ]
         },
@@ -26842,22 +26842,22 @@
           "name": "STATE SENATE 45TH DISTRICT",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 5,
+          "precincts_reporting": 6,
           "total_precincts": 6,
-          "ballots_cast": 795,
+          "ballots_cast": 1435,
           "registered_voters": 2387,
           "candidates": [
             {
               "name": "Joseph H. \"Joe\" Berning (DEM)",
               "party": "Non-Partisan",
-              "votes": 217,
-              "percent": 27.71
+              "votes": 480,
+              "percent": 34.02
             },
             {
               "name": "Andrew S. Chesney (REP)",
               "party": "Non-Partisan",
-              "votes": 566,
-              "percent": 72.29
+              "votes": 931,
+              "percent": 65.98
             }
           ]
         },
@@ -26865,22 +26865,22 @@
           "name": "STATE REPRESENTATIVE 68TH DISTRICT",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 14,
+          "precincts_reporting": 15,
           "total_precincts": 15,
-          "ballots_cast": 3571,
+          "ballots_cast": 6660,
           "registered_voters": 14569,
           "candidates": [
             {
               "name": "Dave Vella (DEM)",
               "party": "Non-Partisan",
-              "votes": 1868,
-              "percent": 52.72
+              "votes": 3823,
+              "percent": 57.97
             },
             {
               "name": "Kathy Easton (REP)",
               "party": "Non-Partisan",
-              "votes": 1675,
-              "percent": 47.28
+              "votes": 2772,
+              "percent": 42.03
             }
           ]
         },
@@ -26890,20 +26890,20 @@
           "vote_for": 1,
           "precincts_reporting": 17,
           "total_precincts": 17,
-          "ballots_cast": 6704,
+          "ballots_cast": 9735,
           "registered_voters": 18081,
           "candidates": [
             {
               "name": "Peter Janko (DEM)",
               "party": "Non-Partisan",
-              "votes": 2260,
-              "percent": 34.05
+              "votes": 3858,
+              "percent": 40.12
             },
             {
               "name": "Joe C. Sosnowski (REP)",
               "party": "Non-Partisan",
-              "votes": 4378,
-              "percent": 65.95
+              "votes": 5758,
+              "percent": 59.88
             }
           ]
         },
@@ -26911,15 +26911,15 @@
           "name": "STATE REPRESENTATIVE 89TH DISTRICT",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 2,
+          "precincts_reporting": 3,
           "total_precincts": 3,
-          "ballots_cast": 294,
+          "ballots_cast": 765,
           "registered_voters": 1282,
           "candidates": [
             {
               "name": "Tony M. McCombie (REP)",
               "party": "Non-Partisan",
-              "votes": 247,
+              "votes": 598,
               "percent": 100.0
             }
           ]
@@ -26930,13 +26930,13 @@
           "vote_for": 1,
           "precincts_reporting": 3,
           "total_precincts": 3,
-          "ballots_cast": 501,
+          "ballots_cast": 670,
           "registered_voters": 1105,
           "candidates": [
             {
               "name": "John M. Cabello (REP)",
               "party": "Non-Partisan",
-              "votes": 411,
+              "votes": 509,
               "percent": 100.0
             }
           ]
@@ -26945,15 +26945,15 @@
           "name": "COUNTY CLERK AND RECORDER",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 35,
+          "precincts_reporting": 37,
           "total_precincts": 37,
-          "ballots_cast": 11070,
+          "ballots_cast": 17830,
           "registered_voters": 35037,
           "candidates": [
             {
               "name": "Amy E Ohlsen (REP)",
               "party": "Non-Partisan",
-              "votes": 8965,
+              "votes": 13168,
               "percent": 100.0
             }
           ]
@@ -26962,15 +26962,15 @@
           "name": "COUNTY TREASURER",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 35,
+          "precincts_reporting": 37,
           "total_precincts": 37,
-          "ballots_cast": 11070,
+          "ballots_cast": 17830,
           "registered_voters": 35037,
           "candidates": [
             {
               "name": "Curtis P. Newport (REP)",
               "party": "Non-Partisan",
-              "votes": 8888,
+              "votes": 13051,
               "percent": 100.0
             }
           ]
@@ -26979,15 +26979,15 @@
           "name": "COUNTY SHERIFF",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 35,
+          "precincts_reporting": 37,
           "total_precincts": 37,
-          "ballots_cast": 11070,
+          "ballots_cast": 17830,
           "registered_voters": 35037,
           "candidates": [
             {
               "name": "Scott Yunk (REP)",
               "party": "Non-Partisan",
-              "votes": 9092,
+              "votes": 13375,
               "percent": 100.0
             }
           ]
@@ -26996,15 +26996,15 @@
           "name": "ESR SUPERINTENDENT OF SCHOOLS (BOONE- WINNEBAGO)",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 35,
+          "precincts_reporting": 37,
           "total_precincts": 37,
-          "ballots_cast": 10975,
+          "ballots_cast": 17701,
           "registered_voters": 34828,
           "candidates": [
             {
               "name": "Scott Bloomquist (REP)",
               "party": "Non-Partisan",
-              "votes": 8783,
+              "votes": 12850,
               "percent": 100.0
             }
           ]
@@ -27015,13 +27015,13 @@
           "vote_for": 1,
           "precincts_reporting": 2,
           "total_precincts": 2,
-          "ballots_cast": 55,
+          "ballots_cast": 80,
           "registered_voters": 126,
           "candidates": [
             {
               "name": "Carmen R. Siragusa (REP)",
               "party": "Non-Partisan",
-              "votes": 47,
+              "votes": 58,
               "percent": 100.0
             }
           ]
@@ -27032,20 +27032,20 @@
           "vote_for": 1,
           "precincts_reporting": 1,
           "total_precincts": 1,
-          "ballots_cast": 40,
+          "ballots_cast": 49,
           "registered_voters": 83,
           "candidates": [
             {
               "name": "Bridget Belcastro (DEM)",
               "party": "Non-Partisan",
-              "votes": 8,
-              "percent": 21.05
+              "votes": 14,
+              "percent": 30.43
             },
             {
               "name": "Diana Hartmann (REP)",
               "party": "Non-Partisan",
-              "votes": 30,
-              "percent": 78.95
+              "votes": 32,
+              "percent": 69.57
             }
           ]
         },
@@ -27053,22 +27053,22 @@
           "name": "COUNTY BOARD 1ST DISTRICT MEMBER",
           "party": "Non-Partisan",
           "vote_for": 2,
-          "precincts_reporting": 12,
+          "precincts_reporting": 13,
           "total_precincts": 13,
-          "ballots_cast": 4116,
+          "ballots_cast": 6108,
           "registered_voters": 12056,
           "candidates": [
             {
               "name": "Matt Ellingson (REP)",
               "party": "Non-Partisan",
-              "votes": 2665,
-              "percent": 57.36
+              "votes": 3624,
+              "percent": 56.8
             },
             {
               "name": "David R. Wiltse (REP)",
               "party": "Non-Partisan",
-              "votes": 1981,
-              "percent": 42.64
+              "votes": 2756,
+              "percent": 43.2
             }
           ]
         },
@@ -27078,20 +27078,20 @@
           "vote_for": 2,
           "precincts_reporting": 12,
           "total_precincts": 12,
-          "ballots_cast": 4470,
+          "ballots_cast": 6955,
           "registered_voters": 12886,
           "candidates": [
             {
               "name": "Paul T Zeien Jr (REP)",
               "party": "Non-Partisan",
-              "votes": 2763,
-              "percent": 50.27
+              "votes": 3943,
+              "percent": 50.47
             },
             {
               "name": "Jayden Lee Gallagly (REP)",
               "party": "Non-Partisan",
-              "votes": 2733,
-              "percent": 49.73
+              "votes": 3869,
+              "percent": 49.53
             }
           ]
         },
@@ -27099,28 +27099,28 @@
           "name": "COUNTY BOARD 3RD DISTRICT MEMBER",
           "party": "Non-Partisan",
           "vote_for": 2,
-          "precincts_reporting": 11,
+          "precincts_reporting": 12,
           "total_precincts": 12,
-          "ballots_cast": 2484,
+          "ballots_cast": 4767,
           "registered_voters": 10095,
           "candidates": [
             {
               "name": "Mike Carlyle (DEM)",
               "party": "Non-Partisan",
-              "votes": 1253,
-              "percent": 38.46
+              "votes": 2574,
+              "percent": 41.56
             },
             {
               "name": "Rodney J. Riley (REP)",
               "party": "Non-Partisan",
-              "votes": 1097,
-              "percent": 33.67
+              "votes": 1950,
+              "percent": 31.49
             },
             {
               "name": "Dana Logsdon (REP)",
               "party": "Non-Partisan",
-              "votes": 908,
-              "percent": 27.87
+              "votes": 1669,
+              "percent": 26.95
             }
           ]
         },
@@ -27130,13 +27130,13 @@
           "vote_for": 1,
           "precincts_reporting": 2,
           "total_precincts": 2,
-          "ballots_cast": 548,
+          "ballots_cast": 771,
           "registered_voters": 1396,
           "candidates": [
             {
               "name": "Erin C. Hannigan (DEM)",
               "party": "Non-Partisan",
-              "votes": 383,
+              "votes": 535,
               "percent": 100.0
             }
           ]
@@ -27145,15 +27145,15 @@
           "name": "CIRCUIT COURT JUDGE 17TH JUDICIAL CIRCUIT 2ND SUBCIRCUIT (DOHERTY)",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 35,
+          "precincts_reporting": 37,
           "total_precincts": 37,
-          "ballots_cast": 10522,
+          "ballots_cast": 17059,
           "registered_voters": 33641,
           "candidates": [
             {
               "name": "Scott Robinson (REP)",
               "party": "Non-Partisan",
-              "votes": 8218,
+              "votes": 12074,
               "percent": 100.0
             }
           ]
@@ -27162,22 +27162,22 @@
           "name": "RETAIN LISA R. FABIANO",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 35,
+          "precincts_reporting": 37,
           "total_precincts": 37,
-          "ballots_cast": 11070,
+          "ballots_cast": 17830,
           "registered_voters": 35037,
           "candidates": [
             {
               "name": "Yes",
               "party": "Non-Partisan",
-              "votes": 7824,
-              "percent": 81.94
+              "votes": 12266,
+              "percent": 82.67
             },
             {
               "name": "No",
               "party": "Non-Partisan",
-              "votes": 1725,
-              "percent": 18.06
+              "votes": 2572,
+              "percent": 17.33
             }
           ]
         },
@@ -27185,22 +27185,22 @@
           "name": "RETAIN GWYN GULLEY",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 35,
+          "precincts_reporting": 37,
           "total_precincts": 37,
-          "ballots_cast": 11070,
+          "ballots_cast": 17830,
           "registered_voters": 35037,
           "candidates": [
             {
               "name": "Yes",
               "party": "Non-Partisan",
-              "votes": 7498,
-              "percent": 78.92
+              "votes": 11749,
+              "percent": 79.89
             },
             {
               "name": "No",
               "party": "Non-Partisan",
-              "votes": 2003,
-              "percent": 21.08
+              "votes": 2957,
+              "percent": 20.11
             }
           ]
         },
@@ -27208,22 +27208,22 @@
           "name": "RETAIN RONALD J. WHITE",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 35,
+          "precincts_reporting": 37,
           "total_precincts": 37,
-          "ballots_cast": 11070,
+          "ballots_cast": 17830,
           "registered_voters": 35037,
           "candidates": [
             {
               "name": "Yes",
               "party": "Non-Partisan",
-              "votes": 7583,
-              "percent": 79.45
+              "votes": 11731,
+              "percent": 79.44
             },
             {
               "name": "No",
               "party": "Non-Partisan",
-              "votes": 1961,
-              "percent": 20.55
+              "votes": 3036,
+              "percent": 20.56
             }
           ]
         },
@@ -27231,22 +27231,22 @@
           "name": "BOONE COUNTY CAP AND LOWER PROPERTY TAX ADVISORY QUESTION",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 35,
+          "precincts_reporting": 37,
           "total_precincts": 37,
-          "ballots_cast": 11070,
+          "ballots_cast": 17830,
           "registered_voters": 35037,
           "candidates": [
             {
               "name": "Yes",
               "party": "Non-Partisan",
-              "votes": 9980,
-              "percent": 93.5
+              "votes": 15823,
+              "percent": 92.92
             },
             {
               "name": "No",
               "party": "Non-Partisan",
-              "votes": 694,
-              "percent": 6.5
+              "votes": 1205,
+              "percent": 7.08
             }
           ]
         },
@@ -27254,22 +27254,22 @@
           "name": "BOONE COUNTY RESTORE LOCAL ZONING AUTHORITY ADVISORY QUESTION",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 35,
+          "precincts_reporting": 37,
           "total_precincts": 37,
-          "ballots_cast": 11070,
+          "ballots_cast": 17830,
           "registered_voters": 35037,
           "candidates": [
             {
               "name": "Yes",
               "party": "Non-Partisan",
-              "votes": 9230,
-              "percent": 86.69
+              "votes": 14654,
+              "percent": 86.3
             },
             {
               "name": "No",
               "party": "Non-Partisan",
-              "votes": 1417,
-              "percent": 13.31
+              "votes": 2326,
+              "percent": 13.7
             }
           ]
         },
@@ -27277,22 +27277,22 @@
           "name": "BOONE COUNTY LIMIT ON SCHOOL ADMIN COSTS ADVISORY QUESTION",
           "party": "Non-Partisan",
           "vote_for": 1,
-          "precincts_reporting": 35,
+          "precincts_reporting": 37,
           "total_precincts": 37,
-          "ballots_cast": 11070,
+          "ballots_cast": 17830,
           "registered_voters": 35037,
           "candidates": [
             {
               "name": "Yes",
               "party": "Non-Partisan",
-              "votes": 9819,
-              "percent": 92.08
+              "votes": 15630,
+              "percent": 91.61
             },
             {
               "name": "No",
               "party": "Non-Partisan",
-              "votes": 845,
-              "percent": 7.92
+              "votes": 1432,
+              "percent": 8.39
             }
           ]
         },
@@ -27302,20 +27302,20 @@
           "vote_for": 1,
           "precincts_reporting": 1,
           "total_precincts": 1,
-          "ballots_cast": 239,
+          "ballots_cast": 318,
           "registered_voters": 509,
           "candidates": [
             {
               "name": "Yes",
               "party": "Non-Partisan",
-              "votes": 147,
-              "percent": 65.63
+              "votes": 189,
+              "percent": 63.85
             },
             {
               "name": "No",
               "party": "Non-Partisan",
-              "votes": 77,
-              "percent": 34.38
+              "votes": 107,
+              "percent": 36.15
             }
           ]
         }
@@ -27324,7 +27324,7 @@
     "Perry": {
       "county": "Perry",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.785087",
+      "scraped_at": "2026-11-03T21:28:40.507579",
       "source": "pollresults.net \u2014 https://il-perry.pollresults.net",
       "summary": {},
       "contests": []
@@ -27791,7 +27791,7 @@
     "Bureau": {
       "county": "Bureau",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.007771",
+      "scraped_at": "2026-11-03T21:28:39.849330",
       "source": "pollresults.net \u2014 https://il-bureau.pollresults.net",
       "summary": {
         "registered_voters": 20675,
@@ -28514,7 +28514,7 @@
     "Edwards": {
       "county": "Edwards",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.433720",
+      "scraped_at": "2026-11-03T21:28:39.853039",
       "source": "pollresults.net \u2014 https://il-edwards.pollresults.net",
       "summary": {},
       "contests": []
@@ -28522,7 +28522,7 @@
     "Pope": {
       "county": "Pope",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.633216",
+      "scraped_at": "2026-11-03T21:28:40.501758",
       "source": "pollresults.net \u2014 https://il-pope.pollresults.net",
       "summary": {},
       "contests": []
@@ -28530,7 +28530,7 @@
     "Gallatin": {
       "county": "Gallatin",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.548004",
+      "scraped_at": "2026-11-03T21:28:40.558857",
       "source": "pollresults.net \u2014 https://il-gallatin.pollresults.net",
       "summary": {},
       "contests": []
@@ -28538,7 +28538,7 @@
     "Mason": {
       "county": "Mason",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.691417",
+      "scraped_at": "2026-11-03T21:28:40.227280",
       "source": "pollresults.net \u2014 https://il-mason.pollresults.net",
       "summary": {
         "registered_voters": 8961,
@@ -29084,7 +29084,7 @@
     "Alexander": {
       "county": "Alexander",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.222347",
+      "scraped_at": "2026-11-03T21:28:39.698725",
       "source": "pollresults.net \u2014 https://il-alexander.pollresults.net",
       "summary": {},
       "contests": []
@@ -29092,7 +29092,7 @@
     "Jersey": {
       "county": "Jersey",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.632991",
+      "scraped_at": "2026-11-03T21:28:40.207970",
       "source": "pollresults.net \u2014 https://il-jersey.pollresults.net",
       "summary": {},
       "contests": []
@@ -29100,7 +29100,7 @@
     "Christian": {
       "county": "Christian",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:31.074027",
+      "scraped_at": "2026-11-03T21:28:39.763153",
       "source": "pollresults.net \u2014 https://il-christian.pollresults.net",
       "summary": {
         "registered_voters": 21734,
@@ -29805,7 +29805,7 @@
       "total_precincts": 40,
       "total_contests": 25,
       "source": "https://grundy.results.gbsvote.com/results/grundy/2026-general/current/results.json",
-      "scraped_at": "2026-11-03T21:22:26.626435",
+      "scraped_at": "2026-11-03T21:28:36.440604",
       "contests": [
         {
           "name": "UNITED STATES SENATOR",
@@ -30385,7 +30385,7 @@
     "Carroll": {
       "county": "Carroll",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.346280",
+      "scraped_at": "2026-11-03T21:28:40.423202",
       "source": "pollresults.net \u2014 https://il-carroll.pollresults.net",
       "summary": {
         "registered_voters": 10791,
@@ -30847,7 +30847,7 @@
     "Johnson": {
       "county": "Johnson",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.411304",
+      "scraped_at": "2026-11-03T21:28:40.484395",
       "source": "pollresults.net \u2014 https://il-johnson.pollresults.net",
       "summary": {},
       "contests": []
@@ -30855,7 +30855,7 @@
     "Hamilton": {
       "county": "Hamilton",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.568037",
+      "scraped_at": "2026-11-03T21:28:39.971619",
       "source": "pollresults.net \u2014 https://il-hamilton.pollresults.net",
       "summary": {},
       "contests": []
@@ -30863,7 +30863,7 @@
     "Union": {
       "county": "Union",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.775043",
+      "scraped_at": "2026-11-03T21:28:40.555372",
       "source": "pollresults.net \u2014 https://il-union.pollresults.net",
       "summary": {},
       "contests": []
@@ -30871,7 +30871,7 @@
     "Stephenson": {
       "county": "Stephenson",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.778100",
+      "scraped_at": "2026-11-03T21:28:39.850774",
       "source": "pollresults.net \u2014 https://il-stephenson.pollresults.net",
       "summary": {
         "registered_voters": 28360,
@@ -31556,7 +31556,7 @@
     "Clark": {
       "county": "Clark",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.626260",
+      "scraped_at": "2026-11-03T21:28:40.233324",
       "source": "pollresults.net \u2014 https://il-clark.pollresults.net",
       "summary": {
         "registered_voters": 11170,
@@ -32040,7 +32040,7 @@
     "Williamson": {
       "county": "Williamson",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:31.105392",
+      "scraped_at": "2026-11-03T21:28:40.476002",
       "source": "pollresults.net \u2014 https://il-williamson.pollresults.net",
       "summary": {},
       "contests": []
@@ -32048,7 +32048,7 @@
     "Macoupin": {
       "county": "Macoupin",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.575608",
+      "scraped_at": "2026-11-03T21:28:40.278229",
       "source": "pollresults.net \u2014 https://il-macoupin.pollresults.net",
       "summary": {},
       "contests": []
@@ -32056,7 +32056,7 @@
     "Pulaski": {
       "county": "Pulaski",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.573163",
+      "scraped_at": "2026-11-03T21:28:40.503469",
       "source": "pollresults.net \u2014 https://il-pulaski.pollresults.net",
       "summary": {},
       "contests": []
@@ -32064,7 +32064,7 @@
     "Coles": {
       "county": "Coles",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.414155",
+      "scraped_at": "2026-11-03T21:28:40.346153",
       "source": "pollresults.net \u2014 https://il-coles.pollresults.net",
       "summary": {
         "registered_voters": 29725,
@@ -32680,7 +32680,7 @@
     "Calhoun": {
       "county": "Calhoun",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.735149",
+      "scraped_at": "2026-11-03T21:28:40.352166",
       "source": "pollresults.net \u2014 https://il-calhoun.pollresults.net",
       "summary": {},
       "contests": []
@@ -32688,7 +32688,7 @@
     "Greene": {
       "county": "Greene",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.676153",
+      "scraped_at": "2026-11-03T21:28:40.491071",
       "source": "pollresults.net \u2014 https://il-greene.pollresults.net",
       "summary": {},
       "contests": []
@@ -32696,7 +32696,7 @@
     "Moultrie": {
       "county": "Moultrie",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.739447",
+      "scraped_at": "2026-11-03T21:28:40.444086",
       "source": "pollresults.net \u2014 https://il-moultrie.pollresults.net",
       "summary": {
         "registered_voters": 8789,
@@ -33239,7 +33239,7 @@
     "Ford": {
       "county": "Ford",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.615092",
+      "scraped_at": "2026-11-03T21:28:40.199564",
       "source": "pollresults.net \u2014 https://il-ford.pollresults.net",
       "summary": {
         "registered_voters": 9519,
@@ -33878,7 +33878,7 @@
     "St. Clair": {
       "county": "St. Clair",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.778552",
+      "scraped_at": "2026-11-03T21:28:40.343868",
       "source": "pollresults.net \u2014 https://il-stclair.pollresults.net",
       "summary": {},
       "contests": []
@@ -33886,7 +33886,7 @@
     "Pike": {
       "county": "Pike",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.781921",
+      "scraped_at": "2026-11-03T21:28:40.601821",
       "source": "pollresults.net \u2014 https://il-pike.pollresults.net",
       "summary": {},
       "contests": []
@@ -33894,7 +33894,7 @@
     "Morgan": {
       "county": "Morgan",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.706287",
+      "scraped_at": "2026-11-03T21:28:40.347396",
       "source": "pollresults.net \u2014 https://il-morgan.pollresults.net",
       "summary": {},
       "contests": []
@@ -33902,7 +33902,7 @@
     "Saline": {
       "county": "Saline",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.830879",
+      "scraped_at": "2026-11-03T21:28:40.555522",
       "source": "pollresults.net \u2014 https://il-saline.pollresults.net",
       "summary": {},
       "contests": []
@@ -33910,7 +33910,7 @@
     "Jasper": {
       "county": "Jasper",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.546987",
+      "scraped_at": "2026-11-03T21:28:40.217927",
       "source": "pollresults.net \u2014 https://il-jasper.pollresults.net",
       "summary": {},
       "contests": []
@@ -33918,7 +33918,7 @@
     "Jackson": {
       "county": "Jackson",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.827229",
+      "scraped_at": "2026-11-03T21:28:40.437695",
       "source": "pollresults.net \u2014 https://il-jackson.pollresults.net",
       "summary": {},
       "contests": []
@@ -33926,7 +33926,7 @@
     "Tazewell": {
       "county": "Tazewell",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:31.281130",
+      "scraped_at": "2026-11-03T21:28:40.433203",
       "source": "pollresults.net \u2014 https://il-tazewell.pollresults.net",
       "summary": {
         "registered_voters": 84748,
@@ -34636,7 +34636,7 @@
     "Cumberland": {
       "county": "Cumberland",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.363093",
+      "scraped_at": "2026-11-03T21:28:40.440271",
       "source": "pollresults.net \u2014 https://il-cumberland.pollresults.net",
       "summary": {},
       "contests": []
@@ -34644,7 +34644,7 @@
     "Schuyler": {
       "county": "Schuyler",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:31.257743",
+      "scraped_at": "2026-11-03T21:28:40.601821",
       "source": "pollresults.net \u2014 https://il-schuyler.pollresults.net",
       "summary": {},
       "contests": []
@@ -34652,7 +34652,7 @@
     "Jefferson": {
       "county": "Jefferson",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.411106",
+      "scraped_at": "2026-11-03T21:28:40.424796",
       "source": "pollresults.net \u2014 https://il-jefferson.pollresults.net",
       "summary": {},
       "contests": []
@@ -34660,7 +34660,7 @@
     "Marion": {
       "county": "Marion",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.770949",
+      "scraped_at": "2026-11-03T21:28:40.558857",
       "source": "pollresults.net \u2014 https://il-marion.pollresults.net",
       "summary": {},
       "contests": []
@@ -34668,14 +34668,14 @@
     "Lawrence": {
       "county": "Lawrence",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.575620",
+      "scraped_at": "2026-11-03T21:28:40.256399",
       "source": "pollresults.net \u2014 https://il-lawrence.pollresults.net",
       "summary": {},
       "contests": []
     },
     "DeKalb": {
       "county": "DeKalb",
-      "scraped_at": "2026-11-03T21:22:21.937599",
+      "scraped_at": "2026-11-03T21:28:34.907282",
       "total_contests": 18,
       "contests_by_party": {
         "Democratic": {
@@ -35092,7 +35092,7 @@
     "Edgar": {
       "county": "Edgar",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.640366",
+      "scraped_at": "2026-11-03T21:28:40.338970",
       "source": "pollresults.net \u2014 https://il-edgar.pollresults.net",
       "summary": {
         "registered_voters": 11838,
@@ -35611,10 +35611,10 @@
       "authority": "Chicago Board of Election Commissioners",
       "jurisdiction": "Chicago (City)",
       "election_date": "2026-11-03",
-      "scraped_at": "2026-11-03T21:16:02.884223",
+      "scraped_at": "2026-11-03T21:28:26.469540",
       "source": "HTML \u2014 https://results.chicagoelections.gov/results/ElectionSummary.html",
       "summary": {
-        "precincts_reporting": 887,
+        "precincts_reporting": 941,
         "total_precincts": 1291
       },
       "contests": []
@@ -35622,7 +35622,7 @@
     "Livingston": {
       "county": "Livingston",
       "election_date": "2026-03-17",
-      "scraped_at": "2026-11-03T21:22:30.675811",
+      "scraped_at": "2026-11-03T21:28:40.306494",
       "source": "pollresults.net \u2014 https://il-livingston.pollresults.net",
       "summary": {
         "registered_voters": 22933,
