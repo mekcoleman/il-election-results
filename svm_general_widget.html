@@ -936,7 +936,10 @@ function buildSections(countyDataMap, suptRaces, crossCountyRefs, aggregatedRace
         if (!firstMatch) firstMatch = c;
         if (!hasCcounty || !county) usedSharedIds.add(contestName(c));
         for (const cand of (c.candidates || [])) {
-          const key = (cand.name || '').toUpperCase().trim();
+          const rawName = (cand.name || '').trim();
+          // Skip cross-filed/parenthesized duplicates
+          if (rawName.startsWith('(')) continue;
+          const key = rawName.toUpperCase();
           if (!seenNames.has(key)) {
             seenNames.add(key);
             mergedCandidates.push(cand);
@@ -1078,17 +1081,20 @@ function renderSections(sections) {
 // ══════════════════════════════════════════════════════════════════════════════
 
 function updatePrecinctBar(countyDataMap, statewideRaces) {
-  // Sum precincts across core counties
-  let reporting = 0, total = 0, seen = new Set();
+  // Per county: pick the contest with the most total precincts as representative
+  let reporting = 0, total = 0;
   for (const data of Object.values(countyDataMap)) {
     if (!data) continue;
     const flat = flattenCountyContests(data);
+    let maxTotal = 0, maxReporting = 0;
     for (const c of flat) {
-      const t = c.total_precincts || 0;
-      const r = c.precincts_reporting || 0;
-      // Use the contest with the most precincts per county as that county's rep
-      if (t > 0 && !seen.has(t)) { seen.add(t); reporting += r; total += t; }
+      if ((c.total_precincts || 0) > maxTotal) {
+        maxTotal     = c.total_precincts;
+        maxReporting = c.precincts_reporting || 0;
+      }
     }
+    reporting += maxReporting;
+    total     += maxTotal;
   }
   const bar = document.getElementById('precinct-bar');
   if (total > 0) {
