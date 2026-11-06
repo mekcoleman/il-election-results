@@ -1,6 +1,6 @@
 {
-  "aggregated_at": "2026-11-06T14:11:04.932608",
-  "num_counties": 95,
+  "aggregated_at": "2026-11-06T14:35:08.205850",
+  "num_counties": 97,
   "counties_included": [
     "Shelby",
     "Bond",
@@ -80,7 +80,9 @@
     "Greene",
     "Moultrie",
     "Ford",
+    "Iroquois",
     "St. Clair",
+    "McLean",
     "Pike",
     "Morgan",
     "Saline",
@@ -141,6 +143,7 @@
         "Coles",
         "Moultrie",
         "Ford",
+        "Iroquois",
         "Tazewell",
         "Rock Island",
         "DeKalb",
@@ -148,167 +151,170 @@
         "Chicago Board of Election Commissioners",
         "Livingston"
       ],
-      "num_counties": 44,
+      "num_counties": 45,
       "candidates": {
         "0": {
           "name": "JB Pritzker / Christian Mitchell",
           "party": "Democratic",
-          "votes": 2062503,
+          "votes": 2064498,
           "counties": [
-            "Shelby",
-            "Carroll",
-            "Moultrie",
-            "Chicago Board of Election Commissioners",
-            "Ford",
-            "Winnebago",
-            "DuPage",
-            "Boone",
-            "Kankakee",
-            "Logan",
-            "Whiteside",
-            "DeWitt",
-            "Ogle",
-            "Macon",
-            "Piatt",
-            "Stephenson",
-            "Marshall",
-            "Douglas",
-            "Kendall",
-            "Kane",
-            "Lake",
-            "Putnam",
-            "Christian",
-            "Grundy",
-            "Mason",
-            "Tazewell",
             "Lee",
-            "DeKalb",
+            "Bond",
+            "Chicago Board of Election Commissioners",
+            "Carroll",
+            "Lake",
+            "Kankakee",
+            "Grundy",
+            "Will",
+            "Sangamon",
+            "Whiteside",
+            "Stephenson",
+            "Douglas",
             "Vermilion",
-            "Edgar",
+            "Putnam",
+            "Tazewell",
+            "Ford",
+            "Piatt",
+            "DeKalb",
+            "La Salle",
             "Jo Daviess",
             "Bureau",
-            "Henry",
-            "Clark",
-            "Rock Island",
-            "Bloomington",
-            "Livingston",
-            "Bond",
-            "Will",
-            "La Salle",
-            "Cook",
-            "Coles",
+            "Macon",
+            "Winnebago",
+            "Ogle",
+            "Logan",
+            "Moultrie",
+            "DuPage",
             "McHenry",
-            "Sangamon"
+            "Rock Island",
+            "Kendall",
+            "Edgar",
+            "DeWitt",
+            "Livingston",
+            "Boone",
+            "Coles",
+            "Marshall",
+            "Henry",
+            "Cook",
+            "Mason",
+            "Kane",
+            "Clark",
+            "Christian",
+            "Iroquois",
+            "Shelby",
+            "Bloomington"
           ],
-          "percentage": 64.68
+          "percentage": 64.55
         },
         "1": {
           "name": "Darren Bailey / Aaron B. Del Mar",
           "party": "Republican",
-          "votes": 1017154,
+          "votes": 1024769,
           "counties": [
-            "Shelby",
-            "Carroll",
-            "Moultrie",
-            "Chicago Board of Election Commissioners",
-            "Ford",
-            "Winnebago",
-            "DuPage",
-            "Boone",
-            "Kankakee",
-            "Logan",
-            "Whiteside",
-            "DeWitt",
-            "Ogle",
-            "Macon",
-            "Piatt",
-            "Stephenson",
-            "Marshall",
-            "Douglas",
-            "Kendall",
-            "Kane",
-            "Lake",
-            "Putnam",
-            "Christian",
-            "Grundy",
-            "Mason",
-            "Tazewell",
             "Lee",
-            "DeKalb",
+            "Bond",
+            "Chicago Board of Election Commissioners",
+            "Carroll",
+            "Lake",
+            "Kankakee",
+            "Grundy",
+            "Will",
+            "Sangamon",
+            "Whiteside",
+            "Stephenson",
+            "Douglas",
             "Vermilion",
-            "Edgar",
+            "Putnam",
+            "Tazewell",
+            "Ford",
+            "Piatt",
+            "DeKalb",
+            "La Salle",
             "Jo Daviess",
             "Bureau",
-            "Henry",
-            "Clark",
-            "Rock Island",
-            "Bloomington",
-            "Livingston",
-            "Bond",
-            "Will",
-            "La Salle",
-            "Cook",
-            "Coles",
+            "Macon",
+            "Winnebago",
+            "Ogle",
+            "Logan",
+            "Moultrie",
+            "DuPage",
             "McHenry",
-            "Sangamon"
+            "Rock Island",
+            "Kendall",
+            "Edgar",
+            "DeWitt",
+            "Livingston",
+            "Boone",
+            "Coles",
+            "Marshall",
+            "Henry",
+            "Cook",
+            "Mason",
+            "Kane",
+            "Clark",
+            "Christian",
+            "Iroquois",
+            "Shelby",
+            "Bloomington"
           ],
-          "percentage": 31.9
+          "percentage": 32.04
         },
         "2": {
           "name": "I / Collin Corbett / Carolyn Schofield",
           "party": "Democratic",
-          "votes": 102874,
+          "votes": 103149,
           "counties": [
-            "Shelby",
-            "Carroll",
-            "Moultrie",
+            "Lee",
+            "Bond",
             "Chicago Board of Election Commissioners",
-            "Ford",
-            "Winnebago",
-            "DuPage",
-            "Boone",
-            "Kankakee",
-            "Logan",
-            "Whiteside",
-            "DeWitt",
-            "Ogle",
-            "Macon",
-            "Piatt",
-            "Stephenson",
-            "Marshall",
-            "Douglas",
-            "Kendall",
-            "Kane",
+            "Carroll",
             "Lake",
-            "Putnam",
+            "Kankakee",
             "Christian",
             "Grundy",
-            "Mason",
-            "DeKalb",
-            "Jo Daviess",
-            "Lee",
+            "Will",
+            "Sangamon",
+            "Whiteside",
+            "Stephenson",
+            "Douglas",
             "Vermilion",
             "Tazewell",
-            "Edgar",
-            "Bureau",
-            "Henry",
-            "Clark",
-            "Rock Island",
-            "Bloomington",
-            "Livingston",
-            "Bond",
-            "Will",
+            "Ford",
+            "Piatt",
+            "DeKalb",
+            "Jo Daviess",
             "La Salle",
-            "Cook",
+            "Bureau",
+            "Macon",
+            "Ogle",
+            "Logan",
+            "Winnebago",
+            "Moultrie",
+            "Kendall",
+            "DuPage",
+            "Rock Island",
+            "Edgar",
+            "DeWitt",
+            "Henry",
+            "Marshall",
+            "Boone",
             "Coles",
-            "Sangamon"
+            "Livingston",
+            "Cook",
+            "Mason",
+            "Kane",
+            "Clark",
+            "Putnam",
+            "Iroquois",
+            "Shelby",
+            "Bloomington"
           ],
-          "percentage": 3.23
+          "percentage": 3.22
         }
       },
-      "precincts_reporting": 4543,
-      "total_precincts": 4598,
-      "total_votes": 3188593,
+      "precincts_reporting": 4580,
+      "total_precincts": 4635,
+      "total_votes": 3198482,
       "race_id": "governor",
       "label": "Governor / Lieutenant Governor",
       "counties_needed": [
@@ -390,7 +396,9 @@
         "Greene",
         "Moultrie",
         "Ford",
+        "Iroquois",
         "St. Clair",
+        "McLean",
         "Pike",
         "Morgan",
         "Saline",
@@ -447,6 +455,7 @@
         "Coles",
         "Moultrie",
         "Ford",
+        "Iroquois",
         "Tazewell",
         "Rock Island",
         "DeKalb",
@@ -496,6 +505,7 @@
         "Calhoun",
         "Greene",
         "St. Clair",
+        "McLean",
         "Pike",
         "Morgan",
         "Saline",
@@ -550,6 +560,8 @@
         "Coles",
         "Moultrie",
         "Ford",
+        "Iroquois",
+        "McLean",
         "Tazewell",
         "Rock Island",
         "DeKalb",
@@ -557,12 +569,12 @@
         "Chicago Board of Election Commissioners",
         "Livingston"
       ],
-      "num_counties": 43,
+      "num_counties": 45,
       "candidates": {
         "0": {
           "name": "Juliana Stratton",
           "party": "Democratic",
-          "votes": 1432153,
+          "votes": 1454433,
           "counties": [
             "Shelby",
             "Bond",
@@ -601,6 +613,8 @@
             "Coles",
             "Moultrie",
             "Ford",
+            "Iroquois",
+            "McLean",
             "Tazewell",
             "Rock Island",
             "DeKalb",
@@ -608,12 +622,12 @@
             "Chicago Board of Election Commissioners",
             "Livingston"
           ],
-          "percentage": 63.31
+          "percentage": 62.96
         },
         "1": {
           "name": "Don Tracy",
           "party": "Republican",
-          "votes": 794292,
+          "votes": 818955,
           "counties": [
             "Shelby",
             "Bond",
@@ -652,6 +666,8 @@
             "Coles",
             "Moultrie",
             "Ford",
+            "Iroquois",
+            "McLean",
             "Tazewell",
             "Rock Island",
             "DeKalb",
@@ -659,12 +675,12 @@
             "Chicago Board of Election Commissioners",
             "Livingston"
           ],
-          "percentage": 35.11
+          "percentage": 35.45
         },
         "2": {
           "name": "Whitfield Harrington JR",
           "party": "ACP",
-          "votes": 35814,
+          "votes": 36548,
           "counties": [
             "Shelby",
             "Bond",
@@ -702,6 +718,8 @@
             "Coles",
             "Moultrie",
             "Ford",
+            "Iroquois",
+            "McLean",
             "Tazewell",
             "Rock Island",
             "DeKalb",
@@ -712,9 +730,9 @@
           "percentage": 1.58
         }
       },
-      "precincts_reporting": 4201,
-      "total_precincts": 4261,
-      "total_votes": 2262259,
+      "precincts_reporting": 4319,
+      "total_precincts": 4379,
+      "total_votes": 2309936,
       "race_id": "us_senate",
       "label": "U.S. Senate",
       "counties_needed": [
@@ -796,7 +814,9 @@
         "Greene",
         "Moultrie",
         "Ford",
+        "Iroquois",
         "St. Clair",
+        "McLean",
         "Pike",
         "Morgan",
         "Saline",
@@ -851,6 +871,8 @@
         "Coles",
         "Moultrie",
         "Ford",
+        "Iroquois",
+        "McLean",
         "Tazewell",
         "Rock Island",
         "DeKalb",
@@ -957,6 +979,7 @@
         "Coles",
         "Moultrie",
         "Ford",
+        "Iroquois",
         "Tazewell",
         "Rock Island",
         "DeKalb",
@@ -964,12 +987,12 @@
         "Chicago Board of Election Commissioners",
         "Livingston"
       ],
-      "num_counties": 44,
+      "num_counties": 45,
       "candidates": {
         "0": {
           "name": "Kwame Raoul",
           "party": "Democratic",
-          "votes": 2092352,
+          "votes": 2094553,
           "counties": [
             "Shelby",
             "Bond",
@@ -1009,6 +1032,7 @@
             "Coles",
             "Moultrie",
             "Ford",
+            "Iroquois",
             "Tazewell",
             "Rock Island",
             "DeKalb",
@@ -1016,12 +1040,12 @@
             "Chicago Board of Election Commissioners",
             "Livingston"
           ],
-          "percentage": 65.9
+          "percentage": 65.77
         },
         "1": {
           "name": "Robert W. Fioretti",
           "party": "Republican",
-          "votes": 1082725,
+          "votes": 1090150,
           "counties": [
             "Shelby",
             "Bond",
@@ -1061,6 +1085,7 @@
             "Coles",
             "Moultrie",
             "Ford",
+            "Iroquois",
             "Tazewell",
             "Rock Island",
             "DeKalb",
@@ -1068,12 +1093,12 @@
             "Chicago Board of Election Commissioners",
             "Livingston"
           ],
-          "percentage": 34.1
+          "percentage": 34.23
         }
       },
-      "precincts_reporting": 4543,
-      "total_precincts": 4598,
-      "total_votes": 3175077,
+      "precincts_reporting": 4580,
+      "total_precincts": 4635,
+      "total_votes": 3184703,
       "race_id": "attorney_general",
       "label": "Attorney General",
       "counties_needed": [
@@ -1155,7 +1180,9 @@
         "Greene",
         "Moultrie",
         "Ford",
+        "Iroquois",
         "St. Clair",
+        "McLean",
         "Pike",
         "Morgan",
         "Saline",
@@ -1212,6 +1239,7 @@
         "Coles",
         "Moultrie",
         "Ford",
+        "Iroquois",
         "Tazewell",
         "Rock Island",
         "DeKalb",
@@ -1261,6 +1289,7 @@
         "Calhoun",
         "Greene",
         "St. Clair",
+        "McLean",
         "Pike",
         "Morgan",
         "Saline",
@@ -1316,6 +1345,8 @@
         "Coles",
         "Moultrie",
         "Ford",
+        "Iroquois",
+        "McLean",
         "Tazewell",
         "Rock Island",
         "DeKalb",
@@ -1323,12 +1354,12 @@
         "Chicago Board of Election Commissioners",
         "Livingston"
       ],
-      "num_counties": 44,
+      "num_counties": 46,
       "candidates": {
         "0": {
           "name": "Margaret Croke",
           "party": "Democratic",
-          "votes": 2071199,
+          "votes": 2092931,
           "counties": [
             "Shelby",
             "Bond",
@@ -1368,6 +1399,8 @@
             "Coles",
             "Moultrie",
             "Ford",
+            "Iroquois",
+            "McLean",
             "Tazewell",
             "Rock Island",
             "DeKalb",
@@ -1375,12 +1408,12 @@
             "Chicago Board of Election Commissioners",
             "Livingston"
           ],
-          "percentage": 65.3
+          "percentage": 65.02
         },
         "1": {
           "name": "Bryan Drew",
           "party": "Republican",
-          "votes": 1099608,
+          "votes": 1125183,
           "counties": [
             "Shelby",
             "Bond",
@@ -1420,6 +1453,8 @@
             "Coles",
             "Moultrie",
             "Ford",
+            "Iroquois",
+            "McLean",
             "Tazewell",
             "Rock Island",
             "DeKalb",
@@ -1427,12 +1462,12 @@
             "Chicago Board of Election Commissioners",
             "Livingston"
           ],
-          "percentage": 34.67
+          "percentage": 34.95
         }
       },
-      "precincts_reporting": 4632,
-      "total_precincts": 4687,
-      "total_votes": 3171790,
+      "precincts_reporting": 4750,
+      "total_precincts": 4805,
+      "total_votes": 3219140,
       "race_id": "comptroller",
       "label": "Comptroller",
       "counties_needed": [
@@ -1514,7 +1549,9 @@
         "Greene",
         "Moultrie",
         "Ford",
+        "Iroquois",
         "St. Clair",
+        "McLean",
         "Pike",
         "Morgan",
         "Saline",
@@ -1571,6 +1608,8 @@
         "Coles",
         "Moultrie",
         "Ford",
+        "Iroquois",
+        "McLean",
         "Tazewell",
         "Rock Island",
         "DeKalb",
@@ -1675,6 +1714,7 @@
         "Coles",
         "Moultrie",
         "Ford",
+        "Iroquois",
         "Tazewell",
         "Rock Island",
         "DeKalb",
@@ -1682,12 +1722,12 @@
         "Chicago Board of Election Commissioners",
         "Livingston"
       ],
-      "num_counties": 44,
+      "num_counties": 45,
       "candidates": {
         "0": {
           "name": "Alexi Giannoulias",
           "party": "Democratic",
-          "votes": 2188691,
+          "votes": 2191397,
           "counties": [
             "Shelby",
             "Bond",
@@ -1727,6 +1767,7 @@
             "Coles",
             "Moultrie",
             "Ford",
+            "Iroquois",
             "Tazewell",
             "Rock Island",
             "DeKalb",
@@ -1734,64 +1775,65 @@
             "Chicago Board of Election Commissioners",
             "Livingston"
           ],
-          "percentage": 69.02
+          "percentage": 68.89
         },
         "1": {
           "name": "Diane M. Harris",
           "party": "Republican",
-          "votes": 982283,
+          "votes": 989397,
           "counties": [
-            "Shelby",
-            "Bond",
-            "Cook",
-            "Kankakee",
-            "Whiteside",
-            "Ogle",
-            "Logan",
-            "DuPage",
-            "Macon",
-            "Marshall",
-            "DeWitt",
-            "Jo Daviess",
-            "Kane",
-            "Vermilion",
             "Lee",
-            "Douglas",
-            "Will",
-            "Winnebago",
-            "Putnam",
-            "Piatt",
-            "Henry",
-            "Boone",
-            "La Salle",
-            "Bureau",
+            "Bond",
+            "Chicago Board of Election Commissioners",
+            "Carroll",
             "Lake",
-            "Bloomington",
-            "Kendall",
-            "Mason",
+            "Kankakee",
             "Christian",
             "Grundy",
-            "McHenry",
-            "Carroll",
-            "Stephenson",
-            "Clark",
+            "Will",
             "Sangamon",
-            "Coles",
-            "Moultrie",
-            "Ford",
+            "Whiteside",
+            "Stephenson",
+            "Douglas",
+            "Vermilion",
             "Tazewell",
-            "Rock Island",
+            "Ford",
+            "Piatt",
             "DeKalb",
+            "Jo Daviess",
+            "La Salle",
+            "Bureau",
+            "Macon",
+            "Winnebago",
+            "Ogle",
+            "Logan",
+            "Moultrie",
+            "DuPage",
+            "Kendall",
+            "McHenry",
+            "Rock Island",
             "Edgar",
-            "Chicago Board of Election Commissioners",
-            "Livingston"
+            "DeWitt",
+            "Henry",
+            "Marshall",
+            "Boone",
+            "Coles",
+            "Livingston",
+            "Cook",
+            "Mason",
+            "Kane",
+            "Clark",
+            "Putnam",
+            "Iroquois",
+            "Shelby",
+            "Bloomington"
           ],
-          "percentage": 30.98
+          "percentage": 31.11
         }
       },
-      "precincts_reporting": 4543,
-      "total_precincts": 4598,
-      "total_votes": 3170974,
+      "precincts_reporting": 4580,
+      "total_precincts": 4635,
+      "total_votes": 3180794,
       "race_id": "secretary_of_state",
       "label": "Secretary of State",
       "counties_needed": [
@@ -1873,7 +1915,9 @@
         "Greene",
         "Moultrie",
         "Ford",
+        "Iroquois",
         "St. Clair",
+        "McLean",
         "Pike",
         "Morgan",
         "Saline",
@@ -1930,6 +1974,7 @@
         "Coles",
         "Moultrie",
         "Ford",
+        "Iroquois",
         "Tazewell",
         "Rock Island",
         "DeKalb",
@@ -1979,6 +2024,7 @@
         "Calhoun",
         "Greene",
         "St. Clair",
+        "McLean",
         "Pike",
         "Morgan",
         "Saline",
@@ -2033,18 +2079,20 @@
         "Coles",
         "Moultrie",
         "Ford",
+        "Iroquois",
+        "McLean",
         "Tazewell",
         "Rock Island",
         "Edgar",
         "Chicago Board of Election Commissioners",
         "Livingston"
       ],
-      "num_counties": 42,
+      "num_counties": 44,
       "candidates": {
         "0": {
           "name": "Michael W. Frerichs",
           "party": "Democratic",
-          "votes": 1742317,
+          "votes": 1765148,
           "counties": [
             "Shelby",
             "Bond",
@@ -2082,18 +2130,20 @@
             "Coles",
             "Moultrie",
             "Ford",
+            "Iroquois",
+            "McLean",
             "Tazewell",
             "Rock Island",
             "Edgar",
             "Chicago Board of Election Commissioners",
             "Livingston"
           ],
-          "percentage": 66.11
+          "percentage": 65.79
         },
         "1": {
           "name": "Max Solomon",
           "party": "Republican",
-          "votes": 845127,
+          "votes": 869663,
           "counties": [
             "Shelby",
             "Bond",
@@ -2131,18 +2181,20 @@
             "Coles",
             "Moultrie",
             "Ford",
+            "Iroquois",
+            "McLean",
             "Tazewell",
             "Rock Island",
             "Edgar",
             "Chicago Board of Election Commissioners",
             "Livingston"
           ],
-          "percentage": 32.07
+          "percentage": 32.42
         }
       },
-      "precincts_reporting": 2695,
-      "total_precincts": 2725,
-      "total_votes": 2635438,
+      "precincts_reporting": 2813,
+      "total_precincts": 2843,
+      "total_votes": 2682837,
       "race_id": "treasurer",
       "label": "Treasurer",
       "counties_needed": [
@@ -2224,7 +2276,9 @@
         "Greene",
         "Moultrie",
         "Ford",
+        "Iroquois",
         "St. Clair",
+        "McLean",
         "Pike",
         "Morgan",
         "Saline",
@@ -2279,6 +2333,8 @@
         "Coles",
         "Moultrie",
         "Ford",
+        "Iroquois",
+        "McLean",
         "Tazewell",
         "Rock Island",
         "Edgar",
@@ -2388,6 +2444,7 @@
           "Coles",
           "Moultrie",
           "Ford",
+          "Iroquois",
           "Tazewell",
           "Rock Island",
           "DeKalb",
@@ -2395,167 +2452,170 @@
           "Chicago Board of Election Commissioners",
           "Livingston"
         ],
-        "num_counties": 44,
+        "num_counties": 45,
         "candidates": {
           "0": {
             "name": "JB Pritzker / Christian Mitchell",
             "party": "Democratic",
-            "votes": 2062503,
+            "votes": 2064498,
             "counties": [
-              "Shelby",
-              "Carroll",
-              "Moultrie",
-              "Chicago Board of Election Commissioners",
-              "Ford",
-              "Winnebago",
-              "DuPage",
-              "Boone",
-              "Kankakee",
-              "Logan",
-              "Whiteside",
-              "DeWitt",
-              "Ogle",
-              "Macon",
-              "Piatt",
-              "Stephenson",
-              "Marshall",
-              "Douglas",
-              "Kendall",
-              "Kane",
-              "Lake",
-              "Putnam",
-              "Christian",
-              "Grundy",
-              "Mason",
-              "Tazewell",
               "Lee",
-              "DeKalb",
+              "Bond",
+              "Chicago Board of Election Commissioners",
+              "Carroll",
+              "Lake",
+              "Kankakee",
+              "Grundy",
+              "Will",
+              "Sangamon",
+              "Whiteside",
+              "Stephenson",
+              "Douglas",
               "Vermilion",
-              "Edgar",
+              "Putnam",
+              "Tazewell",
+              "Ford",
+              "Piatt",
+              "DeKalb",
+              "La Salle",
               "Jo Daviess",
               "Bureau",
-              "Henry",
-              "Clark",
-              "Rock Island",
-              "Bloomington",
-              "Livingston",
-              "Bond",
-              "Will",
-              "La Salle",
-              "Cook",
-              "Coles",
+              "Macon",
+              "Winnebago",
+              "Ogle",
+              "Logan",
+              "Moultrie",
+              "DuPage",
               "McHenry",
-              "Sangamon"
+              "Rock Island",
+              "Kendall",
+              "Edgar",
+              "DeWitt",
+              "Livingston",
+              "Boone",
+              "Coles",
+              "Marshall",
+              "Henry",
+              "Cook",
+              "Mason",
+              "Kane",
+              "Clark",
+              "Christian",
+              "Iroquois",
+              "Shelby",
+              "Bloomington"
             ],
-            "percentage": 64.68
+            "percentage": 64.55
           },
           "1": {
             "name": "Darren Bailey / Aaron B. Del Mar",
             "party": "Republican",
-            "votes": 1017154,
+            "votes": 1024769,
             "counties": [
-              "Shelby",
-              "Carroll",
-              "Moultrie",
-              "Chicago Board of Election Commissioners",
-              "Ford",
-              "Winnebago",
-              "DuPage",
-              "Boone",
-              "Kankakee",
-              "Logan",
-              "Whiteside",
-              "DeWitt",
-              "Ogle",
-              "Macon",
-              "Piatt",
-              "Stephenson",
-              "Marshall",
-              "Douglas",
-              "Kendall",
-              "Kane",
-              "Lake",
-              "Putnam",
-              "Christian",
-              "Grundy",
-              "Mason",
-              "Tazewell",
               "Lee",
-              "DeKalb",
+              "Bond",
+              "Chicago Board of Election Commissioners",
+              "Carroll",
+              "Lake",
+              "Kankakee",
+              "Grundy",
+              "Will",
+              "Sangamon",
+              "Whiteside",
+              "Stephenson",
+              "Douglas",
               "Vermilion",
-              "Edgar",
+              "Putnam",
+              "Tazewell",
+              "Ford",
+              "Piatt",
+              "DeKalb",
+              "La Salle",
               "Jo Daviess",
               "Bureau",
-              "Henry",
-              "Clark",
-              "Rock Island",
-              "Bloomington",
-              "Livingston",
-              "Bond",
-              "Will",
-              "La Salle",
-              "Cook",
-              "Coles",
+              "Macon",
+              "Winnebago",
+              "Ogle",
+              "Logan",
+              "Moultrie",
+              "DuPage",
               "McHenry",
-              "Sangamon"
+              "Rock Island",
+              "Kendall",
+              "Edgar",
+              "DeWitt",
+              "Livingston",
+              "Boone",
+              "Coles",
+              "Marshall",
+              "Henry",
+              "Cook",
+              "Mason",
+              "Kane",
+              "Clark",
+              "Christian",
+              "Iroquois",
+              "Shelby",
+              "Bloomington"
             ],
-            "percentage": 31.9
+            "percentage": 32.04
           },
           "2": {
             "name": "I / Collin Corbett / Carolyn Schofield",
             "party": "Democratic",
-            "votes": 102874,
+            "votes": 103149,
             "counties": [
-              "Shelby",
-              "Carroll",
-              "Moultrie",
+              "Lee",
+              "Bond",
               "Chicago Board of Election Commissioners",
-              "Ford",
-              "Winnebago",
-              "DuPage",
-              "Boone",
-              "Kankakee",
-              "Logan",
-              "Whiteside",
-              "DeWitt",
-              "Ogle",
-              "Macon",
-              "Piatt",
-              "Stephenson",
-              "Marshall",
-              "Douglas",
-              "Kendall",
-              "Kane",
+              "Carroll",
               "Lake",
-              "Putnam",
+              "Kankakee",
               "Christian",
               "Grundy",
-              "Mason",
-              "DeKalb",
-              "Jo Daviess",
-              "Lee",
+              "Will",
+              "Sangamon",
+              "Whiteside",
+              "Stephenson",
+              "Douglas",
               "Vermilion",
               "Tazewell",
-              "Edgar",
-              "Bureau",
-              "Henry",
-              "Clark",
-              "Rock Island",
-              "Bloomington",
-              "Livingston",
-              "Bond",
-              "Will",
+              "Ford",
+              "Piatt",
+              "DeKalb",
+              "Jo Daviess",
               "La Salle",
-              "Cook",
+              "Bureau",
+              "Macon",
+              "Ogle",
+              "Logan",
+              "Winnebago",
+              "Moultrie",
+              "Kendall",
+              "DuPage",
+              "Rock Island",
+              "Edgar",
+              "DeWitt",
+              "Henry",
+              "Marshall",
+              "Boone",
               "Coles",
-              "Sangamon"
+              "Livingston",
+              "Cook",
+              "Mason",
+              "Kane",
+              "Clark",
+              "Putnam",
+              "Iroquois",
+              "Shelby",
+              "Bloomington"
             ],
-            "percentage": 3.23
+            "percentage": 3.22
           }
         },
-        "precincts_reporting": 4543,
-        "total_precincts": 4598,
-        "total_votes": 3188593,
+        "precincts_reporting": 4580,
+        "total_precincts": 4635,
+        "total_votes": 3198482,
         "race_id": "governor",
         "label": "Governor / Lieutenant Governor",
         "counties_needed": [
@@ -2637,7 +2697,9 @@
           "Greene",
           "Moultrie",
           "Ford",
+          "Iroquois",
           "St. Clair",
+          "McLean",
           "Pike",
           "Morgan",
           "Saline",
@@ -2694,6 +2756,7 @@
           "Coles",
           "Moultrie",
           "Ford",
+          "Iroquois",
           "Tazewell",
           "Rock Island",
           "DeKalb",
@@ -2743,6 +2806,7 @@
           "Calhoun",
           "Greene",
           "St. Clair",
+          "McLean",
           "Pike",
           "Morgan",
           "Saline",
@@ -2797,6 +2861,8 @@
           "Coles",
           "Moultrie",
           "Ford",
+          "Iroquois",
+          "McLean",
           "Tazewell",
           "Rock Island",
           "DeKalb",
@@ -2804,12 +2870,12 @@
           "Chicago Board of Election Commissioners",
           "Livingston"
         ],
-        "num_counties": 43,
+        "num_counties": 45,
         "candidates": {
           "0": {
             "name": "Juliana Stratton",
             "party": "Democratic",
-            "votes": 1432153,
+            "votes": 1454433,
             "counties": [
               "Shelby",
               "Bond",
@@ -2848,6 +2914,8 @@
               "Coles",
               "Moultrie",
               "Ford",
+              "Iroquois",
+              "McLean",
               "Tazewell",
               "Rock Island",
               "DeKalb",
@@ -2855,12 +2923,12 @@
               "Chicago Board of Election Commissioners",
               "Livingston"
             ],
-            "percentage": 63.31
+            "percentage": 62.96
           },
           "1": {
             "name": "Don Tracy",
             "party": "Republican",
-            "votes": 794292,
+            "votes": 818955,
             "counties": [
               "Shelby",
               "Bond",
@@ -2899,6 +2967,8 @@
               "Coles",
               "Moultrie",
               "Ford",
+              "Iroquois",
+              "McLean",
               "Tazewell",
               "Rock Island",
               "DeKalb",
@@ -2906,12 +2976,12 @@
               "Chicago Board of Election Commissioners",
               "Livingston"
             ],
-            "percentage": 35.11
+            "percentage": 35.45
           },
           "2": {
             "name": "Whitfield Harrington JR",
             "party": "ACP",
-            "votes": 35814,
+            "votes": 36548,
             "counties": [
               "Shelby",
               "Bond",
@@ -2949,6 +3019,8 @@
               "Coles",
               "Moultrie",
               "Ford",
+              "Iroquois",
+              "McLean",
               "Tazewell",
               "Rock Island",
               "DeKalb",
@@ -2959,9 +3031,9 @@
             "percentage": 1.58
           }
         },
-        "precincts_reporting": 4201,
-        "total_precincts": 4261,
-        "total_votes": 2262259,
+        "precincts_reporting": 4319,
+        "total_precincts": 4379,
+        "total_votes": 2309936,
         "race_id": "us_senate",
         "label": "U.S. Senate",
         "counties_needed": [
@@ -3043,7 +3115,9 @@
           "Greene",
           "Moultrie",
           "Ford",
+          "Iroquois",
           "St. Clair",
+          "McLean",
           "Pike",
           "Morgan",
           "Saline",
@@ -3098,6 +3172,8 @@
           "Coles",
           "Moultrie",
           "Ford",
+          "Iroquois",
+          "McLean",
           "Tazewell",
           "Rock Island",
           "DeKalb",
@@ -3204,6 +3280,7 @@
           "Coles",
           "Moultrie",
           "Ford",
+          "Iroquois",
           "Tazewell",
           "Rock Island",
           "DeKalb",
@@ -3211,12 +3288,12 @@
           "Chicago Board of Election Commissioners",
           "Livingston"
         ],
-        "num_counties": 44,
+        "num_counties": 45,
         "candidates": {
           "0": {
             "name": "Kwame Raoul",
             "party": "Democratic",
-            "votes": 2092352,
+            "votes": 2094553,
             "counties": [
               "Shelby",
               "Bond",
@@ -3256,6 +3333,7 @@
               "Coles",
               "Moultrie",
               "Ford",
+              "Iroquois",
               "Tazewell",
               "Rock Island",
               "DeKalb",
@@ -3263,12 +3341,12 @@
               "Chicago Board of Election Commissioners",
               "Livingston"
             ],
-            "percentage": 65.9
+            "percentage": 65.77
           },
           "1": {
             "name": "Robert W. Fioretti",
             "party": "Republican",
-            "votes": 1082725,
+            "votes": 1090150,
             "counties": [
               "Shelby",
               "Bond",
@@ -3308,6 +3386,7 @@
               "Coles",
               "Moultrie",
               "Ford",
+              "Iroquois",
               "Tazewell",
               "Rock Island",
               "DeKalb",
@@ -3315,12 +3394,12 @@
               "Chicago Board of Election Commissioners",
               "Livingston"
             ],
-            "percentage": 34.1
+            "percentage": 34.23
           }
         },
-        "precincts_reporting": 4543,
-        "total_precincts": 4598,
-        "total_votes": 3175077,
+        "precincts_reporting": 4580,
+        "total_precincts": 4635,
+        "total_votes": 3184703,
         "race_id": "attorney_general",
         "label": "Attorney General",
         "counties_needed": [
@@ -3402,7 +3481,9 @@
           "Greene",
           "Moultrie",
           "Ford",
+          "Iroquois",
           "St. Clair",
+          "McLean",
           "Pike",
           "Morgan",
           "Saline",
@@ -3459,6 +3540,7 @@
           "Coles",
           "Moultrie",
           "Ford",
+          "Iroquois",
           "Tazewell",
           "Rock Island",
           "DeKalb",
@@ -3508,6 +3590,7 @@
           "Calhoun",
           "Greene",
           "St. Clair",
+          "McLean",
           "Pike",
           "Morgan",
           "Saline",
@@ -3563,6 +3646,8 @@
           "Coles",
           "Moultrie",
           "Ford",
+          "Iroquois",
+          "McLean",
           "Tazewell",
           "Rock Island",
           "DeKalb",
@@ -3570,12 +3655,12 @@
           "Chicago Board of Election Commissioners",
           "Livingston"
         ],
-        "num_counties": 44,
+        "num_counties": 46,
         "candidates": {
           "0": {
             "name": "Margaret Croke",
             "party": "Democratic",
-            "votes": 2071199,
+            "votes": 2092931,
             "counties": [
               "Shelby",
               "Bond",
@@ -3615,6 +3700,8 @@
               "Coles",
               "Moultrie",
               "Ford",
+              "Iroquois",
+              "McLean",
               "Tazewell",
               "Rock Island",
               "DeKalb",
@@ -3622,12 +3709,12 @@
               "Chicago Board of Election Commissioners",
               "Livingston"
             ],
-            "percentage": 65.3
+            "percentage": 65.02
           },
           "1": {
             "name": "Bryan Drew",
             "party": "Republican",
-            "votes": 1099608,
+            "votes": 1125183,
             "counties": [
               "Shelby",
               "Bond",
@@ -3667,6 +3754,8 @@
               "Coles",
               "Moultrie",
               "Ford",
+              "Iroquois",
+              "McLean",
               "Tazewell",
               "Rock Island",
               "DeKalb",
@@ -3674,12 +3763,12 @@
               "Chicago Board of Election Commissioners",
               "Livingston"
             ],
-            "percentage": 34.67
+            "percentage": 34.95
           }
         },
-        "precincts_reporting": 4632,
-        "total_precincts": 4687,
-        "total_votes": 3171790,
+        "precincts_reporting": 4750,
+        "total_precincts": 4805,
+        "total_votes": 3219140,
         "race_id": "comptroller",
         "label": "Comptroller",
         "counties_needed": [
@@ -3761,7 +3850,9 @@
           "Greene",
           "Moultrie",
           "Ford",
+          "Iroquois",
           "St. Clair",
+          "McLean",
           "Pike",
           "Morgan",
           "Saline",
@@ -3818,6 +3909,8 @@
           "Coles",
           "Moultrie",
           "Ford",
+          "Iroquois",
+          "McLean",
           "Tazewell",
           "Rock Island",
           "DeKalb",
@@ -3922,6 +4015,7 @@
           "Coles",
           "Moultrie",
           "Ford",
+          "Iroquois",
           "Tazewell",
           "Rock Island",
           "DeKalb",
@@ -3929,12 +4023,12 @@
           "Chicago Board of Election Commissioners",
           "Livingston"
         ],
-        "num_counties": 44,
+        "num_counties": 45,
         "candidates": {
           "0": {
             "name": "Alexi Giannoulias",
             "party": "Democratic",
-            "votes": 2188691,
+            "votes": 2191397,
             "counties": [
               "Shelby",
               "Bond",
@@ -3974,6 +4068,7 @@
               "Coles",
               "Moultrie",
               "Ford",
+              "Iroquois",
               "Tazewell",
               "Rock Island",
               "DeKalb",
@@ -3981,64 +4076,65 @@
               "Chicago Board of Election Commissioners",
               "Livingston"
             ],
-            "percentage": 69.02
+            "percentage": 68.89
           },
           "1": {
             "name": "Diane M. Harris",
             "party": "Republican",
-            "votes": 982283,
+            "votes": 989397,
             "counties": [
-              "Shelby",
-              "Bond",
-              "Cook",
-              "Kankakee",
-              "Whiteside",
-              "Ogle",
-              "Logan",
-              "DuPage",
-              "Macon",
-              "Marshall",
-              "DeWitt",
-              "Jo Daviess",
-              "Kane",
-              "Vermilion",
               "Lee",
-              "Douglas",
-              "Will",
-              "Winnebago",
-              "Putnam",
-              "Piatt",
-              "Henry",
-              "Boone",
-              "La Salle",
-              "Bureau",
+              "Bond",
+              "Chicago Board of Election Commissioners",
+              "Carroll",
               "Lake",
-              "Bloomington",
-              "Kendall",
-              "Mason",
+              "Kankakee",
               "Christian",
               "Grundy",
-              "McHenry",
-              "Carroll",
-              "Stephenson",
-              "Clark",
+              "Will",
               "Sangamon",
-              "Coles",
-              "Moultrie",
-              "Ford",
+              "Whiteside",
+              "Stephenson",
+              "Douglas",
+              "Vermilion",
               "Tazewell",
-              "Rock Island",
+              "Ford",
+              "Piatt",
               "DeKalb",
+              "Jo Daviess",
+              "La Salle",
+              "Bureau",
+              "Macon",
+              "Winnebago",
+              "Ogle",
+              "Logan",
+              "Moultrie",
+              "DuPage",
+              "Kendall",
+              "McHenry",
+              "Rock Island",
               "Edgar",
-              "Chicago Board of Election Commissioners",
-              "Livingston"
+              "DeWitt",
+              "Henry",
+              "Marshall",
+              "Boone",
+              "Coles",
+              "Livingston",
+              "Cook",
+              "Mason",
+              "Kane",
+              "Clark",
+              "Putnam",
+              "Iroquois",
+              "Shelby",
+              "Bloomington"
             ],
-            "percentage": 30.98
+            "percentage": 31.11
           }
         },
-        "precincts_reporting": 4543,
-        "total_precincts": 4598,
-        "total_votes": 3170974,
+        "precincts_reporting": 4580,
+        "total_precincts": 4635,
+        "total_votes": 3180794,
         "race_id": "secretary_of_state",
         "label": "Secretary of State",
         "counties_needed": [
@@ -4120,7 +4216,9 @@
           "Greene",
           "Moultrie",
           "Ford",
+          "Iroquois",
           "St. Clair",
+          "McLean",
           "Pike",
           "Morgan",
           "Saline",
@@ -4177,6 +4275,7 @@
           "Coles",
           "Moultrie",
           "Ford",
+          "Iroquois",
           "Tazewell",
           "Rock Island",
           "DeKalb",
@@ -4226,6 +4325,7 @@
           "Calhoun",
           "Greene",
           "St. Clair",
+          "McLean",
           "Pike",
           "Morgan",
           "Saline",
@@ -4280,18 +4380,20 @@
           "Coles",
           "Moultrie",
           "Ford",
+          "Iroquois",
+          "McLean",
           "Tazewell",
           "Rock Island",
           "Edgar",
           "Chicago Board of Election Commissioners",
           "Livingston"
         ],
-        "num_counties": 42,
+        "num_counties": 44,
         "candidates": {
           "0": {
             "name": "Michael W. Frerichs",
             "party": "Democratic",
-            "votes": 1742317,
+            "votes": 1765148,
             "counties": [
               "Shelby",
               "Bond",
@@ -4329,18 +4431,20 @@
               "Coles",
               "Moultrie",
               "Ford",
+              "Iroquois",
+              "McLean",
               "Tazewell",
               "Rock Island",
               "Edgar",
               "Chicago Board of Election Commissioners",
               "Livingston"
             ],
-            "percentage": 66.11
+            "percentage": 65.79
           },
           "1": {
             "name": "Max Solomon",
             "party": "Republican",
-            "votes": 845127,
+            "votes": 869663,
             "counties": [
               "Shelby",
               "Bond",
@@ -4378,18 +4482,20 @@
               "Coles",
               "Moultrie",
               "Ford",
+              "Iroquois",
+              "McLean",
               "Tazewell",
               "Rock Island",
               "Edgar",
               "Chicago Board of Election Commissioners",
               "Livingston"
             ],
-            "percentage": 32.07
+            "percentage": 32.42
           }
         },
-        "precincts_reporting": 2695,
-        "total_precincts": 2725,
-        "total_votes": 2635438,
+        "precincts_reporting": 2813,
+        "total_precincts": 2843,
+        "total_votes": 2682837,
         "race_id": "treasurer",
         "label": "Treasurer",
         "counties_needed": [
@@ -4471,7 +4577,9 @@
           "Greene",
           "Moultrie",
           "Ford",
+          "Iroquois",
           "St. Clair",
+          "McLean",
           "Pike",
           "Morgan",
           "Saline",
@@ -4526,6 +4634,8 @@
           "Coles",
           "Moultrie",
           "Ford",
+          "Iroquois",
+          "McLean",
           "Tazewell",
           "Rock Island",
           "Edgar",
@@ -4664,48 +4774,51 @@
         "counties": [
           "Cook",
           "Ford",
+          "Iroquois",
           "Kankakee",
           "Livingston",
           "Vermilion",
           "Will",
           "Chicago Board of Election Commissioners"
         ],
-        "num_counties": 7,
+        "num_counties": 8,
         "candidates": {
           "0": {
             "name": "Donna Miller",
             "party": "Democratic",
-            "votes": 148126,
+            "votes": 150401,
             "counties": [
               "Cook",
               "Ford",
+              "Iroquois",
               "Kankakee",
               "Livingston",
               "Vermilion",
               "Will",
               "Chicago Board of Election Commissioners"
             ],
-            "percentage": 75.97
+            "percentage": 73.45
           },
           "1": {
             "name": "Michael Scott Noack",
             "party": "Republican",
-            "votes": 46830,
+            "votes": 54326,
             "counties": [
               "Cook",
               "Ford",
+              "Iroquois",
               "Kankakee",
               "Livingston",
               "Vermilion",
               "Will",
               "Chicago Board of Election Commissioners"
             ],
-            "percentage": 24.02
+            "percentage": 26.53
           }
         },
-        "precincts_reporting": 350,
-        "total_precincts": 356,
-        "total_votes": 194983,
+        "precincts_reporting": 387,
+        "total_precincts": 393,
+        "total_votes": 204754,
         "counties_needed": [
           "Champaign",
           "Cook",
@@ -4720,6 +4833,7 @@
         "counties_found": [
           "Cook",
           "Ford",
+          "Iroquois",
           "Kankakee",
           "Livingston",
           "Vermilion",
@@ -4727,8 +4841,7 @@
           "Chicago Board of Election Commissioners"
         ],
         "counties_missing": [
-          "Champaign",
-          "Iroquois"
+          "Champaign"
         ],
         "complete": false,
         "district": 2,
@@ -7402,22 +7515,24 @@
           "Logan",
           "Macon",
           "Mason",
+          "McLean",
           "Piatt",
           "Sangamon",
           "Tazewell"
         ],
-        "num_counties": 8,
+        "num_counties": 9,
         "candidates": {
           "0": {
             "name": "Sally J. Turner",
             "party": "Republican",
-            "votes": 49519,
+            "votes": 59363,
             "counties": [
               "DeWitt",
               "Livingston",
               "Logan",
               "Macon",
               "Mason",
+              "McLean",
               "Piatt",
               "Sangamon",
               "Tazewell"
@@ -7425,9 +7540,9 @@
             "percentage": 100.0
           }
         },
-        "precincts_reporting": 141,
-        "total_precincts": 141,
-        "total_votes": 49519,
+        "precincts_reporting": 181,
+        "total_precincts": 181,
+        "total_votes": 59363,
         "counties_needed": [
           "DeWitt",
           "Livingston",
@@ -7446,12 +7561,12 @@
           "Logan",
           "Macon",
           "Mason",
+          "McLean",
           "Piatt",
           "Sangamon",
           "Tazewell"
         ],
         "counties_missing": [
-          "McLean",
           "Woodford"
         ],
         "complete": false,
@@ -7721,26 +7836,30 @@
           "Bureau",
           "Ford",
           "Grundy",
+          "Iroquois",
           "La Salle",
           "Livingston",
           "Marshall",
+          "McLean",
           "Putnam",
           "Tazewell",
           "Will"
         ],
-        "num_counties": 9,
+        "num_counties": 11,
         "candidates": {
           "0": {
             "name": "Chris Balkema",
             "party": "Republican",
-            "votes": 39820,
+            "votes": 55337,
             "counties": [
               "Bureau",
               "Ford",
               "Grundy",
+              "Iroquois",
               "La Salle",
               "Livingston",
               "Marshall",
+              "McLean",
               "Putnam",
               "Tazewell",
               "Will"
@@ -7748,9 +7867,9 @@
             "percentage": 100.0
           }
         },
-        "precincts_reporting": 151,
-        "total_precincts": 151,
-        "total_votes": 39820,
+        "precincts_reporting": 209,
+        "total_precincts": 210,
+        "total_votes": 55337,
         "counties_needed": [
           "Bureau",
           "Ford",
@@ -7770,16 +7889,16 @@
           "Bureau",
           "Ford",
           "Grundy",
+          "Iroquois",
           "La Salle",
           "Livingston",
           "Marshall",
+          "McLean",
           "Putnam",
           "Tazewell",
           "Will"
         ],
         "counties_missing": [
-          "Iroquois",
-          "McLean",
           "Peoria",
           "Woodford"
         ],
@@ -12588,26 +12707,28 @@
         "party": "Non-Partisan",
         "counties": [
           "Grundy",
+          "Iroquois",
           "La Salle",
           "Will"
         ],
-        "num_counties": 3,
+        "num_counties": 4,
         "candidates": {
           "0": {
             "name": "Jason R. Bunting",
             "party": "Republican",
-            "votes": 13035,
+            "votes": 21770,
             "counties": [
               "Grundy",
+              "Iroquois",
               "La Salle",
               "Will"
             ],
             "percentage": 100.0
           }
         },
-        "precincts_reporting": 55,
-        "total_precincts": 55,
-        "total_votes": 13035,
+        "precincts_reporting": 92,
+        "total_precincts": 92,
+        "total_votes": 21770,
         "counties_needed": [
           "Grundy",
           "Iroquois",
@@ -12617,11 +12738,11 @@
         ],
         "counties_found": [
           "Grundy",
+          "Iroquois",
           "La Salle",
           "Will"
         ],
         "counties_missing": [
-          "Iroquois",
           "McLean"
         ],
         "complete": false,
@@ -12817,22 +12938,24 @@
         "complete": true
       },
       "kdj_kankakee": {
-        "name": "ESR SUPERINTENDENT OF SCHOOLS (IROQUOIS-KANKAKEE)",
+        "name": "REGIONAL SUPERINTENDENT OF SCHOOLS (IROQUOIS-KANKAKEE)",
         "party": "Non-Partisan",
         "counties": [
+          "Iroquois",
           "Kankakee",
           "Will",
           "Grundy",
           "Ford",
           "Livingston"
         ],
-        "num_counties": 5,
+        "num_counties": 6,
         "candidates": {
           "0": {
             "name": "Patricia High",
             "party": "Republican",
-            "votes": 25914,
+            "votes": 33399,
             "counties": [
+              "Iroquois",
               "Kankakee",
               "Will",
               "Grundy",
@@ -12842,9 +12965,9 @@
             "percentage": 100.0
           }
         },
-        "precincts_reporting": 68,
-        "total_precincts": 68,
-        "total_votes": 25914,
+        "precincts_reporting": 105,
+        "total_precincts": 105,
+        "total_votes": 33399,
         "race_id": "kdj_kankakee",
         "market": "KDJ",
         "label": "Regional Superintendent of Schools \u2014 Iroquois & Kankakee",
@@ -12857,16 +12980,15 @@
           "Livingston"
         ],
         "counties_found": [
+          "Iroquois",
           "Kankakee",
           "Will",
           "Grundy",
           "Ford",
           "Livingston"
         ],
-        "counties_missing": [
-          "Iroquois"
-        ],
-        "complete": false
+        "counties_missing": [],
+        "complete": true
       },
       "svm_lee_ogle_whiteside": {
         "name": "ESR SUPERINTENDENT OF SCHOOLS (LEE-OGLE-WHITESIDE)",
@@ -13257,6 +13379,7 @@
           "DeWitt",
           "Livingston",
           "Logan",
+          "McLean",
           "Ford",
           "Kankakee",
           "La Salle",
@@ -13266,16 +13389,17 @@
           "Sangamon",
           "Tazewell"
         ],
-        "num_counties": 11,
+        "num_counties": 12,
         "candidates": {
           "0": {
             "name": "Molly Allen",
             "party": "Republican",
-            "votes": 24799,
+            "votes": 49948,
             "counties": [
               "DeWitt",
               "Livingston",
               "Logan",
+              "McLean",
               "Ford",
               "Kankakee",
               "La Salle",
@@ -13288,9 +13412,9 @@
             "percentage": 100.0
           }
         },
-        "precincts_reporting": 115,
-        "total_precincts": 115,
-        "total_votes": 24799,
+        "precincts_reporting": 196,
+        "total_precincts": 196,
+        "total_votes": 49948,
         "race_id": "ilv_dewitt_livingston",
         "market": "ILV",
         "label": "Regional Superintendent of Schools \u2014 DeWitt, Livingston, Logan & McLean",
@@ -13313,6 +13437,7 @@
           "DeWitt",
           "Livingston",
           "Logan",
+          "McLean",
           "Ford",
           "Kankakee",
           "La Salle",
@@ -13322,10 +13447,8 @@
           "Sangamon",
           "Tazewell"
         ],
-        "counties_missing": [
-          "McLean"
-        ],
-        "complete": false
+        "counties_missing": [],
+        "complete": true
       },
       "ilv_bureau_henry_stark": {
         "name": "ESR SUPERINTENDENT OF SCHOOLS (BUREAU-HENRY-STARK)",
@@ -13392,24 +13515,26 @@
         "Will",
         "Bureau",
         "Grundy",
+        "Iroquois",
         "Kankakee",
         "La Salle"
       ],
-      "num_counties": 6,
+      "num_counties": 7,
       "candidates": {
         "0": {
           "name": "Margaret 'peggy' O'connell",
           "party": "Democratic",
-          "votes": 388834,
+          "votes": 391049,
           "counties": [
             "DuPage",
             "Will",
             "Bureau",
             "Grundy",
+            "Iroquois",
             "Kankakee",
             "La Salle"
           ],
-          "percentage": 59.52
+          "percentage": 58.99
         },
         "1": {
           "name": "Jason A. Helland",
@@ -13423,12 +13548,21 @@
             "Kankakee",
             "La Salle"
           ],
-          "percentage": 40.48
+          "percentage": 39.89
+        },
+        "2": {
+          "name": "Jason A. Hellland",
+          "party": "Republican",
+          "votes": 7425,
+          "counties": [
+            "Iroquois"
+          ],
+          "percentage": 1.12
         }
       },
-      "precincts_reporting": 1178,
-      "total_precincts": 1178,
-      "total_votes": 653313,
+      "precincts_reporting": 1215,
+      "total_precincts": 1215,
+      "total_votes": 662953,
       "label": "3rd Appellate District",
       "counties_needed": [
         "DuPage",
@@ -13444,13 +13578,12 @@
         "Will",
         "Bureau",
         "Grundy",
+        "Iroquois",
         "Kankakee",
         "La Salle"
       ],
-      "counties_missing": [
-        "Iroquois"
-      ],
-      "complete": false
+      "counties_missing": [],
+      "complete": true
     },
     "thirteenth_circuit": {
       "name": "CIRCUIT COURT JUDGE 13TH JUDICIAL CIRCUIT (RACCUGLIA)",
@@ -47071,6 +47204,455 @@
         }
       ]
     },
+    "Iroquois": {
+      "county": "Iroquois",
+      "scraped_at": "2026-11-06T00:00:00",
+      "total_contests": 20,
+      "source": "Manual entry from scanned PDF \u2014 37 of 37 precincts",
+      "contests_by_party": {
+        "Democratic": {
+          "count": 0,
+          "contests": []
+        },
+        "Republican": {
+          "count": 0,
+          "contests": []
+        },
+        "Non-Partisan": {
+          "count": 20,
+          "contests": [
+            {
+              "contest_name": "UNITED STATES SENATOR",
+              "party": "Non-Partisan",
+              "county": "Iroquois",
+              "precincts_reporting": 37,
+              "total_precincts": 37,
+              "reporting_percentage": 100.0,
+              "candidates": [
+                {
+                  "name": "Juliana Stratton",
+                  "party": "DEM",
+                  "votes": 2284,
+                  "percentage": 23.21
+                },
+                {
+                  "name": "Don Tracy",
+                  "party": "REP",
+                  "votes": 7407,
+                  "percentage": 75.26
+                },
+                {
+                  "name": "Whitfield Harrington Jr.",
+                  "party": "AMC",
+                  "votes": 151,
+                  "percentage": 1.53
+                }
+              ]
+            },
+            {
+              "contest_name": "GOVERNOR AND LIEUTENANT GOVERNOR",
+              "party": "Non-Partisan",
+              "county": "Iroquois",
+              "precincts_reporting": 37,
+              "total_precincts": 37,
+              "reporting_percentage": 100.0,
+              "candidates": [
+                {
+                  "name": "JB Pritzker",
+                  "party": "DEM",
+                  "votes": 1995,
+                  "percentage": 20.17
+                },
+                {
+                  "name": "Darren Bailey",
+                  "party": "REP",
+                  "votes": 7615,
+                  "percentage": 77.01
+                },
+                {
+                  "name": "Collin Corbett",
+                  "party": "NP",
+                  "votes": 275,
+                  "percentage": 2.78
+                },
+                {
+                  "name": "Griselda Romero / Eyde Arndell",
+                  "party": "NP",
+                  "votes": 3,
+                  "percentage": 0.03
+                },
+                {
+                  "name": "Mike Vick / Gary Pierce",
+                  "party": "NP",
+                  "votes": 1,
+                  "percentage": 0.01
+                }
+              ]
+            },
+            {
+              "contest_name": "ATTORNEY GENERAL",
+              "party": "Non-Partisan",
+              "county": "Iroquois",
+              "precincts_reporting": 37,
+              "total_precincts": 37,
+              "reporting_percentage": 100.0,
+              "candidates": [
+                {
+                  "name": "Kwame Raoul",
+                  "party": "DEM",
+                  "votes": 2201,
+                  "percentage": 22.87
+                },
+                {
+                  "name": "Robert W. Fioretti",
+                  "party": "REP",
+                  "votes": 7425,
+                  "percentage": 77.13
+                }
+              ]
+            },
+            {
+              "contest_name": "SECRETARY OF STATE",
+              "party": "Non-Partisan",
+              "county": "Iroquois",
+              "precincts_reporting": 37,
+              "total_precincts": 37,
+              "reporting_percentage": 100.0,
+              "candidates": [
+                {
+                  "name": "Alexi Giannoulias",
+                  "party": "DEM",
+                  "votes": 2706,
+                  "percentage": 27.56
+                },
+                {
+                  "name": "Diane Harris",
+                  "party": "REP",
+                  "votes": 7114,
+                  "percentage": 72.44
+                }
+              ]
+            },
+            {
+              "contest_name": "COMPTROLLER",
+              "party": "Non-Partisan",
+              "county": "Iroquois",
+              "precincts_reporting": 37,
+              "total_precincts": 37,
+              "reporting_percentage": 100.0,
+              "candidates": [
+                {
+                  "name": "Margaret Croke",
+                  "party": "DEM",
+                  "votes": 2137,
+                  "percentage": 21.94
+                },
+                {
+                  "name": "Bryan Drew",
+                  "party": "REP",
+                  "votes": 7598,
+                  "percentage": 77.99
+                },
+                {
+                  "name": "Anna Schiefelbein",
+                  "party": "GRN",
+                  "votes": 4,
+                  "percentage": 0.04
+                }
+              ]
+            },
+            {
+              "contest_name": "TREASURER",
+              "party": "Non-Partisan",
+              "county": "Iroquois",
+              "precincts_reporting": 37,
+              "total_precincts": 37,
+              "reporting_percentage": 100.0,
+              "candidates": [
+                {
+                  "name": "Michael W. Frerichs",
+                  "party": "DEM",
+                  "votes": 2636,
+                  "percentage": 26.97
+                },
+                {
+                  "name": "Max Solomon",
+                  "party": "REP",
+                  "votes": 7138,
+                  "percentage": 73.03
+                }
+              ]
+            },
+            {
+              "contest_name": "REPRESENTATIVE IN CONGRESS - 2ND CONGRESSIONAL DISTRICT",
+              "party": "Non-Partisan",
+              "county": "Iroquois",
+              "precincts_reporting": 37,
+              "total_precincts": 37,
+              "reporting_percentage": 100.0,
+              "candidates": [
+                {
+                  "name": "Donna Miller",
+                  "party": "DEM",
+                  "votes": 2275,
+                  "percentage": 23.29
+                },
+                {
+                  "name": "Michael Scott Noack",
+                  "party": "REP",
+                  "votes": 7496,
+                  "percentage": 76.71
+                }
+              ]
+            },
+            {
+              "contest_name": "STATE SENATOR - 53RD LEGISLATIVE DISTRICT",
+              "party": "Non-Partisan",
+              "county": "Iroquois",
+              "precincts_reporting": 37,
+              "total_precincts": 37,
+              "reporting_percentage": 100.0,
+              "candidates": [
+                {
+                  "name": "Chris Balkema",
+                  "party": "REP",
+                  "votes": 8677,
+                  "percentage": 100.0
+                }
+              ]
+            },
+            {
+              "contest_name": "REPRESENTATIVE IN THE GENERAL ASSEMBLY - 106TH REPRESENTATIVE DISTRICT",
+              "party": "Non-Partisan",
+              "county": "Iroquois",
+              "precincts_reporting": 37,
+              "total_precincts": 37,
+              "reporting_percentage": 100.0,
+              "candidates": [
+                {
+                  "name": "Jason R. Bunting",
+                  "party": "REP",
+                  "votes": 8735,
+                  "percentage": 100.0
+                }
+              ]
+            },
+            {
+              "contest_name": "IROQUOIS COUNTY CLERK",
+              "party": "Non-Partisan",
+              "county": "Iroquois",
+              "precincts_reporting": 37,
+              "total_precincts": 37,
+              "reporting_percentage": 100.0,
+              "candidates": [
+                {
+                  "name": "Breein B. Suver",
+                  "party": "",
+                  "votes": 8835,
+                  "percentage": 100.0
+                }
+              ]
+            },
+            {
+              "contest_name": "IROQUOIS COUNTY TREASURER",
+              "party": "Non-Partisan",
+              "county": "Iroquois",
+              "precincts_reporting": 37,
+              "total_precincts": 37,
+              "reporting_percentage": 100.0,
+              "candidates": [
+                {
+                  "name": "Jamie Lee Bakken",
+                  "party": "REP",
+                  "votes": 8465,
+                  "percentage": 99.6
+                },
+                {
+                  "name": "Nicole Sanders",
+                  "party": "",
+                  "votes": 19,
+                  "percentage": 0.22
+                },
+                {
+                  "name": "Samantha Kissack",
+                  "party": "",
+                  "votes": 15,
+                  "percentage": 0.18
+                }
+              ]
+            },
+            {
+              "contest_name": "IROQUOIS COUNTY SHERIFF",
+              "party": "Non-Partisan",
+              "county": "Iroquois",
+              "precincts_reporting": 37,
+              "total_precincts": 37,
+              "reporting_percentage": 100.0,
+              "candidates": [
+                {
+                  "name": "Clinton J. Perzee",
+                  "party": "",
+                  "votes": 8683,
+                  "percentage": 100.0
+                }
+              ]
+            },
+            {
+              "contest_name": "REGIONAL SUPERINTENDENT OF SCHOOLS (IROQUOIS-KANKAKEE)",
+              "party": "Non-Partisan",
+              "county": "Iroquois",
+              "precincts_reporting": 37,
+              "total_precincts": 37,
+              "reporting_percentage": 100.0,
+              "candidates": [
+                {
+                  "name": "Patricia High",
+                  "party": "",
+                  "votes": 7485,
+                  "percentage": 100.0
+                }
+              ]
+            },
+            {
+              "contest_name": "REGIONAL SUPERINTENDENT OF SCHOOLS (CHAMPAIGN-FORD)",
+              "party": "Non-Partisan",
+              "county": "Iroquois",
+              "precincts_reporting": 37,
+              "total_precincts": 37,
+              "reporting_percentage": 100.0,
+              "candidates": [
+                {
+                  "name": "Jon Kelly",
+                  "party": "",
+                  "votes": 792,
+                  "percentage": 100.0
+                }
+              ]
+            },
+            {
+              "contest_name": "REGIONAL SUPERINTENDENT OF SCHOOLS (DEWITT-LIVINGSTON-LOGAN-MCLEAN)",
+              "party": "Non-Partisan",
+              "county": "Iroquois",
+              "precincts_reporting": 37,
+              "total_precincts": 37,
+              "reporting_percentage": 100.0,
+              "candidates": [
+                {
+                  "name": "Molly Allen",
+                  "party": "",
+                  "votes": 11,
+                  "percentage": 100.0
+                }
+              ]
+            },
+            {
+              "contest_name": "REGIONAL SUPERINTENDENT OF SCHOOLS (VERMILION COUNTY)",
+              "party": "Non-Partisan",
+              "county": "Iroquois",
+              "precincts_reporting": 37,
+              "total_precincts": 37,
+              "reporting_percentage": 100.0,
+              "candidates": [
+                {
+                  "name": "Aaron Hird",
+                  "party": "",
+                  "votes": 195,
+                  "percentage": 100.0
+                }
+              ]
+            },
+            {
+              "contest_name": "APPELLATE COURT 3RD DISTRICT",
+              "party": "Non-Partisan",
+              "county": "Iroquois",
+              "precincts_reporting": 37,
+              "total_precincts": 37,
+              "reporting_percentage": 100.0,
+              "candidates": [
+                {
+                  "name": "Margaret \"Peggy\" O'Connell",
+                  "party": "DEM",
+                  "votes": 2215,
+                  "percentage": 22.98
+                },
+                {
+                  "name": "Jason A. Hellland",
+                  "party": "REP",
+                  "votes": 7425,
+                  "percentage": 77.02
+                }
+              ]
+            },
+            {
+              "contest_name": "RETENTION - JUDGE SABOL",
+              "party": "Non-Partisan",
+              "county": "Iroquois",
+              "precincts_reporting": 37,
+              "total_precincts": 37,
+              "reporting_percentage": 100.0,
+              "candidates": [
+                {
+                  "name": "Yes",
+                  "party": "",
+                  "votes": 7254,
+                  "percentage": 83.65
+                },
+                {
+                  "name": "No",
+                  "party": "",
+                  "votes": 1418,
+                  "percentage": 16.35
+                }
+              ]
+            },
+            {
+              "contest_name": "RETENTION - JUDGE DICKENSON",
+              "party": "Non-Partisan",
+              "county": "Iroquois",
+              "precincts_reporting": 37,
+              "total_precincts": 37,
+              "reporting_percentage": 100.0,
+              "candidates": [
+                {
+                  "name": "Yes",
+                  "party": "",
+                  "votes": 7102,
+                  "percentage": 83.91
+                },
+                {
+                  "name": "No",
+                  "party": "",
+                  "votes": 1362,
+                  "percentage": 16.09
+                }
+              ]
+            },
+            {
+              "contest_name": "RETENTION - JUDGE PARKHURST",
+              "party": "Non-Partisan",
+              "county": "Iroquois",
+              "precincts_reporting": 37,
+              "total_precincts": 37,
+              "reporting_percentage": 100.0,
+              "candidates": [
+                {
+                  "name": "Yes",
+                  "party": "",
+                  "votes": 7029,
+                  "percentage": 82.36
+                },
+                {
+                  "name": "No",
+                  "party": "",
+                  "votes": 1505,
+                  "percentage": 17.64
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
     "St. Clair": {
       "county": "St. Clair",
       "election_date": "2026-11-03",
@@ -47078,6 +47660,982 @@
       "source": "pollresults.net \u2014 https://il-stclair.pollresults.net",
       "summary": {},
       "contests": []
+    },
+    "McLean": {
+      "county": "McLean",
+      "scraped_at": "2026-11-06T14:35:07.933658",
+      "total_contests": 40,
+      "contests_by_party": {
+        "Democratic": {
+          "count": 0,
+          "contests": []
+        },
+        "Republican": {
+          "count": 0,
+          "contests": []
+        },
+        "Non-Partisan": {
+          "count": 40,
+          "contests": [
+            {
+              "contest_id": "0301",
+              "contest_name": "U.S. SENATOR",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "Juliana Stratton",
+                  "party": "DEM",
+                  "votes": 19996,
+                  "percentage": 52.85
+                },
+                {
+                  "name": "Don Tracy",
+                  "party": "REP",
+                  "votes": 17256,
+                  "percentage": 45.61
+                },
+                {
+                  "name": "Whitfield Harrington Jr",
+                  "party": "ACP",
+                  "votes": 583,
+                  "percentage": 1.54
+                }
+              ],
+              "precincts_reporting": 81,
+              "total_precincts": 81,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "0307",
+              "contest_name": "REP. IN CONGRESS D16",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "Paul Nolley",
+                  "party": "DEM",
+                  "votes": 9356,
+                  "percentage": 40.74
+                },
+                {
+                  "name": "Darin LaHood",
+                  "party": "REP",
+                  "votes": 13611,
+                  "percentage": 59.26
+                }
+              ],
+              "precincts_reporting": 56,
+              "total_precincts": 56,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "0308",
+              "contest_name": "REP. IN CONGRESS D17",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "Eric Sorensen",
+                  "party": "DEM",
+                  "votes": 10620,
+                  "percentage": 71.77
+                },
+                {
+                  "name": "Dillan S. Vancil",
+                  "party": "REP",
+                  "votes": 4162,
+                  "percentage": 28.13
+                },
+                {
+                  "name": "WRITE-IN",
+                  "party": "",
+                  "votes": 16,
+                  "percentage": 0.11
+                }
+              ],
+              "precincts_reporting": 30,
+              "total_precincts": 31,
+              "reporting_percentage": 96.77
+            },
+            {
+              "contest_id": "0302",
+              "contest_name": "GOV. AND LT. GOV",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "Pritzker & Mitchell",
+                  "party": "DEM",
+                  "votes": 19253,
+                  "percentage": 50.91
+                },
+                {
+                  "name": "Bailey & Del Mar",
+                  "party": "REP",
+                  "votes": 17136,
+                  "percentage": 45.31
+                },
+                {
+                  "name": "Corbett & Schofield",
+                  "party": "IND",
+                  "votes": 1366,
+                  "percentage": 3.61
+                },
+                {
+                  "name": "WRITE-IN",
+                  "party": "",
+                  "votes": 62,
+                  "percentage": 0.16
+                }
+              ],
+              "precincts_reporting": 81,
+              "total_precincts": 81,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "0303",
+              "contest_name": "ATT. GEN",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "Kwame Raoul",
+                  "party": "DEM",
+                  "votes": 20023,
+                  "percentage": 53.11
+                },
+                {
+                  "name": "Robert W. Fioretti",
+                  "party": "REP",
+                  "votes": 17679,
+                  "percentage": 46.89
+                }
+              ],
+              "precincts_reporting": 81,
+              "total_precincts": 81,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "0304",
+              "contest_name": "SEC. OF STATE",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "Alexi Giannoulias",
+                  "party": "DEM",
+                  "votes": 21077,
+                  "percentage": 55.85
+                },
+                {
+                  "name": "Diane M. Harris",
+                  "party": "REP",
+                  "votes": 16660,
+                  "percentage": 44.15
+                }
+              ],
+              "precincts_reporting": 81,
+              "total_precincts": 81,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "0305",
+              "contest_name": "COMPTROLLER",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "Margaret Croke",
+                  "party": "DEM",
+                  "votes": 19595,
+                  "percentage": 52.1
+                },
+                {
+                  "name": "Bryan Drew",
+                  "party": "REP",
+                  "votes": 17977,
+                  "percentage": 47.8
+                },
+                {
+                  "name": "WRITE-IN",
+                  "party": "",
+                  "votes": 39,
+                  "percentage": 0.1
+                }
+              ],
+              "precincts_reporting": 81,
+              "total_precincts": 81,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "0306",
+              "contest_name": "TREASURER",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "Michael W. Frerichs",
+                  "party": "DEM",
+                  "votes": 20195,
+                  "percentage": 53.67
+                },
+                {
+                  "name": "Max Solomon",
+                  "party": "REP",
+                  "votes": 17398,
+                  "percentage": 46.24
+                },
+                {
+                  "name": "WRITE-IN",
+                  "party": "",
+                  "votes": 32,
+                  "percentage": 0.09
+                }
+              ],
+              "precincts_reporting": 81,
+              "total_precincts": 81,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "0309",
+              "contest_name": "STATE SENATOR D44",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "No Candidate",
+                  "party": "DEM",
+                  "votes": 0,
+                  "percentage": 0.0
+                },
+                {
+                  "name": "Sally J. Turner",
+                  "party": "REP",
+                  "votes": 9844,
+                  "percentage": 100.0
+                }
+              ],
+              "precincts_reporting": 40,
+              "total_precincts": 40,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "0310",
+              "contest_name": "STATE SENATOR D53",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "No Candidate",
+                  "party": "DEM",
+                  "votes": 0,
+                  "percentage": 0.0
+                },
+                {
+                  "name": "Chris Balkema",
+                  "party": "REP",
+                  "votes": 6840,
+                  "percentage": 100.0
+                }
+              ],
+              "precincts_reporting": 21,
+              "total_precincts": 22,
+              "reporting_percentage": 95.45
+            },
+            {
+              "contest_id": "0311",
+              "contest_name": "REP. IN THE G.A. D87",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "No Candidate",
+                  "party": "DEM",
+                  "votes": 0,
+                  "percentage": 0.0
+                },
+                {
+                  "name": "William E Hauter",
+                  "party": "REP",
+                  "votes": 2563,
+                  "percentage": 100.0
+                }
+              ],
+              "precincts_reporting": 11,
+              "total_precincts": 11,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "0312",
+              "contest_name": "REP. IN THE G.A. D88",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "No Candidate",
+                  "party": "DEM",
+                  "votes": 0,
+                  "percentage": 0.0
+                },
+                {
+                  "name": "Regan Deering",
+                  "party": "REP",
+                  "votes": 7200,
+                  "percentage": 100.0
+                }
+              ],
+              "precincts_reporting": 32,
+              "total_precincts": 32,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "0313",
+              "contest_name": "REP. IN THE G.A. D91",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "Sharon Chung",
+                  "party": "DEM",
+                  "votes": 12915,
+                  "percentage": 100.0
+                },
+                {
+                  "name": "No Candidate",
+                  "party": "REP",
+                  "votes": 0,
+                  "percentage": 0.0
+                }
+              ],
+              "precincts_reporting": 34,
+              "total_precincts": 35,
+              "reporting_percentage": 97.14
+            },
+            {
+              "contest_id": "0314",
+              "contest_name": "REP. IN THE G.A. D105",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "No Candidate",
+                  "party": "DEM",
+                  "votes": 0,
+                  "percentage": 0.0
+                },
+                {
+                  "name": "Tim Ruestman",
+                  "party": "REP",
+                  "votes": 6153,
+                  "percentage": 100.0
+                }
+              ],
+              "precincts_reporting": 18,
+              "total_precincts": 19,
+              "reporting_percentage": 94.74
+            },
+            {
+              "contest_id": "0315",
+              "contest_name": "REP. IN THE G.A. D106",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "No Candidate",
+                  "party": "DEM",
+                  "votes": 0,
+                  "percentage": 0.0
+                },
+                {
+                  "name": "Jason R. Bunting",
+                  "party": "REP",
+                  "votes": 711,
+                  "percentage": 100.0
+                }
+              ],
+              "precincts_reporting": 3,
+              "total_precincts": 3,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "0316",
+              "contest_name": "COUNTY CLERK",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "Kathy Michael",
+                  "party": "REP",
+                  "votes": 18287,
+                  "percentage": 48.57
+                },
+                {
+                  "name": "Joshua Crockett",
+                  "party": "DEM",
+                  "votes": 19360,
+                  "percentage": 51.43
+                }
+              ],
+              "precincts_reporting": 81,
+              "total_precincts": 81,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "0317",
+              "contest_name": "COUNTY TREASURER",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "Rebecca C. McNeil",
+                  "party": "REP",
+                  "votes": 26004,
+                  "percentage": 100.0
+                },
+                {
+                  "name": "No Candidate",
+                  "party": "DEM",
+                  "votes": 0,
+                  "percentage": 0.0
+                }
+              ],
+              "precincts_reporting": 81,
+              "total_precincts": 81,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "0318",
+              "contest_name": "COUNTY SHERIFF",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "Jon Albee",
+                  "party": "REP",
+                  "votes": 26047,
+                  "percentage": 100.0
+                },
+                {
+                  "name": "No Candidate",
+                  "party": "DEM",
+                  "votes": 0,
+                  "percentage": 0.0
+                }
+              ],
+              "precincts_reporting": 81,
+              "total_precincts": 81,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "0319",
+              "contest_name": "COUNTY BOARD MEMBER D1",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "Andrew L. Ziebarth",
+                  "party": "REP",
+                  "votes": 4741,
+                  "percentage": 62.7
+                },
+                {
+                  "name": "Dennis M. Killian",
+                  "party": "DEM",
+                  "votes": 2820,
+                  "percentage": 37.3
+                }
+              ],
+              "precincts_reporting": 21,
+              "total_precincts": 21,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "0320",
+              "contest_name": "COUNTY BOARD MEMBER D2",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "Bill Friedrich",
+                  "party": "REP",
+                  "votes": 4457,
+                  "percentage": 68.15
+                },
+                {
+                  "name": "Raul Martinez",
+                  "party": "DEM",
+                  "votes": 2083,
+                  "percentage": 31.85
+                }
+              ],
+              "precincts_reporting": 16,
+              "total_precincts": 16,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "0321",
+              "contest_name": "COUNTY BOARD MEMBER D3",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "Brian Bangert",
+                  "party": "REP",
+                  "votes": 2858,
+                  "percentage": 64.68
+                },
+                {
+                  "name": "Rick Perez Jr.",
+                  "party": "DEM",
+                  "votes": 1561,
+                  "percentage": 35.32
+                }
+              ],
+              "precincts_reporting": 14,
+              "total_precincts": 14,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "0322",
+              "contest_name": "COUNTY BOARD MEMBER D4",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "Jerry Klinkner",
+                  "party": "REP",
+                  "votes": 1900,
+                  "percentage": 32.11
+                },
+                {
+                  "name": "William Bessler",
+                  "party": "DEM",
+                  "votes": 4018,
+                  "percentage": 67.89
+                }
+              ],
+              "precincts_reporting": 11,
+              "total_precincts": 12,
+              "reporting_percentage": 91.67
+            },
+            {
+              "contest_id": "0323",
+              "contest_name": "COUNTY BOARD MEMBER D5",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "Jeffrey K. Lord",
+                  "party": "REP",
+                  "votes": 2734,
+                  "percentage": 41.54
+                },
+                {
+                  "name": "Buck Farley",
+                  "party": "DEM",
+                  "votes": 3848,
+                  "percentage": 58.46
+                }
+              ],
+              "precincts_reporting": 13,
+              "total_precincts": 13,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "0324",
+              "contest_name": "COUNTY BOARD MEMBER D6",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "No Candidate",
+                  "party": "REP",
+                  "votes": 0,
+                  "percentage": 0.0
+                },
+                {
+                  "name": "Beverly A. Bell",
+                  "party": "DEM",
+                  "votes": 5212,
+                  "percentage": 100.0
+                }
+              ],
+              "precincts_reporting": 8,
+              "total_precincts": 8,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "0325",
+              "contest_name": "COUNTY BOARD MEMBER D8",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "No Candidate",
+                  "party": "REP",
+                  "votes": 0,
+                  "percentage": 0.0
+                },
+                {
+                  "name": "Lea Cline",
+                  "party": "DEM",
+                  "votes": 39,
+                  "percentage": 100.0
+                }
+              ],
+              "precincts_reporting": 2,
+              "total_precincts": 4,
+              "reporting_percentage": 50.0
+            },
+            {
+              "contest_id": "0326",
+              "contest_name": "COUNTY BOARD MEMBER D9",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "Kevin G. Lower",
+                  "party": "REP",
+                  "votes": 35,
+                  "percentage": 60.34
+                },
+                {
+                  "name": "Jennifer Brown",
+                  "party": "DEM",
+                  "votes": 23,
+                  "percentage": 39.66
+                }
+              ],
+              "precincts_reporting": 2,
+              "total_precincts": 2,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "0327",
+              "contest_name": "COUNTY BOARD MEMBER D10",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "Matt Steinkoenig",
+                  "party": "REP",
+                  "votes": 223,
+                  "percentage": 44.51
+                },
+                {
+                  "name": "Corey TJ Beirne",
+                  "party": "DEM",
+                  "votes": 278,
+                  "percentage": 55.49
+                }
+              ],
+              "precincts_reporting": 4,
+              "total_precincts": 4,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "0328",
+              "contest_name": "REG. SUPT. OF SCHOOLS - CHAMPAIGN & FORD",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "No Candidate",
+                  "party": "DEM",
+                  "votes": 0,
+                  "percentage": 0.0
+                },
+                {
+                  "name": "Jon Kelly",
+                  "party": "REP",
+                  "votes": 32,
+                  "percentage": 100.0
+                }
+              ],
+              "precincts_reporting": 2,
+              "total_precincts": 2,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "0329",
+              "contest_name": "REG. SUPT. OF SCHOOLS - DEWITT, LIVINGSTON, LOGAN & MCLEAN",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "No Candidate",
+                  "party": "DEM",
+                  "votes": 0,
+                  "percentage": 0.0
+                },
+                {
+                  "name": "Molly Allen",
+                  "party": "REP",
+                  "votes": 25149,
+                  "percentage": 100.0
+                }
+              ],
+              "precincts_reporting": 81,
+              "total_precincts": 81,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "0330",
+              "contest_name": "REG. SUPT. OF SCHOOLS - MASON, TAZEWELL & WOODFORD",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "No Candidate",
+                  "party": "DEM",
+                  "votes": 0,
+                  "percentage": 0.0
+                },
+                {
+                  "name": "Jeffrey Shane Ekena",
+                  "party": "REP",
+                  "votes": 692,
+                  "percentage": 100.0
+                }
+              ],
+              "precincts_reporting": 5,
+              "total_precincts": 5,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "0331",
+              "contest_name": "JUDGE-11TH CIRC. CT-COSTIGAN",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "No Candidate",
+                  "party": "DEM",
+                  "votes": 0,
+                  "percentage": 0.0
+                },
+                {
+                  "name": "Sarah R. Duffy",
+                  "party": "REP",
+                  "votes": 25905,
+                  "percentage": 100.0
+                }
+              ],
+              "precincts_reporting": 81,
+              "total_precincts": 81,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "0332",
+              "contest_name": "RETENTION JAMES A. KNECHT",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "YES",
+                  "party": "YES",
+                  "votes": 27401,
+                  "percentage": 80.93
+                },
+                {
+                  "name": "NO",
+                  "party": "NO",
+                  "votes": 6457,
+                  "percentage": 19.07
+                }
+              ],
+              "precincts_reporting": 81,
+              "total_precincts": 81,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "0333",
+              "contest_name": "RETENTION MATTHEW J. FITTON - CIRCUIT COURT",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "YES",
+                  "party": "YES",
+                  "votes": 26876,
+                  "percentage": 80.59
+                },
+                {
+                  "name": "NO",
+                  "party": "NO",
+                  "votes": 6473,
+                  "percentage": 19.41
+                }
+              ],
+              "precincts_reporting": 81,
+              "total_precincts": 81,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "0334",
+              "contest_name": "RETENTION JASON CHAMBERS - CIRCUIT COURT",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "YES",
+                  "party": "YES",
+                  "votes": 27390,
+                  "percentage": 81.27
+                },
+                {
+                  "name": "NO",
+                  "party": "NO",
+                  "votes": 6313,
+                  "percentage": 18.73
+                }
+              ],
+              "precincts_reporting": 81,
+              "total_precincts": 81,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "0335",
+              "contest_name": "RETENTION JONATHAN C. WRIGHT - CIRCUIT COURT",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "YES",
+                  "party": "YES",
+                  "votes": 26373,
+                  "percentage": 80.05
+                },
+                {
+                  "name": "NO",
+                  "party": "NO",
+                  "votes": 6574,
+                  "percentage": 19.95
+                }
+              ],
+              "precincts_reporting": 81,
+              "total_precincts": 81,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "0338",
+              "contest_name": "DALE TOWNSHIP FIRE DISTRICT - CORP. TAX RATE",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "YES",
+                  "party": "YES",
+                  "votes": 227,
+                  "percentage": 39.55
+                },
+                {
+                  "name": "NO",
+                  "party": "NO",
+                  "votes": 347,
+                  "percentage": 60.45
+                }
+              ],
+              "precincts_reporting": 1,
+              "total_precincts": 1,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "0339",
+              "contest_name": "DALE TOWNSHIP FIRE DISTRICT - RESCUE CREWS & EQUIPMENT",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "YES",
+                  "party": "YES",
+                  "votes": 262,
+                  "percentage": 45.88
+                },
+                {
+                  "name": "NO",
+                  "party": "NO",
+                  "votes": 309,
+                  "percentage": 54.12
+                }
+              ],
+              "precincts_reporting": 1,
+              "total_precincts": 1,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "0340",
+              "contest_name": "DALE TOWNSHIP FIRE DISTRICT - AMBULANCE SERVICE",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "YES",
+                  "party": "YES",
+                  "votes": 252,
+                  "percentage": 44.13
+                },
+                {
+                  "name": "NO",
+                  "party": "NO",
+                  "votes": 319,
+                  "percentage": 55.87
+                }
+              ],
+              "precincts_reporting": 1,
+              "total_precincts": 1,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "0336",
+              "contest_name": "HEYWORTH SCHOOL DIST 4 - BOARD OF ED. ELECTIONS",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "YES",
+                  "party": "YES",
+                  "votes": 1327,
+                  "percentage": 64.54
+                },
+                {
+                  "name": "NO",
+                  "party": "NO",
+                  "votes": 729,
+                  "percentage": 35.46
+                }
+              ],
+              "precincts_reporting": 10,
+              "total_precincts": 10,
+              "reporting_percentage": 100.0
+            },
+            {
+              "contest_id": "0337",
+              "contest_name": "NORMAL TOWNSHIP - REPEAL ANTI-BDS STATUTE",
+              "party": "Non-Partisan",
+              "county": "McLean",
+              "candidates": [
+                {
+                  "name": "YES",
+                  "party": "YES",
+                  "votes": 12092,
+                  "percentage": 66.16
+                },
+                {
+                  "name": "NO",
+                  "party": "NO",
+                  "votes": 6185,
+                  "percentage": 33.84
+                }
+              ],
+              "precincts_reporting": 36,
+              "total_precincts": 36,
+              "reporting_percentage": 100.0
+            }
+          ]
+        }
+      }
     },
     "Pike": {
       "county": "Pike",
